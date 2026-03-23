@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { FeatureItemData } from '../FeatureItem/FeatureItem';
 import { FeatureList } from '../FeatureList/FeatureList';
 import styles from './Pricing.module.css';
@@ -119,13 +120,12 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
                   {t('migration.title')}
                 </span>
               </div>
-              <button
-                type="button"
+              <Link
+                to="/migration"
                 className={`btn ${styles.migrationBtn}`}
-                onClick={openComingSoon}
               >
                 {t('migration.cta')}
-              </button>
+              </Link>
             </div>
           </div>
         )}

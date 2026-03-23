@@ -43,17 +43,19 @@ export function DownloadStoreBadges({ className }: Props) {
           onClick={openComingSoon}
           aria-label={t(key)}
         >
-          <img
-            src={src}
-            alt=""
-            className={
-              kind === 'google'
-                ? `${styles.badgeImg} ${styles.badgeImgGoogle}`
-                : styles.badgeImg
-            }
-            loading="lazy"
-            decoding="async"
-          />
+          <span className={styles.badgeFrame}>
+            <img
+              src={src}
+              alt=""
+              className={
+                kind === 'google'
+                  ? `${styles.badgeImg} ${styles.badgeImgGoogle}`
+                  : styles.badgeImg
+              }
+              loading="lazy"
+              decoding="async"
+            />
+          </span>
         </button>
       ))}
     </div>

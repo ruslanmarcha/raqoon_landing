@@ -29,7 +29,7 @@ const COUNTRY_TO_LANGUAGE: Record<string, string> = {
   CL: 'es',
   IT: 'it',
   PT: 'pt',
-  BR: 'pt',
+  BR: 'pt-BR',
   NL: 'nl',
   PL: 'pl',
   CZ: 'cs',
@@ -44,14 +44,37 @@ const COUNTRY_TO_LANGUAGE: Record<string, string> = {
   HK: 'zh',
   JP: 'ja',
   KR: 'ko',
-  SA: 'ar',
-  AE: 'ar',
   IL: 'he',
   IN: 'hi',
   ID: 'id',
   TH: 'th',
   VN: 'vi',
 }
+
+const ARABIC_SPEAKING_COUNTRIES = new Set([
+  'DZ',
+  'BH',
+  'KM',
+  'DJ',
+  'EG',
+  'IQ',
+  'JO',
+  'KW',
+  'LB',
+  'LY',
+  'MR',
+  'MA',
+  'OM',
+  'PS',
+  'QA',
+  'SA',
+  'SO',
+  'SD',
+  'SY',
+  'TN',
+  'AE',
+  'YE',
+])
 
 function isLocaleSupported(locale: string, supportedLngs: string[]): boolean {
   return supportedLngs.includes(locale)
@@ -134,6 +157,14 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
     return {
       locale,
       allowLanguageSwitch: true,
+      countryCode,
+    }
+  }
+
+  if (countryCode && countryCode !== 'IL' && ARABIC_SPEAKING_COUNTRIES.has(countryCode)) {
+    return {
+      locale: isLocaleSupported('ar', supportedLngs) ? 'ar' : 'en',
+      allowLanguageSwitch: false,
       countryCode,
     }
   }

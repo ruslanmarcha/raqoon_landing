@@ -78,9 +78,11 @@ If future work needs strict route-language coupling, that should be redesigned c
 Localization is configured in `src/i18n/index.ts`.
 
 - Supported languages: `ru`, `en`
+- Supported languages now include: `ru`, `en`, `ar`, `tl`, `pl`, `cs`, `de`, `fr`, `pt-BR`, `th`, `id`, `ja`, `ko`
 - Fallback language: `en`
 - Detection order: `localStorage`, then browser `navigator`
 - Local storage key: `raqoon_lang`
+- Arabic locale policy: users from Arabic-speaking countries should open with `ar` locale by default, except `IL` (Israel).
 
 ### Locale Key Conventions
 - Russian SEO and hero keys use `*RU` suffixes in `ru.json`

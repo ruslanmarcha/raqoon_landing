@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "titleWW": "Raqoon VPN — Cepat & Aman VPN untuk Layanan Favorit Anda",
+    "descriptionWW": "Raqoon VPN melindungi privasi Anda, melewati batasan, dan membuat Anda tetap terhubung di seluruh dunia. Tersedia di App Store.",
+    "ogTitleWW": "Raqoon — VPN untuk Layanan Favorit Anda",
+    "ogDescriptionWW": "Unduh Raqoon VPN di App Store. Pemilihan protokol otomatis, dukungan prioritas, dan hingga 5 perangkat."
+  },
+  "nav": {
+    "logoAlt": "Raqoon"
+  },
+  "hero": {
+    "titleWW": "VPN dari\nProksi Rakun",
+    "subtitleWW": "Dapat diakses, nyaman, dapat diandalkan",
+    "ctaWW": "App Store"
+  },
+  "features": {
+    "title": "Apa yang termasuk",
+    "items": [
+      {
+        "label": "Pemilihan protokol otomatis"
+      },
+      {
+        "label": "Dukungan prioritas",
+        "sub": "Kami selalu membalas dalam waktu 24 jam"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Berguna saat bepergian ke luar negeri"
+      },
+      {
+        "label": "VPN peralihan negara"
+      },
+      {
+        "label": "Hingga 5 perangkat"
+      },
+      {
+        "label": "Volume lalu lintas besar"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pilih rencana",
+    "constructor": {
+      "badge": "Konstruktor",
+      "price": "10",
+      "unit": "$/hari",
+      "cta": "Memilih"
+    },
+    "allIn": {
+      "badge": "Semua Termasuk",
+      "price": "9.99",
+      "unit": "$/bulan",
+      "cta": "Memilih"
+    },
+    "constructorFeatures": [
+      {
+        "label": "Pemilihan protokol otomatis"
+      },
+      {
+        "label": "Dukungan prioritas",
+        "sub": "Kami selalu membalas dalam waktu 24 jam"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Berguna saat bepergian ke luar negeri"
+      },
+      {
+        "label": "VPN peralihan negara"
+      },
+      {
+        "label": "Hingga 5 perangkat"
+      },
+      {
+        "label": "Volume lalu lintas besar"
+      }
+    ],
+    "allInFeatures": [
+      {
+        "label": "Pemilihan protokol otomatis"
+      },
+      {
+        "label": "Dukungan prioritas",
+        "sub": "Kami selalu membalas dalam waktu 24 jam"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Berguna saat bepergian ke luar negeri"
+      },
+      {
+        "label": "VPN peralihan negara"
+      },
+      {
+        "label": "Hingga 5 perangkat"
+      },
+      {
+        "label": "Volume lalu lintas besar"
+      },
+      {
+        "label": "VPN untuk layanan apa pun"
+      },
+      {
+        "label": "Dukungan aplikasi pihak ketiga"
+      }
+    ]
+  },
+  "migration": {
+    "title": "Untuk pengguna IZI. Kami menjelaskan migrasi",
+    "cta": "Pelajari lebih lanjut"
+  },
+  "referral": {
+    "title": "Undang teman —\nmendapatkan lebih banyak waktu",
+    "description": "Bagikan saja kode Anda. Teman Anda mendapat +10 hari pada langganan pertamanya, dan Anda mendapatkan bonus hingga 30 hari.",
+    "cta": "Dapatkan hari"
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "items": [
+      {
+        "q": "Protokol apa yang Anda gunakan?",
+        "a": "Protokol yang berbeda menawarkan keseimbangan kecepatan, keamanan, dan stabilitas yang berbeda. Misalnya, solusi modern seperti WireGuard menawarkan kecepatan tinggi dan arsitektur sederhana, sedangkan protokol klasik seperti OpenVPN dikenal karena keandalan dan dukungannya yang luas."
+      },
+      {
+        "q": "Di negara manakah server Anda tersedia?",
+        "a": "Kami memiliki server di banyak negara di seluruh dunia. Daftar lengkap lokasi yang tersedia tersedia di aplikasi setelah terhubung."
+      },
+      {
+        "q": "Apakah Anda menyimpan log aktivitas pengguna?",
+        "a": "Tidak, kami tidak menyimpan log aktivitas pengguna. Kami mematuhi kebijakan larangan masuk yang ketat untuk melindungi privasi Anda."
+      },
+      {
+        "q": "Seberapa amankah koneksi VPN?",
+        "a": "VPN kami menggunakan enkripsi modern untuk melindungi data Anda. Semua lalu lintas dienkripsi sebelum meninggalkan perangkat Anda, memastikan keamanan tinggi di jaringan mana pun."
+      },
+      {
+        "q": "Metode pembayaran apa yang Anda terima?",
+        "a": "Kami menerima kartu bank besar, serta sistem pembayaran populer. Untuk daftar lengkap metode yang tersedia, lihat halaman pembayaran di aplikasi."
+      }
+    ]
+  },
+  "common": {
+    "comingSoonMessage": "Aplikasi ini sedang dalam pengembangan. Anda akan segera dapat membeli langganan.",
+    "comingSoonOk": "OKE",
+    "turkeyDownloadUnavailable": "Raqoon tidak tersedia untuk diunduh di Türkiye."
+  },
+  "about": {
+    "title": "Tentang perusahaan",
+    "company": "Qat Bilişim LTD.",
+    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Türkiye",
+    "emailLabel": "E-mail:",
+    "email": "hello@raqoon.app",
+    "keyPointsTitle": "Poin-poin penting",
+    "keyPointsBody": "Qat Bilişim LTD. mengembangkan dan mengoperasikan layanan digital Raqoon. Kami mengutamakan transparansi proses, perlindungan data pribadi, dan kualitas layanan yang tinggi. Perusahaan beroperasi sesuai dengan persyaratan hukum yang berlaku dan standar keamanan internal.",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2 C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "body": "Raqoon Kebijakan Privasi\nTanggal Efektif: 1 Maret 2026\nYurisdiksi: Ankara, Türkiye\nPemilik: Qat Bilişim Ltd.\n\nRingkasan\nKami menghormati hak Anda atas anonimitas dan keamanan. Kami tidak melihat apa yang Anda lakukan saat online, kami tidak mencatat situs web yang Anda kunjungi, dan kami tidak menyimpan konten lalu lintas Anda. Sistem kami hanya mencatat parameter teknis (volume data dan waktu koneksi terakhir Anda) untuk memastikan kualitas koneksi. Kami tidak menyimpan detail kartu Anda — semua pembayaran diproses melalui gerbang eksternal yang aman.\n\n1. Kebijakan Tanpa Pencatatan\nKami mematuhi kebijakan larangan pencatatan yang ketat terkait aktivitas Anda. Arsitektur teknis Layanan mencegah kami merekam, menyimpan, atau membagikan data berikut dengan pihak ketiga:\n• Riwayat Aktivitas: Kami tidak mencatat situs web (URL), permintaan pencarian, atau riwayat penelusuran yang dikunjungi.\n• Kueri Jaringan: Kami tidak menyimpan log kueri DNS.\n• Lalu Lintas Konten: Kami tidak memiliki akses ke konten data yang dikirimkan, termasuk pesan, email, atau file.\n• Alamat IP Asli: Kami tidak menyimpan alamat IP asli Anda saat Anda menggunakan layanan ini, dan kami juga tidak menghubungkannya dengan aktivitas Anda.\n\n2. Data yang Kami Kumpulkan (Kebutuhan Teknis)\nUntuk memastikan pengoperasian yang stabil dan mengelola langganan, Layanan memproses sekumpulan data teknis minimal.\n2.1. Identifikasi\n• UUID / Kunci Akses: Pengidentifikasi teknis unik yang digunakan untuk mengotorisasi perangkat Anda di server kami.\n• Email (Opsional): Digunakan khusus untuk pemulihan akun atau mengirim tanda terima dan pemberitahuan sistem.\n2.2. Statistik dan Diagnostik\n• Volume Data: Jumlah data yang dikirim dan diterima yang digunakan untuk memantau batas paket Anda.\n• Waktu Sambungan Terakhir: Dicatat untuk mengidentifikasi masalah sambungan dan mempertahankan status sesi yang akurat.\n• Status Berlangganan: Masa berlaku dan status aktivitas kunci akses Anda.\n\n3. Fungsi Aplikasi dan Tanpa Pelacakan\n• Pelacak Pemasaran: Aplikasi kami tidak berisi alat analisis atau pemasaran pihak ketiga (seperti SDK Facebook atau ID iklan) yang dapat mengirimkan data Anda ke pihak ketiga.\n• Pemantauan Ketersediaan: Aplikasi dapat secara otomatis memeriksa koneksi ke node kami. Data ini sepenuhnya dianonimkan dan hanya digunakan untuk memilih server tercepat secara otomatis.\n\n4. Informasi Pembayaran\nKami tidak menyimpan atau memproses rincian lengkap kartu bank Anda.\n• App Store: Transaksi diproses oleh Apple App Store. Kami hanya menerima token terenkripsi yang mengonfirmasi fakta pembayaran.\n\n5. Penyimpanan dan Penghapusan Data\n• Informasi Teknis: Data mengenai lalu lintas dan waktu login disimpan selama durasi berlangganan Anda.\n• Penghapusan Otomatis: Jika Anda tidak memperbarui langganan Anda, data akun mungkin dihapus seluruhnya dari sistem setelah 90 hari tidak aktif.\n• Hak Anda untuk Menghapus: Anda dapat menghapus akun Anda sepenuhnya dan semua informasi terkait kapan saja melalui pengaturan aplikasi atau dengan menghubungi dukungan.\n\n6. Pembagian Data dan Permintaan Hukum\nQat Bilişim Ltd. terdaftar di Türkiye. Kami tidak menjual data pengguna atau mentransfernya ke perusahaan periklanan. Jika ada permintaan resmi dari lembaga penegak hukum, kami beroperasi secara ketat sesuai hukum. Namun, arsitektur kami tidak memungkinkan untuk menyediakan data tentang tindakan Anda secara online, karena informasi ini secara teknis tidak dicatat. Kami hanya dapat mengonfirmasi keberadaan akun dan total volume lalu lintas yang dikonsumsi.\n\n7. Hubungi Kami\nUntuk pertanyaan mengenai privasi atau penghapusan data:\n• Surel: private@raqoon.app\n• Telegram: @raqoonbot\n• Lokasi: Ankara, Türkiye"
+    },
+    "terms": {
+      "title": "Ketentuan Layanan",
+      "body": "Syarat Penggunaan (Penawaran Umum)\nTanggal Efektif: 1 Maret 2026\nTempat Publikasi: Ankara, Türkiye\nPerjanjian Pengguna ini (selanjutnya disebut “Perjanjian”) adalah tawaran resmi dari layanan Raqoon (selanjutnya disebut “Penyedia” atau “Layanan”) untuk mengadakan kontrak dengan individu mana pun (selanjutnya disebut “Pengguna”) berdasarkan ketentuan yang ditetapkan di bawah ini.\n\n1. KETENTUAN UMUM\n1.1. Penggunaan aplikasi Raqoon, pendaftaran di situs web, atau pembayaran atas penawaran Layanan merupakan penerimaan penuh dan tanpa syarat Pengguna terhadap Perjanjian ini (Penerimaan).\n1.2. Pengguna menjamin bahwa mereka berusia minimal 18 tahun dan memiliki kapasitas hukum penuh untuk menyelesaikan Perjanjian ini.\n1.3. Penyedia berhak mengubah ketentuan Perjanjian ini. Versi baru mulai berlaku pada saat dipublikasikan.\n\n2. TOPIK PERJANJIAN\n2.1. Penyedia memberikan Pengguna hak non-eksklusif (Lisensi) untuk menggunakan perangkat lunak Layanan dan infrastruktur jaringan untuk membangun jaringan pribadi virtual (VPN).\n2.2. Akses ke perangkat lunak:\n2.2.1. Akses ke Layanan secara default disediakan secara eksklusif melalui aplikasi resmi Raqoon.\n2.2.2. Penggunaan klien pihak ketiga (termasuk Hiddify, v2rayNG, dan alat serupa) hanya diperbolehkan jika kemampuan tersebut secara eksplisit diberikan dalam deskripsi paket Tarif yang dibeli oleh Pengguna.\n2.3. Batas perangkat:\n2.3.1. Jumlah koneksi simultan (sesi) ditentukan oleh ketentuan paket Tarif yang dipilih.\n2.3.2. Jika tidak ada batasan yang ditentukan dalam Tarif, batasan standarnya adalah 5 (lima) perangkat per akun.\n\n3. KETENTUAN PENGGUNAAN DAN LARANGAN\n3.1. Pengguna berjanji untuk menggunakan Layanan hanya untuk tujuan yang sah.\n3.2. Tindakan yang dilarang keras:\n3.2.1. Penggunaan protokol P2P (BitTorrent) dan unduhan torrent di server Layanan apa pun.\n3.2.2. Distribusi spam (termasuk email massal melalui port 25), membanjiri messenger dan jejaring sosial.\n3.2.3. Distribusi perangkat lunak berbahaya, virus, trojan, atau kontrol botnet.\n3.2.4. Segala jenis serangan jaringan: pemindaian port, kekerasan kata sandi, serangan DDoS, akses tidak sah ke sumber daya pihak ketiga.\n3.2.5. Distribusi pornografi anak dan materi yang mempromosikan terorisme atau kekerasan.\n3.3. Konsekuensi pelanggaran: Pelanggaran terhadap klausul apa pun di bagian 3.2 mengakibatkan penangguhan akun langsung tanpa hak pemulihan dan tanpa pengembalian dana.\n\n4. KEBIJAKAN PENGGUNAAN WAJAR\n4.1. Layanan ini ditujukan untuk penggunaan pribadi dan non-komersial.\n4.2. Untuk paket Tarif dalam kategori “Tidak Terbatas”, berlaku batasan berikut:\n4.2.1. Jika lalu lintas yang dikonsumsi melebihi 3 TB (terabyte) per bulan;\nDAN\n4.2.2. Layanan mendeteksi beban saluran abnormal yang menurunkan kualitas koneksi untuk pengguna lain;\n4.2.3. Penyedia berhak, atas kebijakannya sendiri, membatasi kecepatan koneksi atau menangguhkan akses hingga akhir periode penagihan.\n\n5. PROSEDUR PEMBAYARAN DAN PENGEMBALIAN DANA\n5.1. Penawaran layanan diklasifikasikan sebagai konten digital yang disampaikan secara instan dalam bentuk elektronik.\n5.2. Aturan tanpa pengembalian dana: Sesuai dengan Pasal 15(ğ) Republik Turki “Peraturan Kontrak Jarak Jauh” (Mesafeli Sözleşmeler Yönetmeliği), hak penarikan (pengembalian dana) konsumen tidak berlaku untuk layanan yang dilakukan secara instan di lingkungan elektronik.\n5.3. Pembayaran App Store: Pengembalian dana untuk langganan yang dilakukan melalui Apple App Store diatur secara eksklusif oleh peraturan Apple. Penyedia tidak mempunyai kemampuan teknis untuk memproses pengembalian dana tersebut.\n5.4. Pemblokiran akses terhadap Layanan yang disebabkan oleh tindakan otoritas pemerintah (sensor internet) atau penyedia internet Pengguna diakui sebagai force majeure dan bukan merupakan dasar pengembalian dana.\n\n6. TANGGUNG JAWAB PARA PIHAK\n6.1. Layanan disediakan atas dasar “sebagaimana adanya”. Penyedia tidak menjamin pengoperasian Layanan tidak terganggu atau bebas kesalahan, atau kompatibilitas dengan jaringan penyedia internet tertentu.\n6.2. Penyedia tidak bertanggung jawab atas segala kerugian, termasuk hilangnya keuntungan, yang timbul dari penggunaan atau ketidakmampuan menggunakan Layanan.\n\n7. KETENTUAN AKHIR\n7.1. Perjanjian ini diatur oleh hukum Republik Türkiye.\n7.2. Segala perselisihan dan perselisihan diselesaikan di pengadilan Ankara, Türkiye."
+    },
+    "contact": {
+      "title": "Kontak",
+      "body": "Untuk pertanyaan apa pun mengenai pengoperasian layanan, akses, penagihan, atau dukungan, hubungi kami di hello@raqoon.app. Kami bertujuan untuk merespons secepat mungkin."
+    },
+    "refund": {
+      "title": "Kebijakan Pengembalian Dana",
+      "body": "Kebijakan Pengembalian Dana\nTanggal Berlaku: 1 Maret 2026\n\nJika langganan dibeli melalui App Store, pengembalian uang, pembatalan langganan, dan semua hal terkait diatur oleh aturan dan prosedur App Store.\n\nUntuk pertanyaan terkait pembayaran, hubungi dukungan di hello@raqoon.app."
+    }
+  },
+  "notFound": {
+    "title": "Halaman tidak ditemukan",
+    "description": "Halaman ini tidak ada atau telah dipindahkan.",
+    "cta": "Kembali ke rumah"
+  },
+  "footer": {
+    "about": "Tentang perusahaan",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "contact": "Kontak",
+    "refund": "Kebijakan Pengembalian Dana",
+    "copy": "© 2026 Raqoon"
+  },
+  "lang": {
+    "ru": "ru",
+    "en": "EN"
+  }
+}

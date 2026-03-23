@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "titleWW": "__ TK0 __ — 가장 좋아하는 서비스를 위한 빠르고 안전한 __ TK1 __",
+    "descriptionWW": "__ TK0 __ 은 (는) 개인정보를 보호하고, 제한을 우회하며, 전 세계 사용자와의 연결을 유지합니다. __ TK1 __ 에 이용 가능합니다.",
+    "ogTitleWW": "__ TK0 __ — __ TK1 __ 가장 좋아하는 서비스",
+    "ogDescriptionWW": "__ TK1 __ 에서 __ TK0 __ 을 (를) 다운로드하세요. 자동 프로토콜 선택, 우선 지원 및 최대 5개의 장치."
+  },
+  "nav": {
+    "logoAlt": "__ TK0 __"
+  },
+  "hero": {
+    "titleWW": "__ TK0 __ 발신\n너구리 프록시",
+    "subtitleWW": "접근성, 편리성, 신뢰성",
+    "ctaWW": "__ TK0 __"
+  },
+  "features": {
+    "title": "포함 사항",
+    "items": [
+      {
+        "label": "자동 프로토콜 선택"
+      },
+      {
+        "label": "우선 지원",
+        "sub": "저희는 항상 24시간 이내에 회신합니다."
+      },
+      {
+        "label": "__ TK0 __",
+        "sub": "해외여행 시 유용"
+      },
+      {
+        "label": "__ TK0 __ 국가 전환"
+      },
+      {
+        "label": "최대 5대의 장치"
+      },
+      {
+        "label": "큰 트래픽 볼륨"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "플랜 선택",
+    "constructor": {
+      "badge": "생성자",
+      "price": "10",
+      "unit": "일",
+      "cta": "선택"
+    },
+    "allIn": {
+      "badge": "모두 포함",
+      "price": "9.99",
+      "unit": "월",
+      "cta": "선택"
+    },
+    "constructorFeatures": [
+      {
+        "label": "자동 프로토콜 선택"
+      },
+      {
+        "label": "우선 지원",
+        "sub": "저희는 항상 24시간 이내에 회신합니다."
+      },
+      {
+        "label": "__ TK0 __",
+        "sub": "해외여행 시 유용"
+      },
+      {
+        "label": "__ TK0 __ 국가 전환"
+      },
+      {
+        "label": "최대 5대의 장치"
+      },
+      {
+        "label": "큰 트래픽 볼륨"
+      }
+    ],
+    "allInFeatures": [
+      {
+        "label": "자동 프로토콜 선택"
+      },
+      {
+        "label": "우선 지원",
+        "sub": "저희는 항상 24시간 이내에 회신합니다."
+      },
+      {
+        "label": "__ TK0 __",
+        "sub": "해외여행 시 유용"
+      },
+      {
+        "label": "__ TK0 __ 국가 전환"
+      },
+      {
+        "label": "최대 5대의 장치"
+      },
+      {
+        "label": "큰 트래픽 볼륨"
+      },
+      {
+        "label": "__ TK0 __ 모든 서비스"
+      },
+      {
+        "label": "타사 앱 지원"
+      }
+    ]
+  },
+  "migration": {
+    "title": "IZi 사용자의 경우. 마이그레이션에 대해 설명합니다.",
+    "cta": "자세히 알아보기"
+  },
+  "referral": {
+    "title": "친구 초대하기 —\n더 많은 시간을 확보하세요",
+    "description": "코드를 공유하기만 하면 됩니다. 친구가 첫 구독을 하면 +10일의 보너스를 받을 수 있으며, 최대 30일의 보너스를 받을 수 있습니다.",
+    "cta": "일수 가져오기"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "q": "어떤 프로토콜을 사용하시나요?",
+        "a": "서로 다른 프로토콜은 속도, 보안 및 안정성의 서로 다른 균형을 제공합니다. 예를 들어, __ TK0 __ 과 (와) 같은 최신 솔루션은 고속 및 간단한 아키텍처를 제공하지만 __ TK1 __ 과 (와) 같은 고전적인 프로토콜은 신뢰성과 광범위한 지원으로 유명합니다."
+      },
+      {
+        "q": "서버를 사용할 수 있는 국가는 어디입니까?",
+        "a": "당사는 전 세계 여러 국가에 서버를 두고 있습니다. 사용 가능한 위치의 전체 목록은 연결 후 앱에서 확인할 수 있습니다."
+      },
+      {
+        "q": "사용자 활동 로그를 저장합니까?",
+        "a": "아니요, 사용자 활동 로그는 저장하지 않습니다. 당사는 귀하의 개인 정보를 보호하기 위해 엄격한 노-로그 정책을 준수합니다."
+      },
+      {
+        "q": "__ TK0 __ 연결은 얼마나 안전한가요?",
+        "a": "당사의 __ TK0 __ 은 (는) 최신 암호화를 사용하여 데이터를 보호합니다. 모든 트래픽은 장치를 떠나기 전에 암호화되어 모든 네트워크에서 높은 보안을 보장합니다."
+      },
+      {
+        "q": "어떤 결제 수단을 사용할 수 있나요?",
+        "a": "당사는 주요 은행 카드와 인기 있는 결제 시스템을 사용할 수 있습니다. 사용 가능한 전체 결제 수단 목록은 앱의 결제 페이지에서 확인하실 수 있습니다."
+      }
+    ]
+  },
+  "common": {
+    "comingSoonMessage": "앱이 개발 중입니다. 곧 구독을 구입할 수 있습니다.",
+    "comingSoonOk": "확인",
+    "turkeyDownloadUnavailable": "__ TK1 __ 에서는 __ TK0 __ 을 (를) 다운로드할 수 없습니다."
+  },
+  "about": {
+    "title": "회사 소개",
+    "company": "__ TK0 __",
+    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/__ TK0 __, __ TK1 __",
+    "emailLabel": "이메일:",
+    "email": "__ TK0 __",
+    "keyPointsTitle": "Key Points",
+    "keyPointsBody": "__ TK0 __ 은 (는) __ TK1 __ 디지털 서비스를 개발하고 운영합니다. 당사는 프로세스 투명성, 개인 데이터 보호 및 높은 서비스 품질을 우선시합니다. 회사는 관련 법적 요구 사항 및 내부 보안 표준에 따라 운영됩니다.",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20 (Kulu %C 3% A7ka % 20Merkezi) %2C % 20Hac %C 4% B1% 20Bayram % 20Mah. %2C % 20Sanayi % 20Cad. %2C %20b % 20Blok %2C % 20Kat %3A 2% 2C % 20No %3A 4% 2F211% 2C %2006050% 20Alt %C 4% B1nda %C 4% 9F % 2F __ TK0 __ %2C % 20T %C 3% BCrkiye&z = 16"
+  },
+  "legal": {
+    "privacy": {
+      "title": "개인 정보 보호 정책",
+      "body": "Raqoon Privacy Policy\nEffective Date: March 1, 2026\nJurisdiction: Ankara, Türkiye\nOwner: Qat Bilişim Ltd.\n\nSummary\nWe respect your right to anonymity and security. We do not see what you do online, we do not log the websites you visit, and we do not store the content of your traffic. Our system only records technical parameters (data volume and the time of your last connection) to ensure connection quality. We do not store your card details — all payments are processed through secure external gateways.\n\n1. Zero Logs Policy\nWe adhere to a strict no-logs policy regarding your activity. The technical architecture of the Service prevents us from recording, storing, or sharing the following data with third parties:\n• Activity History: We do not record visited websites (URLs), search queries, or browsing history.\n• Network Queries: We do not keep logs of DNS queries.\n• Traffic Content: We do not have access to the content of transmitted data, including messages, emails, or files.\n• Original IP Address: We do not store your real IP address while you use the service, nor do we link it to your activity.\n\n2. Data We Collect (Technical Necessity)\nTo ensure stable operation and manage subscriptions, the Service processes a minimal set of technical data.\n2.1. Identification\n• UUID / Access Key: A unique technical identifier used to authorize your device on our servers.\n• Email (Optional): Used exclusively for account recovery or sending receipts and system notifications.\n2.2. Statistics and Diagnostics\n• Data Volume: The amount of sent and received data used to monitor your plan's limits.\n• Last Connection Time: Recorded to identify connection issues and maintain an accurate session status.\n• Subscription Status: The validity period and activity status of your access key.\n\n3. App Functionality and No-Tracking\n• Marketing Trackers: Our applications do not contain third-party marketing or analytics tools (such as Facebook SDK or advertising IDs) that could transmit your data to third parties.\n• Availability Monitoring: The application may automatically check the connection to our nodes. This data is completely anonymized and used solely to automatically select the fastest server.\n\n4. Payment Information\nWe do not store or process your full bank card details.\n• App Store: Transactions are processed by the Apple App Store. We receive only an encrypted token confirming the fact of payment.\n\n5. Data Retention and Deletion\n• Technical Information: Data regarding traffic and login times is stored for the duration of your subscription.\n• Automatic Deletion: If you do not renew your subscription, account data may be completely removed from the system after 90 days of inactivity.\n• Your Right to Delete: You can completely delete your account and all associated information at any time through the app settings or by contacting support.\n\n6. Data Sharing and Legal Requests\nQat Bilişim Ltd. is registered in Türkiye. We do not sell user data or transfer it to advertising companies. In the event of official requests from law enforcement agencies, we operate strictly within the law. However, our architecture makes it impossible to provide data about your actions online, as this information is technically not recorded. We can only confirm the existence of an account and the total volume of traffic consumed.\n\n7. Contact Us\nFor questions regarding privacy or data deletion:\n• Email: private@raqoon.app\n• Telegram: @raqoonbot\n• Location: Ankara, Türkiye"
+    },
+    "terms": {
+      "title": "서비스 약관",
+      "body": "Terms of Use (PUBLIC OFFER)\nEffective Date: March 1, 2026\nPlace of Publication: Ankara, Türkiye\nThis User Agreement (hereinafter the “Agreement”) is an official offer of the Raqoon service (hereinafter the “Provider” or the “Service”) to enter into a contract with any individual (hereinafter the “User”) under the terms set forth below.\n\n1. GENERAL PROVISIONS\n1.1. Use of the Raqoon application, registration on the website, or payment for Service offerings constitutes the User's full and unconditional acceptance of this Agreement (Acceptance).\n1.2. The User guarantees that they are at least 18 years old and have full legal capacity to conclude this Agreement.\n1.3. The Provider reserves the right to amend the terms of this Agreement. A new version enters into force at the moment of publication.\n\n2. SUBJECT OF THE AGREEMENT\n2.1. The Provider grants the User a non-exclusive right (License) to use the Service software and network infrastructure to establish a virtual private network (VPN).\n2.2. Access to software:\n2.2.1. Access to the Service by default is provided exclusively through the official Raqoon application.\n2.2.2. The use of third-party clients (including Hiddify, v2rayNG, and similar tools) is allowed only where such capability is explicitly provided in the description of the Tariff plan purchased by the User.\n2.3. Device limit:\n2.3.1. The number of simultaneous connections (sessions) is determined by the terms of the selected Tariff plan.\n2.3.2. If no limit is specified in the Tariff, the standard limit is 5 (five) devices per account.\n\n3. TERMS OF USE AND PROHIBITIONS\n3.1. The User undertakes to use the Service only for lawful purposes.\n3.2. Strictly prohibited actions:\n3.2.1. Use of P2P protocols (BitTorrent) and torrent downloads on any Service servers.\n3.2.2. Spam distribution (including bulk email via port 25), flooding in messengers and social networks.\n3.2.3. Distribution of malicious software, viruses, trojans, or botnet control.\n3.2.4. Any kind of network attacks: port scanning, password brute-force, DDoS attacks, unauthorized access to third-party resources.\n3.2.5. Distribution of child pornography and materials promoting terrorism or violence.\n3.3. Consequences of violations: A breach of any clause in section 3.2 results in immediate account suspension without the right to restoration and without refund.\n\n4. FAIR USE POLICY\n4.1. The Service is intended for personal, non-commercial use.\n4.2. For Tariff plans in the “Unlimited” category, the following restrictions apply:\n4.2.1. If consumed traffic exceeds 3 TB (terabytes) per month;\nAND\n4.2.2. The Service detects abnormal channel load that degrades connection quality for other users;\n4.2.3. The Provider reserves the right, at its sole discretion, to limit connection speed or suspend access until the end of the billing period.\n\n5. PAYMENT AND REFUND PROCEDURE\n5.1. Service offerings are classified as digital content delivered instantly in electronic form.\n5.2. No-refund rule: In accordance with Article 15(ğ) of the Turkish Republic “Regulation on Distance Contracts” (Mesafeli Sözleşmeler Yönetmeliği), the consumer's right of withdrawal (refund) does not apply to services performed instantly in electronic environments.\n5.3. App Store payments: Refunds for subscriptions made through Apple App Store are governed exclusively by Apple's rules. The Provider has no technical ability to process such refunds.\n5.4. Blocking of access to the Service caused by actions of government authorities (internet censorship) or the User's internet providers is recognized as force majeure and is not a basis for refund.\n\n6. LIABILITY OF THE PARTIES\n6.1. The Service is provided on an “as is” basis. The Provider does not guarantee uninterrupted or error-free operation of the Service, nor compatibility with networks of specific internet providers.\n6.2. The Provider is not liable for any damages, including lost profits, arising from use of or inability to use the Service.\n\n7. FINAL PROVISIONS\n7.1. This Agreement is governed by the laws of the Republic of Türkiye.\n7.2. All disputes and disagreements shall be resolved in the courts of Ankara, Türkiye."
+    },
+    "contact": {
+      "title": "연락하기",
+      "body": "서비스 운영, 액세스, 청구 또는 지원에 대한 질문은 __ TK0 __ (으) 로 문의하시기 바랍니다. 최대한 신속하게 응답해드리고자 합니다."
+    },
+    "refund": {
+      "title": "환불정책",
+      "body": "환불 정책\n발효일: 2026년 3월 1일\n\n__ TK0 __ 을 (를) 통해 구독을 구매하는 경우, 환불, 구독 취소 및 모든 관련 사항은 __ TK1 __ 규칙 및 절차의 적용을 받습니다.\n\n결제 관련 문의 사항은 __ TK2 __ 번으로 고객지원팀에 문의하시기 바랍니다."
+    }
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "description": "이 페이지는 존재하지 않거나 이동되었습니다.",
+    "cta": "홈으로 돌아가기"
+  },
+  "footer": {
+    "about": "회사 소개",
+    "privacy": "개인 정보 보호 정책",
+    "terms": "서비스 약관",
+    "contact": "연락하기",
+    "refund": "환불정책",
+    "copy": "© 2026 __ TK0 __"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "KO"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "titleWW": "Raqoon VPN – Schneller und sicherer VPN für Ihre Lieblingsdienste",
+    "descriptionWW": "Raqoon VPN schützt Ihre Privatsphäre, umgeht Einschränkungen und hält Sie weltweit in Verbindung. Verfügbar am App Store.",
+    "ogTitleWW": "Raqoon – VPN für Ihre Lieblingsdienste",
+    "ogDescriptionWW": "Laden Sie Raqoon VPN auf App Store herunter. Automatische Protokollauswahl, Prioritätsunterstützung und bis zu 5 Geräte."
+  },
+  "nav": {
+    "logoAlt": "Raqoon"
+  },
+  "hero": {
+    "titleWW": "VPN von\nWaschbär-Proxy",
+    "subtitleWW": "Zugänglich, bequem, zuverlässig",
+    "ctaWW": "App Store"
+  },
+  "features": {
+    "title": "Was ist enthalten",
+    "items": [
+      {
+        "label": "Automatische Protokollauswahl"
+      },
+      {
+        "label": "Vorrangiger Support",
+        "sub": "Wir antworten immer innerhalb von 24 Stunden"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Nützlich bei Reisen ins Ausland"
+      },
+      {
+        "label": "VPN Länderwechsel"
+      },
+      {
+        "label": "Bis zu 5 Geräte"
+      },
+      {
+        "label": "Großes Verkehrsaufkommen"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Wählen Sie einen Plan",
+    "constructor": {
+      "badge": "Konstrukteur",
+      "price": "10",
+      "unit": "$/Tag",
+      "cta": "Wählen"
+    },
+    "allIn": {
+      "badge": "Alles inklusive",
+      "price": "9,99",
+      "unit": "$/Monat",
+      "cta": "Wählen"
+    },
+    "constructorFeatures": [
+      {
+        "label": "Automatische Protokollauswahl"
+      },
+      {
+        "label": "Vorrangiger Support",
+        "sub": "Wir antworten immer innerhalb von 24 Stunden"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Nützlich bei Reisen ins Ausland"
+      },
+      {
+        "label": "VPN Länderwechsel"
+      },
+      {
+        "label": "Bis zu 5 Geräte"
+      },
+      {
+        "label": "Großes Verkehrsaufkommen"
+      }
+    ],
+    "allInFeatures": [
+      {
+        "label": "Automatische Protokollauswahl"
+      },
+      {
+        "label": "Vorrangiger Support",
+        "sub": "Wir antworten immer innerhalb von 24 Stunden"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Nützlich bei Reisen ins Ausland"
+      },
+      {
+        "label": "VPN Länderwechsel"
+      },
+      {
+        "label": "Bis zu 5 Geräte"
+      },
+      {
+        "label": "Großes Verkehrsaufkommen"
+      },
+      {
+        "label": "VPN für alle Dienste"
+      },
+      {
+        "label": "Unterstützung für Drittanbieter-Apps"
+      }
+    ]
+  },
+  "migration": {
+    "title": "Für IZI-Benutzer. Wir erklären die Migration",
+    "cta": "Erfahren Sie mehr"
+  },
+  "referral": {
+    "title": "Lade einen Freund ein –\nmehr Zeit bekommen",
+    "description": "Teilen Sie einfach Ihren Code. Ihr Freund erhält +10 Tage bei seinem ersten Abonnement und Sie erhalten bis zu 30 Tage als Bonus.",
+    "cta": "Holen Sie sich Tage"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Welche Protokolle verwenden Sie?",
+        "a": "Verschiedene Protokolle bieten unterschiedliche Balancen zwischen Geschwindigkeit, Sicherheit und Stabilität. Moderne Lösungen wie WireGuard bieten beispielsweise hohe Geschwindigkeit und einfache Architektur, während klassische Protokolle wie OpenVPN für ihre Zuverlässigkeit und breite Unterstützung bekannt sind."
+      },
+      {
+        "q": "In welchen Ländern sind Ihre Server verfügbar?",
+        "a": "Wir haben Server in vielen Ländern auf der ganzen Welt. Die vollständige Liste der verfügbaren Standorte ist nach dem Herstellen der Verbindung in der App verfügbar."
+      },
+      {
+        "q": "Speichern Sie Benutzeraktivitätsprotokolle?",
+        "a": "Nein, wir speichern keine Benutzeraktivitätsprotokolle. Zum Schutz Ihrer Privatsphäre halten wir uns an eine strikte No-Logs-Richtlinie."
+      },
+      {
+        "q": "Wie sicher ist eine VPN-Verbindung?",
+        "a": "Unser VPN nutzt moderne Verschlüsselung zum Schutz Ihrer Daten. Der gesamte Datenverkehr wird verschlüsselt, bevor er Ihr Gerät verlässt, wodurch eine hohe Sicherheit in jedem Netzwerk gewährleistet wird."
+      },
+      {
+        "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "a": "Wir akzeptieren gängige Bankkarten sowie gängige Zahlungssysteme. Eine vollständige Liste der verfügbaren Methoden finden Sie auf der Zahlungsseite in der App."
+      }
+    ]
+  },
+  "common": {
+    "comingSoonMessage": "Die App befindet sich in der Entwicklung. Bald können Sie ein Abonnement erwerben.",
+    "comingSoonOk": "OK",
+    "turkeyDownloadUnavailable": "Raqoon steht in Türkiye nicht zum Download zur Verfügung."
+  },
+  "about": {
+    "title": "Über Unternehmen",
+    "company": "Qat Bilişim LTD.",
+    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Türkiye",
+    "emailLabel": "E-Mail:",
+    "email": "hello@raqoon.app",
+    "keyPointsTitle": "Wichtige Punkte",
+    "keyPointsBody": "Qat Bilişim LTD. entwickelt und betreibt Raqoon digitale Dienste. Wir legen Wert auf Prozesstransparenz, Schutz personenbezogener Daten und hohe Servicequalität. Das Unternehmen handelt im Einklang mit den geltenden gesetzlichen Anforderungen und internen Sicherheitsstandards.",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2 C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "body": "Raqoon Datenschutzrichtlinie\nDatum des Inkrafttretens: 1. März 2026\nGerichtsstand: Ankara, Türkiye\nBesitzer: Qat Bilişim Ltd.\n\nZusammenfassung\nWir respektieren Ihr Recht auf Anonymität und Sicherheit. Wir sehen nicht, was Sie online tun, wir protokollieren nicht die von Ihnen besuchten Websites und wir speichern nicht den Inhalt Ihres Datenverkehrs. Unser System erfasst lediglich technische Parameter (Datenvolumen und Zeitpunkt Ihrer letzten Verbindung), um die Verbindungsqualität sicherzustellen. Wir speichern Ihre Kartendaten nicht – alle Zahlungen werden über sichere externe Gateways abgewickelt.\n\n1. Zero-Logs-Richtlinie\nWir halten uns bezüglich Ihrer Aktivitäten an eine strikte No-Logs-Richtlinie. Die technische Architektur des Dienstes verhindert, dass wir die folgenden Daten erfassen, speichern oder an Dritte weitergeben:\n• Aktivitätsverlauf: Wir zeichnen keine besuchten Websites (URLs), Suchanfragen oder den Browserverlauf auf.\n• Netzwerkabfragen: Wir führen keine Protokolle von DNS-Abfragen.\n• Verkehrsinhalte: Wir haben keinen Zugriff auf den Inhalt der übertragenen Daten, einschließlich Nachrichten, E-Mails oder Dateien.\n• Ursprüngliche IP-Adresse: Wir speichern Ihre tatsächliche IP-Adresse nicht, während Sie den Dienst nutzen, und verknüpfen sie auch nicht mit Ihrer Aktivität.\n\n2. Von uns erhobene Daten (technische Notwendigkeit)\nUm einen stabilen Betrieb zu gewährleisten und Abonnements zu verwalten, verarbeitet der Dienst einen minimalen Satz technischer Daten.\n2.1. Identifikation\n• UUID / Zugriffsschlüssel: Eine eindeutige technische Kennung, die zur Autorisierung Ihres Geräts auf unseren Servern verwendet wird.\n• E-Mail (optional): Wird ausschließlich zur Kontowiederherstellung oder zum Senden von Belegen und Systembenachrichtigungen verwendet.\n2.2. Statistik und Diagnose\n• Datenvolumen: Die Menge der gesendeten und empfangenen Daten, die zur Überwachung der Grenzen Ihres Plans verwendet werden.\n• Zeitpunkt der letzten Verbindung: Wird aufgezeichnet, um Verbindungsprobleme zu identifizieren und einen genauen Sitzungsstatus aufrechtzuerhalten.\n• Abonnementstatus: Die Gültigkeitsdauer und der Aktivitätsstatus Ihres Zugangsschlüssels.\n\n3. App-Funktionalität und No-Tracking\n• Marketing-Tracker: Unsere Anwendungen enthalten keine Marketing- oder Analysetools von Drittanbietern (wie Facebook SDK oder Werbe-IDs), die Ihre Daten an Dritte übermitteln könnten.\n• Verfügbarkeitsüberwachung: Die Anwendung überprüft möglicherweise automatisch die Verbindung zu unseren Knoten. Diese Daten werden vollständig anonymisiert und ausschließlich zur automatischen Auswahl des schnellsten Servers verwendet.\n\n4. Zahlungsinformationen\nWir speichern oder verarbeiten nicht Ihre vollständigen Bankkartendaten.\n• App Store: Transaktionen werden vom Apple App Store verarbeitet. Wir erhalten lediglich einen verschlüsselten Token, der die Tatsache der Zahlung bestätigt.\n\n5. Datenaufbewahrung und -löschung\n• Technische Informationen: Daten zu Traffic und Anmeldezeiten werden für die Dauer Ihres Abonnements gespeichert.\n• Automatische Löschung: Wenn Sie Ihr Abonnement nicht verlängern, werden die Kontodaten nach 90 Tagen Inaktivität möglicherweise vollständig aus dem System entfernt.\n• Ihr Recht auf Löschung: Sie können Ihr Konto und alle damit verbundenen Informationen jederzeit über die App-Einstellungen oder durch Kontaktaufnahme mit dem Support vollständig löschen.\n\n6. Datenweitergabe und rechtliche Anfragen\nQat Bilişim Ltd. ist in Türkiye registriert. Wir verkaufen Benutzerdaten nicht und geben sie nicht an Werbeunternehmen weiter. Bei behördlichen Anfragen von Strafverfolgungsbehörden halten wir uns strikt an die gesetzlichen Bestimmungen. Aufgrund unserer Architektur ist es jedoch nicht möglich, Daten über Ihre Aktionen online bereitzustellen, da diese Informationen technisch nicht erfasst werden. Wir können nur die Existenz eines Kontos und das insgesamt verbrauchte Traffic-Volumen bestätigen.\n\n7. Kontaktieren Sie uns\nBei Fragen zum Datenschutz oder zur Datenlöschung:\n• E-Mail: private@raqoon.app\n• Telegramm: @raqoonbot\n• Standort: Ankara, Türkiye"
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "body": "Nutzungsbedingungen (ÖFFENTLICHES ANGEBOT)\nDatum des Inkrafttretens: 1. März 2026\nErscheinungsort: Ankara, Türkiye\nDiese Nutzungsvereinbarung (im Folgenden die „Vereinbarung“) ist ein offizielles Angebot des Raqoon-Dienstes (im Folgenden der „Anbieter“ oder der „Dienst“), einen Vertrag mit einer Einzelperson (im Folgenden der „Benutzer“) gemäß den unten aufgeführten Bedingungen abzuschließen.\n\n1. ALLGEMEINE BESTIMMUNGEN\n1.1. Die Nutzung der Raqoon-Anwendung, die Registrierung auf der Website oder die Bezahlung von Serviceangeboten stellen die vollständige und bedingungslose Annahme dieser Vereinbarung durch den Benutzer dar (Annahme).\n1.2. Der Nutzer garantiert, dass er zum Abschluss dieser Vereinbarung mindestens 18 Jahre alt und voll geschäftsfähig ist.\n1.3. Der Anbieter behält sich das Recht vor, die Bedingungen dieser Vereinbarung zu ändern. Eine neue Fassung tritt mit der Veröffentlichung in Kraft.\n\n2. GEGENSTAND DER VEREINBARUNG\n2.1. Der Anbieter gewährt dem Nutzer ein nicht ausschließliches Recht (Lizenz), die Servicesoftware und Netzwerkinfrastruktur zum Aufbau eines virtuellen privaten Netzwerks (VPN) zu nutzen.\n2.2. Zugriff auf Software:\n2.2.1. Der Zugriff auf den Dienst erfolgt standardmäßig ausschließlich über die offizielle Raqoon-Anwendung.\n2.2.2. Die Verwendung von Drittanbieter-Clients (einschließlich Hiddify, v2rayNG und ähnlichen Tools) ist nur zulässig, wenn diese Möglichkeit in der Beschreibung des vom Benutzer erworbenen Tarifplans ausdrücklich vorgesehen ist.\n2.3. Gerätelimit:\n2.3.1. Die Anzahl der gleichzeitigen Verbindungen (Sitzungen) richtet sich nach den Bedingungen des gewählten Tarifplans.\n2.3.2. Sofern im Tarif kein Limit angegeben ist, beträgt das Standardlimit 5 (fünf) Geräte pro Account.\n\n3. NUTZUNGSBEDINGUNGEN UND VERBOTE\n3.1. Der Nutzer verpflichtet sich, den Dienst nur für rechtmäßige Zwecke zu nutzen.\n3.2. Streng verbotene Handlungen:\n3.2.1. Verwendung von P2P-Protokollen (BitTorrent) und Torrent-Downloads auf allen Serviceservern.\n3.2.2. Spam-Verbreitung (einschließlich Massen-E-Mails über Port 25), Überschwemmung in Messengern und sozialen Netzwerken.\n3.2.3. Verbreitung von Schadsoftware, Viren, Trojanern oder Botnet-Kontrolle.\n3.2.4. Jede Art von Netzwerkangriffen: Port-Scanning, Passwort-Brute-Force, DDoS-Angriffe, unbefugter Zugriff auf Ressourcen Dritter.\n3.2.5. Verbreitung von Kinderpornografie und Materialien, die Terrorismus oder Gewalt fördern.\n3.3. Folgen von Verstößen: Ein Verstoß gegen eine Klausel in Abschnitt 3.2 führt zu einer sofortigen Kontosperrung ohne Anspruch auf Wiederherstellung und ohne Rückerstattung.\n\n4. FAIR-USE-POLITIK\n4.1. Der Dienst ist für den persönlichen, nicht kommerziellen Gebrauch bestimmt.\n4.2. Für Tarifpläne der Kategorie „Unlimited“ gelten folgende Einschränkungen:\n4.2.1. Wenn der verbrauchte Datenverkehr 3 TB (Terabyte) pro Monat übersteigt;\nUND\n4.2.2. Der Dienst erkennt eine ungewöhnliche Kanalauslastung, die die Verbindungsqualität für andere Benutzer beeinträchtigt;\n4.2.3. Der Anbieter behält sich das Recht vor, nach eigenem Ermessen die Verbindungsgeschwindigkeit zu begrenzen oder den Zugang bis zum Ende des Abrechnungszeitraums auszusetzen.\n\n5. ZAHLUNGS- UND RÜCKERSTATTUNGSVERFAHREN\n5.1. Serviceangebote werden als digitale Inhalte klassifiziert, die sofort in elektronischer Form bereitgestellt werden.\n5.2. Keine Rückerstattungsregel: Gemäß Artikel 15(ğ) der „Verordnung über Fernabsatzverträge“ (Mesafeli Sözleşmeler Yönetmeliği) der Türkischen Republik gilt das Widerrufsrecht (Rückerstattung) des Verbrauchers nicht für Dienstleistungen, die sofort in elektronischen Umgebungen erbracht werden.\n5.3. App Store-Zahlungen: Rückerstattungen für Abonnements, die über Apple App Store abgeschlossen wurden, unterliegen ausschließlich den Regeln von Apple. Der Anbieter ist technisch nicht in der Lage, solche Rückerstattungen abzuwickeln.\n5.4. Die Sperrung des Zugangs zum Dienst, die durch Maßnahmen staatlicher Behörden (Internetzensur) oder der Internetprovider des Nutzers verursacht wird, gilt als höhere Gewalt und ist kein Grund für eine Rückerstattung.\n\n6. HAFTUNG DER PARTEIEN\n6.1. Der Service wird „wie besehen“ bereitgestellt. Der Anbieter übernimmt keine Gewähr für einen unterbrechungsfreien oder fehlerfreien Betrieb des Dienstes oder für die Kompatibilität mit Netzwerken bestimmter Internetanbieter.\n6.2. Der Anbieter haftet nicht für Schäden, einschließlich entgangenen Gewinns, die sich aus der Nutzung oder Unmöglichkeit der Nutzung des Dienstes ergeben.\n\n7. SCHLUSSBESTIMMUNGEN\n7.1. Diese Vereinbarung unterliegt den Gesetzen der Republik Türkiye.\n7.2. Alle Streitigkeiten und Meinungsverschiedenheiten werden vor den Gerichten von Ankara, Türkiye gelöst."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": "Bei Fragen zum Servicebetrieb, Zugang, Abrechnung oder Support kontaktieren Sie uns unter hello@raqoon.app. Unser Ziel ist es, so schnell wie möglich zu reagieren."
+    },
+    "refund": {
+      "title": "Rückerstattungsrichtlinie",
+      "body": "Rückerstattungsrichtlinie\nDatum des Inkrafttretens: 1. März 2026\n\nWenn ein Abonnement über App Store erworben wird, unterliegen Rückerstattungen, Abonnementstornierungen und alle damit verbundenen Angelegenheiten den Regeln und Verfahren von App Store.\n\nBei zahlungsbezogenen Fragen wenden Sie sich an den Support unter hello@raqoon.app."
+    }
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Diese Seite existiert nicht oder wurde verschoben.",
+    "cta": "Zurück nach Hause"
+  },
+  "footer": {
+    "about": "Über Unternehmen",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "refund": "Rückerstattungsrichtlinie",
+    "copy": "© 2026 Raqoon"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "DE"
+  }
+}

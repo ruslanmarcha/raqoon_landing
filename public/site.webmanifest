@@ -1,0 +1,24 @@
+{
+  "name": "Raqoon VPN",
+  "short_name": "Raqoon",
+  "description": "Fast, privacy-focused VPN — App Store and Google Play.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#00000a",
+  "theme_color": "#00000a",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

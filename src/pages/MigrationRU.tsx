@@ -12,7 +12,7 @@ export function MigrationRU() {
 
   return (
     <>
-      <SEOHead variant="ru" />
+      <SEOHead variant="ru" page="migration" metaLocale="ru" />
       <Header showLanguageSelector={false} />
       <main>
         <section className={`section ${styles.hero}`}>

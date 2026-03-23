@@ -18,7 +18,7 @@ export function AboutCompany() {
 
   return (
     <>
-      <SEOHead variant={variant} />
+      <SEOHead variant={variant} page="about" />
       <Header />
       <main className={styles.root}>
         <section className={`section ${styles.section}`}>

@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { Header } from '../components/Header/Header'
@@ -8,6 +9,11 @@ export function NotFoundPage() {
 
   return (
     <div className={styles.root}>
+      <Helmet>
+        <title>{t('notFound.title')} — Raqoon</title>
+        <meta name="description" content={t('notFound.description')} />
+        <meta name="robots" content="noindex, follow" />
+      </Helmet>
       <Header />
       <main className={styles.main}>
         <div className="container">

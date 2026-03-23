@@ -7,7 +7,19 @@
     "downloadTitleRU": "Скачать Raqoon VPN — без карты, без почты, без трекинга",
     "downloadDescriptionRU": "Пробный период 3 дня, затем оплата тарифа. Шифрование, анонимный аккаунт без привязки карты и обязательной почты.",
     "downloadOgTitleRU": "Raqoon — скачать VPN",
-    "downloadOgDescriptionRU": "Скачайте Raqoon VPN: защита трафика без трекинга. Мы не собираем данные для слежки."
+    "downloadOgDescriptionRU": "Скачайте Raqoon VPN: защита трафика без трекинга. Мы не собираем данные для слежки.",
+    "aboutTitleRU": "О компании — Raqoon VPN",
+    "aboutDescriptionRU": "Qat Bilişim LTD. разрабатывает Raqoon VPN. Офис в Анкаре, Турция. Поддержка: hello@raqoon.app.",
+    "privacyTitleRU": "Политика конфиденциальности — Raqoon VPN",
+    "privacyDescriptionRU": "Политика конфиденциальности Raqoon VPN: без логов активности, без анализа содержимого трафика, оплата и защита данных.",
+    "termsTitleRU": "Пользовательское соглашение — Raqoon VPN",
+    "termsDescriptionRU": "Публичная оферта и условия использования Raqoon VPN: подписка, правила использования, ответственность.",
+    "contactTitleRU": "Контакты — Raqoon VPN",
+    "contactDescriptionRU": "Связь с поддержкой Raqoon: биллинг, доступ, технические вопросы. Email: hello@raqoon.app.",
+    "refundTitleRU": "Политика возвратов — Raqoon VPN",
+    "refundDescriptionRU": "Возвраты по подпискам в App Store — по правилам Apple. Вопросы по оплате: hello@raqoon.app.",
+    "migrationTitleRU": "Переезд из ИЗИ в Raqoon — инструкция",
+    "migrationDescriptionRU": "Переезд из ИЗИ VPN в Raqoon: подключение к @raqoonbot в Telegram и миграция на новый сервис."
   },
   "nav": {
     "logoAlt": "Raqoon"

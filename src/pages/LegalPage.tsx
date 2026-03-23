@@ -21,7 +21,7 @@ export function LegalPage({ legalKey }: LegalPageProps) {
 
   return (
     <>
-      <SEOHead variant={variant} />
+      <SEOHead variant={variant} page={legalKey} />
       <Header />
       <main className={styles.root}>
         <section className={`section ${styles.section}`}>

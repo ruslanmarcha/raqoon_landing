@@ -1,16 +1,17 @@
-import { Suspense } from 'react'
+import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
-import { LandingRU } from './pages/LandingRU'
-import { LandingWW } from './pages/LandingWW'
-import { MigrationRU } from './pages/MigrationRU'
-import { AboutCompany } from './pages/AboutCompany'
-import { DownloadPage } from './pages/DownloadPage'
-import { LegalPage } from './pages/LegalPage'
-import { NotFoundPage } from './pages/NotFoundPage'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
 import { TurkeyAvailabilityNotice } from './components/TurkeyAvailabilityNotice/TurkeyAvailabilityNotice'
+
+const LandingRU = lazy(() => import('./pages/LandingRU').then((m) => ({ default: m.LandingRU })))
+const LandingWW = lazy(() => import('./pages/LandingWW').then((m) => ({ default: m.LandingWW })))
+const MigrationRU = lazy(() => import('./pages/MigrationRU').then((m) => ({ default: m.MigrationRU })))
+const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ default: m.AboutCompany })))
+const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
+const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 
 function LoadingFallback() {
   return (

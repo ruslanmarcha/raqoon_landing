@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './FAQ.module.css'
 
@@ -8,10 +8,30 @@ interface FAQItem {
 }
 
 export function FAQ() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [open, setOpen] = useState<number | null>(0)
 
-  const items = t('faq.items', { returnObjects: true }) as FAQItem[]
+  const items = useMemo(
+    () => t('faq.items', { returnObjects: true }) as FAQItem[],
+    [t, i18n.language],
+  )
+
+  const faqJsonLd = useMemo(
+    () =>
+      JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: items.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
+        })),
+      }),
+    [items],
+  )
 
   function toggle(i: number) {
     setOpen((prev) => (prev === i ? null : i))
@@ -55,6 +75,7 @@ export function FAQ() {
           ))}
         </div>
       </div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqJsonLd }} />
     </section>
   )
 }

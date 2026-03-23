@@ -7,7 +7,19 @@
     "downloadTitleWW": "Download Raqoon VPN — no card, no email, no tracking",
     "downloadDescriptionWW": "3-day trial, then payment for your plan. Encrypted protection, anonymous account—no card on file, no mandatory email.",
     "downloadOgTitleWW": "Raqoon — Download VPN",
-    "downloadOgDescriptionWW": "Get Raqoon VPN: privacy-first protection. We don’t build profiles from your data."
+    "downloadOgDescriptionWW": "Get Raqoon VPN: privacy-first protection. We don’t build profiles from your data.",
+    "aboutTitleWW": "About Qat Bilişim & Raqoon — Raqoon VPN",
+    "aboutDescriptionWW": "Qat Bilişim LTD. develops Raqoon VPN. Registered office in Ankara, Türkiye. Support: hello@raqoon.app.",
+    "privacyTitleWW": "Privacy Policy — Raqoon VPN",
+    "privacyDescriptionWW": "Raqoon VPN privacy policy: no-logs approach, no inspection of traffic content, payments, and how we protect your data.",
+    "termsTitleWW": "Terms of Service — Raqoon VPN",
+    "termsDescriptionWW": "Terms of use and public offer for Raqoon VPN: subscriptions, acceptable use, and liability.",
+    "contactTitleWW": "Contact — Raqoon VPN",
+    "contactDescriptionWW": "Contact Raqoon for billing, access, and support. Email: hello@raqoon.app.",
+    "refundTitleWW": "Refund Policy — Raqoon VPN",
+    "refundDescriptionWW": "Refunds for App Store subscriptions follow Apple rules. Billing questions: hello@raqoon.app.",
+    "migrationTitleRU": "Migrate from IZI to Raqoon — guide",
+    "migrationDescriptionRU": "Switch from IZI VPN to Raqoon via @raqoonbot on Telegram. Simple migration to the new service."
   },
   "nav": {
     "logoAlt": "Raqoon"

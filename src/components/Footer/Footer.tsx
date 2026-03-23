@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 export function Footer() {
@@ -8,15 +9,15 @@ export function Footer() {
     <footer className={styles.root}>
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
-          <a href="/" className={styles.logo} aria-label={t('nav.logoAlt')}>
+          <Link to="/" className={styles.logo} aria-label={t('nav.logoAlt')}>
             <img className={styles.logoIcon} src="/logo.png" alt="Raqoon" />
             <span className={styles.logoText}>Raqoon</span>
-          </a>
+          </Link>
         </div>
         <nav className={styles.links} aria-label="Footer navigation">
-          <a href="#" className={styles.link}>
+          <Link to="/about" className={styles.link}>
             {t('footer.about')}
-          </a>
+          </Link>
           <a href="#" className={styles.link}>
             {t('footer.privacy')}
           </a>

@@ -1,6 +1,5 @@
 import { Header } from '../components/Header/Header'
 import { Hero } from '../components/Hero/Hero'
-import { Pricing } from '../components/Pricing/Pricing'
 import { FeaturesCard } from '../components/FeaturesCard/FeaturesCard'
 import { FAQ } from '../components/FAQ/FAQ'
 import { Footer } from '../components/Footer/Footer'
@@ -13,7 +12,6 @@ export function LandingWW() {
       <Header />
       <main>
         <Hero variant="ww" />
-        <Pricing variant="ww" />
         <FeaturesCard />
         <FAQ />
       </main>

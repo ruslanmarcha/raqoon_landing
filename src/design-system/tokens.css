@@ -70,7 +70,7 @@
   --transition-slow: 400ms ease;
 
   /* Layout */
-  --container-max: 600px;
+  --container-max: 640px;
   --container-px: var(--space-6);
   --breakpoint-mobile: 375px;
 }

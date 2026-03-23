@@ -14,21 +14,21 @@
     "title": "Neler dahil",
     "items": [
       {
-        "label": "Automatic protocol selection"
+        "label": "Otomatik protokol secimi"
       },
       {
         "label": "Public Wi-Fi aglarinda baglanti korumasi",
         "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
       },
       {
-        "label": "Priority support",
-        "sub": "We always reply within 24 hours"
+        "label": "Oncelikli destek",
+        "sub": "24 saat icinde mutlaka yanit veriyoruz"
       },
       {
-        "label": "Up to 5 devices"
+        "label": "5 cihaza kadar"
       },
       {
-        "label": "Large traffic volume"
+        "label": "Yuksek trafik hacmi"
       }
     ]
   },
@@ -37,53 +37,58 @@
     "constructor": {
       "badge": "Selam",
       "price": "10",
-      "unit": "$ / day",
-      "cta": "Choose"
+      "unit": "$ / gun",
+      "cta": "Sec"
     },
     "allIn": {
-      "badge": "All Inclusive",
+      "badge": "Her Sey Dahil",
       "price": "9.99",
-      "unit": "$ / month",
-      "cta": "Choose"
+      "unit": "$ / ay",
+      "cta": "Sec"
     },
     "constructorFeatures": [
       {
-        "label": "Automatic protocol selection"
+        "label": "Otomatik protokol secimi"
       },
       {
         "label": "Public Wi-Fi aglarinda baglanti korumasi",
         "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
       },
       {
-        "label": "Priority support",
-        "sub": "We always reply within 24 hours"
+        "label": "Oncelikli destek",
+        "sub": "24 saat icinde mutlaka yanit veriyoruz"
       },
       {
-        "label": "Up to 5 devices"
+        "label": "5 cihaza kadar"
       },
       {
-        "label": "Large traffic volume"
+        "label": "Yuksek trafik hacmi"
       }
     ],
     "allInFeatures": [
       {
-        "label": "Automatic protocol selection"
+        "label": "Otomatik protokol secimi"
       },
       {
         "label": "Public Wi-Fi aglarinda baglanti korumasi",
         "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
       },
       {
-        "label": "Priority support",
-        "sub": "We always reply within 24 hours"
+        "label": "Oncelikli destek",
+        "sub": "24 saat icinde mutlaka yanit veriyoruz"
       },
       {
-        "label": "Up to 5 devices"
+        "label": "5 cihaza kadar"
       },
       {
-        "label": "Large traffic volume"
+        "label": "Yuksek trafik hacmi"
       }
     ]
+  },
+  "referral": {
+    "title": "Arkadasini davet et -\ndaha fazla sure kazan",
+    "description": "Kodunu paylasman yeterli. Arkadasin ilk abonelikte +10 gun kazanir, sen de bonus olarak 30 gune kadar alirsin.",
+    "cta": "Gun kazan"
   },
   "faq": {
     "title": "Sikca Sorulan Sorular",
@@ -112,6 +117,34 @@
   },
   "common": {
     "turkeyDownloadUnavailable": "Raqoon Turkiye'de indirilemez."
+  },
+  "about": {
+    "title": "Sirket hakkinda",
+    "company": "Qat Bilisim LTD.",
+    "address": "Ulus Girisim Ofisi (Kulucka Merkezi), Haci Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altindag/Ankara, Turkiye",
+    "emailLabel": "E-posta:",
+    "email": "hello@raqoon.app",
+    "keyPointsTitle": "Temel bilgiler",
+    "keyPointsBody": "Qat Bilisim LTD., Raqoon dijital hizmetlerini gelistirir ve isletir. Surec seffafligi, kisisel verilerin korunmasi ve yuksek hizmet kalitesi onceligimizdir. Sirket, yururlukteki yasal gereklilikler ve ic guvenlik standartlari dogrultusunda faaliyet gosterir.",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikasi",
+      "body": "Raqoon Gizlilik Politikasi\nYururluk Tarihi: 1 Mart 2026\nYargi Alani: Ankara, Turkiye\nSahip: Qat Bilisim Ltd.\n\nOzet\nAnonimlik ve guvenlik hakkiniza saygi duyariz. Cevrim ici etkinliklerinizi gormeyiz, ziyaret ettiginiz siteleri kaydetmeyiz ve trafiginizin icerigini saklamayiz. Sistemimiz, baglanti kalitesini saglamak icin yalnizca teknik parametreleri (veri hacmi ve son baglanti zamani) kaydeder. Kart bilgilerinizi saklamayiz; tum odemeler guvenli harici odeme ag gecitleri uzerinden islenir.\n\n1. Zero Logs Politikasi\nEtkinlikleriniz konusunda sikı bir no-logs politikasi uygulariz. Hizmetin teknik mimarisi asagidaki verileri kaydetmemizi, saklamamizi veya ucuncu taraflarla paylasmamizi engeller:\n• Etkinlik gecmisi: Ziyaret edilen web siteleri (URL), arama sorgulari ve gezinti gecmisi kaydedilmez.\n• Ag sorgulari: DNS sorgularinin kayitlari tutulmaz.\n• Trafik icerigi: Mesajlar, e-postalar ve dosyalar dahil iletilen verilerin icerigine erisemeyiz.\n• Orijinal IP adresi: Hizmeti kullanirken gercek IP adresinizi saklamayiz ve etkinliklerinizle eslestirmeyiz.\n\n2. Isledigimiz Veriler (Teknik Gereklilik)\nHizmetin stabil calismasi ve aboneliklerin yonetimi icin minimum teknik veri islenir.\n2.1. Kimliklendirme\n• UUID / Erisim Anahtari: Cihazinizi sunucularimizda yetkilendirmek icin kullanilan benzersiz teknik tanimlayici.\n• E-posta (Opsiyonel): Yalnizca hesap kurtarma, makbuz ve sistem bildirimleri icin kullanilir.\n2.2. Istatistik ve Teshis\n• Veri hacmi: Paket limitlerini izlemek icin gonderilen ve alinan veri miktari.\n• Son baglanti zamani: Baglanti sorunlarini tespit etmek ve oturum durumunu guncel tutmak icin kaydedilir.\n• Abonelik durumu: Erisim anahtarinin gecerlilik suresi ve aktivite durumu.\n\n3. Uygulama Isleyisi ve Takipsizlik\n• Pazarlama izleyicileri: Uygulamalarimiz, verilerinizi ucuncu taraflara aktarabilecek pazarlama veya analiz araclari icermez.\n• Erisilebilirlik izleme: Uygulama, dugumlerimize baglantiyi otomatik olarak kontrol edebilir. Bu veriler tamamen anonimdir ve en hizli sunucuyu secmek icin kullanilir.\n\n4. Odeme Bilgileri\nBanka karti bilgilerinizin tamamini saklamayiz veya islemeyiz.\n• App Store: Islemler Apple App Store tarafindan islenir. Bize yalnizca odemenin yapildigini dogrulayan sifreli bir token ulasir.\n\n5. Saklama ve Silme\n• Teknik veriler: Trafik ve giris zamani verileri abonelik suresi boyunca saklanir.\n• Otomatik silme: Abonelik yenilenmezse hesap verileri 90 gun hareketsizlikten sonra tamamen silinebilir.\n• Silme hakki: Uygulama ayarlarindan veya destekle iletisime gecerek hesabinizi ve iliskili verileri tamamen silebilirsiniz.\n\n6. Veri Paylasimi ve Resmi Talepler\nQat Bilisim Ltd. Turkiye'de kayitlidir. Kullanici verileri satilmaz ve reklam sirketlerine aktarilmaz. Resmi makam taleplerinde yasal duzenlemelere uygun hareket ederiz. Teknik mimarimiz nedeniyle kullanicilarin cevrim ici eylemlerine ait verilerin saglanmasi mumkun degildir; cunku bu veriler teknik olarak kaydedilmez. Yalnizca hesap varligini ve toplam trafik miktarini dogrulayabiliriz.\n\n7. Iletisim\nGizlilik veya veri silme talepleri icin:\n• E-posta: private@raqoon.app\n• Telegram: @raqoonbot\n• Konum: Ankara, Turkiye"
+    },
+    "terms": {
+      "title": "Kullanim Sartlari",
+      "body": "Kullanim Sartlari (KAMUYA ACIK TEKLIF)\nYururluk Tarihi: 1 Mart 2026\nYayim Yeri: Ankara, Turkiye\nIsbu Kullanici Sozlesmesi (bundan sonra \"Sozlesme\"), Raqoon hizmetinin (bundan sonra \"Saglayici\" veya \"Hizmet\") asagida belirtilen sartlarla herhangi bir bireyle (bundan sonra \"Kullanici\") sozlesme yapma teklifidir.\n\n1. GENEL HUKUMLER\n1.1. Raqoon uygulamasinin kullanimi, web sitesine kayit veya hizmet odemesi, Kullanici'nin bu Sozlesmeyi tamamen ve kosulsuz kabul ettigi anlamina gelir.\n1.2. Kullanici, en az 18 yasinda oldugunu ve bu Sozlesmeyi yapma ehliyetine sahip oldugunu beyan eder.\n1.3. Saglayici, Sozlesme sartlarini degistirme hakkini sakli tutar. Yeni surum yayim aninda yururluge girer.\n\n2. SOZLESMENIN KONUSU\n2.1. Saglayici, Kullanici'ya Hizmet yazilimini ve ag altyapisini kullanarak sanal ozel ag (VPN) kurma amaciyla inhisari olmayan kullanim hakki verir.\n2.2. Yazilima erisim:\n2.2.1. Hizmete varsayilan erisim yalnizca resmi Raqoon uygulamasi uzerindendir.\n2.2.2. Ucuncu taraf istemcilerin kullanimi, yalnizca satin alinan tarife acikca bu ozelligi iceriyorsa mumkundur.\n2.3. Cihaz limiti:\n2.3.1. Es zamanli baglanti sayisi secilen tarife kosullarina gore belirlenir.\n2.3.2. Tarife belirtilmemisse standart limit hesap basina 5 cihazdir.\n\n3. KULLANIM KURALLARI VE YASAKLAR\n3.1. Kullanici, Hizmeti yalnizca yasal amaclarla kullanmayi kabul eder.\n3.2. Kesinlikle yasak eylemler:\n3.2.1. Tum Hizmet sunucularinda P2P protokolleri (BitTorrent) ve torrent indirme.\n3.2.2. Spam dagitimi (25 portu uzerinden toplu e-posta dahil), mesajlasma uygulamalarinda veya sosyal aglarda flood.\n3.2.3. Kotu amacli yazilim, virus, trojan yayma veya botnet yonetimi.\n3.2.4. Her turlu ag saldirisi: port tarama, brute-force, DDoS, yetkisiz erisim.\n3.2.5. Cocuk istismari icerikleri veya teror/siddet propagandasi.\n3.3. Ihlal sonuclari: 3.2 maddesinin ihlali, hesap erisiminin iadesiz ve geri yukleme hakki olmadan derhal sonlandirilmasina yol acar.\n\n4. ADIL KULLANIM POLITIKASI\n4.1. Hizmet, kisisel ve ticari olmayan kullanim icindir.\n4.2. \"Sinirsiz\" kategori tarifelerde su kisitlamalar uygulanir:\n4.2.1. Aylik trafik 3 TB'yi asarsa;\nVE\n4.2.2. Diger kullanicilarin baglanti kalitesini dusuren anormal kanal yuklenmesi tespit edilirse;\n4.2.3. Saglayici, baglanti hizini sinirlama veya donem sonuna kadar erisimi askiya alma hakkini sakli tutar.\n\n5. ODEME VE IADE\n5.1. Hizmetler, elektronik ortamda aninda saglanan dijital icerik olarak siniflandirilir.\n5.2. Iadesizlik: Turkiye Cumhuriyeti Mesafeli Sozlesmeler Yonetmeligi'nin 15(ğ) maddesi kapsaminda, elektronik ortamda aninda ifa edilen hizmetlerde cayma (iade) hakki uygulanmaz.\n5.3. App Store odemeleri: Apple App Store uzerinden yapilan abonelik iadeleri yalnizca Apple kurallarina tabidir. Saglayici bu iadeleri teknik olarak gerceklestiremez.\n5.4. Resmi kurumlar veya internet saglayicilari kaynakli erisim engelleri mucbir sebep sayilir ve iade nedeni olusturmaz.\n\n6. TARAFLARIN SORUMLULUGU\n6.1. Hizmet \"oldugu gibi\" sunulur. Saglayici, kesintisiz/hatasiz calisma veya belirli saglayici aglariyla uyumluluk garantisi vermez.\n6.2. Saglayici, kullanimdan veya kullanamama durumundan dogan kar kaybi dahil hicbir zarardan sorumlu tutulamaz.\n\n7. SON HUKUMLER\n7.1. Bu Sozlesme Turkiye Cumhuriyeti hukukuna tabidir.\n7.2. Tum uyusmazliklar Ankara mahkemelerinde cozulur."
+    },
+    "contact": {
+      "title": "Iletisim",
+      "body": "Hizmetin calismasi, erisim, odeme veya destek ile ilgili tum sorulariniz icin hello@raqoon.app adresine yazabilirsiniz. Mumkun olan en kisa surede yanit vermeye calisiyoruz."
+    },
+    "refund": {
+      "title": "Iade Politikasi",
+      "body": "Iade Politikasi\nYururluk Tarihi: 1 Mart 2026\n\nAbonelik App Store uzerinden satin alindiysa iade, iptal ve ilgili tum surecler App Store kurallarina tabidir.\n\nOdeme ile ilgili sorulariniz icin: hello@raqoon.app"
+    }
   },
   "footer": {
     "about": "Sirket hakkinda",

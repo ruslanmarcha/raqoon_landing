@@ -1,0 +1,40 @@
+.root {
+  min-height: 100vh;
+  background: #00000a url('/paws-bg.png') center / cover no-repeat;
+}
+
+.main {
+  min-height: calc(100vh - 44px);
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  max-width: 520px;
+  margin-inline: auto;
+  text-align: center;
+  background: rgba(0, 0, 10, 0.88);
+  border: 1px solid #ffffff1f;
+  border-radius: 28px;
+  padding: 32px 24px;
+}
+
+.code {
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff99;
+  margin-bottom: 20px;
+}
+

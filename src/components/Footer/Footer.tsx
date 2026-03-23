@@ -18,18 +18,18 @@ export function Footer() {
           <Link to="/about" className={styles.link}>
             {t('footer.about')}
           </Link>
-          <a href="#" className={styles.link}>
+          <Link to="/privacy" className={styles.link}>
             {t('footer.privacy')}
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/terms" className={styles.link}>
             {t('footer.terms')}
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/contact" className={styles.link}>
             {t('footer.contact')}
-          </a>
-          <a href="#" className={styles.link}>
+          </Link>
+          <Link to="/refund" className={styles.link}>
             {t('footer.refund')}
-          </a>
+          </Link>
         </nav>
         <p className={styles.copy}>{t('footer.copy')}</p>
       </div>

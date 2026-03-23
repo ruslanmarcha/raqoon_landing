@@ -1,10 +1,12 @@
 import { Suspense } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { LandingRU } from './pages/LandingRU'
 import { LandingWW } from './pages/LandingWW'
 import { MigrationRU } from './pages/MigrationRU'
 import { AboutCompany } from './pages/AboutCompany'
+import { LegalPage } from './pages/LegalPage'
+import { NotFoundPage } from './pages/NotFoundPage'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 
 function LoadingFallback() {
@@ -32,7 +34,11 @@ export function App() {
               <Route path="/ww" element={<LandingWW />} />
               <Route path="/migration" element={<MigrationRU />} />
               <Route path="/about" element={<AboutCompany />} />
-              <Route path="*" element={<Navigate to="/" replace />} />
+              <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
+              <Route path="/terms" element={<LegalPage legalKey="terms" />} />
+              <Route path="/contact" element={<LegalPage legalKey="contact" />} />
+              <Route path="/refund" element={<LegalPage legalKey="refund" />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </Suspense>
         </BrowserRouter>

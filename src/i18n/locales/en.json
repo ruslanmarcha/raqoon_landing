@@ -119,6 +119,29 @@
     "keyPointsBody": "Qat Bilişim LTD. develops and operates Raqoon digital services. We prioritize process transparency, personal data protection, and high service quality. The company operates in accordance with applicable legal requirements and internal security standards.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": "This document describes how Raqoon services process personal data, including collection, storage, usage, and protection of information. We apply technical and organizational safeguards to ensure data confidentiality and comply with applicable legal requirements."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "body": "By using Raqoon services, you agree to the platform terms. We provide services as is and reserve the right to update features, pricing, and usage rules. Continued use after updates means acceptance of the current version of these terms."
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "For any questions regarding service operation, access, billing, or support, contact us at hello@raqoon.app. We aim to respond as quickly as possible."
+    },
+    "refund": {
+      "title": "Refund Policy",
+      "body": "Refund requests are reviewed individually according to payment terms and applicable law. To request a refund, contact support at hello@raqoon.app and include payment details and the reason for your request."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page does not exist or has been moved.",
+    "cta": "Back to home"
+  },
   "footer": {
     "about": "About company",
     "privacy": "Privacy Policy",

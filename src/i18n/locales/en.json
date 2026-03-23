@@ -113,8 +113,8 @@
     ]
   },
   "common": {
-    "comingSoonMessage": "Приложение в разработке, скоро ты сможешь купить подписку",
-    "comingSoonOk": "Понятно"
+    "comingSoonMessage": "The app is in development. Soon you will be able to buy a subscription.",
+    "comingSoonOk": "OK"
   },
   "footer": {
     "about": "About company",

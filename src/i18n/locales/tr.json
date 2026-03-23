@@ -3,12 +3,18 @@
     "titleWW": "Raqoon VPN — Hızlı ve Güvenli VPN",
     "descriptionWW": "Raqoon bağlantınızı korur, gizliliğinizi destekler ve her yerde güvenli internet deneyimi sunar.",
     "ogTitleWW": "Raqoon — Güvenli Bağlantı",
-    "ogDescriptionWW": "Automatic protocol selection, priority support ve 5 cihaza kadar destek."
+    "ogDescriptionWW": "Automatic protocol selection, priority support ve 5 cihaza kadar destek.",
+    "downloadTitleWW": "Raqoon VPN’i indirin — kart yok, e-posta yok, izleme yok",
+    "downloadDescriptionWW": "3 günlük deneme, ardından seçtiğiniz planın ödemesi. Şifreleme, anonim hesap — kayıtlı kart yok, zorunlu e-posta yok.",
+    "downloadOgTitleWW": "Raqoon — VPN indir",
+    "downloadOgDescriptionWW": "Raqoon VPN: önce gizlilik — verilerinizden profil oluşturmuyoruz."
   },
   "hero": {
     "titleWW": "Raccoon Proxy'den\nVPN",
     "subtitleWW": "Güvenli, pratik, hızlı",
-    "ctaWW": "İndir"
+    "ctaWW": "İndir",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "Neler dahil",
@@ -116,7 +122,27 @@
     ]
   },
   "common": {
+    "comingSoonMessage": "Uygulama geliştiriliyor. Yakında abonelik satın alabileceksiniz.",
+    "comingSoonOk": "Tamam",
     "turkeyDownloadUnavailable": "Raqoon Türkiye'de indirilemez."
+  },
+  "downloadPage": {
+    "heroTitle": "Kart yok. E-posta yok. İzleme yok. Sadece koruma.",
+    "heroText": "Uygulamayı indirin, Bağlan’a dokunun — korunursunuz. Veriniz olmadığı için sizi izleyemeyiz.",
+    "mythsTitle": "VPN efsaneleri",
+    "mythsP1": "Her VPN’nin kimliğe bağlı olduğu söylenir. Raqoon’da hesap var ama anonim: kayıtlı banka kartı yok, zorunlu e-posta yok.",
+    "mythsP2": "Reklamla “bedava” modeli yok. 3 gün tam erişim, ardından zaten seçtiğiniz planın ödemesi. Trafik korumasına odaklanıyoruz — veri toplamaya değil.",
+    "featuresTitle": "Neden Raqoon",
+    "features": [
+      "3 gün tam erişim — ardından plan ödemeniz",
+      "Güçlü şifreyle tüm cihaz koruması",
+      "Tek dokunuşla bağlanma",
+      "Halka açık Wi‑Fi’de stabil performans",
+      "Sade arayüz",
+      "Popüler platform desteği"
+    ],
+    "finalTitle": "Şimdi indirin. Gereksiz kayıt yok. Zorunlu e-posta yok. Sadece gizlilik.",
+    "finalText": "Korumak için tasarlanmış, izlemek için değil — bu VPN’i seçen çok sayıda kullanıcıya katılın."
   },
   "about": {
     "title": "Şirket hakkında",
@@ -148,6 +174,7 @@
   },
   "footer": {
     "about": "Şirket hakkında",
+    "download": "İndir",
     "privacy": "Gizlilik Politikası",
     "terms": "Kullanım Şartları",
     "contact": "İletişim",

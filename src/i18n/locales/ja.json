@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — お気に入りのサービスのための高速かつ安全な VPN",
     "descriptionWW": "Raqoon VPN はあなたのプライバシーを保護し、制限を回避し、世界中のつながりを保ちます。 App Store で入手可能です。",
     "ogTitleWW": "お気に入りのサービスの Raqoon — VPN",
-    "ogDescriptionWW": "Raqoon VPN を App Store にダウンロードします。自動プロトコル選択、優先サポート、最大 5 台のデバイス。"
+    "ogDescriptionWW": "Raqoon VPN を App Store にダウンロードします。自動プロトコル選択、優先サポート、最大 5 台のデバイス。",
+    "downloadTitleWW": "Raqoon VPN をダウンロード — カード不要、メール不要、トラッキングなし",
+    "downloadDescriptionWW": "3 日間のトライアル、その後はお選びのプランのお支払い。暗号化、匿名アカウント — カードの保存なし、メール必須なし。",
+    "downloadOgTitleWW": "Raqoon — VPN をダウンロード",
+    "downloadOgDescriptionWW": "Raqoon VPN：データでプロフィールを作らないプライバシー優先。"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "Raqoon Proxyの\nVPN",
     "subtitleWW": "アクセスしやすく、便利で、信頼できる",
-    "ctaWW": "ダウンロード"
+    "ctaWW": "ダウンロード",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "含まれるもの",
@@ -142,6 +148,24 @@
     "comingSoonOk": "OK",
     "turkeyDownloadUnavailable": "Raqoon はトルコではダウンロードできません。"
   },
+  "downloadPage": {
+    "heroTitle": "カード不要。メール不要。トラッキングなし。守るだけ。",
+    "heroText": "アプリをダウンロードし、接続をタップすれば保護されます。データがないので、あなたを監視できません。",
+    "mythsTitle": "VPN のよくある誤解",
+    "mythsP1": "どの VPN も身元と結びつくと思われがちです。Raqoon にはアカウントがありますが匿名です。銀行カードの紐付けなし、メール必須なし。",
+    "mythsP2": "広告付きの「無料版」はありません。3 日間フルアクセスの後、すでに選んだプランのお支払い。トラフィックの保護に集中し、データ収集には集中しません。",
+    "featuresTitle": "Raqoon が選ばれる理由",
+    "features": [
+      "3 日間フルアクセス — その後プランのお支払い",
+      "強力な暗号化でデバイス全体を保護",
+      "ワンタップ接続",
+      "公共 Wi‑Fi でも安定",
+      "すっきりした UI",
+      "主要プラットフォームに対応"
+    ],
+    "finalTitle": "今すぐダウンロード。余計な登録なし。メール強制なし。プライバシーのみ。",
+    "finalText": "追跡のためではなく保護のために作られた VPN を選ぶ、多くのユーザーに加わりましょう。"
+  },
   "about": {
     "title": "会社について",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "会社について",
+    "download": "ダウンロード",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "contact": "接触",

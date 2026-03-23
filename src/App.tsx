@@ -5,6 +5,7 @@ import { LandingRU } from './pages/LandingRU'
 import { LandingWW } from './pages/LandingWW'
 import { MigrationRU } from './pages/MigrationRU'
 import { AboutCompany } from './pages/AboutCompany'
+import { DownloadPage } from './pages/DownloadPage'
 import { LegalPage } from './pages/LegalPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
@@ -47,6 +48,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppP
                   <Route path="/" element={<LandingRU />} />
                   <Route path="/ww" element={<LandingWW />} />
                   <Route path="/migration" element={<MigrationRU />} />
+                  <Route path="/download" element={<DownloadPage />} />
                   <Route path="/about" element={<AboutCompany />} />
                   <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
                   <Route path="/terms" element={<LegalPage legalKey="terms" />} />

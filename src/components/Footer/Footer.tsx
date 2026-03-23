@@ -18,6 +18,9 @@ export function Footer() {
           <Link to="/about" className={styles.link}>
             {t('footer.about')}
           </Link>
+          <Link to="/download" className={styles.link}>
+            {t('footer.download')}
+          </Link>
           <Link to="/privacy" className={styles.link}>
             {t('footer.privacy')}
           </Link>

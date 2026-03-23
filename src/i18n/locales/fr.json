@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — Rapide et sécurisé VPN pour vos services préférés",
     "descriptionWW": "Raqoon VPN protège votre vie privée, contourne les restrictions et vous permet de rester connecté dans le monde entier. Disponible sur App Store.",
     "ogTitleWW": "Raqoon — VPN pour vos services préférés",
-    "ogDescriptionWW": "Téléchargez Raqoon VPN sur App Store. Sélection automatique du protocole, prise en charge prioritaire et jusqu'à 5 appareils."
+    "ogDescriptionWW": "Téléchargez Raqoon VPN sur App Store. Sélection automatique du protocole, prise en charge prioritaire et jusqu'à 5 appareils.",
+    "downloadTitleWW": "Télécharger Raqoon VPN — sans carte, sans e-mail, sans suivi",
+    "downloadDescriptionWW": "3 jours d’essai, puis paiement de votre forfait. Chiffrement, compte anonyme — pas de carte enregistrée, pas d’e-mail obligatoire.",
+    "downloadOgTitleWW": "Raqoon — Télécharger le VPN",
+    "downloadOgDescriptionWW": "Raqoon VPN : une protection axée sur la vie privée, sans profilage."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "VPN de\nProxy raton laveur",
     "subtitleWW": "Accessible, pratique, fiable",
-    "ctaWW": "Télécharger"
+    "ctaWW": "Télécharger",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "Ce qui est inclus",
@@ -142,6 +148,24 @@
     "comingSoonOk": "D'ACCORD",
     "turkeyDownloadUnavailable": "Raqoon n'est pas disponible au téléchargement dans Türkiye."
   },
+  "downloadPage": {
+    "heroTitle": "Sans carte. Sans e-mail. Sans suivi. Juste la protection.",
+    "heroText": "Téléchargez l’app, appuyez sur Connexion — et vous êtes protégé. Nous ne pouvons pas vous espionner parce que nous n’avons pas vos données.",
+    "mythsTitle": "Quelques idées reçues sur les VPN",
+    "mythsP1": "On entend souvent que tout VPN est lié à une identité. Chez Raqoon il y a un compte, mais il est anonyme : pas de carte bancaire enregistrée et pas d’e-mail obligatoire.",
+    "mythsP2": "Pas de version « gratuite avec pubs ». Vous avez 3 jours d’accès complets, puis vous payez le forfait déjà choisi. Nous protégeons le trafic — nous ne monétisons pas vos données.",
+    "featuresTitle": "Pourquoi Raqoon",
+    "features": [
+      "3 jours d’accès complets — puis paiement de votre forfait",
+      "Protection de l’appareil avec un chiffrement robuste",
+      "Connexion en un geste",
+      "Performance stable sur Wi‑Fi public",
+      "Interface claire, sans surcharge",
+      "Prise en charge des plateformes courantes"
+    ],
+    "finalTitle": "Téléchargez maintenant. Sans friction. Sans e-mail imposé. Juste la confidentialité.",
+    "finalText": "Rejoignez une communauté grandissante qui choisit un VPN conçu pour protéger, pas pour tracer."
+  },
   "about": {
     "title": "À propos de l'entreprise",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "À propos de l'entreprise",
+    "download": "Télécharger",
     "privacy": "politique de confidentialité",
     "terms": "Conditions d'utilisation",
     "contact": "Contact",

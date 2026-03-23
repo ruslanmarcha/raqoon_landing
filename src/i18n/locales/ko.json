@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — 즐겨찾는 서비스를 위한 빠르고 안전한 VPN",
     "descriptionWW": "Raqoon VPN은(는) 귀하의 개인 정보를 보호하고 제한을 우회하며 전 세계적으로 연결을 유지합니다. App Store에서 사용 가능합니다.",
     "ogTitleWW": "Raqoon — VPN 즐겨찾는 서비스",
-    "ogDescriptionWW": "App Store에 Raqoon VPN을(를) 다운로드하세요. 자동 프로토콜 선택, 우선순위 지원 및 최대 5개 장치."
+    "ogDescriptionWW": "App Store에 Raqoon VPN을(를) 다운로드하세요. 자동 프로토콜 선택, 우선순위 지원 및 최대 5개 장치.",
+    "downloadTitleWW": "Raqoon VPN 다운로드 — 카드 없음, 이메일 없음, 추적 없음",
+    "downloadDescriptionWW": "3일 체험 후 선택한 요금제 결제. 암호화, 익명 계정 — 카드 저장 없음, 이메일 강제 없음.",
+    "downloadOgTitleWW": "Raqoon — VPN 다운로드",
+    "downloadOgDescriptionWW": "Raqoon VPN: 데이터로 프로필을 만들지 않는 프라이버시 우선."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "Raqoon Proxy의\nVPN",
     "subtitleWW": "접근성, 편리성, 신뢰성",
-    "ctaWW": "다운로드"
+    "ctaWW": "다운로드",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "무엇이 포함되어 있나요?",
@@ -142,6 +148,24 @@
     "comingSoonOk": "확인",
     "turkeyDownloadUnavailable": "Raqoon은 터키에서 다운로드할 수 없습니다."
   },
+  "downloadPage": {
+    "heroTitle": "카드 없음. 이메일 없음. 추적 없음. 오직 보호.",
+    "heroText": "앱을 다운로드하고 연결을 누르면 바로 보호됩니다. 데이터가 없으니 당신을 감시할 수 없습니다.",
+    "mythsTitle": "VPN에 대한 오해",
+    "mythsP1": "모든 VPN이 정체와 연결된다고 생각하기 쉽습니다. Raqoon에는 계정이 있지만 익명입니다: 카드 연동 없음, 이메일 필수 아님.",
+    "mythsP2": "광고로 무료를 제공하지 않습니다. 3일간 전체 접속 후 이미 선택한 요금제를 결제합니다. 트래픽 보호에 집중합니다 — 데이터 수집에 집중하지 않습니다.",
+    "featuresTitle": "Raqoon을 선택하는 이유",
+    "features": [
+      "3일 전체 접속 — 이후 요금제 결제",
+      "강력한 암호화로 기기 전체 보호",
+      "원터치 연결",
+      "공용 Wi‑Fi에서 안정적",
+      "깔끔한 인터페이스",
+      "주요 플랫폼 지원"
+    ],
+    "finalTitle": "지금 다운로드. 번거로움 없이. 이메일 강요 없이. 프라이버시만.",
+    "finalText": "추적용이 아니라 보호를 위해 만든 VPN을 선택하는 많은 사용자와 함께하세요."
+  },
   "about": {
     "title": "회사소개",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "회사 소개",
+    "download": "다운로드",
     "privacy": "개인 정보 보호 정책",
     "terms": "서비스 약관",
     "contact": "연락하다",

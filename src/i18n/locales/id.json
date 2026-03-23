@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — Cepat & Aman VPN untuk Layanan Favorit Anda",
     "descriptionWW": "Raqoon VPN melindungi privasi Anda, melewati batasan, dan membuat Anda tetap terhubung di seluruh dunia. Tersedia di App Store.",
     "ogTitleWW": "Raqoon — VPN untuk Layanan Favorit Anda",
-    "ogDescriptionWW": "Unduh Raqoon VPN di App Store. Pemilihan protokol otomatis, dukungan prioritas, dan hingga 5 perangkat."
+    "ogDescriptionWW": "Unduh Raqoon VPN di App Store. Pemilihan protokol otomatis, dukungan prioritas, dan hingga 5 perangkat.",
+    "downloadTitleWW": "Unduh Raqoon VPN — tanpa kartu, tanpa email, tanpa pelacakan",
+    "downloadDescriptionWW": "Uji coba 3 hari, lalu pembayaran untuk paket Anda. Enkripsi, akun anonim — tanpa kartu tersimpan dan tanpa email wajib.",
+    "downloadOgTitleWW": "Raqoon — Unduh VPN",
+    "downloadOgDescriptionWW": "Raqoon VPN: privasi dulu — tanpa membangun profil dari data Anda."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "VPN dari\nProksi Rakun",
     "subtitleWW": "Dapat diakses, nyaman, dapat diandalkan",
-    "ctaWW": "Unduh"
+    "ctaWW": "Unduh",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "Apa yang termasuk",
@@ -142,6 +148,24 @@
     "comingSoonOk": "OKE",
     "turkeyDownloadUnavailable": "Raqoon tidak tersedia untuk diunduh di Türkiye."
   },
+  "downloadPage": {
+    "heroTitle": "Tanpa kartu. Tanpa email. Tanpa pelacakan. Hanya perlindungan.",
+    "heroText": "Unduh aplikasi, ketuk Hubungkan — dan Anda sudah aman. Kami tidak bisa memata-matai Anda karena kami tidak punya data Anda.",
+    "mythsTitle": "Mitos VPN — singkat dan jelas",
+    "mythsP1": "Banyak yang mengira setiap VPN pasti terikat identitas. Di Raqoon ada akun, tetapi anonim: tanpa kartu bank yang disimpan dan tanpa email wajib.",
+    "mythsP2": "Kami tidak menjual produk “gratis beriklan”. Anda mendapat 3 hari akses penuh, lalu membayar paket yang sudah dipilih. Kami melindungi lalu lintas — bukan mengumpulkan data untuk iklan.",
+    "featuresTitle": "Mengapa Raqoon",
+    "features": [
+      "3 hari akses penuh — lalu pembayaran untuk paket Anda",
+      "Perlindungan perangkat dengan enkripsi kuat",
+      "Sambung sekali ketuk",
+      "Stabil di Wi‑Fi publik",
+      "Antarmuka bersih tanpa kerumitan",
+      "Mendukung platform populer"
+    ],
+    "finalTitle": "Unduh sekarang. Tanpa ribet. Tanpa email dipaksakan. Hanya privasi.",
+    "finalText": "Bergabunglah dengan banyak pengguna yang memilih VPN yang dibuat untuk melindungi — bukan melacak."
+  },
   "about": {
     "title": "Tentang perusahaan",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "Tentang perusahaan",
+    "download": "Unduh",
     "privacy": "Kebijakan Privasi",
     "terms": "Ketentuan Layanan",
     "contact": "Kontak",

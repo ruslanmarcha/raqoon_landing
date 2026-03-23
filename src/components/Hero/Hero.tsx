@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
 import { useComingSoon } from '../../contexts/ComingSoonContext';
 
@@ -32,26 +33,31 @@ export function Hero({ variant }: HeroProps) {
         </h1>
         <p className={styles.subtitle}>{t(`hero.subtitle${suffix}`)}</p>
         {variant === 'ru' ? (
-          <button
-            type="button"
-            onClick={openComingSoon}
-            className={`btn btn-secondary btn-lg ${styles.cta}`}
-          >
+          <Link to="/download" className={`btn btn-secondary btn-lg ${styles.cta}`}>
             {t(`hero.cta${suffix}`)}
-          </button>
+          </Link>
         ) : (
-          <button
-            type="button"
-            className={`btn btn-secondary btn-lg ${styles.cta}`}
-            onClick={openComingSoon}
-          >
-            <img
-              src="apple.svg"
-              aria-hidden="true"
-              className={styles.appleIcon}
-            />
-            {t(`hero.cta${suffix}`)}
-          </button>
+          <div className={styles.storeRow}>
+            <button
+              type="button"
+              className={`btn btn-secondary btn-lg ${styles.cta}`}
+              onClick={openComingSoon}
+            >
+              <img
+                src="apple.svg"
+                aria-hidden="true"
+                className={styles.appleIcon}
+              />
+              {t('hero.storeApple')}
+            </button>
+            <button
+              type="button"
+              className={`btn btn-secondary btn-lg ${styles.cta}`}
+              onClick={openComingSoon}
+            >
+              {t('hero.storeGoogle')}
+            </button>
+          </div>
         )}
       </div>
     </section>

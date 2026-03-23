@@ -4,19 +4,22 @@ import { useTranslation } from 'react-i18next'
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
   canonicalUrl?: string
+  /** Use download-specific meta titles/descriptions from locales */
+  page?: 'default' | 'download'
 }
 
-export function SEOHead({ variant, canonicalUrl }: SEOHeadProps) {
+export function SEOHead({ variant, canonicalUrl, page = 'default' }: SEOHeadProps) {
   const { t, i18n } = useTranslation()
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'
   const suffix = lang === 'ru' ? 'RU' : 'WW'
   void variant
   const siteName = lang === 'ru' ? 'Raqoon VPS' : 'Raqoon VPN'
 
-  const title = t(`meta.title${suffix}`)
-  const description = t(`meta.description${suffix}`)
-  const ogTitle = t(`meta.ogTitle${suffix}`)
-  const ogDescription = t(`meta.ogDescription${suffix}`)
+  const isDownload = page === 'download'
+  const title = isDownload ? t(`meta.downloadTitle${suffix}`) : t(`meta.title${suffix}`)
+  const description = isDownload ? t(`meta.downloadDescription${suffix}`) : t(`meta.description${suffix}`)
+  const ogTitle = isDownload ? t(`meta.downloadOgTitle${suffix}`) : t(`meta.ogTitle${suffix}`)
+  const ogDescription = isDownload ? t(`meta.downloadOgDescription${suffix}`) : t(`meta.ogDescription${suffix}`)
   const ogImage = '/og-image.png'
   const url = canonicalUrl ?? (typeof window !== 'undefined' ? window.location.href : '')
 

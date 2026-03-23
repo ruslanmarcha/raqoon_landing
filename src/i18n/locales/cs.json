@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — Rychlé a bezpečné VPN pro vaše oblíbené služby",
     "descriptionWW": "Raqoon VPN chrání vaše soukromí, obchází omezení a udržuje vás ve spojení po celém světě. Dostupné na App Store.",
     "ogTitleWW": "Raqoon — VPN pro vaše oblíbené služby",
-    "ogDescriptionWW": "Stáhněte si Raqoon VPN na App Store. Automatický výběr protokolu, prioritní podpora a až 5 zařízení."
+    "ogDescriptionWW": "Stáhněte si Raqoon VPN na App Store. Automatický výběr protokolu, prioritní podpora a až 5 zařízení.",
+    "downloadTitleWW": "Stáhnout Raqoon VPN — bez karty, bez e-mailu, bez sledování",
+    "downloadDescriptionWW": "3denní zkušební doba, poté platba za váš tarif. Šifrování, anonymní účet — bez uložené karty a bez povinného e-mailu.",
+    "downloadOgTitleWW": "Raqoon — stáhnout VPN",
+    "downloadOgDescriptionWW": "Raqoon VPN: ochrana soukromí bez profilování z vašich dat."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "VPN od\nProxy mývala",
     "subtitleWW": "Přístupné, pohodlné, spolehlivé",
-    "ctaWW": "Stáhnout"
+    "ctaWW": "Stáhnout",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "Co je zahrnuto",
@@ -142,6 +148,24 @@
     "comingSoonOk": "OK",
     "turkeyDownloadUnavailable": "Raqoon není k dispozici ke stažení v Türkiye."
   },
+  "downloadPage": {
+    "heroTitle": "Bez karty. Bez e-mailu. Bez sledování. Jen ochrana.",
+    "heroText": "Stáhněte aplikaci, klepněte na Připojit — a jste v bezpečí. Nemůžeme vás špehovat, protože nemáme vaše data.",
+    "mythsTitle": "Mýty o VPN — stručně",
+    "mythsP1": "Často se říká, že každé VPN je navázané na identitu. U Raqoon účet je, ale anonymní: bez uložené platební karty a bez povinného e-mailu.",
+    "mythsP2": "Nenabízíme „zdarma s reklamou“. Máte 3 plné dny přístupu, pak platíte za již zvolený tarif. Chráníme provoz — nesbíráme data pro reklamu.",
+    "featuresTitle": "Proč Raqoon",
+    "features": [
+      "3 plné dny přístupu — poté platba za váš tarif",
+      "Ochrana celého zařízení silným šifrováním",
+      "Připojení jedním klepnutím",
+      "Stabilní výkon na veřejném Wi‑Fi",
+      "Přehledné rozhraní bez zbytečností",
+      "Podpora běžných platforem"
+    ],
+    "finalTitle": "Stáhněte teď. Bez zbytečné registrace. Bez vynuceného e-mailu. Jen soukromí.",
+    "finalText": "Přidejte se k mnoha uživatelům, kteří chtějí VPN bez modelu sledování."
+  },
   "about": {
     "title": "O společnosti",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "O společnosti",
+    "download": "Stáhnout",
     "privacy": "Zásady ochrany osobních údajů",
     "terms": "Podmínky služby",
     "contact": "Kontakt",

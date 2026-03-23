@@ -3,7 +3,11 @@
     "titleWW": "Raqoon VPN — Mabilis at Secure VPN para sa Iyong Mga Paboritong Serbisyo",
     "descriptionWW": "Pinoprotektahan ng Raqoon VPN ang iyong privacy, nilalampasan ang mga paghihigpit, at pinapanatili kang konektado sa buong mundo. Available sa App Store.",
     "ogTitleWW": "Raqoon — VPN para sa Iyong Mga Paboritong Serbisyo",
-    "ogDescriptionWW": "I-download ang Raqoon VPN sa App Store. Awtomatikong pagpili ng protocol, suporta sa priyoridad, at hanggang 5 device."
+    "ogDescriptionWW": "I-download ang Raqoon VPN sa App Store. Awtomatikong pagpili ng protocol, suporta sa priyoridad, at hanggang 5 device.",
+    "downloadTitleWW": "I-download ang Raqoon VPN — walang card, walang email, walang tracking",
+    "downloadDescriptionWW": "3 araw na trial, pagkatapos bayad sa plano mo. Encryption, anonymous account — walang naka-save na card, walang mandatory email.",
+    "downloadOgTitleWW": "Raqoon — I-download ang VPN",
+    "downloadOgDescriptionWW": "Raqoon VPN: privacy muna — walang profile mula sa data mo."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -11,7 +15,9 @@
   "hero": {
     "titleWW": "VPN mula sa\nProxy ng Raccoon",
     "subtitleWW": "Naa-access, maginhawa, maaasahan",
-    "ctaWW": "I-download"
+    "ctaWW": "I-download",
+    "storeApple": "App Store",
+    "storeGoogle": "Google Play"
   },
   "features": {
     "title": "Ano ang kasama",
@@ -142,6 +148,24 @@
     "comingSoonOk": "OK",
     "turkeyDownloadUnavailable": "Ang Raqoon ay hindi magagamit para sa pag-download sa Türkiye."
   },
+  "downloadPage": {
+    "heroTitle": "Walang card. Walang email. Walang tracking. Proteksyon lang.",
+    "heroText": "I-download ang app, i-tap ang Connect — protektado ka na. Hindi ka namin masusundan dahil wala kaming data mo.",
+    "mythsTitle": "Mga mito tungkol sa VPN",
+    "mythsP1": "Sinasabing lahat ng VPN ay nakatali sa pagkakakilanlan. May account sa Raqoon, pero anonymous: walang naka-link na card at walang mandatory email.",
+    "mythsP2": "Walang “libre na may ads”. May 3 araw kang full access, pagkatapos bayad sa napili mong plano na. Naka-focus kami sa traffic — hindi sa koleksyon ng data mo.",
+    "featuresTitle": "Bakit Raqoon",
+    "features": [
+      "3 araw na full access — pagkatapos bayad sa plano mo",
+      "Proteksyon sa buong device gamit ang malakas na encryption",
+      "Isang tap na koneksyon",
+      "Matatag sa public Wi‑Fi",
+      "Malinis na interface",
+      "Suporta sa sikat na platform"
+    ],
+    "finalTitle": "I-download ngayon. Walang hassle. Walang sapilitang email. Privacy lang.",
+    "finalText": "Sumali sa maraming user na pumipili ng VPN na ginawa para protektahan — hindi para i-track."
+  },
   "about": {
     "title": "Tungkol sa kumpanya",
     "company": "Qat Bilişim LTD.",
@@ -177,6 +201,7 @@
   },
   "footer": {
     "about": "Tungkol sa kumpanya",
+    "download": "I-download",
     "privacy": "Patakaran sa Privacy",
     "terms": "Mga Tuntunin ng Serbisyo",
     "contact": "Makipag-ugnayan",

@@ -4,8 +4,31 @@
   overflow-x: hidden;
 }
 
+/* Плотнее, чем глобальный .section (64px × 2 между блоками) — как на лендинге */
 .sectionBlock {
   background: transparent;
+}
+
+.root :global(.section).sectionBlock {
+  padding-block: var(--space-8);
+}
+
+@media (max-width: 768px) {
+  .root :global(.section).sectionBlock {
+    padding-block: var(--space-6);
+  }
+}
+
+.root :global(.section).finalWrap {
+  padding-block: var(--space-8);
+  padding-bottom: var(--space-16);
+}
+
+@media (max-width: 768px) {
+  .root :global(.section).finalWrap {
+    padding-block: var(--space-6);
+    padding-bottom: var(--space-12);
+  }
 }
 
 /* —— Hero —— */
@@ -75,8 +98,12 @@
 }
 
 .badgeBtn {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   width: 100%;
+  height: 40px;
   padding: 0;
   margin: 0;
   border: none;
@@ -85,14 +112,11 @@
   border-radius: 8px;
   overflow: hidden;
   line-height: 0;
-  transition:
-    opacity var(--transition-fast),
-    transform var(--transition-fast);
+  transition: opacity var(--transition-fast);
 }
 
 .badgeBtn:hover {
-  opacity: 0.92;
-  transform: translateY(-1px);
+  opacity: 0.88;
 }
 
 .badgeBtn:focus-visible {
@@ -100,11 +124,14 @@
   outline-offset: 3px;
 }
 
-/* Официальные бейджи: единая высота (Apple ~40px on-screen guideline) */
+/* Официальные бейджи: одна высота строки, без сдвига при hover */
 .badgeImg {
   display: block;
   width: auto;
-  height: 40px;
+  height: 100%;
+  max-height: 40px;
+  object-fit: contain;
+  object-position: center;
 }
 
 @media (min-width: 640px) {
@@ -125,10 +152,11 @@
   .badgeBtn {
     width: auto;
     flex: 0 0 auto;
+    height: 44px;
   }
 
   .badgeImg {
-    height: 44px;
+    max-height: 44px;
   }
 }
 
@@ -228,11 +256,7 @@
   font-weight: var(--font-medium);
 }
 
-/* Финал — та же логика карточки, без отдельного «другого» фона страницы */
-.finalWrap {
-  padding-bottom: var(--space-20);
-}
-
+/* Финал — отступы секции заданы выше (.root :global(.section).finalWrap) */
 .finalCard {
   max-width: 600px;
   margin-inline: auto;

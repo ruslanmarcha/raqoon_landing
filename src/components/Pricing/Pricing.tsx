@@ -61,7 +61,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
               </div>
               <button
                 type="button"
-                className={`btn ${styles.ctaBtn}`}
+                className={`btn btn-primary ${styles.ctaBtn}`}
                 onClick={openComingSoon}
               >
                 {t('pricing.constructor.cta')}
@@ -122,7 +122,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
               </div>
               <Link
                 to="/migration"
-                className={`btn ${styles.migrationBtn}`}
+                className={`btn btn-primary ${styles.migrationBtn}`}
               >
                 {t('migration.cta')}
               </Link>

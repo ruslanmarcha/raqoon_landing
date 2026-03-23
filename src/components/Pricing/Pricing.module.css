@@ -125,8 +125,16 @@
   line-height: var(--leading-snug);
 }
 
+/* Как «Выбрать» в карточке тарифа: btn-primary + на мобиле на всю ширину */
 .migrationBtn {
-  white-space: nowrap;
+  flex-shrink: 0;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .migrationBtn {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {

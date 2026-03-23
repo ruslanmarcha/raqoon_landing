@@ -124,7 +124,7 @@
   "common": {
     "comingSoonMessage": "Uygulama geliştiriliyor. Yakında abonelik satın alabileceksiniz.",
     "comingSoonOk": "Tamam",
-    "turkeyDownloadUnavailable": "Raqoon Türkiye'de indirilemez."
+    "turkeyDownloadUnavailable": "Maalesef Raqoon, Türkiye'de şu an için indirilebilir değildir."
   },
   "downloadPage": {
     "heroTitle": "Kart yok. E-posta yok. İzleme yok. Sadece koruma.",

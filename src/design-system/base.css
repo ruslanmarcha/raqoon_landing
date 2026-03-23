@@ -150,9 +150,10 @@ ol {
 }
 
 .btn-lg {
-  padding: var(--space-4) var(--space-7);
-  font-size: var(--text-lg);
-  line-height: var(--leading-snug);
+  padding: 16px 28px;
+  font-size: 20px;
+  line-height: 26px;
+  min-height: 58px;
 }
 
 /* Cards */

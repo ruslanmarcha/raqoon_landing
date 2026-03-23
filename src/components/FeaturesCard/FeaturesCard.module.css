@@ -6,16 +6,16 @@
   margin-inline: auto;
   background-color: var(--color-surface);
   border-radius: var(--radius-xl);
-  padding: var(--space-6);
+  padding: 24px 24px 28px;
   position: relative;
   overflow: hidden;
-  max-width: 640px;
+  max-width: 600px;
 }
 
 .list {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: 8px;
   position: relative;
   z-index: 1;
 }

@@ -1,5 +1,5 @@
 .root {
-  padding-top: var(--space-10);
+  padding-top: 0;
   padding-bottom: var(--space-8);
   text-align: center;
 }
@@ -13,8 +13,8 @@
 
 .mascot {
   width: 100%;
-  max-width: 320px;
-  height: 240px;
+  max-width: 600px;
+  height: 300px;
 }
 
 .mascotImg {
@@ -24,16 +24,17 @@
 }
 
 .title {
-  font-size: 52px;
-  font-weight: var(--font-bold);
-  line-height: var(--leading-tight);
-  letter-spacing: -0.02em;
-  max-width: 520px;
+  font-size: 48px;
+  font-weight: var(--font-medium);
+  line-height: 46px;
+  letter-spacing: 0;
+  max-width: 600px;
 }
 
 .subtitle {
-  font-size: var(--text-xl);
-  color: var(--color-text-secondary);
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff99;
 }
 
 .cta {
@@ -52,17 +53,18 @@
   }
 
   .mascot {
-    max-width: 220px;
-    height: 180px;
+    max-width: 375px;
+    height: 187px;
   }
 
   .title {
-    font-size: 44px;
-    max-width: 360px;
-    line-height: 1.15;
+    font-size: 34px;
+    max-width: 343px;
+    line-height: 40px;
   }
 
   .subtitle {
-    font-size: var(--text-base);
+    font-size: 20px;
+    line-height: 24px;
   }
 }

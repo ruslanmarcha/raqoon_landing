@@ -124,7 +124,12 @@
   outline-offset: 3px;
 }
 
-/* Официальные бейджи: одна высота строки, без сдвига при hover */
+/*
+ * Apple: SVG ~40px по гайду, без лишних полей.
+ * Google Play: официальный PNG с большими прозрачными полями в файле — при одной высоте кнопки
+ * цветная часть визуально ниже Apple. Конкуренты часто задают одну высоту в px или режут ассет.
+ * Здесь для Google задаём большую высоту img и margin-block, чтобы «живое» пятно совпало с Apple.
+ */
 .badgeImg {
   display: block;
   width: auto;
@@ -134,10 +139,13 @@
   object-position: center;
 }
 
-/* Google Play PNG — в макете больше «воздуха», чем у Apple SVG; чуть увеличиваем, чтобы визуально совпала высота */
 .badgeImgGoogle {
-  transform: scale(1.14);
-  transform-origin: center center;
+  height: 48px;
+  max-height: 48px;
+  width: auto;
+  margin-block: -4px;
+  object-fit: contain;
+  object-position: center;
 }
 
 @media (min-width: 640px) {
@@ -166,7 +174,9 @@
   }
 
   .badgeImgGoogle {
-    transform: scale(1.12);
+    height: 54px;
+    max-height: 54px;
+    margin-block: -5px;
   }
 }
 

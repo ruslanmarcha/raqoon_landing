@@ -11,6 +11,7 @@ This file is a working memory bank for future agents and contributors. It explai
 - SEO: `react-helmet-async`
 - Styling: global design tokens + `base.css` + CSS Modules
 - Global state: one context for the coming-soon modal
+- Canonical local project path: `/Users/ruslanmarchenko/Documents/GitHub/raqoon_landing/`
 
 ## Canonical Paths
 - Project root: `package.json`, `vite.config.ts`, `tsconfig.json`, `vercel.json`, `index.html`

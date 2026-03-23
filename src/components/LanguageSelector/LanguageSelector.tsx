@@ -34,7 +34,12 @@ export function LanguageSelector(props: Props) {
           onClick={() => handleChange(lang)}
           aria-pressed={current === lang}
         >
-          {lang.toUpperCase()}
+          <span
+            className={`${styles.flag} ${lang === 'ru' ? styles.flagRu : styles.flagEn}`}
+            aria-hidden="true"
+          />
+          <span className={styles.label}>{lang.toUpperCase()}</span>
+          <span className={styles.chevron} aria-hidden="true" />
         </button>
       ))}
     </div>

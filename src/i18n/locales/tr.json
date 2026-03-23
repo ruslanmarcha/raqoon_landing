@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "titleWW": "Raqoon VPN — Hizli ve Guvenli VPN",
+    "descriptionWW": "Raqoon baglantinizi korur, gizliliginizi destekler ve her yerde guvenli internet deneyimi sunar.",
+    "ogTitleWW": "Raqoon — Guvenli Baglanti",
+    "ogDescriptionWW": "Automatic protocol selection, priority support ve 5 cihaza kadar destek."
+  },
+  "hero": {
+    "titleWW": "Raccoon Proxy'den\nVPN",
+    "subtitleWW": "Guvenli, pratik, hizli",
+    "ctaWW": "App Store"
+  },
+  "features": {
+    "title": "Neler dahil",
+    "items": [
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Public Wi-Fi aglarinda baglanti korumasi",
+        "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Planinizi secin",
+    "constructor": {
+      "badge": "Selam",
+      "price": "10",
+      "unit": "$ / day",
+      "cta": "Choose"
+    },
+    "allIn": {
+      "badge": "All Inclusive",
+      "price": "9.99",
+      "unit": "$ / month",
+      "cta": "Choose"
+    },
+    "constructorFeatures": [
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Public Wi-Fi aglarinda baglanti korumasi",
+        "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      }
+    ],
+    "allInFeatures": [
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Public Wi-Fi aglarinda baglanti korumasi",
+        "sub": "Kafede, otelde veya havalimaninda verileriniz sifrelenir ve guvenli kalir"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sikca Sorulan Sorular",
+    "items": [
+      {
+        "q": "Hangi protokolleri kullaniyorsunuz?",
+        "a": "Farkli protokoller hiz, guvenlik ve kararlilik arasinda farkli dengeler sunar. Ornegin WireGuard gibi modern cozumler yuksek hiz ve sade mimari saglarken, klasik protokoller guvenilirlikleriyle bilinir."
+      },
+      {
+        "q": "Sunuculariniz hangi ulkelerde mevcut?",
+        "a": "Turkiye'de sunucularimiz bulunuyor. Bu sayede ozellikle public Wi-Fi aglarinda daha hizli ve daha guvenli baglanti sagliyoruz."
+      },
+      {
+        "q": "Kullanici etkinlik kayitlarini tutuyor musunuz?",
+        "a": "Hayir, kullanici etkinlik loglarini tutmuyoruz. Gizliliginizi korumak icin sikı bir no-logs politikasi uyguluyoruz."
+      },
+      {
+        "q": "VPN baglantisi ne kadar guvenli?",
+        "a": "Baglantiniz modern sifreleme ile korunur. Tum trafik cihazinizdan cikmadan once sifrelenir; bu da her turlu agda yuksek guvenlik saglar."
+      },
+      {
+        "q": "Hangi odeme yontemlerini kabul ediyorsunuz?",
+        "a": "Baslica banka kartlarini ve populer odeme sistemlerini kabul ediyoruz. Tum yontemleri uygulamadaki odeme sayfasinda gorebilirsiniz."
+      }
+    ]
+  },
+  "common": {
+    "turkeyDownloadUnavailable": "Raqoon Turkiye'de indirilemez."
+  }
+}

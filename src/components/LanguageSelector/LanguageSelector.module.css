@@ -212,6 +212,22 @@
   transform: translate(-50%, -50%);
 }
 
+.flagTr {
+  background: #e30a17;
+  position: relative;
+}
+
+.flagTr::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  box-shadow: inset -2px 0 0 2px #ffffff;
+}
+
 .label {
   width: 20px;
   height: 22px;

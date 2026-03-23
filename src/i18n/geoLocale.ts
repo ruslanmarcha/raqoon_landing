@@ -152,7 +152,11 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
   if (countryCode === 'TR') {
     const preferred = getStoredLanguage()
     const locale =
-      preferred && isLocaleSupported(preferred, supportedLngs) ? preferred : 'en'
+      preferred && isLocaleSupported(preferred, supportedLngs)
+        ? preferred
+        : isLocaleSupported('tr', supportedLngs)
+          ? 'tr'
+          : 'en'
 
     return {
       locale,

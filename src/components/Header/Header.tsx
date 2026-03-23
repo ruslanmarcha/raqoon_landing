@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../LanguageSelector/LanguageSelector';
+import { useLocalePolicy } from '../../contexts/LocalePolicyContext';
 import styles from './Header.module.css';
 
 interface HeaderProps {
@@ -8,6 +9,7 @@ interface HeaderProps {
 
 export function Header({ showLanguageSelector = true }: HeaderProps) {
   const { t } = useTranslation();
+  const { allowLanguageSwitch } = useLocalePolicy();
 
   return (
     <header className={styles.root}>
@@ -18,7 +20,7 @@ export function Header({ showLanguageSelector = true }: HeaderProps) {
             <span className={styles.logoText}>Raqoon</span>
           </a>
         </div>
-        {showLanguageSelector && (
+        {showLanguageSelector && allowLanguageSwitch && (
           <LanguageSelector className={styles.languageSelector} />
         )}
       </div>

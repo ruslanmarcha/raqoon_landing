@@ -1,0 +1,163 @@
+const LANGUAGE_STORAGE_KEY = 'raqoon_lang'
+const COUNTRY_STORAGE_KEY = 'raqoon_country'
+
+type LocalePolicy = {
+  locale: string
+  allowLanguageSwitch: boolean
+  countryCode: string | null
+}
+
+const COUNTRY_TO_LANGUAGE: Record<string, string> = {
+  RU: 'ru',
+  BY: 'ru',
+  KZ: 'ru',
+  KG: 'ru',
+  US: 'en',
+  GB: 'en',
+  CA: 'en',
+  AU: 'en',
+  NZ: 'en',
+  IE: 'en',
+  DE: 'de',
+  AT: 'de',
+  CH: 'de',
+  FR: 'fr',
+  BE: 'fr',
+  ES: 'es',
+  MX: 'es',
+  AR: 'es',
+  CL: 'es',
+  IT: 'it',
+  PT: 'pt',
+  BR: 'pt',
+  NL: 'nl',
+  PL: 'pl',
+  CZ: 'cs',
+  SK: 'sk',
+  RO: 'ro',
+  HU: 'hu',
+  GR: 'el',
+  TR: 'tr',
+  UA: 'uk',
+  CN: 'zh',
+  TW: 'zh',
+  HK: 'zh',
+  JP: 'ja',
+  KR: 'ko',
+  SA: 'ar',
+  AE: 'ar',
+  IL: 'he',
+  IN: 'hi',
+  ID: 'id',
+  TH: 'th',
+  VN: 'vi',
+}
+
+function isLocaleSupported(locale: string, supportedLngs: string[]): boolean {
+  return supportedLngs.includes(locale)
+}
+
+function normalizeLanguageTag(languageTag: string): string {
+  return languageTag.split('-')[0].toLowerCase()
+}
+
+function getCountryFromStorage(): string | null {
+  try {
+    return localStorage.getItem(COUNTRY_STORAGE_KEY)
+  } catch {
+    return null
+  }
+}
+
+function setCountryToStorage(countryCode: string): void {
+  try {
+    localStorage.setItem(COUNTRY_STORAGE_KEY, countryCode)
+  } catch {
+    // Ignore storage errors in private mode or blocked storage.
+  }
+}
+
+async function fetchCountryCode(): Promise<string | null> {
+  const cachedCountry = getCountryFromStorage()
+  if (cachedCountry) {
+    return cachedCountry
+  }
+
+  try {
+    const response = await fetch('https://ipapi.co/json/', { cache: 'no-store' })
+    if (!response.ok) {
+      return null
+    }
+
+    const data = (await response.json()) as { country_code?: string }
+    const countryCode = data.country_code?.toUpperCase()
+    if (!countryCode) {
+      return null
+    }
+
+    setCountryToStorage(countryCode)
+    return countryCode
+  } catch {
+    return null
+  }
+}
+
+function getStoredLanguage(): string | null {
+  try {
+    return localStorage.getItem(LANGUAGE_STORAGE_KEY)
+  } catch {
+    return null
+  }
+}
+
+function detectBrowserLanguage(supportedLngs: string[]): string {
+  const browserLanguage = normalizeLanguageTag(navigator.language || 'en')
+  return isLocaleSupported(browserLanguage, supportedLngs) ? browserLanguage : 'en'
+}
+
+export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
+  const countryCode = await fetchCountryCode()
+
+  if (countryCode === 'RU') {
+    return {
+      locale: isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en',
+      allowLanguageSwitch: false,
+      countryCode,
+    }
+  }
+
+  if (countryCode === 'TR') {
+    const preferred = getStoredLanguage()
+    const locale =
+      preferred && isLocaleSupported(preferred, supportedLngs) ? preferred : 'en'
+
+    return {
+      locale,
+      allowLanguageSwitch: true,
+      countryCode,
+    }
+  }
+
+  if (countryCode) {
+    const countryLanguage = COUNTRY_TO_LANGUAGE[countryCode] ?? 'en'
+    return {
+      locale: isLocaleSupported(countryLanguage, supportedLngs) ? countryLanguage : 'en',
+      allowLanguageSwitch: false,
+      countryCode,
+    }
+  }
+
+  return {
+    locale: detectBrowserLanguage(supportedLngs),
+    allowLanguageSwitch: false,
+    countryCode: null,
+  }
+}
+
+export function persistSelectedLanguage(locale: string): void {
+  try {
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, locale)
+  } catch {
+    // Ignore storage errors in private mode or blocked storage.
+  }
+}

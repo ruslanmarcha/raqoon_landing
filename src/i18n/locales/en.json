@@ -107,7 +107,8 @@
   },
   "common": {
     "comingSoonMessage": "The app is in development. Soon you will be able to buy a subscription.",
-    "comingSoonOk": "OK"
+    "comingSoonOk": "OK",
+    "turkeyDownloadUnavailable": "Raqoon is unavailable for download in Turkey."
   },
   "about": {
     "title": "About company",

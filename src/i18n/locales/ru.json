@@ -101,7 +101,8 @@
   },
   "common": {
     "comingSoonMessage": "Приложение в разработке, скоро ты сможешь купить подписку",
-    "comingSoonOk": "Понятно"
+    "comingSoonOk": "Понятно",
+    "turkeyDownloadUnavailable": "Raqoon недоступен для скачивания в Турции."
   },
   "about": {
     "title": "О компании",

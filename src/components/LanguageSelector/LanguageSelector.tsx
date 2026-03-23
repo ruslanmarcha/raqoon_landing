@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { persistSelectedLanguage } from '../../i18n/geoLocale';
 import styles from './LanguageSelector.module.css';
 
 type Props = {
@@ -16,6 +17,7 @@ export function LanguageSelector(props: Props) {
 
   function handleChange(lang: 'ru' | 'en') {
     i18n.changeLanguage(lang);
+    persistSelectedLanguage(lang);
   }
 
   return (

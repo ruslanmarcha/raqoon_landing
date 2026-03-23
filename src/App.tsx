@@ -8,6 +8,8 @@ import { AboutCompany } from './pages/AboutCompany'
 import { LegalPage } from './pages/LegalPage'
 import { NotFoundPage } from './pages/NotFoundPage'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
+import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
+import { TurkeyAvailabilityNotice } from './components/TurkeyAvailabilityNotice/TurkeyAvailabilityNotice'
 
 function LoadingFallback() {
   return (
@@ -23,25 +25,35 @@ function LoadingFallback() {
   )
 }
 
-export function App() {
+type AppProps = {
+  allowLanguageSwitch: boolean
+  countryCode: string | null
+}
+
+export function App({ allowLanguageSwitch, countryCode }: AppProps) {
   return (
     <HelmetProvider>
       <ComingSoonProvider>
-        <BrowserRouter>
-          <Suspense fallback={<LoadingFallback />}>
-            <Routes>
-              <Route path="/" element={<LandingRU />} />
-              <Route path="/ww" element={<LandingWW />} />
-              <Route path="/migration" element={<MigrationRU />} />
-              <Route path="/about" element={<AboutCompany />} />
-              <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
-              <Route path="/terms" element={<LegalPage legalKey="terms" />} />
-              <Route path="/contact" element={<LegalPage legalKey="contact" />} />
-              <Route path="/refund" element={<LegalPage legalKey="refund" />} />
-              <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-          </Suspense>
-        </BrowserRouter>
+        <LocalePolicyProvider allowLanguageSwitch={allowLanguageSwitch} countryCode={countryCode}>
+          <BrowserRouter>
+            <Suspense fallback={<LoadingFallback />}>
+              <>
+                <Routes>
+                  <Route path="/" element={<LandingRU />} />
+                  <Route path="/ww" element={<LandingWW />} />
+                  <Route path="/migration" element={<MigrationRU />} />
+                  <Route path="/about" element={<AboutCompany />} />
+                  <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
+                  <Route path="/terms" element={<LegalPage legalKey="terms" />} />
+                  <Route path="/contact" element={<LegalPage legalKey="contact" />} />
+                  <Route path="/refund" element={<LegalPage legalKey="refund" />} />
+                  <Route path="*" element={<NotFoundPage />} />
+                </Routes>
+                <TurkeyAvailabilityNotice />
+              </>
+            </Suspense>
+          </BrowserRouter>
+        </LocalePolicyProvider>
       </ComingSoonProvider>
     </HelmetProvider>
   )

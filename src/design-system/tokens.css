@@ -14,7 +14,7 @@
   --color-accent: #53ff76;
 
   /* Typography */
-  --font-sans: 'TikTok Sans', sans-serif, system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', sans-serif, system-ui, -apple-system, sans-serif;
 
   --text-xs: 0.75rem; /* 12px */
   --text-sm: 0.875rem; /* 14px */
@@ -72,5 +72,5 @@
   /* Layout */
   --container-max: 640px;
   --container-px: var(--space-6);
-  --breakpoint-mobile: 375px;
+  --breakpoint-mobile: 768px;
 }

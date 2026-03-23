@@ -129,7 +129,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
   }

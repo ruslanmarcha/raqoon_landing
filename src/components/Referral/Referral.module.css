@@ -49,7 +49,7 @@
   margin-top: var(--space-2);
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .card {
     padding: var(--space-8) var(--space-5);
   }

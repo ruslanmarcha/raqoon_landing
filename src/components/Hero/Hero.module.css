@@ -45,7 +45,7 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .root {
     padding-top: var(--space-8);
     padding-bottom: var(--space-6);

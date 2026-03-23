@@ -167,7 +167,7 @@ ol {
   padding-block: var(--space-16);
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .section {
     padding-block: var(--space-12);
   }

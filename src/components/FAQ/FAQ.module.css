@@ -61,7 +61,7 @@
   max-width: 640px;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .title {
     font-size: var(--text-3xl);
     margin-bottom: var(--space-5);

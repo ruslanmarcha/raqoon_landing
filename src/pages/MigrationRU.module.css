@@ -94,7 +94,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
   .heroCard,
   .card,
   .alertCard {

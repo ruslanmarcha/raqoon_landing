@@ -111,11 +111,11 @@
     "comingSoonOk": "Понятно"
   },
   "footer": {
-    "about": "About company",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "contact": "Contact",
-    "refund": "Refund Policy",
+    "about": "О компании",
+    "privacy": "Политика конфиденциальности",
+    "terms": "Условия использования",
+    "contact": "Контакты",
+    "refund": "Политика возврата",
     "copy": "© 2026 Raqoon"
   },
   "lang": {

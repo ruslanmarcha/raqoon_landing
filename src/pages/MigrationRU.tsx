@@ -1,9 +1,15 @@
+import { useEffect } from 'react'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
 import styles from './MigrationRU.module.css'
 
 export function MigrationRU() {
+  useEffect(() => {
+    // Ensure route always opens from top on direct visit and navigation.
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [])
+
   return (
     <>
       <SEOHead variant="ru" />
@@ -13,12 +19,10 @@ export function MigrationRU() {
           <div className="container">
             <div className={styles.heroCard}>
               <h1 className={styles.title}>
-                Время переезда:
-                <br />
-                переносим твою подписку в Raqoon
+                Добро пожаловать в Raqoon!
               </h1>
               <p className={styles.lead}>
-                Привет! Наш новый дом готов, и пора перебираться из ИЗИ в
+                Наш новый дом готов, и пора переезжать из ИЗИ в
                 <a
                   href="https://t.me/raqoonbot"
                   target="_blank"
@@ -58,7 +62,7 @@ export function MigrationRU() {
                 </li>
               </ol>
               <p className={styles.note}>
-                RaqoonID и промокод миграции придут тебе в чате с ИЗИ-ботом.
+                RaqoonID и промокод миграции отправим тебе в чат с ИЗИ-ботом.
               </p>
             </div>
 

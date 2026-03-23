@@ -7,7 +7,7 @@ export function MigrationRU() {
   return (
     <>
       <SEOHead variant="ru" />
-      <Header />
+      <Header showLanguageSelector={false} />
       <main>
         <section className={`section ${styles.hero}`}>
           <div className="container">

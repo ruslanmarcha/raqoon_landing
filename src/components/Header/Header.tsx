@@ -2,7 +2,11 @@ import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../LanguageSelector/LanguageSelector';
 import styles from './Header.module.css';
 
-export function Header() {
+interface HeaderProps {
+  showLanguageSelector?: boolean;
+}
+
+export function Header({ showLanguageSelector = true }: HeaderProps) {
   const { t } = useTranslation();
 
   return (
@@ -14,7 +18,9 @@ export function Header() {
             <span className={styles.logoText}>Raqoon</span>
           </a>
         </div>
-        <LanguageSelector className={styles.languageSelector} />
+        {showLanguageSelector && (
+          <LanguageSelector className={styles.languageSelector} />
+        )}
       </div>
     </header>
   );

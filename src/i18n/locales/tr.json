@@ -142,7 +142,9 @@
       "Popüler platform desteği"
     ],
     "finalTitle": "Şimdi indirin. Gereksiz kayıt yok. Zorunlu e-posta yok. Sadece gizlilik.",
-    "finalText": "Korumak için tasarlanmış, izlemek için değil — bu VPN’i seçen çok sayıda kullanıcıya katılın."
+    "finalText": "Korumak için tasarlanmış, izlemek için değil — bu VPN’i seçen çok sayıda kullanıcıya katılın.",
+    "ctaHome": "Ana sayfa",
+    "ctaPlans": "Planları gör"
   },
   "about": {
     "title": "Şirket hakkında",

@@ -164,7 +164,9 @@
       "Prise en charge des plateformes courantes"
     ],
     "finalTitle": "Téléchargez maintenant. Sans friction. Sans e-mail imposé. Juste la confidentialité.",
-    "finalText": "Rejoignez une communauté grandissante qui choisit un VPN conçu pour protéger, pas pour tracer."
+    "finalText": "Rejoignez une communauté grandissante qui choisit un VPN conçu pour protéger, pas pour tracer.",
+    "ctaHome": "Retour à l’accueil",
+    "ctaPlans": "Voir les offres"
   },
   "about": {
     "title": "À propos de l'entreprise",

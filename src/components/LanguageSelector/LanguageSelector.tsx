@@ -54,13 +54,15 @@ export function LanguageSelector(props: Props) {
         aria-haspopup="listbox"
         aria-expanded={isOpen}
       >
-        <span
-          className={`${styles.flag} ${current === 'ru' ? styles.flagRu : styles.flagEn}`}
-          aria-hidden="true"
-        />
-        <span className={styles.language}>
-          <span className={styles.label}>{currentLabel}</span>
-          <span className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`} aria-hidden="true" />
+        <span className={styles.languageRow}>
+          <span
+            className={`${styles.flag} ${current === 'ru' ? styles.flagRu : styles.flagEn}`}
+            aria-hidden="true"
+          />
+          <span className={styles.language}>
+            <span className={styles.label}>{currentLabel}</span>
+            <span className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`} aria-hidden="true" />
+          </span>
         </span>
       </button>
 

@@ -9,10 +9,10 @@ interface HeroProps {
 }
 
 export function Hero({ variant }: HeroProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { openComingSoon } = useComingSoon();
 
-  const suffix = variant.toUpperCase();
+  const suffix = i18n.language.startsWith('ru') ? 'RU' : 'WW';
   const titleRaw: string = t(`hero.title${suffix}`);
   const titleLines = titleRaw.split('\n');
 
@@ -37,7 +37,7 @@ export function Hero({ variant }: HeroProps) {
             onClick={openComingSoon}
             className={`btn btn-secondary btn-lg ${styles.cta}`}
           >
-            {t('hero.ctaRU')}
+            {t(`hero.cta${suffix}`)}
           </button>
         ) : (
           <button
@@ -50,7 +50,7 @@ export function Hero({ variant }: HeroProps) {
               aria-hidden="true"
               className={styles.appleIcon}
             />
-            {t('hero.ctaWW')}
+            {t(`hero.cta${suffix}`)}
           </button>
         )}
       </div>

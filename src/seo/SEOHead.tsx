@@ -9,8 +9,9 @@ interface SEOHeadProps {
 export function SEOHead({ variant, canonicalUrl }: SEOHeadProps) {
   const { t, i18n } = useTranslation()
   const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'
-  const suffix = variant === 'ru' ? 'RU' : 'WW'
-  const siteName = variant === 'ru' ? 'Raqoon VPS' : 'Raqoon VPN'
+  const suffix = lang === 'ru' ? 'RU' : 'WW'
+  void variant
+  const siteName = lang === 'ru' ? 'Raqoon VPS' : 'Raqoon VPN'
 
   const title = t(`meta.title${suffix}`)
   const description = t(`meta.description${suffix}`)

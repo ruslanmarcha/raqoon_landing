@@ -36,6 +36,10 @@
   color: #ffffff99;
 }
 
+.legalText {
+  white-space: pre-line;
+}
+
 .link {
   color: #53ff76;
 }

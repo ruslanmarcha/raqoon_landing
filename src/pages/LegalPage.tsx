@@ -28,7 +28,9 @@ export function LegalPage({ legalKey }: LegalPageProps) {
           <div className="container">
             <h1 className={styles.title}>{t(`legal.${legalKey}.title`)}</h1>
             <div className={styles.block}>
-              <p className={styles.text}>{t(`legal.${legalKey}.body`)}</p>
+              <p className={`${styles.text} ${styles.legalText}`}>
+                {t(`legal.${legalKey}.body`)}
+              </p>
             </div>
           </div>
         </section>

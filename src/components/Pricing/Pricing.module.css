@@ -1,0 +1,150 @@
+.root {
+  padding-top: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.gridSingle {
+  grid-template-columns: 1fr;
+  max-width: 520px;
+}
+
+.card {
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.cardBase {
+  background-color: var(--color-surface);
+}
+
+.cardPremium {
+  background-color: #70ff6c1f;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xl);
+  font-weight: var(--font-medium);
+  color: var(--color-accent);
+}
+
+.badgeIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.priceRow {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.price {
+  font-size: var(--text-3xl);
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.unit {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+}
+
+.ctaBtn {
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  flex: 1;
+}
+
+.featuresWrapper {
+  flex: 1;
+}
+
+.allInCard {
+  min-height: 100%;
+}
+
+.migrationWrapper {
+  margin-top: var(--space-5);
+}
+
+.migrationCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-5);
+  padding: var(--space-5);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+.migrationLeft {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.migrationIcon {
+  width: 44px;
+  height: 44px;
+}
+
+.migrationText {
+  font-size: var(--text-lg);
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  line-height: var(--leading-snug);
+}
+
+.migrationBtn {
+  white-space: nowrap;
+}
+
+@media (max-width: 430px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gridSingle {
+    max-width: 100%;
+  }
+
+  .card {
+    padding: var(--space-5);
+  }
+
+  .migrationCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+  }
+}

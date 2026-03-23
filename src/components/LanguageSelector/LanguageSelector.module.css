@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  border: 1px solid var(--color-border);
+}
+
+.btn {
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.btn:hover {
+  color: var(--color-text-secondary);
+}
+
+.btn.active {
+  background-color: var(--color-surface-elevated);
+  color: var(--color-text);
+}

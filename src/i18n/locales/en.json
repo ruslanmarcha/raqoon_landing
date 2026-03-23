@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "titleWW": "Raqoon VPN — Fast & Secure VPN for Your Favorite Services",
+    "titleRU": "Raqoon VPN — Доступный и надёжный VPN",
+    "descriptionWW": "Raqoon VPN protects your privacy, bypasses restrictions, and keeps you connected worldwide. Available on App Store.",
+    "descriptionRU": "Raqoon VPN — fast, accessible, and reliable VPN with automatic protocol selection and priority support.",
+    "ogTitleWW": "Raqoon — VPN for Your Favorite Services",
+    "ogTitleRU": "Raqoon — Accessible, Convenient, Reliable VPN",
+    "ogDescriptionWW": "Download Raqoon VPN on App Store. Automatic protocol selection, priority support, and up to 5 devices.",
+    "ogDescriptionRU": "Raqoon VPN plans from 10 ₽/day. Fast connection, Russian servers, referral program."
+  },
+  "nav": {
+    "logoAlt": "Raqoon"
+  },
+  "hero": {
+    "titleWW": "VPN for Your\nFavorite Services",
+    "subtitleWW": "Accessible, convenient, reliable",
+    "ctaWW": "App Store",
+    "titleRU": "Accessible,\nConvenient, Reliable",
+    "subtitleRU": "Accessible, convenient, reliable",
+    "ctaRU": "Buy VPN"
+  },
+  "features": {
+    "title": "What's included",
+    "items": [
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Useful when traveling abroad"
+      },
+      {
+        "label": "VPN country switching"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Choose a plan",
+    "constructor": {
+      "badge": "Constructor",
+      "price": "10",
+      "unit": "$ / day",
+      "cta": "Choose"
+    },
+    "allIn": {
+      "badge": "All Inclusive",
+      "price": "15",
+      "unit": "$ / day",
+      "cta": "Choose"
+    },
+    "constructorFeatures": [
+      { "label": "Automatic protocol selection" },
+      { "label": "Priority support", "sub": "We always reply within 24 hours" },
+      { "label": "RusVPN", "sub": "Useful when traveling abroad" },
+      { "label": "VPN country switching" },
+      { "label": "Up to 5 devices" },
+      { "label": "Large traffic volume" }
+    ],
+    "allInFeatures": [
+      { "label": "Everything in Constructor" },
+      { "label": "VPN for any services" },
+      { "label": "Third-party app support" },
+      { "label": "Priority support" }
+    ]
+  },
+  "migration": {
+    "title": "For IZI users. We explain the migration",
+    "cta": "Learn more"
+  },
+  "referral": {
+    "title": "Invite a friend —\nget more time",
+    "description": "Just share your code. Your friend gets +10 days on their first subscription, and you get up to 30 days as a bonus.",
+    "cta": "Get days"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "What protocols do you use?",
+        "a": "Different protocols offer different balances of speed, security, and stability. For example, modern solutions like WireGuard offer high speed and simple architecture, while classic protocols like OpenVPN are known for their reliability and wide support."
+      },
+      {
+        "q": "In which countries are your servers available?",
+        "a": "We have servers in many countries around the world. The full list of available locations is available in the app after connecting."
+      },
+      {
+        "q": "Do you store user activity logs?",
+        "a": "No, we do not store user activity logs. We adhere to a strict no-logs policy to protect your privacy."
+      },
+      {
+        "q": "How secure is a VPN connection?",
+        "a": "Our VPN uses modern encryption to protect your data. All traffic is encrypted before leaving your device, ensuring high security on any network."
+      },
+      {
+        "q": "What payment methods do you accept?",
+        "a": "We accept major bank cards, as well as popular payment systems. For a full list of available methods, see the payment page in the app."
+      }
+    ]
+  },
+  "footer": {
+    "about": "About company",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "refund": "Refund Policy",
+    "copy": "© 2026 Raqoon"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "EN"
+  }
+}

@@ -1,13 +1,13 @@
 {
   "meta": {
     "titleWW": "Raqoon VPN — Fast & Secure VPN for Your Favorite Services",
-    "titleRU": "Raqoon VPN — Доступный и надёжный VPN",
+    "titleRU": "Raqoon VPS — Accessible, Convenient, Reliable VPS",
     "descriptionWW": "Raqoon VPN protects your privacy, bypasses restrictions, and keeps you connected worldwide. Available on App Store.",
-    "descriptionRU": "Raqoon VPN — fast, accessible, and reliable VPN with automatic protocol selection and priority support.",
+    "descriptionRU": "Raqoon VPS — fast, accessible, and reliable VPS with automatic protocol selection and priority support.",
     "ogTitleWW": "Raqoon — VPN for Your Favorite Services",
-    "ogTitleRU": "Raqoon — Accessible, Convenient, Reliable VPN",
+    "ogTitleRU": "Raqoon — Accessible, Convenient, Reliable VPS",
     "ogDescriptionWW": "Download Raqoon VPN on App Store. Automatic protocol selection, priority support, and up to 5 devices.",
-    "ogDescriptionRU": "Raqoon VPN plans from 10 ₽/day. Fast connection, Russian servers, referral program."
+    "ogDescriptionRU": "Raqoon VPS plans from 10 ₽/day. Fast connection, Russian servers, referral program."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -18,7 +18,7 @@
     "ctaWW": "App Store",
     "titleRU": "Accessible,\nConvenient, Reliable",
     "subtitleRU": "Accessible, convenient, reliable",
-    "ctaRU": "Buy VPN"
+    "ctaRU": "Buy VPS"
   },
   "features": {
     "title": "What's included",
@@ -103,8 +103,8 @@
         "a": "No, we do not store user activity logs. We adhere to a strict no-logs policy to protect your privacy."
       },
       {
-        "q": "How secure is a VPN connection?",
-        "a": "Our VPN uses modern encryption to protect your data. All traffic is encrypted before leaving your device, ensuring high security on any network."
+        "q": "How secure is a VPS connection?",
+        "a": "Our VPS uses modern encryption to protect your data. All traffic is encrypted before leaving your device, ensuring high security on any network."
       },
       {
         "q": "What payment methods do you accept?",

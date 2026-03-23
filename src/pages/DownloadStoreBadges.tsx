@@ -8,15 +8,17 @@ import {
 } from '../utils/storeBadgeUrls'
 import styles from './DownloadPage.module.css'
 
-type BadgeItem = { src: string; key: string }
+type BadgeKind = 'apple' | 'google' | 'mac'
+
+type BadgeItem = { src: string; key: string; kind: BadgeKind }
 
 function useDownloadBadges(): BadgeItem[] {
   const { i18n } = useTranslation()
   return useMemo(
     () => [
-      { src: getAppleAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaAppStore' },
-      { src: getGooglePlayBadgeUrl(i18n.language), key: 'downloadPage.badgeAriaGooglePlay' },
-      { src: getMacAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaMacAppStore' },
+      { src: getAppleAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaAppStore', kind: 'apple' },
+      { src: getGooglePlayBadgeUrl(i18n.language), key: 'downloadPage.badgeAriaGooglePlay', kind: 'google' },
+      { src: getMacAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaMacAppStore', kind: 'mac' },
     ],
     [i18n.language],
   )
@@ -33,9 +35,9 @@ export function DownloadStoreBadges({ className }: Props) {
 
   return (
     <div className={`${styles.storeBadges} ${className ?? ''}`}>
-      {badges.map(({ src, key }) => (
+      {badges.map(({ src, key, kind }) => (
         <button
-          key={src}
+          key={key}
           type="button"
           className={styles.badgeBtn}
           onClick={openComingSoon}
@@ -44,7 +46,11 @@ export function DownloadStoreBadges({ className }: Props) {
           <img
             src={src}
             alt=""
-            className={styles.badgeImg}
+            className={
+              kind === 'google'
+                ? `${styles.badgeImg} ${styles.badgeImgGoogle}`
+                : styles.badgeImg
+            }
             loading="lazy"
             decoding="async"
           />

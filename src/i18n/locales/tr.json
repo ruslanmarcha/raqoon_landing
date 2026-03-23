@@ -127,7 +127,7 @@
     "turkeyDownloadUnavailable": "Maalesef Raqoon, Türkiye'de şu an için indirilebilir değildir."
   },
   "downloadPage": {
-    "heroTitle": "Kart yok. E-posta yok. İzleme yok. Sadece koruma.",
+    "heroTitle": "Kartsız. E-postasız. Takipsiz. Sadece koruma.",
     "heroText": "Bağlan’a dokunun — korunursunuz. Veri saklamıyoruz — takip yok.",
     "mythsTitle": "VPN efsaneleri",
     "mythsP1": "Her VPN’nin kimliğe bağlı olduğu söylenir. Raqoon’da hesap var ama anonim: kayıtlı banka kartı yok, zorunlu e-posta yok.",

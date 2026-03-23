@@ -110,7 +110,7 @@
   background: transparent;
   cursor: pointer;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible;
   line-height: 0;
   transition: opacity var(--transition-fast);
 }
@@ -132,6 +132,12 @@
   max-height: 40px;
   object-fit: contain;
   object-position: center;
+}
+
+/* Google Play PNG — в макете больше «воздуха», чем у Apple SVG; чуть увеличиваем, чтобы визуально совпала высота */
+.badgeImgGoogle {
+  transform: scale(1.14);
+  transform-origin: center center;
 }
 
 @media (min-width: 640px) {
@@ -157,6 +163,10 @@
 
   .badgeImg {
     max-height: 44px;
+  }
+
+  .badgeImgGoogle {
+    transform: scale(1.12);
   }
 }
 

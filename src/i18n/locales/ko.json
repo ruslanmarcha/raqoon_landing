@@ -24,7 +24,7 @@
         "sub": "우리는 항상 24시간 이내에 답변을 드립니다"
       },
       {
-        "label": "RusVPN",
+        "label": "VPN",
         "sub": "해외여행갈때 유용해요"
       },
       {
@@ -61,7 +61,7 @@
         "sub": "우리는 항상 24시간 이내에 답변을 드립니다"
       },
       {
-        "label": "RusVPN",
+        "label": "VPN",
         "sub": "해외여행갈때 유용해요"
       },
       {
@@ -83,7 +83,7 @@
         "sub": "우리는 항상 24시간 이내에 답변을 드립니다"
       },
       {
-        "label": "RusVPN",
+        "label": "VPN",
         "sub": "해외여행갈때 유용해요"
       },
       {
@@ -145,7 +145,7 @@
   "about": {
     "title": "회사소개",
     "company": "Qat Bilişim LTD.",
-    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Турция",
+    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Türkiye",
     "emailLabel": "이메일:",
     "email": "hello@raqoon.app",
     "keyPointsTitle": "요점",

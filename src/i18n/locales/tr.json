@@ -112,5 +112,13 @@
   },
   "common": {
     "turkeyDownloadUnavailable": "Raqoon Turkiye'de indirilemez."
+  },
+  "footer": {
+    "about": "Sirket hakkinda",
+    "privacy": "Gizlilik Politikasi",
+    "terms": "Kullanim Sartlari",
+    "contact": "Iletisim",
+    "refund": "Iade Politikasi",
+    "copy": "© 2026 Raqoon"
   }
 }

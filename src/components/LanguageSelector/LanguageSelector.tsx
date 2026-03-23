@@ -10,6 +10,7 @@ type Props = {
 const LANG_OPTIONS = [
   { code: 'ru', label: 'RU', flag: 'ru' },
   { code: 'en', label: 'EN', flag: 'gb' },
+  { code: 'tr', label: 'TR', flag: 'tr' },
   { code: 'ar', label: 'AR', flag: 'ar' },
   { code: 'tl', label: 'TL', flag: 'ph' },
   { code: 'pl', label: 'PL', flag: 'pl' },
@@ -21,7 +22,6 @@ const LANG_OPTIONS = [
   { code: 'id', label: 'ID', flag: 'id' },
   { code: 'ja', label: 'JA', flag: 'jp' },
   { code: 'ko', label: 'KO', flag: 'kr' },
-  { code: 'tr', label: 'TR', flag: 'tr' },
 ] as const;
 
 type LangCode = (typeof LANG_OPTIONS)[number]['code'];

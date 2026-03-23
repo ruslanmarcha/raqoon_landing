@@ -46,6 +46,22 @@ function resolveGoogleBadgeSpec(language: string): GoogleBadgeSpec {
   return { intlPath: 'en_us', filePrefix: 'en' }
 }
 
+/**
+ * Локализованные PNG Google Play с CDN имеют разное «воздушное» поле в файле.
+ * ru / tr сверены визуально; остальным языкам нужен чуть больший scale, чтобы высота
+ * совпадала с эталоном (как в русской локали).
+ */
+export function getGooglePlayBadgeVisualScale(language: string): {
+  sm: number
+  md: number
+} {
+  const lower = language.trim().toLowerCase()
+  if (lower.startsWith('ru') || lower.startsWith('tr')) {
+    return { sm: 1.32, md: 1.28 }
+  }
+  return { sm: 1.42, md: 1.38 }
+}
+
 /** Default: US/UK English black SVG from Apple marketing guidelines (see /public/badges/). */
 export const APPLE_APP_STORE_BADGE_SRC = '/badges/app-store.svg' as const
 export const APPLE_MAC_APP_STORE_BADGE_SRC = '/badges/mac-app-store.svg' as const

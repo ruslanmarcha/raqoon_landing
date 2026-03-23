@@ -1,8 +1,9 @@
-import { useMemo } from 'react'
+import { useMemo, type CSSProperties } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useComingSoon } from '../contexts/ComingSoonContext'
 import {
   getGooglePlayBadgeUrl,
+  getGooglePlayBadgeVisualScale,
   getAppleAppStoreBadgeSrc,
   getMacAppStoreBadgeSrc,
 } from '../utils/storeBadgeUrls'
@@ -29,9 +30,13 @@ type Props = {
 }
 
 export function DownloadStoreBadges({ className }: Props) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const { openComingSoon } = useComingSoon()
   const badges = useDownloadBadges()
+  const googleScale = useMemo(
+    () => getGooglePlayBadgeVisualScale(i18n.language),
+    [i18n.language],
+  )
 
   return (
     <div className={`${styles.storeBadges} ${className ?? ''}`}>
@@ -43,7 +48,17 @@ export function DownloadStoreBadges({ className }: Props) {
           onClick={openComingSoon}
           aria-label={t(key)}
         >
-          <span className={styles.badgeFrame}>
+          <span
+            className={styles.badgeFrame}
+            style={
+              kind === 'google'
+                ? ({
+                    '--badge-google-sm': googleScale.sm,
+                    '--badge-google-md': googleScale.md,
+                  } as CSSProperties)
+                : undefined
+            }
+          >
             <img
               src={src}
               alt=""

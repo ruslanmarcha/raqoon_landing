@@ -128,7 +128,7 @@
   },
   "downloadPage": {
     "heroTitle": "Kart yok. E-posta yok. İzleme yok. Sadece koruma.",
-    "heroText": "Uygulamayı indirin, Bağlan’a dokunun — korunursunuz. Veriniz olmadığı için sizi izleyemeyiz.",
+    "heroText": "Bağlan’a dokunun — korunursunuz. Veri saklamıyoruz — takip yok.",
     "mythsTitle": "VPN efsaneleri",
     "mythsP1": "Her VPN’nin kimliğe bağlı olduğu söylenir. Raqoon’da hesap var ama anonim: kayıtlı banka kartı yok, zorunlu e-posta yok.",
     "mythsP2": "Reklamla “bedava” modeli yok. 3 gün tam erişim, ardından zaten seçtiğiniz planın ödemesi. Trafik korumasına odaklanıyoruz — veri toplamaya değil.",
@@ -144,7 +144,10 @@
     "finalTitle": "Şimdi indirin. Gereksiz kayıt yok. Zorunlu e-posta yok. Sadece gizlilik.",
     "finalText": "Korumak için tasarlanmış, izlemek için değil — bu VPN’i seçen çok sayıda kullanıcıya katılın.",
     "ctaHome": "Ana sayfa",
-    "ctaPlans": "Planları gör"
+    "ctaPlans": "Planları gör",
+    "badgeAriaAppStore": "App Store’dan indir — yakında",
+    "badgeAriaGooglePlay": "Google Play — yakında",
+    "badgeAriaMacAppStore": "Mac App Store’dan indir — yakında"
   },
   "about": {
     "title": "Şirket hakkında",

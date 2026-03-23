@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="54" viewBox="0 0 210 54" aria-hidden="true">
+  <rect width="210" height="54" rx="8" fill="#000"/>
+  <rect x="0.5" y="0.5" width="209" height="53" rx="7.5" fill="none" stroke="#ffffff" stroke-opacity="0.2"/>
+  <g transform="translate(8,9)">
+    <path fill="#00D9FF" d="M6 0 L6 36 L22 18 Z"/>
+    <path fill="#00F076" d="M6 0 L22 18 L34 9 L34 2 Z"/>
+    <path fill="#FFE500" d="M6 36 L22 18 L34 27 L34 34 Z"/>
+    <path fill="#FF3A44" d="M34 9 L34 27 L22 18 Z"/>
+  </g>
+  <text x="118" y="22" text-anchor="middle" fill="#ffffff" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" font-weight="500">GET IT ON</text>
+  <text x="118" y="40" text-anchor="middle" fill="#ffffff" font-family="system-ui,-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" font-weight="600">Google Play</text>
+</svg>

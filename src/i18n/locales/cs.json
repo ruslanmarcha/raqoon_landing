@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "Bez karty. Bez e-mailu. Bez sledování. Jen ochrana.",
-    "heroText": "Stáhněte aplikaci, klepněte na Připojit — a jste v bezpečí. Nemůžeme vás špehovat, protože nemáme vaše data.",
+    "heroText": "Klepněte na Připojit — jste v bezpečí. Data neskladujeme — nesledujeme vás.",
     "mythsTitle": "Mýty o VPN — stručně",
     "mythsP1": "Často se říká, že každé VPN je navázané na identitu. U Raqoon účet je, ale anonymní: bez uložené platební karty a bez povinného e-mailu.",
     "mythsP2": "Nenabízíme „zdarma s reklamou“. Máte 3 plné dny přístupu, pak platíte za již zvolený tarif. Chráníme provoz — nesbíráme data pro reklamu.",
@@ -166,7 +166,10 @@
     "finalTitle": "Stáhněte teď. Bez zbytečné registrace. Bez vynuceného e-mailu. Jen soukromí.",
     "finalText": "Přidejte se k mnoha uživatelům, kteří chtějí VPN bez modelu sledování.",
     "ctaHome": "Zpět na úvod",
-    "ctaPlans": "Zobrazit tarify"
+    "ctaPlans": "Zobrazit tarify",
+    "badgeAriaAppStore": "Stáhnout v App Store — brzy",
+    "badgeAriaGooglePlay": "Google Play — brzy",
+    "badgeAriaMacAppStore": "Stáhnout v Mac App Store — brzy"
   },
   "about": {
     "title": "O společnosti",

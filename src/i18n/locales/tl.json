@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "Walang card. Walang email. Walang tracking. Proteksyon lang.",
-    "heroText": "I-download ang app, i-tap ang Connect — protektado ka na. Hindi ka namin masusundan dahil wala kaming data mo.",
+    "heroText": "I-tap ang Connect — protektado ka. Walang data, walang tracking.",
     "mythsTitle": "Mga mito tungkol sa VPN",
     "mythsP1": "Sinasabing lahat ng VPN ay nakatali sa pagkakakilanlan. May account sa Raqoon, pero anonymous: walang naka-link na card at walang mandatory email.",
     "mythsP2": "Walang “libre na may ads”. May 3 araw kang full access, pagkatapos bayad sa napili mong plano na. Naka-focus kami sa traffic — hindi sa koleksyon ng data mo.",
@@ -166,7 +166,10 @@
     "finalTitle": "I-download ngayon. Walang hassle. Walang sapilitang email. Privacy lang.",
     "finalText": "Sumali sa maraming user na pumipili ng VPN na ginawa para protektahan — hindi para i-track.",
     "ctaHome": "Bumalik sa home",
-    "ctaPlans": "Tingnan ang mga plano"
+    "ctaPlans": "Tingnan ang mga plano",
+    "badgeAriaAppStore": "I-download sa App Store — malapit na",
+    "badgeAriaGooglePlay": "Sa Google Play — malapit na",
+    "badgeAriaMacAppStore": "I-download sa Mac App Store — malapit na"
   },
   "about": {
     "title": "Tungkol sa kumpanya",

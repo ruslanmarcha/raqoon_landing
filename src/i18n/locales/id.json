@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "Tanpa kartu. Tanpa email. Tanpa pelacakan. Hanya perlindungan.",
-    "heroText": "Unduh aplikasi, ketuk Hubungkan — dan Anda sudah aman. Kami tidak bisa memata-matai Anda karena kami tidak punya data Anda.",
+    "heroText": "Ketuk Hubungkan — Anda aman. Tanpa menyimpan data, tanpa pelacakan.",
     "mythsTitle": "Mitos VPN — singkat dan jelas",
     "mythsP1": "Banyak yang mengira setiap VPN pasti terikat identitas. Di Raqoon ada akun, tetapi anonim: tanpa kartu bank yang disimpan dan tanpa email wajib.",
     "mythsP2": "Kami tidak menjual produk “gratis beriklan”. Anda mendapat 3 hari akses penuh, lalu membayar paket yang sudah dipilih. Kami melindungi lalu lintas — bukan mengumpulkan data untuk iklan.",
@@ -166,7 +166,10 @@
     "finalTitle": "Unduh sekarang. Tanpa ribet. Tanpa email dipaksakan. Hanya privasi.",
     "finalText": "Bergabunglah dengan banyak pengguna yang memilih VPN yang dibuat untuk melindungi — bukan melacak.",
     "ctaHome": "Kembali ke beranda",
-    "ctaPlans": "Lihat paket"
+    "ctaPlans": "Lihat paket",
+    "badgeAriaAppStore": "Unduh di App Store — segera",
+    "badgeAriaGooglePlay": "Google Play — segera",
+    "badgeAriaMacAppStore": "Unduh di Mac App Store — segera"
   },
   "about": {
     "title": "Tentang perusahaan",

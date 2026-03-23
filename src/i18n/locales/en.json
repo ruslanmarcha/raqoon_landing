@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "No card. No email. No tracking. Just protection.",
-    "heroText": "Download the app, tap Connect — and you’re protected. We can’t spy on you because we don’t have your data.",
+    "heroText": "Tap Connect — you’re protected. We don’t store your data, so we can’t track you.",
     "mythsTitle": "Let’s bust a few VPN myths",
     "mythsP1": "People say every VPN is tied to an identity. Raqoon uses an account, but it’s anonymous: no bank card on file and no mandatory email.",
     "mythsP2": "We don’t offer a “free with ads” product. You get 3 full days of access, then you pay for the plan you already picked. We focus on protecting traffic—not harvesting your data.",
@@ -166,7 +166,10 @@
     "finalTitle": "Download now. No signup noise. No email required. Just privacy.",
     "finalText": "Join a growing community of people who choose a VPN that isn’t built to track them.",
     "ctaHome": "Back to home",
-    "ctaPlans": "See plans"
+    "ctaPlans": "See plans",
+    "badgeAriaAppStore": "Download on the App Store — coming soon",
+    "badgeAriaGooglePlay": "Get it on Google Play — coming soon",
+    "badgeAriaMacAppStore": "Download on the Mac App Store — coming soon"
   },
   "about": {
     "title": "About company",

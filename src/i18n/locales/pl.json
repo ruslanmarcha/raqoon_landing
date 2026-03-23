@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "Bez karty. Bez e-maila. Bez śledzenia. Tylko ochrona.",
-    "heroText": "Pobierz aplikację, stuknij Połącz — i jesteś chroniony. Nie możemy Cię szpiegować, bo nie mamy Twoich danych.",
+    "heroText": "Stuknij Połącz — jesteś chroniony. Nie przechowujemy danych — nie śledzimy.",
     "mythsTitle": "Mity o VPN — krótko i jasno",
     "mythsP1": "Często słyszysz, że każdy VPN jest „przypięty” do tożsamości. W Raqoon jest konto, ale anonimowe: bez przypisanej karty i bez wymaganego e-maila.",
     "mythsP2": "Nie oferujemy darmowej wersji opartej na reklamach. Masz 3 pełne dni dostępu, potem opłata za już wybrany plan. Chronimy ruch — nie zbieramy go pod reklamę.",
@@ -166,7 +166,10 @@
     "finalTitle": "Pobierz teraz. Bez zbędnej rejestracji. Bez e-maila na siłę. Tylko prywatność.",
     "finalText": "Dołącz do szerokiej grupy użytkowników, którzy wybierają VPN bez modelu śledzenia.",
     "ctaHome": "Strona główna",
-    "ctaPlans": "Zobacz plany"
+    "ctaPlans": "Zobacz plany",
+    "badgeAriaAppStore": "Pobierz w App Store — wkrótce",
+    "badgeAriaGooglePlay": "Pobierz w Google Play — wkrótce",
+    "badgeAriaMacAppStore": "Pobierz w Mac App Store — wkrótce"
   },
   "about": {
     "title": "O firmie",

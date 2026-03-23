@@ -1,13 +1,19 @@
+/* Единый фон как на главной — без «полос» между секциями */
 .root {
-  background: var(--color-bg);
+  background: #00000a;
   overflow-x: hidden;
 }
 
-/* —— Hero (как на главной) —— */
+.sectionBlock {
+  background: transparent;
+}
+
+/* —— Hero —— */
 .hero {
   padding-top: var(--space-4);
   padding-bottom: var(--space-8);
   text-align: center;
+  background: transparent;
 }
 
 .heroInner {
@@ -44,59 +50,86 @@
   font-size: 20px;
   line-height: 1.45;
   color: var(--color-text-secondary);
-  max-width: 560px;
+  max-width: 22rem;
+  margin-inline: auto;
 }
 
-.heroActions {
+/* Фирменные бейджи магазинов */
+.storeBadges {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  gap: var(--space-4);
+  align-items: center;
+  gap: var(--space-3);
   width: 100%;
-  max-width: 420px;
+  max-width: 200px;
   margin-top: var(--space-2);
 }
 
-.heroBtn {
+.heroStoreBadges {
+  max-width: 200px;
+}
+
+.finalStoreBadges {
+  max-width: 200px;
+  margin-inline: auto;
+}
+
+.badgeBtn {
+  display: block;
   width: 100%;
-  justify-content: center;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  line-height: 0;
+  transition:
+    opacity var(--transition-fast),
+    transform var(--transition-fast);
 }
 
-.storeRow {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-3);
-  justify-content: center;
-  width: 100%;
+.badgeBtn:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
 }
 
-.storeBtn {
-  flex: 1 1 auto;
-  min-width: min(100%, 200px);
-  justify-content: center;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+.badgeBtn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
 }
 
-.appleIcon {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
+/* Официальные бейджи: единая высота (Apple ~40px on-screen guideline) */
+.badgeImg {
+  display: block;
+  width: auto;
+  height: 40px;
 }
 
-/* —— Чередование фонов (аналог secondary-bg) —— */
-.band {
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.045) 0%,
-    rgba(255, 255, 255, 0.02) 48%,
-    transparent 100%
-  );
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-}
+@media (min-width: 640px) {
+  .storeBadges {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+    gap: var(--space-4);
+  }
 
-.bandMuted {
-  background: rgba(0, 0, 0, 0.35);
+  .heroStoreBadges,
+  .finalStoreBadges {
+    max-width: 720px;
+  }
+
+  .badgeBtn {
+    width: auto;
+    flex: 0 0 auto;
+  }
+
+  .badgeImg {
+    height: 44px;
+  }
 }
 
 .storyCard {
@@ -124,7 +157,6 @@
   color: var(--color-text-secondary);
 }
 
-/* —— Блок преимуществ (как FeaturesCard) —— */
 .sectionHeading {
   font-size: 32px;
   font-weight: var(--font-medium);
@@ -167,7 +199,6 @@
   height: auto;
 }
 
-/* —— Зелёная карточка (как premium в Pricing) —— */
 .premiumCard {
   position: relative;
   max-width: 600px;
@@ -197,7 +228,7 @@
   font-weight: var(--font-medium);
 }
 
-/* —— Финал —— */
+/* Финал — та же логика карточки, без отдельного «другого» фона страницы */
 .finalWrap {
   padding-bottom: var(--space-20);
 }
@@ -208,9 +239,9 @@
   text-align: center;
   padding: var(--space-10) var(--space-6);
   border-radius: var(--radius-xl);
-  background: linear-gradient(180deg, #141418 0%, #0a0a0f 100%);
+  background: var(--color-surface);
   border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-lg), 0 0 60px rgba(83, 255, 118, 0.08);
+  box-shadow: var(--shadow-md);
 }
 
 .finalTitle {
@@ -228,41 +259,6 @@
   margin-bottom: var(--space-8);
 }
 
-.finalActions {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: var(--space-4);
-  max-width: 400px;
-  margin-inline: auto;
-}
-
-@media (min-width: 480px) {
-  .heroActions {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: none;
-  }
-
-  .heroBtn {
-    width: auto;
-    min-width: 200px;
-  }
-
-  .finalActions {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: none;
-  }
-
-  .finalActions .heroBtn {
-    width: auto;
-    min-width: 200px;
-  }
-}
-
 @media (max-width: 768px) {
   .mascot {
     height: 187px;
@@ -275,6 +271,7 @@
 
   .heroLead {
     font-size: 18px;
+    max-width: 20rem;
   }
 
   .blockTitle,

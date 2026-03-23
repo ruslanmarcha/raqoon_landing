@@ -150,7 +150,7 @@
   },
   "downloadPage": {
     "heroTitle": "Keine Karte. Keine E-Mail. Kein Tracking. Nur Schutz.",
-    "heroText": "App herunterladen, auf Verbinden tippen – und Sie sind geschützt. Wir können Sie nicht ausspionieren, weil wir Ihre Daten nicht haben.",
+    "heroText": "Auf Verbinden tippen – geschützt. Keine Daten, kein Tracking.",
     "mythsTitle": "VPN‑Mythen – kurz erklärt",
     "mythsP1": "Viele glauben, jedes VPN sei an eine Identität gekoppelt. Bei Raqoon gibt es ein Konto – aber es ist anonym: keine hinterlegte Bankkarte und keine Pflicht‑E‑Mail.",
     "mythsP2": "Wir bieten kein „kostenlos mit Werbung“-Modell. Sie erhalten 3 volle Tage Zugang, danach zahlen Sie für den bereits gewählten Tarif. Wir schützen Traffic – wir monetarisieren Ihre Daten nicht.",
@@ -166,7 +166,10 @@
     "finalTitle": "Jetzt herunterladen. Kein E‑Mail‑Zwang. Nur Privatsphäre.",
     "finalText": "Schließen Sie sich vielen Nutzern an, die ein VPN wählen, das nicht zum Tracken gebaut ist.",
     "ctaHome": "Zur Startseite",
-    "ctaPlans": "Tarife ansehen"
+    "ctaPlans": "Tarife ansehen",
+    "badgeAriaAppStore": "Im App Store laden — demnächst",
+    "badgeAriaGooglePlay": "Bei Google Play — demnächst",
+    "badgeAriaMacAppStore": "Im Mac App Store laden — demnächst"
   },
   "about": {
     "title": "Über Unternehmen",

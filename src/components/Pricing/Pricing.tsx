@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { FeatureItemData } from '../FeatureItem/FeatureItem';
 import { FeatureList } from '../FeatureList/FeatureList';
 import styles from './Pricing.module.css';
+import { useComingSoon } from '../../contexts/ComingSoonContext';
 
 type PricingVariant = 'ru' | 'ww';
 
@@ -9,8 +10,9 @@ interface PricingProps {
   variant?: PricingVariant;
 }
 
-export function Pricing({ variant = 'ru' }: PricingProps) {
+export function Pricing({ variant = 'ww' }: PricingProps) {
   const { t } = useTranslation();
+  const { openComingSoon } = useComingSoon();
 
   const showConstructor = variant === 'ru';
 
@@ -51,7 +53,11 @@ export function Pricing({ variant = 'ru' }: PricingProps) {
                   </span>
                 </div>
               </div>
-              <button type="button" className={`btn ${styles.ctaBtn}`}>
+              <button
+                type="button"
+                className={`btn ${styles.ctaBtn}`}
+                onClick={openComingSoon}
+              >
                 {t('pricing.constructor.cta')}
               </button>
               <FeatureList
@@ -83,6 +89,7 @@ export function Pricing({ variant = 'ru' }: PricingProps) {
             <button
               type="button"
               className={`btn btn-primary ${styles.ctaBtn}`}
+              onClick={openComingSoon}
             >
               {t('pricing.allIn.cta')}
             </button>
@@ -107,7 +114,11 @@ export function Pricing({ variant = 'ru' }: PricingProps) {
                   {t('migration.title')}
                 </span>
               </div>
-              <button type="button" className={`btn ${styles.migrationBtn}`}>
+              <button
+                type="button"
+                className={`btn ${styles.migrationBtn}`}
+                onClick={openComingSoon}
+              >
                 {t('migration.cta')}
               </button>
             </div>

@@ -13,7 +13,7 @@ export function LandingRU() {
       <Header />
       <main>
         <Hero variant="ru" />
-        <Pricing />
+        <Pricing variant="ru" />
         <Referral />
         <FAQ />
       </main>

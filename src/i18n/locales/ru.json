@@ -106,6 +106,10 @@
       }
     ]
   },
+  "common": {
+    "comingSoonMessage": "Приложение в разработке, скоро ты сможешь купить подписку",
+    "comingSoonOk": "Понятно"
+  },
   "footer": {
     "about": "About company",
     "privacy": "Privacy Policy",

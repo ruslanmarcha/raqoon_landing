@@ -55,7 +55,7 @@
     },
     "allIn": {
       "badge": "All Inclusive",
-      "price": "15",
+      "price": "9.99",
       "unit": "$ / day",
       "cta": "Choose"
     },
@@ -107,6 +107,10 @@
         "a": "We accept major bank cards, as well as popular payment systems. For a full list of available methods, see the payment page in the app."
       }
     ]
+  },
+  "common": {
+    "comingSoonMessage": "Приложение в разработке, скоро ты сможешь купить подписку",
+    "comingSoonOk": "Понятно"
   },
   "footer": {
     "about": "About company",

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import styles from './Hero.module.css';
+import { useComingSoon } from '../../contexts/ComingSoonContext';
 
 type HeroVariant = 'ru' | 'ww';
 
@@ -9,14 +10,11 @@ interface HeroProps {
 
 export function Hero({ variant }: HeroProps) {
   const { t } = useTranslation();
+  const { openComingSoon } = useComingSoon();
 
   const suffix = variant.toUpperCase();
   const titleRaw: string = t(`hero.title${suffix}`);
   const titleLines = titleRaw.split('\n');
-
-  function scrollToPricing() {
-    document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' });
-  }
 
   return (
     <section className={styles.root}>
@@ -36,17 +34,16 @@ export function Hero({ variant }: HeroProps) {
         {variant === 'ru' ? (
           <button
             type="button"
-            onClick={scrollToPricing}
+            onClick={openComingSoon}
             className={`btn btn-secondary btn-lg ${styles.cta}`}
           >
             {t('hero.ctaRU')}
           </button>
         ) : (
-          <a
-            href="https://apps.apple.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            type="button"
             className={`btn btn-secondary btn-lg ${styles.cta}`}
+            onClick={openComingSoon}
           >
             <img
               src="apple.svg"
@@ -54,7 +51,7 @@ export function Hero({ variant }: HeroProps) {
               className={styles.appleIcon}
             />
             {t('hero.ctaWW')}
-          </a>
+          </button>
         )}
       </div>
     </section>

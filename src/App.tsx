@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { LandingRU } from './pages/LandingRU'
 import { LandingWW } from './pages/LandingWW'
+import { ComingSoonProvider } from './contexts/ComingSoonContext'
 
 function LoadingFallback() {
   return (
@@ -21,15 +22,17 @@ function LoadingFallback() {
 export function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter>
-        <Suspense fallback={<LoadingFallback />}>
-          <Routes>
-            <Route path="/" element={<LandingRU />} />
-            <Route path="/ww" element={<LandingWW />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </Suspense>
-      </BrowserRouter>
+      <ComingSoonProvider>
+        <BrowserRouter>
+          <Suspense fallback={<LoadingFallback />}>
+            <Routes>
+              <Route path="/" element={<LandingRU />} />
+              <Route path="/ww" element={<LandingWW />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Suspense>
+        </BrowserRouter>
+      </ComingSoonProvider>
     </HelmetProvider>
   )
 }

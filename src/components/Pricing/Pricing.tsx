@@ -11,10 +11,15 @@ interface PricingProps {
 }
 
 export function Pricing({ variant = 'ww' }: PricingProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { openComingSoon } = useComingSoon();
 
-  const showConstructor = variant === 'ru';
+  // Important: when user switches language in `LanguageSelector`,
+  // we must not show RU-only blocks (constructor + IZI migration) in EN.
+  const isRuLang = i18n.language.startsWith('ru');
+  // `variant` is kept for backward compatibility, but the UI is controlled by i18n language.
+  void variant;
+  const showConstructor = isRuLang;
 
   const constructorFeatures = t('pricing.constructorFeatures', {
     returnObjects: true,
@@ -31,7 +36,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
     <section className={`section ${styles.root}`} id="pricing">
       <div className="container">
         <div
-          className={`${styles.grid} ${variant === 'ww' ? styles.gridSingle : ''}`}
+          className={`${styles.grid} ${!showConstructor ? styles.gridSingle : ''}`}
         >
           {showConstructor && (
             <div className={`${styles.card} ${styles.cardBase}`}>
@@ -101,7 +106,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
           </div>
         </div>
 
-        {variant === 'ru' && (
+        {showConstructor && (
           <div className={styles.migrationWrapper}>
             <div className={styles.migrationCard}>
               <div className={styles.migrationLeft}>

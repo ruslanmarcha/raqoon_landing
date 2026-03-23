@@ -28,13 +28,18 @@ function LoadingFallback() {
 type AppProps = {
   allowLanguageSwitch: boolean
   countryCode: string | null
+  allowedLanguages: string[]
 }
 
-export function App({ allowLanguageSwitch, countryCode }: AppProps) {
+export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppProps) {
   return (
     <HelmetProvider>
       <ComingSoonProvider>
-        <LocalePolicyProvider allowLanguageSwitch={allowLanguageSwitch} countryCode={countryCode}>
+        <LocalePolicyProvider
+          allowLanguageSwitch={allowLanguageSwitch}
+          countryCode={countryCode}
+          allowedLanguages={allowedLanguages}
+        >
           <BrowserRouter>
             <Suspense fallback={<LoadingFallback />}>
               <>

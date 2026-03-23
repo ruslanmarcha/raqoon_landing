@@ -5,6 +5,7 @@ type LocalePolicy = {
   locale: string
   allowLanguageSwitch: boolean
   countryCode: string | null
+  allowedLanguages: string[]
 }
 
 const COUNTRY_TO_LANGUAGE: Record<string, string> = {
@@ -138,14 +139,31 @@ function detectBrowserLanguage(supportedLngs: string[]): string {
   return isLocaleSupported(browserLanguage, supportedLngs) ? browserLanguage : 'en'
 }
 
+function buildAllowedLanguages(
+  supportedLngs: string[],
+  primaryLocale: string,
+  includeAll = false,
+): string[] {
+  if (includeAll) {
+    return supportedLngs.filter((locale) => locale !== 'cimode')
+  }
+
+  const candidates = [primaryLocale, 'ru', 'tr']
+  return candidates.filter(
+    (locale, index, list) => list.indexOf(locale) === index && isLocaleSupported(locale, supportedLngs),
+  )
+}
+
 export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
   const countryCode = await fetchCountryCode()
 
   if (countryCode === 'RU') {
+    const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'
     return {
-      locale: isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en',
-      allowLanguageSwitch: false,
+      locale,
+      allowLanguageSwitch: true,
       countryCode,
+      allowedLanguages: buildAllowedLanguages(supportedLngs, locale),
     }
   }
 
@@ -162,30 +180,37 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
       locale,
       allowLanguageSwitch: true,
       countryCode,
+      allowedLanguages: buildAllowedLanguages(supportedLngs, locale, true),
     }
   }
 
   if (countryCode && countryCode !== 'IL' && ARABIC_SPEAKING_COUNTRIES.has(countryCode)) {
+    const locale = isLocaleSupported('ar', supportedLngs) ? 'ar' : 'en'
     return {
-      locale: isLocaleSupported('ar', supportedLngs) ? 'ar' : 'en',
-      allowLanguageSwitch: false,
+      locale,
+      allowLanguageSwitch: true,
       countryCode,
+      allowedLanguages: buildAllowedLanguages(supportedLngs, locale),
     }
   }
 
   if (countryCode) {
     const countryLanguage = COUNTRY_TO_LANGUAGE[countryCode] ?? 'en'
+    const locale = isLocaleSupported(countryLanguage, supportedLngs) ? countryLanguage : 'en'
     return {
-      locale: isLocaleSupported(countryLanguage, supportedLngs) ? countryLanguage : 'en',
-      allowLanguageSwitch: false,
+      locale,
+      allowLanguageSwitch: true,
       countryCode,
+      allowedLanguages: buildAllowedLanguages(supportedLngs, locale),
     }
   }
 
+  const locale = detectBrowserLanguage(supportedLngs)
   return {
-    locale: detectBrowserLanguage(supportedLngs),
-    allowLanguageSwitch: false,
+    locale,
+    allowLanguageSwitch: true,
     countryCode: null,
+    allowedLanguages: buildAllowedLanguages(supportedLngs, locale),
   }
 }
 

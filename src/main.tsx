@@ -26,6 +26,7 @@ async function bootstrap() {
       <App
         allowLanguageSwitch={localePolicy.allowLanguageSwitch}
         countryCode={localePolicy.countryCode}
+        allowedLanguages={localePolicy.allowedLanguages}
       />
     </React.StrictMode>,
   )

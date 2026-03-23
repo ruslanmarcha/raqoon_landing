@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { persistSelectedLanguage } from '../../i18n/geoLocale';
+import { useLocalePolicy } from '../../contexts/LocalePolicyContext';
 import styles from './LanguageSelector.module.css';
 
 type Props = {
@@ -55,12 +56,15 @@ function getFlagClass(flag: FlagCode): string {
 export function LanguageSelector(props: Props) {
   const { className } = props;
   const { i18n } = useTranslation();
+  const { allowedLanguages } = useLocalePolicy();
   const [isOpen, setIsOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement | null>(null);
+  const visibleOptions = LANG_OPTIONS.filter(({ code }) => allowedLanguages.includes(code));
 
   const currentOption =
-    LANG_OPTIONS.find(({ code }) => code === i18n.language) ??
-    LANG_OPTIONS.find(({ code }) => code === normalizeLanguageTag(i18n.language)) ??
+    visibleOptions.find(({ code }) => code === i18n.language) ??
+    visibleOptions.find(({ code }) => code === normalizeLanguageTag(i18n.language)) ??
+    visibleOptions[0] ??
     LANG_OPTIONS[1];
 
   function handleChange(lang: LangCode) {
@@ -112,7 +116,7 @@ export function LanguageSelector(props: Props) {
 
       {isOpen && (
         <div className={styles.menu} role="listbox" aria-label="Select language">
-          {LANG_OPTIONS.map((lang) => (
+          {visibleOptions.map((lang) => (
             <button
               key={lang.code}
               type="button"

@@ -23,6 +23,7 @@ const LANG_OPTIONS = [
   { code: 'id', label: 'ID', flag: 'id' },
   { code: 'ja', label: 'JA', flag: 'jp' },
   { code: 'ko', label: 'KO', flag: 'kr' },
+  { code: 'zh-CN', label: 'CN', flag: 'cn' },
 ] as const;
 
 type LangCode = (typeof LANG_OPTIONS)[number]['code'];
@@ -48,6 +49,7 @@ function getFlagClass(flag: FlagCode): string {
     jp: styles.flagJp,
     kr: styles.flagKr,
     tr: styles.flagTr,
+    cn: styles.flagCn,
   };
 
   return map[flag];

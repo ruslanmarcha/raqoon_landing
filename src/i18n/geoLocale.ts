@@ -40,9 +40,9 @@ const COUNTRY_TO_LANGUAGE: Record<string, string> = {
   GR: 'el',
   TR: 'tr',
   UA: 'uk',
-  CN: 'zh',
-  TW: 'zh',
-  HK: 'zh',
+  CN: 'zh-CN',
+  TW: 'en',
+  HK: 'en',
   JP: 'ja',
   KR: 'ko',
   IL: 'he',
@@ -135,7 +135,17 @@ function getStoredLanguage(): string | null {
 }
 
 function detectBrowserLanguage(supportedLngs: string[]): string {
-  const browserLanguage = normalizeLanguageTag(navigator.language || 'en')
+  const raw = navigator.language || 'en'
+  const rawLower = raw.toLowerCase()
+  /* 中国大陆常用：zh-CN、zh-Hans*、无地区的 zh */
+  const prefersZhCn =
+    rawLower.startsWith('zh-cn') ||
+    rawLower.startsWith('zh-hans') ||
+    rawLower === 'zh'
+  if (prefersZhCn && isLocaleSupported('zh-CN', supportedLngs)) {
+    return 'zh-CN'
+  }
+  const browserLanguage = normalizeLanguageTag(raw)
   return isLocaleSupported(browserLanguage, supportedLngs) ? browserLanguage : 'en'
 }
 

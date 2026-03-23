@@ -42,6 +42,9 @@ function resolveGoogleBadgeSpec(language: string): GoogleBadgeSpec {
   if (lower.startsWith('pt')) return { intlPath: 'pt-br_pt-br', filePrefix: 'pt' }
   /** Tagalog: Google provides Filipino badge */
   if (lower.startsWith('tl')) return { intlPath: 'fil_ph', filePrefix: 'fil' }
+  if (lower.startsWith('zh-cn') || lower === 'zh') {
+    return { intlPath: 'zh-cn_cn', filePrefix: 'zh-cn' }
+  }
 
   return { intlPath: 'en_us', filePrefix: 'en' }
 }

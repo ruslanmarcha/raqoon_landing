@@ -10,7 +10,8 @@ interface SEOHeadProps {
 
 export function SEOHead({ variant, canonicalUrl, page = 'default' }: SEOHeadProps) {
   const { t, i18n } = useTranslation()
-  const lang = i18n.language.startsWith('ru') ? 'ru' : 'en'
+  const lng = i18n.language
+  const lang = lng.startsWith('ru') ? 'ru' : 'en'
   const suffix = lang === 'ru' ? 'RU' : 'WW'
   void variant
   const siteName = lang === 'ru' ? 'Raqoon VPS' : 'Raqoon VPN'
@@ -25,7 +26,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default' }: SEOHeadProp
 
   return (
     <Helmet>
-      <html lang={lang} />
+      <html lang={lng} />
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="robots" content="index, follow" />
@@ -38,7 +39,12 @@ export function SEOHead({ variant, canonicalUrl, page = 'default' }: SEOHeadProp
       <meta property="og:description" content={ogDescription} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:site_name" content={siteName} />
-      <meta property="og:locale" content={lang === 'ru' ? 'ru_RU' : 'en_US'} />
+      <meta
+        property="og:locale"
+        content={
+          lang === 'ru' ? 'ru_RU' : lng.toLowerCase().startsWith('zh') ? 'zh_CN' : 'en_US'
+        }
+      />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />

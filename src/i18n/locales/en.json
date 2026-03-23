@@ -53,22 +53,54 @@
       "cta": "Choose"
     },
     "constructorFeatures": [
-      { "label": "Automatic protocol selection" },
-      { "label": "Priority support", "sub": "We always reply within 24 hours" },
-      { "label": "RusVPN", "sub": "Useful when traveling abroad" },
-      { "label": "VPN country switching" },
-      { "label": "Up to 5 devices" },
-      { "label": "Large traffic volume" }
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Useful when traveling abroad"
+      },
+      {
+        "label": "VPN country switching"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      }
     ],
     "allInFeatures": [
-      { "label": "Automatic protocol selection" },
-      { "label": "Priority support", "sub": "We always reply within 24 hours" },
-      { "label": "RusVPN", "sub": "Useful when traveling abroad" },
-      { "label": "VPN country switching" },
-      { "label": "Up to 5 devices" },
-      { "label": "Large traffic volume" },
-      { "label": "VPN for any services" },
-      { "label": "Third-party app support" }
+      {
+        "label": "Automatic protocol selection"
+      },
+      {
+        "label": "Priority support",
+        "sub": "We always reply within 24 hours"
+      },
+      {
+        "label": "RusVPN",
+        "sub": "Useful when traveling abroad"
+      },
+      {
+        "label": "VPN country switching"
+      },
+      {
+        "label": "Up to 5 devices"
+      },
+      {
+        "label": "Large traffic volume"
+      },
+      {
+        "label": "VPN for any services"
+      },
+      {
+        "label": "Third-party app support"
+      }
     ]
   },
   "migration": {

@@ -1,56 +1,56 @@
 {
   "meta": {
-    "titleWW": "__ TK 0 __ —お気に入りのサービスのための高速で安全な__ TK 1 __",
-    "descriptionWW": "__ TK 0 __は、お客様のプライバシーを保護し、制限を回避し、世界中で接続を維持します。__ TK 1 __でご利用いただけます。",
-    "ogTitleWW": "__ TK 0 __ — __ TK 1 __お気に入りのサービス",
-    "ogDescriptionWW": "__ TK 1 __に__ TK 0 __をダウンロードしてください。自動プロトコル選択、優先サポート、最大5台のデバイス。"
+    "titleWW": "Raqoon VPN — お気に入りのサービスのための高速かつ安全な VPN",
+    "descriptionWW": "Raqoon VPN はあなたのプライバシーを保護し、制限を回避し、世界中のつながりを保ちます。 App Store で入手可能です。",
+    "ogTitleWW": "お気に入りのサービスの Raqoon — VPN",
+    "ogDescriptionWW": "Raqoon VPN を App Store にダウンロードします。自動プロトコル選択、優先サポート、最大 5 台のデバイス。"
   },
   "nav": {
-    "logoAlt": "__ TK 0 __"
+    "logoAlt": "Raqoon"
   },
   "hero": {
-    "titleWW": "__ TK 0 __から\nアライグマの代理人",
-    "subtitleWW": "アクセスしやすく、便利で、信頼性が高い",
-    "ctaWW": "__ TK 0 __"
+    "titleWW": "Raqoon Proxyの\nVPN",
+    "subtitleWW": "アクセスしやすく、便利で、信頼できる",
+    "ctaWW": "App Store"
   },
   "features": {
-    "title": "ツアーに含まれるもの",
+    "title": "含まれるもの",
     "items": [
       {
         "label": "自動プロトコル選択"
       },
       {
         "label": "優先サポート",
-        "sub": "私たちは常に24時間以内に返信します"
+        "sub": "必ず24時間以内に返信させていただきます"
       },
       {
-        "label": "__ TK 0 __",
-        "sub": "海外旅行に役立つ"
+        "label": "RusVPN",
+        "sub": "海外旅行の際に便利"
       },
       {
-        "label": "__ TK 0 __国の切り替え"
+        "label": "VPN 国の切り替え"
       },
       {
         "label": "最大5台のデバイス"
       },
       {
-        "label": "トラフィック量が大きい"
+        "label": "交通量が多い"
       }
     ]
   },
   "pricing": {
-    "title": "プランを選択",
+    "title": "プランを選択してください",
     "constructor": {
-      "badge": "コンストラクタ",
+      "badge": "コンストラクター",
       "price": "10",
-      "unit": "/day",
-      "cta": "選択"
+      "unit": "ドル/日",
+      "cta": "選ぶ"
     },
     "allIn": {
-      "badge": "すべて含む",
-      "price": "999",
-      "unit": "/月",
-      "cta": "選択"
+      "badge": "オールインクルーシブ",
+      "price": "9.99",
+      "unit": "ドル/月",
+      "cta": "選ぶ"
     },
     "constructorFeatures": [
       {
@@ -58,20 +58,20 @@
       },
       {
         "label": "優先サポート",
-        "sub": "私たちは常に24時間以内に返信します"
+        "sub": "必ず24時間以内に返信させていただきます"
       },
       {
-        "label": "__ TK 0 __",
-        "sub": "海外旅行に役立つ"
+        "label": "RusVPN",
+        "sub": "海外旅行の際に便利"
       },
       {
-        "label": "__ TK 0 __国の切り替え"
+        "label": "VPN 国の切り替え"
       },
       {
         "label": "最大5台のデバイス"
       },
       {
-        "label": "トラフィック量が大きい"
+        "label": "交通量が多い"
       }
     ],
     "allInFeatures": [
@@ -80,108 +80,108 @@
       },
       {
         "label": "優先サポート",
-        "sub": "私たちは常に24時間以内に返信します"
+        "sub": "必ず24時間以内に返信させていただきます"
       },
       {
-        "label": "__ TK 0 __",
-        "sub": "海外旅行に役立つ"
+        "label": "RusVPN",
+        "sub": "海外旅行の際に便利"
       },
       {
-        "label": "__ TK 0 __国の切り替え"
+        "label": "VPN 国の切り替え"
       },
       {
         "label": "最大5台のデバイス"
       },
       {
-        "label": "トラフィック量が大きい"
+        "label": "交通量が多い"
       },
       {
-        "label": "あらゆるサービスのための__ TK 0 __"
+        "label": "VPN (任意のサービス)"
       },
       {
-        "label": "サードパーティのサポート"
+        "label": "サードパーティアプリのサポート"
       }
     ]
   },
   "migration": {
-    "title": "IZiユーザーの場合。移行について説明します",
-    "cta": "さらに詳しく"
+    "title": "IZIユーザー向け。移行について説明します",
+    "cta": "もっと詳しく知る"
   },
   "referral": {
-    "title": "お友達を招待する—\nもっと時間を稼ぐ",
-    "description": "コードをシェアするだけです。お友達の初回サブスクリプションは10日間延長され、ボーナスとして最大30日間を獲得できます。",
-    "cta": "日数を取得"
+    "title": "友達を招待する —\nもっと時間を得る",
+    "description": "コードを共有するだけです。あなたの友人は最初のサブスクリプションで +10 日間、あなたは最大 30 日間のボーナスを獲得します。",
+    "cta": "日数を取得する"
   },
   "faq": {
     "title": "よくある質問",
     "items": [
       {
-        "q": "どのようなプロトコルを使用していますか？",
-        "a": "異なるプロトコルは、速度、セキュリティ、および安定性の異なるバランスを提供します。たとえば、__ TK 0 __のような最新のソリューションは高速でシンプルなアーキテクチャを提供しますが、__ TK 1 __のような従来のプロトコルは信頼性と幅広いサポートで知られています。"
+        "q": "どのようなプロトコルを使用していますか?",
+        "a": "プロトコルが異なれば、速度、セキュリティ、安定性のバランスも異なります。たとえば、WireGuard のような最新のソリューションは高速でシンプルなアーキテクチャを提供しますが、OpenVPN のような従来のプロトコルは信頼性と幅広いサポートで知られています。"
       },
       {
-        "q": "サーバーはどの国で利用できますか？",
-        "a": "世界中の多くの国にサーバーがあります。利用可能な場所の完全なリストは、接続後にアプリで利用できます。"
+        "q": "サーバーはどの国で利用できますか?",
+        "a": "私たちは世界中の多くの国にサーバーを持っています。利用可能な場所の完全なリストは、接続後にアプリで確認できます。"
       },
       {
-        "q": "ユーザーアクティビティログを保存していますか？",
-        "a": "いいえ、ユーザーアクティビティログは保存されません。プライバシーを保護するために、厳格なノーログポリシーを遵守しています。"
+        "q": "ユーザーのアクティビティログを保存しますか?",
+        "a": "いいえ、ユーザーのアクティビティ ログは保存されません。当社はお客様のプライバシーを保護するために、厳格なノーログポリシーを遵守しています。"
       },
       {
-        "q": "__ TK 0 __接続はどの程度安全ですか？",
-        "a": "当社の__ TK 0 __は、お客様のデータを保護するために最新の暗号化を使用しています。すべてのトラフィックはデバイスを離れる前に暗号化され、あらゆるネットワークで高いセキュリティを確保します。"
+        "q": "VPN 接続はどの程度安全ですか?",
+        "a": "当社の VPN は最新の暗号化を使用してデータを保護します。すべてのトラフィックはデバイスから送信される前に暗号化されるため、あらゆるネットワーク上で高いセキュリティが確保されます。"
       },
       {
-        "q": "どのような支払方法が可能ですか？",
-        "a": "主要な銀行カードだけでなく、一般的な決済システムもご利用いただけます。利用可能な方法の完全なリストについては、アプリのお支払いページをご覧ください。"
+        "q": "どのような支払い方法を利用できますか?",
+        "a": "主要な銀行カードや一般的な支払いシステムをご利用いただけます。利用可能な方法の完全なリストについては、アプリの支払いページをご覧ください。"
       }
     ]
   },
   "common": {
-    "comingSoonMessage": "アプリは開発中です。まもなくサブスクリプションを購入できるようになります。",
+    "comingSoonMessage": "アプリは開発中です。すぐに定期購読を購入できるようになります。",
     "comingSoonOk": "OK",
-    "turkeyDownloadUnavailable": "__ TK 0 __は__ TK 1 __ではダウンロードできません。"
+    "turkeyDownloadUnavailable": "Raqoon は Турция ではダウンロードできません。"
   },
   "about": {
-    "title": "会社概要",
-    "company": "__ TK 0 __",
-    "address": "UlusGirişimOfisi （ KuluçkaMerkezi ）、HacıBayramMah。, Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/__ TK 0 __, __ TK 1 __",
-    "emailLabel": "メールアドレス：",
-    "email": "__ TK 0 __",
-    "keyPointsTitle": "キーポイント",
-    "keyPointsBody": "__ TK 0 __は、__ TK 1 __のデジタルサービスを開発・運営しています。当社は、プロセスの透明性、個人データの保護、高いサービス品質を優先しています。会社は、適用される法的要件および内部セキュリティ基準に従って運営されています。",
-    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20 (Kulu %C 3% A 7 ka % 20 Merkezi) %2C % 20 Hac %C 4% B 1% 20 Bayram % 20 Mah. %2C % 20 Sanayi % 20 Cad. %2C %20 b % 20 Blok %2C % 20 Kat %3A 2% 2 C % 20 No %3A 4% 2 F 211% 2 C %2006050% 20 Alt %C 4% B 1 nda %C 4% 9 F % 2 F __ TK 0 __ %2C % 20 t %C 3% BCrkiye&z = 16"
+    "title": "会社について",
+    "company": "Qat Bilişim LTD.",
+    "address": "Ulus Girişim Ofisi (Kuluça Merkezi)、Hacı Bayram Mah.、Sanayi Cad.、B Blok、Kat: 2、No: 4/211、06050 Altındağ/Ankara、Турция",
+    "emailLabel": "電子メール:",
+    "email": "hello@raqoon.app",
+    "keyPointsTitle": "重要なポイント",
+    "keyPointsBody": "Qat Bilişim LTD. は Raqoon のデジタルサービスを開発・運営しています。私たちはプロセスの透明性、個人データ保護、高品質なサービスを重視しています。会社は適用法令および社内セキュリティ基準に従って運営されています。",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
   "legal": {
     "privacy": {
       "title": "プライバシーポリシー",
-      "body": "Raqoon Privacy Policy\nEffective Date: March 1, 2026\nJurisdiction: Ankara, Türkiye\nOwner: Qat Bilişim Ltd.\n\nSummary\nWe respect your right to anonymity and security. We do not see what you do online, we do not log the websites you visit, and we do not store the content of your traffic. Our system only records technical parameters (data volume and the time of your last connection) to ensure connection quality. We do not store your card details — all payments are processed through secure external gateways.\n\n1. Zero Logs Policy\nWe adhere to a strict no-logs policy regarding your activity. The technical architecture of the Service prevents us from recording, storing, or sharing the following data with third parties:\n• Activity History: We do not record visited websites (URLs), search queries, or browsing history.\n• Network Queries: We do not keep logs of DNS queries.\n• Traffic Content: We do not have access to the content of transmitted data, including messages, emails, or files.\n• Original IP Address: We do not store your real IP address while you use the service, nor do we link it to your activity.\n\n2. Data We Collect (Technical Necessity)\nTo ensure stable operation and manage subscriptions, the Service processes a minimal set of technical data.\n2.1. Identification\n• UUID / Access Key: A unique technical identifier used to authorize your device on our servers.\n• Email (Optional): Used exclusively for account recovery or sending receipts and system notifications.\n2.2. Statistics and Diagnostics\n• Data Volume: The amount of sent and received data used to monitor your plan's limits.\n• Last Connection Time: Recorded to identify connection issues and maintain an accurate session status.\n• Subscription Status: The validity period and activity status of your access key.\n\n3. App Functionality and No-Tracking\n• Marketing Trackers: Our applications do not contain third-party marketing or analytics tools (such as Facebook SDK or advertising IDs) that could transmit your data to third parties.\n• Availability Monitoring: The application may automatically check the connection to our nodes. This data is completely anonymized and used solely to automatically select the fastest server.\n\n4. Payment Information\nWe do not store or process your full bank card details.\n• App Store: Transactions are processed by the Apple App Store. We receive only an encrypted token confirming the fact of payment.\n\n5. Data Retention and Deletion\n• Technical Information: Data regarding traffic and login times is stored for the duration of your subscription.\n• Automatic Deletion: If you do not renew your subscription, account data may be completely removed from the system after 90 days of inactivity.\n• Your Right to Delete: You can completely delete your account and all associated information at any time through the app settings or by contacting support.\n\n6. Data Sharing and Legal Requests\nQat Bilişim Ltd. is registered in Türkiye. We do not sell user data or transfer it to advertising companies. In the event of official requests from law enforcement agencies, we operate strictly within the law. However, our architecture makes it impossible to provide data about your actions online, as this information is technically not recorded. We can only confirm the existence of an account and the total volume of traffic consumed.\n\n7. Contact Us\nFor questions regarding privacy or data deletion:\n• Email: private@raqoon.app\n• Telegram: @raqoonbot\n• Location: Ankara, Türkiye"
+      "body": "Raqoon プライバシー ポリシー\n発効日：2026年3月1日\n管轄区域: Ankara、Турция\nオーナー: Qat Bilişim Ltd.\n\nまとめ\n私たちはあなたの匿名性とセキュリティに対する権利を尊重します。当社は、お客様がオンラインで何を行っているかを把握したり、お客様が訪問した Web サイトを記録したり、トラフィックのコンテンツを保存したりすることはありません。当社のシステムは、接続品質を確保するために技術的なパラメータ (データ量と最後の接続時間) のみを記録します。当社はカードの詳細を保存しません。すべての支払いは安全な外部ゲートウェイを通じて処理されます。\n\n1. ゼロログポリシー\n私たちはあなたのアクティビティに関して厳格なノーログポリシーを遵守しています。本サービスの技術アーキテクチャにより、当社は次のデータを記録、保存、または第三者と共有することができません。\n• アクティビティ履歴: 訪問した Web サイト (URL)、検索クエリ、閲覧履歴は記録されません。\n• ネットワーク クエリ: DNS クエリのログは保存しません。\n• トラフィックのコンテンツ: メッセージ、電子メール、ファイルなど、送信されたデータのコンテンツにはアクセスできません。\n• 元の IP アドレス: お客様がサービスを使用している間、当社はお客様の実際の IP アドレスを保存したり、それをお客様のアクティビティにリンクしたりすることはありません。\n\n2. 当社が収集するデータ (技術的必要性)\n安定した運用を確保し、サブスクリプションを管理するために、本サービスは最小限の技術データを処理します。\n2.1.識別\n• UUID / アクセス キー: 当社のサーバー上でデバイスを認証するために使用される一意の技術識別子。\n• 電子メール (オプション): アカウントの回復、または領収書やシステム通知の送信のみに使用されます。\n2.2.統計と診断\n• データ量: プランの制限を監視するために使用される送受信データの量。\n• 最終接続時間: 接続の問題を特定し、正確なセッション ステータスを維持するために記録されます。\n• サブスクリプション ステータス: アクセス キーの有効期間とアクティビティ ステータス。\n\n3. アプリの機能と追跡なし\n• マーケティング トラッカー: 当社のアプリケーションには、お客様のデータを第三者に送信する可能性のある第三者のマーケティング ツールや分析ツール (Facebook SDK や広告 ID など) は含まれていません。\n• 可用性の監視: アプリケーションはノードへの接続を自動的にチェックする場合があります。このデータは完全に匿名化され、最速のサーバーを自動的に選択するためにのみ使用されます。\n\n4. 支払い情報\n当社では、銀行カードの詳細を完全に保存または処理することはありません。\n• App Store: トランザクションは Apple App Store によって処理されます。当社は、支払いの事実を確認する暗号化されたトークンのみを受け取ります。\n\n5. データの保持と削除\n• 技術情報: トラフィックとログイン時間に関するデータは、サブスクリプション期間中保存されます。\n• 自動削除: サブスクリプションを更新しない場合、90 日間非アクティブな状態が続いた後にアカウント データがシステムから完全に削除される場合があります。\n• 削除する権利: アプリの設定を通じて、またはサポートに連絡することで、いつでもアカウントとすべての関連情報を完全に削除できます。\n\n6. データ共有と法的要求\nQat Bilişim Ltd. は Турция に登録されています。当社はユーザーデータを販売したり、広告会社に転送したりすることはありません。法執行機関から正式な要請があった場合、当社は法律の範囲内で厳格に対応します。ただし、当社のアーキテクチャでは、お客様の行動に関するデータは技術的に記録されないため、オンラインで提供することはできません。確認できるのは、アカウントの存在と消費されたトラフィックの総量のみです。\n\n7. お問い合わせ\nプライバシーまたはデータ削除に関するご質問:\n• 電子メール: private@raqoon.app\n• 電報: @raqoonbot\n• 場所: Ankara、Турция"
     },
     "terms": {
       "title": "利用規約",
-      "body": "Terms of Use (PUBLIC OFFER)\nEffective Date: March 1, 2026\nPlace of Publication: Ankara, Türkiye\nThis User Agreement (hereinafter the “Agreement”) is an official offer of the Raqoon service (hereinafter the “Provider” or the “Service”) to enter into a contract with any individual (hereinafter the “User”) under the terms set forth below.\n\n1. GENERAL PROVISIONS\n1.1. Use of the Raqoon application, registration on the website, or payment for Service offerings constitutes the User's full and unconditional acceptance of this Agreement (Acceptance).\n1.2. The User guarantees that they are at least 18 years old and have full legal capacity to conclude this Agreement.\n1.3. The Provider reserves the right to amend the terms of this Agreement. A new version enters into force at the moment of publication.\n\n2. SUBJECT OF THE AGREEMENT\n2.1. The Provider grants the User a non-exclusive right (License) to use the Service software and network infrastructure to establish a virtual private network (VPN).\n2.2. Access to software:\n2.2.1. Access to the Service by default is provided exclusively through the official Raqoon application.\n2.2.2. The use of third-party clients (including Hiddify, v2rayNG, and similar tools) is allowed only where such capability is explicitly provided in the description of the Tariff plan purchased by the User.\n2.3. Device limit:\n2.3.1. The number of simultaneous connections (sessions) is determined by the terms of the selected Tariff plan.\n2.3.2. If no limit is specified in the Tariff, the standard limit is 5 (five) devices per account.\n\n3. TERMS OF USE AND PROHIBITIONS\n3.1. The User undertakes to use the Service only for lawful purposes.\n3.2. Strictly prohibited actions:\n3.2.1. Use of P2P protocols (BitTorrent) and torrent downloads on any Service servers.\n3.2.2. Spam distribution (including bulk email via port 25), flooding in messengers and social networks.\n3.2.3. Distribution of malicious software, viruses, trojans, or botnet control.\n3.2.4. Any kind of network attacks: port scanning, password brute-force, DDoS attacks, unauthorized access to third-party resources.\n3.2.5. Distribution of child pornography and materials promoting terrorism or violence.\n3.3. Consequences of violations: A breach of any clause in section 3.2 results in immediate account suspension without the right to restoration and without refund.\n\n4. FAIR USE POLICY\n4.1. The Service is intended for personal, non-commercial use.\n4.2. For Tariff plans in the “Unlimited” category, the following restrictions apply:\n4.2.1. If consumed traffic exceeds 3 TB (terabytes) per month;\nAND\n4.2.2. The Service detects abnormal channel load that degrades connection quality for other users;\n4.2.3. The Provider reserves the right, at its sole discretion, to limit connection speed or suspend access until the end of the billing period.\n\n5. PAYMENT AND REFUND PROCEDURE\n5.1. Service offerings are classified as digital content delivered instantly in electronic form.\n5.2. No-refund rule: In accordance with Article 15(ğ) of the Turkish Republic “Regulation on Distance Contracts” (Mesafeli Sözleşmeler Yönetmeliği), the consumer's right of withdrawal (refund) does not apply to services performed instantly in electronic environments.\n5.3. App Store payments: Refunds for subscriptions made through Apple App Store are governed exclusively by Apple's rules. The Provider has no technical ability to process such refunds.\n5.4. Blocking of access to the Service caused by actions of government authorities (internet censorship) or the User's internet providers is recognized as force majeure and is not a basis for refund.\n\n6. LIABILITY OF THE PARTIES\n6.1. The Service is provided on an “as is” basis. The Provider does not guarantee uninterrupted or error-free operation of the Service, nor compatibility with networks of specific internet providers.\n6.2. The Provider is not liable for any damages, including lost profits, arising from use of or inability to use the Service.\n\n7. FINAL PROVISIONS\n7.1. This Agreement is governed by the laws of the Republic of Türkiye.\n7.2. All disputes and disagreements shall be resolved in the courts of Ankara, Türkiye."
+      "body": "利用規約（公募）\n発効日：2026年3月1日\n発行場所: Ankara、Турция\nこのユーザー契約 (以下「契約」) は、以下に定める条件に基づいて個人 (以下「ユーザー」) と契約を結ぶための Raqoon サービス (以下「プロバイダー」または「サービス」) の正式な提案です。\n\n1. 一般条項\n1.1. Raqoon アプリケーションの使用、Web サイトでの登録、またはサービス提供の支払いは、ユーザーが本契約を完全かつ無条件で承諾したことになります (承諾)。\n1.2.ユーザーは、18 歳以上であり、本契約を締結する完全な法的能力があることを保証します。\n1.3.プロバイダーは、本契約の条件を修正する権利を留保します。新しいバージョンは、発行された時点で発効します。\n\n2. 契約の主題\n2.1.プロバイダーは、仮想プライベート ネットワーク (VPN) を確立するためにサービス ソフトウェアおよびネットワーク インフラストラクチャを使用する非独占的な権利 (ライセンス) をユーザーに付与します。\n2.2.ソフトウェアへのアクセス:\n2.2.1.デフォルトでのサービスへのアクセスは、公式 Raqoon アプリケーションを通じてのみ提供されます。\n2.2.2.サードパーティ クライアント (Hiddify、v2rayNG、および同様のツールを含む) の使用は、ユーザーが購入した料金プランの説明でそのような機能が明示的に提供されている場合にのみ許可されます。\n2.3.デバイス制限:\n2.3.1.同時接続 (セッション) の数は、選択した料金プランの条件によって決まります。\n2.3.2.料金表に制限が指定されていない場合、標準の制限はアカウントあたり 5 台のデバイスです。\n\n3. 利用規約と禁止事項\n3.1.ユーザーは、合法的な目的でのみサービスを使用することを約束します。\n3.2.固く禁止されている行為：\n3.2.1.サービス サーバー上での P2P プロトコル (BitTorrent) およびトレント ダウンロードの使用。\n3.2.2.スパムの配布 (ポート 25 経由の大量メールを含む)、メッセンジャーやソーシャル ネットワークへの氾濫。\n3.2.3.悪意のあるソフトウェア、ウイルス、トロイの木馬、またはボットネット制御の配布。\n3.2.4.あらゆる種類のネットワーク攻撃: ポート スキャン、パスワード ブルート フォース、DDoS 攻撃、サードパーティ リソースへの不正アクセス。\n3.2.5.児童ポルノおよびテロや暴力を助長する素材の配布。\n3.3.違反の結果: セクション 3.2 の条項に違反した場合、アカウントは即時停止され、復元の権利も返金もありません。\n\n4. フェアユースポリシー\n4.1.本サービスは個人的、非営利的な使用を目的としています。\n4.2. 「無制限」カテゴリの料金プランには、次の制限が適用されます。\n4.2.1.消費トラフィックが 1 か月あたり 3 TB (テラバイト) を超える場合。\nそして\n4.2.2.サービスは、他のユーザーの接続品質を低下させる異常なチャネル負荷を検出します。\n4.2.3.プロバイダーは、独自の裁量で、請求期間が終了するまで接続速度を制限したり、アクセスを一時停止したりする権利を留保します。\n\n5. 支払いと返金の手順\n5.1.サービス提供は、電子形式で即座に配信されるデジタル コンテンツとして分類されます。\n5.2.返金なしのルール: トルコ共和国「距離契約に関する規則」(Mesafeli Sözleşmeler Yönetmeliği) 第 15 条 (ğ) に従い、消費者の撤回 (返金) の権利は、電子環境で即座に実行されるサービスには適用されません。\n5.3. App Store の支払い: Apple App Store を通じて行われたサブスクリプションの払い戻しには、Apple の規則のみが適用されます。プロバイダーには、そのような払い戻しを処理する技術的能力がありません。\n5.4.政府当局の行為 (インターネット検閲) またはユーザーのインターネットプロバイダーによるサービスへのアクセスのブロックは、不可抗力とみなされ、払い戻しの根拠にはなりません。\n\n6. 当事者の責任\n6.1.本サービスは「現状のまま」で提供されます。プロバイダーは、サービスの中断やエラーのない動作、または特定のインターネット プロバイダーのネットワークとの互換性を保証しません。\n6.2.提供者は、本サービスの利用または利用不能から生じる逸失利益を含むいかなる損害についても責任を負いません。\n\n7. 最終条項\n7.1.本契約はТурция共和国の法律に準拠します。\n7.2.すべての紛争および意見の相違は、Ankara、Турция の法廷で解決されるものとします。"
     },
     "contact": {
       "title": "お問い合わせ",
-      "body": "サービスの運用、アクセス、請求、サポートに関するご質問は、__ TK 0 __までお問い合わせください。できるだけ早く対応することを目指しています。"
+      "body": "サービスの運用、アクセス、請求、サポートに関するご質問は、hello@raqoon.app までお問い合わせください。できるだけ早く対応することを目指しています。"
     },
     "refund": {
       "title": "返金ポリシー",
-      "body": "返金ポリシー\n発効日： 2026年3月1日\n\n__ TK 0 __を通じてサブスクリプションを購入した場合、返金、サブスクリプションのキャンセル、およびすべての関連事項は、__ TK 1 __の規則と手順に準拠します。\n\nお支払いに関するご質問は、サポート（ __ TK 2 __ ）までお問い合わせください。"
+      "body": "返金ポリシー\n発効日：2026年3月1日\n\nApp Store を通じてサブスクリプションを購入した場合、払い戻し、サブスクリプションのキャンセル、およびすべての関連事項には App Store の規則と手順が適用されます。\n\n支払い関連の質問については、サポート (hello@raqoon.app) までお問い合わせください。"
     }
   },
   "notFound": {
-    "title": "ページが見つかりませんでした",
-    "description": "このページは存在しないか、移動されています。",
+    "title": "ページが見つかりません",
+    "description": "このページは存在しないか、移動されました。",
     "cta": "ホームに戻る"
   },
   "footer": {
-    "about": "会社概要",
+    "about": "会社について",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "contact": "お問い合わせ",
+    "contact": "接触",
     "refund": "返金ポリシー",
-    "copy": "© 2026 __ TK 0 __"
+    "copy": "© 2026 Raqoon"
   },
   "lang": {
     "ru": "RU",

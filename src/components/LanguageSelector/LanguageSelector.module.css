@@ -63,10 +63,14 @@
 
 .flagGb {
   background:
-    linear-gradient(90deg, transparent 0 38%, #ffffff 38% 62%, transparent 62% 100%),
-    linear-gradient(180deg, transparent 0 38%, #ffffff 38% 62%, transparent 62% 100%),
-    linear-gradient(90deg, transparent 0 44%, #cf142b 44% 56%, transparent 56% 100%),
-    linear-gradient(180deg, transparent 0 44%, #cf142b 44% 56%, transparent 56% 100%),
+    linear-gradient(33deg, transparent 43%, #ffffff 43% 57%, transparent 57%),
+    linear-gradient(-33deg, transparent 43%, #ffffff 43% 57%, transparent 57%),
+    linear-gradient(33deg, transparent 47%, #cf142b 47% 53%, transparent 53%),
+    linear-gradient(-33deg, transparent 47%, #cf142b 47% 53%, transparent 53%),
+    linear-gradient(90deg, transparent 0 35%, #ffffff 35% 65%, transparent 65%),
+    linear-gradient(180deg, transparent 0 35%, #ffffff 35% 65%, transparent 65%),
+    linear-gradient(90deg, transparent 0 43%, #cf142b 43% 57%, transparent 57%),
+    linear-gradient(180deg, transparent 0 43%, #cf142b 43% 57%, transparent 57%),
     #012169;
 }
 

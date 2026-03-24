@@ -1,153 +1,174 @@
 {
   "meta": {
-    "titleWW": "Raqoon VPN — Hızlı ve Güvenli VPN",
-    "descriptionWW": "Raqoon bağlantınızı korur, gizliliğinizi destekler ve her yerde güvenli internet deneyimi sunar.",
-    "ogTitleWW": "Raqoon — Güvenli Bağlantı",
-    "ogDescriptionWW": "Automatic protocol selection, priority support ve 5 cihaza kadar destek.",
-    "downloadTitleWW": "Raqoon VPN’i indirin — kart yok, e-posta yok, izleme yok",
-    "downloadDescriptionWW": "3 günlük deneme, ardından seçtiğiniz planın ödemesi. Şifreleme, anonim hesap — kayıtlı kart yok, zorunlu e-posta yok.",
-    "downloadOgTitleWW": "Raqoon — VPN indir",
-    "downloadOgDescriptionWW": "Raqoon VPN: önce gizlilik — verilerinizden profil oluşturmuyoruz."
+    "titleWW": "Raqoon VPN — Özgür internete hızlı erişimin",
+    "descriptionWW": "Raqoon VPN ile engelleri unut. Akıllı protokoller, anında bağlantı ve gereksiz veri olmadan tam anonimlik.",
+    "ogTitleWW": "Raqoon VPN — Sınır ve sansür olmayan internet",
+    "ogDescriptionWW": "Gerçekten çalışan VPN. Günlük 10 ₽'den başlayan fiyatlar, Rusya sunucuları ve dürüst No-Logs. 1 dakikada bağlan!",
+    "downloadTitleWW": "Raqoon VPN indir — Kayıt olmadan tam anonimlik",
+    "downloadDescriptionWW": "3 gün ücretsiz dene. Kart bağlama yok, e-posta yok, takip yok. Sadece indir ve kullan.",
+    "downloadOgTitleWW": "Raqoon — Ağdaki güvenilir erişimin",
+    "downloadOgDescriptionWW": "Raqoon VPN indir: Tek tıkla trafiğinin güvenliğini sağla. Veri toplamıyoruz — gizliliği koruyoruz.",
+    "aboutTitleWW": "Şirket hakkında — Raqoon VPN",
+    "aboutDescriptionWW": "Qat Bilişim LTD., Raqoon VPN'i geliştiriyor. Ofis Ankara, Türkiye'de. Destek: hello@raqoon.app.",
+    "privacyTitleWW": "Gizlilik Politikası — Raqoon VPN",
+    "privacyDescriptionWW": "Raqoon VPN Gizlilik Politikası: Etkinlik günlüğü yok, trafik içeriği analizi yok, ödeme ve veri koruması.",
+    "termsTitleWW": "Kullanıcı Sözleşmesi — Raqoon VPN",
+    "termsDescriptionWW": "Raqoon VPN Kamu teklifi ve kullanım koşulları: Abonelik, kullanım kuralları, sorumluluklar.",
+    "contactTitleWW": "İletişim — Raqoon VPN",
+    "contactDescriptionWW": "Raqoon destek ekibiyle iletişime geç: Faturalandırma, erişim, teknik sorular. E-posta: hello@raqoon.app.",
+    "refundTitleWW": "İade Politikası — Raqoon VPN",
+    "refundDescriptionWW": "App Store abonelik iadeleri Apple kurallarına göredir. Ödeme soruları: hello@raqoon.app.",
+    "migrationTitleRU": "IZI'den Raqoon'a geçiş — Talimatlar",
+    "migrationDescriptionRU": "IZI VPN'den Raqoon'a geç: Telegram'daki @raqoonbot'a bağlan ve yeni servise taşın."
+  },
+  "nav": {
+    "logoAlt": "Raqoon"
   },
   "hero": {
-    "titleWW": "Raccoon Proxy'den\nVPN",
-    "subtitleWW": "Güvenli, pratik, hızlı",
-    "ctaWW": "İndir",
+    "titleWW": "VPN servisi,\nRakun Proxy'den",
+    "subtitleWW": "Hak ettiğin hız, güvenilirlik ve gizlilik. Karmaşık ayarlar yok.",
+    "ctaWW": "Ücretsiz dene",
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
   "features": {
-    "title": "Neler dahil",
+    "title": "Neden Raqoon'u seçiyorlar",
     "items": [
       {
-        "label": "Otomatik protokol seçimi"
+        "label": "Akıllı protokoller"
       },
       {
-        "label": "Public Wi-Fi ağlarında bağlantı koruması",
-        "sub": "Kafede, otelde veya havalimanında verileriniz şifrelenir ve güvenli kalır"
+        "label": "7/24 Destek",
+        "sub": "Gerçek insanlar her türlü sorunu 24 saat içinde yanıtlar"
       },
       {
-        "label": "Öncelikli destek",
-        "sub": "24 saat içinde mutlaka yanıt veriyoruz"
+        "label": "Rusya sunucuları",
+        "sub": "Dünyanın her yerinden alışık olduğun servislere erişimin"
       },
       {
-        "label": "5 cihaza kadar"
+        "label": "Küresel kapsama",
+        "sub": "Tek tıkla konum değiştir ve her türlü engeli aş"
       },
       {
-        "label": "Yüksek trafik hacmi"
+        "label": "5 cihaza kadar",
+        "sub": "Tüm teknolojini tek bir abonelikle güvenceye al"
+      },
+      {
+        "label": "Sınırsız trafik",
+        "sub": "Yüksek kalitede film izle ve dosyaları sınırsızca indir"
       }
     ]
   },
   "pricing": {
-    "title": "Planınızı seçin",
+    "title": "Kendi özgürlük formatını seç",
     "constructor": {
-      "badge": "Selam",
-      "price": "10",
-      "unit": "$ / gün",
-      "cta": "Seç"
+      "badge": "Konstrüktör",
+      "price": "4,99'dan",
+      "unit": "₽ / gün",
+      "cta": "Kendine göre ayarla"
     },
     "allIn": {
       "badge": "Her Şey Dahil",
-      "price": "9.99",
-      "unit": "$ / ay",
-      "cta": "Seç"
+      "price": "7,99'dan",
+      "unit": "₽ / gün",
+      "cta": "Hepsini birden al"
     },
     "constructorFeatures": [
       {
-        "label": "Otomatik protokol seçimi"
+        "label": "En iyi protokolün otomatik seçimi"
       },
       {
-        "label": "Public Wi-Fi ağlarında bağlantı koruması",
-        "sub": "Kafede, otelde veya havalimanında verileriniz şifrelenir ve güvenli kalır"
+        "label": "7/24 Destek"
       },
       {
-        "label": "Öncelikli destek",
-        "sub": "24 saat içinde mutlaka yanıt veriyoruz"
+        "label": "RosVPN erişimi"
       },
       {
-        "label": "5 cihaza kadar"
+        "label": "Konum değiştirme"
       },
       {
-        "label": "Yüksek trafik hacmi"
+        "label": "Aynı anda 5 cihaza kadar"
+      },
+      {
+        "label": "Devasa trafik paketi"
       }
     ],
     "allInFeatures": [
       {
-        "label": "Otomatik protokol seçimi"
+        "label": "Tüm konstrüktör özellikleri"
       },
       {
-        "label": "Public Wi-Fi ağlarında bağlantı koruması",
-        "sub": "Kafede, otelde veya havalimanında verileriniz şifrelenir ve güvenli kalır"
+        "label": "Tüm dünya servislerine erişim"
       },
       {
-        "label": "Öncelikli destek",
-        "sub": "24 saat içinde mutlaka yanıt veriyoruz"
+        "label": "Üçüncü taraf uygulamalarda çalışma"
       },
       {
-        "label": "5 cihaza kadar"
-      },
-      {
-        "label": "Yüksek trafik hacmi"
+        "label": "Öncelikli destek hattı"
       }
     ]
   },
+  "migration": {
+    "title": "IZI'den mi geçiyorsun? Kolay transfer için her şeyi hazırladık!",
+    "cta": "Geçiş talimatları"
+  },
   "referral": {
-    "title": "Arkadaşını davet et -\ndaha fazla süre kazan",
-    "description": "Kodunu paylaşman yeterli. Arkadaşın ilk abonelikte +10 gün kazanır, sen de bonus olarak 30 güne kadar alırsın.",
-    "cta": "Gün kazan"
+    "title": "Arkadaşlarini davet et —\nücretsiz kullan!",
+    "description": "Kodunu paylaş: Arkadaşlarına +10 gün abonelik veriyoruz, sana ise bonus olarak bir aya kadar süre. Ne kadar çok davet, o kadar çok ücretsiz erişim!",
+    "cta": "Bonus günlerini al"
   },
   "faq": {
-    "title": "Sıkça Sorulan Sorular",
+    "title": "Önemli sorularını yanıtlıyoruz",
     "items": [
       {
-        "q": "Hangi protokolleri kullanıyorsunuz?",
-        "a": "Farklı protokoller hız, güvenlik ve kararlılık arasında farklı dengeler sunar. Örneğin WireGuard gibi modern çözümler yüksek hız ve sade mimari sağlarken, klasik protokoller güvenilirlikleriyle bilinir."
+        "q": "Hızınız neden bu kadar yüksek?",
+        "a": "WireGuard gibi modern protokoller kullanıyoruz. Bu, minimum gecikme, güvenilir şifreleme ve zayıf internet sinyalinde bile kararlı bağlantı sağlar."
       },
       {
-        "q": "Sunucularınız hangi ülkelerde mevcut?",
-        "a": "Türkiye'de sunucularımız bulunuyor. Bu sayede özellikle public Wi-Fi ağlarında daha hızlı ve daha güvenli bağlantı sağlıyoruz."
+        "q": "Sunucularınız nerede bulunuyor?",
+        "a": "Avrupa, Asya ve Rusya dahil olmak üzere dünya çapında geniş bir ağımız var. Listenin tamamı uygulama içinde mevcut — haritadaki herhangi bir noktayı seçebilirsin."
       },
       {
-        "q": "Kullanıcı etkinlik kayıtlarını tutuyor musunuz?",
-        "a": "Hayır, kullanıcı etkinlik loglarını tutmuyoruz. Gizliliğinizi korumak için sıkı bir no-logs politikası uyguluyoruz."
+        "q": "Etkinlik kayıtlarını gerçekten tutmuyor musunuz?",
+        "a": "Kesinlikle. No-Logs politikamız teknik bir mimaridir. Hangi siteleri ziyaret ettiğini bilmiyoruz. Etkinliğin sadece sana aittir."
       },
       {
-        "q": "VPN bağlantısı ne kadar güvenli?",
-        "a": "Bağlantınız modern şifreleme ile korunur. Tüm trafik cihazınızdan çıkmadan önce şifrelenir; bu da her türlü ağda yüksek güvenlik sağlar."
+        "q": "Şifreleme ne kadar güvenilir?",
+        "a": "En üst düzey standartları kullanıyoruz. Tüm trafiğin cihazından çıkmadan önce güvenli bir şekilde korunur. Açık Wi-Fi ağlarında bile güvenlidir."
       },
       {
-        "q": "Hangi ödeme yöntemlerini kabul ediyorsunuz?",
-        "a": "Başlıca banka kartlarını ve popüler ödeme sistemlerini kabul ediyoruz. Tüm yöntemleri uygulamadaki ödeme sayfasında görebilirsiniz."
+        "q": "Abonelik ödemesini nasıl yapabilirim?",
+        "a": "Her türlü kolay yöntemle: Banka kartları, ödeme sistemleri ve uygulama içi satın alımlar. Her şey şeffaf, hızlı ve gizli komisyonlar olmadan."
       }
     ]
   },
   "common": {
-    "comingSoonMessage": "Uygulama geliştiriliyor. Yakında abonelik satın alabileceksiniz.",
-    "comingSoonOk": "Tamam",
-    "turkeyDownloadUnavailable": "Raqoon Türkiye'de şu an için indirilebilir değildir."
+    "comingSoonMessage": "Son rötuşları yapıyoruz! Çok yakında abonelik kullanıma sunulacak.",
+    "comingSoonOk": "Sabırsızlıkla bekliyorum",
+    "turkeyDownloadUnavailable": "Maalesef Raqoon, Türkiye sınırları içerisinde indirilememektedir."
   },
   "downloadPage": {
-    "heroTitle": "Kartsız. E-postasız. Takipsiz. Sadece koruma.",
-    "heroText": "Bağlan’a dokunun — korunursunuz. Veri saklamıyoruz — takip yok.",
-    "mythsTitle": "VPN efsaneleri",
-    "mythsP1": "Her VPN’nin kimliğe bağlı olduğu söylenir. Raqoon’da hesap var ama anonim: kayıtlı banka kartı yok, zorunlu e-posta yok.",
-    "mythsP2": "Reklamla “bedava” modeli yok. 3 gün tam erişim, ardından zaten seçtiğiniz planın ödemesi. Trafik korumasına odaklanıyoruz — veri toplamaya değil.",
-    "featuresTitle": "Neden Raqoon",
+    "heroTitle": "Kart yok. E-posta yok. Sadece senin güvenliğin.",
+    "heroText": "Butona bas — ve koruma altındasın. Verilerini toplamıyoruz çünkü seni takip etmek için bir nedenimiz yok.",
+    "mythsTitle": "VPN mitlerini yıkıyoruz",
+    "mythsP1": "VPN'in mutlaka kişisel veri gerektirdiğini mi düşünüyorsun? Raqoon aksini kanıtlıyor: Hesabın tamamen anonimdir. Başlangıçta e-posta veya kart bağlamanıza gerek yok.",
+    "mythsP2": "Senin ilgini pazarlamıyoruz. \"Ücretsiz\" servislerdeki gibi can sıkıcı reklamlarımız yok. Bunun yerine — kalitesini bizzat görmen için 3 günlük dürüst bir test sürüşü sunuyoruz.",
+    "featuresTitle": "Raqoon'un Avantajları",
     "features": [
-      "3 gün tam erişim — ardından plan ödemeniz",
-      "Güçlü şifreyle tüm cihaz koruması",
-      "Tek dokunuşla bağlanma",
-      "Halka açık Wi‑Fi’de stabil performans",
-      "Sade arayüz",
-      "Popüler platform desteği"
+      "3 günlük tam erişim — yükümlülük içermeyen test sürüşü",
+      "Tüm cihazda güvenilir şifreleme",
+      "Tek tıkla bağlantı",
+      "Kamuya açık Wi-Fi ağlarında güvenli çalışma",
+      "Gereksiz ayarlar içermeyen temiz arayüz",
+      "Tüm cihazların için destek"
     ],
-    "finalTitle": "Şimdi indirin. Gereksiz kayıt yok. Zorunlu e-posta yok. Sadece gizlilik.",
-    "finalText": "Korumak için tasarlanmış, izlemek için değil — bu VPN’i seçen çok sayıda kullanıcıya katılın.",
-    "ctaHome": "Ana sayfa",
-    "ctaPlans": "Planları gör",
-    "badgeAriaAppStore": "App Store’dan indir — yakında",
-    "badgeAriaGooglePlay": "Google Play — yakında",
-    "badgeAriaMacAppStore": "Mac App Store’dan indir — yakında"
+    "finalTitle": "Şimdi başla. Kayıt ve SMS yok. Sadece gizlilik.",
+    "finalText": "Takip ve kısıtlama olmayan bir interneti seçenlerin topluluğuna katıl.",
+    "ctaHome": "Ana sayfaya",
+    "ctaPlans": "Tarife seç",
+    "badgeAriaAppStore": "Yakında App Store'da",
+    "badgeAriaGooglePlay": "Yakında Google Play'de",
+    "badgeAriaMacAppStore": "Yakında Mac App Store'da"
   },
   "about": {
     "title": "Şirket hakkında",
@@ -156,34 +177,43 @@
     "emailLabel": "E-posta:",
     "email": "hello@raqoon.app",
     "keyPointsTitle": "Temel bilgiler",
-    "keyPointsBody": "Qat Bilişim LTD., Raqoon dijital hizmetlerini geliştirir ve işletir. Süreç şeffaflığı, kişisel verilerin korunması ve yüksek hizmet kalitesi önceliğimizdir. Şirket, yürürlükteki yasal gereklilikler ve iç güvenlik standartları doğrultusunda faaliyet gösterir.",
+    "keyPointsBody": "Qat Bilişim LTD., Raqoon dijital hizmetlerinin gelişimini ve desteğini sağlar. Süreç şeffaflığına, kişisel verilerin korunmasına ve müşteri hizmetleri kalitesine öncelik veriyoruz. Şirket, geçerli yasal gereklilikler ve dahili güvenlik standartları doğrultusunda faaliyet göstermektedir.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
   "legal": {
     "privacy": {
       "title": "Gizlilik Politikası",
-      "body": "Raqoon Gizlilik Politikası\nYürürlük Tarihi: 1 Mart 2026\nYargı Alanı: Ankara, Türkiye\nSahip: Qat Bilişim Ltd.\n\nÖzet\nAnonimlik ve güvenlik hakkınıza saygı duyarız. Çevrim içi etkinliklerinizi görmeyiz, ziyaret ettiğiniz siteleri kaydetmeyiz ve trafiğinizin içeriğini saklamayız. Sistemimiz, bağlantı kalitesini sağlamak için yalnızca teknik parametreleri (veri hacmi ve son bağlantı zamanı) kaydeder. Kart bilgilerinizi saklamayız; tüm ödemeler güvenli harici ödeme ağ geçitleri üzerinden işlenir.\n\n1. Zero Logs Politikası\nEtkinlikleriniz konusunda sıkı bir no-logs politikası uygularız. Hizmetin teknik mimarisi aşağıdaki verileri kaydetmemizi, saklamamızı veya üçüncü taraflarla paylaşmamızı engeller:\n• Etkinlik geçmişi: Ziyaret edilen web siteleri (URL), arama sorguları ve gezinti geçmişi kaydedilmez.\n• Ağ sorguları: DNS sorgularının kayıtları tutulmaz.\n• Trafik içeriği: Mesajlar, e-postalar ve dosyalar dahil iletilen verilerin içeriğine erişemeyiz.\n• Orijinal IP adresi: Hizmeti kullanırken gerçek IP adresinizi saklamayız ve etkinliklerinizle eşleştirmeyiz.\n\n2. İşlediğimiz Veriler (Teknik Gereklilik)\nHizmetin stabil çalışması ve aboneliklerin yönetimi için minimum teknik veri işlenir.\n2.1. Kimliklendirme\n• UUID / Erişim Anahtarı: Cihazınızı sunucularımızda yetkilendirmek için kullanılan benzersiz teknik tanımlayıcı.\n• E-posta (Opsiyonel): Yalnızca hesap kurtarma, makbuz ve sistem bildirimleri için kullanılır.\n2.2. İstatistik ve Teşhis\n• Veri hacmi: Paket limitlerini izlemek için gönderilen ve alınan veri miktarı.\n• Son bağlantı zamanı: Bağlantı sorunlarını tespit etmek ve oturum durumunu güncel tutmak için kaydedilir.\n• Abonelik durumu: Erişim anahtarının geçerlilik süresi ve aktivite durumu.\n\n3. Uygulama İşleyişi ve Takipsizlik\n• Pazarlama izleyicileri: Uygulamalarımız, verilerinizi üçüncü taraflara aktarabilecek pazarlama veya analiz araçları içermez.\n• Erişilebilirlik izleme: Uygulama, düğümlerimize bağlantıyı otomatik olarak kontrol edebilir. Bu veriler tamamen anonimdir ve en hızlı sunucuyu seçmek için kullanılır.\n\n4. Ödeme Bilgileri\nBanka kartı bilgilerinizin tamamını saklamayız veya işlemeyiz.\n• App Store: İşlemler Apple App Store tarafından işlenir. Bize yalnızca ödemenin yapıldığını doğrulayan şifreli bir token ulaşır.\n\n5. Saklama ve Silme\n• Teknik veriler: Trafik ve giriş zamanı verileri abonelik süresi boyunca saklanır.\n• Otomatik silme: Abonelik yenilenmezse hesap verileri 90 gün hareketsizlikten sonra tamamen silinebilir.\n• Silme hakkı: Uygulama ayarlarından veya destekle iletişime geçerek hesabınızı ve ilişkili verileri tamamen silebilirsiniz.\n\n6. Veri Paylaşımı ve Resmi Talepler\nQat Bilişim Ltd. Türkiye'de kayıtlıdır. Kullanıcı verileri satılmaz ve reklam şirketlerine aktarılmaz. Resmi makam taleplerinde yasal düzenlemelere uygun hareket ederiz. Teknik mimarimiz nedeniyle kullanıcıların çevrim içi eylemlerine ait verilerin sağlanması mümkün değildir; çünkü bu veriler teknik olarak kaydedilmez. Yalnızca hesap varlığını ve toplam trafik miktarını doğrulayabiliriz.\n\n7. İletişim\nGizlilik veya veri silme talepleri için:\n• E-posta: private@raqoon.app\n• Telegram: @raqoonbot\n• Konum: Ankara, Türkiye"
+      "body": "Raqoon Gizlilik Politikası\nYürürlük Tarihi: 1 Mart 2026\nYargı Yetkisi: Ankara, Türkiye\nHizmet Sahibi: Qat Bilişim Ltd.\n\nKısa Öz\nAnonimlik ve güvenlik hakkınıza saygı duyuyoruz. Ağda ne yaptığınızı görmüyoruz, ziyaret edilen sitelerin geçmişini kaydetmiyoruz ve trafiğinizin içeriğini saklamıyoruz. Sistem, bağlantı kalitesini sağlamak için yalnızca teknik parametreleri (veri hacmi ve son bağlantı zamanı) kaydeder. Kart verilerinizi saklamıyoruz — tüm ödemeler güvenli harici geçitler üzerinden gerçekleştirilir.\n\n1. Kayıt Tutmama Politikası (Zero Logs Policy)\nEtkinlik günlüğü tutmama konusunda katı bir politikaya bağlıyız. Servisin teknik mimarisi, aşağıdaki verilerin kaydedilmesi, saklanması veya üçüncü taraflara aktarılması ihtimalini ortadan kaldırır:\n• Etkinlik Geçmişi: Ziyaret edilen web sitelerini (URL), arama sorgularını ve tarama geçmişini kaydetmiyoruz.\n• Ağ Sorguları: DNS sorgularının kaydını tutmuyoruz.\n• Trafik İçeriği: Mesajlar, e-postalar ve dosyalar dahil olmak üzere iletilen verilerin içeriğine erişimimiz yoktur.\n• Kaynak IP Adresi: Servis kullanımı sırasında gerçek IP adresinizi kaydetmiyoruz ve etkinliğinizle eşleştirmiyoruz.\n\n2. Toplanan Veriler (Teknik Gereklilik)\nKararlı çalışma ve abonelik yönetimi sağlamak için Servis, gerekli olan minimum veri setini işler.\n2.1. Kimlik Tanımlama\n• UUID / Erişim Anahtarı: Cihazınızın sunucularımızda yetkilendirilmesi için benzersiz bir teknik tanımlayıcı.\n• E-posta (isteğe bağlı): Yalnızca hesap erişimini kurtarmak veya makbuz ve sistem bildirimleri göndermek için kullanılır.\n2.2. İstatistik ve Teşhis\n• Trafik Hacmi: Tarifenizin limitlerini kontrol etmek için iletilen ve alınan veri miktarı.\n• Son Bağlantı Zamanı: Bağlantı sorunlarını tespit etmek ve güncel oturum durumunu korumak için kaydedilir.\n• Abonelik Durumu: Erişim anahtarınızın geçerlilik süresi ve etkinliği.\n\n3. Uygulama Çalışması ve İzlememe\n• Pazarlama Takipçileri: Uygulamalarımızda, hakkınızdaki bilgileri üçüncü taraflara aktarabilecek üçüncü taraf analitik ve pazarlama araçları (Facebook SDK veya reklam tanımlayıcıları gibi) tamamen eksiktir.\n• Kullanılabilirlik İzleme: Uygulama, düğümlerimizle olan bağlantıyı otomatik olarak kontrol edebilir. Bu veriler tamamen anonimdir ve yalnızca en hızlı sunucunun otomatik seçimi için kullanılır.\n\n4. Ödeme Bilgileri\nBanka kartlarınızın tam bilgilerini saklamıyoruz ve işlemiyoruz.\n• App Store: İşlemler Apple App Store tarafından işlenir. Yalnızca ödeme gerçeğine dair şifrelenmiş bir onay token'ı alıyoruz.\n\n5. Saklama Süreleri ve Veri Silme\n• Teknik Bilgiler: Trafik ve giriş zamanı verileri abonelik süresi boyunca saklanır.\n• Otomatik Silme: Aboneliğinizi yenilemezseniz, hesap verileri 90 günlük hareketsizlikten sonra sistemden tamamen silinebilir.\n• Silme Hakkınız: Uygulama ayarları üzerinden veya destekle iletişime geçerek hesabınızı ve ilgili tüm bilgileri istediğiniz zaman tamamen silebilirsiniz.\n\n6. Veri Aktarımı ve Makam Talepleri\nQat Bilişim Ltd. Türkiye'de kayıtlıdır. Kullanıcı verilerini satmıyoruz ve reklam şirketlerine aktarmıyoruz. Kolluk kuvvetlerinden resmi talep gelmesi durumunda yasalar çerçevesinde hareket ederiz. Ancak mimarimiz, ağdaki eylemleriniz hakkında veri sağlanmasını imkansız kılar, çünkü bu bilgiler teknik olarak kaydedilmez. Sadece bir hesabın varlığını ve tüketilen trafik hacmini teyit edebiliriz.\n\n7. İletişim\nGizlilik veya veri silme konularındaki sorularınız için:\n• E-posta: private@raqoon.app\n• Telegram: @raqoonbot\n• Konum: Ankara, Türkiye"
     },
     "terms": {
-      "title": "Kullanım Şartları",
-      "body": "Kullanım Şartları (KAMUYA AÇIK TEKLİF)\nYürürlük Tarihi: 1 Mart 2026\nYayım Yeri: Ankara, Türkiye\nİşbu Kullanıcı Sözleşmesi (bundan sonra \"Sözleşme\"), Raqoon hizmetinin (bundan sonra \"Sağlayıcı\" veya \"Hizmet\") aşağıda belirtilen şartlarla herhangi bir bireyle (bundan sonra \"Kullanıcı\") sözleşme yapma teklifidir.\n\n1. GENEL HÜKÜMLER\n1.1. Raqoon uygulamasının kullanımı, web sitesine kayıt veya hizmet ödemesi, Kullanıcı'nın bu Sözleşmeyi tamamen ve koşulsuz kabul ettiği anlamına gelir.\n1.2. Kullanıcı, en az 18 yaşında olduğunu ve bu Sözleşmeyi yapma ehliyetine sahip olduğunu beyan eder.\n1.3. Sağlayıcı, Sözleşme şartlarını değiştirme hakkını saklı tutar. Yeni sürüm yayım anında yürürlüğe girer.\n\n2. SÖZLEŞMENİN KONUSU\n2.1. Sağlayıcı, Kullanıcı'ya Hizmet yazılımını ve ağ altyapısını kullanarak sanal özel ağ (VPN) kurma amacıyla inhisari olmayan kullanım hakkı verir.\n2.2. Yazılıma erişim:\n2.2.1. Hizmete varsayılan erişim yalnızca resmi Raqoon uygulaması üzerindendir.\n2.2.2. Üçüncü taraf istemcilerin kullanımı, yalnızca satın alınan tarife açıkça bu özelliği içeriyorsa mümkündür.\n2.3. Cihaz limiti:\n2.3.1. Eş zamanlı bağlantı sayısı seçilen tarife koşullarına göre belirlenir.\n2.3.2. Tarife belirtilmemişse standart limit hesap başına 5 cihazdır.\n\n3. KULLANIM KURALLARI VE YASAKLAR\n3.1. Kullanıcı, Hizmeti yalnızca yasal amaçlarla kullanmayı kabul eder.\n3.2. Kesinlikle yasak eylemler:\n3.2.1. Tüm Hizmet sunucularında P2P protokolleri (BitTorrent) ve torrent indirme.\n3.2.2. Spam dağıtımı (25 portu üzerinden toplu e-posta dahil), mesajlaşma uygulamalarında veya sosyal ağlarda flood.\n3.2.3. Kötü amaçlı yazılım, virüs, trojan yayma veya botnet yönetimi.\n3.2.4. Her türlü ağ saldırısı: port tarama, brute-force, DDoS, yetkisiz erişim.\n3.2.5. Çocuk istismarı içerikleri veya terör/şiddet propagandası.\n3.3. İhlal sonuçları: 3.2 maddesinin ihlali, hesap erişiminin iadesiz ve geri yükleme hakkı olmadan derhal sonlandırılmasına yol açar.\n\n4. ADİL KULLANIM POLİTİKASI\n4.1. Hizmet, kişisel ve ticari olmayan kullanım içindir.\n4.2. \"Sınırsız\" kategori tarifelerde şu kısıtlamalar uygulanır:\n4.2.1. Aylık trafik 3 TB'yi aşarsa;\nVE\n4.2.2. Diğer kullanıcıların bağlantı kalitesini düşüren anormal kanal yüklenmesi tespit edilirse;\n4.2.3. Sağlayıcı, bağlantı hızını sınırlama veya dönem sonuna kadar erişimi askıya alma hakkını saklı tutar.\n\n5. ÖDEME VE İADE\n5.1. Hizmetler, elektronik ortamda anında sağlanan dijital içerik olarak sınıflandırılır.\n5.2. İadesizlik: Türkiye Cumhuriyeti Mesafeli Sözleşmeler Yönetmeliği'nin 15(ğ) maddesi kapsamında, elektronik ortamda anında ifa edilen hizmetlerde cayma (iade) hakkı uygulanmaz.\n5.3. App Store ödemeleri: Apple App Store üzerinden yapılan abonelik iadeleri yalnızca Apple kurallarına tabidir. Sağlayıcı bu iadeleri teknik olarak gerçekleştiremez.\n5.4. Resmi kurumlar veya internet sağlayıcıları kaynaklı erişim engelleri mücbir sebep sayılır ve iade nedeni oluşturmaz.\n\n6. TARAFLARIN SORUMLULUĞU\n6.1. Hizmet \"olduğu gibi\" sunulur. Sağlayıcı, kesintisiz/hatasız çalışma veya belirli sağlayıcı ağlarıyla uyumluluk garantisi vermez.\n6.2. Sağlayıcı, kullanımdan veya kullanamama durumundan doğan kar kaybı dahil hiçbir zarardan sorumlu tutulamaz.\n\n7. SON HÜKÜMLER\n7.1. Bu Sözleşme Türkiye Cumhuriyeti hukukuna tabidir.\n7.2. Tüm uyuşmazlıklar Ankara mahkemelerinde çözülür."
+      "title": "Kullanım Koşulları",
+      "body": "Kullanım Koşulları (KAMU TEKLİFİ)\nYürürlük Tarihi: 1 Mart 2026\nYayın Yeri: Ankara, Türkiye\nİşbu Kullanıcı Sözleşmesi (bundan böyle — «Sözleşme»), Raqoon servisinin (bundan böyle — «Yüklenici» veya «Servis») aşağıda belirtilen koşullarda herhangi bir gerçek kişiyle (bundan böyle — «Kullanıcı») sözleşme yapma yönündeki resmi teklifidir.\n\n1. GENEL HÜKÜMLER\n1.1. Raqoon uygulamasının kullanımı, siteye kayıt veya Servis hizmetlerinin ödenmesi, Kullanıcının bu Sözleşmeyi tamamen ve kayıtsız şartsız kabul ettiği (Kabul) anlamına gelir.\n1.2. Kullanıcı, 18 yaşına ulaştığını ve bu Sözleşmeyi akdetmek için tam fiil ehliyetine sahip olduğunu garanti eder.\n1.3. Yüklenici, Sözleşme koşullarında değişiklik yapma hakkını saklı tutar. Yeni sürüm yayınlandığı andan itibaren yürürlüğe girer.\n\n2. SÖZLEŞMENİN KONUSU\n2.1. Yüklenici, Kullanıcıya sanal bir özel ağ (VPN) organize etmek için Servisin yazılımını ve ağ altyapısını kullanma konusunda münhasır olmayan bir hak (Lisans) sağlar.\n2.2. Yazılıma erişim:\n2.2.1. Servise erişim, varsayılan olarak yalnızca resmi Raqoon uygulaması üzerinden gerçekleştirilir.\n2.2.2. Üçüncü taraf istemcilerin (Hiddify, v2rayNG ve benzerleri dahil) kullanımı, yalnızca Kullanıcı tarafından ödenen Tarife planının açıklamasında bu imkan doğrudan öngörülmüşse mümkündür.\n2.3. Cihaz Limiti:\n2.3.1. Aynı andaki bağlantı sayısı (oturumlar), seçilen Tarife planının koşullarıyla belirlenir.\n2.3.2. Tarifede belirtilmemişse, standart sınır bir hesap için 5 (beş) cihazdır.\n\n3. KULLANIM KOŞULLARI VE YASAKLAR\n3.1. Kullanıcı, Servisi yalnızca yasal amaçlarla kullanmayı taahhüt eder.\n3.2. Kesinlikle yasaklanan eylemler:\n3.2.1. Herhangi bir Servis sunucusunda P2P (BitTorrent) protokollerinin kullanımı ve torrent indirme.\n3.2.2. Spam gönderimi (25. port üzerinden toplu e-posta gönderimi dahil), mesajlaşma programlarında ve sosyal ağlarda flood.\n3.2.3. Kötü amaçlı yazılım, virüs, truva atı dağıtımı, botnet yönetimi.\n3.2.4. Her türlü ağ saldırısı: Port tarama, şifre kırma (brute-force), DDoS saldırıları, başkalarının kaynaklarına yetkisiz erişim.\n3.2.5. Çocuk pornografisi ve terörizmi veya şiddeti teşvik eden materyallerin dağıtımı.\n3.3. İhlal sonuçları: 3.2 maddesinin herhangi bir alt bendinin ihlali, iade hakkı olmaksızın ve hesabı geri yükleme hakkı bulunmaksızın hesabın derhal bloke edilmesine yol açar.\n\n4. ADİL KULLANIM POLİTİKASI (FAIR USE POLICY)\n4.1. Servis, kişisel ve ticari olmayan kullanım içindir.\n4.2. «Sınırsız» kategorisindeki tarife planları için aşağıdaki kısıtlamalar geçerlidir:\n4.2.1. Tüketilen trafik hacmi ayda 3 TB'ı (Terabayt) aşarsa;\nVE\n4.2.2. Servis, diğer kullanıcılar için bağlantı kalitesini düşüren anormal bir kanal yüklenmesi kaydederse;\n4.2.3. Yüklenici, tek taraflı olarak bağlantı hızını sınırlama veya hesap döneminin sonuna kadar erişimi askıya alma hakkını saklı tutar.\n\n5. ÖDEME VE İADE PROSEDÜRÜ\n5.1. Servis hizmetleri, elektronik ortamda anında sağlanan dijital içerik olarak sınıflandırılır.\n5.2. İade Reddi: Türkiye Cumhuriyeti «Mesafeli Sözleşmeler Yönetmeliği» Madde 15(ğ) uyarınca, elektronik ortamda anında ifa edilen hizmetlerde tüketicinin sözleşmeden cayma (iade) hakkı uygulanmaz.\n5.3. App Store Ödemeleri: Apple App Store üzerinden yapılan aboneliklerin iadesi münhasıran Apple şirketinin kuralları ile düzenlenir. Yüklenici, bu tür ödemeler için iade işlemi yapma teknik imkanına sahip değildir.\n5.4. Kamu kurumlarının eylemleri (internet sansürü) veya Kullanıcının internet servis sağlayıcıları nedeniyle Servise erişimin engellenmesi mücbir sebep olarak kabul edilir ve para iadesi için bir gerekçe teşkil etmez.\n\n6. TARAFLARIN SORUMLULUĞU\n6.1. Servis «olduğu gibi» (as is) esasına göre sunulur. Yüklenici, Servisin hatasız ve kesintisiz çalışacağını ve belirli internet servis sağlayıcılarının ağlarıyla uyumluluğunu garanti etmez.\n6.2. Yüklenici, Servisin kullanımından veya kullanılamamasından kaynaklanan kar kaybı dahil hiçbir zarardan sorumlu değildir.\n\n7. SON HÜKÜMLER\n7.1. Bu Sözleşme Türkiye Cumhuriyeti mevzuatına tabidir.\n7.2. Tüm uyuşmazlıklar ve anlaşmazlıklar Ankara, Türkiye mahkemelerinde çözüme tabidir."
     },
     "contact": {
       "title": "İletişim",
-      "body": "Hizmetin çalışması, erişim, ödeme veya destek ile ilgili tüm sorularınız için hello@raqoon.app adresine yazabilirsiniz. Mümkün olan en kısa sürede yanıt vermeye çalışıyoruz."
+      "body": "Servisin çalışması, erişim, ödeme ve destekle ilgili tüm sorularınız için hello@raqoon.app adresinden bize yazın. Mümkün olduğunca hızlı yanıt vermeye çalışıyoruz."
     },
     "refund": {
       "title": "İade Politikası",
-      "body": "İade Politikası\nYürürlük Tarihi: 1 Mart 2026\n\nAbonelik App Store üzerinden satın alındıysa iade, iptal ve ilgili tüm süreçler App Store kurallarına tabidir.\n\nÖdeme ile ilgili sorularınız için: hello@raqoon.app"
+      "body": "İade Politikası\nYürürlük Tarihi: 1 Mart 2026\n\n1. Abonelik App Store üzerinden yapılmışsa, para iadesi, abonelik iptali ve ilgili diğer konular App Store kurallarına tabidir.\n\n2. Satın alma App Store üzerinden yapılmamışsa, Türkiye Cumhuriyeti «Mesafeli Sözleşmeler Yönetmeliği» Madde 15(ğ) uyarınca servis iade veya değişime tabi değildir.\n\n3. Ödeme konularında destek ekibiyle iletişime geçebilirsiniz: hello@raqoon.app."
     }
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Görünüşe göre böyle bir sayfa mevcut değil veya taşınmış.",
+    "cta": "Ana sayfaya dön"
   },
   "footer": {
     "about": "Şirket hakkında",
     "download": "İndir",
     "privacy": "Gizlilik Politikası",
-    "terms": "Kullanım Şartları",
+    "terms": "Kullanım Koşulları",
     "contact": "İletişim",
     "refund": "İade Politikası",
     "copy": "© 2026 Raqoon"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "TR"
   }
 }

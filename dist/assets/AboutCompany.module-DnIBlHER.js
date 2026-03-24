@@ -1,1 +1,0 @@
-const t="_root_m1je0_1",e="_section_m1je0_5",_="_title_m1je0_9",o="_subtitle_m1je0_17",s="_block_m1je0_25",l="_text_m1je0_32",c="_legalText_m1je0_39",n="_link_m1je0_43",m="_mapWrap_m1je0_51",a="_map_m1je0_51",i={root:t,section:e,title:_,subtitle:o,block:s,text:l,legalText:c,link:n,mapWrap:m,map:a};export{i as s};

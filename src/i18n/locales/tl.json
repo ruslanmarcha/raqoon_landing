@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Ang iyong mabilis na access sa malayang internet",
     "descriptionWW": "Kalimutan ang mga block sa Raqoon VPN. Matalinong mga protocol, agarang koneksyon, at ganap na anonymity nang walang labis na data.",
     "ogTitleWW": "Raqoon VPN — Internet nang walang hangganan at censorship",
-    "ogDescriptionWW": "VPN na talagang gumagana. Mga plano mula $0.10 bawat araw, mga server sa Russia, at tapat na No-Logs. Kumonekta sa loob ng 1 minuto!",
+    "ogDescriptionWW": "VPN na talagang gumagana. Mga plano mula $9.99 bawat buwan, mga server sa Russia, at tapat na No-Logs. Kumonekta sa loob ng 1 minuto!",
     "downloadTitleWW": "I-download ang Raqoon VPN — Ganap na anonymity nang walang registration",
     "downloadDescriptionWW": "Subukan nang 3 araw nang libre. Walang card, walang email, walang tracking. I-download lang at gamitin.",
     "downloadOgTitleWW": "Raqoon — Ang iyong maaasahang access sa network",
@@ -63,14 +63,14 @@
     "title": "Piliin ang iyong format ng kalayaan",
     "constructor": {
       "badge": "Constructor",
-      "price": "mula $0.05",
-      "unit": "bawat araw",
+      "price": "9.99",
+      "unit": "$ / buwan",
       "cta": "I-customize para sa sarili"
     },
     "allIn": {
       "badge": "All-in",
-      "price": "mula $0.08",
-      "unit": "bawat araw",
+      "price": "9.99",
+      "unit": "$ / buwan",
       "cta": "Kunin na ang lahat"
     },
     "constructorFeatures": [

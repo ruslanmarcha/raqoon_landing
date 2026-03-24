@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Dein schneller Zugang zum freien Internet",
     "descriptionWW": "Vergiss Blockaden mit Raqoon VPN. Intelligente Protokolle, sofortige Verbindung und volle Anonymität ohne unnötige Daten.",
     "ogTitleWW": "Raqoon VPN — Internet ohne Grenzen und Zensur",
-    "ogDescriptionWW": "Ein VPN, das funktioniert. Tarife ab 10 ₽ pro Tag, russische Server und ehrliches No-Logs. Verbindung in nur 1 Minute!",
+    "ogDescriptionWW": "Ein VPN, das funktioniert. Tarife ab 9,99 $ pro Monat, russische Server und ehrliches No-Logs. Verbindung in nur 1 Minute!",
     "downloadTitleWW": "Raqoon VPN herunterladen — Volle Anonymität ohne Registrierung",
     "downloadDescriptionWW": "Teste 3 Tage kostenlos. Ohne Kreditkarte, ohne E-Mail, ohne Tracking. Einfach herunterladen und nutzen.",
     "downloadOgTitleWW": "Raqoon — Dein zuverlässiger Zugang zum Netz",
@@ -63,14 +63,14 @@
     "title": "Wähle dein Format der Freiheit",
     "constructor": {
       "badge": "Konfigurator",
-      "price": "ab 4,99",
-      "unit": "₽ pro Tag",
+      "price": "9,99",
+      "unit": "$ / Monat",
       "cta": "Individuell einrichten"
     },
     "allIn": {
       "badge": "Alles inklusive",
-      "price": "ab 7,99",
-      "unit": "₽ pro Tag",
+      "price": "9,99",
+      "unit": "$ / Monat",
       "cta": "Alles sofort sichern"
     },
     "constructorFeatures": [

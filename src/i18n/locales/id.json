@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Akses cepatmu ke internet bebas",
     "descriptionWW": "Lupakan pemblokiran dengan Raqoon VPN. Protokol pintar, koneksi instan, dan anonimitas total tanpa data berlebih.",
     "ogTitleWW": "Raqoon VPN — Internet tanpa batas dan sensor",
-    "ogDescriptionWW": "VPN yang benar-benar berfungsi. Tarif mulai dari 10 ₽ per hari, server Rusia, dan No-Logs jujur. Terhubung dalam 1 menit!",
+    "ogDescriptionWW": "VPN yang benar-benar berfungsi. Tarif mulai dari $9,99 per bulan, server Rusia, dan No-Logs jujur. Terhubung dalam 1 menit!",
     "downloadTitleWW": "Unduh Raqoon VPN — Anonimitas total tanpa registrasi",
     "downloadDescriptionWW": "Coba 3 hari gratis. Tanpa ikat kartu, tanpa email, tanpa pelacakan. Cukup unduh dan gunakan.",
     "downloadOgTitleWW": "Raqoon — Akses jaringanmu yang andal",
@@ -63,14 +63,14 @@
     "title": "Pilih format kebebasanmu",
     "constructor": {
       "badge": "Konstruktor",
-      "price": "mulai 4,99",
-      "unit": "₽ per hari",
+      "price": "9,99",
+      "unit": "$ / bulan",
       "cta": "Atur sendiri"
     },
     "allIn": {
       "badge": "Semua Termasuk",
-      "price": "mulai 7,99",
-      "unit": "₽ per hari",
+      "price": "9,99",
+      "unit": "$ / bulan",
       "cta": "Ambil semua sekaligus"
     },
     "constructorFeatures": [

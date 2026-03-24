@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Özgür internete hızlı erişimin",
     "descriptionWW": "Raqoon VPN ile engelleri unut. Akıllı protokoller, anında bağlantı ve gereksiz veri olmadan tam anonimlik.",
     "ogTitleWW": "Raqoon VPN — Sınır ve sansür olmayan internet",
-    "ogDescriptionWW": "Gerçekten çalışan VPN. Günlük 10 ₽'den başlayan fiyatlar, Rusya sunucuları ve dürüst No-Logs. 1 dakikada bağlan!",
+    "ogDescriptionWW": "Gerçekten çalışan VPN. Aylık 9,99 $'dan başlayan fiyatlar, Rusya sunucuları ve dürüst No-Logs. 1 dakikada bağlan!",
     "downloadTitleWW": "Raqoon VPN indir — Kayıt olmadan tam anonimlik",
     "downloadDescriptionWW": "3 gün ücretsiz dene. Kart bağlama yok, e-posta yok, takip yok. Sadece indir ve kullan.",
     "downloadOgTitleWW": "Raqoon — Ağdaki güvenilir erişimin",
@@ -63,14 +63,14 @@
     "title": "Kendi özgürlük formatını seç",
     "constructor": {
       "badge": "Konstrüktör",
-      "price": "4,99'dan",
-      "unit": "₽ / gün",
+      "price": "9,99",
+      "unit": "$ / ay",
       "cta": "Kendine göre ayarla"
     },
     "allIn": {
       "badge": "Her Şey Dahil",
-      "price": "7,99'dan",
-      "unit": "₽ / gün",
+      "price": "9,99",
+      "unit": "$ / ay",
       "cta": "Hepsini birden al"
     },
     "constructorFeatures": [

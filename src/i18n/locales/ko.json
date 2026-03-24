@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — 자유로운 인터넷으로 가는 가장 빠른 방법",
     "descriptionWW": "Raqoon VPN으로 차단을 잊으세요. 스마트 프로토콜, 즉시 연결, 불필요한 데이터가 없는 완벽한 익명성.",
     "ogTitleWW": "Raqoon VPN — 국경과 검열이 없는 인터넷",
-    "ogDescriptionWW": "진짜 작동하는 VPN. 하루 10 ₽부터 시작하는 요금제, 러시아 서버, 정직한 No-Logs 정책. 1분 만에 연결하세요!",
+    "ogDescriptionWW": "진짜 작동하는 VPN. 월 $9.99부터 시작하는 요금제, 러시아 서버, 정직한 No-Logs 정책. 1분 만에 연결하세요!",
     "downloadTitleWW": "Raqoon VPN 다운로드 — 가입 없는 완벽한 익명성",
     "downloadDescriptionWW": "3일간 무료로 체험해 보세요. 카드 연결 없음, 이메일 없음, 추적 없음. 그냥 다운로드해서 사용하면 됩니다.",
     "downloadOgTitleWW": "Raqoon — 신뢰할 수 있는 네트워크 접속",
@@ -63,14 +63,14 @@
     "title": "당신만의 자유로운 방식을 선택하세요",
     "constructor": {
       "badge": "커스텀",
-      "price": "4.99부터",
-      "unit": "₽ / 일",
+      "price": "9.99",
+      "unit": "$ / 월",
       "cta": "내 맘대로 설정하기"
     },
     "allIn": {
       "badge": "올인원",
-      "price": "7.99부터",
-      "unit": "₽ / 일",
+      "price": "9.99",
+      "unit": "$ / 월",
       "cta": "한 번에 모든 혜택 받기"
     },
     "constructorFeatures": [

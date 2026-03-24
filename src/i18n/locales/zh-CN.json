@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — 你通往自由互联网的快速通道",
     "descriptionWW": "使用 Raqoon VPN 告别封锁。智能协议、瞬间连接，无需冗余数据即可实现完全匿名。",
     "ogTitleWW": "Raqoon VPN — 无国界、无审查的互联网",
-    "ogDescriptionWW": "真正有效的 VPN。每天仅需 10 ₽ 起，提供俄罗斯服务器和真实的无日志政策。1 分钟内即可连接！",
+    "ogDescriptionWW": "真正有效的 VPN。每月仅需 $9.99 起，提供俄罗斯服务器和真实的无日志政策。1 分钟内即可连接！",
     "downloadTitleWW": "下载 Raqoon VPN — 无需注册，完全匿名",
     "downloadDescriptionWW": "免费试用 3 天。无需绑定卡、无需邮箱、无跟踪。下载即用。",
     "downloadOgTitleWW": "Raqoon — 你在网络中可靠的切入点",
@@ -63,14 +63,14 @@
     "title": "选择你的自由形式",
     "constructor": {
       "badge": "自选套餐",
-      "price": "4.99 起",
-      "unit": "₽ / 天",
+      "price": "9.99",
+      "unit": "$ / 月",
       "cta": "量身定制"
     },
     "allIn": {
       "badge": "全包套餐",
-      "price": "7.99 起",
-      "unit": "₽ / 天",
+      "price": "9.99",
+      "unit": "$ / 月",
       "cta": "一次性获取全部"
     },
     "constructorFeatures": [

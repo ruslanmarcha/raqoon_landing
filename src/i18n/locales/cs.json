@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Tvůj rychlý přístup ke svobodnému internetu",
     "descriptionWW": "Zapomeň na blokování s Raqoon VPN. Chytré protokoly, okamžité připojení a úplná anonymita bez zbytečných údajů.",
     "ogTitleWW": "Raqoon VPN — Internet bez hranic a cenzury",
-    "ogDescriptionWW": "VPN, které funguje. Tarify od 10 ₽ denně, ruské servery a poctivé No-Logs. Připoj se za 1 minutu!",
+    "ogDescriptionWW": "VPN, které funguje. Tarify od 9,99 $ měsíčně, ruské servery a poctivé No-Logs. Připoj se za 1 minutu!",
     "downloadTitleWW": "Stáhnout Raqoon VPN — Úplná anonymita bez registrace",
     "downloadDescriptionWW": "Zkus 3 dny zdarma. Bez připisování karty, bez e-mailu, bez sledování. Stačí stáhnout a používat.",
     "downloadOgTitleWW": "Raqoon — Tvůj spolehlivý přístup k síti",
@@ -63,14 +63,14 @@
     "title": "Vyber si svůj formát svobody",
     "constructor": {
       "badge": "Konstruktér",
-      "price": "od 4,99",
-      "unit": "₽ za den",
+      "price": "9,99",
+      "unit": "$ / měsíc",
       "cta": "Nastavit podle sebe"
     },
     "allIn": {
       "badge": "Vše v ceně",
-      "price": "od 7,99",
-      "unit": "₽ za den",
+      "price": "9,99",
+      "unit": "$ / měsíc",
       "cta": "Vzít vše najednou"
     },
     "constructorFeatures": [

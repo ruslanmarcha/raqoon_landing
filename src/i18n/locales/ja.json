@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — 自由なインターネットへの高速アクセス",
     "descriptionWW": "Raqoon VPNでブロックを忘れよう。スマートなプロトコル、即時接続、そして余計なデータなしの完全な匿名性。",
     "ogTitleWW": "Raqoon VPN — 国境も検閲もないインターネット",
-    "ogDescriptionWW": "本当に機能するVPN。1日10 ₽からの料金プラン、ロシアのサーバー、そして正直なノーログ。1分で接続！",
+    "ogDescriptionWW": "本当に機能するVPN。月額$9.99からの料金プラン、ロシアのサーバー、そして正直なノーログ。1分で接続！",
     "downloadTitleWW": "Raqoon VPNをダウンロード — 登録なしの完全な匿名性",
     "downloadDescriptionWW": "3日間無料でお試しください。カードの紐付けなし、メールなし、追跡なし。ダウンロードして使うだけ。",
     "downloadOgTitleWW": "Raqoon — ネットワークへの信頼できるアクセス",
@@ -63,14 +63,14 @@
     "title": "自分に合った自由の形を選ぼう",
     "constructor": {
       "badge": "カスタム",
-      "price": "4.99から",
-      "unit": "₽ / 日",
+      "price": "9.99",
+      "unit": "$ / 月",
       "cta": "自分好みに設定する"
     },
     "allIn": {
       "badge": "フルパック",
-      "price": "7.99から",
-      "unit": "₽ / 日",
+      "price": "9.99",
+      "unit": "$ / 月",
       "cta": "まとめて全部手に入れる"
     },
     "constructorFeatures": [

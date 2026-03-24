@@ -3,7 +3,7 @@
     "titleWW": "Raqoon VPN — Your fast access to the free internet",
     "descriptionWW": "Forget about blocks with Raqoon VPN. Smart protocols, instant connection, and total anonymity without extra data.",
     "ogTitleWW": "Raqoon VPN — Internet without borders or censorship",
-    "ogDescriptionWW": "The VPN that actually works. Plans from 10 ₽ a day, Russian servers, and honest No-Logs. Connect in 1 minute!",
+    "ogDescriptionWW": "The VPN that actually works. Plans from $9.99/month, Russian servers, and honest No-Logs. Connect in 1 minute!",
     "downloadTitleWW": "Download Raqoon VPN — Total anonymity without registration",
     "downloadDescriptionWW": "Try it 3 days for free. No credit card, no email, no tracking. Just download and use.",
     "downloadOgTitleWW": "Raqoon — Your reliable access to the web",
@@ -26,6 +26,7 @@
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",
+    "titleWW": "VPN service,\nfrom Raccoon Proxy",
     "subtitleWW": "The speed, reliability, and privacy you deserve. No complex setups.",
     "ctaWW": "Try for free",
     "storeApple": "App Store",
@@ -63,14 +64,14 @@
     "title": "Choose your format of freedom",
     "constructor": {
       "badge": "Builder",
-      "price": "from 4.99",
-      "unit": "₽ per day",
+      "price": "9.99",
+      "unit": "$ / month",
       "cta": "Customize"
     },
     "allIn": {
       "badge": "All-Inclusive",
-      "price": "from 7.99",
-      "unit": "₽ per day",
+      "price": "9.99",
+      "unit": "$ / month",
       "cta": "Get it all"
     },
     "constructorFeatures": [

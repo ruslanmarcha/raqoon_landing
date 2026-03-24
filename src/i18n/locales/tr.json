@@ -145,7 +145,7 @@
   "common": {
     "comingSoonMessage": "Son rötuşları yapıyoruz! Çok yakında abonelik kullanıma sunulacak.",
     "comingSoonOk": "Sabırsızlıkla bekliyorum",
-    "turkeyDownloadUnavailable": "Maalesef Raqoon, Türkiye sınırları içerisinde indirilememektedir."
+    "turkeyDownloadUnavailable": "Raqoon uygulaması maalesef Türkiye'de indirilemez."
   },
   "downloadPage": {
     "heroTitle": "Kart yok. E-posta yok. Sadece senin güvenliğin.",

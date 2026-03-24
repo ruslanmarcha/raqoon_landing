@@ -178,7 +178,7 @@
     "email": "hello@raqoon.app",
     "keyPointsTitle": "معلومات أساسية",
     "keyPointsBody": "تضمن Qat Bilişim LTD تطوير ودعم خدمات Raqoon الرقمية. نولي الأولوية لشفافية العمليات، حماية البيانات الشخصية، وجودة خدمة العملاء. تعمل الشركة وفقاً للمتطلبات القانونية المعمول بها ومعايير الأمن الداخلية.",
-    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayرم%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
   "legal": {
     "privacy": {
@@ -200,4 +200,20 @@
   },
   "notFound": {
     "title": "الصفحة غير موجودة",
-    "description": "يبدو أن هذه الصفحة غير موجودة أو
+    "description": "يبدو أن هذه الصفحة غير موجودة أو تم نقلها.",
+    "cta": "العودة إلى الرئيسية"
+  },
+  "footer": {
+    "about": "عن الشركة",
+    "download": "تنزيل",
+    "privacy": "سياسة الخصوصية",
+    "terms": "شروط الاستخدام",
+    "contact": "اتصل بنا",
+    "refund": "سياسة الاسترداد",
+    "copy": "© 2026 Raqoon"
+  },
+  "lang": {
+    "ru": "RU",
+    "en": "EN"
+  }
+}

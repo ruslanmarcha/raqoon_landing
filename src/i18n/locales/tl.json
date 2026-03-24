@@ -1,175 +1,174 @@
 {
   "meta": {
-    "titleWW": "Raqoon VPN — Mabilis at Secure VPN para sa Iyong Mga Paboritong Serbisyo",
-    "descriptionWW": "Pinoprotektahan ng Raqoon VPN ang iyong privacy, nilalampasan ang mga paghihigpit, at pinapanatili kang konektado sa buong mundo. Available sa App Store.",
-    "ogTitleWW": "Raqoon — VPN para sa Iyong Mga Paboritong Serbisyo",
-    "ogDescriptionWW": "I-download ang Raqoon VPN sa App Store. Awtomatikong pagpili ng protocol, suporta sa priyoridad, at hanggang 5 device.",
-    "downloadTitleWW": "I-download ang Raqoon VPN — walang card, walang email, walang tracking",
-    "downloadDescriptionWW": "3 araw na trial, pagkatapos bayad sa plano mo. Encryption, anonymous account — walang naka-save na card, walang mandatory email.",
-    "downloadOgTitleWW": "Raqoon — I-download ang VPN",
-    "downloadOgDescriptionWW": "Raqoon VPN: privacy muna — walang profile mula sa data mo."
+    "titleWW": "Raqoon VPN — Ang iyong mabilis na access sa malayang internet",
+    "descriptionWW": "Kalimutan ang mga block sa Raqoon VPN. Matalinong mga protocol, agarang koneksyon, at ganap na anonymity nang walang labis na data.",
+    "ogTitleWW": "Raqoon VPN — Internet nang walang hangganan at censorship",
+    "ogDescriptionWW": "VPN na talagang gumagana. Mga plano mula $0.10 bawat araw, mga server sa Russia, at tapat na No-Logs. Kumonekta sa loob ng 1 minuto!",
+    "downloadTitleWW": "I-download ang Raqoon VPN — Ganap na anonymity nang walang registration",
+    "downloadDescriptionWW": "Subukan nang 3 araw nang libre. Walang card, walang email, walang tracking. I-download lang at gamitin.",
+    "downloadOgTitleWW": "Raqoon — Ang iyong maaasahang access sa network",
+    "downloadOgDescriptionWW": "I-download ang Raqoon VPN: seguruhin ang iyong trapiko sa isang pindot lang. Hindi kami nangongolekta ng data — pinoprotektahan namin ang privacy.",
+    "aboutTitleWW": "Tungkol sa kumpanya — Raqoon VPN",
+    "aboutDescriptionWW": "Binuo ng Qat Bilişim LTD. ang Raqoon VPN. Opisina sa Ankara, Türkiye. Suporta: hello@raqoon.app.",
+    "privacyTitleWW": "Patakaran sa Privacy — Raqoon VPN",
+    "privacyDescriptionWW": "Patakaran sa Privacy ng Raqoon VPN: walang log ng aktibidad, walang pagsusuri sa nilalaman ng trapiko, pagbabayad, at proteksyon ng data.",
+    "termsTitleWW": "Kasunduan ng User — Raqoon VPN",
+    "termsDescriptionWW": "Public offer at mga tuntunin ng paggamit ng Raqoon VPN: subscription, mga panuntunan sa paggamit, responsibilidad.",
+    "contactTitleWW": "Mga Contact — Raqoon VPN",
+    "contactDescriptionWW": "Makipag-ugnayan sa suporta ng Raqoon: billing, access, mga teknikal na tanong. Email: hello@raqoon.app.",
+    "refundTitleWW": "Patakaran sa Refund — Raqoon VPN",
+    "refundDescriptionWW": "Ang mga refund para sa mga subscription sa App Store ay ayon sa mga panuntunan ng Apple. Mga tanong sa pagbabayad: hello@raqoon.app.",
+    "migrationTitleRU": "Paglipat mula sa IZI papuntang Raqoon — instruksyon",
+    "migrationDescriptionRU": "Paglipat mula sa IZI VPN papuntang Raqoon: kumonekta sa @raqoonbot sa Telegram at lumipat sa bagong serbisyo."
   },
   "nav": {
     "logoAlt": "Raqoon"
   },
   "hero": {
-    "titleWW": "VPN mula sa\nProxy ng Raccoon",
-    "subtitleWW": "Naa-access, maginhawa, maaasahan",
-    "ctaWW": "I-download",
+    "titleWW": "Serbisyo ng VPN,\nmula kay Proxy ang Raccoon",
+    "subtitleWW": "Bilis, pagiging maaasahan, at privacy na nararapat para sa iyo. Walang kumplikadong settings.",
+    "ctaWW": "Subukan nang libre",
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
   "features": {
-    "title": "Ano ang kasama",
+    "title": "Bakit pinipili ang Raqoon",
     "items": [
       {
-        "label": "Awtomatikong pagpili ng protocol"
+        "label": "Matalinong mga protocol"
       },
       {
-        "label": "Priyoridad na suporta",
-        "sub": "Palagi kaming tumutugon sa loob ng 24 na oras"
+        "label": "Suporta 24/7",
+        "sub": "Mga totoong tao ang sasagot sa anumang tanong sa loob ng isang araw"
       },
       {
-        "label": "VPN",
-        "sub": "Kapaki-pakinabang kapag naglalakbay sa ibang bansa"
+        "label": "Mga server sa Russia",
+        "sub": "Ang iyong access sa mga nakasanayang serbisyo mula sa kahit saang panig ng mundo"
       },
       {
-        "label": "VPN paglipat ng bansa"
+        "label": "Global na saklaw",
+        "sub": "Palitan ang lokasyon sa isang click at lampasan ang anumang mga paghihigpit"
       },
       {
-        "label": "Hanggang 5 device"
+        "label": "Hanggang 5 device",
+        "sub": "Seguruhin ang lahat ng iyong gadget sa isang subscription lang"
       },
       {
-        "label": "Malaking dami ng trapiko"
+        "label": "Walang limitasyong trapiko",
+        "sub": "Manood ng mga pelikula sa mataas na kalidad at mag-download ng mga file nang walang limitasyon"
       }
     ]
   },
   "pricing": {
-    "title": "Pumili ng plano",
+    "title": "Piliin ang iyong format ng kalayaan",
     "constructor": {
-      "badge": "Tagabuo",
-      "price": "10",
-      "unit": "$ / araw",
-      "cta": "Pumili"
+      "badge": "Constructor",
+      "price": "mula $0.05",
+      "unit": "bawat araw",
+      "cta": "I-customize para sa sarili"
     },
     "allIn": {
-      "badge": "All Inclusive",
-      "price": "9.99",
-      "unit": "$ / buwan",
-      "cta": "Pumili"
+      "badge": "All-in",
+      "price": "mula $0.08",
+      "unit": "bawat araw",
+      "cta": "Kunin na ang lahat"
     },
     "constructorFeatures": [
       {
-        "label": "Awtomatikong pagpili ng protocol"
+        "label": "Awtomatikong pagpili ng pinakamahusay na protocol"
       },
       {
-        "label": "Priyoridad na suporta",
-        "sub": "Palagi kaming tumutugon sa loob ng 24 na oras"
+        "label": "Suporta 24/7"
       },
       {
-        "label": "VPN",
-        "sub": "Kapaki-pakinabang kapag naglalakbay sa ibang bansa"
+        "label": "Access sa RosVPN"
       },
       {
-        "label": "VPN paglipat ng bansa"
+        "label": "Pagpapalit ng lokasyon"
       },
       {
-        "label": "Hanggang 5 device"
+        "label": "Hanggang 5 device nang sabay-sabay"
       },
       {
-        "label": "Malaking dami ng trapiko"
+        "label": "Napakalaking package ng trapiko"
       }
     ],
     "allInFeatures": [
       {
-        "label": "Awtomatikong pagpili ng protocol"
+        "label": "Lahat ng features ng constructor"
       },
       {
-        "label": "Priyoridad na suporta",
-        "sub": "Palagi kaming tumutugon sa loob ng 24 na oras"
+        "label": "Access sa lahat ng global na serbisyo"
       },
       {
-        "label": "VPN",
-        "sub": "Kapaki-pakinabang kapag naglalakbay sa ibang bansa"
+        "label": "Gumagana sa third-party apps"
       },
       {
-        "label": "VPN paglipat ng bansa"
-      },
-      {
-        "label": "Hanggang 5 device"
-      },
-      {
-        "label": "Malaking dami ng trapiko"
-      },
-      {
-        "label": "VPN para sa anumang mga serbisyo"
-      },
-      {
-        "label": "Suporta sa app ng third-party"
+        "label": "Priority na linya ng suporta"
       }
     ]
   },
   "migration": {
-    "title": "Para sa mga gumagamit ng IZI. Ipinapaliwanag namin ang migration",
-    "cta": "Matuto pa"
+    "title": "Lumalipat mula sa IZI? Inihanda namin ang lahat para sa madaling transfer!",
+    "cta": "Instruksyon sa paglipat"
   },
   "referral": {
-    "title": "Mag-imbita ng isang kaibigan -\nmakakuha ng mas maraming oras",
-    "description": "Ibahagi lamang ang iyong code. Ang iyong kaibigan ay nakakakuha ng +10 araw sa kanilang unang subscription, at makakakuha ka ng hanggang 30 araw bilang isang bonus.",
-    "cta": "Kumuha ng mga araw"
+    "title": "Mag-imbita ng mga kaibigan —\ngamitin nang libre!",
+    "description": "Ibahagi ang code: bibigyan namin ang iyong mga kaibigan ng +10 araw sa subscription, at ikaw naman ay makakakuha ng hanggang isang buwang bonus. Mas maraming imbitasyon — mas maraming libreng access!",
+    "cta": "Kunin ang mga bonus na araw"
   },
   "faq": {
-    "title": "Mga Madalas Itanong",
+    "title": "Sinasagot ang iyong mga mahahalagang tanong",
     "items": [
       {
-        "q": "Anong mga protocol ang ginagamit mo?",
-        "a": "Nag-aalok ang iba't ibang protocol ng iba't ibang balanse ng bilis, seguridad, at katatagan. Halimbawa, ang mga modernong solusyon tulad ng WireGuard ay nag-aalok ng mataas na bilis at simpleng arkitektura, habang ang mga klasikong protocol tulad ng OpenVPN ay kilala sa kanilang pagiging maaasahan at malawak na suporta."
+        "q": "Bakit napakabilis ng inyong serbisyo?",
+        "a": "Gumagamit kami ng mga modernong protocol tulad ng WireGuard. Tinitiyak nito ang minimum na delay, maaasahang encryption, at matatag na koneksyon kahit mahina ang internet signal."
       },
       {
-        "q": "Saang mga bansa available ang iyong mga server?",
-        "a": "Mayroon kaming mga server sa maraming bansa sa buong mundo. Ang buong listahan ng mga available na lokasyon ay available sa app pagkatapos kumonekta."
+        "q": "Nasaan ang inyong mga server?",
+        "a": "Mayroon kaming malawak na network sa buong mundo, kabilang ang mga lokasyon sa Europe, Asia, at Russia. Ang buong listahan ay makikita mismo sa app — pumili ng kahit anong punto sa mapa."
       },
       {
-        "q": "Nag-iimbak ka ba ng mga log ng aktibidad ng user?",
-        "a": "Hindi, hindi kami nag-iimbak ng mga log ng aktibidad ng user. Sumusunod kami sa isang mahigpit na patakaran sa walang-log upang protektahan ang iyong privacy."
+        "q": "Talaga bang hindi niyo itinatago ang kasaysayan ng mga ginagawa ko?",
+        "a": "Sigurado. Ang aming No-Logs policy ay isang teknikal na arkitektura. Hindi namin alam kung anong mga site ang binibisita mo. Ang iyong aktibidad ay sa iyo lang."
       },
       {
-        "q": "Gaano ka-secure ang isang VPN na koneksyon?",
-        "a": "Gumagamit ang aming VPN ng modernong pag-encrypt upang protektahan ang iyong data. Ang lahat ng trapiko ay naka-encrypt bago umalis sa iyong device, na tinitiyak ang mataas na seguridad sa anumang network."
+        "q": "Gaano ka-secure ang encryption?",
+        "a": "Gumagamit kami ng mga highest level standards. Ang lahat ng iyong trapiko ay ligtas na pinoprotektahan bago pa man ito umalis sa iyong device. Ligtas ito kahit sa mga bukas na Wi-Fi network."
       },
       {
-        "q": "Anong mga paraan ng pagbabayad ang tinatanggap mo?",
-        "a": "Tumatanggap kami ng mga pangunahing bank card, pati na rin ang mga sikat na sistema ng pagbabayad. Para sa buong listahan ng mga available na paraan, tingnan ang page ng pagbabayad sa app."
+        "q": "Paano magbayad para sa subscription?",
+        "a": "Sa kahit anong paraang maginhawa para sa iyo: bank cards, payment systems, at in-app purchases. Lahat ay transparent, mabilis, at walang mga nakatagong charges."
       }
     ]
   },
   "common": {
-    "comingSoonMessage": "Ang app ay nasa pagbuo. Sa lalong madaling panahon makakabili ka ng isang subscription.",
-    "comingSoonOk": "OK",
-    "turkeyDownloadUnavailable": "Ang Raqoon ay hindi magagamit para sa pag-download sa Türkiye."
+    "comingSoonMessage": "Ginagawa na namin ang mga huling detalye! Sa lalong madaling panahon ay magiging available na ang subscription.",
+    "comingSoonOk": "Hindi na makapaghintay",
+    "turkeyDownloadUnavailable": "Paumanhin, ang Raqoon ay hindi available para i-download sa loob ng teritoryo ng Türkiye."
   },
   "downloadPage": {
-    "heroTitle": "Walang card. Walang email. Walang tracking. Proteksyon lang.",
-    "heroText": "I-tap ang Connect — protektado ka. Walang data, walang tracking.",
-    "mythsTitle": "Mga mito tungkol sa VPN",
-    "mythsP1": "Sinasabing lahat ng VPN ay nakatali sa pagkakakilanlan. May account sa Raqoon, pero anonymous: walang naka-link na card at walang mandatory email.",
-    "mythsP2": "Walang “libre na may ads”. May 3 araw kang full access, pagkatapos bayad sa napili mong plano na. Naka-focus kami sa traffic — hindi sa koleksyon ng data mo.",
-    "featuresTitle": "Bakit Raqoon",
+    "heroTitle": "Walang card. Walang email. Ang iyong seguridad lang.",
+    "heroText": "Pindutin ang button — at protektado ka na. Hindi namin kinokolekta ang iyong data dahil wala kaming dahilan para subaybayan ka.",
+    "mythsTitle": "Pagsira sa mga mito tungkol sa VPN",
+    "mythsP1": "Iniisip mo ba na ang VPN ay nangangailangan ng personal na data? Pinatutunayan ng Raqoon ang kabaligtaran: ang iyong account ay ganap na anonymous. Walang link sa email o card sa pagsisimula.",
+    "mythsP2": "Hindi namin ibinebenta ang iyong atensyon. Wala kaming mga nakakairitang ads tulad ng sa mga “libre” na serbisyo. Sa halip — 3 araw na tapat na test-drive para ikaw mismo ang makakita sa kalidad.",
+    "featuresTitle": "Mga bentahe ng Raqoon",
     "features": [
-      "3 araw na full access — pagkatapos bayad sa plano mo",
-      "Proteksyon sa buong device gamit ang malakas na encryption",
-      "Isang tap na koneksyon",
-      "Matatag sa public Wi‑Fi",
-      "Malinis na interface",
-      "Suporta sa sikat na platform"
+      "3 araw na ganap na access — test-drive nang walang obligasyon",
+      "Maaasahang encryption sa buong device",
+      "Koneksyon sa isang tap",
+      "Ligtas na paggamit sa mga pampublikong Wi-Fi network",
+      "Malinis na interface nang walang labis na settings",
+      "Suporta para sa lahat ng iyong mga device"
     ],
-    "finalTitle": "I-download ngayon. Walang hassle. Walang sapilitang email. Privacy lang.",
-    "finalText": "Sumali sa maraming user na pumipili ng VPN na ginawa para protektahan — hindi para i-track.",
-    "ctaHome": "Bumalik sa home",
-    "ctaPlans": "Tingnan ang mga plano",
-    "badgeAriaAppStore": "I-download sa App Store — malapit na",
-    "badgeAriaGooglePlay": "Sa Google Play — malapit na",
-    "badgeAriaMacAppStore": "I-download sa Mac App Store — malapit na"
+    "finalTitle": "Magsimula na ngayon. Walang registration at SMS. Privacy lang.",
+    "finalText": "Sumali sa komunidad ng mga pumipili ng internet nang walang pagsubaybay at mga paghihigpit.",
+    "ctaHome": "Sa home",
+    "ctaPlans": "Pumili ng plano",
+    "badgeAriaAppStore": "Malapit na sa App Store",
+    "badgeAriaGooglePlay": "Malapit na sa Google Play",
+    "badgeAriaMacAppStore": "Malapit na sa Mac App Store"
   },
   "about": {
     "title": "Tungkol sa kumpanya",
@@ -177,40 +176,40 @@
     "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Türkiye",
     "emailLabel": "Email:",
     "email": "hello@raqoon.app",
-    "keyPointsTitle": "Mga pangunahing punto",
-    "keyPointsBody": "Qat Bilişim LTD. bubuo at nagpapatakbo ng Raqoon mga digital na serbisyo. Priyoridad namin ang transparency ng proseso, proteksyon ng personal na data, at mataas na kalidad ng serbisyo. Ang kumpanya ay nagpapatakbo alinsunod sa mga naaangkop na legal na kinakailangan at mga pamantayan sa panloob na seguridad.",
-    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2Cz%BC6Tyerki"
+    "keyPointsTitle": "Mahahalagang impormasyon",
+    "keyPointsBody": "Tinitiyak ng Qat Bilişim LTD. ang pagbuo at suporta ng mga digital na serbisyo ng Raqoon. Binibigyan namin ng priyoridad ang transparency ng mga proseso, proteksyon ng personal na data, at kalidad ng serbisyo sa customer. Ang kumpanya ay gumagana alinsunod sa mga naaangkop na legal na kinakailangan at panloob na mga pamantayan sa seguridad.",
+    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
   "legal": {
     "privacy": {
       "title": "Patakaran sa Privacy",
-      "body": "Raqoon Patakaran sa Privacy\nPetsa ng Bisa: Marso 1, 2026\nJurisdiction: Ankara, Türkiye\nMay-ari: Qat Bilişim Ltd.\n\nBuod\nIginagalang namin ang iyong karapatan sa hindi pagkakilala at seguridad. Hindi namin nakikita kung ano ang iyong ginagawa online, hindi namin ini-log ang mga website na binibisita mo, at hindi namin iniimbak ang nilalaman ng iyong trapiko. Itinatala lamang ng aming system ang mga teknikal na parameter (dami ng data at ang oras ng iyong huling koneksyon) upang matiyak ang kalidad ng koneksyon. Hindi namin iniimbak ang mga detalye ng iyong card — ang lahat ng mga pagbabayad ay pinoproseso sa pamamagitan ng mga secure na panlabas na gateway.\n\n1. Patakaran sa Zero Logs\nSumusunod kami sa isang mahigpit na patakaran sa no-logs patungkol sa iyong aktibidad. Pinipigilan kami ng teknikal na arkitektura ng Serbisyo na i-record, iimbak, o ibahagi ang sumusunod na data sa mga third party:\n• Kasaysayan ng Aktibidad: Hindi kami nagtatala ng mga binisita na website (mga URL), mga query sa paghahanap, o kasaysayan ng pagba-browse.\n• Mga Query sa Network: Hindi kami nagtatago ng mga log ng mga query sa DNS.\n• Nilalaman ng Trapiko: Wala kaming access sa nilalaman ng ipinadalang data, kabilang ang mga mensahe, email, o mga file.\n• Orihinal na IP Address: Hindi namin iniimbak ang iyong tunay na IP address habang ginagamit mo ang serbisyo, at hindi rin namin ito nili-link sa iyong aktibidad.\n\n2. Data na Kinokolekta Namin (Teknikal na Pangangailangan)\nUpang matiyak ang matatag na operasyon at pamahalaan ang mga subscription, ang Serbisyo ay nagpoproseso ng kaunting set ng teknikal na data.\n2.1. Pagkakakilanlan\n• UUID / Access Key: Isang natatanging teknikal na identifier na ginagamit upang pahintulutan ang iyong device sa aming mga server.\n• Email (Opsyonal): Eksklusibong ginagamit para sa pagbawi ng account o pagpapadala ng mga resibo at mga notification ng system.\n2.2. Mga Istatistika at Diagnostics\n• Dami ng Data: Ang dami ng ipinadala at natanggap na data na ginamit upang subaybayan ang mga limitasyon ng iyong plano.\n• Huling Oras ng Koneksyon: Itinala upang matukoy ang mga isyu sa koneksyon at mapanatili ang isang tumpak na katayuan ng session.\n• Status ng Subscription: Ang panahon ng bisa at status ng aktibidad ng iyong access key.\n\n3. Pag-andar ng App at Walang Pagsubaybay\n• Mga Tagasubaybay ng Marketing: Ang aming mga application ay hindi naglalaman ng mga tool sa marketing o analytics ng third-party (gaya ng Facebook SDK o mga advertising ID) na maaaring magpadala ng iyong data sa mga third party.\n• Pagsubaybay sa Availability: Maaaring awtomatikong suriin ng application ang koneksyon sa aming mga node. Ang data na ito ay ganap na hindi nagpapakilala at ginagamit lamang upang awtomatikong piliin ang pinakamabilis na server.\n\n4. Impormasyon sa Pagbabayad\nHindi namin iniimbak o pinoproseso ang buong detalye ng iyong bank card.\n• App Store: Ang mga transaksyon ay pinoproseso ng Apple App Store. Nakatanggap lamang kami ng isang naka-encrypt na token na nagpapatunay sa katotohanan ng pagbabayad.\n\n5. Pagpapanatili at Pagtanggal ng Data\n• Teknikal na Impormasyon: Ang data tungkol sa trapiko at mga oras ng pag-log in ay iniimbak para sa tagal ng iyong subscription.\n• Awtomatikong Pagtanggal: Kung hindi mo ire-renew ang iyong subscription, maaaring ganap na maalis ang data ng account mula sa system pagkatapos ng 90 araw na hindi aktibo.\n• Ang Iyong Karapatan na Magtanggal: Maaari mong ganap na tanggalin ang iyong account at lahat ng nauugnay na impormasyon anumang oras sa pamamagitan ng mga setting ng app o sa pamamagitan ng pakikipag-ugnayan sa suporta.\n\n6. Pagbabahagi ng Data at Mga Legal na Kahilingan\nAng Qat Bilişim Ltd. ay nakarehistro sa Türkiye. Hindi kami nagbebenta ng data ng user o inililipat ito sa mga kumpanya ng advertising. Kung sakaling magkaroon ng mga opisyal na kahilingan mula sa mga ahensyang nagpapatupad ng batas, kami ay gumagana nang mahigpit sa loob ng batas. Gayunpaman, ginagawang imposible ng aming arkitektura na magbigay ng data tungkol sa iyong mga aksyon online, dahil teknikal na hindi naitala ang impormasyong ito. Maaari lamang naming kumpirmahin ang pagkakaroon ng isang account at ang kabuuang dami ng nagamit na trapiko.\n\n7. Makipag-ugnayan sa Amin\nPara sa mga tanong tungkol sa privacy o pagtanggal ng data:\n• Email: private@raqoon.app\n• Telegram: @raqoonbot\n• Lokasyon: Ankara, Türkiye"
+      "body": "Patakaran sa Privacy ng Raqoon\nPetsa ng Bisa: Marso 1, 2026\nJurisdiction: Ankara, Türkiye\nMay-ari ng Serbisyo: Qat Bilişim Ltd.\n\nMaikling Buod\nIginagalang namin ang iyong karapatan sa anonymity at seguridad. Hindi namin nakikita ang iyong ginagawa sa network, hindi kami nagtatala ng kasaysayan ng mga binisitang site, at hindi namin iniimbak ang nilalaman ng iyong trapiko. Itinatala lamang ng system ang mga teknikal na parameter (dami ng data at oras ng huling koneksyon) para matiyak ang kalidad ng koneksyon. Hindi namin iniimbak ang data ng iyong mga card — ang lahat ng pagbabayad ay dumadaan sa mga secure na external gateway.\n\n1. Patakaran sa Walang Log (Zero Logs Policy)\nKami ay sumusunod sa mahigpit na patakaran ng kawalan ng mga log ng aktibidad. Ang teknikal na arkitektura ng Serbisyo ay hindi nagpapahintulot sa pagtatala, pag-iimbak, o paglilipat sa mga third party ng mga sumusunod na data:\n• Kasaysayan ng Aktibidad: Hindi kami nagtatala ng mga binisitang website (URLs), search queries, at kasaysayan ng pagtingin.\n• Network Queries: Hindi kami nagtatago ng talaan ng mga DNS query.\n• Nilalaman ng Trapiko: Wala kaming access sa nilalaman ng mga ipinapadalang data, kabilang ang mga mensahe, email, at mga file.\n• Pinagmulang IP Address: Hindi namin iniimbak ang iyong tunay na IP address habang ginagamit ang serbisyo at hindi ito iniuugnay sa iyong aktibidad.\n\n2. Nakokolektang Data (Teknikal na Pangangailangan)\nPara sa matatag na paggana at pamamahala ng mga subscription, pinoproseso ng Serbisyo ang minimum na kinakailangang set ng data.\n2.1. Identipikasyon\n• UUID / Access Key: Natatanging teknikal na identifier para sa awtorisasyon ng iyong device sa aming mga server.\n• Email (opsyonal): Ginagamit lamang para sa pagbawi ng access sa account o pagpapadala ng mga resibo at system notifications.\n2.2. Istatistika at Diagnostiko\n• Dami ng Trapiko: Dami ng ipinadala at natanggap na data para sa pagsubaybay sa mga limitasyon ng iyong plano.\n• Oras ng huling koneksyon: Itinatala para sa pagtukoy ng mga problema sa koneksyon at pagpapanatili ng updated na status ng session.\n• Status ng Subscription: Tagal ng bisa at aktibidad ng iyong access key.\n\n3. Paggana ng Application at Kawalan ng Pagsubaybay\n• Marketing Trackers: Ang aming mga application ay ganap na walang mga third-party analytics at marketing tools (tulad ng Facebook SDK o advertising identifiers) na maaaring maglipat ng impormasyon tungkol sa iyo sa mga third party.\n• Availability Monitoring: Ang application ay maaaring awtomatikong mag-check ng koneksyon sa aming mga nodes. Ang mga data na ito ay ganap na anonymous at ginagamit lamang para sa awtomatikong pagpili ng pinakamabilis na server.\n\n4. Impormasyon sa Pagbabayad\nHindi kami nag-iimbak o nagpoproseso ng buong data ng iyong mga bank card.\n• App Store: Ang mga transaksyon ay pinoproseso ng Apple App Store. Nakakatanggap lamang kami ng isang encrypted confirmation token ng katotohanan ng pagbabayad.\n\n5. Panahon ng Pag-iimbak at Pagtanggal ng Data\n• Teknikal na Impormasyon: Ang data tungkol sa trapiko at oras ng pag-log in ay iniimbak sa buong tagal ng subscription.\n• Awtomatikong Pagtanggal: Kung hindi mo i-renew ang subscription, ang data ng account ay maaaring ganap na matanggal sa system pagkatapos ng 90 araw na kawalan ng aktibidad.\n• Ang iyong karapatan sa pagtanggal: Maaari mong ganap na tanggalin ang iyong account at lahat ng nauugnay na impormasyon anumang oras sa pamamagitan ng settings ng application o sa pakikipag-ugnayan sa suporta.\n\n6. Paglilipat ng Data at mga Kahilingan ng mga Awtoridad\nAng Qat Bilişim Ltd. ay rehistrado sa Türkiye. Hindi namin ibinebenta ang data ng mga user at hindi ito ibinibigay sa mga kumpanya ng advertising. Sa kaso ng pagtanggap ng mga opisyal na kahilingan mula sa mga tagapagpatupad ng batas, kami ay kumikilos nang mahigpit sa loob ng batas. Gayunpaman, dahil sa aming arkitektura, imposible kaming magbigay ng data tungkol sa iyong mga ginagawa sa network dahil ang impormasyong ito ay hindi itinatala sa teknikal na paraan. Maaari lamang naming kumpirmahin ang katotohanan ng pagkakaroon ng account at ang dami ng nagamit na trapiko.\n\n7. Mga Contact\nPara sa mga usapin sa privacy o pagtanggal ng data:\n• Email: private@raqoon.app\n• Telegram: @raqoonbot\n• Lokasyon: Ankara, Türkiye"
     },
     "terms": {
-      "title": "Mga Tuntunin ng Serbisyo",
-      "body": "Mga Tuntunin ng Paggamit (PUBLIC OFFER)\nPetsa ng Bisa: Marso 1, 2026\nLugar ng Lathalain: Ankara, Türkiye\nAng Kasunduan ng User na ito (mula dito ay ang “Kasunduan”) ay isang opisyal na alok ng serbisyong Raqoon (mula dito ay ang “Provider” o ang “Serbisyo”) upang pumasok sa isang kontrata sa sinumang indibidwal (mula dito ay “User”) sa ilalim ng mga tuntuning itinakda sa ibaba.\n\n1. PANGKALAHATANG PROBISYON\n1.1. Ang paggamit ng Raqoon na application, pagpaparehistro sa website, o pagbabayad para sa mga alok ng Serbisyo ay bumubuo ng buo at walang kondisyong pagtanggap ng User sa Kasunduang ito (Pagtanggap).\n1.2. Ginagarantiyahan ng User na sila ay hindi bababa sa 18 taong gulang at may ganap na legal na kapasidad upang tapusin ang Kasunduang ito.\n1.3. Inilalaan ng Provider ang karapatan na baguhin ang mga tuntunin ng Kasunduang ito. Ang isang bagong bersyon ay papasok sa puwersa sa sandali ng paglalathala.\n\n2. PAKSA NG KASUNDUAN\n2.1. Binibigyan ng Provider ang User ng isang hindi eksklusibong karapatan (Lisensya) na gamitin ang software ng Serbisyo at imprastraktura ng network upang magtatag ng virtual pribadong network (VPN).\n2.2. Access sa software:\n2.2.1. Ang access sa Serbisyo bilang default ay eksklusibong ibinibigay sa pamamagitan ng opisyal na Raqoon na application.\n2.2.2. Ang paggamit ng mga third-party na kliyente (kabilang ang Hiddify, v2rayNG, at mga katulad na tool) ay pinapayagan lamang kung ang ganoong kakayahan ay tahasang ibinigay sa paglalarawan ng Tariff plan na binili ng User.\n2.3. Limitasyon ng device:\n2.3.1. Ang bilang ng mga sabay-sabay na koneksyon (session) ay tinutukoy ng mga tuntunin ng napiling Tariff plan.\n2.3.2. Kung walang limitasyon ang tinukoy sa Taripa, ang karaniwang limitasyon ay 5 (limang) device bawat account.\n\n3. MGA TUNTUNIN NG PAGGAMIT AT MGA PAGBABAWAL\n3.1. Ang Gumagamit ay nangangako na gamitin ang Serbisyo para lamang sa mga layuning ayon sa batas.\n3.2. Mahigpit na ipinagbabawal na mga aksyon:\n3.2.1. Paggamit ng P2P protocol (BitTorrent) at pag-download ng torrent sa anumang mga server ng Serbisyo.\n3.2.2. Pamamahagi ng spam (kabilang ang maramihang email sa pamamagitan ng port 25), pagbaha sa mga messenger at social network.\n3.2.3. Pamamahagi ng malisyosong software, mga virus, trojan, o kontrol ng botnet.\n3.2.4. Anumang uri ng pag-atake sa network: port scanning, password brute-force, pag-atake ng DDoS, hindi awtorisadong pag-access sa mga mapagkukunan ng third-party.\n3.2.5. Pamamahagi ng pornograpiya ng bata at mga materyal na nagsusulong ng terorismo o karahasan.\n3.3. Mga kahihinatnan ng mga paglabag: Ang paglabag sa anumang sugnay sa seksyon 3.2 ay nagreresulta sa agarang pagsususpinde ng account nang walang karapatan sa pagpapanumbalik at walang refund.\n\n4. PATAKARAN NA PAGGAMIT\n4.1. Ang Serbisyo ay inilaan para sa personal, hindi pangkomersyal na paggamit.\n4.2. Para sa mga plano ng Taripa sa kategoryang \"Walang limitasyon\", ang mga sumusunod na paghihigpit ay nalalapat:\n4.2.1. Kung ang natupok na trapiko ay lumampas sa 3 TB (terabytes) bawat buwan;\nAT\n4.2.2. Nakikita ng Serbisyo ang abnormal na pag-load ng channel na nagpapababa sa kalidad ng koneksyon para sa ibang mga user;\n4.2.3. Inilalaan ng Provider ang karapatan, sa sarili nitong pagpapasya, na limitahan ang bilis ng koneksyon o suspindihin ang pag-access hanggang sa katapusan ng panahon ng pagsingil.\n\n5. PAMAMARAAN NG PAGBAYAD AT REFUND\n5.1. Ang mga alok ng serbisyo ay inuri bilang digital na nilalamang inihatid kaagad sa elektronikong anyo.\n5.2. No-refund rule: Alinsunod sa Article 15(ğ) ng Turkish Republic “Regulation on Distance Contracts” (Mesafeli Sözleşmeler Yönetmeliği), ang karapatan ng consumer sa pag-withdraw (refund) ay hindi nalalapat sa mga serbisyong ginawa kaagad sa mga electronic na kapaligiran.\n5.3. App Store na mga pagbabayad: Ang mga refund para sa mga subscription na ginawa sa pamamagitan ng Apple App Store ay eksklusibong pinamamahalaan ng mga panuntunan ng Apple. Ang Provider ay walang teknikal na kakayahang magproseso ng mga naturang refund.\n5.4. Ang pagharang sa pag-access sa Serbisyo na dulot ng mga aksyon ng mga awtoridad ng gobyerno (internet censorship) o mga internet provider ng Gumagamit ay kinikilala bilang force majeure at hindi ito batayan para sa refund.\n\n6. PANANAGUTAN NG MGA PARTIDO\n6.1. Ang Serbisyo ay ibinibigay sa isang “as is” na batayan. Hindi ginagarantiya ng Provider ang tuluy-tuloy o walang error na pagpapatakbo ng Serbisyo, o pagiging tugma sa mga network ng mga partikular na provider ng internet.\n6.2. Ang Provider ay hindi mananagot para sa anumang pinsala, kabilang ang nawalang kita, na nagmumula sa paggamit ng o kawalan ng kakayahang gamitin ang Serbisyo.\n\n7. PANGHULING PROBISYON\n7.1. Ang Kasunduang ito ay pinamamahalaan ng mga batas ng Republika ng Türkiye.\n7.2. Ang lahat ng mga hindi pagkakaunawaan at hindi pagkakasundo ay dapat lutasin sa mga korte ng Ankara, Türkiye."
+      "title": "Mga Tuntunin ng Paggamit",
+      "body": "Mga Tuntunin ng Paggamit (PUBLIC OFFER)\nPetsa ng Bisa: Marso 1, 2026\nLugar ng Paglalathala: Lungsod ng Ankara, Türkiye\nAng Kasunduan ng User na ito (mula dito ay — «Kasunduan») ay isang opisyal na alok ng serbisyong Raqoon (mula dito ay — «Tagapagpatupad» o «Serbisyo») para sa pagbuo ng kontrata sa sinumang indibidwal (mula dito ay — «User») sa ilalim ng mga tuntuning nakasaad sa ibaba.\n\n1. MGA PANGKALAHATANG PROBISYON\n1.1. Ang paggamit ng Raqoon application, pagpaparehistro sa site, o pagbabayad para sa mga serbisyo ng Serbisyo ay nangangahulugan ng buo at walang kondisyong pagsang-ayon ng User sa Kasunduang ito (Pagtanggap).\n1.2. Ginagarantiyahan ng User na siya ay nasa edad na 18 at may ganap na kapasidad para sa pagpasok sa Kasunduang ito.\n1.3. Inilalaan ng Tagapagpatupad ang karapatan na magpasok ng mga pagbabago sa mga tuntunin ng Kasunduan. Ang bagong bersyon ay magkakabisa mula sa oras ng paglalathala.\n\n2. PAKSA NG KASUNDUAN\n2.1. Ang Tagapagpatupad ay nagbibigay sa User ng hindi eksklusibong karapatan (Lisensya) sa paggamit ng software at network infrastructure ng Serbisyo para sa pagbuo ng virtual private network (VPN).\n2.2. Access sa software:\n2.2.1. Ang access sa Serbisyo sa default ay isinasagawa lamang sa pamamagitan ng opisyal na Raqoon application.\n2.2.2. Ang paggamit ng third-party clients (kabilang ang Hiddify, v2rayNG at mga katulad nito) ay pinapayagan lamang sa mga kaso kung saan ang posibilidad na ito ay direktang nakasaad sa deskripsyon ng Tariff Plan na binayaran ng User.\n2.3. Limitasyon sa device:\n2.3.1. Ang bilang ng mga sabay-sabay na koneksyon (session) ay tinutukoy ng mga tuntunin ng napiling Tariff Plan.\n2.3.2. Sa kawalan ng indikasyon sa Tariff, ang standard na limitasyon ay 5 (lima) na device para sa isang account.\n\n3. MGA TUNTUNIN NG PAGGAMIT AT MGA PAGBABAWAL\n3.1. Ang User ay nangangako na gamitin ang Serbisyo para lamang sa mga legal na layunin.\n3.2. Mga aksyong mahigpit na ipinagbabawal:\n3.2.1. Paggamit ng P2P (BitTorrent) protocols at pag-download ng torrents sa anumang server ng Serbisyo.\n3.2.2. Pagpapadala ng spam (kabilang ang mass mailing ng email sa pamamagitan ng port 25), flooding sa messengers at social networks.\n3.2.3. Pagpapakalat ng malisyosong software, virus, trojan, pamamahala ng botnets.\n3.2.4. Anumang uri ng network attacks: port scanning, paghula ng password (brute-force), DDoS-attacks, hindi awtorisadong access sa mga resources ng iba.\n3.2.5. Pagpapakalat ng child pornography at mga materyales na nagpo-promote ng terorismo o karahasan.\n3.3. Mga epekto ng paglabag: Ang paglabag sa alinmang subparagraph ng clause 3.2 ay magreresulta sa agarang pag-block ng account nang walang karapatan sa pagpapanumbalik at walang pag-refund ng bayad.\n\n4. PATAKARAN SA PATAS NA PAGGAMIT (FAIR USE POLICY)\n4.1. Ang Serbisyo ay para sa personal at hindi pangkomersyal na paggamit.\n4.2. Para sa mga tariff plan na nasa kategoryang «Unlimited», ang mga sumusunod na limitasyon ay nalalapat:\n4.2.1. Kung ang nagamit na trapiko ay lumampas sa 3 TB (Terabyte) bawat buwan;\nAT\n4.2.2. Kung ang Serbisyo ay makapagtala ng abnormal na load sa channel na nagpapababa sa kalidad ng koneksyon para sa ibang mga user;\n4.2.3. Inilalaan ng Tagapagpatupad ang karapatan na unilateral na limitahan ang bilis ng koneksyon o suspindihin ang access hanggang sa katapusan ng settlement period.\n\n5. PAGBAYAD AT PARAAN NG REFUND\n5.1. Ang mga serbisyo ay klasipikado bilang digital content na ibinibigay kaagad sa elektronikong paraan.\n5.2. Pagtanggi sa Refund: Alinsunod sa Art. 15(ğ) ng «Regulation on Distance Contracts» (Mesafeli Sözleşmeler Yönetmeliği) ng Republika ng Türkiye, ang karapatan ng consumer na umatras mula sa kontrata (refund) ay hindi nalalapat sa mga serbisyong isinagawa kaagad sa electronic environment.\n5.3. Mga Pagbabayad sa App Store: Ang pag-refund para sa mga subscription na ginawa sa pamamagitan ng Apple App Store ay eksklusibong pinamamahalaan ng mga panuntunan ng Apple. Ang Tagapagpatupad ay walang teknikal na kakayahan na mag-refund ng mga naturang pagbabayad.\n5.4. Ang pag-block ng access sa Serbisyo dulot ng mga aksyon ng mga ahensya ng gobyerno (internet censorship) o internet providers ng User ay kinikilala bilang force majeure at hindi basehan para sa pag-refund.\n\n6. RESPONSIBILIDAD NG MGA PARTIDO\n6.1. Ang Serbisyo ay ibinibigay sa batayang «as is». Hindi ginagarantiya ng Tagapagpatupad ang walang mali at tuloy-tuloy na paggana ng Serbisyo, pati na rin ang compatibility nito sa mga network ng mga partikular na internet providers.\n6.2. Ang Tagapagpatupad ay hindi responsable para sa anumang mga pagkalugi, kabilang ang nawalang kita, na nagmula sa paggamit o kawalan ng kakayahang gamitin ang Serbisyo.\n\n7. MGA PANGHULING PROBISYON\n7.1. Ang Kasunduang ito ay pinamamahalaan ng batas ng Republika ng Türkiye.\n7.2. Ang lahat ng mga hindi pagkakaunawaan at mga alitan ay dapat ayusin sa mga korte ng Lungsod ng Ankara, Türkiye."
     },
     "contact": {
-      "title": "Makipag-ugnayan",
-      "body": "Para sa anumang mga katanungan tungkol sa pagpapatakbo ng serbisyo, pag-access, pagsingil, o suporta, makipag-ugnayan sa amin sa hello@raqoon.app. Layunin naming tumugon sa lalong madaling panahon."
+      "title": "Mga Contact",
+      "body": "Para sa lahat ng usaping may kaugnayan sa pagpapatakbo ng serbisyo, access, pagbabayad, at suporta, sumulat sa amin sa hello@raqoon.app. Sinusubukan naming sumagot sa lalong madaling panahon."
     },
     "refund": {
-      "title": "Patakaran sa Pag-refund",
-      "body": "Patakaran sa Pag-refund\nPetsa ng Bisa: Marso 1, 2026\n\nKung ang isang subscription ay binili sa pamamagitan ng App Store, ang mga refund, pagkansela ng subscription, at lahat ng nauugnay na usapin ay pinamamahalaan ng App Store na mga panuntunan at pamamaraan.\n\nPara sa mga tanong na may kaugnayan sa pagbabayad, makipag-ugnayan sa suporta sa hello@raqoon.app."
+      "title": "Patakaran sa Refund",
+      "body": "Patakaran sa Refund\nPetsa ng Bisa: Marso 1, 2026\n\n1. Kung ang subscription ay ginawa sa pamamagitan ng App Store, ang pag-refund, pagkansela ng subscription, at iba pang kaugnay na usapin ay pinamamahalaan ng mga panuntunan ng App Store.\n\n2. Kung ang pagbili ay hindi ginawa sa pamamagitan ng App Store, alinsunod sa Art. 15(ğ) ng «Regulation on Distance Contracts» (Mesafeli Sözleşmeler Yönetmeliği), ang serbisyo ay hindi naibabalik o naipapalit.\n\n3. Para sa mga usapin sa pagbabayad, maaari kang makipag-ugnayan sa suporta: hello@raqoon.app."
     }
   },
   "notFound": {
     "title": "Hindi nahanap ang page",
-    "description": "Ang pahinang ito ay hindi umiiral o inilipat.",
-    "cta": "Bumalik sa bahay"
+    "description": "Tila ang pahinang ito ay hindi umiiral o inilipat na.",
+    "cta": "Bumalik sa home"
   },
   "footer": {
     "about": "Tungkol sa kumpanya",
     "download": "I-download",
     "privacy": "Patakaran sa Privacy",
-    "terms": "Mga Tuntunin ng Serbisyo",
-    "contact": "Makipag-ugnayan",
-    "refund": "Patakaran sa Pag-refund",
+    "terms": "Mga Tuntunin ng Paggamit",
+    "contact": "Mga Contact",
+    "refund": "Patakaran sa Refund",
     "copy": "© 2026 Raqoon"
   },
   "lang": {

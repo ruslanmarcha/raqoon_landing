@@ -60,6 +60,19 @@ export function MigrationRU() {
                 <li>
                   Активируй промокод миграции, чтобы перенести остаток оплаченных дней.
                 </li>
+                <li>
+                  Активируй ключ доступа в приложении по инструкции:
+                  <a
+                    href="https://izi-app-landing.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.inlineLink}
+                  >
+                    {' '}
+                    izi-app-landing.vercel.app
+                  </a>
+                  .
+                </li>
               </ol>
               <p className={styles.note}>
                 RaqoonID и промокод миграции отправим тебе в чат с ИЗИ-ботом.

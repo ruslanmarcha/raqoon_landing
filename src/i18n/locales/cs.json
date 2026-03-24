@@ -1,216 +1,215 @@
 {
   "meta": {
-    "titleWW": "Raqoon VPN — Rychlé a bezpečné VPN pro vaše oblíbené služby",
-    "descriptionWW": "Raqoon VPN chrání vaše soukromí, obchází omezení a udržuje vás ve spojení po celém světě. Dostupné na App Store.",
-    "ogTitleWW": "Raqoon — VPN pro vaše oblíbené služby",
-    "ogDescriptionWW": "Stáhněte si Raqoon VPN na App Store. Automatický výběr protokolu, prioritní podpora a až 5 zařízení.",
-    "downloadTitleWW": "Stáhnout Raqoon VPN — bez karty, bez e-mailu, bez sledování",
-    "downloadDescriptionWW": "3denní zkušební doba, poté platba za váš tarif. Šifrování, anonymní účet — bez uložené karty a bez povinného e-mailu.",
-    "downloadOgTitleWW": "Raqoon — stáhnout VPN",
-    "downloadOgDescriptionWW": "Raqoon VPN: ochrana soukromí bez profilování z vašich dat."
+    "titleWW": "Raqoon VPN — Tvůj rychlý přístup ke svobodnému internetu",
+    "descriptionWW": "Zapomeň na blokování s Raqoon VPN. Chytré protokoly, okamžité připojení a úplná anonymita bez zbytečných údajů.",
+    "ogTitleWW": "Raqoon VPN — Internet bez hranic a cenzury",
+    "ogDescriptionWW": "VPN, které funguje. Tarify od 10 ₽ denně, ruské servery a poctivé No-Logs. Připoj se za 1 minutu!",
+    "downloadTitleWW": "Stáhnout Raqoon VPN — Úplná anonymita bez registrace",
+    "downloadDescriptionWW": "Zkus 3 dny zdarma. Bez připisování karty, bez e-mailu, bez sledování. Stačí stáhnout a používat.",
+    "downloadOgTitleWW": "Raqoon — Tvůj spolehlivý přístup k síti",
+    "downloadOgDescriptionWW": "Stáhni si Raqoon VPN: zabezpeč svůj provoz jedním kliknutím. Nesbíráme data — chráníme soukromí.",
+    "aboutTitleWW": "O společnosti — Raqoon VPN",
+    "aboutDescriptionWW": "Qat Bilişim LTD. vyvíjí Raqoon VPN. Kancelář v Ankaře, Turecko. Podpora: hello@raqoon.app.",
+    "privacyTitleWW": "Zásady ochrany soukromí — Raqoon VPN",
+    "privacyDescriptionWW": "Zásady ochrany soukromí Raqoon VPN: žádné logy aktivity, žádná analýza obsahu provozu, platby a ochrana dat.",
+    "termsTitleWW": "Uživatelská smlouva — Raqoon VPN",
+    "termsDescriptionWW": "Veřejná nabídka a podmínky používání Raqoon VPN: předplatné, pravidla používání, odpovědnost.",
+    "contactTitleWW": "Kontakty — Raqoon VPN",
+    "contactDescriptionWW": "Spojení s podporou Raqoon: billing, přístup, technické dotazy. Email: hello@raqoon.app.",
+    "refundTitleWW": "Zásady vrácení peněz — Raqoon VPN",
+    "refundDescriptionWW": "Vrácení peněz za předplatné v App Store — podle pravidel Apple. Dotazy k platbám: hello@raqoon.app.",
+    "migrationTitleRU": "Přechod z IZI do Raqoon — instrukce",
+    "migrationDescriptionRU": "Přechod z IZI VPN do Raqoon: připojení k @raqoonbot na Telegramu a migrace na novou službu."
   },
   "nav": {
     "logoAlt": "Raqoon"
   },
   "hero": {
-    "titleWW": "VPN od\nProxy mývala",
-    "subtitleWW": "Přístupné, pohodlné, spolehlivé",
-    "ctaWW": "Stáhnout",
+    "titleWW": "VPN služba,\nod mývala Proxyho",
+    "subtitleWW": "Rychlost, spolehlivost a soukromí, které si zasloužíš. Bez složitého nastavování.",
+    "ctaWW": "Vyzkoušet zdarma",
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
   "features": {
-    "title": "Co je zahrnuto",
+    "title": "Proč si vybrat Raqoon",
     "items": [
       {
-        "label": "Automatický výběr protokolu"
+        "label": "Chytré protokoly"
       },
       {
-        "label": "Přednostní podpora",
-        "sub": "Odpovídáme vždy do 24 hodin"
+        "label": "Podpora 24/7",
+        "sub": "Skuteční lidé odpoví na jakýkoliv dotaz během 24 hodin"
       },
       {
-        "label": "VPN",
-        "sub": "Užitečné při cestování do zahraničí"
+        "label": "Ruské servery",
+        "sub": "Tvůj přístup k obvyklým službám z jakéhokoliv místa na světě"
       },
       {
-        "label": "VPN přepínání zemí"
+        "label": "Globální dosah",
+        "sub": "Měň lokace jedním kliknutím a obcházej jakákoliv omezení"
       },
       {
-        "label": "Až 5 zařízení"
+        "label": "Až 5 zařízení",
+        "sub": "Zabezpeč všechnu svou techniku jedním předplatným"
       },
       {
-        "label": "Velký objem dopravy"
+        "label": "Neomezený provoz",
+        "sub": "Sleduj filmy ve vysoké kvalitě a stahuj soubory bez omezení"
       }
     ]
   },
   "pricing": {
-    "title": "Vyberte si plán",
+    "title": "Vyber si svůj formát svobody",
     "constructor": {
       "badge": "Konstruktér",
-      "price": "10",
-      "unit": "$ / den",
-      "cta": "Vybrat"
+      "price": "od 4,99",
+      "unit": "₽ za den",
+      "cta": "Nastavit podle sebe"
     },
     "allIn": {
-      "badge": "All Inclusive",
-      "price": "9,99",
-      "unit": "$ / měsíc",
-      "cta": "Vybrat"
+      "badge": "Vše v ceně",
+      "price": "od 7,99",
+      "unit": "₽ za den",
+      "cta": "Vzít vše najednou"
     },
     "constructorFeatures": [
       {
-        "label": "Automatický výběr protokolu"
+        "label": "Automatický výběr nejlepšího protokolu"
       },
       {
-        "label": "Přednostní podpora",
-        "sub": "Odpovídáme vždy do 24 hodin"
+        "label": "Podpora 24/7"
       },
       {
-        "label": "VPN",
-        "sub": "Užitečné při cestování do zahraničí"
+        "label": "Přístup k RosVPN"
       },
       {
-        "label": "VPN přepínání zemí"
+        "label": "Změna lokací"
       },
       {
-        "label": "Až 5 zařízení"
+        "label": "Až 5 zařízení současně"
       },
       {
-        "label": "Velký objem dopravy"
+        "label": "Obrovský balík dat"
       }
     ],
     "allInFeatures": [
       {
-        "label": "Automatický výběr protokolu"
+        "label": "Všechny možnosti konstruktéru"
       },
       {
-        "label": "Přednostní podpora",
-        "sub": "Odpovídáme vždy do 24 hodin"
+        "label": "Přístup ke všem světovým službám"
       },
       {
-        "label": "VPN",
-        "sub": "Užitečné při cestování do zahraničí"
+        "label": "Funguje v aplikacích třetích stran"
       },
       {
-        "label": "VPN přepínání zemí"
-      },
-      {
-        "label": "Až 5 zařízení"
-      },
-      {
-        "label": "Velký objem dopravy"
-      },
-      {
-        "label": "VPN za jakékoli služby"
-      },
-      {
-        "label": "Podpora aplikací třetích stran"
+        "label": "Prioritní linka podpory"
       }
     ]
   },
   "migration": {
-    "title": "Pro uživatele IZI. Vysvětlujeme migraci",
-    "cta": "Zjistěte více"
+    "title": "Stěhuješ se z IZI? Připravili jsme vše pro snadný transfer!",
+    "cta": "Instrukce k přechodu"
   },
   "referral": {
-    "title": "Pozvěte přítele -\nzískat více času",
-    "description": "Stačí sdílet svůj kód. Váš přítel dostane +10 dní na své první předplatné a vy získáte až 30 dní jako bonus.",
-    "cta": "Získejte dny"
+    "title": "Pozvi přátele —\npoužívej zdarma!",
+    "description": "Sdílej kód: přátelům dáme +10 dní k předplatnému a tobě — až celý měsíc jako bonus. Více pozvánek — více bezplatného přístupu!",
+    "cta": "Získat bonusové dny"
   },
   "faq": {
-    "title": "Často kladené otázky",
+    "title": "Odpovídáme na důležité otázky",
     "items": [
       {
-        "q": "Jaké protokoly používáte?",
-        "a": "Různé protokoly nabízejí různé vyvážení rychlosti, zabezpečení a stability. Například moderní řešení jako WireGuard nabízejí vysokou rychlost a jednoduchou architekturu, zatímco klasické protokoly jako OpenVPN jsou známé svou spolehlivostí a širokou podporou."
+        "q": "Proč máte tak vysokou rychlost?",
+        "a": "Používáme moderní protokoly jako WireGuard. To zajišťuje minimální odezvu, spolehlivé šifrování a stabilní spojení i při slabém internetovém signálu."
       },
       {
-        "q": "Ve kterých zemích jsou vaše servery dostupné?",
-        "a": "Máme servery v mnoha zemích po celém světě. Úplný seznam dostupných míst je k dispozici v aplikaci po připojení."
+        "q": "Kde se nacházejí vaše servery?",
+        "a": "Máme širokou síť po celém světě, včetně lokací v Evropě, Asii a Rusku. Celý seznam je dostupný přímo v aplikaci — vyber si jakýkoliv bod na mapě."
       },
       {
-        "q": "Ukládáte protokoly uživatelských aktivit?",
-        "a": "Ne, neukládáme protokoly aktivity uživatelů. Dodržujeme přísné zásady bez protokolování, abychom chránili vaše soukromí."
+        "q": "Opravdu neukládáte historii aktivit?",
+        "a": "Absolutně. Naše politika No-Logs je technickou architekturou. Nevíme, jaké stránky navštěvuješ. Tvá aktivita patří jen tobě."
       },
       {
-        "q": "Jak bezpečné je připojení VPN?",
-        "a": "Naše VPN používá k ochraně vašich dat moderní šifrování. Veškerý provoz je před opuštěním zařízení šifrován, což zajišťuje vysokou bezpečnost v jakékoli síti."
+        "q": "Jak spolehlivé je šifrování?",
+        "a": "Používáme standardy nejvyšší úrovně. Veškerý tvůj provoz je bezpečně chráněn ještě předtím, než opustí zařízení. Je to bezpečné i v otevřených Wi-Fi sítích."
       },
       {
-        "q": "Jaké platební metody přijímáte?",
-        "a": "Přijímáme hlavní bankovní karty i oblíbené platební systémy. Úplný seznam dostupných metod naleznete na stránce platby v aplikaci."
+        "q": "Jak zaplatit předplatné?",
+        "a": "Jakýmkoliv pohodlným způsobem: bankovní karty, platební systémy a nákupy v aplikaci. Vše je transparentní, rychlé a bez skrytých poplatků."
       }
     ]
   },
   "common": {
-    "comingSoonMessage": "Aplikace je ve vývoji. Již brzy si budete moci zakoupit předplatné.",
-    "comingSoonOk": "OK",
-    "turkeyDownloadUnavailable": "Raqoon není k dispozici ke stažení v Türkiye."
+    "comingSoonMessage": "Ladíme poslední detaily! Již brzy bude předplatné dostupné.",
+    "comingSoonOk": "Nemůžu se dočkat",
+    "turkeyDownloadUnavailable": "Bohužel, Raqoon není dostupný ke stažení na území Turecka."
   },
   "downloadPage": {
-    "heroTitle": "Bez karty. Bez e-mailu. Bez sledování. Jen ochrana.",
-    "heroText": "Klepněte na Připojit — jste v bezpečí. Data neskladujeme — nesledujeme vás.",
-    "mythsTitle": "Mýty o VPN — stručně",
-    "mythsP1": "Často se říká, že každé VPN je navázané na identitu. U Raqoon účet je, ale anonymní: bez uložené platební karty a bez povinného e-mailu.",
-    "mythsP2": "Nenabízíme „zdarma s reklamou“. Máte 3 plné dny přístupu, pak platíte za již zvolený tarif. Chráníme provoz — nesbíráme data pro reklamu.",
-    "featuresTitle": "Proč Raqoon",
+    "heroTitle": "Žádné karty. Žádný e-mail. Jen tvé bezpečí.",
+    "heroText": "Stiskni tlačítko — a jsi pod ochranou. Nesbíráme tvá data, protože nemáme důvod tě sledovat.",
+    "mythsTitle": "Boříme mýty o VPN",
+    "mythsP1": "Myslíš si, že VPN nutně vyžaduje osobní údaje? Raqoon dokazuje opak: tvůj účet je zcela anonymní. Žádné vazby na e-mail nebo karty při startu.",
+    "mythsP2": "Nobchodujeme s tvou pozorností. Nemáme otravné reklamy jako v „bezplatných“ službách. Místo toho — 3 dny poctivého testování, aby ses osobně přesvědčil o kvalitě.",
+    "featuresTitle": "Výhody Raqoon",
     "features": [
-      "3 plné dny přístupu — poté platba za váš tarif",
-      "Ochrana celého zařízení silným šifrováním",
+      "3 dny plného přístupu — testování bez závazků",
+      "Spolehlivé šifrování celého zařízení",
       "Připojení jedním klepnutím",
-      "Stabilní výkon na veřejném Wi‑Fi",
-      "Přehledné rozhraní bez zbytečností",
-      "Podpora běžných platforem"
+      "Bezpečná práce ve veřejných Wi-Fi sítích",
+      "Čisté rozhraní bez zbytečných nastavení",
+      "Podpora všech tvých zařízení"
     ],
-    "finalTitle": "Stáhněte teď. Bez zbytečné registrace. Bez vynuceného e-mailu. Jen soukromí.",
-    "finalText": "Přidejte se k mnoha uživatelům, kteří chtějí VPN bez modelu sledování.",
-    "ctaHome": "Zpět na úvod",
-    "ctaPlans": "Zobrazit tarify",
-    "badgeAriaAppStore": "Stáhnout v App Store — brzy",
-    "badgeAriaGooglePlay": "Google Play — brzy",
-    "badgeAriaMacAppStore": "Stáhnout v Mac App Store — brzy"
+    "finalTitle": "Začni teď. Bez registrace a SMS. Jen soukromí.",
+    "finalText": "Přidej se ke komunitě těch, kteří si vybírají internet bez sledování a omezení.",
+    "ctaHome": "Na hlavní stránku",
+    "ctaPlans": "Vybrat tarif",
+    "badgeAriaAppStore": "Již brzy v App Store",
+    "badgeAriaGooglePlay": "Již brzy v Google Play",
+    "badgeAriaMacAppStore": "Již brzy v Mac App Store"
   },
   "about": {
     "title": "O společnosti",
     "company": "Qat Bilişim LTD.",
-    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Türkiye",
+    "address": "Ulus Girişim Ofisi (Kuluçka Merkezi), Hacı Bayram Mah., Sanayi Cad., B Blok, Kat: 2, No: 4/211, 06050 Altındağ/Ankara, Turecko",
     "emailLabel": "E-mail:",
     "email": "hello@raqoon.app",
-    "keyPointsTitle": "Klíčové body",
-    "keyPointsBody": "Qat Bilişim LTD. vyvíjí a provozuje Raqoon digitální služby. Upřednostňujeme transparentnost procesů, ochranu osobních údajů a vysokou kvalitu služeb. Společnost působí v souladu s platnými právními požadavky a interními bezpečnostními standardy.",
-    "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20Ne%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F=2F__TK0_0_%3BCyCe"
+    "keyPointsTitle": "Klíčové informace",
+    "keyPointsBody": "Qat Bilişim LTD. zajišťuje vývoj a podporu digitálních služeb Raqoon. Prioritu dáváme transparentnosti procesů, ochraně osobních údajů a kvalitě zákaznického servisu. Společnost pracuje v souladu s platnými požadavky legislativy a interními bezpečnostními standardy.",
+    "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16"
   },
   "legal": {
     "privacy": {
       "title": "Zásady ochrany osobních údajů",
-      "body": "Raqoon Zásady ochrany osobních údajů\nDatum účinnosti: 1. března 2026\nJurisdikce: Ankara, Türkiye\nMajitel: Qat Bilişim Ltd.\n\nShrnutí\nRespektujeme vaše právo na anonymitu a bezpečnost. Nevidíme, co děláte online, nezaznamenáváme navštívené webové stránky a neukládáme obsah vašeho provozu. Náš systém zaznamenává pouze technické parametry (objem dat a čas vašeho posledního připojení), aby byla zajištěna kvalita připojení. Neukládáme údaje o vaší kartě – všechny platby jsou zpracovávány přes zabezpečené externí brány.\n\n1. Zásady nulových protokolů\nDodržujeme přísnou politiku bez protokolování týkající se vaší aktivity. Technická architektura Služby nám brání zaznamenávat, ukládat nebo sdílet následující údaje s třetími stranami:\n• Historie aktivity: Nezaznamenáváme navštívené webové stránky (URL), vyhledávací dotazy ani historii procházení.\n• Síťové dotazy: Neuchováváme protokoly DNS dotazů.\n• Provozní obsah: Nemáme přístup k obsahu přenášených dat, včetně zpráv, e-mailů nebo souborů.\n• Původní IP adresa: Neukládáme vaši skutečnou IP adresu, když používáte službu, ani ji nepropojujeme s vaší aktivitou.\n\n2. Údaje, které shromažďujeme (technická nutnost)\nPro zajištění stabilního provozu a správy předplatného zpracovává Služba minimální sadu technických údajů.\n2.1. Identifikace\n• UUID / Přístupový klíč: Jedinečný technický identifikátor používaný k autorizaci vašeho zařízení na našich serverech.\n• E-mail (volitelné): Používá se výhradně pro obnovení účtu nebo zasílání potvrzení a systémových oznámení.\n2.2. Statistics and Diagnostics\n• Objem dat: Množství odeslaných a přijatých dat používané ke sledování limitů vašeho plánu.\n• Doba posledního připojení: Zaznamenává se pro identifikaci problémů s připojením a udržování přesného stavu relace.\n• Stav předplatného: Doba platnosti a stav aktivity vašeho přístupového klíče.\n\n3. Funkce aplikace a nesledování\n• Marketing Trackers: Naše aplikace neobsahují marketingové nebo analytické nástroje třetích stran (jako je Facebook SDK nebo reklamní ID), které by mohly předávat vaše data třetím stranám.\n• Sledování dostupnosti: Aplikace může automaticky kontrolovat připojení k našim uzlům. Tato data jsou zcela anonymizována a slouží výhradně k automatickému výběru nejrychlejšího serveru.\n\n4. Platební informace\nNeukládáme ani nezpracováváme úplné údaje o vaší bankovní kartě.\n• App Store: Transakce zpracovává Apple App Store. Obdržíme pouze zašifrovaný token potvrzující skutečnost platby.\n\n5. Uchovávání a mazání dat\n• Technické informace: Údaje o provozu a časech přihlášení jsou uloženy po dobu vašeho předplatného.\n• Automatické mazání: Pokud neobnovíte své předplatné, mohou být data účtu zcela odstraněna ze systému po 90 dnech nečinnosti.\n• Vaše právo na smazání: Svůj účet a všechny související informace můžete kdykoli zcela smazat prostřednictvím nastavení aplikace nebo kontaktováním podpory.\n\n6. Sdílení údajů a právní požadavky\nQat Bilişim Ltd. je registrován v Türkiye. Neprodáváme uživatelská data ani je nepředáváme reklamním společnostem. V případě oficiálních žádostí orgánů činných v trestním řízení postupujeme striktně v mezích zákona. Naše architektura však neumožňuje poskytovat údaje o vašich akcích online, protože tyto informace nejsou technicky zaznamenávány. Můžeme pouze potvrdit existenci účtu a celkový objem spotřebované návštěvnosti.\n\n7. Kontaktujte nás\nMáte-li dotazy týkající se ochrany osobních údajů nebo vymazání údajů:\n• E-mail: private@raqoon.app\n• Telegram: @raqoonbot\n• Umístění: Ankara, Türkiye"
+      "body": "Zásady ochrany osobních údajů Raqoon\nDatum účinnosti: 1. března 2026\nJurisdikce: Ankara, Turecko\nMajitel služby: Qat Bilişim Ltd.\n\nStručná podstata\nRespektujeme tvé právo na anonymitu a bezpečnost. Nevidíme, co děláš v síti, nezaznamenáváme historii navštívených stránek a neukládáme obsah tvého provozu. Systém fixuje pouze technické parametry (objem dat a čas posledního připojení) pro zajištění kvality spojení. Neukládáme údaje o tvých kartách — veškeré platby probíhají přes zabezpečené externí brány.\n\n1. Politika absence záznamů (Zero Logs Policy)\nDodržujeme přísnou politiku absence logů aktivity. Technická architektura Služby vylučuje možnost fixace, uchovávání nebo předávání následujících údajů třetím stranám:\n• Historie aktivity: Nezaznamenáváme navštívené webové stránky (URL), vyhledávací dotazy a historii prohlížení.\n• Síťové dotazy: Nevedeme evidenci DNS dotazů.\n• Obsah provozu: Nemáme přístup k obsahu předávaných dat, včetně zpráv, e-mailů a souborů.\n• Výchozí IP adresa: Neuchováváme tvou reálnou IP adresu během používání služby a nespojujeme ji s tvou aktivitou.\n\n2. Shromažďované údaje (Technická nutnost)\nPro zajištění stabilního fungování a správu předplatného Služba zpracovává minimální nezbytný soubor údajů.\n2.1. Identifikace\n• UUID / Přístupový klíč: Unikátní technický identifikátor pro autorizaci tvého zařízení na našich serverech.\n• Email (volitelně): Používá se výhradně pro obnovení přístupu k účtu nebo zasílání účtenek a systémových oznámení.\n2.2. Statistika a diagnostika\n• Objem provozu: Množství předaných a přijatých dat pro kontrolu limitů tvého tarifu.\n• Čas posledního připojení: Fixuje se pro zjištění problémů se spojením a udržování aktuálního statusu relace.\n• Stav předplatného: Doba platnosti a aktivita tvého přístupového klíče.\n\n3. Fungování aplikace a absence sledování\n• Marketingové trackery: V našich aplikacích zcela chybí externí analytické a marketingové nástroje (jako Facebook SDK nebo reklamní identifikátory), které by mohly předávat informace o tobě třetím stranám.\n• Monitoring dostupnosti: Aplikace může automaticky kontrolovat spojení s našimi uzly. Tato data jsou zcela anonymizovaná a používají se pouze pro automatický výběr nejrychlejšího serveru.\n\n4. Platební informace\nNeuchováváme a nezpracováváme úplné údaje tvých bankovních karet.\n• App Store: Transakce jsou zpracovávány obchodem aplikací Apple. Dostáváme pouze zašifrovaný token potvrzení faktu platby.\n\n5. Termíny uchovávání a mazání údajů\n• Technické informace: Údaje o provozu a času přihlášení jsou uchovávány po dobu platnosti předplatného.\n• Automatické mazání: Pokud neprodloužíš předplatné, údaje o účtu mohou být ze systému zcela smazány po 90 dnech neaktivity.\n• Tvé právo na smazání: Můžeš kdykoliv zcela smazat svůj účet a veškeré s ním spojené informace přes nastavení aplikace nebo kontaktováním podpory.\n\n6. Předávání údajů a dotazy úřadů\nQat Bilişim Ltd. je registrována v Turecku. Neprodáváme údaje uživatelů a nepředáváme je reklamním společnostem. V případě obdržení oficiálních dotazů od donucovacích orgánů jednáme striktně v rámci zákona. Naše architektura však znemožňuje poskytnutí údajů o tvých akcích v síti, protože tyto informace nejsou technicky zaznamenávány. Můžeme potvrdit pouze fakt existence účtu a objem spotřebovaného provozu.\n\n7. Kontakty\nV otázkách soukromí nebo mazání údajů:\n• Pošta: private@raqoon.app\n• Telegram: @raqoonbot\n• Lokace: Ankara, Turecko"
     },
     "terms": {
-      "title": "Podmínky služby",
-      "body": "Podmínky použití (VEŘEJNÁ NABÍDKA)\nDatum účinnosti: 1. března 2026\nMísto vydání: Ankara, Türkiye\nTato Uživatelská smlouva (dále jen „Smlouva“) je oficiální nabídkou služby Raqoon (dále jen „Poskytovatel“ nebo „Služba“) k uzavření smlouvy s jakoukoli fyzickou osobou (dále jen „Uživatel“) za podmínek uvedených níže.\n\n1. OBECNÁ USTANOVENÍ\n1.1. Použití aplikace Raqoon, registrace na webu nebo platba za nabídky Služeb představuje úplný a bezpodmínečný souhlas uživatele s touto Smlouvou (Přijetí).\n1.2. Uživatel zaručuje, že je mu minimálně 18 let a má plnou právní způsobilost k uzavření této Smlouvy.\n1.3. Poskytovatel si vyhrazuje právo změnit podmínky této smlouvy. Nová verze vstupuje v platnost okamžikem zveřejnění.\n\n2. PŘEDMĚT SMLOUVY\n2.1. Poskytovatel uděluje Uživateli nevýhradní právo (Licenci) k užívání softwaru Služby a síťové infrastruktury k vytvoření virtuální privátní sítě (VPN).\n2.2. Přístup k softwaru:\n2.2.1. Přístup ke Službě je standardně poskytován výhradně prostřednictvím oficiální aplikace Raqoon.\n2.2.2. Používání klientů třetích stran (včetně Hiddify, v2rayNG a podobných nástrojů) je povoleno pouze tam, kde je taková možnost výslovně uvedena v popisu tarifu zakoupeného Uživatelem.\n2.3. Limit zařízení:\n2.3.1. Počet souběžných spojení (relací) je dán podmínkami zvoleného Tarifního plánu.\n2.3.2. Pokud není v Tarifu uveden žádný limit, je standardní limit 5 (pět) zařízení na účet.\n\n3. PODMÍNKY POUŽÍVÁNÍ A ZÁKAZY\n3.1. Uživatel se zavazuje používat Službu pouze pro zákonné účely.\n3.2. Přísně zakázané akce:\n3.2.1. Použití protokolů P2P (BitTorrent) a stahování torrentů na libovolných serverech služby.\n3.2.2. Distribuce spamu (včetně hromadného e-mailu přes port 25), zaplavení messengerů a sociálních sítí.\n3.2.3. Distribuce škodlivého softwaru, virů, trojských koní nebo kontrola botnetů.\n3.2.4. Jakýkoli druh síťových útoků: skenování portů, hrubá síla hesel, útoky DDoS, neoprávněný přístup ke zdrojům třetích stran.\n3.2.5. Distribuce dětské pornografie a materiálů propagujících terorismus nebo násilí.\n3.3. Důsledky porušení: Porušení jakékoli klauzule v části 3.2 má za následek okamžité pozastavení účtu bez nároku na obnovení a bez náhrady.\n\n4. ZÁSADY FAIR USE\n4.1. Služba je určena pro osobní, nekomerční použití.\n4.2. Pro tarifní plány v kategorii „Neomezeno“ platí následující omezení:\n4.2.1. Pokud spotřebovaný provoz přesáhne 3 TB (terabajty) za měsíc;\nA\n4.2.2. Služba detekuje abnormální zatížení kanálu, které snižuje kvalitu připojení pro ostatní uživatele;\n4.2.3. Poskytovatel si vyhrazuje právo dle vlastního uvážení omezit rychlost připojení nebo pozastavit přístup do konce zúčtovacího období.\n\n5. POSTUP PLATBY A VRÁCENÍ PENĚZ\n5.1. Nabídky služeb jsou klasifikovány jako digitální obsah dodaný okamžitě v elektronické podobě.\n5.2. Pravidlo nevracení peněz: V souladu s článkem 15(ğ) Turecké republiky „Nařízení o smlouvách na dálku“ (Mesafeli Sözleşmeler Yönetmeliği) se právo spotřebitele na odstoupení od smlouvy (vrácení peněz) nevztahuje na služby provedené okamžitě v elektronickém prostředí.\n5.3. Platby App Store: Vrácení peněz za předplatné provedené prostřednictvím Apple App Store se řídí výhradně pravidly společnosti Apple. Poskytovatel není technicky schopen takové vrácení peněz zpracovat.\n5.4. Zablokování přístupu ke Službě způsobené jednáním státních orgánů (cenzura internetu) nebo internetových poskytovatelů Uživatele je považováno za vyšší moc a není důvodem pro vrácení peněz.\n\n6. ODPOVĚDNOST STRAN\n6.1. Služba je poskytována „tak, jak je“. Poskytovatel nezaručuje nepřetržitý nebo bezchybný provoz Služby ani kompatibilitu se sítěmi konkrétních poskytovatelů internetu.\n6.2. Poskytovatel neodpovídá za žádné škody, včetně ušlého zisku, vzniklé používáním nebo nemožností využívat Služby.\n\n7. ZÁVĚREČNÁ USTANOVENÍ\n7.1. Tato smlouva se řídí zákony Republiky Türkiye.\n7.2. Veškeré spory a neshody budou řešeny u soudů Ankara, Türkiye."
+      "title": "Podmínky používání",
+      "body": "Podmínky používání (VEŘEJNÁ NABÍDKA)\nDatum účinnosti: 1. března 2026\nMísto zveřejnění: Ankara, Turecko\nTato Uživatelská smlouva (dále jen „Smlouva“) je oficiální nabídkou služby Raqoon (dále jen „Zhotovitel“ nebo „Služba“) k uzavření smlouvy s jakoukoliv fyzickou osobou (dále jen „Uživatel“) za níže uvedených podmínek.\n\n1. OBECNÁ USTANOVENÍ\n1.1. Používání aplikace Raqoon, registrace na webu nebo platba za služby Služby znamená úplný a bezpodmínečný souhlas Uživatele s touto Smlouvou (Akceptace).\n1.2. Uživatel garantuje, že dosáhl věku 18 let a má plnou právní způsobilost k uzavření této Smlouvy.\n1.3. Zhotovitel si vyhrazuje právo provádět změny v podmínkách Smlouvy. Nové znění nabývá účinnosti okamžikem zveřejnění.\n\n2. PŘEDMĚT SMLOUVY\n2.1. Zhotovitel poskytuje Uživateli nevýhradní právo (Licenci) k používání softwaru a síťové infrastruktury Služby pro organizaci virtuální privátní sítě (VPN).\n2.2. Přístup k softwaru:\n2.2.1. Přístup ke Službě probíhá standardně výhradně přes oficiální aplikaci Raqoon.\n2.2.2. Používání cizích klientů (včetně Hiddify, v2rayNG a analogických) je přípustné pouze v případech, kdy je tato možnost přímo uvedena v popisu Tarifu zaplaceného Uživatelem.\n2.3. Limit zařízení:\n2.3.1. Počet současných připojení (relací) je určen podmínkami zvoleného Tarifu.\n2.3.2. V případě absence údaje v Tarifu je standardní omezení 5 (pět) zařízení na jeden účet.\n\n3. PODMÍNKY POUŽÍVÁNÍ A ZÁKAZY\n3.1. Uživatel se zavazuje používat Službu pouze pro zákonné účely.\n3.2. Přísně zakázané činnosti:\n3.2.1. Používání P2P protokolů (BitTorrent) a stahování torrentů na jakýchkoliv serverech Služby.\n3.2.2. Rozesílání spamu (včetně hromadného rozesílání emailů přes port 25), floodování v messengerech a sociálních sítích.\n3.2.3. Šíření škodlivého softwaru, virů, trojských koní, správa botnetů.\n3.2.4. Jakékoliv druhy síťových útoků: skenování portů, brute-force hesel, DDoS útoky, neoprávněný přístup k cizím zdrojům.\n3.2.5. Šíření dětské pornografie a materiálů propagujících terorismus nebo násilí.\n3.3. Důsledky porušení: Porušení jakéhokoliv podbodu bodu 3.2 má za následek okamžitou blokaci účtu bez práva na obnovení a bez vrácení peněžních prostředků.\n\n4. POLITIKA ČESTNÉHO POUŽÍVÁNÍ (FAIR USE POLICY)\n4.1. Služba je určena pro osobní, nekomerční použití.\n4.2. Pro Tarify kategorie „Neomezený“ platí následující omezení:\n4.2.1. Pokud objem spotřebovaného provozu překročí 3 TB (Terabajty) za měsíc;\nA\n4.2.2. Služba fixuje abnormální zátěž kanálu, zhoršující kvalitu spojení pro ostatní uživatele;\n4.2.3. Zhotovitel si vyhrazuje právo jednostranně omezit rychlost připojení nebo pozastavit přístup do konce zúčtovacího období.\n\n5. PLATBA A POSTUP VRÁCENÍ PROSTŘEDKŮ\n5.1. Služby Služby jsou klasifikovány jako digitální obsah poskytovaný okamžitě v elektronické formě.\n5.2. Odmítnutí vrácení: V souladu s čl. 15(ğ) „Nařízení o distančních smlouvách“ (Mesafeli Sözleşmeler Yönetmeliği) Turecké republiky se právo spotřebitele na odstoupení od smlouvy (vrácení prostředků) nevztahuje na služby prováděné okamžitě v elektronickém prostředí.\n5.3. Platby App Store: Vrácení peněžních prostředků za předplatná zakoupená přes Apple App Store se reguluje výhradně pravidly společnosti Apple. Zhotovitel nemá technickou možnost provádět vrácení takových plateb.\n5.4. Blokování přístupu ke Službě způsobené jednáním státních orgánů (internetová cenzura) nebo internetových poskytovatelů Uživatele je uznáváno jako okolnost vyšší moci a není důvodem pro vrácení peněžních prostředků.\n\n6. ODPOVĚDNOST STRAN\n6.1. Služba je poskytována na bázi „tak, jak je“ (as is). Zhotovitel nezaručuje bezchybný a nepřetržitý provoz Služby, ani její kompatibilitu se sítěmi konkrétních internetových poskytovatelů.\n6.2. Zhotovitel nenese odpovědnost za jakékoliv ztráty, včetně ušlého zisku, vzniklé v důsledku používání nebo nemožnosti používání Služby.\n\n7. ZÁVĚREČNÁ USTANOVENÍ\n7.1. Tato Smlouva se řídí legislativou Turecké republiky.\n7.2. Veškeré spory a neshody podléhají řešení u soudů v Ankaře, Turecko."
     },
     "contact": {
-      "title": "Kontakt",
-      "body": "Máte-li jakékoli dotazy týkající se provozu služby, přístupu, fakturace nebo podpory, kontaktujte nás na adrese hello@raqoon.app. Naším cílem je reagovat co nejrychleji."
+      "title": "Kontakty",
+      "body": "Ve všech otázkách spojených s prací služby, přístupem, platbou a podporou nám napište na hello@raqoon.app. Snažíme se odpovídat maximálně operativně."
     },
     "refund": {
-      "title": "Zásady vrácení peněz",
-      "body": "Zásady vrácení peněz\nDatum účinnosti: 1. března 2026\n\nPokud je předplatné zakoupeno prostřednictvím App Store, vrácení peněz, zrušení předplatného a všechny související záležitosti se řídí pravidly a postupy App Store.\n\nS dotazy týkajícími se plateb kontaktujte podporu na hello@raqoon.app."
+      "title": "Zásady vrácení",
+      "body": "Zásady vrácení\nDatum účinnosti: 1. března 2026\n\n1. Pokud je předplatné zakoupeno přes App Store, vrácení peněžních prostředků, zrušení předplatného a další související otázky se regulují pravidly App Store.\n\n2. Pokud byl nákup proveden mimo App Store, pak v souladu s čl. 15(ğ) „Nařízení o distančních smlouvách“ (Mesafeli Sözleşmeler Yönetmeliği) služba nepodléhá vrácení ani výměně.\n\n3. V otázkách platby se můžete obrátit na podporu: hello@raqoon.app."
     }
   },
   "notFound": {
     "title": "Stránka nenalezena",
-    "description": "Tato stránka neexistuje nebo byla přesunuta.",
-    "cta": "Zpátky domů"
+    "description": "Vypadá to, že taková stránka neexistuje nebo byla přesunuta.",
+    "cta": "Vrátit se na hlavní"
   },
   "footer": {
     "about": "O společnosti",
     "download": "Stáhnout",
-    "privacy": "Zásady ochrany osobních údajů",
-    "terms": "Podmínky služby",
-    "contact": "Kontakt",
-    "refund": "Zásady vrácení peněz",
+    "privacy": "Zásady ochrany soukromí",
+    "terms": "Podmínky používání",
+    "contact": "Kontakty",
+    "refund": "Zásady vrácení",
     "copy": "© 2026 Raqoon"
   },
   "lang": {

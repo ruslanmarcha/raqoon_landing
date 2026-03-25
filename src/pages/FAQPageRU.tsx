@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import { Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
@@ -12,6 +12,25 @@ type FaqSection = {
   id: string
   heading: string
   items: FaqItem[]
+}
+
+type CategoryChip = { id: string; label: string }
+
+type ThirdPartyApp = {
+  name: string
+  subtitle: string
+  description: string
+  downloadUrl: string
+}
+
+type ThirdPartyPlatform = { title: string; apps: ThirdPartyApp[] }
+
+type ThirdPartyAppsPayload = {
+  heading: string
+  disclaimer: string
+  supportLine: string
+  btnDownload: string
+  platforms: ThirdPartyPlatform[]
 }
 
 function normalizeQuery(q: string) {
@@ -28,6 +47,7 @@ export function FAQPageRU() {
   const { t, i18n } = useTranslation()
   const [openKey, setOpenKey] = useState<string | null>(null)
   const [search, setSearch] = useState('')
+  const [category, setCategory] = useState('all')
 
   const isRu = i18n.language.startsWith('ru')
 
@@ -48,6 +68,28 @@ export function FAQPageRU() {
       }))
       .filter((sec) => sec.items.length > 0)
   }, [sections, query])
+
+  const categories = useMemo((): CategoryChip[] => {
+    if (!isRu) return []
+    const raw = t('faqPage.categories', { returnObjects: true })
+    return Array.isArray(raw) ? (raw as CategoryChip[]) : []
+  }, [t, isRu])
+
+  const thirdPartyApps = useMemo((): ThirdPartyAppsPayload | null => {
+    if (!isRu) return null
+    const raw = t('faqPage.thirdPartyApps', { returnObjects: true })
+    if (!raw || typeof raw !== 'object' || !('platforms' in raw)) return null
+    return raw as ThirdPartyAppsPayload
+  }, [t, isRu])
+
+  const visibleSections = useMemo(() => {
+    if (query) return filteredSections
+    if (category === 'all') return filteredSections
+    return filteredSections.filter((s) => s.id === category)
+  }, [filteredSections, category, query])
+
+  const showThirdPartyAppsGrid =
+    !query && thirdPartyApps && (category === 'all' || category === 'thirdParty')
 
   const flatForLd = useMemo(() => sections.flatMap((s) => s.items), [sections])
 
@@ -100,66 +142,120 @@ export function FAQPageRU() {
                 type="search"
                 className={styles.search}
                 value={search}
-                onChange={(e) => setSearch(e.target.value)}
+                onChange={(e) => {
+                  const v = e.target.value
+                  setSearch(v)
+                  if (v.trim()) setCategory('all')
+                }}
                 placeholder={t('faqPage.searchPlaceholder')}
                 autoComplete="off"
               />
             </div>
+            {categories.length > 0 ? (
+              <div className={styles.categories} role="tablist" aria-label="Разделы FAQ">
+                {categories.map((c) => (
+                  <button
+                    key={c.id}
+                    type="button"
+                    role="tab"
+                    aria-selected={category === c.id}
+                    className={`${styles.categoryBtn} ${category === c.id ? styles.categoryBtnActive : ''}`}
+                    onClick={() => setCategory(c.id)}
+                  >
+                    {c.label}
+                  </button>
+                ))}
+              </div>
+            ) : null}
             {showEmpty ? (
               <p className={styles.empty} role="status">
                 {t('faqPage.searchEmpty')}
               </p>
             ) : null}
-            {filteredSections.map((sec) => (
-              <div key={sec.id} className={styles.block}>
-                <h2 className={styles.heading}>{sec.heading}</h2>
-                <div className={styles.list}>
-                  {sec.items.map((item, i) => {
-                    const key = `${sec.id}-${i}`
-                    const isOpen = openKey === key
-                    return (
-                      <div key={key} className={styles.item}>
-                        <button
-                          type="button"
-                          className={styles.question}
-                          onClick={() => toggle(key)}
-                          aria-expanded={isOpen}
-                        >
-                          <span>{item.q}</span>
-                          <span className={styles.icon} aria-hidden="true">
-                            {isOpen ? (
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path
-                                  d="M5 12.5L10 7.5L15 12.5"
-                                  stroke="currentColor"
-                                  strokeWidth="1.5"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                            ) : (
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path
-                                  d="M5 7.5L10 12.5L15 7.5"
-                                  stroke="currentColor"
-                                  strokeWidth="1.5"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                            )}
-                          </span>
-                        </button>
-                        {isOpen ? (
-                          <div className={styles.answer}>
-                            <p>{item.a}</p>
-                          </div>
-                        ) : null}
-                      </div>
-                    )
-                  })}
+            {visibleSections.map((sec) => (
+              <Fragment key={sec.id}>
+                <div className={styles.block}>
+                  <h2 className={styles.heading}>{sec.heading}</h2>
+                  <div className={styles.list}>
+                    {sec.items.map((item, i) => {
+                      const key = `${sec.id}-${i}`
+                      const isOpen = openKey === key
+                      return (
+                        <div key={key} className={styles.item}>
+                          <button
+                            type="button"
+                            className={styles.question}
+                            onClick={() => toggle(key)}
+                            aria-expanded={isOpen}
+                          >
+                            <span>{item.q}</span>
+                            <span className={styles.icon} aria-hidden="true">
+                              {isOpen ? (
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                  <path
+                                    d="M5 12.5L10 7.5L15 12.5"
+                                    stroke="currentColor"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                              ) : (
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                  <path
+                                    d="M5 7.5L10 12.5L15 7.5"
+                                    stroke="currentColor"
+                                    strokeWidth="1.5"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                  />
+                                </svg>
+                              )}
+                            </span>
+                          </button>
+                          {isOpen ? (
+                            <div className={styles.answer}>
+                              <p>{item.a}</p>
+                            </div>
+                          ) : null}
+                        </div>
+                      )
+                    })}
+                  </div>
                 </div>
-              </div>
+                {sec.id === 'thirdParty' && showThirdPartyAppsGrid && thirdPartyApps ? (
+                  <div className={styles.appsBlock} id="third-party-apps">
+                    <h3 className={styles.heading}>{thirdPartyApps.heading}</h3>
+                    <p className={styles.appsDisclaimer}>{thirdPartyApps.disclaimer}</p>
+                    <p className={styles.appsSupport}>{thirdPartyApps.supportLine}</p>
+                    {thirdPartyApps.platforms.map((platform) => (
+                      <Fragment key={platform.title}>
+                        <h4 className={styles.appsPlatformTitle}>{platform.title}</h4>
+                        <div className={styles.appsGrid}>
+                          {platform.apps.map((app) => (
+                            <div
+                              key={`${platform.title}-${app.name}-${app.subtitle}`}
+                              className={styles.appCard}
+                            >
+                              <div className={styles.appCardName}>{app.name}</div>
+                              <div className={styles.appCardTitle}>{app.subtitle}</div>
+                              <p className={styles.appCardDesc}>{app.description}</p>
+                              <a
+                                className={styles.appCardBtn}
+                                href={app.downloadUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {thirdPartyApps.btnDownload}
+                              </a>
+                            </div>
+                          ))}
+                        </div>
+                      </Fragment>
+                    ))}
+                  </div>
+                ) : null}
+              </Fragment>
             ))}
           </div>
         </section>

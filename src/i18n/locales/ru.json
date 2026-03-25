@@ -205,6 +205,55 @@
     "searchPlaceholder": "Поиск по вопросам…",
     "searchEmpty": "Ничего не найдено — попробуйте другой запрос или откройте раздел ниже.",
     "intro": "Ниже — ответы об Raqoon: в первую очередь из описания сервиса и условий использования. Отдельно разобраны два способа подключения: официальное приложение и сторонние клиенты (когда это предусмотрено тарифом).",
+    "categories": [
+      { "id": "all", "label": "Все разделы" },
+      { "id": "product", "label": "О продукте" },
+      { "id": "app", "label": "Приложение Raqoon" },
+      { "id": "thirdParty", "label": "Сторонние клиенты" },
+      { "id": "troubleshooting", "label": "Решение проблем" },
+      { "id": "legal", "label": "Правила и право" }
+    ],
+    "thirdPartyApps": {
+      "heading": "Примеры клиентов для ручной настройки",
+      "disclaimer": "У Raqoon есть официальное приложение — это основной сценарий. Программы ниже создают сторонние разработчики; они могут подходить под совместимые протоколы, но интерфейс и обновления — зона ответственности авторов клиента. Используйте их только если ваш тариф явно допускает подключение через сторонние приложения. Ссылки ведут в App Store, Google Play и открытые репозитории. Пошаговые PDF с настройкой (в т.ч. для Hiddify, V2Box, Streisand, Shadowrocket) запрашивайте у поддержки Raqoon — мы подскажем актуальные материалы под ваш доступ.",
+      "supportLine": "Поддержка: @raqoonbot · hello@raqoon.app",
+      "btnDownload": "Скачать",
+      "platforms": [
+        {
+          "title": "Apple",
+          "apps": [
+            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690" },
+            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение.", "downloadUrl": "https://apps.apple.com/app/id6450534064" },
+            { "name": "Hiddify", "subtitle": "macOS (Intel и Apple Silicon)", "description": "Бесплатное приложение.", "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg" },
+            { "name": "Hiddify", "subtitle": "iPhone и iPad", "description": "Бесплатное приложение; в российском App Store может быть недоступно.", "downloadUrl": "https://apps.apple.com/app/id6596777532" },
+            { "name": "Shadowrocket", "subtitle": "iOS, iPadOS, macOS", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118" },
+            { "name": "Shadowrocket", "subtitle": "Apple TV", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118" }
+          ]
+        },
+        {
+          "title": "Windows",
+          "apps": [
+            { "name": "Hiddify", "subtitle": "Windows", "description": "Бесплатное приложение; страница проекта с инструкцией установки.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md" },
+            { "name": "Nekoray", "subtitle": "Windows", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем.", "downloadUrl": "https://github.com/MatsuriDayo/nekoray/releases" }
+          ]
+        },
+        {
+          "title": "Android",
+          "apps": [
+            { "name": "Hiddify", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=app.hiddify.com" },
+            { "name": "V2Box", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en" },
+            { "name": "V2Box", "subtitle": "Android TV", "description": "Настройка для телевизоров; уточняйте шаги у поддержки.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en" },
+            { "name": "NekoBox", "subtitle": "смартфон и планшет", "description": "Альтернативный клиент; поддержка не гарантируется.", "downloadUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases" }
+          ]
+        },
+        {
+          "title": "Linux",
+          "apps": [
+            { "name": "Hiddify", "subtitle": "Linux", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md" }
+          ]
+        }
+      ]
+    },
     "sections": [
       {
         "id": "product",

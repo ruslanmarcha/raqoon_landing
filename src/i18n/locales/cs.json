@@ -71,7 +71,7 @@
       "badge": "Vše v ceně",
       "price": "9,99",
       "unit": "$ / měsíc",
-      "cta": "Vzít vše najednou"
+      "cta": "Začít"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "Podpora 24/7"
       },
       {
-        "label": "Přístup k RosVPN"
+        "label": "Přístup ke všem světovým službám"
       },
       {
         "label": "Změna lokací"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Všechny možnosti konstruktéru"
+        "label": "Bezpečná práce ve veřejných Wi-Fi sítích"
       },
       {
-        "label": "Přístup ke všem světovým službám"
+        "label": "Spolehlivé šifrování celého zařízení"
+      },
+      {
+        "label": "Připojení jedním klepnutím"
       },
       {
         "label": "Funguje v aplikacích třetích stran"

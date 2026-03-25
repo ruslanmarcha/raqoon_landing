@@ -71,7 +71,7 @@
       "badge": "全包套餐",
       "price": "9.99",
       "unit": "$ / 月",
-      "cta": "一次性获取全部"
+      "cta": "开始"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "24/7 支持"
       },
       {
-        "label": "访问 RosVPN"
+        "label": "访问全球所有服务"
       },
       {
         "label": "更换位置"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "包含自选套餐的所有功能"
+        "label": "在公共 Wi-Fi 网络中安全工作"
       },
       {
-        "label": "访问全球所有服务"
+        "label": "可靠的全设备加密"
+      },
+      {
+        "label": "一键连接"
       },
       {
         "label": "可在第三方应用中运行"

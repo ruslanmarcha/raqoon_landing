@@ -71,7 +71,7 @@
       "badge": "Her Şey Dahil",
       "price": "9,99",
       "unit": "$ / ay",
-      "cta": "Hepsini birden al"
+      "cta": "Başlat"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "7/24 Destek"
       },
       {
-        "label": "RosVPN erişimi"
+        "label": "Tüm dünya servislerine erişim"
       },
       {
         "label": "Konum değiştirme"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Tüm konstrüktör özellikleri"
+        "label": "Kamuya açık Wi-Fi ağlarında güvenli çalışma"
       },
       {
-        "label": "Tüm dünya servislerine erişim"
+        "label": "Tüm cihazda güvenilir şifreleme"
+      },
+      {
+        "label": "Tek tıkla bağlantı"
       },
       {
         "label": "Üçüncü taraf uygulamalarda çalışma"

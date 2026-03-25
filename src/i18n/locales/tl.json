@@ -71,7 +71,7 @@
       "badge": "All-in",
       "price": "9.99",
       "unit": "$ / buwan",
-      "cta": "Kunin na ang lahat"
+      "cta": "Magsimula"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "Suporta 24/7"
       },
       {
-        "label": "Access sa RosVPN"
+        "label": "Access sa lahat ng global na serbisyo"
       },
       {
         "label": "Pagpapalit ng lokasyon"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Lahat ng features ng constructor"
+        "label": "Ligtas na paggamit sa mga pampublikong Wi-Fi network"
       },
       {
-        "label": "Access sa lahat ng global na serbisyo"
+        "label": "Maaasahang encryption sa buong device"
+      },
+      {
+        "label": "Koneksyon sa isang tap"
       },
       {
         "label": "Gumagana sa third-party apps"

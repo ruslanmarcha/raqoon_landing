@@ -71,7 +71,7 @@
       "badge": "Wszystko w cenie",
       "price": "9,99",
       "unit": "$ / miesiąc",
-      "cta": "Zgarnij wszystko od razu"
+      "cta": "Rozpocznij"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "Wsparcie 24/7"
       },
       {
-        "label": "Dostęp do RosVPN"
+        "label": "Dostęp do wszystkich światowych usług"
       },
       {
         "label": "Zmiana lokalizacji"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Wszystkie możliwości konstruktora"
+        "label": "Bezpieczna praca w publicznych sieciach Wi-Fi"
       },
       {
-        "label": "Dostęp do wszystkich światowych usług"
+        "label": "Niezawodne szyfrowanie całego urządzenia"
+      },
+      {
+        "label": "Połączenie jednym kliknięciem"
       },
       {
         "label": "Praca w aplikacjach zewnętrznych"

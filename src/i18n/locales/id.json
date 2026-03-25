@@ -71,7 +71,7 @@
       "badge": "Semua Termasuk",
       "price": "9,99",
       "unit": "$ / bulan",
-      "cta": "Ambil semua sekaligus"
+      "cta": "Mulai"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "Dukungan 24/7"
       },
       {
-        "label": "Akses ke RosVPN"
+        "label": "Akses ke semua layanan dunia"
       },
       {
         "label": "Ganti lokasi"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Semua fitur konstruktor"
+        "label": "Bekerja aman di jaringan Wi-Fi publik"
       },
       {
-        "label": "Akses ke semua layanan dunia"
+        "label": "Enkripsi andal seluruh perangkat"
+      },
+      {
+        "label": "Koneksi dalam satu tap"
       },
       {
         "label": "Berfungsi di aplikasi pihak ketiga"

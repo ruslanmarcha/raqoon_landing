@@ -71,7 +71,7 @@
       "badge": "Tout compris",
       "price": "9,99",
       "unit": "$ / mois",
-      "cta": "Tout prendre d'un coup"
+      "cta": "Commencer"
     },
     "constructorFeatures": [
       {
@@ -81,7 +81,7 @@
         "label": "Support 24/7"
       },
       {
-        "label": "Accès à RosVPN"
+        "label": "Accès à tous les services mondiaux"
       },
       {
         "label": "Changement de localisation"
@@ -95,10 +95,13 @@
     ],
     "allInFeatures": [
       {
-        "label": "Toutes les options du Constructeur"
+        "label": "Travail sécurisé sur les réseaux Wi-Fi publics"
       },
       {
-        "label": "Accès à tous les services mondiaux"
+        "label": "Chiffrement fiable de tout l'appareil"
+      },
+      {
+        "label": "Connexion en un tap"
       },
       {
         "label": "Fonctionne dans les apps tierces"

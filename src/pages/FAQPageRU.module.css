@@ -1,0 +1,137 @@
+.root {
+  background: #00000a;
+  min-height: 100vh;
+}
+
+.section {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 46px;
+  font-weight: var(--font-medium);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff99;
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.searchWrap {
+  margin-bottom: 32px;
+  max-width: 420px;
+}
+
+.search {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1px solid #ffffff1f;
+  background: #ffffff0a;
+  color: var(--color-text);
+  font-size: 16px;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.search::placeholder {
+  color: #ffffff66;
+}
+
+.search:focus {
+  border-color: #53ff7680;
+}
+
+.empty {
+  font-size: 16px;
+  color: #ffffff99;
+  padding: 16px 0;
+}
+
+.block {
+  margin-bottom: 40px;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: var(--font-medium);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+}
+
+.item:not(:last-child) {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.question {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-block: 12px;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: var(--font-medium);
+  transition: color var(--transition-fast);
+}
+
+.question:hover {
+  color: var(--color-text-secondary);
+}
+
+.icon {
+  flex-shrink: 0;
+  color: var(--color-text-secondary);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-full);
+  padding: 2px;
+  margin-top: 2px;
+}
+
+.answer {
+  padding-bottom: var(--space-5);
+}
+
+.answer p {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  line-height: 24px;
+  font-weight: var(--font-normal);
+  margin: 0;
+  max-width: 720px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+  .heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

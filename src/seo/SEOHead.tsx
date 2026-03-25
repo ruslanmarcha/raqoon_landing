@@ -12,6 +12,7 @@ export type SeoPage =
   | 'terms'
   | 'contact'
   | 'refund'
+  | 'faq'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -60,6 +61,13 @@ function resolveMeta(
         description: t('meta.migrationDescriptionRU'),
         ogTitle: t('meta.migrationTitleRU'),
         ogDescription: t('meta.migrationDescriptionRU'),
+      }
+    case 'faq':
+      return {
+        title: t('meta.faqTitleRU'),
+        description: t('meta.faqDescriptionRU'),
+        ogTitle: t('meta.faqTitleRU'),
+        ogDescription: t('meta.faqDescriptionRU'),
       }
     case 'privacy':
     case 'terms':

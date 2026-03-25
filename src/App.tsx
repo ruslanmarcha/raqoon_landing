@@ -12,6 +12,7 @@ const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ de
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
+const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
 
 function LoadingFallback() {
   return (
@@ -55,6 +56,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppP
                   <Route path="/terms" element={<LegalPage legalKey="terms" />} />
                   <Route path="/contact" element={<LegalPage legalKey="contact" />} />
                   <Route path="/refund" element={<LegalPage legalKey="refund" />} />
+                  <Route path="/faq" element={<FAQPageRU />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 <TurkeyAvailabilityNotice />

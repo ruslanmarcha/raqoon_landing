@@ -1,18 +1,22 @@
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
 import { absoluteUrl, getSiteOrigin } from '@/config/siteUrl'
 
 /** SEO only for `/faq` — не трогает общий `SEOHead` остальных страниц. */
 export function FAQPageHelmet() {
-  const { t, i18n } = useTranslation()
-  const lng = i18n.language
-  const title = t('meta.faqTitleRU')
-  const description = t('meta.faqDescriptionRU')
+  const { i18n } = useTranslation()
+  const { pathname } = useLocation()
+  const tRu = i18n.getFixedT('ru')
+  const lng = 'ru'
+  const title = tRu('meta.faqTitleRU')
+  const description = tRu('meta.faqDescriptionRU')
   const ogTitle = title
   const ogDescription = description
 
   const origin = getSiteOrigin()
-  const canonical = origin ? `${origin.replace(/\/$/, '')}/faq` : undefined
+  const canonicalPath = pathname === '/app' ? '/app' : '/faq'
+  const canonical = origin ? `${origin.replace(/\/$/, '')}${canonicalPath}` : undefined
   const ogImageAbsolute = absoluteUrl('/og-image.png')
   const url = canonical ?? (typeof window !== 'undefined' ? window.location.href : '')
   const siteName = 'Raqoon VPN'
@@ -36,7 +40,7 @@ export function FAQPageHelmet() {
         {
           '@type': 'WebPage',
           name: title,
-          url: canonical ?? `${origin}/faq`,
+          url: canonical ?? `${origin}${canonicalPath}`,
           inLanguage: 'ru-RU',
           isPartOf: { '@type': 'WebSite', name: 'Raqoon', url: origin },
         },

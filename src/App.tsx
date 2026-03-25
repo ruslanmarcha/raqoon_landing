@@ -57,6 +57,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppP
                   <Route path="/contact" element={<LegalPage legalKey="contact" />} />
                   <Route path="/refund" element={<LegalPage legalKey="refund" />} />
                   <Route path="/faq" element={<FAQPageRU />} />
+                  <Route path="/app" element={<FAQPageRU />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 <TurkeyAvailabilityNotice />

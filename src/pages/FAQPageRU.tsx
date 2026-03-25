@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useMemo, useState } from 'react'
-import { Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
@@ -51,7 +50,7 @@ function itemMatches(query: string, item: FaqItem) {
 }
 
 export function FAQPageRU() {
-  const { t, i18n } = useTranslation()
+  const { i18n } = useTranslation()
   const [openKey, setOpenKey] = useState<string | null>(null)
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('all')
@@ -61,13 +60,12 @@ export function FAQPageRU() {
     appUrl: string
   } | null>(null)
 
-  const isRu = i18n.language.startsWith('ru')
+  const tRu = useMemo(() => i18n.getFixedT('ru'), [i18n])
 
   const sections = useMemo((): FaqSection[] => {
-    if (!isRu) return []
-    const raw = t('faqPage.sections', { returnObjects: true })
+    const raw = tRu('faqPage.sections', { returnObjects: true })
     return Array.isArray(raw) ? (raw as FaqSection[]) : []
-  }, [t, isRu])
+  }, [tRu])
 
   const query = normalizeQuery(search)
 
@@ -82,17 +80,15 @@ export function FAQPageRU() {
   }, [sections, query])
 
   const categories = useMemo((): CategoryChip[] => {
-    if (!isRu) return []
-    const raw = t('faqPage.categories', { returnObjects: true })
+    const raw = tRu('faqPage.categories', { returnObjects: true })
     return Array.isArray(raw) ? (raw as CategoryChip[]) : []
-  }, [t, isRu])
+  }, [tRu])
 
   const thirdPartyApps = useMemo((): ThirdPartyAppsPayload | null => {
-    if (!isRu) return null
-    const raw = t('faqPage.thirdPartyApps', { returnObjects: true })
+    const raw = tRu('faqPage.thirdPartyApps', { returnObjects: true })
     if (!raw || typeof raw !== 'object' || !('platforms' in raw)) return null
     return raw as ThirdPartyAppsPayload
-  }, [t, isRu])
+  }, [tRu])
 
   const visibleSections = useMemo(() => {
     if (query) return filteredSections
@@ -126,10 +122,6 @@ export function FAQPageRU() {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
   }, [])
 
-  if (!isRu) {
-    return <Navigate to="/ww" replace />
-  }
-
   function toggle(key: string) {
     setOpenKey((prev) => (prev === key ? null : key))
   }
@@ -139,15 +131,15 @@ export function FAQPageRU() {
   return (
     <>
       <FAQPageHelmet />
-      <Header />
+      <Header showLanguageSelector={false} />
       <main className={styles.root}>
         <section className={`section ${styles.section}`}>
           <div className="container">
-            <h1 className={styles.title}>{t('faqPage.pageTitle')}</h1>
-            <p className={styles.intro}>{t('faqPage.intro')}</p>
+            <h1 className={styles.title}>{tRu('faqPage.pageTitle')}</h1>
+            <p className={styles.intro}>{tRu('faqPage.intro')}</p>
             <div className={styles.searchWrap}>
               <label className="sr-only" htmlFor="faq-search">
-                {t('faqPage.searchPlaceholder')}
+                {tRu('faqPage.searchPlaceholder')}
               </label>
               <input
                 id="faq-search"
@@ -159,7 +151,7 @@ export function FAQPageRU() {
                   setSearch(v)
                   if (v.trim()) setCategory('all')
                 }}
-                placeholder={t('faqPage.searchPlaceholder')}
+                placeholder={tRu('faqPage.searchPlaceholder')}
                 autoComplete="off"
               />
             </div>
@@ -181,7 +173,7 @@ export function FAQPageRU() {
             ) : null}
             {showEmpty ? (
               <p className={styles.empty} role="status">
-                {t('faqPage.searchEmpty')}
+                {tRu('faqPage.searchEmpty')}
               </p>
             ) : null}
             {visibleSections.map((sec) => (

@@ -3,6 +3,7 @@ import { Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
+import { InstructionModal } from '../components/InstructionModal/InstructionModal'
 import { SEOHead } from '../seo/SEOHead'
 import styles from './FAQPageRU.module.css'
 
@@ -21,6 +22,7 @@ type ThirdPartyApp = {
   subtitle: string
   description: string
   downloadUrl: string
+  instructionPdf?: string
 }
 
 type ThirdPartyPlatform = { title: string; apps: ThirdPartyApp[] }
@@ -30,6 +32,10 @@ type ThirdPartyAppsPayload = {
   disclaimer: string
   supportLine: string
   btnDownload: string
+  btnInstruction: string
+  openPdfInNewTab: string
+  modalClose: string
+  pdfViewerHint: string
   platforms: ThirdPartyPlatform[]
 }
 
@@ -48,6 +54,9 @@ export function FAQPageRU() {
   const [openKey, setOpenKey] = useState<string | null>(null)
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('all')
+  const [instructionModal, setInstructionModal] = useState<{ title: string; pdf: string } | null>(
+    null,
+  )
 
   const isRu = i18n.language.startsWith('ru')
 
@@ -240,14 +249,32 @@ export function FAQPageRU() {
                               <div className={styles.appCardName}>{app.name}</div>
                               <div className={styles.appCardTitle}>{app.subtitle}</div>
                               <p className={styles.appCardDesc}>{app.description}</p>
-                              <a
-                                className={styles.appCardBtn}
-                                href={app.downloadUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {thirdPartyApps.btnDownload}
-                              </a>
+                              <div className={styles.appCardActions}>
+                                <a
+                                  className={styles.appCardBtn}
+                                  href={app.downloadUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  {thirdPartyApps.btnDownload}
+                                </a>
+                                {app.instructionPdf ? (
+                                  <button
+                                    type="button"
+                                    className={styles.appCardBtnOutline}
+                                    onClick={() => {
+                                      const pdf = app.instructionPdf
+                                      if (!pdf) return
+                                      setInstructionModal({
+                                        title: `${app.name} — ${app.subtitle}`,
+                                        pdf,
+                                      })
+                                    }}
+                                  >
+                                    {thirdPartyApps.btnInstruction}
+                                  </button>
+                                ) : null}
+                              </div>
                             </div>
                           ))}
                         </div>
@@ -261,6 +288,17 @@ export function FAQPageRU() {
         </section>
       </main>
       <Footer />
+      {instructionModal && thirdPartyApps ? (
+        <InstructionModal
+          open
+          onClose={() => setInstructionModal(null)}
+          title={instructionModal.title}
+          pdfSrc={instructionModal.pdf}
+          openInNewTabLabel={thirdPartyApps.openPdfInNewTab}
+          closeLabel={thirdPartyApps.modalClose}
+          viewerHint={thirdPartyApps.pdfViewerHint}
+        />
+      ) : null}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqJsonLd }} />
     </>
   )

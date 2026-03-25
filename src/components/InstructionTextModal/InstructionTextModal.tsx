@@ -1,27 +1,22 @@
 import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
-import styles from './InstructionModal.module.css'
+import styles from './InstructionTextModal.module.css'
 
-type InstructionModalProps = {
+type InstructionTextModalProps = {
   open: boolean
   onClose: () => void
   title: string
-  /** Path under public/, e.g. /instructions/foo.pdf */
-  pdfSrc: string
-  openInNewTabLabel: string
+  steps: readonly string[]
   closeLabel: string
-  viewerHint: string
 }
 
-export function InstructionModal({
+export function InstructionTextModal({
   open,
   onClose,
   title,
-  pdfSrc,
-  openInNewTabLabel,
+  steps,
   closeLabel,
-  viewerHint,
-}: InstructionModalProps) {
+}: InstructionTextModalProps) {
   useEffect(() => {
     if (!open) return
     const onKey = (e: KeyboardEvent) => {
@@ -50,24 +45,24 @@ export function InstructionModal({
         className={styles.modal}
         role="dialog"
         aria-modal="true"
-        aria-labelledby="instruction-modal-title"
+        aria-labelledby="instruction-text-modal-title"
       >
         <div className={styles.header}>
-          <h2 id="instruction-modal-title" className={styles.title}>
+          <h2 id="instruction-text-modal-title" className={styles.title}>
             {title}
           </h2>
           <button type="button" className={styles.closeBtn} onClick={onClose} aria-label={closeLabel}>
             ×
           </button>
         </div>
-        <div className={styles.frameWrap}>
-          <iframe title={title} src={pdfSrc} className={styles.frame} />
+        <div className={styles.body}>
+          <ol className={styles.steps}>
+            {steps.map((step, i) => (
+              <li key={i}>{step}</li>
+            ))}
+          </ol>
         </div>
-        <p className={styles.hint}>{viewerHint}</p>
         <div className={styles.footer}>
-          <a className={styles.linkTab} href={pdfSrc} target="_blank" rel="noopener noreferrer">
-            {openInNewTabLabel}
-          </a>
           <button type="button" className={styles.closeAction} onClick={onClose}>
             {closeLabel}
           </button>

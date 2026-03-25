@@ -215,45 +215,43 @@
     ],
     "thirdPartyApps": {
       "heading": "Примеры клиентов для ручной настройки",
-      "disclaimer": "У Raqoon есть официальное приложение — это основной сценарий. Программы ниже создают сторонние разработчики; они могут подходить под совместимые протоколы, но интерфейс и обновления — зона ответственности авторов клиента. Используйте их только если ваш тариф явно допускает подключение через сторонние приложения. Ссылки ведут в App Store, Google Play и открытые репозитории. Пошаговые PDF открываются по кнопке «Инструкция»; при подключении ориентируйтесь на ключ и параметры, выданные вам в Raqoon.",
+      "disclaimer": "У Raqoon есть официальное приложение — это основной сценарий. Программы ниже создают сторонние разработчики; они могут подходить под совместимые протоколы, но интерфейс и обновления — зона ответственности авторов клиента. Используйте их только если ваш тариф явно допускает подключение через сторонние приложения. Ссылки ведут в App Store, Google Play и открытые репозитории. Пошаговые текстовые инструкции для примеров клиентов — по кнопке «Инструкция»; ключ и параметры подключения берите только из Raqoon (@raqoonbot или личный кабинет).",
       "supportLine": "Поддержка: @raqoonbot · hello@raqoon.app",
       "btnDownload": "Скачать",
       "btnInstruction": "Инструкция",
-      "openPdfInNewTab": "Открыть PDF в новой вкладке",
       "modalClose": "Закрыть",
-      "pdfViewerHint": "Если PDF не отображается в окне (часто на мобильных Safari), откройте файл в новой вкладке.",
       "platforms": [
         {
           "title": "Apple",
           "apps": [
-            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690", "instructionPdf": "/instructions/v2box-ios-ipados-macos.pdf" },
-            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение.", "downloadUrl": "https://apps.apple.com/app/id6450534064", "instructionPdf": "/instructions/streisand.pdf" },
-            { "name": "Hiddify", "subtitle": "macOS (Intel и Apple Silicon)", "description": "Бесплатное приложение.", "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg", "instructionPdf": "/instructions/hiddify-macos.pdf" },
-            { "name": "Hiddify", "subtitle": "iPhone и iPad", "description": "Бесплатное приложение; в российском App Store может быть недоступно.", "downloadUrl": "https://apps.apple.com/app/id6596777532", "instructionPdf": "/instructions/hiddify-iphone-ipad.pdf" },
-            { "name": "Shadowrocket", "subtitle": "iOS, iPadOS, macOS", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionPdf": "/instructions/shadowrocket-iphone-ipad-macos.pdf" },
-            { "name": "Shadowrocket", "subtitle": "Apple TV", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionPdf": "/instructions/shadowrocket-appletv.pdf" }
+            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690", "instructionKey": "v2boxIos" },
+            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение.", "downloadUrl": "https://apps.apple.com/app/id6450534064", "instructionKey": "streisand" },
+            { "name": "Hiddify", "subtitle": "macOS (Intel и Apple Silicon)", "description": "Бесплатное приложение.", "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg", "instructionKey": "hiddifyMacos" },
+            { "name": "Hiddify", "subtitle": "iPhone и iPad", "description": "Бесплатное приложение; в российском App Store может быть недоступно.", "downloadUrl": "https://apps.apple.com/app/id6596777532", "instructionKey": "hiddifyIos" },
+            { "name": "Shadowrocket", "subtitle": "iOS, iPadOS, macOS", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionKey": "shadowrocketIos" },
+            { "name": "Shadowrocket", "subtitle": "Apple TV", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionKey": "shadowrocketTv" }
           ]
         },
         {
           "title": "Windows",
           "apps": [
-            { "name": "Hiddify", "subtitle": "Windows", "description": "Бесплатное приложение; страница проекта с инструкцией установки.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md", "instructionPdf": "/instructions/hiddify-windows.pdf" },
+            { "name": "Hiddify", "subtitle": "Windows", "description": "Бесплатное приложение; страница проекта с инструкцией установки.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md", "instructionKey": "hiddifyWindows" },
             { "name": "Nekoray", "subtitle": "Windows", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем.", "downloadUrl": "https://github.com/MatsuriDayo/nekoray/releases" }
           ]
         },
         {
           "title": "Android",
           "apps": [
-            { "name": "Hiddify", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=app.hiddify.com", "instructionPdf": "/instructions/hiddify-android.pdf" },
-            { "name": "V2Box", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionPdf": "/instructions/v2box-android.pdf" },
-            { "name": "V2Box", "subtitle": "Android TV", "description": "Настройка для телевизоров; уточняйте шаги у поддержки.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionPdf": "/instructions/v2box-android-tv.pdf" },
+            { "name": "Hiddify", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=app.hiddify.com", "instructionKey": "hiddifyAndroid" },
+            { "name": "V2Box", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionKey": "v2boxAndroid" },
+            { "name": "V2Box", "subtitle": "Android TV", "description": "Настройка для телевизоров; уточняйте шаги у поддержки.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionKey": "v2boxAndroidTv" },
             { "name": "NekoBox", "subtitle": "смартфон и планшет", "description": "Альтернативный клиент; поддержка не гарантируется.", "downloadUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases" }
           ]
         },
         {
           "title": "Linux",
           "apps": [
-            { "name": "Hiddify", "subtitle": "Linux", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем. Отдельной PDF-инструкции нет — смотрите README проекта или напишите в поддержку.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md" }
+            { "name": "Hiddify", "subtitle": "Linux", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем. Готовой пошаговой инструкции здесь нет — смотрите README проекта или напишите в поддержку.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md" }
           ]
         }
       ]
@@ -385,7 +383,6 @@
     "cta": "Вернуться на главную"
   },
   "footer": {
-    "faq": "Частые вопросы",
     "about": "О компании",
     "download": "Скачать",
     "privacy": "Политика конфиденциальности",

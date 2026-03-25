@@ -3,9 +3,10 @@ import { Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
-import { InstructionModal } from '../components/InstructionModal/InstructionModal'
-import { SEOHead } from '../seo/SEOHead'
+import { InstructionTextModal } from '../components/InstructionTextModal/InstructionTextModal'
+import { getInstructionSteps } from '../faq/thirdPartyInstructionSteps'
 import styles from './FAQPageRU.module.css'
+import { FAQPageHelmet } from './FAQPageHelmet'
 
 type FaqItem = { q: string; a: string }
 
@@ -22,7 +23,7 @@ type ThirdPartyApp = {
   subtitle: string
   description: string
   downloadUrl: string
-  instructionPdf?: string
+  instructionKey?: string
 }
 
 type ThirdPartyPlatform = { title: string; apps: ThirdPartyApp[] }
@@ -33,9 +34,7 @@ type ThirdPartyAppsPayload = {
   supportLine: string
   btnDownload: string
   btnInstruction: string
-  openPdfInNewTab: string
   modalClose: string
-  pdfViewerHint: string
   platforms: ThirdPartyPlatform[]
 }
 
@@ -54,9 +53,10 @@ export function FAQPageRU() {
   const [openKey, setOpenKey] = useState<string | null>(null)
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('all')
-  const [instructionModal, setInstructionModal] = useState<{ title: string; pdf: string } | null>(
-    null,
-  )
+  const [instructionModal, setInstructionModal] = useState<{
+    title: string
+    steps: readonly string[]
+  } | null>(null)
 
   const isRu = i18n.language.startsWith('ru')
 
@@ -135,7 +135,7 @@ export function FAQPageRU() {
 
   return (
     <>
-      <SEOHead variant="ru" page="faq" />
+      <FAQPageHelmet />
       <Header />
       <main className={styles.root}>
         <section className={`section ${styles.section}`}>
@@ -258,22 +258,24 @@ export function FAQPageRU() {
                                 >
                                   {thirdPartyApps.btnDownload}
                                 </a>
-                                {app.instructionPdf ? (
-                                  <button
-                                    type="button"
-                                    className={styles.appCardBtnOutline}
-                                    onClick={() => {
-                                      const pdf = app.instructionPdf
-                                      if (!pdf) return
-                                      setInstructionModal({
-                                        title: `${app.name} — ${app.subtitle}`,
-                                        pdf,
-                                      })
-                                    }}
-                                  >
-                                    {thirdPartyApps.btnInstruction}
-                                  </button>
-                                ) : null}
+                                {(() => {
+                                  const steps = getInstructionSteps(app.instructionKey)
+                                  if (!steps?.length) return null
+                                  return (
+                                    <button
+                                      type="button"
+                                      className={styles.appCardBtnOutline}
+                                      onClick={() =>
+                                        setInstructionModal({
+                                          title: `${app.name} — ${app.subtitle}`,
+                                          steps,
+                                        })
+                                      }
+                                    >
+                                      {thirdPartyApps.btnInstruction}
+                                    </button>
+                                  )
+                                })()}
                               </div>
                             </div>
                           ))}
@@ -289,14 +291,12 @@ export function FAQPageRU() {
       </main>
       <Footer />
       {instructionModal && thirdPartyApps ? (
-        <InstructionModal
+        <InstructionTextModal
           open
           onClose={() => setInstructionModal(null)}
           title={instructionModal.title}
-          pdfSrc={instructionModal.pdf}
-          openInNewTabLabel={thirdPartyApps.openPdfInNewTab}
+          steps={instructionModal.steps}
           closeLabel={thirdPartyApps.modalClose}
-          viewerHint={thirdPartyApps.pdfViewerHint}
         />
       ) : null}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqJsonLd }} />

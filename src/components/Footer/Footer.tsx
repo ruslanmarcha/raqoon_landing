@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 export function Footer() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <footer className={styles.root}>
@@ -15,11 +15,6 @@ export function Footer() {
           </Link>
         </div>
         <nav className={styles.links} aria-label="Footer navigation">
-          {i18n.language.startsWith('ru') ? (
-            <Link to="/faq" className={styles.link}>
-              {t('footer.faq')}
-            </Link>
-          ) : null}
           <Link to="/about" className={styles.link}>
             {t('footer.about')}
           </Link>

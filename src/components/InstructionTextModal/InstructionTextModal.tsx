@@ -8,6 +8,10 @@ type InstructionTextModalProps = {
   title: string
   steps: readonly string[]
   closeLabel: string
+  appUrl: string
+  appUrlLabel: string
+  botUrl: string
+  botUrlLabel: string
 }
 
 export function InstructionTextModal({
@@ -16,6 +20,10 @@ export function InstructionTextModal({
   title,
   steps,
   closeLabel,
+  appUrl,
+  appUrlLabel,
+  botUrl,
+  botUrlLabel,
 }: InstructionTextModalProps) {
   useEffect(() => {
     if (!open) return
@@ -56,6 +64,14 @@ export function InstructionTextModal({
           </button>
         </div>
         <div className={styles.body}>
+          <div className={styles.quickLinks}>
+            <a href={appUrl} target="_blank" rel="noopener noreferrer" className={styles.quickLink}>
+              {appUrlLabel}
+            </a>
+            <a href={botUrl} target="_blank" rel="noopener noreferrer" className={styles.quickLink}>
+              {botUrlLabel}
+            </a>
+          </div>
           <ol className={styles.steps}>
             {steps.map((step, i) => (
               <li key={i}>{step}</li>

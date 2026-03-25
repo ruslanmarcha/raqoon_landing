@@ -219,6 +219,8 @@
       "supportLine": "Поддержка: @raqoonbot · hello@raqoon.app",
       "btnDownload": "Скачать",
       "btnInstruction": "Инструкция",
+      "btnOpenApp": "Открыть приложение",
+      "btnOpenBot": "Открыть @raqoonbot",
       "modalClose": "Закрыть",
       "platforms": [
         {
@@ -383,6 +385,7 @@
     "cta": "Вернуться на главную"
   },
   "footer": {
+    "faq": "FAQ",
     "about": "О компании",
     "download": "Скачать",
     "privacy": "Политика конфиденциальности",

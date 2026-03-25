@@ -34,6 +34,8 @@ type ThirdPartyAppsPayload = {
   supportLine: string
   btnDownload: string
   btnInstruction: string
+  btnOpenApp: string
+  btnOpenBot: string
   modalClose: string
   platforms: ThirdPartyPlatform[]
 }
@@ -56,6 +58,7 @@ export function FAQPageRU() {
   const [instructionModal, setInstructionModal] = useState<{
     title: string
     steps: readonly string[]
+    appUrl: string
   } | null>(null)
 
   const isRu = i18n.language.startsWith('ru')
@@ -269,6 +272,7 @@ export function FAQPageRU() {
                                         setInstructionModal({
                                           title: `${app.name} — ${app.subtitle}`,
                                           steps,
+                                          appUrl: app.downloadUrl,
                                         })
                                       }
                                     >
@@ -297,6 +301,10 @@ export function FAQPageRU() {
           title={instructionModal.title}
           steps={instructionModal.steps}
           closeLabel={thirdPartyApps.modalClose}
+          appUrl={instructionModal.appUrl}
+          appUrlLabel={thirdPartyApps.btnOpenApp}
+          botUrl="https://t.me/raqoonbot"
+          botUrlLabel={thirdPartyApps.btnOpenBot}
         />
       ) : null}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqJsonLd }} />

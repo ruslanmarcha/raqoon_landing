@@ -68,6 +68,31 @@
   -webkit-overflow-scrolling: touch;
 }
 
+.quickLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.quickLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #53ff76;
+  background: #53ff7612;
+  color: #53ff76;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: var(--font-medium);
+}
+
+.quickLink:hover {
+  background: #53ff761e;
+}
+
 .steps {
   margin: 0;
   padding-left: 22px;

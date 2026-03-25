@@ -96,19 +96,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Secure work on public Wi-Fi networks"
+        "label": "Auto-selection of the best protocol"
       },
       {
-        "label": "Reliable device-wide encryption"
+        "label": "24/7 Support"
       },
       {
-        "label": "One-tap connection"
+        "label": "Access to all global services"
       },
       {
-        "label": "Works in third-party apps"
+        "label": "Location switching"
       },
       {
-        "label": "Priority support line"
+        "label": "Up to 5 devices simultaneously"
+      },
+      {
+        "label": "Huge traffic package"
       }
     ]
   },

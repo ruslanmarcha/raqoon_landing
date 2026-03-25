@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Travail sécurisé sur les réseaux Wi-Fi publics"
+        "label": "Choix automatique du meilleur protocole"
       },
       {
-        "label": "Chiffrement fiable de tout l'appareil"
+        "label": "Support 24/7"
       },
       {
-        "label": "Connexion en un tap"
+        "label": "Accès à tous les services mondiaux"
       },
       {
-        "label": "Fonctionne dans les apps tierces"
+        "label": "Changement de localisation"
       },
       {
-        "label": "Ligne de support prioritaire"
+        "label": "Jusqu'à 5 appareils simultanément"
+      },
+      {
+        "label": "Énorme forfait de trafic"
       }
     ]
   },

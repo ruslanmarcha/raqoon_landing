@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Ligtas na paggamit sa mga pampublikong Wi-Fi network"
+        "label": "Awtomatikong pagpili ng pinakamahusay na protocol"
       },
       {
-        "label": "Maaasahang encryption sa buong device"
+        "label": "Suporta 24/7"
       },
       {
-        "label": "Koneksyon sa isang tap"
+        "label": "Access sa lahat ng global na serbisyo"
       },
       {
-        "label": "Gumagana sa third-party apps"
+        "label": "Pagpapalit ng lokasyon"
       },
       {
-        "label": "Priority na linya ng suporta"
+        "label": "Hanggang 5 device nang sabay-sabay"
+      },
+      {
+        "label": "Napakalaking package ng trapiko"
       }
     ]
   },

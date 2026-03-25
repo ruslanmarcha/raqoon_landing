@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Bezpieczna praca w publicznych sieciach Wi-Fi"
+        "label": "Automatyczny wybór najlepszego protokołu"
       },
       {
-        "label": "Niezawodne szyfrowanie całego urządzenia"
+        "label": "Wsparcie 24/7"
       },
       {
-        "label": "Połączenie jednym kliknięciem"
+        "label": "Dostęp do wszystkich światowych usług"
       },
       {
-        "label": "Praca w aplikacjach zewnętrznych"
+        "label": "Zmiana lokalizacji"
       },
       {
-        "label": "Priorytetowa linia wsparcia"
+        "label": "Do 5 urządzeń jednocześnie"
+      },
+      {
+        "label": "Ogromny pakiet transferu"
       }
     ]
   },

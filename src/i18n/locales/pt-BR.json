@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Trabalho seguro em redes Wi-Fi públicas"
+        "label": "Seleção automática do melhor protocolo"
       },
       {
-        "label": "Criptografia confiável de todo o dispositivo"
+        "label": "Suporte 24/7"
       },
       {
-        "label": "Conexão com um toque"
+        "label": "Acesso a todos os serviços globais"
       },
       {
-        "label": "Funciona em apps de terceiros"
+        "label": "Mudança de locais"
       },
       {
-        "label": "Linha de suporte prioritária"
+        "label": "Até 5 dispositivos simultâneos"
+      },
+      {
+        "label": "Enorme pacote de tráfego"
       }
     ]
   },

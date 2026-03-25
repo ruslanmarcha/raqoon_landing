@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Sicheres Arbeiten in öffentlichen WLAN-Netzen"
+        "label": "Automatische Auswahl des besten Protokolls"
       },
       {
-        "label": "Zuverlässige Verschlüsselung des gesamten Geräts"
+        "label": "24/7 Support"
       },
       {
-        "label": "Verbindung mit einem Tipp"
+        "label": "Zugriff auf alle weltweiten Dienste"
       },
       {
-        "label": "Funktioniert in Drittanbieter-Apps"
+        "label": "Standortwechsel"
       },
       {
-        "label": "Prioritärer Support"
+        "label": "Bis zu 5 Geräte gleichzeitig"
+      },
+      {
+        "label": "Riesiges Datenpaket"
       }
     ]
   },

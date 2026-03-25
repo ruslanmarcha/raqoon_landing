@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Bekerja aman di jaringan Wi-Fi publik"
+        "label": "Pilihan protokol terbaik otomatis"
       },
       {
-        "label": "Enkripsi andal seluruh perangkat"
+        "label": "Dukungan 24/7"
       },
       {
-        "label": "Koneksi dalam satu tap"
+        "label": "Akses ke semua layanan dunia"
       },
       {
-        "label": "Berfungsi di aplikasi pihak ketiga"
+        "label": "Ganti lokasi"
       },
       {
-        "label": "Lini dukungan prioritas"
+        "label": "Hingga 5 perangkat sekaligus"
+      },
+      {
+        "label": "Paket trafik besar"
       }
     ]
   },

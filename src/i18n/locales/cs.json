@@ -95,19 +95,22 @@
     ],
     "allInFeatures": [
       {
-        "label": "Bezpečná práce ve veřejných Wi-Fi sítích"
+        "label": "Automatický výběr nejlepšího protokolu"
       },
       {
-        "label": "Spolehlivé šifrování celého zařízení"
+        "label": "Podpora 24/7"
       },
       {
-        "label": "Připojení jedním klepnutím"
+        "label": "Přístup ke všem světovým službám"
       },
       {
-        "label": "Funguje v aplikacích třetích stran"
+        "label": "Změna lokací"
       },
       {
-        "label": "Prioritní linka podpory"
+        "label": "Až 5 zařízení současně"
+      },
+      {
+        "label": "Obrovský balík dat"
       }
     ]
   },

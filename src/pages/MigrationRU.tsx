@@ -71,13 +71,13 @@ export function MigrationRU() {
                 <li>
                   Дальше активируй ключ доступа в приложении по инструкции на странице:
                   <a
-                    href="/app"
+                    href="/faq"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.inlineLink}
                   >
                     {' '}
-                    raqoon.app/app
+                    raqoon.app/faq
                   </a>
                   .
                 </li>

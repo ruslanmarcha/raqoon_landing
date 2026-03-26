@@ -56,26 +56,35 @@ export function MigrationRU() {
                   </a>
                   .
                 </li>
-                <li>Используй свой RaqoonID для входа в профиль.</li>
                 <li>
-                  Активируй промокод миграции, чтобы перенести остаток оплаченных дней.
+                  <strong>Важно:</strong> <strong>НЕ создавай новый аккаунт</strong>. Иначе перенос дней не
+                  сработает и потом «ничего не работает».
                 </li>
                 <li>
-                  Активируй ключ доступа в приложении по инструкции:
+                  В боте нажми <strong>«ВОЙТИ»</strong> (а не «Создать аккаунт») и введи <strong>RaqoonID</strong>,
+                  который тебе прислал <strong>ИЗИ-бот</strong>.
+                </li>
+                <li>
+                  Когда вошёл по RaqoonID — активируй <strong>промокод миграции</strong>, чтобы перенести остаток
+                  оплаченных дней.
+                </li>
+                <li>
+                  Дальше активируй ключ доступа в приложении по инструкции на странице:
                   <a
-                    href="https://izi-app-landing.vercel.app/"
+                    href="/app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={styles.inlineLink}
                   >
                     {' '}
-                    izi-app-landing.vercel.app
+                    raqoon.app/app
                   </a>
                   .
                 </li>
               </ol>
               <p className={styles.note}>
-                RaqoonID и промокод миграции отправим тебе в чат с ИЗИ-ботом.
+                RaqoonID и промокод миграции уже есть в твоём чате с ИЗИ-ботом. Просто возьми их оттуда и
+                используй в @raqoonbot через кнопку <strong>«ВОЙТИ»</strong>.
               </p>
             </div>
 

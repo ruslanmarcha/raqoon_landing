@@ -69,7 +69,7 @@ export function MigrationRU() {
                   оплаченных дней.
                 </li>
                 <li>
-                  Дальше активируй ключ доступа в приложении по инструкции на странице:
+                  Дальше активируй ключ доступа по инструкции на странице:
                   <a
                     href="/faq"
                     target="_blank"
@@ -79,7 +79,8 @@ export function MigrationRU() {
                     {' '}
                     raqoon.app/faq
                   </a>
-                  .
+                  {' '}
+                  (раздел <strong>«Сторонние клиенты»</strong>). Наше собственное приложение пока в разработке.
                 </li>
               </ol>
               <p className={styles.note}>

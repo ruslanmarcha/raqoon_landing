@@ -2,6 +2,11 @@ import { useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import styles from './InstructionTextModal.module.css'
 
+type InstructionWarning = {
+  title: string
+  lines: readonly string[]
+}
+
 type InstructionTextModalProps = {
   open: boolean
   onClose: () => void
@@ -12,6 +17,7 @@ type InstructionTextModalProps = {
   appUrlLabel: string
   botUrl: string
   botUrlLabel: string
+  instructionWarning?: InstructionWarning
 }
 
 export function InstructionTextModal({
@@ -24,6 +30,7 @@ export function InstructionTextModal({
   appUrlLabel,
   botUrl,
   botUrlLabel,
+  instructionWarning,
 }: InstructionTextModalProps) {
   useEffect(() => {
     if (!open) return
@@ -64,6 +71,19 @@ export function InstructionTextModal({
           </button>
         </div>
         <div className={styles.body}>
+          {instructionWarning && instructionWarning.lines.length > 0 ? (
+            <div className={styles.trafficWarning} role="note">
+              <div className={styles.trafficWarningStripe} aria-hidden="true" />
+              <div className={styles.trafficWarningInner}>
+                <strong className={styles.trafficWarningTitle}>{instructionWarning.title}</strong>
+                {instructionWarning.lines.map((line, i) => (
+                  <p key={i} className={styles.trafficWarningLine}>
+                    {line}
+                  </p>
+                ))}
+              </div>
+            </div>
+          ) : null}
           <div className={styles.quickLinks}>
             <a href={appUrl} target="_blank" rel="noopener noreferrer" className={styles.quickLink}>
               {appUrlLabel}

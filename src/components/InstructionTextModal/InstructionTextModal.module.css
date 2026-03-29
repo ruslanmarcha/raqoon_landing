@@ -11,7 +11,7 @@
 
 .modal {
   width: 100%;
-  max-width: min(560px, 100vw - 24px);
+  max-width: min(600px, 100vw - 24px);
   max-height: min(88vh, 820px);
   border-radius: 16px;
   background: #0b0b14;
@@ -66,6 +66,49 @@
   overflow-y: auto;
   padding: 16px 18px 20px;
   -webkit-overflow-scrolling: touch;
+}
+
+.trafficWarning {
+  position: relative;
+  display: flex;
+  gap: 0;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(180, 20, 20, 0.14);
+  border: 1px solid rgba(255, 68, 68, 0.45);
+}
+
+.trafficWarningStripe {
+  width: 6px;
+  flex-shrink: 0;
+  background: #e02020;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+.trafficWarningInner {
+  padding: 12px 14px 12px 12px;
+  min-width: 0;
+}
+
+.trafficWarningTitle {
+  display: block;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  color: #ff6b6b;
+  margin-bottom: 8px;
+  letter-spacing: 0.02em;
+}
+
+.trafficWarningLine {
+  margin: 0 0 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffe8e8;
+}
+
+.trafficWarningLine:last-child {
+  margin-bottom: 0;
 }
 
 .quickLinks {

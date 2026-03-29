@@ -27,6 +27,11 @@ type ThirdPartyApp = {
 
 type ThirdPartyPlatform = { title: string; apps: ThirdPartyApp[] }
 
+type InstructionWarningPayload = {
+  title: string
+  lines: string[]
+}
+
 type ThirdPartyAppsPayload = {
   heading: string
   disclaimer: string
@@ -36,6 +41,7 @@ type ThirdPartyAppsPayload = {
   btnOpenApp: string
   btnOpenBot: string
   modalClose: string
+  instructionWarning?: InstructionWarningPayload
   platforms: ThirdPartyPlatform[]
 }
 
@@ -297,6 +303,14 @@ export function FAQPageRU() {
           appUrlLabel={thirdPartyApps.btnOpenApp}
           botUrl="https://t.me/raqoonbot"
           botUrlLabel={thirdPartyApps.btnOpenBot}
+          instructionWarning={
+            thirdPartyApps.instructionWarning
+              ? {
+                  title: thirdPartyApps.instructionWarning.title,
+                  lines: thirdPartyApps.instructionWarning.lines,
+                }
+              : undefined
+          }
         />
       ) : null}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: faqJsonLd }} />

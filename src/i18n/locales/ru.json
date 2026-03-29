@@ -215,19 +215,31 @@
     ],
     "thirdPartyApps": {
       "heading": "Примеры клиентов для ручной настройки",
-      "disclaimer": "У Raqoon есть официальное приложение — это основной сценарий. Программы ниже создают сторонние разработчики; они могут подходить под совместимые протоколы, но интерфейс и обновления — зона ответственности авторов клиента. Используйте их только если ваш тариф явно допускает подключение через сторонние приложения. Ссылки ведут в App Store, Google Play и открытые репозитории. Пошаговые текстовые инструкции для примеров клиентов — по кнопке «Инструкция»; ключ и параметры подключения берите только из Raqoon (@raqoonbot или личный кабинет).",
+      "disclaimer": "У Raqoon есть официальное приложение — это основной сценарий. Программы ниже создают сторонние разработчики; они могут подходить под совместимые протоколы, но интерфейс и обновления — зона ответственности авторов клиента. Используйте их только если ваш тариф явно допускает подключение через сторонние приложения. Ссылки ведут в App Store, Google Play и открытые репозитории. У части приложений страница в российском App Store может быть недоступна — смотрите подсказки в карточках. Пошаговые текстовые инструкции — по кнопке «Инструкция»; ключ и параметры подключения берите только из Raqoon (@raqoonbot или личный кабинет).",
       "supportLine": "Поддержка: @raqoonbot · hello@raqoon.app",
       "btnDownload": "Скачать",
       "btnInstruction": "Инструкция",
       "btnOpenApp": "Открыть приложение",
       "btnOpenBot": "Открыть @raqoonbot",
       "modalClose": "Закрыть",
+      "instructionWarning": {
+        "title": "Важно — про ключи в приложении",
+        "lines": [
+          "Запись с песочными часами — это счётчик трафика (лимит), а не сервер для подключения. К нему подключаться не нужно.",
+          "Если один ключ не подключился — не повторяйте попытки с тем же ключом; откройте бота и выберите другой ключ из списка."
+        ]
+      },
       "platforms": [
         {
           "title": "Apple",
           "apps": [
-            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690", "instructionKey": "v2boxIos" },
-            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение.", "downloadUrl": "https://apps.apple.com/app/id6450534064", "instructionKey": "streisand" },
+            { "name": "Happ - Proxy Utility Plus", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатный клиент; в российском App Store обычно доступен. Поддерживает VLESS и импорт подписки или конфигурации по ссылке.", "downloadUrl": "https://apps.apple.com/app/id6746188973", "instructionKey": "happIos" },
+            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690", "instructionKey": "v2boxIos" },
+            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.", "downloadUrl": "https://apps.apple.com/app/id6450534064", "instructionKey": "streisand" },
+            { "name": "XRay Connect", "subtitle": "iPhone, iPad", "description": "Бесплатный клиент на базе Xray; VLESS и импорт по ссылке/из буфера. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/xray-connect/id6746749546", "instructionKey": "xrayConnectIos" },
+            { "name": "Anywhere Proxy", "subtitle": "iPhone, iPad (iOS 17+)", "description": "Клиент под VLESS; импорт подписки по ссылке, из буфера или QR. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/anywhere-proxy/id6758235178", "instructionKey": "anywhereIos" },
+            { "name": "V2Ray Client+", "subtitle": "iPhone, iPad", "description": "Клиент на v2ray/xray; VLESS Reality и импорт конфигурации. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/v2ray-client/id6747379524", "instructionKey": "v2rayClientPlusIos" },
+            { "name": "Fair VPN", "subtitle": "iPhone, iPad", "description": "Бесплатный клиент с поддержкой VLESS и импортом по ссылке. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/fair-vpn/id1533873488", "instructionKey": "fairVpnIos" },
             { "name": "Hiddify", "subtitle": "macOS (Intel и Apple Silicon)", "description": "Бесплатное приложение.", "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg", "instructionKey": "hiddifyMacos" },
             { "name": "Hiddify", "subtitle": "iPhone и iPad", "description": "Бесплатное приложение; в российском App Store может быть недоступно.", "downloadUrl": "https://apps.apple.com/app/id6596777532", "instructionKey": "hiddifyIos" },
             { "name": "Shadowrocket", "subtitle": "iOS, iPadOS, macOS", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionKey": "shadowrocketIos" },

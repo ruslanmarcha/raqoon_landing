@@ -7,11 +7,27 @@ type InstructionWarning = {
   lines: readonly string[]
 }
 
+type InstructionSectionLabels = {
+  stepsTitle: string
+  ifNotWorkingTitle: string
+  importantTitle: string
+}
+
+const DEFAULT_SECTION_LABELS: InstructionSectionLabels = {
+  stepsTitle: 'Пошаговая инструкция',
+  ifNotWorkingTitle: 'Если не работает',
+  importantTitle: 'Важно',
+}
+
 type InstructionTextModalProps = {
   open: boolean
   onClose: () => void
   title: string
+  shortDescription?: string
   steps: readonly string[]
+  ifNotWorking?: readonly string[]
+  important?: readonly string[]
+  sectionLabels?: InstructionSectionLabels
   closeLabel: string
   appUrl: string
   appUrlLabel: string
@@ -24,7 +40,11 @@ export function InstructionTextModal({
   open,
   onClose,
   title,
+  shortDescription,
   steps,
+  ifNotWorking,
+  important,
+  sectionLabels,
   closeLabel,
   appUrl,
   appUrlLabel,
@@ -47,6 +67,8 @@ export function InstructionTextModal({
   }, [open, onClose])
 
   if (!open) return null
+
+  const labels: InstructionSectionLabels = sectionLabels ?? DEFAULT_SECTION_LABELS
 
   return createPortal(
     <div
@@ -92,11 +114,33 @@ export function InstructionTextModal({
               {botUrlLabel}
             </a>
           </div>
+          {shortDescription ? <p className={styles.lead}>{shortDescription}</p> : null}
+          <h3 className={styles.sectionHeading}>{labels.stepsTitle}</h3>
           <ol className={styles.steps}>
             {steps.map((step, i) => (
               <li key={i}>{step}</li>
             ))}
           </ol>
+          {ifNotWorking && ifNotWorking.length > 0 ? (
+            <>
+              <h3 className={styles.sectionHeading}>{labels.ifNotWorkingTitle}</h3>
+              <ul className={styles.bulletList}>
+                {ifNotWorking.map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+          {important && important.length > 0 ? (
+            <>
+              <h3 className={styles.sectionHeading}>{labels.importantTitle}</h3>
+              <ul className={styles.bulletList}>
+                {important.map((line, i) => (
+                  <li key={i}>{line}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
         </div>
         <div className={styles.footer}>
           <button type="button" className={styles.closeAction} onClick={onClose}>

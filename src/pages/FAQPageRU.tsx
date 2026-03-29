@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { InstructionTextModal } from '../components/InstructionTextModal/InstructionTextModal'
-import { getInstructionSteps } from '../faq/thirdPartyInstructionSteps'
+import { getClientInstruction } from '../faq/thirdPartyInstructionSteps'
 import styles from './FAQPageRU.module.css'
 import { FAQPageHelmet } from './FAQPageHelmet'
 
@@ -32,6 +32,12 @@ type InstructionWarningPayload = {
   lines: string[]
 }
 
+type InstructionLabelsPayload = {
+  stepsTitle: string
+  ifNotWorkingTitle: string
+  importantTitle: string
+}
+
 type ThirdPartyAppsPayload = {
   heading: string
   disclaimer: string
@@ -42,6 +48,7 @@ type ThirdPartyAppsPayload = {
   btnOpenBot: string
   modalClose: string
   instructionWarning?: InstructionWarningPayload
+  instructionLabels?: InstructionLabelsPayload
   platforms: ThirdPartyPlatform[]
 }
 
@@ -62,7 +69,10 @@ export function FAQPageRU() {
   const [category, setCategory] = useState('all')
   const [instructionModal, setInstructionModal] = useState<{
     title: string
+    shortDescription: string
     steps: readonly string[]
+    ifNotWorking: readonly string[]
+    important: readonly string[]
     appUrl: string
   } | null>(null)
 
@@ -260,8 +270,8 @@ export function FAQPageRU() {
                                   {thirdPartyApps.btnDownload}
                                 </a>
                                 {(() => {
-                                  const steps = getInstructionSteps(app.instructionKey)
-                                  if (!steps?.length) return null
+                                  const inst = getClientInstruction(app.instructionKey)
+                                  if (!inst?.steps.length) return null
                                   return (
                                     <button
                                       type="button"
@@ -269,7 +279,10 @@ export function FAQPageRU() {
                                       onClick={() =>
                                         setInstructionModal({
                                           title: `${app.name} — ${app.subtitle}`,
-                                          steps,
+                                          shortDescription: inst.shortDescription,
+                                          steps: inst.steps,
+                                          ifNotWorking: inst.ifNotWorking,
+                                          important: inst.important,
                                           appUrl: app.downloadUrl,
                                         })
                                       }
@@ -297,7 +310,19 @@ export function FAQPageRU() {
           open
           onClose={() => setInstructionModal(null)}
           title={instructionModal.title}
+          shortDescription={instructionModal.shortDescription}
           steps={instructionModal.steps}
+          ifNotWorking={instructionModal.ifNotWorking}
+          important={instructionModal.important}
+          sectionLabels={
+            thirdPartyApps.instructionLabels
+              ? {
+                  stepsTitle: thirdPartyApps.instructionLabels.stepsTitle,
+                  ifNotWorkingTitle: thirdPartyApps.instructionLabels.ifNotWorkingTitle,
+                  importantTitle: thirdPartyApps.instructionLabels.importantTitle,
+                }
+              : undefined
+          }
           closeLabel={thirdPartyApps.modalClose}
           appUrl={instructionModal.appUrl}
           appUrlLabel={thirdPartyApps.btnOpenApp}

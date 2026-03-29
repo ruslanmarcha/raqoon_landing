@@ -1,6 +1,6 @@
 /** Google Analytics 4 — Consent Mode v2 + однократная загрузка gtag.js */
 
-export const GTAG_MEASUREMENT_ID = import.meta.env.VITE_GTAG_ID ?? 'G-D4B4KRP7S3'
+export const GTAG_MEASUREMENT_ID = import.meta.env.VITE_GTAG_ID ?? 'G-1S5CS8CFVZ'
 
 const STORAGE_KEY = 'raqoon_cookie_consent'
 

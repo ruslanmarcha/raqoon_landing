@@ -12,8 +12,7 @@ export type ClientInstruction = {
   important: readonly string[]
 }
 
-const SUPPORT_LINE =
-  'Если проблема не решается — напишите в поддержку: hello@raqoon.app или Telegram @raqoonbot.'
+const SUPPORT_LINE = 'Если проблема не решается — напишите в поддержку в Telegram: @raqoonbot.'
 
 /** Общий блок «Важно» про ключи (без «выдачи нового ключа»). */
 const keyPolicyImportant = (): readonly string[] => [

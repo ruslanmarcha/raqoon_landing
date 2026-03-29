@@ -34,7 +34,6 @@ export function FAQPageHelmet() {
           legalName: 'Qat Bilişim LTD.',
           url: origin,
           logo: absoluteUrl('/favicon-32x32.png'),
-          email: 'hello@raqoon.app',
           sameAs: ['https://t.me/raqoonbot'],
         },
         {

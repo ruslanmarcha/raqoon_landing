@@ -17,10 +17,10 @@ function applyDocumentLanguageDirection(locale: string) {
 
 async function bootstrap() {
   const supportedLngs = i18next.options.supportedLngs ?? ['en']
+  // Локаль и countryCode для сайта — только ipapi + raqoon_country (как до consent).
+  // /api/geo используется отдельно только для EU cookie banner, иначе Vercel IP ≠ реальная страна.
+  const localePolicy = await resolveLocalePolicy(supportedLngs as string[])
   const geoFlags = await fetchGeoConsentFlags()
-  const localePolicy = await resolveLocalePolicy(supportedLngs as string[], {
-    countryCodeOverride: geoFlags.countryCode,
-  })
 
   await i18next.changeLanguage(localePolicy.locale)
   applyDocumentLanguageDirection(i18next.language)

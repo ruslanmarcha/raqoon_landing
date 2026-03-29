@@ -165,15 +165,8 @@ function buildAllowedLanguages(
   )
 }
 
-export async function resolveLocalePolicy(
-  supportedLngs: string[],
-  options?: { countryCodeOverride?: string | null },
-): Promise<LocalePolicy> {
-  const override =
-    typeof options?.countryCodeOverride === 'string' && options.countryCodeOverride.trim() !== ''
-      ? options.countryCodeOverride.trim().toUpperCase()
-      : null
-  const countryCode = override ?? (await fetchVisitorCountryCode())
+export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
+  const countryCode = await fetchVisitorCountryCode()
 
   if (countryCode === 'RU') {
     const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'

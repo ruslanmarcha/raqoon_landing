@@ -7,8 +7,8 @@ export type GeoConsentFlags = {
 }
 
 /**
- * Предпочтительно: ответ бэкенда /api/geo (Vercel: IP → страна).
- * Иначе: тот же ipapi, что и для локали, + клиентская проверка EU/EEA.
+ * Только для Google Consent (EU/EEA): предпочтительно /api/geo по IP на edge.
+ * Не использовать для локали сайта — см. resolveLocalePolicy + fetchVisitorCountryCode.
  */
 export async function fetchGeoConsentFlags(): Promise<GeoConsentFlags> {
   if (import.meta.env.DEV && import.meta.env.VITE_DEV_FORCE_EU === '1') {

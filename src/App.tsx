@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
+import { ConsentCookieBanner } from './components/ConsentCookieBanner/ConsentCookieBanner'
 import { TurkeyAvailabilityNotice } from './components/TurkeyAvailabilityNotice/TurkeyAvailabilityNotice'
 
 const LandingRU = lazy(() => import('./pages/LandingRU').then((m) => ({ default: m.LandingRU })))
@@ -32,9 +33,10 @@ type AppProps = {
   allowLanguageSwitch: boolean
   countryCode: string | null
   allowedLanguages: string[]
+  isEUVisitor: boolean
 }
 
-export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppProps) {
+export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVisitor }: AppProps) {
   return (
     <HelmetProvider>
       <ComingSoonProvider>
@@ -42,6 +44,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppP
           allowLanguageSwitch={allowLanguageSwitch}
           countryCode={countryCode}
           allowedLanguages={allowedLanguages}
+          isEUVisitor={isEUVisitor}
         >
           <BrowserRouter>
             <Suspense fallback={<LoadingFallback />}>
@@ -60,6 +63,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages }: AppP
                   <Route path="/app" element={<FAQPageRU />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>
+                <ConsentCookieBanner />
                 <TurkeyAvailabilityNotice />
               </>
             </Suspense>

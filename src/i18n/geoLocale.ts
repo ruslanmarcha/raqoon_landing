@@ -101,7 +101,8 @@ function setCountryToStorage(countryCode: string): void {
   }
 }
 
-async function fetchCountryCode(): Promise<string | null> {
+/** Страна посетителя (ipapi + localStorage), для политики локали и consent. */
+export async function fetchVisitorCountryCode(): Promise<string | null> {
   const cachedCountry = getCountryFromStorage()
   if (cachedCountry) {
     return cachedCountry
@@ -164,8 +165,14 @@ function buildAllowedLanguages(
   )
 }
 
-export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
-  const countryCode = await fetchCountryCode()
+export async function resolveLocalePolicy(
+  supportedLngs: string[],
+  options?: { countryCodeOverride?: string | null },
+): Promise<LocalePolicy> {
+  const countryCode =
+    options?.countryCodeOverride !== undefined
+      ? options.countryCodeOverride
+      : await fetchVisitorCountryCode()
 
   if (countryCode === 'RU') {
     const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'

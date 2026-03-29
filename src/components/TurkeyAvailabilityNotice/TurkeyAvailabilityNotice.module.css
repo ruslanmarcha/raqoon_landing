@@ -26,6 +26,64 @@
   max-width: 290px;
 }
 
+.consentWithActions {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 14px;
+  min-height: auto;
+  padding-bottom: 16px;
+  z-index: 1002;
+}
+
+.consentText {
+  margin: 0;
+  color: #53ff76;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 290px;
+}
+
+.consentActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.consentBtn {
+  flex: 1 1 calc(50% - 4px);
+  min-width: 120px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.consentBtnPrimary {
+  border: 1px solid rgba(83, 255, 118, 0.45);
+  background: rgba(83, 255, 118, 0.18);
+  color: #53ff76;
+}
+
+.consentBtnPrimary:hover {
+  background: rgba(83, 255, 118, 0.26);
+}
+
+.consentBtnGhost {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.consentBtnGhost:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+}
+
 @media (max-width: 768px) {
   .notice {
     right: 12px;

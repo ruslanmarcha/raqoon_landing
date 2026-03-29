@@ -147,7 +147,11 @@
   "common": {
     "comingSoonMessage": "Мы наводим последние штрихи! Совсем скоро подписка станет доступна.",
     "comingSoonOk": "Жду с нетерпением",
-    "turkeyDownloadUnavailable": "К сожалению, Raqoon недоступен для скачивания на территории Турции."
+    "turkeyDownloadUnavailable": "К сожалению, Raqoon недоступен для скачивания на территории Турции.",
+    "cookieConsentMessage": "Мы используем файлы cookie и похожие технологии для аналитики и показа рекламы. Вы можете принять или отклонить несущественное хранение.",
+    "cookieConsentAccept": "Согласиться",
+    "cookieConsentReject": "Отказаться",
+    "cookieConsentBannerAria": "Согласие на cookie"
   },
 "downloadPage": {
     "heroTitle": "Никаких карт. Никакой почты. Только твоя безопасность.",

@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Consent Mode v2: default до загрузки gtag.js (см. src/analytics/googleTagConsent.ts) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+      });
+    </script>
     <meta
       name="description"
       content="Raqoon VPN — fast, privacy-focused VPN. Automatic protocol selection, priority support, apps on App Store and Google Play."

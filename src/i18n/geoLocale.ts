@@ -169,10 +169,11 @@ export async function resolveLocalePolicy(
   supportedLngs: string[],
   options?: { countryCodeOverride?: string | null },
 ): Promise<LocalePolicy> {
-  const countryCode =
-    options?.countryCodeOverride !== undefined
-      ? options.countryCodeOverride
-      : await fetchVisitorCountryCode()
+  const override =
+    typeof options?.countryCodeOverride === 'string' && options.countryCodeOverride.trim() !== ''
+      ? options.countryCodeOverride.trim().toUpperCase()
+      : null
+  const countryCode = override ?? (await fetchVisitorCountryCode())
 
   if (countryCode === 'RU') {
     const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'

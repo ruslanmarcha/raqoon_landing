@@ -19,9 +19,13 @@ export async function fetchGeoConsentFlags(): Promise<GeoConsentFlags> {
     const r = await fetch('/api/geo', { cache: 'no-store' })
     if (r.ok) {
       const j = (await r.json()) as { countryCode?: string | null; isEUUser?: boolean }
-      return {
-        countryCode: j.countryCode ? String(j.countryCode).toUpperCase() : null,
-        isEUUser: Boolean(j.isEUUser),
+      const code = j.countryCode ? String(j.countryCode).toUpperCase() : null
+      // Если edge ответил 200, но страну не определил — не блокируем старую логику (ipapi + raqoon_country).
+      if (code) {
+        return {
+          countryCode: code,
+          isEUUser: Boolean(j.isEUUser),
+        }
       }
     }
   } catch {

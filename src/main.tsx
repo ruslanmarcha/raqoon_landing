@@ -8,6 +8,13 @@ import { bootstrapGoogleTagForRegion } from './analytics/googleTagConsent'
 import { fetchGeoConsentFlags } from './i18n/fetchGeoConsentFlags'
 import { resolveLocalePolicy } from './i18n/geoLocale'
 
+type AppMountProps = {
+  allowLanguageSwitch: boolean
+  countryCode: string | null
+  allowedLanguages: string[]
+  isEUVisitor: boolean
+}
+
 function applyDocumentLanguageDirection(locale: string) {
   const normalized = locale.toLowerCase()
   const isArabic = normalized === 'ar' || normalized.startsWith('ar-')
@@ -15,29 +22,91 @@ function applyDocumentLanguageDirection(locale: string) {
   document.documentElement.dir = isArabic ? 'rtl' : 'ltr'
 }
 
-async function bootstrap() {
-  const supportedLngs = i18next.options.supportedLngs ?? ['en']
-  // Локаль и countryCode для сайта — только ipapi + raqoon_country (как до consent).
-  // /api/geo используется отдельно только для EU cookie banner, иначе Vercel IP ≠ реальная страна.
-  const localePolicy = await resolveLocalePolicy(supportedLngs as string[])
-  const geoFlags = await fetchGeoConsentFlags()
+let appMounted = false
 
-  await i18next.changeLanguage(localePolicy.locale)
-  applyDocumentLanguageDirection(i18next.language)
-  i18next.on('languageChanged', applyDocumentLanguageDirection)
-
-  await bootstrapGoogleTagForRegion({ isEUUser: geoFlags.isEUUser })
-
-  ReactDOM.createRoot(document.getElementById('root')!).render(
+function renderApp(rootEl: HTMLElement, props: AppMountProps) {
+  ReactDOM.createRoot(rootEl).render(
     <React.StrictMode>
       <App
-        allowLanguageSwitch={localePolicy.allowLanguageSwitch}
-        countryCode={localePolicy.countryCode}
-        allowedLanguages={localePolicy.allowedLanguages}
-        isEUVisitor={geoFlags.isEUUser}
+        allowLanguageSwitch={props.allowLanguageSwitch}
+        countryCode={props.countryCode}
+        allowedLanguages={props.allowedLanguages}
+        isEUVisitor={props.isEUVisitor}
       />
     </React.StrictMode>,
   )
+  appMounted = true
 }
 
-void bootstrap()
+function defaultMountProps(): AppMountProps {
+  const supportedLngs = (i18next.options.supportedLngs ?? ['en']) as string[]
+  return {
+    allowLanguageSwitch: true,
+    countryCode: null,
+    allowedLanguages: supportedLngs.filter((l: string) => l !== 'cimode'),
+    isEUVisitor: false,
+  }
+}
+
+async function bootstrap() {
+  const supportedLngs = (i18next.options.supportedLngs ?? ['en']) as string[]
+  const rootEl = document.getElementById('root')
+  if (!rootEl) return
+
+  let localePolicy: Awaited<ReturnType<typeof resolveLocalePolicy>>
+  let geoFlags: Awaited<ReturnType<typeof fetchGeoConsentFlags>>
+
+  try {
+    localePolicy = await resolveLocalePolicy(supportedLngs)
+    geoFlags = await fetchGeoConsentFlags()
+  } catch {
+    localePolicy = {
+      locale: 'en',
+      allowLanguageSwitch: true,
+      countryCode: null,
+      allowedLanguages: supportedLngs.filter((l: string) => l !== 'cimode'),
+    }
+    geoFlags = { countryCode: null, isEUUser: false }
+  }
+
+  try {
+    await i18next.changeLanguage(localePolicy.locale)
+  } catch {
+    await i18next.changeLanguage('en')
+  }
+  applyDocumentLanguageDirection(i18next.language)
+  i18next.on('languageChanged', applyDocumentLanguageDirection)
+
+  try {
+    await bootstrapGoogleTagForRegion({ isEUUser: geoFlags.isEUUser })
+  } catch {
+    // Analytics must not block first paint.
+  }
+
+  renderApp(rootEl, {
+    allowLanguageSwitch: localePolicy.allowLanguageSwitch,
+    countryCode: localePolicy.countryCode,
+    allowedLanguages: localePolicy.allowedLanguages,
+    isEUVisitor: geoFlags.isEUUser,
+  })
+}
+
+void bootstrap().catch((err) => {
+  console.error('[bootstrap]', err)
+  if (appMounted) return
+  const rootEl = document.getElementById('root')
+  if (!rootEl) return
+  void (async () => {
+    try {
+      await i18next.changeLanguage('en')
+    } catch {
+      /* ignore */
+    }
+    applyDocumentLanguageDirection(i18next.language)
+    try {
+      renderApp(rootEl, defaultMountProps())
+    } catch {
+      /* ignore */
+    }
+  })()
+})

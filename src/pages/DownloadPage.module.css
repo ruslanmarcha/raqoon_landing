@@ -385,7 +385,7 @@
 
   .featuresCard {
     padding: var(--space-5);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-xl);
   }
 
   .raccoonDecor {

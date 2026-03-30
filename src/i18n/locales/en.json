@@ -246,7 +246,7 @@
     "campaign": {
       "title": "Campaign period",
       "inline": "{{title}}. {{description}}",
-      "description": "The campaign is valid until December 31 of the current year and may be extended."
+      "description": "The campaign is valid until December 31, 2026 and may be extended."
     },
     "share": {
       "title": "Raqoon referral promo code",

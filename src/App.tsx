@@ -11,6 +11,7 @@ const LandingWW = lazy(() => import('./pages/LandingWW').then((m) => ({ default:
 const MigrationRU = lazy(() => import('./pages/MigrationRU').then((m) => ({ default: m.MigrationRU })))
 const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ default: m.AboutCompany })))
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
+const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
@@ -54,6 +55,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                   <Route path="/ww" element={<LandingWW />} />
                   <Route path="/migration" element={<MigrationRU />} />
                   <Route path="/download" element={<DownloadPage />} />
+                  <Route path="/referral" element={<ReferralPage />} />
                   <Route path="/about" element={<AboutCompany />} />
                   <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
                   <Route path="/terms" element={<LegalPage legalKey="terms" />} />

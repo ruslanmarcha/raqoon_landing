@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import styles from './Referral.module.css';
 
 export function Referral() {
@@ -30,9 +31,9 @@ export function Referral() {
               ))}
             </h2>
             <p className={styles.description}>{t('referral.description')}</p>
-            <button type="button" className={`btn ${styles.cta}`}>
+            <Link to="/referral" className={`btn ${styles.cta}`}>
               {t('referral.cta')}
-            </button>
+            </Link>
           </div>
         </div>
       </div>

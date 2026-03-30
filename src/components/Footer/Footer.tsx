@@ -20,6 +20,9 @@ export function Footer() {
               {t('footer.faq')}
             </Link>
           ) : null}
+          <Link to="/referral" className={styles.link}>
+            {t('footer.referral', { defaultValue: t('referral.cta') })}
+          </Link>
           <Link to="/about" className={styles.link}>
             {t('footer.about')}
           </Link>

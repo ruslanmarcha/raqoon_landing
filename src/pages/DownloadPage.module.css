@@ -10,24 +10,24 @@
 }
 
 .root :global(.section).sectionBlock {
-  padding-block: var(--space-8);
+  padding-block: var(--space-6);
 }
 
 @media (max-width: 768px) {
   .root :global(.section).sectionBlock {
-    padding-block: var(--space-6);
+    padding-block: var(--space-5);
   }
 }
 
 .root :global(.section).finalWrap {
-  padding-block: var(--space-8);
-  padding-bottom: var(--space-16);
+  padding-block: var(--space-6);
+  padding-bottom: var(--space-10);
 }
 
 @media (max-width: 768px) {
   .root :global(.section).finalWrap {
-    padding-block: var(--space-6);
-    padding-bottom: var(--space-12);
+    padding-block: var(--space-5);
+    padding-bottom: var(--space-8);
   }
 }
 
@@ -53,6 +53,7 @@
   max-width: 560px;
   height: 260px;
 }
+
 
 .mascotImg {
   width: 100%;
@@ -252,6 +253,29 @@
   opacity: 0.95;
 }
 
+.referralRewardCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.referralRewardContent {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.referralRewardDecor {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.95;
+}
+
 .eyesImg {
   display: block;
   max-width: min(280px, 55vw);
@@ -262,11 +286,39 @@
   position: relative;
   max-width: 600px;
   margin-inline: auto;
-  padding: var(--space-8) var(--space-6);
+  padding: var(--space-6);
   border-radius: var(--radius-xl);
   background: linear-gradient(145deg, #70ff6c1f 0%, rgba(112, 255, 108, 0.06) 100%);
   border: 1px solid rgba(83, 255, 118, 0.25);
   overflow: hidden;
+}
+
+.premiumSection + .premiumSection {
+  margin-top: var(--space-5);
+}
+
+.premiumSection .blockTitle {
+  margin-bottom: var(--space-4);
+  font-size: var(--text-2xl);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+  overflow-wrap: anywhere;
+}
+
+.premiumSection .prose + .prose {
+  margin-top: var(--space-3);
+}
+
+.premiumSection .prose {
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+}
+
+.premiumList {
+  margin-top: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
 }
 
 .premiumGlow {
@@ -291,27 +343,24 @@
 .finalCard {
   max-width: 600px;
   margin-inline: auto;
-  text-align: center;
-  padding: var(--space-10) var(--space-6);
+  padding: var(--space-6);
   border-radius: var(--radius-xl);
-  background: var(--color-surface);
+  background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
 }
 
-.finalTitle {
-  font-size: clamp(26px, 5vw, 34px);
-  font-weight: var(--font-medium);
-  line-height: 1.2;
-  letter-spacing: -0.02em;
-  margin-bottom: var(--space-4);
+.finalText {
+  margin: 0;
+  color: var(--color-text);
+  overflow-wrap: anywhere;
 }
 
-.finalLead {
-  font-size: 18px;
-  line-height: 1.55;
-  color: var(--color-text-secondary);
-  margin-bottom: var(--space-8);
+.finalCta {
+  align-self: center;
 }
 
 @media (max-width: 768px) {
@@ -343,6 +392,10 @@
     display: none;
   }
 
+  .referralRewardDecor {
+    display: none;
+  }
+
   .storyCard,
   .premiumCard {
     padding: var(--space-6) var(--space-5);
@@ -350,6 +403,6 @@
   }
 
   .finalCard {
-    padding: var(--space-8) var(--space-5);
+    padding: var(--space-5);
   }
 }

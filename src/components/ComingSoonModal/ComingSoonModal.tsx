@@ -8,17 +8,24 @@ interface ComingSoonModalProps {
 }
 
 export function ComingSoonModal({ open, onClose }: ComingSoonModalProps) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   const message = t('common.comingSoonMessage')
   const okLabel = t('common.comingSoonOk')
+  const isRu = i18n.language.startsWith('ru')
 
   return (
     <Popup open={open} onClose={onClose}>
       <p className={styles.message}>{message}</p>
-      <button type="button" className={`btn btn-primary ${styles.okBtn}`} onClick={onClose}>
-        {okLabel}
-      </button>
+      {isRu ? (
+        <a href="/faq" className={`btn btn-primary ${styles.okBtn}`} onClick={onClose}>
+          {okLabel}
+        </a>
+      ) : (
+        <button type="button" className={`btn btn-primary ${styles.okBtn}`} onClick={onClose}>
+          {okLabel}
+        </button>
+      )}
     </Popup>
   )
 }

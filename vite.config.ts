@@ -21,6 +21,16 @@ export default defineConfig(({ mode }) => {
   const siteUrl = (env.VITE_SITE_URL ?? '').replace(/\/$/, '')
 
   return {
+    server: {
+      host: true,
+      port: 5173,
+      strictPort: false,
+    },
+    preview: {
+      host: true,
+      port: 4173,
+      strictPort: false,
+    },
     build: {
       rollupOptions: {
         output: {

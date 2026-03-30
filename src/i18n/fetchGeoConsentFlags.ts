@@ -1,4 +1,5 @@
 import { isEUOrEEARegion } from '@/lib/euRegion'
+import { fetchWithTimeout } from '@/lib/fetchWithTimeout'
 import { fetchVisitorCountryCode } from './geoLocale'
 
 export type GeoConsentFlags = {
@@ -16,7 +17,7 @@ export async function fetchGeoConsentFlags(): Promise<GeoConsentFlags> {
   }
 
   try {
-    const r = await fetch('/api/geo', { cache: 'no-store' })
+    const r = await fetchWithTimeout('/api/geo', { cache: 'no-store' })
     if (r.ok) {
       const j = (await r.json()) as { countryCode?: string | null; isEUUser?: boolean }
       const code = j.countryCode ? String(j.countryCode).toUpperCase() : null

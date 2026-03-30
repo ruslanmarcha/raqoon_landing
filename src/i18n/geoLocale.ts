@@ -1,3 +1,5 @@
+import { fetchWithTimeout } from '@/lib/fetchWithTimeout'
+
 const LANGUAGE_STORAGE_KEY = 'raqoon_lang'
 const COUNTRY_STORAGE_KEY = 'raqoon_country'
 
@@ -109,7 +111,7 @@ export async function fetchVisitorCountryCode(): Promise<string | null> {
   }
 
   try {
-    const response = await fetch('https://ipapi.co/json/', { cache: 'no-store' })
+    const response = await fetchWithTimeout('https://ipapi.co/json/', { cache: 'no-store' })
     if (!response.ok) {
       return null
     }

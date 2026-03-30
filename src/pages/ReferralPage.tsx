@@ -133,6 +133,7 @@ export function ReferralPage() {
                     <div className={pricingStyles.cardHeader}>
                       <span className={pricingStyles.badge}>{t('referralPage.yourReward.title')}</span>
                     </div>
+                    <p className={styles.rewardIntro}>{t('referralPage.yourReward.description')}</p>
                     <FeatureList items={rightCardItems} className={pricingStyles.features} />
                   </div>
                   <div className={styles.referralRewardDecor} aria-hidden="true">

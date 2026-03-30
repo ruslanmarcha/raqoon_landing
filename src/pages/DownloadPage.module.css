@@ -266,6 +266,13 @@
   gap: var(--space-5);
 }
 
+.rewardIntro {
+  margin: 0;
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--color-text-secondary);
+}
+
 .referralRewardDecor {
   position: absolute;
   right: 0;

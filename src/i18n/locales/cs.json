@@ -209,6 +209,13 @@
     "description": "Vypadá to, že taková stránka neexistuje nebo byla přesunuta.",
     "cta": "Vrátit se na hlavní"
   },
+  "paymentOk": {
+    "badge": "Úspěch",
+    "title": "Platba proběhla úspěšně",
+    "description": "Děkujeme! Platba byla přijata. Přístup k Raqoon se brzy projeví.",
+    "ctaHome": "Zpět na hlavní",
+    "ctaDownload": "Stáhnout aplikaci"
+  },
   "footer": {
     "about": "O společnosti",
     "download": "Stáhnout",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "Neúspěch",
+    "title": "Platba se nezdařila",
+    "description": "Něco se pokazilo — platbu se nám nepodařilo potvrdit. Zkuste to prosím znovu za chvíli nebo zvolte jiný způsob platby.",
+    "ctaHome": "Zpět na hlavní",
+    "ctaFaq": "FAQ"
   }
 }

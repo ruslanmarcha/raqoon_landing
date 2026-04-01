@@ -209,6 +209,13 @@
     "description": "Sepertinya halaman tersebut tidak ada atau telah dipindahkan.",
     "cta": "Kembali ke beranda"
   },
+  "paymentOk": {
+    "badge": "Berhasil",
+    "title": "Pembayaran berhasil",
+    "description": "Terima kasih! Pembayaran Anda telah diterima. Akses Raqoon akan segera diperbarui.",
+    "ctaHome": "Kembali ke beranda",
+    "ctaDownload": "Unduh aplikasi"
+  },
   "footer": {
     "about": "Tentang perusahaan",
     "download": "Unduh",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "ID"
+  },
+  "paymentFail": {
+    "badge": "Gagal",
+    "title": "Pembayaran tidak berhasil",
+    "description": "Terjadi masalah dan kami tidak dapat mengonfirmasi pembayaran Anda. Coba lagi sebentar lagi atau gunakan metode pembayaran lain.",
+    "ctaHome": "Kembali ke beranda",
+    "ctaFaq": "FAQ"
   }
 }

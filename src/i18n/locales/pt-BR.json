@@ -209,6 +209,13 @@
     "description": "Parece que essa página não existe ou foi movida.",
     "cta": "Voltar para a página inicial"
   },
+  "paymentOk": {
+    "badge": "Sucesso",
+    "title": "Pagamento concluído",
+    "description": "Obrigado! Seu pagamento foi recebido. O acesso ao Raqoon será atualizado em breve.",
+    "ctaHome": "Voltar ao início",
+    "ctaDownload": "Baixar o app"
+  },
   "footer": {
     "about": "Sobre a empresa",
     "download": "Baixar",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "Sem sucesso",
+    "title": "Pagamento não concluído",
+    "description": "Algo deu errado e não foi possível confirmar seu pagamento. Tente novamente em instantes ou use outro método de pagamento.",
+    "ctaHome": "Voltar ao início",
+    "ctaFaq": "FAQ"
   }
 }

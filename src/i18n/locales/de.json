@@ -209,6 +209,13 @@
     "description": "Es scheint, als existiere diese Seite nicht oder sie wurde verschoben.",
     "cta": "Zurück zur Startseite"
   },
+  "paymentOk": {
+    "badge": "Erfolg",
+    "title": "Zahlung erfolgreich",
+    "description": "Danke! Die Zahlung ist eingegangen. Dein Raqoon-Zugang wird in Kürze aktualisiert.",
+    "ctaHome": "Zur Startseite",
+    "ctaDownload": "App herunterladen"
+  },
   "footer": {
     "about": "Über das Unternehmen",
     "download": "Herunterladen",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "DE"
+  },
+  "paymentFail": {
+    "badge": "Fehlgeschlagen",
+    "title": "Zahlung fehlgeschlagen",
+    "description": "Etwas ist schiefgelaufen — wir konnten die Zahlung nicht bestätigen. Bitte versuchen Sie es gleich erneut oder wählen Sie eine andere Zahlungsmethode.",
+    "ctaHome": "Zur Startseite",
+    "ctaFaq": "FAQ"
   }
 }

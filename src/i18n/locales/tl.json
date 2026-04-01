@@ -209,6 +209,13 @@
     "description": "Tila ang pahinang ito ay hindi umiiral o inilipat na.",
     "cta": "Bumalik sa home"
   },
+  "paymentOk": {
+    "badge": "Tagumpay",
+    "title": "Matagumpay ang bayad",
+    "description": "Salamat! Natanggap ang iyong bayad. Malapit nang ma-update ang iyong Raqoon access.",
+    "ctaHome": "Bumalik sa home",
+    "ctaDownload": "I-download ang app"
+  },
   "footer": {
     "about": "Tungkol sa kumpanya",
     "download": "I-download",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "Hindi natuloy",
+    "title": "Hindi natapos ang bayad",
+    "description": "May nangyaring mali at hindi namin matiyak ang bayad mo. Subukan muli mamaya o gumamit ng ibang paraan ng bayad.",
+    "ctaHome": "Bumalik sa home",
+    "ctaFaq": "FAQ"
   }
 }

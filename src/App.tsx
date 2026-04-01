@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
@@ -15,6 +15,23 @@ const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ de
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
+const PaymentOkPage = lazy(() =>
+  import('./pages/PaymentOkPage').then((m) => ({ default: m.PaymentOkPage }))
+)
+const PaymentFailPage = lazy(() =>
+  import('./pages/PaymentFailPage').then((m) => ({ default: m.PaymentFailPage }))
+)
+
+/** Сохраняем query (если платёжка дописала ?…), ведём на единую страницу успеха. */
+function RedirectToPaymentOk() {
+  const { search } = useLocation()
+  return <Navigate to={`/payment_ok${search}`} replace />
+}
+
+function RedirectToPaymentFail() {
+  const { search } = useLocation()
+  return <Navigate to={`/payment_fail${search}`} replace />
+}
 
 function LoadingFallback() {
   return (
@@ -63,6 +80,12 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                   <Route path="/refund" element={<LegalPage legalKey="refund" />} />
                   <Route path="/faq" element={<FAQPageRU />} />
                   <Route path="/app" element={<FAQPageRU />} />
+                  <Route path="/payment_ok" element={<PaymentOkPage />} />
+                  <Route path="/apple/payment_ok" element={<RedirectToPaymentOk />} />
+                  <Route path="/android/payment_ok" element={<RedirectToPaymentOk />} />
+                  <Route path="/payment_fail" element={<PaymentFailPage />} />
+                  <Route path="/apple/payment_fail" element={<RedirectToPaymentFail />} />
+                  <Route path="/android/payment_fail" element={<RedirectToPaymentFail />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Routes>
                 <ConsentCookieBanner />

@@ -153,7 +153,7 @@
     "cookieConsentReject": "Отказаться",
     "cookieConsentBannerAria": "Согласие на cookie"
   },
-"downloadPage": {
+  "downloadPage": {
     "heroTitle": "Никаких карт. Никакой почты. Только твоя безопасность.",
     "heroText": "Нажми кнопку — и ты под защитой. Мы не собираем твои данные, потому что нам не за чем за тобой следить.",
     "mythsTitle": "Разрушаем мифы о VPN",
@@ -168,7 +168,7 @@
       "Чистый интерфейс без лишних настроек",
       "Поддержка всех твоих устройств"
     ],
-"finalTitle": "Начни сейчас. Без регистрации и SMS. Только приватность.",
+    "finalTitle": "Начни сейчас. Без регистрации и SMS. Только приватность.",
     "finalText": "Присоединяйся к сообществу тех, кто выбирает интернет без слежки и ограничений.",
     "ctaHome": "На главную",
     "ctaPlans": "Выбрать тариф",
@@ -203,9 +203,18 @@
       "title": "Твоя награда",
       "description": "Чем больше друг оплачивает, тем больше бонусных дней ты получаешь.",
       "rows": [
-        { "period": "1–5 месяцев", "bonus": "+7 дней" },
-        { "period": "6–11 месяцев", "bonus": "+14 дней" },
-        { "period": "12+ месяцев", "bonus": "+30 дней" }
+        {
+          "period": "1–5 месяцев",
+          "bonus": "+7 дней"
+        },
+        {
+          "period": "6–11 месяцев",
+          "bonus": "+14 дней"
+        },
+        {
+          "period": "12+ месяцев",
+          "bonus": "+30 дней"
+        }
       ]
     },
     "accrual": {
@@ -289,12 +298,30 @@
     "searchEmpty": "Ничего не найдено — попробуйте другой запрос или откройте раздел ниже.",
     "intro": "Ниже — ответы об Raqoon: в первую очередь из описания сервиса и условий использования. Отдельно разобраны два способа подключения: официальное приложение и сторонние клиенты (когда это предусмотрено тарифом).",
     "categories": [
-      { "id": "all", "label": "Все разделы" },
-      { "id": "product", "label": "О продукте" },
-      { "id": "app", "label": "Приложение Raqoon" },
-      { "id": "thirdParty", "label": "Сторонние клиенты" },
-      { "id": "troubleshooting", "label": "Решение проблем" },
-      { "id": "legal", "label": "Правила и право" }
+      {
+        "id": "all",
+        "label": "Все разделы"
+      },
+      {
+        "id": "product",
+        "label": "О продукте"
+      },
+      {
+        "id": "app",
+        "label": "Приложение Raqoon"
+      },
+      {
+        "id": "thirdParty",
+        "label": "Сторонние клиенты"
+      },
+      {
+        "id": "troubleshooting",
+        "label": "Решение проблем"
+      },
+      {
+        "id": "legal",
+        "label": "Правила и право"
+      }
     ],
     "thirdPartyApps": {
       "heading": "Примеры клиентов для ручной настройки",
@@ -321,39 +348,144 @@
         {
           "title": "Apple",
           "apps": [
-            { "name": "Happ - Proxy Utility Plus", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатный клиент; в российском App Store обычно доступен. Поддерживает VLESS и импорт подписки или конфигурации по ссылке.", "downloadUrl": "https://apps.apple.com/app/id6746188973", "instructionKey": "happIos" },
-            { "name": "V2Box", "subtitle": "iOS, iPadOS, macOS", "description": "Бесплатное приложение; у разработчика может быть реклама. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.", "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690", "instructionKey": "v2boxIos" },
-            { "name": "Streisand", "subtitle": "iPhone, iPad, macOS", "description": "Бесплатное приложение. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.", "downloadUrl": "https://apps.apple.com/app/id6450534064", "instructionKey": "streisand" },
-            { "name": "XRay Connect", "subtitle": "iPhone, iPad", "description": "Бесплатный клиент на базе Xray; VLESS и импорт по ссылке/из буфера. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/xray-connect/id6746749546", "instructionKey": "xrayConnectIos" },
-            { "name": "Anywhere Proxy", "subtitle": "iPhone, iPad (iOS 17+)", "description": "Клиент под VLESS; импорт подписки из буфера обмена (Import URL from clipboard). Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/anywhere-proxy/id6758235178", "instructionKey": "anywhereIos" },
-            { "name": "V2Ray Client+", "subtitle": "iPhone, iPad", "description": "Клиент на v2ray/xray; VLESS Reality и импорт конфигурации. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/v2ray-client/id6747379524", "instructionKey": "v2rayClientPlusIos" },
-            { "name": "Fair VPN", "subtitle": "iPhone, iPad", "description": "Бесплатный клиент с поддержкой VLESS и импортом по ссылке. Доступность в российском App Store уточняйте по факту.", "downloadUrl": "https://apps.apple.com/ru/app/fair-vpn/id1533873488", "instructionKey": "fairVpnIos" },
-            { "name": "Hiddify", "subtitle": "macOS (Intel и Apple Silicon)", "description": "Бесплатное приложение.", "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg", "instructionKey": "hiddifyMacos" },
-            { "name": "Hiddify", "subtitle": "iPhone и iPad", "description": "Бесплатное приложение; в российском App Store может быть недоступно.", "downloadUrl": "https://apps.apple.com/app/id6596777532", "instructionKey": "hiddifyIos" },
-            { "name": "Shadowrocket", "subtitle": "iOS, iPadOS, macOS", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionKey": "shadowrocketIos" },
-            { "name": "Shadowrocket", "subtitle": "Apple TV", "description": "Платное приложение.", "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118", "instructionKey": "shadowrocketTv" }
+            {
+              "name": "Happ - Proxy Utility Plus",
+              "subtitle": "iOS, iPadOS, macOS",
+              "description": "Бесплатный клиент; в российском App Store обычно доступен. Поддерживает VLESS и импорт подписки или конфигурации по ссылке.",
+              "downloadUrl": "https://apps.apple.com/app/id6746188973",
+              "instructionKey": "happIos"
+            },
+            {
+              "name": "V2Box",
+              "subtitle": "iOS, iPadOS, macOS",
+              "description": "Бесплатное приложение; у разработчика может быть реклама. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.",
+              "downloadUrl": "https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690",
+              "instructionKey": "v2boxIos"
+            },
+            {
+              "name": "Streisand",
+              "subtitle": "iPhone, iPad, macOS",
+              "description": "Бесплатное приложение. В российском App Store сейчас часто недоступно — скачивайте с Apple ID другого региона или используйте альтернативу выше.",
+              "downloadUrl": "https://apps.apple.com/app/id6450534064",
+              "instructionKey": "streisand"
+            },
+            {
+              "name": "XRay Connect",
+              "subtitle": "iPhone, iPad",
+              "description": "Бесплатный клиент на базе Xray; VLESS и импорт по ссылке/из буфера. Доступность в российском App Store уточняйте по факту.",
+              "downloadUrl": "https://apps.apple.com/ru/app/xray-connect/id6746749546",
+              "instructionKey": "xrayConnectIos"
+            },
+            {
+              "name": "Anywhere Proxy",
+              "subtitle": "iPhone, iPad (iOS 17+)",
+              "description": "Клиент под VLESS; импорт подписки из буфера обмена (Import URL from clipboard). Доступность в российском App Store уточняйте по факту.",
+              "downloadUrl": "https://apps.apple.com/ru/app/anywhere-proxy/id6758235178",
+              "instructionKey": "anywhereIos"
+            },
+            {
+              "name": "V2Ray Client+",
+              "subtitle": "iPhone, iPad",
+              "description": "Клиент на v2ray/xray; VLESS Reality и импорт конфигурации. Доступность в российском App Store уточняйте по факту.",
+              "downloadUrl": "https://apps.apple.com/ru/app/v2ray-client/id6747379524",
+              "instructionKey": "v2rayClientPlusIos"
+            },
+            {
+              "name": "Fair VPN",
+              "subtitle": "iPhone, iPad",
+              "description": "Бесплатный клиент с поддержкой VLESS и импортом по ссылке. Доступность в российском App Store уточняйте по факту.",
+              "downloadUrl": "https://apps.apple.com/ru/app/fair-vpn/id1533873488",
+              "instructionKey": "fairVpnIos"
+            },
+            {
+              "name": "Hiddify",
+              "subtitle": "macOS (Intel и Apple Silicon)",
+              "description": "Бесплатное приложение.",
+              "downloadUrl": "https://github.com/hiddify/hiddify-next/releases/latest/download/Hiddify-MacOS.dmg",
+              "instructionKey": "hiddifyMacos"
+            },
+            {
+              "name": "Hiddify",
+              "subtitle": "iPhone и iPad",
+              "description": "Бесплатное приложение; в российском App Store может быть недоступно.",
+              "downloadUrl": "https://apps.apple.com/app/id6596777532",
+              "instructionKey": "hiddifyIos"
+            },
+            {
+              "name": "Shadowrocket",
+              "subtitle": "iOS, iPadOS, macOS",
+              "description": "Платное приложение.",
+              "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118",
+              "instructionKey": "shadowrocketIos"
+            },
+            {
+              "name": "Shadowrocket",
+              "subtitle": "Apple TV",
+              "description": "Платное приложение.",
+              "downloadUrl": "https://apps.apple.com/ru/app/shadowrocket/id932747118",
+              "instructionKey": "shadowrocketTv"
+            }
           ]
         },
         {
           "title": "Windows",
           "apps": [
-            { "name": "Hiddify", "subtitle": "Windows", "description": "Бесплатное приложение; страница проекта с инструкцией установки.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md", "instructionKey": "hiddifyWindows" },
-            { "name": "Nekoray", "subtitle": "Windows", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем.", "downloadUrl": "https://github.com/MatsuriDayo/nekoray/releases" }
+            {
+              "name": "Hiddify",
+              "subtitle": "Windows",
+              "description": "Бесплатное приложение; страница проекта с инструкцией установки.",
+              "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md",
+              "instructionKey": "hiddifyWindows"
+            },
+            {
+              "name": "Nekoray",
+              "subtitle": "Windows",
+              "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем.",
+              "downloadUrl": "https://github.com/MatsuriDayo/nekoray/releases"
+            }
           ]
         },
         {
           "title": "Android",
           "apps": [
-            { "name": "Hiddify", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=app.hiddify.com", "instructionKey": "hiddifyAndroid" },
-            { "name": "V2Box", "subtitle": "смартфон и планшет", "description": "Бесплатное приложение.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionKey": "v2boxAndroid" },
-            { "name": "V2Box", "subtitle": "Android TV", "description": "Настройка для телевизоров; уточняйте шаги у поддержки.", "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en", "instructionKey": "v2boxAndroidTv" },
-            { "name": "NekoBox", "subtitle": "смартфон и планшет", "description": "Альтернативный клиент; поддержка не гарантируется.", "downloadUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases" }
+            {
+              "name": "Hiddify",
+              "subtitle": "смартфон и планшет",
+              "description": "Бесплатное приложение.",
+              "downloadUrl": "https://play.google.com/store/apps/details?id=app.hiddify.com",
+              "instructionKey": "hiddifyAndroid"
+            },
+            {
+              "name": "V2Box",
+              "subtitle": "смартфон и планшет",
+              "description": "Бесплатное приложение.",
+              "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en",
+              "instructionKey": "v2boxAndroid"
+            },
+            {
+              "name": "V2Box",
+              "subtitle": "Android TV",
+              "description": "Настройка для телевизоров; уточняйте шаги у поддержки.",
+              "downloadUrl": "https://play.google.com/store/apps/details?id=dev.hexasoftware.v2box&hl=en",
+              "instructionKey": "v2boxAndroidTv"
+            },
+            {
+              "name": "NekoBox",
+              "subtitle": "смартфон и планшет",
+              "description": "Альтернативный клиент; поддержка не гарантируется.",
+              "downloadUrl": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases"
+            }
           ]
         },
         {
           "title": "Linux",
           "apps": [
-            { "name": "Hiddify", "subtitle": "Linux", "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем. Готовой пошаговой инструкции здесь нет — смотрите README проекта или напишите в поддержку.", "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md" }
+            {
+              "name": "Hiddify",
+              "subtitle": "Linux",
+              "description": "Сторонний клиент; глубокую поддержку по нему мы не гарантируем. Готовой пошаговой инструкции здесь нет — смотрите README проекта или напишите в поддержку.",
+              "downloadUrl": "https://github.com/hiddify/hiddify-app/blob/main/README_ru.md"
+            }
           ]
         }
       ]
@@ -484,6 +616,13 @@
     "description": "Похоже, такой страницы не существует или она была перемещена.",
     "cta": "Вернуться на главную"
   },
+  "paymentOk": {
+    "badge": "Готово",
+    "title": "Оплата прошла успешно",
+    "description": "Спасибо! Платёж принят. Доступ к Raqoon обновится в ближайшее время.",
+    "ctaHome": "На главную",
+    "ctaDownload": "Скачать приложение"
+  },
   "footer": {
     "faq": "FAQ",
     "referral": "Реферальная программа",
@@ -498,5 +637,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "Не прошла",
+    "title": "Оплата не прошла",
+    "description": "Что-то пошло не так — платёж не подтвердился. Попробуйте ещё раз чуть позже или выберите другой способ оплаты.",
+    "ctaHome": "На главную",
+    "ctaFaq": "FAQ"
   }
 }

@@ -206,6 +206,13 @@
     "description": "Görünüşe göre böyle bir sayfa mevcut değil veya taşınmış.",
     "cta": "Ana sayfaya dön"
   },
+  "paymentOk": {
+    "badge": "Başarılı",
+    "title": "Ödeme başarılı",
+    "description": "Teşekkürler! Ödemeniz alındı. Raqoon erişiminiz kısa süre içinde güncellenecek.",
+    "ctaHome": "Ana sayfaya dön",
+    "ctaDownload": "Uygulamayı indir"
+  },
   "footer": {
     "about": "Şirket hakkında",
     "download": "İndir",
@@ -218,5 +225,12 @@
   "lang": {
     "ru": "RU",
     "en": "TR"
+  },
+  "paymentFail": {
+    "badge": "Başarısız",
+    "title": "Ödeme tamamlanamadı",
+    "description": "Bir sorun oluştu ve ödemenizi onaylayamadık. Lütfen bir süre sonra tekrar deneyin veya başka bir ödeme yöntemi seçin.",
+    "ctaHome": "Ana sayfaya dön",
+    "ctaFaq": "SSS"
   }
 }

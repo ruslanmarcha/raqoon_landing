@@ -209,6 +209,13 @@
     "description": "该页面似乎不存在或已被移动。",
     "cta": "返回首页"
   },
+  "paymentOk": {
+    "badge": "成功",
+    "title": "支付成功",
+    "description": "谢谢！我们已收到您的付款。您的 Raqoon 访问权限将很快更新。",
+    "ctaHome": "返回首页",
+    "ctaDownload": "下载应用"
+  },
   "footer": {
     "about": "关于公司",
     "download": "下载",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "未成功",
+    "title": "支付未完成",
+    "description": "出现问题，我们无法确认您的支付。请稍后再试或更换支付方式。",
+    "ctaHome": "返回首页",
+    "ctaFaq": "常见问题"
   }
 }

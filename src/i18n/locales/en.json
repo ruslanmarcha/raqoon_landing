@@ -208,9 +208,18 @@
       "title": "Your reward",
       "description": "The more months your friend pays for, the more bonus days you get.",
       "rows": [
-        { "period": "1–5 months", "bonus": "+7 days" },
-        { "period": "6–11 months", "bonus": "+14 days" },
-        { "period": "12+ months", "bonus": "+30 days" }
+        {
+          "period": "1–5 months",
+          "bonus": "+7 days"
+        },
+        {
+          "period": "6–11 months",
+          "bonus": "+14 days"
+        },
+        {
+          "period": "12+ months",
+          "bonus": "+30 days"
+        }
       ]
     },
     "accrual": {
@@ -293,6 +302,13 @@
     "description": "It seems such a page does not exist or has been moved.",
     "cta": "Return to home"
   },
+  "paymentOk": {
+    "badge": "Success",
+    "title": "Payment successful",
+    "description": "Thank you! Your payment went through. Your Raqoon access will update shortly.",
+    "ctaHome": "Back to home",
+    "ctaDownload": "Download the app"
+  },
   "footer": {
     "referral": "Referral program",
     "about": "About the company",
@@ -306,5 +322,12 @@
   "lang": {
     "ru": "RU",
     "en": "EN"
+  },
+  "paymentFail": {
+    "badge": "Unsuccessful",
+    "title": "Payment didn't go through",
+    "description": "Something went wrong and we couldn't confirm your payment. Please try again in a moment or use another payment method.",
+    "ctaHome": "Back to home",
+    "ctaFaq": "FAQ"
   }
 }

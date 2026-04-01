@@ -209,6 +209,13 @@
     "description": "Wygląda na to, że taka strona nie istnieje lub została przeniesiona.",
     "cta": "Wróć na główną"
   },
+  "paymentOk": {
+    "badge": "Sukces",
+    "title": "Płatność zakończona pomyślnie",
+    "description": "Dziękujemy! Płatność została przyjęta. Dostęp do Raqoon wkrótce się zaktualizuje.",
+    "ctaHome": "Strona główna",
+    "ctaDownload": "Pobierz aplikację"
+  },
   "footer": {
     "about": "O firmie",
     "download": "Pobierz",
@@ -221,5 +228,12 @@
   "lang": {
     "ru": "RU",
     "en": "PL"
+  },
+  "paymentFail": {
+    "badge": "Nieudane",
+    "title": "Płatność nie powiodła się",
+    "description": "Coś poszło nie tak — nie mogliśmy potwierdzić płatności. Spróbuj ponownie za chwilę lub wybierz inną metodę płatności.",
+    "ctaHome": "Strona główna",
+    "ctaFaq": "FAQ"
   }
 }

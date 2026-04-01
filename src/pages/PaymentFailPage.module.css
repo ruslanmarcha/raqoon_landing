@@ -1,0 +1,105 @@
+.root {
+  min-height: 100vh;
+  background: #000000;
+}
+
+.main {
+  min-height: calc(100vh - 44px);
+  display: flex;
+  align-items: center;
+  padding-block: var(--space-8);
+  background: #000000;
+}
+
+.card {
+  max-width: 480px;
+  margin-inline: auto;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 32px 24px 28px;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 560px;
+  }
+}
+
+.mascotWrap {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mascot {
+  width: 180px;
+  height: auto;
+  max-height: 190px;
+  object-fit: contain;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #ffb84d;
+  background: rgba(255, 184, 77, 0.12);
+  border: 1px solid rgba(255, 184, 77, 0.28);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: var(--font-medium);
+  margin: 0 0 12px;
+}
+
+.description {
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffffcc;
+  margin: 0 0 24px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .actions {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 520px;
+    margin-inline: auto;
+  }
+
+  .actions :global(.btn) {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 260px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}

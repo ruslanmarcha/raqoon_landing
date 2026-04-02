@@ -31,7 +31,7 @@ export function FAQPageHelmet() {
         {
           '@type': 'Organization',
           name: 'Raqoon',
-          legalName: 'Qat Bilişim LTD.',
+          legalName: 'Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.',
           url: origin,
           logo: absoluteUrl('/favicon-32x32.png'),
           sameAs: ['https://t.me/raqoonbot'],

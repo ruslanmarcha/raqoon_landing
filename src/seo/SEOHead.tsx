@@ -114,7 +114,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }:
         {
           '@type': 'Organization',
           name: 'Raqoon',
-          legalName: 'Qat Bilişim LTD.',
+          legalName: 'Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.',
           url: origin,
           logo: absoluteUrl('/favicon-32x32.png'),
           email: 'hello@raqoon.app',
@@ -134,7 +134,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }:
           operatingSystem: 'iOS, Android, macOS',
           url: absoluteUrl('/download'),
           downloadUrl: absoluteUrl('/download'),
-          publisher: { '@type': 'Organization', name: 'Qat Bilişim LTD.', url: origin },
+          publisher: { '@type': 'Organization', name: 'Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.', url: origin },
         },
       ],
     })

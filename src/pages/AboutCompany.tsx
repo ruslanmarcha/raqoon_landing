@@ -6,7 +6,7 @@ import { SEOHead } from '../seo/SEOHead'
 import styles from './AboutCompany.module.css'
 
 const OFFICE_MAP_EMBED_URL =
-  'https://yandex.com/map-widget/v1/?text=Ulus%20Giri%C5%9Fim%20Ofisi%20(Kulu%C3%A7ka%20Merkezi)%2C%20Hac%C4%B1%20Bayram%20Mah.%2C%20Sanayi%20Cad.%2C%20B%20Blok%2C%20Kat%3A2%2C%20No%3A4%2F211%2C%2006050%20Alt%C4%B1nda%C4%9F%2FAnkara%2C%20T%C3%BCrkiye&z=16'
+  'https://yandex.com/map-widget/v1/?text=Ankara%20Teknoloji%20K%C3%B6pr%C3%BCs%C3%BC%20Kulu%C3%A7ka%20Merkezi%2C%20%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16'
 
 export function AboutCompany() {
   const { t, i18n } = useTranslation()

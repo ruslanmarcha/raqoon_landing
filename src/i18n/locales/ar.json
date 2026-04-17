@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — وصولك الموثوق إلى الشبكة",
     "downloadOgDescriptionWW": "نزل Raqoon VPN: أمّن بياناتك بضغطة واحدة. نحن لا نجمع البيانات — نحن نحمي الخصوصية.",
     "aboutTitleWW": "عن الشركة — Raqoon VPN",
-    "aboutDescriptionWW": "تطوير Raqoon VPN بواسطة Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. مكتب في أنقرة، تركيا. الدعم: hello@raqoon.app.",
+    "aboutDescriptionWW": "تطوير Raqoon VPN بواسطة Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. مكتب في أنقرة، تركيا. الدعم: help@raqoon.app.",
     "privacyTitleWW": "سياسة الخصوصية — Raqoon VPN",
     "privacyDescriptionWW": "سياسة خصوصية Raqoon VPN: لا سجلات نشاط، لا تحليل لمحتوى البيانات، حماية الدفع والبيانات.",
     "termsTitleWW": "اتفاقية المستخدم — Raqoon VPN",
     "termsDescriptionWW": "العرض العام وشروط استخدام Raqoon VPN: الاشتراك، قواعد الاستخدام، والمسؤولية.",
     "contactTitleWW": "اتصل بنا — Raqoon VPN",
-    "contactDescriptionWW": "تواصل مع دعم Raqoon: الفواتير، الوصول، والمسائل التقنية. البريد: hello@raqoon.app.",
+    "contactDescriptionWW": "تواصل مع دعم Raqoon: الفواتير، الوصول، والمسائل التقنية. البريد: help@raqoon.app.",
     "refundTitleWW": "سياسة الاسترداد — Raqoon VPN",
-    "refundDescriptionWW": "عمليات الاسترداد عبر App Store تخضع لقواعد Apple. للاستفسارات: hello@raqoon.app.",
+    "refundDescriptionWW": "عمليات الاسترداد عبر App Store تخضع لقواعد Apple. للاستفسارات: help@raqoon.app.",
     "migrationTitleRU": "الانتقال من IZI إلى Raqoon — التعليمات",
-    "migrationDescriptionRU": "الانتقال من IZI VPN إلى Raqoon: اتصل بـ @raqoonbot على تلجرام وانتقل إلى الخدمة الجديدة."
+    "migrationDescriptionRU": "الانتقال من IZI VPN إلى Raqoon: اتصل بـ @raqoonbot على تلجرام وانتقل إلى الخدمة الجديدة.",
+    "referralTitleWW": "برنامج الإحالة — Raqoon VPN",
+    "referralDescriptionWW": "ادعُ الأصدقاء، شارِك رمز العرض، واحصل على أيام مكافأة عند اشتراكهم.",
+    "referralOgTitleWW": "إحالة Raqoon — أيام مكافأة للدعوات",
+    "referralOgDescriptionWW": "احصل على الرمز من البوت أو التطبيق، شارِكه، واحصل على حتى 30 يومًا مكافأة."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "قريباً على Google Play",
     "badgeAriaMacAppStore": "قريباً على Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "ادعُ الأصدقاء — حتى 30 يومًا مجانًا",
+        "شارِك الوصول — احصل على أيام مكافأة",
+        "أحضر أصدقاء واحصل على اشتراك مجاني"
+      ],
+      "subtitle": "شارِك رمز العرض واحصل على أيام مكافأة عند دفع أصدقائك.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "steps": [
+        "احصل على رمز العرض في بوت تيليجرام أو في التطبيق.",
+        "أرسل الرمز لصديق.",
+        "يدفع الصديق الاشتراك.",
+        "تحصل على أيام مكافأة."
+      ]
+    },
+    "friendBonus": {
+      "title": "مكافأة الصديق",
+      "description": "يحصل صديقك على +10 أيام مجانية بعد دفع الشهر الأول."
+    },
+    "yourReward": {
+      "title": "مكافأتك",
+      "description": "كلما دفع الصديق لفترة أطول، زادت أيام المكافأة.",
+      "rows": [
+        {
+          "period": "1–5 أشهر",
+          "bonus": "+7 أيام"
+        },
+        {
+          "period": "6–11 شهرًا",
+          "bonus": "+14 يومًا"
+        },
+        {
+          "period": "12+ شهرًا",
+          "bonus": "+30 يومًا"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "شرط الإضافة",
+      "description": "تُضاف المكافأة فقط إذا كان لديك اشتراك نشط."
+    },
+    "timing": {
+      "title": "وقت الإضافة",
+      "description": "تظهر المكافأة عادةً فورًا. أقصى مدة حتى 7 أيام."
+    },
+    "limits": {
+      "title": "قيود",
+      "items": [
+        "لا يمكن سحب أيام المكافأة أو استبدالها بالمال.",
+        "لا تجمع رموز العروض مع عروض أخرى.",
+        "رمز العرض صالح للدفعة الأولى فقط."
+      ]
+    },
+    "important": {
+      "title": "مهم",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "رموز العروض القديمة لم تعد تعمل.",
+      "useNew": "استخدم رمز عرض جديد من:",
+      "sources": [
+        "بوت تيليجرام Raqoon.",
+        "تطبيق Raqoon للجوال."
+      ]
+    },
+    "reuse": {
+      "title": "إعادة استخدام الرمز",
+      "description": "إذا لم يكتمل الدفع أو أُلغي، لا يمكن استخدام الرمز مرة أخرى."
+    },
+    "campaign": {
+      "title": "فترة الحملة",
+      "inline": "{{title}}. {{description}}",
+      "description": "الحملة سارية حتى 31 ديسمبر 2026 ويمكن تمديدها."
+    },
+    "share": {
+      "title": "رمز إحالة Raqoon",
+      "text": "انضم برمزي:"
+    },
+    "micro": {
+      "copyPromo": "نسخ رمز العرض",
+      "getPromo": "احصل على رمز العرض",
+      "share": "مشاركة",
+      "copySuccess": "تم نسخ الرمز",
+      "applyError": "تعذر تطبيق الرمز. حاول لاحقًا أو تواصل مع الدعم."
+    }
+  },
   "about": {
     "title": "عن الشركة",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "البريد:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "معلومات أساسية",
     "keyPointsBody": "تضمن Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. تطوير ودعم خدمات Raqoon الرقمية. نولي الأولوية لشفافية العمليات، حماية البيانات الشخصية، وجودة خدمة العملاء. تعمل الشركة وفقاً للمتطلبات القانونية المعمول بها ومعايير الأمن الداخلية.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "اتصل بنا",
-      "body": "لجميع الأسئلة المتعلقة بعمل الخدمة، الوصول، الدفع والدعم، راسلنا على hello@raqoon.app. نحاول الرد بأسرع ما يمكن."
+      "body": "لجميع الأسئلة المتعلقة بعمل الخدمة، الوصول، الدفع والدعم، راسلنا على help@raqoon.app. نحاول الرد بأسرع ما يمكن."
     },
     "refund": {
       "title": "سياسة الاسترداد",
-      "body": "سياسة الاسترداد\nتاريخ النفاذ: ١ مارس ٢٠٢٦\n\n١. إذا تم الاشتراك عبر App Store، فإن عمليات الاسترداد وإلغاء الاشتراك تخضع لقواعد المتجر.\n\n٢. للمشتريات خارج App Store، ووفقاً للمادة 15(ğ) من «لائحة العقود عن بعد» (Mesafeli Sözleşmeler Yönetmeliği)، الخدمة غير قابلة للاسترداد أو الاستبدال.\n\n٣. لمسائل الدفع: hello@raqoon.app."
+      "body": "سياسة الاسترداد\nتاريخ النفاذ: ١ مارس ٢٠٢٦\n\n١. إذا تم الاشتراك عبر App Store، فإن عمليات الاسترداد وإلغاء الاشتراك تخضع لقواعد المتجر.\n\n٢. للمشتريات خارج App Store، ووفقاً للمادة 15(ğ) من «لائحة العقود عن بعد» (Mesafeli Sözleşmeler Yönetmeliği)، الخدمة غير قابلة للاسترداد أو الاستبدال.\n\n٣. لمسائل الدفع: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "شروط الاستخدام",
     "contact": "اتصل بنا",
     "refund": "سياسة الاسترداد",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "برنامج الإحالة"
   },
   "lang": {
     "ru": "RU",

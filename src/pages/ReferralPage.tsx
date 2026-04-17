@@ -86,7 +86,7 @@ export function ReferralPage() {
 
   return (
     <>
-      <SEOHead variant={variant} page="download" />
+      <SEOHead variant={variant} page="referral" />
       <Header />
       <main className={styles.root}>
         <section className={styles.hero}>

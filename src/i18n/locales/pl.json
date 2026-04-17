@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Twój niezawodny dostęp do sieci",
     "downloadOgDescriptionWW": "Pobierz Raqoon VPN: zabezpiecz swój ruch jednym kliknięciem. Nie zbieramy danych — chronimy prywatność.",
     "aboutTitleWW": "O firmie — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. tworzy Raqoon VPN. Biuro w Ankarze, Turcja. Wsparcie: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. tworzy Raqoon VPN. Biuro w Ankarze, Turcja. Wsparcie: help@raqoon.app.",
     "privacyTitleWW": "Polityka prywatności — Raqoon VPN",
     "privacyDescriptionWW": "Polityka prywatności Raqoon VPN: brak logów aktywności, brak analizy treści ruchu, płatności i ochrona danych.",
     "termsTitleWW": "Regulamin użytkownika — Raqoon VPN",
     "termsDescriptionWW": "Oferta publiczna i warunki korzystania z Raqoon VPN: subskrypcja, zasady użytkowania, odpowiedzialność.",
     "contactTitleWW": "Kontakt — Raqoon VPN",
-    "contactDescriptionWW": "Kontakt ze wsparciem Raqoon: billing, dostęp, kwestie techniczne. Email: hello@raqoon.app.",
+    "contactDescriptionWW": "Kontakt ze wsparciem Raqoon: billing, dostęp, kwestie techniczne. Email: help@raqoon.app.",
     "refundTitleWW": "Polityka zwrotów — Raqoon VPN",
-    "refundDescriptionWW": "Zwroty za subskrypcje w App Store — zgodnie z zasadami Apple. Pytania o płatności: hello@raqoon.app.",
+    "refundDescriptionWW": "Zwroty za subskrypcje w App Store — zgodnie z zasadami Apple. Pytania o płatności: help@raqoon.app.",
     "migrationTitleRU": "Przenosiny z IZI do Raqoon — instrukcja",
-    "migrationDescriptionRU": "Przenosiny z IZI VPN do Raqoon: połączenie z @raqoonbot na Telegramie i migracja do nowej usługi."
+    "migrationDescriptionRU": "Przenosiny z IZI VPN do Raqoon: połączenie z @raqoonbot na Telegramie i migracja do nowej usługi.",
+    "referralTitleWW": "Program polecający — Raqoon VPN",
+    "referralDescriptionWW": "Zapraszaj znajomych, udostępniaj kod promocyjny i zdobywaj bonusowe dni przy ich subskrypcji.",
+    "referralOgTitleWW": "Polecenia Raqoon — bonusowe dni za zaproszenia",
+    "referralOgDescriptionWW": "Weź kod w bocie lub aplikacji, udostępnij go i otrzymaj do 30 bonusowych dni."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Wkrótce w Google Play",
     "badgeAriaMacAppStore": "Wkrótce w Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Zapraszaj znajomych — do 30 dni za darmo",
+        "Udostępnij dostęp — zdobądź bonusowe dni",
+        "Przyciągnij znajomych i zyskaj darmową subskrypcję"
+      ],
+      "subtitle": "Udostępnij kod promocyjny i zdobądź bonusowe dni, gdy znajomi zapłacą.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "Jak to działa",
+      "steps": [
+        "Weź kod promocyjny w bocie Telegram lub w aplikacji.",
+        "Wyślij kod znajomemu.",
+        "Znajomy opłaca subskrypcję.",
+        "Ty otrzymujesz bonusowe dni."
+      ]
+    },
+    "friendBonus": {
+      "title": "Bonus dla znajomego",
+      "description": "Znajomy dostaje +10 dni gratis po opłaceniu pierwszego miesiąca."
+    },
+    "yourReward": {
+      "title": "Twoja nagroda",
+      "description": "Im dłużej znajomy płaci, tym więcej bonusowych dni otrzymujesz.",
+      "rows": [
+        {
+          "period": "1–5 mies.",
+          "bonus": "+7 dni"
+        },
+        {
+          "period": "6–11 mies.",
+          "bonus": "+14 dni"
+        },
+        {
+          "period": "12+ mies.",
+          "bonus": "+30 dni"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Warunek naliczenia",
+      "description": "Bonus jest naliczany tylko przy aktywnej subskrypcji."
+    },
+    "timing": {
+      "title": "Czas naliczenia",
+      "description": "Bonus zwykle pojawia się od razu. Maksymalnie do 7 dni."
+    },
+    "limits": {
+      "title": "Ograniczenia",
+      "items": [
+        "Bonusowych dni nie można wypłacić ani wymienić na pieniądze.",
+        "Kody promocyjne nie łączą się z innymi promocjami.",
+        "Kod działa tylko przy pierwszej płatności."
+      ]
+    },
+    "important": {
+      "title": "Ważne",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Stare kody promocyjne nie działają.",
+      "useNew": "Użyj nowego kodu z:",
+      "sources": [
+        "Bota Telegram Raqoon.",
+        "Aplikacji mobilnej Raqoon."
+      ]
+    },
+    "reuse": {
+      "title": "Ponowne użycie kodu",
+      "description": "Jeśli płatność nie zostanie dokończona lub zostanie anulowana, kodu nie można użyć ponownie."
+    },
+    "campaign": {
+      "title": "Okres kampanii",
+      "inline": "{{title}}. {{description}}",
+      "description": "Kampania obowiązuje do 31 grudnia 2026 r. i może zostać przedłużona."
+    },
+    "share": {
+      "title": "Kod polecający Raqoon",
+      "text": "Dołącz moim kodem:"
+    },
+    "micro": {
+      "copyPromo": "Kopiuj kod",
+      "getPromo": "Weź kod promocyjny",
+      "share": "Udostępnij",
+      "copySuccess": "Skopiowano kod",
+      "applyError": "Nie udało się zastosować kodu. Spróbuj później lub napisz do wsparcia."
+    }
+  },
   "about": {
     "title": "O firmie",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Turcja",
     "emailLabel": "E-mail:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Kluczowe informacje",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. zapewnia rozwój i wsparcie usług cyfrowych Raqoon. Priorytetowo traktujemy przejrzystość procesów, ochronę danych osobowych oraz jakość obsługi klienta. Firma działa zgodnie z obowiązującymi wymogami prawnymi i wewnętrznymi standardami bezpieczeństwa.",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "Kontakt",
-      "body": "We wszystkich sprawach związanych z działaniem serwisu, dostępem, płatnościami i wsparciem, napisz do nas na hello@raqoon.app. Staramy się odpowiadać maksymalnie sprawnie."
+      "body": "We wszystkich sprawach związanych z działaniem serwisu, dostępem, płatnościami i wsparciem, napisz do nas na help@raqoon.app. Staramy się odpowiadać maksymalnie sprawnie."
     },
     "refund": {
       "title": "Polityka zwrotu",
-      "body": "Polityka zwrotu\nData wejścia w życie: 1 marca 2026 r.\n\n1. Jeśli subskrypcja została wykupiona przez App Store, zwrot środków pieniężnych, anulowanie subskrypcji i inne powiązane kwestie podlegają zasadom App Store.\n\n2. Jeśli zakup został dokonany nie przez App Store, to zgodnie z art. 15(ğ) „Rozporządzenia o umowach zawieranych na odległość” (Mesafeli Sözleşmeler Yönetmeliği) usługa nie podlega zwrotowi ani wymianie.\n\n3. W sprawach płatności możesz skontaktować się ze wsparciem: hello@raqoon.app."
+      "body": "Polityka zwrotu\nData wejścia w życie: 1 marca 2026 r.\n\n1. Jeśli subskrypcja została wykupiona przez App Store, zwrot środków pieniężnych, anulowanie subskrypcji i inne powiązane kwestie podlegają zasadom App Store.\n\n2. Jeśli zakup został dokonany nie przez App Store, to zgodnie z art. 15(ğ) „Rozporządzenia o umowach zawieranych na odległość” (Mesafeli Sözleşmeler Yönetmeliği) usługa nie podlega zwrotowi ani wymianie.\n\n3. W sprawach płatności możesz skontaktować się ze wsparciem: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "Warunki korzystania",
     "contact": "Kontakt",
     "refund": "Polityka zwrotu",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Program polecający"
   },
   "lang": {
     "ru": "RU",

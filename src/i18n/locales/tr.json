@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Ağdaki güvenilir erişimin",
     "downloadOgDescriptionWW": "Raqoon VPN indir: Tek tıkla trafiğinin güvenliğini sağla. Veri toplamıyoruz — gizliliği koruyoruz.",
     "aboutTitleWW": "Şirket hakkında — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Raqoon VPN'i geliştiriyor. Ofis Ankara, Türkiye'de. Destek: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Raqoon VPN'i geliştiriyor. Ofis Ankara, Türkiye'de. Destek: help@raqoon.app.",
     "privacyTitleWW": "Gizlilik Politikası — Raqoon VPN",
     "privacyDescriptionWW": "Raqoon VPN Gizlilik Politikası: Etkinlik günlüğü yok, trafik içeriği analizi yok, ödeme ve veri koruması.",
     "termsTitleWW": "Kullanıcı Sözleşmesi — Raqoon VPN",
     "termsDescriptionWW": "Raqoon VPN Kamu teklifi ve kullanım koşulları: Abonelik, kullanım kuralları, sorumluluklar.",
     "contactTitleWW": "İletişim — Raqoon VPN",
-    "contactDescriptionWW": "Raqoon destek ekibiyle iletişime geç: Faturalandırma, erişim, teknik sorular. E-posta: hello@raqoon.app.",
+    "contactDescriptionWW": "Raqoon destek ekibiyle iletişime geç: Faturalandırma, erişim, teknik sorular. E-posta: help@raqoon.app.",
     "refundTitleWW": "İade Politikası — Raqoon VPN",
-    "refundDescriptionWW": "App Store abonelik iadeleri Apple kurallarına göredir. Ödeme soruları: hello@raqoon.app.",
+    "refundDescriptionWW": "App Store abonelik iadeleri Apple kurallarına göredir. Ödeme soruları: help@raqoon.app.",
     "migrationTitleRU": "IZI'den Raqoon'a geçiş — Talimatlar",
-    "migrationDescriptionRU": "IZI VPN'den Raqoon'a geç: Telegram'daki @raqoonbot'a bağlan ve yeni servise taşın."
+    "migrationDescriptionRU": "IZI VPN'den Raqoon'a geç: Telegram'daki @raqoonbot'a bağlan ve yeni servise taşın.",
+    "referralTitleWW": "Referans programı — Raqoon VPN",
+    "referralDescriptionWW": "Arkadaşlarını davet et, promosyon kodunu paylaş ve aboneliklerinde bonus günler kazan.",
+    "referralOgTitleWW": "Raqoon referans — davetlerle bonus günler",
+    "referralOgDescriptionWW": "Kodu bot veya uygulamada al, arkadaşınla paylaş, 30 güne kadar bonus gün kazan."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -173,12 +177,100 @@
     "badgeAriaGooglePlay": "Yakında Google Play'de",
     "badgeAriaMacAppStore": "Yakında Mac App Store'da"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Arkadaşlarını davet et — 30 güne kadar ücretsiz",
+        "Erişimi paylaş — bonus günler kazan",
+        "Arkadaş getir, ücretsiz abonelik kazan"
+      ],
+      "subtitle": "Promosyon kodunu paylaş ve arkadaşların ödediğinde bonus günler kazan.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "Nasıl çalışır",
+      "steps": [
+        "Promosyon kodunu Telegram botunda veya uygulamada al.",
+        "Kodu bir arkadaşına gönder.",
+        "Arkadaşın abonelik ödemesi yapar.",
+        "Sen bonus günleri kazanırsın."
+      ]
+    },
+    "friendBonus": {
+      "title": "Arkadaş bonusu",
+      "description": "Arkadaşın ilk ayı ödedikten sonra +10 ücretsiz gün kazanır."
+    },
+    "yourReward": {
+      "title": "Senin ödülün",
+      "description": "Arkadaşın ne kadar uzun süre ödeme yaparsa, o kadar çok bonus gün kazanırsın.",
+      "rows": [
+        {
+          "period": "1–5 ay",
+          "bonus": "+7 gün"
+        },
+        {
+          "period": "6–11 ay",
+          "bonus": "+14 gün"
+        },
+        {
+          "period": "12+ ay",
+          "bonus": "+30 gün"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Yükleme koşulu",
+      "description": "Bonus yalnızca aktif bir aboneliğin varsa yüklenir."
+    },
+    "timing": {
+      "title": "Yükleme süresi",
+      "description": "Bonus genelde hemen görünür. En fazla 7 güne kadar sürebilir."
+    },
+    "limits": {
+      "title": "Kısıtlamalar",
+      "items": [
+        "Bonus günler nakde çevrilemez veya parayla değiştirilemez.",
+        "Promosyon kodları diğer kampanyalarla birleştirilemez.",
+        "Promosyon kodu yalnızca ilk ödemede geçerlidir."
+      ]
+    },
+    "important": {
+      "title": "Önemli",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Eski promosyon kodları artık geçerli değil.",
+      "useNew": "Yeni promosyon kodunu şuradan kullan:",
+      "sources": [
+        "Raqoon Telegram botu.",
+        "Raqoon mobil uygulaması."
+      ]
+    },
+    "reuse": {
+      "title": "Promosyon kodunun tekrar kullanımı",
+      "description": "Ödeme tamamlanmazsa veya iptal edilirse promosyon kodu tekrar kullanılamaz."
+    },
+    "campaign": {
+      "title": "Kampanya süresi",
+      "inline": "{{title}}. {{description}}",
+      "description": "Kampanya 31 Aralık 2026 tarihine kadar geçerlidir ve uzatılabilir."
+    },
+    "share": {
+      "title": "Raqoon referans promosyon kodu",
+      "text": "Promosyon kodumla katıl:"
+    },
+    "micro": {
+      "copyPromo": "Promosyon kodunu kopyala",
+      "getPromo": "Promosyon kodu al",
+      "share": "Paylaş",
+      "copySuccess": "Promosyon kodu kopyalandı",
+      "applyError": "Promosyon kodu uygulanamadı. Daha sonra tekrar dene veya destekle iletişime geç."
+    }
+  },
   "about": {
     "title": "Şirket hakkında",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "E-posta:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Temel bilgiler",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Raqoon dijital hizmetlerinin gelişimini ve desteğini sağlar. Süreç şeffaflığına, kişisel verilerin korunmasına ve müşteri hizmetleri kalitesine öncelik veriyoruz. Şirket, geçerli yasal gereklilikler ve dahili güvenlik standartları doğrultusunda faaliyet göstermektedir.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -194,11 +286,11 @@
     },
     "contact": {
       "title": "İletişim",
-      "body": "Servisin çalışması, erişim, ödeme ve destekle ilgili tüm sorularınız için hello@raqoon.app adresinden bize yazın. Mümkün olduğunca hızlı yanıt vermeye çalışıyoruz."
+      "body": "Servisin çalışması, erişim, ödeme ve destekle ilgili tüm sorularınız için help@raqoon.app adresinden bize yazın. Mümkün olduğunca hızlı yanıt vermeye çalışıyoruz."
     },
     "refund": {
       "title": "İade Politikası",
-      "body": "İade Politikası\nYürürlük Tarihi: 1 Mart 2026\n\n1. Abonelik App Store üzerinden yapılmışsa, para iadesi, abonelik iptali ve ilgili diğer konular App Store kurallarına tabidir.\n\n2. Satın alma App Store üzerinden yapılmamışsa, Türkiye Cumhuriyeti «Mesafeli Sözleşmeler Yönetmeliği» Madde 15(ğ) uyarınca servis iade veya değişime tabi değildir.\n\n3. Ödeme konularında destek ekibiyle iletişime geçebilirsiniz: hello@raqoon.app."
+      "body": "İade Politikası\nYürürlük Tarihi: 1 Mart 2026\n\n1. Abonelik App Store üzerinden yapılmışsa, para iadesi, abonelik iptali ve ilgili diğer konular App Store kurallarına tabidir.\n\n2. Satın alma App Store üzerinden yapılmamışsa, Türkiye Cumhuriyeti «Mesafeli Sözleşmeler Yönetmeliği» Madde 15(ğ) uyarınca servis iade veya değişime tabi değildir.\n\n3. Ödeme konularında destek ekibiyle iletişime geçebilirsiniz: help@raqoon.app."
     }
   },
   "notFound": {
@@ -220,7 +312,8 @@
     "terms": "Kullanım Koşulları",
     "contact": "İletişim",
     "refund": "İade Politikası",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Referans programı"
   },
   "lang": {
     "ru": "RU",

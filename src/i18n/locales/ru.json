@@ -9,15 +9,19 @@
     "downloadOgTitleRU": "Raqoon — Твой надежный доступ в сети",
     "downloadOgDescriptionRU": "Скачай Raqoon VPN: обеспечь безопасность трафика одним нажатием. Мы не собираем данные — мы защищаем приватность.",
     "aboutTitleRU": "О компании — Raqoon VPN",
-    "aboutDescriptionRU": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. разрабатывает Raqoon VPN. Офис в Анкаре, Турция. Поддержка: hello@raqoon.app.",
+    "aboutDescriptionRU": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. разрабатывает Raqoon VPN. Офис в Анкаре, Турция. Поддержка: help@raqoon.app.",
     "privacyTitleRU": "Политика конфиденциальности — Raqoon VPN",
     "privacyDescriptionRU": "Политика конфиденциальности Raqoon VPN: без логов активности, без анализа содержимого трафика, оплата и защита данных.",
     "termsTitleRU": "Пользовательское соглашение — Raqoon VPN",
     "termsDescriptionRU": "Публичная оферта и условия использования Raqoon VPN: подписка, правила использования, ответственность.",
     "contactTitleRU": "Контакты — Raqoon VPN",
-    "contactDescriptionRU": "Связь с поддержкой Raqoon: биллинг, доступ, технические вопросы. Email: hello@raqoon.app.",
+    "contactDescriptionRU": "Связь с поддержкой Raqoon: биллинг, доступ, технические вопросы. Email: help@raqoon.app.",
     "refundTitleRU": "Политика возвратов — Raqoon VPN",
-    "refundDescriptionRU": "Возвраты по подпискам в App Store — по правилам Apple. Вопросы по оплате: hello@raqoon.app.",
+    "refundDescriptionRU": "Возвраты по подпискам в App Store — по правилам Apple. Вопросы по оплате: help@raqoon.app.",
+    "referralTitleRU": "Реферальная программа — Raqoon VPN",
+    "referralDescriptionRU": "Приглашай друзей, делись промокодом и получай бонусные дни за их подписку.",
+    "referralOgTitleRU": "Рефералка Raqoon — бонусные дни за приглашения",
+    "referralOgDescriptionRU": "Получи промокод в боте или приложении, отправь другу и получи до 30 бонусных дней.",
     "migrationTitleRU": "Переезд из ИЗИ в Raqoon — инструкция",
     "migrationDescriptionRU": "Переезд из ИЗИ VPN в Raqoon: подключение к @raqoonbot в Telegram и миграция на новый сервис.",
     "faqTitleRU": "Частые вопросы — Raqoon VPN",
@@ -269,7 +273,7 @@
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Анкара Текнолоджи Кёпрюсю Кулучка Меркези, махалле Илкадым, улица Йешиль Вади, д. 41, офис 36, 06450 Чанкайя/Анкара, Турция",
     "emailLabel": "Почта:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Ключевые сведения",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. обеспечивает развитие и поддержку цифровых сервисов Raqoon. Мы уделяем приоритетное внимание прозрачности процессов, защите персональных данных и качеству клиентского сервиса. Компания работает в соответствии с применимыми требованиями законодательства и внутренними стандартами безопасности.",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -285,11 +289,11 @@
     },
     "contact": {
       "title": "Контакты",
-      "body": "По всем вопросам, связанным с работой сервиса, доступом, оплатой и поддержкой, напишите нам на hello@raqoon.app. Мы стараемся отвечать максимально оперативно."
+      "body": "По всем вопросам, связанным с работой сервиса, доступом, оплатой и поддержкой, напишите нам на help@raqoon.app. Мы стараемся отвечать максимально оперативно."
     },
     "refund": {
       "title": "Политика возврата",
-      "body": "Политика возврата\nДата вступления в силу: 1 марта 2026 г.\n\n1. Если подписка оформлена через App Store, возврат денежных средств, отмена подписки и иные связанные вопросы регулируются правилами App Store.\n\n2. Если покупка была совершена не через App Store, то в соответствии со ст. 15(ğ) «Положения о дистанционных договорах» (Mesafeli Sözleşmeler Yönetmeliği) услуга возврату или обмену не подлежит.\n\n3. По вопросам оплаты вы можете обратиться в поддержку: hello@raqoon.app."
+      "body": "Политика возврата\nДата вступления в силу: 1 марта 2026 г.\n\n1. Если подписка оформлена через App Store, возврат денежных средств, отмена подписки и иные связанные вопросы регулируются правилами App Store.\n\n2. Если покупка была совершена не через App Store, то в соответствии со ст. 15(ğ) «Положения о дистанционных договорах» (Mesafeli Sözleşmeler Yönetmeliği) услуга возврату или обмену не подлежит.\n\n3. По вопросам оплаты вы можете обратиться в поддержку: help@raqoon.app."
     }
   },
   "faqPage": {

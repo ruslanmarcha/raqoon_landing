@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Akses jaringanmu yang andal",
     "downloadOgDescriptionWW": "Unduh Raqoon VPN: amankan trafikmu dengan satu klik. Kami tidak mengumpulkan data — kami melindungi privasi.",
     "aboutTitleWW": "Tentang perusahaan — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. mengembangkan Raqoon VPN. Kantor di Ankara, Turki. Dukungan: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. mengembangkan Raqoon VPN. Kantor di Ankara, Turki. Dukungan: help@raqoon.app.",
     "privacyTitleWW": "Kebijakan Privasi — Raqoon VPN",
     "privacyDescriptionWW": "Kebijakan Privasi Raqoon VPN: tanpa log aktivitas, tanpa analisis konten trafik, perlindungan pembayaran dan data.",
     "termsTitleWW": "Perjanjian Pengguna — Raqoon VPN",
     "termsDescriptionWW": "Penawaran umum dan ketentuan penggunaan Raqoon VPN: langganan, aturan penggunaan, tanggung jawab.",
     "contactTitleWW": "Kontak — Raqoon VPN",
-    "contactDescriptionWW": "Hubungi dukungan Raqoon: penagihan, akses, pertanyaan teknis. Email: hello@raqoon.app.",
+    "contactDescriptionWW": "Hubungi dukungan Raqoon: penagihan, akses, pertanyaan teknis. Email: help@raqoon.app.",
     "refundTitleWW": "Kebijakan Pengembalian Dana — Raqoon VPN",
-    "refundDescriptionWW": "Pengembalian dana langganan App Store sesuai aturan Apple. Pertanyaan pembayaran: hello@raqoon.app.",
+    "refundDescriptionWW": "Pengembalian dana langganan App Store sesuai aturan Apple. Pertanyaan pembayaran: help@raqoon.app.",
     "migrationTitleRU": "Pindah dari IZI ke Raqoon — instruksi",
-    "migrationDescriptionRU": "Migrasi dari IZI VPN ke Raqoon: hubungkan ke @raqoonbot di Telegram dan pindah ke layanan baru."
+    "migrationDescriptionRU": "Migrasi dari IZI VPN ke Raqoon: hubungkan ke @raqoonbot di Telegram dan pindah ke layanan baru.",
+    "referralTitleWW": "Program referral — Raqoon VPN",
+    "referralDescriptionWW": "Undang teman, bagikan kode promo, dan dapatkan hari bonus saat mereka berlangganan.",
+    "referralOgTitleWW": "Referral Raqoon — hari bonus untuk undangan",
+    "referralOgDescriptionWW": "Ambil kode di bot atau aplikasi, bagikan, dan dapatkan hingga 30 hari bonus."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Segera di Google Play",
     "badgeAriaMacAppStore": "Segera di Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Undang teman — hingga 30 hari gratis",
+        "Bagikan akses — dapatkan hari bonus",
+        "Ajak teman dan dapatkan langganan gratis"
+      ],
+      "subtitle": "Bagikan kode promo dan dapatkan hari bonus saat temanmu membayar.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "Cara kerja",
+      "steps": [
+        "Dapatkan kode promo di bot Telegram atau di aplikasi.",
+        "Kirim kode ke teman.",
+        "Teman membayar langganan.",
+        "Kamu mendapat hari bonus."
+      ]
+    },
+    "friendBonus": {
+      "title": "Bonus untuk teman",
+      "description": "Temanmu mendapat +10 hari gratis setelah membayar bulan pertama."
+    },
+    "yourReward": {
+      "title": "Hadiahmu",
+      "description": "Semakin lama temanmu membayar, semakin banyak hari bonus yang kamu dapat.",
+      "rows": [
+        {
+          "period": "1–5 bulan",
+          "bonus": "+7 hari"
+        },
+        {
+          "period": "6–11 bulan",
+          "bonus": "+14 hari"
+        },
+        {
+          "period": "12+ bulan",
+          "bonus": "+30 hari"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Syarat pencairan",
+      "description": "Bonus hanya diberikan jika kamu punya langganan aktif."
+    },
+    "timing": {
+      "title": "Waktu pencairan",
+      "description": "Bonus biasanya muncul segera. Maksimum hingga 7 hari."
+    },
+    "limits": {
+      "title": "Batasan",
+      "items": [
+        "Hari bonus tidak bisa dicairkan atau ditukar uang.",
+        "Kode promo tidak bisa digabung dengan promo lain.",
+        "Kode promo hanya untuk pembayaran pertama."
+      ]
+    },
+    "important": {
+      "title": "Penting",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Kode promo lama sudah tidak berlaku.",
+      "useNew": "Gunakan kode promo baru dari:",
+      "sources": [
+        "Bot Telegram Raqoon.",
+        "Aplikasi seluler Raqoon."
+      ]
+    },
+    "reuse": {
+      "title": "Penggunaan ulang kode",
+      "description": "Jika pembayaran tidak selesai atau dibatalkan, kode tidak bisa dipakai lagi."
+    },
+    "campaign": {
+      "title": "Masa kampanye",
+      "inline": "{{title}}. {{description}}",
+      "description": "Kampanye berlaku hingga 31 Desember 2026 dan dapat diperpanjang."
+    },
+    "share": {
+      "title": "Kode referral Raqoon",
+      "text": "Gabung dengan kode promoku:"
+    },
+    "micro": {
+      "copyPromo": "Salin kode promo",
+      "getPromo": "Dapatkan kode promo",
+      "share": "Bagikan",
+      "copySuccess": "Kode disalin",
+      "applyError": "Tidak bisa menerapkan kode. Coba lagi nanti atau hubungi dukungan."
+    }
+  },
   "about": {
     "title": "Tentang perusahaan",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Turki",
     "emailLabel": "Email:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Informasi Utama",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. memastikan pengembangan dan dukungan layanan digital Raqoon. Kami memprioritaskan transparansi proses, perlindungan data pribadi, dan kualitas layanan pelanggan. Perusahaan beroperasi sesuai dengan persyaratan hukum yang berlaku dan standar keamanan internal.",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "Kontak",
-      "body": "Untuk semua pertanyaan yang terkait dengan kerja layanan, akses, pembayaran, dan dukungan, tulis kepada kami di hello@raqoon.app. Kami berusaha menjawab secepat mungkin."
+      "body": "Untuk semua pertanyaan yang terkait dengan kerja layanan, akses, pembayaran, dan dukungan, tulis kepada kami di help@raqoon.app. Kami berusaha menjawab secepat mungkin."
     },
     "refund": {
       "title": "Kebijakan Pengembalian",
-      "body": "Kebijakan Pengembalian\nTanggal Mulai Berlaku: 1 Maret 2026\n\n1. Jika langganan dibuat melalui App Store, pengembalian dana, pembatalan langganan, dan masalah terkait lainnya diatur oleh aturan App Store.\n\n2. Jika pembelian dilakukan bukan melalui App Store, maka sesuai dengan Pasal 15(ğ) dari «Peraturan tentang Kontrak Jarak Jauh» (Mesafeli Sözleşmeler Yönetmeliği), layanan tidak dapat dikembalikan atau ditukar.\n\n3. Untuk masalah pembayaran, kamu dapat menghubungi dukungan: hello@raqoon.app."
+      "body": "Kebijakan Pengembalian\nTanggal Mulai Berlaku: 1 Maret 2026\n\n1. Jika langganan dibuat melalui App Store, pengembalian dana, pembatalan langganan, dan masalah terkait lainnya diatur oleh aturan App Store.\n\n2. Jika pembelian dilakukan bukan melalui App Store, maka sesuai dengan Pasal 15(ğ) dari «Peraturan tentang Kontrak Jarak Jauh» (Mesafeli Sözleşmeler Yönetmeliği), layanan tidak dapat dikembalikan atau ditukar.\n\n3. Untuk masalah pembayaran, kamu dapat menghubungi dukungan: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "Ketentuan Penggunaan",
     "contact": "Kontak",
     "refund": "Kebijakan Pengembalian",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Program referral"
   },
   "lang": {
     "ru": "RU",

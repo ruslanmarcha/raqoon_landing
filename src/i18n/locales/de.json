@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Dein zuverlässiger Zugang zum Netz",
     "downloadOgDescriptionWW": "Lade Raqoon VPN: Sichere deinen Datenverkehr mit nur einem Klick. Wir sammeln keine Daten — wir schützen die Privatsphäre.",
     "aboutTitleWW": "Über das Unternehmen — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. entwickelt Raqoon VPN. Büro in Ankara, Türkei. Support: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. entwickelt Raqoon VPN. Büro in Ankara, Türkei. Support: help@raqoon.app.",
     "privacyTitleWW": "Datenschutzrichtlinie — Raqoon VPN",
     "privacyDescriptionWW": "Datenschutzrichtlinie von Raqoon VPN: Keine Aktivitätsprotokolle, keine Analyse von Inhalten, Zahlung und Datenschutz.",
     "termsTitleWW": "Nutzungsvereinbarung — Raqoon VPN",
     "termsDescriptionWW": "Öffentliches Angebot und Nutzungsbedingungen von Raqoon VPN: Abonnement, Nutzungsregeln, Haftung.",
     "contactTitleWW": "Kontakte — Raqoon VPN",
-    "contactDescriptionWW": "Kontakt zum Raqoon-Support: Abrechnung, Zugang, technische Fragen. E-Mail: hello@raqoon.app.",
+    "contactDescriptionWW": "Kontakt zum Raqoon-Support: Abrechnung, Zugang, technische Fragen. E-Mail: help@raqoon.app.",
     "refundTitleWW": "Rückerstattungsrichtlinie — Raqoon VPN",
-    "refundDescriptionWW": "Rückerstattungen für Abonnements im App Store — gemäß den Regeln von Apple. Fragen zur Zahlung: hello@raqoon.app.",
+    "refundDescriptionWW": "Rückerstattungen für Abonnements im App Store — gemäß den Regeln von Apple. Fragen zur Zahlung: help@raqoon.app.",
     "migrationTitleRU": "Umzug von IZI zu Raqoon — Anleitung",
-    "migrationDescriptionRU": "Umzug von IZI VPN zu Raqoon: Verbinde dich mit @raqoonbot auf Telegram und migriere zum neuen Dienst."
+    "migrationDescriptionRU": "Umzug von IZI VPN zu Raqoon: Verbinde dich mit @raqoonbot auf Telegram und migriere zum neuen Dienst.",
+    "referralTitleWW": "Empfehlungsprogramm — Raqoon VPN",
+    "referralDescriptionWW": "Freunde einladen, Promo-Code teilen und Bonus-Tage erhalten, wenn sie abonnieren.",
+    "referralOgTitleWW": "Raqoon Empfehlung — Bonus-Tage für Einladungen",
+    "referralOgDescriptionWW": "Hol dir den Code im Bot oder in der App, teile ihn mit Freunden und erhalte bis zu 30 Bonus-Tage."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Bald bei Google Play",
     "badgeAriaMacAppStore": "Bald im Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Freunde einladen — bis zu 30 Tage gratis",
+        "Zugang teilen — Bonus-Tage erhalten",
+        "Freunde bringen und kostenloses Abo sichern"
+      ],
+      "subtitle": "Teile deinen Promo-Code und erhalte Bonus-Tage, wenn Freunde zahlen.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "So funktioniert's",
+      "steps": [
+        "Hol dir einen Promo-Code im Telegram-Bot oder in der App.",
+        "Schick den Code an einen Freund.",
+        "Dein Freund zahlt ein Abo.",
+        "Du erhältst Bonus-Tage."
+      ]
+    },
+    "friendBonus": {
+      "title": "Freunde-Bonus",
+      "description": "Dein Freund erhält +10 Gratistage nach Zahlung des ersten Monats."
+    },
+    "yourReward": {
+      "title": "Deine Belohnung",
+      "description": "Je länger dein Freund zahlt, desto mehr Bonus-Tage erhältst du.",
+      "rows": [
+        {
+          "period": "1–5 Monate",
+          "bonus": "+7 Tage"
+        },
+        {
+          "period": "6–11 Monate",
+          "bonus": "+14 Tage"
+        },
+        {
+          "period": "12+ Monate",
+          "bonus": "+30 Tage"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Bedingung für die Gutschrift",
+      "description": "Bonus wird nur gutgeschrieben, wenn du ein aktives Abo hast."
+    },
+    "timing": {
+      "title": "Zeitpunkt der Gutschrift",
+      "description": "Der Bonus erscheint meist sofort. Maximal bis zu 7 Tage."
+    },
+    "limits": {
+      "title": "Einschränkungen",
+      "items": [
+        "Bonus-Tage können nicht ausgezahlt oder in Geld umgetauscht werden.",
+        "Promo-Codes sind nicht mit anderen Aktionen kombinierbar.",
+        "Der Promo-Code gilt nur für die erste Zahlung."
+      ]
+    },
+    "important": {
+      "title": "Wichtig",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Alte Promo-Codes funktionieren nicht mehr.",
+      "useNew": "Nutze einen neuen Promo-Code aus:",
+      "sources": [
+        "dem Raqoon Telegram-Bot.",
+        "der Raqoon-App."
+      ]
+    },
+    "reuse": {
+      "title": "Erneute Nutzung des Promo-Codes",
+      "description": "Wird die Zahlung nicht abgeschlossen oder storniert, kann der Promo-Code nicht erneut verwendet werden."
+    },
+    "campaign": {
+      "title": "Kampfzeitraum",
+      "inline": "{{title}}. {{description}}",
+      "description": "Die Kampagne gilt bis zum 31. Dezember 2026 und kann verlängert werden."
+    },
+    "share": {
+      "title": "Raqoon Empfehlungs-Promo-Code",
+      "text": "Mach mit über meinen Promo-Code:"
+    },
+    "micro": {
+      "copyPromo": "Promo-Code kopieren",
+      "getPromo": "Promo-Code holen",
+      "share": "Teilen",
+      "copySuccess": "Promo-Code kopiert",
+      "applyError": "Promo-Code konnte nicht angewendet werden. Bitte später erneut versuchen oder den Support kontaktieren."
+    }
+  },
   "about": {
     "title": "Über das Unternehmen",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkei",
     "emailLabel": "E-Mail:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Wichtige Informationen",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. gewährleistet die Entwicklung und den Support der digitalen Dienste von Raqoon. Wir legen Priorität auf Prozesstransparenz, den Schutz personenbezogener Daten und die Qualität des Kundenservice. Das Unternehmen arbeitet in Übereinstimmung mit den geltenden gesetzlichen Anforderungen und internen Sicherheitsstandards.",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "Kontakte",
-      "body": "Schreib uns bei allen Fragen zum Betrieb des Dienstes, zum Zugang, zur Zahlung und zum Support an hello@raqoon.app. Wir bemühen uns, so schnell wie möglich zu antworten."
+      "body": "Schreib uns bei allen Fragen zum Betrieb des Dienstes, zum Zugang, zur Zahlung und zum Support an help@raqoon.app. Wir bemühen uns, so schnell wie möglich zu antworten."
     },
     "refund": {
       "title": "Rückerstattungsrichtlinie",
-      "body": "Rückerstattungsrichtlinie\nDatum des Inkrafttretens: 1. März 2026\n\n1. Wenn das Abonnement über den App Store abgeschlossen wurde, werden die Rückerstattung, die Kündigung des Abonnements und andere damit verbundene Fragen durch die Regeln des App Stores geregelt.\n\n2. Wenn der Kauf nicht über den App Store getätigt wurde, unterliegt die Dienstleistung gemäß Art. 15(ğ) der „Verordnung über Fernabsatzverträge“ (Mesafeli Sözleşmeler Yönetmeliği) nicht der Rückerstattung oder dem Umtausch.\n\n3. Bei Fragen zur Zahlung kannst du dich an den Support wenden: hello@raqoon.app."
+      "body": "Rückerstattungsrichtlinie\nDatum des Inkrafttretens: 1. März 2026\n\n1. Wenn das Abonnement über den App Store abgeschlossen wurde, werden die Rückerstattung, die Kündigung des Abonnements und andere damit verbundene Fragen durch die Regeln des App Stores geregelt.\n\n2. Wenn der Kauf nicht über den App Store getätigt wurde, unterliegt die Dienstleistung gemäß Art. 15(ğ) der „Verordnung über Fernabsatzverträge“ (Mesafeli Sözleşmeler Yönetmeliği) nicht der Rückerstattung oder dem Umtausch.\n\n3. Bei Fragen zur Zahlung kannst du dich an den Support wenden: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "Nutzungsbedingungen",
     "contact": "Kontakte",
     "refund": "Rückerstattungsrichtlinie",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Empfehlungsprogramm"
   },
   "lang": {
     "ru": "RU",

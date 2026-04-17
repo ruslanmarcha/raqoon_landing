@@ -12,6 +12,7 @@ export type SeoPage =
   | 'terms'
   | 'contact'
   | 'refund'
+  | 'referral'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -46,6 +47,13 @@ function resolveMeta(
         description: t(`meta.downloadDescription${suffix}`),
         ogTitle: t(`meta.downloadOgTitle${suffix}`),
         ogDescription: t(`meta.downloadOgDescription${suffix}`),
+      }
+    case 'referral':
+      return {
+        title: t(`meta.referralTitle${suffix}`),
+        description: t(`meta.referralDescription${suffix}`),
+        ogTitle: t(`meta.referralOgTitle${suffix}`),
+        ogDescription: t(`meta.referralOgDescription${suffix}`),
       }
     case 'about':
       return {
@@ -117,7 +125,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }:
           legalName: 'Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.',
           url: origin,
           logo: absoluteUrl('/favicon-32x32.png'),
-          email: 'hello@raqoon.app',
+          email: 'help@raqoon.app',
           sameAs: ['https://t.me/raqoonbot'],
         },
         {

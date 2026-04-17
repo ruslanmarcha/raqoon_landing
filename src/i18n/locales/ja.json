@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — ネットワークへの信頼できるアクセス",
     "downloadOgDescriptionWW": "Raqoon VPNをダウンロード：ワンタップでトラフィックの安全を確保。当社はデータを収集しません — プライバシーを保護します。",
     "aboutTitleWW": "会社について — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. が Raqoon VPN を開発しています。オフィスはトルコのアンカラにあります。サポート：hello@raqoon.app",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. が Raqoon VPN を開発しています。オフィスはトルコのアンカラにあります。サポート：help@raqoon.app",
     "privacyTitleWW": "プライバシーポリシー — Raqoon VPN",
     "privacyDescriptionWW": "Raqoon VPN プライバシーポリシー：アクティビティログなし、トラフィック内容の分析なし、支払いとデータの保護。",
     "termsTitleWW": "ユーザー規約 — Raqoon VPN",
     "termsDescriptionWW": "Raqoon VPNの公募（パブリックオファー）と利用条件：サブスクリプション、利用規則、責任。",
     "contactTitleWW": "お問い合わせ — Raqoon VPN",
-    "contactDescriptionWW": "Raqoonサポートへのお問い合わせ：支払い、アクセス、技術的な質問。メール：hello@raqoon.app",
+    "contactDescriptionWW": "Raqoonサポートへのお問い合わせ：支払い、アクセス、技術的な質問。メール：help@raqoon.app",
     "refundTitleWW": "返金ポリシー — Raqoon VPN",
-    "refundDescriptionWW": "App Storeのサブスクリプションの返金はAppleの規則に従います。支払いに関する質問：hello@raqoon.app",
+    "refundDescriptionWW": "App Storeのサブスクリプションの返金はAppleの規則に従います。支払いに関する質問：help@raqoon.app",
     "migrationTitleRU": "IZIからRaqoonへの移行 — ガイド",
-    "migrationDescriptionRU": "IZI VPNからRaqoonへ移行：Telegramの@raqoonbotに接続して、新しいサービスへ移行してください。"
+    "migrationDescriptionRU": "IZI VPNからRaqoonへ移行：Telegramの@raqoonbotに接続して、新しいサービスへ移行してください。",
+    "referralTitleWW": "紹介プログラム — Raqoon VPN",
+    "referralDescriptionWW": "友だちを招待し、プロモコードを共有。サブスク購入でボーナス日数をゲット。",
+    "referralOgTitleWW": "Raqoon 紹介 — 招待でボーナス日数",
+    "referralOgDescriptionWW": "ボットまたはアプリでコードを取得し共有。最大30日分のボーナス。"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Google Playに近日登場",
     "badgeAriaMacAppStore": "Mac App Storeに近日登場"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "友だちを招待 — 最大30日無料",
+        "アクセスを共有 — ボーナス日数を獲得",
+        "紹介で無料サブスク"
+      ],
+      "subtitle": "プロモコードを共有し、友だちが支払うとボーナス日数がもらえます。",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "仕組み",
+      "steps": [
+        "Telegramボットまたはアプリでプロモコードを取得。",
+        "友だちにコードを送る。",
+        "友だちがサブスクを支払う。",
+        "あなたにボーナス日数が付与される。"
+      ]
+    },
+    "friendBonus": {
+      "title": "友だちボーナス",
+      "description": "友だちは初月の支払い後に+10日無料。"
+    },
+    "yourReward": {
+      "title": "あなたの特典",
+      "description": "友だちの支払い期間が長いほど、ボーナス日数が増えます。",
+      "rows": [
+        {
+          "period": "1〜5か月",
+          "bonus": "+7日"
+        },
+        {
+          "period": "6〜11か月",
+          "bonus": "+14日"
+        },
+        {
+          "period": "12か月以上",
+          "bonus": "+30日"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "付与条件",
+      "description": "アクティブなサブスクがある場合のみボーナスが付与されます。"
+    },
+    "timing": {
+      "title": "付与タイミング",
+      "description": "通常すぐ反映。最長7日かかる場合があります。"
+    },
+    "limits": {
+      "title": "制限",
+      "items": [
+        "ボーナス日数は現金化・換金できません。",
+        "他のキャンペーンとの併用はできません。",
+        "プロモコードは初回支払いのみ有効です。"
+      ]
+    },
+    "important": {
+      "title": "重要",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "旧プロモコードは無効です。",
+      "useNew": "新しいプロモコードは次から：",
+      "sources": [
+        "Raqoon Telegramボット。",
+        "Raqoonモバイルアプリ。"
+      ]
+    },
+    "reuse": {
+      "title": "コードの再使用",
+      "description": "支払いが完了しない／キャンセルされた場合、コードは再使用できません。"
+    },
+    "campaign": {
+      "title": "キャンペーン期間",
+      "inline": "{{title}}. {{description}}",
+      "description": "2026年12月31日まで有効。延長される場合があります。"
+    },
+    "share": {
+      "title": "Raqoon紹介プロモコード",
+      "text": "私のプロモコードで参加："
+    },
+    "micro": {
+      "copyPromo": "コードをコピー",
+      "getPromo": "プロモコードを取得",
+      "share": "共有",
+      "copySuccess": "コピーしました",
+      "applyError": "コードを適用できませんでした。後で試すかサポートへ。"
+    }
+  },
   "about": {
     "title": "会社について",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "メール：",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "主要情報",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. は、Raqoonデジタルサービスの開発とサポートを行っています。私たちはプロセスの透明性、個人データの保護、およびカスタマーサービスの品質を最優先事項としています。当社は、適用される法的要件および内部セキュリティ基準に従って運営されています。",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "お問い合わせ",
-      "body": "サービスの運用、アクセス、支払い、サポートに関するすべての質問は、hello@raqoon.appまでメールをお送りください。できるだけ迅速に対応するよう努めています。"
+      "body": "サービスの運用、アクセス、支払い、サポートに関するすべての質問は、help@raqoon.appまでメールをお送りください。できるだけ迅速に対応するよう努めています。"
     },
     "refund": {
       "title": "返金ポリシー",
-      "body": "返金ポリシー\n発効日：2026年3月1日\n\n1. サブスクリプションがApp Storeを通じて締結された場合、返金、キャンセル、およびその他の関連事項はApp Storeの規則によって規定されます。\n\n2. 購入がApp Store以外で行われた場合、トルコ共和国の「距離契約に関する規則」（Mesafeli Sözleşmeler Yönetmeliği）第15条(ğ)に基づき、サービスは返金または交換の対象外となります。\n\n3. 支払いに関する質問については、サポート（hello@raqoon.app）までお問い合わせください。"
+      "body": "返金ポリシー\n発効日：2026年3月1日\n\n1. サブスクリプションがApp Storeを通じて締結された場合、返金、キャンセル、およびその他の関連事項はApp Storeの規則によって規定されます。\n\n2. 購入がApp Store以外で行われた場合、トルコ共和国の「距離契約に関する規則」（Mesafeli Sözleşmeler Yönetmeliği）第15条(ğ)に基づき、サービスは返金または交換の対象外となります。\n\n3. 支払いに関する質問については、サポート（help@raqoon.app）までお問い合わせください。"
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "利用規約",
     "contact": "お問い合わせ",
     "refund": "返金ポリシー",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "紹介プログラム"
   },
   "lang": {
     "ru": "RU",

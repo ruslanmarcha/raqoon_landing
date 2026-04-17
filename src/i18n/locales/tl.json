@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Ang iyong maaasahang access sa network",
     "downloadOgDescriptionWW": "I-download ang Raqoon VPN: seguruhin ang iyong trapiko sa isang pindot lang. Hindi kami nangongolekta ng data — pinoprotektahan namin ang privacy.",
     "aboutTitleWW": "Tungkol sa kumpanya — Raqoon VPN",
-    "aboutDescriptionWW": "Binuo ng Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. ang Raqoon VPN. Opisina sa Ankara, Türkiye. Suporta: hello@raqoon.app.",
+    "aboutDescriptionWW": "Binuo ng Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. ang Raqoon VPN. Opisina sa Ankara, Türkiye. Suporta: help@raqoon.app.",
     "privacyTitleWW": "Patakaran sa Privacy — Raqoon VPN",
     "privacyDescriptionWW": "Patakaran sa Privacy ng Raqoon VPN: walang log ng aktibidad, walang pagsusuri sa nilalaman ng trapiko, pagbabayad, at proteksyon ng data.",
     "termsTitleWW": "Kasunduan ng User — Raqoon VPN",
     "termsDescriptionWW": "Public offer at mga tuntunin ng paggamit ng Raqoon VPN: subscription, mga panuntunan sa paggamit, responsibilidad.",
     "contactTitleWW": "Mga Contact — Raqoon VPN",
-    "contactDescriptionWW": "Makipag-ugnayan sa suporta ng Raqoon: billing, access, mga teknikal na tanong. Email: hello@raqoon.app.",
+    "contactDescriptionWW": "Makipag-ugnayan sa suporta ng Raqoon: billing, access, mga teknikal na tanong. Email: help@raqoon.app.",
     "refundTitleWW": "Patakaran sa Refund — Raqoon VPN",
-    "refundDescriptionWW": "Ang mga refund para sa mga subscription sa App Store ay ayon sa mga panuntunan ng Apple. Mga tanong sa pagbabayad: hello@raqoon.app.",
+    "refundDescriptionWW": "Ang mga refund para sa mga subscription sa App Store ay ayon sa mga panuntunan ng Apple. Mga tanong sa pagbabayad: help@raqoon.app.",
     "migrationTitleRU": "Paglipat mula sa IZI papuntang Raqoon — instruksyon",
-    "migrationDescriptionRU": "Paglipat mula sa IZI VPN papuntang Raqoon: kumonekta sa @raqoonbot sa Telegram at lumipat sa bagong serbisyo."
+    "migrationDescriptionRU": "Paglipat mula sa IZI VPN papuntang Raqoon: kumonekta sa @raqoonbot sa Telegram at lumipat sa bagong serbisyo.",
+    "referralTitleWW": "Referral program — Raqoon VPN",
+    "referralDescriptionWW": "Mag-imbita ng kaibigan, ibahagi ang promo code, at kumita ng bonus na araw kapag nag-subscribe sila.",
+    "referralOgTitleWW": "Raqoon referral — bonus na araw para sa imbitasyon",
+    "referralOgDescriptionWW": "Kunin ang code sa bot o app, ibahagi, at hanggang 30 araw na bonus."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Malapit na sa Google Play",
     "badgeAriaMacAppStore": "Malapit na sa Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Mag-imbita ng kaibigan — hanggang 30 araw nang libre",
+        "Ibahagi ang access — kumuha ng bonus na araw",
+        "Dalhin ang mga kaibigan at makakuha ng libreng subscription"
+      ],
+      "subtitle": "Ibahagi ang promo code at makakuha ng bonus na araw kapag nagbayad ang mga kaibigan.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "Paano ito gumagana",
+      "steps": [
+        "Kumuha ng promo code sa Telegram bot o sa app.",
+        "Ipadala ang code sa kaibigan.",
+        "Magbabayad ang kaibigan ng subscription.",
+        "Makakakuha ka ng bonus na araw."
+      ]
+    },
+    "friendBonus": {
+      "title": "Bonus para sa kaibigan",
+      "description": "+10 libreng araw ang kaibigan pagkatapos bayaran ang unang buwan."
+    },
+    "yourReward": {
+      "title": "Ang gantimpala mo",
+      "description": "Mas matagal magbayad ang kaibigan, mas maraming bonus na araw.",
+      "rows": [
+        {
+          "period": "1–5 buwan",
+          "bonus": "+7 araw"
+        },
+        {
+          "period": "6–11 buwan",
+          "bonus": "+14 araw"
+        },
+        {
+          "period": "12+ buwan",
+          "bonus": "+30 araw"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Kondisyon sa pagkredito",
+      "description": "Ang bonus ay naikredito lamang kung may aktibong subscription ka."
+    },
+    "timing": {
+      "title": "Oras ng pagkredito",
+      "description": "Karaniwang agad lumalabas ang bonus. Hanggang 7 araw ang pinakamatagal."
+    },
+    "limits": {
+      "title": "Mga limitasyon",
+      "items": [
+        "Hindi mawi-withdraw o ipapalit sa pera ang bonus na araw.",
+        "Hindi puwedeng pagsamahin ang promo codes sa ibang promo.",
+        "Ang promo code ay para lamang sa unang bayad."
+      ]
+    },
+    "important": {
+      "title": "Mahalaga",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Hindi na gumagana ang lumang promo codes.",
+      "useNew": "Gumamit ng bagong promo code mula sa:",
+      "sources": [
+        "Raqoon Telegram bot.",
+        "Raqoon mobile app."
+      ]
+    },
+    "reuse": {
+      "title": "Muling paggamit ng code",
+      "description": "Kung hindi natapos o kinansela ang bayad, hindi na magagamit muli ang code."
+    },
+    "campaign": {
+      "title": "Panahon ng kampanya",
+      "inline": "{{title}}. {{description}}",
+      "description": "May bisa hanggang Disyembre 31, 2026 at maaaring pahabain."
+    },
+    "share": {
+      "title": "Raqoon referral promo code",
+      "text": "Sumali gamit ang promo code ko:"
+    },
+    "micro": {
+      "copyPromo": "Kopyahin ang promo code",
+      "getPromo": "Kumuha ng promo code",
+      "share": "Ibahagi",
+      "copySuccess": "Nakopya ang promo code",
+      "applyError": "Hindi ma-apply ang promo code. Subukan mamaya o kontakin ang support."
+    }
+  },
   "about": {
     "title": "Tungkol sa kumpanya",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "Email:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Mahahalagang impormasyon",
     "keyPointsBody": "Tinitiyak ng Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. ang pagbuo at suporta ng mga digital na serbisyo ng Raqoon. Binibigyan namin ng priyoridad ang transparency ng mga proseso, proteksyon ng personal na data, at kalidad ng serbisyo sa customer. Ang kumpanya ay gumagana alinsunod sa mga naaangkop na legal na kinakailangan at panloob na mga pamantayan sa seguridad.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "Mga Contact",
-      "body": "Para sa lahat ng usaping may kaugnayan sa pagpapatakbo ng serbisyo, access, pagbabayad, at suporta, sumulat sa amin sa hello@raqoon.app. Sinusubukan naming sumagot sa lalong madaling panahon."
+      "body": "Para sa lahat ng usaping may kaugnayan sa pagpapatakbo ng serbisyo, access, pagbabayad, at suporta, sumulat sa amin sa help@raqoon.app. Sinusubukan naming sumagot sa lalong madaling panahon."
     },
     "refund": {
       "title": "Patakaran sa Refund",
-      "body": "Patakaran sa Refund\nPetsa ng Bisa: Marso 1, 2026\n\n1. Kung ang subscription ay ginawa sa pamamagitan ng App Store, ang pag-refund, pagkansela ng subscription, at iba pang kaugnay na usapin ay pinamamahalaan ng mga panuntunan ng App Store.\n\n2. Kung ang pagbili ay hindi ginawa sa pamamagitan ng App Store, alinsunod sa Art. 15(ğ) ng «Regulation on Distance Contracts» (Mesafeli Sözleşmeler Yönetmeliği), ang serbisyo ay hindi naibabalik o naipapalit.\n\n3. Para sa mga usapin sa pagbabayad, maaari kang makipag-ugnayan sa suporta: hello@raqoon.app."
+      "body": "Patakaran sa Refund\nPetsa ng Bisa: Marso 1, 2026\n\n1. Kung ang subscription ay ginawa sa pamamagitan ng App Store, ang pag-refund, pagkansela ng subscription, at iba pang kaugnay na usapin ay pinamamahalaan ng mga panuntunan ng App Store.\n\n2. Kung ang pagbili ay hindi ginawa sa pamamagitan ng App Store, alinsunod sa Art. 15(ğ) ng «Regulation on Distance Contracts» (Mesafeli Sözleşmeler Yönetmeliği), ang serbisyo ay hindi naibabalik o naipapalit.\n\n3. Para sa mga usapin sa pagbabayad, maaari kang makipag-ugnayan sa suporta: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "Mga Tuntunin ng Paggamit",
     "contact": "Mga Contact",
     "refund": "Patakaran sa Refund",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Referral program"
   },
   "lang": {
     "ru": "RU",

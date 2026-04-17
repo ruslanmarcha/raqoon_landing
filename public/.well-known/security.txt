@@ -1,2 +1,2 @@
-Contact: mailto:hello@raqoon.app
+Contact: mailto:help@raqoon.app
 Preferred-Languages: en, ru, tr

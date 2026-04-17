@@ -109,7 +109,7 @@ data.legal.terms.body = `使用条款（公开要约）
 
 data.legal.contact.title = '联系方式'
 data.legal.contact.body =
-  '有关服务运行、访问、账单或支持的任何问题，请发送邮件至 hello@raqoon.app。我们会尽快回复。'
+  '有关服务运行、访问、账单或支持的任何问题，请发送邮件至 help@raqoon.app。我们会尽快回复。'
 
 data.legal.refund.title = '退款政策'
 data.legal.refund.body = `退款政策
@@ -117,7 +117,7 @@ data.legal.refund.body = `退款政策
 
 若通过 App Store 购买订阅，退款、取消订阅及相关事项均适用 App Store 规则与流程。
 
-支付相关问题请联系客服：hello@raqoon.app。`
+支付相关问题请联系客服：help@raqoon.app。`
 
 data.notFound.title = '页面未找到'
 data.notFound.description = '该页面不存在或已移动。'

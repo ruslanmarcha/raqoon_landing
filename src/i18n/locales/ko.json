@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — 신뢰할 수 있는 네트워크 접속",
     "downloadOgDescriptionWW": "Raqoon VPN 다운로드: 클릭 한 번으로 트래픽 보안을 확보하세요. 우리는 데이터를 수집하지 않고 프라이버시를 보호합니다.",
     "aboutTitleWW": "회사 소개 — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.에서 Raqoon VPN을 개발합니다. 튀르키예 앙카라 소재. 지원: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.에서 Raqoon VPN을 개발합니다. 튀르키예 앙카라 소재. 지원: help@raqoon.app.",
     "privacyTitleWW": "개인정보 처리방침 — Raqoon VPN",
     "privacyDescriptionWW": "Raqoon VPN 개인정보 처리방침: 활동 로그 없음, 트래픽 내용 분석 없음, 결제 및 데이터 보호.",
     "termsTitleWW": "이용 약관 — Raqoon VPN",
     "termsDescriptionWW": "Raqoon VPN 공개 제안 및 이용 조건: 구독, 이용 규칙, 책임 범위.",
     "contactTitleWW": "고객 센터 — Raqoon VPN",
-    "contactDescriptionWW": "Raqoon 지원팀 연락처: 결제, 접속, 기술 문의. 이메일: hello@raqoon.app.",
+    "contactDescriptionWW": "Raqoon 지원팀 연락처: 결제, 접속, 기술 문의. 이메일: help@raqoon.app.",
     "refundTitleWW": "환불 정책 — Raqoon VPN",
-    "refundDescriptionWW": "App Store 구독 환불은 Apple의 규정을 따릅니다. 결제 관련 문의: hello@raqoon.app.",
+    "refundDescriptionWW": "App Store 구독 환불은 Apple의 규정을 따릅니다. 결제 관련 문의: help@raqoon.app.",
     "migrationTitleRU": "IZI에서 Raqoon으로 이전 — 안내",
-    "migrationDescriptionRU": "IZI VPN에서 Raqoon으로 이전: Telegram의 @raqoonbot에 연결하여 새 서비스로 이동하세요."
+    "migrationDescriptionRU": "IZI VPN에서 Raqoon으로 이전: Telegram의 @raqoonbot에 연결하여 새 서비스로 이동하세요.",
+    "referralTitleWW": "추천 프로그램 — Raqoon VPN",
+    "referralDescriptionWW": "친구를 초대하고 프로모 코드를 공유하면 구독 시 보너스 일수를 받습니다.",
+    "referralOgTitleWW": "Raqoon 추천 — 초대 보너스 일수",
+    "referralOgDescriptionWW": "봇이나 앱에서 코드를 받아 공유하면 최대 30일 보너스."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Google Play 출시 예정",
     "badgeAriaMacAppStore": "Mac App Store 출시 예정"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "친구 초대 — 최대 30일 무료",
+        "액세스 공유 — 보너스 일수 획득",
+        "친구를 데려오고 무료 구독 받기"
+      ],
+      "subtitle": "프로모 코드를 공유하고 친구가 결제하면 보너스 일수를 받으세요.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "작동 방식",
+      "steps": [
+        "Telegram 봇 또는 앱에서 프로모 코드를 받습니다.",
+        "친구에게 코드를 보냅니다.",
+        "친구가 구독을 결제합니다.",
+        "보너스 일수를 받습니다."
+      ]
+    },
+    "friendBonus": {
+      "title": "친구 보너스",
+      "description": "친구는 첫 달 결제 후 +10일 무료를 받습니다."
+    },
+    "yourReward": {
+      "title": "내 보상",
+      "description": "친구가 더 오래 결제할수록 더 많은 보너스 일수를 받습니다.",
+      "rows": [
+        {
+          "period": "1–5개월",
+          "bonus": "+7일"
+        },
+        {
+          "period": "6–11개월",
+          "bonus": "+14일"
+        },
+        {
+          "period": "12개월 이상",
+          "bonus": "+30일"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "적립 조건",
+      "description": "활성 구독이 있을 때만 보너스가 적립됩니다."
+    },
+    "timing": {
+      "title": "적립 시점",
+      "description": "보통 즉시 반영됩니다. 최대 7일까지 걸릴 수 있습니다."
+    },
+    "limits": {
+      "title": "제한",
+      "items": [
+        "보너스 일수는 현금으로 출금하거나 교환할 수 없습니다.",
+        "다른 프로모션과 중복할 수 없습니다.",
+        "프로모 코드는 첫 결제에만 적용됩니다."
+      ]
+    },
+    "important": {
+      "title": "중요",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "이전 프로모 코드는 더 이상 사용할 수 없습니다.",
+      "useNew": "새 프로모 코드는 다음에서 받으세요:",
+      "sources": [
+        "Raqoon Telegram 봇.",
+        "Raqoon 모바일 앱."
+      ]
+    },
+    "reuse": {
+      "title": "코드 재사용",
+      "description": "결제가 완료되지 않거나 취소되면 코드를 다시 쓸 수 없습니다."
+    },
+    "campaign": {
+      "title": "캠페인 기간",
+      "inline": "{{title}}. {{description}}",
+      "description": "2026년 12월 31일까지 유효하며 연장될 수 있습니다."
+    },
+    "share": {
+      "title": "Raqoon 추천 프로모 코드",
+      "text": "내 프로모 코드로 가입:"
+    },
+    "micro": {
+      "copyPromo": "코드 복사",
+      "getPromo": "프로모 코드 받기",
+      "share": "공유",
+      "copySuccess": "코드가 복사되었습니다",
+      "applyError": "코드를 적용할 수 없습니다. 나중에 다시 시도하거나 지원팀에 문의하세요."
+    }
+  },
   "about": {
     "title": "회사 소개",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "이메일:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "주요 정보",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.는 Raqoon 디지털 서비스의 개발 및 지원을 보장합니다. 우리는 프로세스의 투명성, 개인정보 보호 및 고객 서비스 품질을 최우선으로 생각합니다. 회사는 관련 법적 요구 사항 및 내부 보안 표준에 따라 운영됩니다.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "문의하기",
-      "body": "서비스 작동, 접속, 결제 및 지원과 관련된 모든 문의 사항은 hello@raqoon.app으로 메일을 보내주세요. 최대한 신속하게 답변해 드리겠습니다."
+      "body": "서비스 작동, 접속, 결제 및 지원과 관련된 모든 문의 사항은 help@raqoon.app으로 메일을 보내주세요. 최대한 신속하게 답변해 드리겠습니다."
     },
     "refund": {
       "title": "환불 정책",
-      "body": "환불 정책\n시행일: 2026년 3월 1일\n\n1. 구독이 App Store를 통해 이루어진 경우, 환불, 구독 취소 및 기타 관련 문제는 App Store의 규정을 따릅니다.\n\n2. App Store 외부에서 구매가 이루어진 경우, 튀르키예 공화국의 '원격 계약에 관한 규정'(Mesafeli Sözleşmeler Yönetmeliği) 제15(ğ)조에 따라 서비스는 환불 또는 교환이 불가능합니다.\n\n3. 결제 관련 문의는 고객 지원팀(hello@raqoon.app)으로 연락하시기 바랍니다."
+      "body": "환불 정책\n시행일: 2026년 3월 1일\n\n1. 구독이 App Store를 통해 이루어진 경우, 환불, 구독 취소 및 기타 관련 문제는 App Store의 규정을 따릅니다.\n\n2. App Store 외부에서 구매가 이루어진 경우, 튀르키예 공화국의 '원격 계약에 관한 규정'(Mesafeli Sözleşmeler Yönetmeliği) 제15(ğ)조에 따라 서비스는 환불 또는 교환이 불가능합니다.\n\n3. 결제 관련 문의는 고객 지원팀(help@raqoon.app)으로 연락하시기 바랍니다."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "이용 약관",
     "contact": "문의하기",
     "refund": "환불 정책",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "추천 프로그램"
   },
   "lang": {
     "ru": "RU",

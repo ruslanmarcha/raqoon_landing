@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — Tvůj spolehlivý přístup k síti",
     "downloadOgDescriptionWW": "Stáhni si Raqoon VPN: zabezpeč svůj provoz jedním kliknutím. Nesbíráme data — chráníme soukromí.",
     "aboutTitleWW": "O společnosti — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. vyvíjí Raqoon VPN. Kancelář v Ankaře, Turecko. Podpora: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. vyvíjí Raqoon VPN. Kancelář v Ankaře, Turecko. Podpora: help@raqoon.app.",
     "privacyTitleWW": "Zásady ochrany soukromí — Raqoon VPN",
     "privacyDescriptionWW": "Zásady ochrany soukromí Raqoon VPN: žádné logy aktivity, žádná analýza obsahu provozu, platby a ochrana dat.",
     "termsTitleWW": "Uživatelská smlouva — Raqoon VPN",
     "termsDescriptionWW": "Veřejná nabídka a podmínky používání Raqoon VPN: předplatné, pravidla používání, odpovědnost.",
     "contactTitleWW": "Kontakty — Raqoon VPN",
-    "contactDescriptionWW": "Spojení s podporou Raqoon: billing, přístup, technické dotazy. Email: hello@raqoon.app.",
+    "contactDescriptionWW": "Spojení s podporou Raqoon: billing, přístup, technické dotazy. Email: help@raqoon.app.",
     "refundTitleWW": "Zásady vrácení peněz — Raqoon VPN",
-    "refundDescriptionWW": "Vrácení peněz za předplatné v App Store — podle pravidel Apple. Dotazy k platbám: hello@raqoon.app.",
+    "refundDescriptionWW": "Vrácení peněz za předplatné v App Store — podle pravidel Apple. Dotazy k platbám: help@raqoon.app.",
     "migrationTitleRU": "Přechod z IZI do Raqoon — instrukce",
-    "migrationDescriptionRU": "Přechod z IZI VPN do Raqoon: připojení k @raqoonbot na Telegramu a migrace na novou službu."
+    "migrationDescriptionRU": "Přechod z IZI VPN do Raqoon: připojení k @raqoonbot na Telegramu a migrace na novou službu.",
+    "referralTitleWW": "Doporučovací program — Raqoon VPN",
+    "referralDescriptionWW": "Pozvi přátele, sdílej promo kód a získej bonusové dny, až si předplatí.",
+    "referralOgTitleWW": "Raqoon doporučení — bonusové dny za pozvánky",
+    "referralOgDescriptionWW": "Získej kód v botovi nebo v aplikaci, sdílej ho a získej až 30 bonusových dní."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "Již brzy v Google Play",
     "badgeAriaMacAppStore": "Již brzy v Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "Pozvi přátele — až 30 dní zdarma",
+        "Sdílej přístup — získej bonusové dny",
+        "Přiveď přátele a získej předplatné zdarma"
+      ],
+      "subtitle": "Sdílej promo kód a získej bonusové dny, když přátelé zaplatí.",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "Jak to funguje",
+      "steps": [
+        "Získej promo kód v Telegram botovi nebo v aplikaci.",
+        "Pošli kód příteli.",
+        "Přítel zaplatí předplatné.",
+        "Ty dostaneš bonusové dny."
+      ]
+    },
+    "friendBonus": {
+      "title": "Bonus pro přítele",
+      "description": "Přítel dostane +10 dní zdarma po zaplacení prvního měsíce."
+    },
+    "yourReward": {
+      "title": "Tvá odměna",
+      "description": "Čím déle přítel platí, tím víc bonusových dní dostaneš.",
+      "rows": [
+        {
+          "period": "1–5 měsíců",
+          "bonus": "+7 dní"
+        },
+        {
+          "period": "6–11 měsíců",
+          "bonus": "+14 dní"
+        },
+        {
+          "period": "12+ měsíců",
+          "bonus": "+30 dní"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "Podmínka připsání",
+      "description": "Bonus se připíše jen pokud máš aktivní předplatné."
+    },
+    "timing": {
+      "title": "Čas připsání",
+      "description": "Bonus obvykle přijde hned. Nejvýše do 7 dní."
+    },
+    "limits": {
+      "title": "Omezení",
+      "items": [
+        "Bonusové dny nelze vyplatit ani směnit za peníze.",
+        "Promo kódy nelze kombinovat s jinými akcemi.",
+        "Promo kód platí jen u první platby."
+      ]
+    },
+    "important": {
+      "title": "Důležité",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "Staré promo kódy už neplatí.",
+      "useNew": "Použij nový promo kód z:",
+      "sources": [
+        "Telegram bota Raqoon.",
+        "Mobilní aplikace Raqoon."
+      ]
+    },
+    "reuse": {
+      "title": "Opakované použití kódu",
+      "description": "Pokud platba není dokončena nebo je zrušena, kód nelze znovu použít."
+    },
+    "campaign": {
+      "title": "Doba kampaně",
+      "inline": "{{title}}. {{description}}",
+      "description": "Kampaň platí do 31. prosince 2026 a může být prodloužena."
+    },
+    "share": {
+      "title": "Doporučovací promo kód Raqoon",
+      "text": "Připoj se mým promo kódem:"
+    },
+    "micro": {
+      "copyPromo": "Kopírovat promo kód",
+      "getPromo": "Získat promo kód",
+      "share": "Sdílet",
+      "copySuccess": "Promo kód zkopírován",
+      "applyError": "Promo kód se nepodařilo použít. Zkus to později nebo kontaktuj podporu."
+    }
+  },
   "about": {
     "title": "O společnosti",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Turecko",
     "emailLabel": "E-mail:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Klíčové informace",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. zajišťuje vývoj a podporu digitálních služeb Raqoon. Prioritu dáváme transparentnosti procesů, ochraně osobních údajů a kvalitě zákaznického servisu. Společnost pracuje v souladu s platnými požadavky legislativy a interními bezpečnostními standardy.",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "Kontakty",
-      "body": "Ve všech otázkách spojených s prací služby, přístupem, platbou a podporou nám napište na hello@raqoon.app. Snažíme se odpovídat maximálně operativně."
+      "body": "Ve všech otázkách spojených s prací služby, přístupem, platbou a podporou nám napište na help@raqoon.app. Snažíme se odpovídat maximálně operativně."
     },
     "refund": {
       "title": "Zásady vrácení",
-      "body": "Zásady vrácení\nDatum účinnosti: 1. března 2026\n\n1. Pokud je předplatné zakoupeno přes App Store, vrácení peněžních prostředků, zrušení předplatného a další související otázky se regulují pravidly App Store.\n\n2. Pokud byl nákup proveden mimo App Store, pak v souladu s čl. 15(ğ) „Nařízení o distančních smlouvách“ (Mesafeli Sözleşmeler Yönetmeliği) služba nepodléhá vrácení ani výměně.\n\n3. V otázkách platby se můžete obrátit na podporu: hello@raqoon.app."
+      "body": "Zásady vrácení\nDatum účinnosti: 1. března 2026\n\n1. Pokud je předplatné zakoupeno přes App Store, vrácení peněžních prostředků, zrušení předplatného a další související otázky se regulují pravidly App Store.\n\n2. Pokud byl nákup proveden mimo App Store, pak v souladu s čl. 15(ğ) „Nařízení o distančních smlouvách“ (Mesafeli Sözleşmeler Yönetmeliği) služba nepodléhá vrácení ani výměně.\n\n3. V otázkách platby se můžete obrátit na podporu: help@raqoon.app."
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "Podmínky používání",
     "contact": "Kontakty",
     "refund": "Zásady vrácení",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "Doporučovací program"
   },
   "lang": {
     "ru": "RU",

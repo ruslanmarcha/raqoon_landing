@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — การเข้าถึงเครือข่ายที่เชื่อถือได้ของคุณ",
     "downloadOgDescriptionWW": "ดาวน์โหลด Raqoon VPN: มั่นใจในความปลอดภัยของทราฟฟิกด้วยการกดเพียงครั้งเดียว เราไม่เก็บข้อมูล — เราปกป้องความเป็นส่วนตัว",
     "aboutTitleWW": "เกี่ยวกับบริษัท — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. พัฒนา Raqoon VPN สำนักงานในอังการา ประเทศตุรกี สนับสนุนโดย: hello@raqoon.app",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. พัฒนา Raqoon VPN สำนักงานในอังการา ประเทศตุรกี สนับสนุนโดย: help@raqoon.app",
     "privacyTitleWW": "นโยบายความเป็นส่วนตัว — Raqoon VPN",
     "privacyDescriptionWW": "นโยบายความเป็นส่วนตัวของ Raqoon VPN: ไม่มีการบันทึกกิจกรรม ไม่มีการวิเคราะห์เนื้อหาทราฟฟิก การชำระเงิน และการคุ้มครองข้อมูล",
     "termsTitleWW": "ข้อตกลงผู้ใช้งาน — Raqoon VPN",
     "termsDescriptionWW": "ข้อเสนอสาธารณะและเงื่อนไขการใช้งาน Raqoon VPN: การสมัครสมาชิก กฎการใช้งาน และความรับผิดชอบ",
     "contactTitleWW": "ติดต่อเรา — Raqoon VPN",
-    "contactDescriptionWW": "ติดต่อฝ่ายสนับสนุน Raqoon: การชำระเงิน การเข้าถึง ปัญหาทางเทคนิค อีเมล: hello@raqoon.app",
+    "contactDescriptionWW": "ติดต่อฝ่ายสนับสนุน Raqoon: การชำระเงิน การเข้าถึง ปัญหาทางเทคนิค อีเมล: help@raqoon.app",
     "refundTitleWW": "นโยบายการคืนเงิน — Raqoon VPN",
-    "refundDescriptionWW": "การคืนเงินสำหรับการสมัครสมาชิกใน App Store เป็นไปตามกฎของ Apple สอบถามเกี่ยวกับการชำระเงิน: hello@raqoon.app",
+    "refundDescriptionWW": "การคืนเงินสำหรับการสมัครสมาชิกใน App Store เป็นไปตามกฎของ Apple สอบถามเกี่ยวกับการชำระเงิน: help@raqoon.app",
     "migrationTitleRU": "ย้ายจาก IZI มา Raqoon — คำแนะนำ",
-    "migrationDescriptionRU": "ย้ายจาก IZI VPN มา Raqoon: เชื่อมต่อกับ @raqoonbot ใน Telegram เพื่อย้ายมายังบริการใหม่"
+    "migrationDescriptionRU": "ย้ายจาก IZI VPN มา Raqoon: เชื่อมต่อกับ @raqoonbot ใน Telegram เพื่อย้ายมายังบริการใหม่",
+    "referralTitleWW": "โปรแกรมแนะนำ — Raqoon VPN",
+    "referralDescriptionWW": "เชิญเพื่อน แชร์โค้ดโปร และรับวันโบนัสเมื่อพวกเขาสมัครสมาชิก",
+    "referralOgTitleWW": "แนะนำ Raqoon — วันโบนัสจากการเชิญ",
+    "referralOgDescriptionWW": "รับโค้ดจากบอทหรือแอป แชร์ และรับสูงสุด 30 วันโบนัส"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "เร็วๆ นี้ใน Google Play",
     "badgeAriaMacAppStore": "เร็วๆ นี้ใน Mac App Store"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "เชิญเพื่อน — ฟรีสูงสุด 30 วัน",
+        "แชร์การเข้าถึง — รับวันโบนัส",
+        "พาเพื่อนมาและรับสมาชิกฟรี"
+      ],
+      "subtitle": "แชร์โค้ดโปรและรับวันโบนัสเมื่อเพื่อนจ่ายเงิน",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "ทำงานอย่างไร",
+      "steps": [
+        "รับโค้ดโปรใน Telegram bot หรือในแอป",
+        "ส่งโค้ดให้เพื่อน",
+        "เพื่อนจ่ายค่าสมาชิก",
+        "คุณได้รับวันโบนัส"
+      ]
+    },
+    "friendBonus": {
+      "title": "โบนัสให้เพื่อน",
+      "description": "เพื่อนได้ +10 วันฟรีหลังจ่ายเดือนแรก"
+    },
+    "yourReward": {
+      "title": "รางวัลของคุณ",
+      "description": "ยิ่งเพื่อนจ่ายนาน คุณยิ่งได้วันโบนัสมาก",
+      "rows": [
+        {
+          "period": "1–5 เดือน",
+          "bonus": "+7 วัน"
+        },
+        {
+          "period": "6–11 เดือน",
+          "bonus": "+14 วัน"
+        },
+        {
+          "period": "12+ เดือน",
+          "bonus": "+30 วัน"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "เงื่อนไขการให้โบนัส",
+      "description": "โบนัสจะให้เฉพาะเมื่อคุณมีสมาชิกที่ใช้งานอยู่"
+    },
+    "timing": {
+      "title": "เวลาให้โบนัส",
+      "description": "โบนัสมักมาทันที สูงสุดไม่เกิน 7 วัน"
+    },
+    "limits": {
+      "title": "ข้อจำกัด",
+      "items": [
+        "วันโบนัสถอนเป็นเงินหรือแลกเงินไม่ได้",
+        "โค้ดโปรใช้ร่วมกับโปรอื่นไม่ได้",
+        "โค้ดใช้ได้เฉพาะการชำระครั้งแรก"
+      ]
+    },
+    "important": {
+      "title": "สำคัญ",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "โค้ดโปรเก่าใช้ไม่ได้แล้ว",
+      "useNew": "ใช้โค้ดโปรใหม่จาก:",
+      "sources": [
+        "Telegram bot ของ Raqoon.",
+        "แอปมือถือ Raqoon."
+      ]
+    },
+    "reuse": {
+      "title": "การใช้โค้ดซ้ำ",
+      "description": "หากการชำระไม่สำเร็จหรือยกเลิก จะใช้โค้ดซ้ำไม่ได้"
+    },
+    "campaign": {
+      "title": "ระยะเวลาแคมเปญ",
+      "inline": "{{title}}. {{description}}",
+      "description": "แคมเปญถึง 31 ธ.ค. 2026 และอาจต่ออายุได้"
+    },
+    "share": {
+      "title": "โค้ดแนะนำ Raqoon",
+      "text": "เข้าร่วมด้วยโค้ดของฉัน:"
+    },
+    "micro": {
+      "copyPromo": "คัดลอกโค้ด",
+      "getPromo": "รับโค้ดโปร",
+      "share": "แชร์",
+      "copySuccess": "คัดลอกโค้ดแล้ว",
+      "applyError": "ใช้โค้ดไม่ได้ ลองใหม่หรือติดต่อฝ่ายสนับสนุน"
+    }
+  },
   "about": {
     "title": "เกี่ยวกับบริษัท",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "อีเมล:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "ข้อมูลสำคัญ",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. รับรองการพัฒนาและสนับสนุนบริการดิจิทัลของ Raqoon เราให้ความสำคัญสูงสุดกับความโปร่งใสของกระบวนการ การคุ้มครองข้อมูลส่วนบุคคล และคุณภาพการบริการลูกค้า บริษัทดำเนินงานตามข้อกำหนดทางกฎหมายที่เกี่ยวข้องและมาตรฐานความปลอดภัยภายใน",
     "mapEmbedUrl": "https://yandex.ru/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "ติดต่อเรา",
-      "body": "สำหรับคำถามทั้งหมดที่เกี่ยวข้องกับการทำงานของบริการ การเข้าถึง การชำระเงิน และการสนับสนุน โปรดส่งอีเมลถึงเราที่ hello@raqoon.app เราจะพยายามตอบกลับโดยเร็วที่สุด"
+      "body": "สำหรับคำถามทั้งหมดที่เกี่ยวข้องกับการทำงานของบริการ การเข้าถึง การชำระเงิน และการสนับสนุน โปรดส่งอีเมลถึงเราที่ help@raqoon.app เราจะพยายามตอบกลับโดยเร็วที่สุด"
     },
     "refund": {
       "title": "นโยบายการคืนเงิน",
-      "body": "นโยบายการคืนเงิน\nวันที่มีผลบังคับใช้: 1 มีนาคม 2026\n\n1. หากการสมัครสมาชิกผ่าน App Store การคืนเงิน การยกเลิก และปัญหาอื่นๆ ที่เกี่ยวข้องจะเป็นไปตามกฎของ App Store\n\n2. หากเป็นการซื้อผ่านช่องทางอื่นนอกเหนือจาก App Store ตามมาตรา 15(ğ) ของ «ข้อบังคับเกี่ยวกับสัญญาทางไกล» (Mesafeli Sözleşmeler Yönetmeliği) บริการนี้จะไม่สามารถคืนเงินหรือเปลี่ยนคืนได้\n\n3. สำหรับปัญหาเรื่องการชำระเงิน คุณสามารถติดต่อฝ่ายสนับสนุนได้ที่: hello@raqoon.app"
+      "body": "นโยบายการคืนเงิน\nวันที่มีผลบังคับใช้: 1 มีนาคม 2026\n\n1. หากการสมัครสมาชิกผ่าน App Store การคืนเงิน การยกเลิก และปัญหาอื่นๆ ที่เกี่ยวข้องจะเป็นไปตามกฎของ App Store\n\n2. หากเป็นการซื้อผ่านช่องทางอื่นนอกเหนือจาก App Store ตามมาตรา 15(ğ) ของ «ข้อบังคับเกี่ยวกับสัญญาทางไกล» (Mesafeli Sözleşmeler Yönetmeliği) บริการนี้จะไม่สามารถคืนเงินหรือเปลี่ยนคืนได้\n\n3. สำหรับปัญหาเรื่องการชำระเงิน คุณสามารถติดต่อฝ่ายสนับสนุนได้ที่: help@raqoon.app"
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "เงื่อนไขการใช้งาน",
     "contact": "ติดต่อเรา",
     "refund": "นโยบายการคืนเงิน",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "โปรแกรมแนะนำ"
   },
   "lang": {
     "ru": "RU",

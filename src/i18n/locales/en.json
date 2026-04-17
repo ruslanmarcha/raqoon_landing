@@ -9,15 +9,19 @@
     "downloadOgTitleWW": "Raqoon — Your reliable access to the web",
     "downloadOgDescriptionWW": "Download Raqoon VPN: secure your traffic with one tap. We don’t collect data — we protect privacy.",
     "aboutTitleWW": "About the company — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. develops Raqoon VPN. Office in Ankara, Türkiye. Support: hello@raqoon.app.",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. develops Raqoon VPN. Office in Ankara, Türkiye. Support: help@raqoon.app.",
     "privacyTitleWW": "Privacy Policy — Raqoon VPN",
     "privacyDescriptionWW": "Raqoon VPN Privacy Policy: zero activity logs, no traffic content analysis, payment and data protection.",
     "termsTitleWW": "Terms of Service — Raqoon VPN",
     "termsDescriptionWW": "Public offer and conditions of use for Raqoon VPN: subscription, usage rules, liability.",
     "contactTitleWW": "Contacts — Raqoon VPN",
-    "contactDescriptionWW": "Contact Raqoon support: billing, access, technical issues. Email: hello@raqoon.app.",
+    "contactDescriptionWW": "Contact Raqoon support: billing, access, technical issues. Email: help@raqoon.app.",
     "refundTitleWW": "Refund Policy — Raqoon VPN",
-    "refundDescriptionWW": "Refunds for App Store subscriptions follow Apple's rules. Payment inquiries: hello@raqoon.app.",
+    "refundDescriptionWW": "Refunds for App Store subscriptions follow Apple's rules. Payment inquiries: help@raqoon.app.",
+    "referralTitleWW": "Referral program — Raqoon VPN",
+    "referralDescriptionWW": "Invite friends, share your promo code, and earn bonus days when they subscribe.",
+    "referralOgTitleWW": "Raqoon referral — bonus days for invites",
+    "referralOgDescriptionWW": "Get a promo code in the bot or app, share it with friends, and receive up to 30 bonus days.",
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
     "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service."
   },
@@ -274,7 +278,7 @@
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye",
     "emailLabel": "Email:",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "Key details",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. ensures the development and support of Raqoon digital services. We prioritize process transparency, personal data protection, and customer service quality. The company operates in accordance with applicable legal requirements and internal security standards.",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -290,11 +294,11 @@
     },
     "contact": {
       "title": "Contacts",
-      "body": "For all issues related to service operation, access, payment, and support, write to us at hello@raqoon.app. We try to respond as quickly as possible."
+      "body": "For all issues related to service operation, access, payment, and support, write to us at help@raqoon.app. We try to respond as quickly as possible."
     },
     "refund": {
       "title": "Refund Policy",
-      "body": "Refund Policy\nEffective Date: March 1, 2026\n\n1. If the subscription is issued through the App Store, refunds, subscription cancellation, and other related issues are regulated by App Store rules.\n\n2. If the purchase was made not through the App Store, then in accordance with Art. 15(ğ) of the \"Regulation on Distance Contracts\" (Mesafeli Sözleşmeler Yönetmeliği), the service is not subject to refund or exchange.\n\n3. For payment issues, you can contact support: hello@raqoon.app."
+      "body": "Refund Policy\nEffective Date: March 1, 2026\n\n1. If the subscription is issued through the App Store, refunds, subscription cancellation, and other related issues are regulated by App Store rules.\n\n2. If the purchase was made not through the App Store, then in accordance with Art. 15(ğ) of the \"Regulation on Distance Contracts\" (Mesafeli Sözleşmeler Yönetmeliği), the service is not subject to refund or exchange.\n\n3. For payment issues, you can contact support: help@raqoon.app."
     }
   },
   "notFound": {

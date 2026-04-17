@@ -9,17 +9,21 @@
     "downloadOgTitleWW": "Raqoon — 你在网络中可靠的切入点",
     "downloadOgDescriptionWW": "下载 Raqoon VPN：一键确保流量安全。我们不收集数据 — 我们保护隐私。",
     "aboutTitleWW": "关于公司 — Raqoon VPN",
-    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. 开发 Raqoon VPN。办公室位于土耳其安卡拉。支持邮箱：hello@raqoon.app。",
+    "aboutDescriptionWW": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. 开发 Raqoon VPN。办公室位于土耳其安卡拉。支持邮箱：help@raqoon.app。",
     "privacyTitleWW": "隐私政策 — Raqoon VPN",
     "privacyDescriptionWW": "Raqoon VPN 隐私政策：无活动日志、不分析流量内容、支付与数据保护。",
     "termsTitleWW": "用户协议 — Raqoon VPN",
     "termsDescriptionWW": "Raqoon VPN 公开要约及使用条件：订阅、使用规则、责任范围。",
     "contactTitleWW": "联系方式 — Raqoon VPN",
-    "contactDescriptionWW": "联系 Raqoon 支持：账单、访问、技术问题。邮箱：hello@raqoon.app。",
+    "contactDescriptionWW": "联系 Raqoon 支持：账单、访问、技术问题。邮箱：help@raqoon.app。",
     "refundTitleWW": "退款政策 — Raqoon VPN",
-    "refundDescriptionWW": "App Store 订阅退款遵循 Apple 规则。支付咨询：hello@raqoon.app。",
+    "refundDescriptionWW": "App Store 订阅退款遵循 Apple 规则。支付咨询：help@raqoon.app。",
     "migrationTitleRU": "从 IZI 迁移到 Raqoon — 指南",
-    "migrationDescriptionRU": "从 IZI VPN 迁移到 Raqoon：在 Telegram 上连接 @raqoonbot 并迁移到新服务。"
+    "migrationDescriptionRU": "从 IZI VPN 迁移到 Raqoon：在 Telegram 上连接 @raqoonbot 并迁移到新服务。",
+    "referralTitleWW": "推荐计划 — Raqoon VPN",
+    "referralDescriptionWW": "邀请好友、分享优惠码，好友订阅即可获得奖励天数。",
+    "referralOgTitleWW": "Raqoon 推荐 — 邀请得奖励天数",
+    "referralOgDescriptionWW": "在机器人或应用获取优惠码并分享，最多可得 30 天奖励。"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -176,12 +180,100 @@
     "badgeAriaGooglePlay": "即将在 Google Play 推出",
     "badgeAriaMacAppStore": "即将在 Mac App Store 推出"
   },
+  "referralPage": {
+    "hero": {
+      "titleVariants": [
+        "邀请好友 — 最多 30 天免费",
+        "分享访问 — 获得奖励天数",
+        "带来好友，赢取免费订阅"
+      ],
+      "subtitle": "分享优惠码，好友付款即可获得奖励天数。",
+      "mockPromo": "RAQOON-FRIEND"
+    },
+    "howItWorks": {
+      "title": "如何运作",
+      "steps": [
+        "在 Telegram 机器人或应用中获取优惠码。",
+        "把码发给好友。",
+        "好友支付订阅。",
+        "你获得奖励天数。"
+      ]
+    },
+    "friendBonus": {
+      "title": "好友奖励",
+      "description": "好友支付首月后可获得 +10 天免费。"
+    },
+    "yourReward": {
+      "title": "你的奖励",
+      "description": "好友付费越久，你获得的奖励天数越多。",
+      "rows": [
+        {
+          "period": "1–5 个月",
+          "bonus": "+7 天"
+        },
+        {
+          "period": "6–11 个月",
+          "bonus": "+14 天"
+        },
+        {
+          "period": "12 个月以上",
+          "bonus": "+30 天"
+        }
+      ]
+    },
+    "accrual": {
+      "title": "发放条件",
+      "description": "仅在你有有效订阅时才会发放奖励。"
+    },
+    "timing": {
+      "title": "到账时间",
+      "description": "奖励通常立即到账，最长不超过 7 天。"
+    },
+    "limits": {
+      "title": "限制",
+      "items": [
+        "奖励天数不可提现或兑换现金。",
+        "优惠码不可与其他活动叠加。",
+        "优惠码仅适用于首次付款。"
+      ]
+    },
+    "important": {
+      "title": "重要提示",
+      "inline": "{{title}}: {{oldCode}}",
+      "oldCode": "旧优惠码已失效。",
+      "useNew": "请使用来自以下渠道的新优惠码：",
+      "sources": [
+        "Raqoon Telegram 机器人。",
+        "Raqoon 手机应用。"
+      ]
+    },
+    "reuse": {
+      "title": "优惠码重复使用",
+      "description": "若付款未完成或已取消，优惠码不可再次使用。"
+    },
+    "campaign": {
+      "title": "活动期限",
+      "inline": "{{title}}. {{description}}",
+      "description": "活动有效期至 2026 年 12 月 31 日，可能延长。"
+    },
+    "share": {
+      "title": "Raqoon 推荐优惠码",
+      "text": "使用我的优惠码加入："
+    },
+    "micro": {
+      "copyPromo": "复制优惠码",
+      "getPromo": "获取优惠码",
+      "share": "分享",
+      "copySuccess": "已复制优惠码",
+      "applyError": "无法应用优惠码，请稍后重试或联系客服。"
+    }
+  },
   "about": {
     "title": "关于公司",
     "company": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.",
     "address": "土耳其安卡拉市 Çankaya 区，İlkadım 社区，Yeşil Vadi 大道 41 号，Ankara Teknoloji Köprüsü 孵化中心 办公室 36，邮编 06450",
     "emailLabel": "邮箱：",
-    "email": "hello@raqoon.app",
+    "email": "help@raqoon.app",
     "keyPointsTitle": "关键信息",
     "keyPointsBody": "Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. 负责 Raqoon 数字服务的开发与支持。我们优先关注流程透明度、个人数据保护以及客户服务质量。公司按照现行法律要求和内部安全标准运营。",
     "mapEmbedUrl": "https://yandex.com/map-widget/v1/?text=%C4%B0lkad%C4%B1m%20Mahallesi%2C%20Ye%C5%9Fil%20Vadi%20Caddesi%20No%3A%2041%2C%20Ofis%20No%3A%2036%2C%2006450%20%C3%87ankaya%2FAnkara%2C%20T%C3%BCrkiye&z=16"
@@ -197,11 +289,11 @@
     },
     "contact": {
       "title": "联系方式",
-      "body": "如有关于服务运行、访问、支付及支持的所有问题，请发送邮件至 hello@raqoon.app。我们会尽快回复。"
+      "body": "如有关于服务运行、访问、支付及支持的所有问题，请发送邮件至 help@raqoon.app。我们会尽快回复。"
     },
     "refund": {
       "title": "退款政策",
-      "body": "退款政策\n生效日期：2026 年 3 月 1 日\n\n1. 如果订阅是通过 App Store 办理的，退款、取消订阅及其他相关问题均受 App Store 规则约束。\n\n2. 如果购买不是通过 App Store 进行的，则根据《远程合同条例》(Mesafeli Sözleşmeler Yönetmeliği) 第 15(ğ) 条，服务不予退换。\n\n3. 有关支付问题，您可以咨询支持人员：hello@raqoon.app。"
+      "body": "退款政策\n生效日期：2026 年 3 月 1 日\n\n1. 如果订阅是通过 App Store 办理的，退款、取消订阅及其他相关问题均受 App Store 规则约束。\n\n2. 如果购买不是通过 App Store 进行的，则根据《远程合同条例》(Mesafeli Sözleşmeler Yönetmeliği) 第 15(ğ) 条，服务不予退换。\n\n3. 有关支付问题，您可以咨询支持人员：help@raqoon.app。"
     }
   },
   "notFound": {
@@ -223,7 +315,8 @@
     "terms": "使用条款",
     "contact": "联系方式",
     "refund": "退款政策",
-    "copy": "© 2026 Raqoon"
+    "copy": "© 2026 Raqoon",
+    "referral": "推荐计划"
   },
   "lang": {
     "ru": "RU",

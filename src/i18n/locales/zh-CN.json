@@ -23,7 +23,11 @@
     "referralTitleWW": "推荐计划 — Raqoon VPN",
     "referralDescriptionWW": "邀请好友、分享优惠码，好友订阅即可获得奖励天数。",
     "referralOgTitleWW": "Raqoon 推荐 — 邀请得奖励天数",
-    "referralOgDescriptionWW": "在机器人或应用获取优惠码并分享，最多可得 30 天奖励。"
+    "referralOgDescriptionWW": "在机器人或应用获取优惠码并分享，最多可得 30 天奖励。",
+    "turkiyeTitleWW": "在土耳其暂不可用 — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN 目前无法向位于土耳其或通过土耳其连接的用户提供。我们希望未来情况会有所改变。",
+    "turkiyeOgTitleWW": "Raqoon 目前在土耳其不可用",
+    "turkiyeOgDescriptionWW": "非常抱歉 — 我们暂时无法在土耳其提供服务。希望有一天能再次与您相见。"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "我们正在进行最后的打磨！订阅很快就会开放。",
-    "comingSoonOk": "迫不及待",
-    "turkeyDownloadUnavailable": "很抱歉，Raqoon 在土耳其境内暂不提供下载。"
+    "comingSoonOk": "迫不及待"
+  },
+  "turkiyePage": {
+    "title": "Raqoon 目前在土耳其不可用",
+    "lead": "我们深感抱歉 — 现阶段我们无法向位于土耳其或从土耳其连接的用户提供 Raqoon VPN。",
+    "closing": "希望有一天情况会改变 — 我们期待再次与您相见。"
   },
   "downloadPage": {
     "heroTitle": "无需银行卡。无需邮箱。只有你的安全。",

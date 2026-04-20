@@ -23,7 +23,11 @@
     "referralTitleWW": "Doporučovací program — Raqoon VPN",
     "referralDescriptionWW": "Pozvi přátele, sdílej promo kód a získej bonusové dny, až si předplatí.",
     "referralOgTitleWW": "Raqoon doporučení — bonusové dny za pozvánky",
-    "referralOgDescriptionWW": "Získej kód v botovi nebo v aplikaci, sdílej ho a získej až 30 bonusových dní."
+    "referralOgDescriptionWW": "Získej kód v botovi nebo v aplikaci, sdílej ho a získej až 30 bonusových dní.",
+    "turkiyeTitleWW": "Nedostupné v Turecku — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN není dostupný pro uživatele v Turecku ani pro připojení z Turecka. Doufáme, že se to změní.",
+    "turkiyeOgTitleWW": "Raqoon je v Turecku momentálně nedostupný",
+    "turkiyeOgDescriptionWW": "Je nám líto — službu v Turecku zatím nemůžeme nabízet. Doufáme, že vás jednou znovu přivítáme."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "Ladíme poslední detaily! Již brzy bude předplatné dostupné.",
-    "comingSoonOk": "Nemůžu se dočkat",
-    "turkeyDownloadUnavailable": "Bohužel, Raqoon není dostupný ke stažení na území Turecka."
+    "comingSoonOk": "Nemůžu se dočkat"
+  },
+  "turkiyePage": {
+    "title": "Raqoon je v Turecku momentálně nedostupný",
+    "lead": "Opravdu nám je líto — zatím nemůžeme nabízet Raqoon VPN uživatelům, kteří jsou v Turecku nebo se připojují odtud.",
+    "closing": "Doufáme, že se to jednou změní — a rádi vás zase uvidíme."
   },
   "downloadPage": {
     "heroTitle": "Žádné karty. Žádný e-mail. Jen tvé bezpečí.",

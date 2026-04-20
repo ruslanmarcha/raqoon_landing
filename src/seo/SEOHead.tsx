@@ -13,6 +13,7 @@ export type SeoPage =
   | 'contact'
   | 'refund'
   | 'referral'
+  | 'turkiye'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -20,6 +21,10 @@ interface SEOHeadProps {
   page?: SeoPage
   /** Force RU/WW meta keys (e.g. migration content is always Russian). */
   metaLocale?: 'ru' | 'ww'
+  /** Override default robots meta (e.g. geo notice pages). */
+  robots?: string
+  /** Include JSON-LD graph (off for minimal stub pages). */
+  includeStructuredData?: boolean
 }
 
 function resolveOgLocale(lng: string, lang: 'ru' | 'en'): string {
@@ -27,7 +32,6 @@ function resolveOgLocale(lng: string, lang: 'ru' | 'en'): string {
   if (lang === 'ru') return 'ru_RU'
   if (lower.startsWith('zh')) return 'zh_CN'
   if (lower.startsWith('pt')) return 'pt_BR'
-  if (lower.startsWith('tr')) return 'tr_TR'
   if (lower.startsWith('ja')) return 'ja_JP'
   if (lower.startsWith('ko')) return 'ko_KR'
   if (lower.startsWith('ar')) return 'ar_SA'
@@ -54,6 +58,13 @@ function resolveMeta(
         description: t(`meta.referralDescription${suffix}`),
         ogTitle: t(`meta.referralOgTitle${suffix}`),
         ogDescription: t(`meta.referralOgDescription${suffix}`),
+      }
+    case 'turkiye':
+      return {
+        title: t(`meta.turkiyeTitle${suffix}`),
+        description: t(`meta.turkiyeDescription${suffix}`),
+        ogTitle: t(`meta.turkiyeOgTitle${suffix}`),
+        ogDescription: t(`meta.turkiyeOgDescription${suffix}`),
       }
     case 'about':
       return {
@@ -89,7 +100,14 @@ function resolveMeta(
   }
 }
 
-export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }: SEOHeadProps) {
+export function SEOHead({
+  variant,
+  canonicalUrl,
+  page = 'default',
+  metaLocale,
+  robots = 'index, follow',
+  includeStructuredData = true,
+}: SEOHeadProps) {
   const { t, i18n } = useTranslation()
   const { pathname } = useLocation()
   const lng = i18n.language
@@ -115,6 +133,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }:
   const ogLocaleAlternate = lang === 'ru' ? 'en_US' : 'ru_RU'
 
   const jsonLd =
+    includeStructuredData &&
     origin &&
     JSON.stringify({
       '@context': 'https://schema.org',
@@ -156,7 +175,7 @@ export function SEOHead({ variant, canonicalUrl, page = 'default', metaLocale }:
       <html lang={lng} />
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="robots" content="index, follow" />
+      <meta name="robots" content={robots} />
       <meta name="author" content="Raqoon" />
       <meta name="theme-color" content="#00000a" />
       <meta name="format-detection" content="telephone=no" />

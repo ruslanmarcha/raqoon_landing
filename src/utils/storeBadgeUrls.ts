@@ -34,7 +34,6 @@ function resolveGoogleBadgeSpec(language: string): GoogleBadgeSpec {
   if (lower.startsWith('pl')) return { intlPath: 'pl_pl', filePrefix: 'pl' }
   if (lower.startsWith('cs')) return { intlPath: 'cs_cz', filePrefix: 'cs' }
   if (lower.startsWith('ar')) return { intlPath: 'ar', filePrefix: 'ar' }
-  if (lower.startsWith('tr')) return { intlPath: 'tr_tr', filePrefix: 'tr' }
   if (lower.startsWith('id')) return { intlPath: 'id_id', filePrefix: 'id' }
   if (lower.startsWith('th')) return { intlPath: 'th_th', filePrefix: 'th' }
   if (lower.startsWith('ja')) return { intlPath: 'ja_jp', filePrefix: 'ja' }
@@ -51,7 +50,7 @@ function resolveGoogleBadgeSpec(language: string): GoogleBadgeSpec {
 
 /**
  * Локализованные PNG Google Play с CDN имеют разное «воздушное» поле в файле.
- * ru / tr сверены визуально; остальным языкам нужен чуть больший scale, чтобы высота
+ * ru сверен визуально; остальным языкам нужен чуть больший scale, чтобы высота
  * совпадала с эталоном (как в русской локали).
  */
 export function getGooglePlayBadgeVisualScale(language: string): {
@@ -59,7 +58,7 @@ export function getGooglePlayBadgeVisualScale(language: string): {
   md: number
 } {
   const lower = language.trim().toLowerCase()
-  if (lower.startsWith('ru') || lower.startsWith('tr')) {
+  if (lower.startsWith('ru')) {
     return { sm: 1.32, md: 1.28 }
   }
   return { sm: 1.42, md: 1.38 }

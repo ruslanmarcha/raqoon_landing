@@ -4,7 +4,6 @@ import { HelmetProvider } from 'react-helmet-async'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
 import { ConsentCookieBanner } from './components/ConsentCookieBanner/ConsentCookieBanner'
-import { TurkeyAvailabilityNotice } from './components/TurkeyAvailabilityNotice/TurkeyAvailabilityNotice'
 
 const LandingRU = lazy(() => import('./pages/LandingRU').then((m) => ({ default: m.LandingRU })))
 const LandingWW = lazy(() => import('./pages/LandingWW').then((m) => ({ default: m.LandingWW })))
@@ -12,6 +11,7 @@ const MigrationRU = lazy(() => import('./pages/MigrationRU').then((m) => ({ defa
 const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ default: m.AboutCompany })))
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
+const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
@@ -55,6 +55,8 @@ type AppProps = {
 }
 
 export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVisitor }: AppProps) {
+  const isTurkeyVisitor = countryCode === 'TR'
+
   return (
     <HelmetProvider>
       <ComingSoonProvider>
@@ -68,28 +70,36 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
             <Suspense fallback={<LoadingFallback />}>
               <>
                 <Routes>
-                  <Route path="/" element={<LandingRU />} />
-                  <Route path="/ww" element={<LandingWW />} />
-                  <Route path="/migration" element={<MigrationRU />} />
-                  <Route path="/download" element={<DownloadPage />} />
-                  <Route path="/referral" element={<ReferralPage />} />
-                  <Route path="/about" element={<AboutCompany />} />
-                  <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
-                  <Route path="/terms" element={<LegalPage legalKey="terms" />} />
-                  <Route path="/contact" element={<LegalPage legalKey="contact" />} />
-                  <Route path="/refund" element={<LegalPage legalKey="refund" />} />
-                  <Route path="/faq" element={<FAQPageRU />} />
-                  <Route path="/app" element={<FAQPageRU />} />
-                  <Route path="/payment_ok" element={<PaymentOkPage />} />
-                  <Route path="/apple/payment_ok" element={<RedirectToPaymentOk />} />
-                  <Route path="/android/payment_ok" element={<RedirectToPaymentOk />} />
-                  <Route path="/payment_fail" element={<PaymentFailPage />} />
-                  <Route path="/apple/payment_fail" element={<RedirectToPaymentFail />} />
-                  <Route path="/android/payment_fail" element={<RedirectToPaymentFail />} />
-                  <Route path="*" element={<NotFoundPage />} />
+                  {isTurkeyVisitor ? (
+                    <>
+                      <Route path="/turkiye" element={<TurkiyePage />} />
+                      <Route path="*" element={<Navigate to="/turkiye" replace />} />
+                    </>
+                  ) : (
+                    <>
+                      <Route path="/" element={<LandingRU />} />
+                      <Route path="/ww" element={<LandingWW />} />
+                      <Route path="/migration" element={<MigrationRU />} />
+                      <Route path="/download" element={<DownloadPage />} />
+                      <Route path="/referral" element={<ReferralPage />} />
+                      <Route path="/about" element={<AboutCompany />} />
+                      <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
+                      <Route path="/terms" element={<LegalPage legalKey="terms" />} />
+                      <Route path="/contact" element={<LegalPage legalKey="contact" />} />
+                      <Route path="/refund" element={<LegalPage legalKey="refund" />} />
+                      <Route path="/faq" element={<FAQPageRU />} />
+                      <Route path="/app" element={<FAQPageRU />} />
+                      <Route path="/payment_ok" element={<PaymentOkPage />} />
+                      <Route path="/apple/payment_ok" element={<RedirectToPaymentOk />} />
+                      <Route path="/android/payment_ok" element={<RedirectToPaymentOk />} />
+                      <Route path="/payment_fail" element={<PaymentFailPage />} />
+                      <Route path="/apple/payment_fail" element={<RedirectToPaymentFail />} />
+                      <Route path="/android/payment_fail" element={<RedirectToPaymentFail />} />
+                      <Route path="*" element={<NotFoundPage />} />
+                    </>
+                  )}
                 </Routes>
                 <ConsentCookieBanner />
-                <TurkeyAvailabilityNotice />
               </>
             </Suspense>
           </BrowserRouter>

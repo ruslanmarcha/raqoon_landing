@@ -23,7 +23,11 @@
     "referralTitleWW": "Programme de parrainage — Raqoon VPN",
     "referralDescriptionWW": "Invite des amis, partage ton code promo et gagne des jours bonus quand ils s’abonnent.",
     "referralOgTitleWW": "Parrainage Raqoon — jours bonus pour les invitations",
-    "referralOgDescriptionWW": "Obtiens le code dans le bot ou l’app, partage-le et reçois jusqu’à 30 jours bonus."
+    "referralOgDescriptionWW": "Obtiens le code dans le bot ou l’app, partage-le et reçois jusqu’à 30 jours bonus.",
+    "turkiyeTitleWW": "Indisponible en Turquie — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN n’est pas disponible pour les utilisateurs situés en Turquie ou se connectant depuis la Turquie. Nous espérons que cela changera.",
+    "turkiyeOgTitleWW": "Raqoon n’est pas disponible en Turquie pour le moment",
+    "turkiyeOgDescriptionWW": "Nous sommes désolés — le service ne peut pas être proposé en Turquie pour l’instant. Nous espérons vous accueillir à nouveau un jour."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "Nous apportons les dernières touches ! L'abonnement sera disponible très bientôt.",
-    "comingSoonOk": "J'ai hâte",
-    "turkeyDownloadUnavailable": "Malheureusement, Raqoon n'est pas disponible au téléchargement sur le territoire de la Turquie."
+    "comingSoonOk": "J'ai hâte"
+  },
+  "turkiyePage": {
+    "title": "Raqoon n’est pas disponible en Turquie pour le moment",
+    "lead": "Nous sommes sincèrement désolés — pour l’instant, nous ne pouvons pas proposer Raqoon VPN aux personnes situées en Turquie ou qui se connectent depuis la Turquie.",
+    "closing": "Nous espérons qu’un jour cela changera — et ce sera un plaisir de vous retrouver."
   },
   "downloadPage": {
     "heroTitle": "Pas de carte. Pas d'e-mail. Juste ta sécurité.",

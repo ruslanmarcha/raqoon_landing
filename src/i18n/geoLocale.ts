@@ -40,7 +40,7 @@ const COUNTRY_TO_LANGUAGE: Record<string, string> = {
   RO: 'ro',
   HU: 'hu',
   GR: 'el',
-  TR: 'tr',
+  TR: 'en',
   UA: 'uk',
   CN: 'zh-CN',
   TW: 'en',
@@ -161,7 +161,7 @@ function buildAllowedLanguages(
     return supportedLngs.filter((locale) => locale !== 'cimode')
   }
 
-  const candidates = [primaryLocale, 'ru', 'tr']
+  const candidates = [primaryLocale, 'ru']
   return candidates.filter(
     (locale, index, list) => list.indexOf(locale) === index && isLocaleSupported(locale, supportedLngs),
   )
@@ -182,12 +182,12 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
 
   if (countryCode === 'TR') {
     const preferred = getStoredLanguage()
+    const normalizedPreferred =
+      preferred === 'tr' ? null : preferred
     const locale =
-      preferred && isLocaleSupported(preferred, supportedLngs)
-        ? preferred
-        : isLocaleSupported('tr', supportedLngs)
-          ? 'tr'
-          : 'en'
+      normalizedPreferred && isLocaleSupported(normalizedPreferred, supportedLngs)
+        ? normalizedPreferred
+        : 'en'
 
     return {
       locale,

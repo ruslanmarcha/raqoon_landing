@@ -13,7 +13,6 @@ import ptBR from './locales/pt-BR.json'
 import ru from './locales/ru.json'
 import th from './locales/th.json'
 import tl from './locales/tl.json'
-import tr from './locales/tr.json'
 import zhCN from './locales/zh-CN.json'
 
 i18next
@@ -33,7 +32,6 @@ i18next
       id: { translation: id },
       ja: { translation: ja },
       ko: { translation: ko },
-      tr: { translation: tr },
       'zh-CN': { translation: zhCN },
     },
     fallbackLng: 'en',
@@ -51,7 +49,6 @@ i18next
       'id',
       'ja',
       'ko',
-      'tr',
       'zh-CN',
     ],
     lng: 'en',

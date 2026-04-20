@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { applyUserConsentChoice, readStoredConsent, type StoredConsent } from '@/analytics/googleTagConsent'
 import { useLocalePolicy } from '@/contexts/LocalePolicyContext'
-import styles from '../TurkeyAvailabilityNotice/TurkeyAvailabilityNotice.module.css'
+import styles from './ConsentCookieBanner.module.css'
 
 export function ConsentCookieBanner() {
   const { t } = useTranslation()

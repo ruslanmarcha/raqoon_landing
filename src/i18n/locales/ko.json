@@ -23,7 +23,11 @@
     "referralTitleWW": "추천 프로그램 — Raqoon VPN",
     "referralDescriptionWW": "친구를 초대하고 프로모 코드를 공유하면 구독 시 보너스 일수를 받습니다.",
     "referralOgTitleWW": "Raqoon 추천 — 초대 보너스 일수",
-    "referralOgDescriptionWW": "봇이나 앱에서 코드를 받아 공유하면 최대 30일 보너스."
+    "referralOgDescriptionWW": "봇이나 앱에서 코드를 받아 공유하면 최대 30일 보너스.",
+    "turkiyeTitleWW": "튀르키예에서 이용 불가 — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN은 튀르키예에 있거나 튀르키예를 통해 연결하는 사용자에게는 현재 제공되지 않습니다. 언젠가 달라지기를 바랍니다.",
+    "turkiyeOgTitleWW": "Raqoon은 지금 튀르키예에서 이용할 수 없습니다",
+    "turkiyeOgDescriptionWW": "죄송합니다. 현재 튀르키예에서는 서비스를 제공할 수 없습니다. 언젠가 다시 뵙기를 바랍니다."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "마무리 작업 중입니다! 곧 구독 서비스를 이용하실 수 있습니다.",
-    "comingSoonOk": "기다려집니다",
-    "turkeyDownloadUnavailable": "안타깝게도 Raqoon은 튀르키예 영토 내에서 다운로드가 불가능합니다."
+    "comingSoonOk": "기다려집니다"
+  },
+  "turkiyePage": {
+    "title": "Raqoon은 지금 튀르키예에서 이용할 수 없습니다",
+    "lead": "진심으로 사과드립니다. 당분간 튀르키예에 있거나 튀르키예에서 연결하는 분들께 Raqoon VPN을 제공할 수 없습니다.",
+    "closing": "언젠가 상황이 바뀌기를 바라며, 그때 다시 뵙기를 고대합니다."
   },
   "downloadPage": {
     "heroTitle": "카드 없음. 이메일 없음. 오직 당신의 보안뿐.",

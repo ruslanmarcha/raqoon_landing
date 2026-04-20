@@ -23,7 +23,11 @@
     "referralTitleWW": "برنامج الإحالة — Raqoon VPN",
     "referralDescriptionWW": "ادعُ الأصدقاء، شارِك رمز العرض، واحصل على أيام مكافأة عند اشتراكهم.",
     "referralOgTitleWW": "إحالة Raqoon — أيام مكافأة للدعوات",
-    "referralOgDescriptionWW": "احصل على الرمز من البوت أو التطبيق، شارِكه، واحصل على حتى 30 يومًا مكافأة."
+    "referralOgDescriptionWW": "احصل على الرمز من البوت أو التطبيق، شارِكه، واحصل على حتى 30 يومًا مكافأة.",
+    "turkiyeTitleWW": "غير متاح في تركيا — Raqoon VPN",
+    "turkiyeDescriptionWW": "خدمة Raqoon VPN غير متاحة للمستخدمين داخل تركيا أو الذين يتصلون منها. نأمل أن يتغير ذلك يومًا.",
+    "turkiyeOgTitleWW": "Raqoon غير متاح في تركيا حاليًا",
+    "turkiyeOgDescriptionWW": "نعتذر بصدق — لا يمكننا تقديم الخدمة في تركيا في الوقت الحالي. نأمل أن نرحب بك مجددًا يومًا ما."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "نحن نضع اللمسات الأخيرة! قريباً جداً سيكون الاشتراك متاحاً.",
-    "comingSoonOk": "أنتظر بفارغ الصبر",
-    "turkeyDownloadUnavailable": "للأسف، Raqoon غير متاح للتنزيل داخل الأراضي التركية."
+    "comingSoonOk": "أنتظر بفارغ الصبر"
+  },
+  "turkiyePage": {
+    "title": "Raqoon غير متاح في تركيا حاليًا",
+    "lead": "نعتذر من القلب — لا يمكننا حاليًا تقديم Raqoon VPN للمستخدمين داخل تركيا أو الذين يتصلون منها.",
+    "closing": "نأمل أن يتغير ذلك يومًا — وسيسعدنا أن نراك مجددًا."
   },
   "downloadPage": {
     "heroTitle": "لا بطاقات. لا بريد. فقط أمانك.",

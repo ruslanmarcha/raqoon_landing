@@ -72,66 +72,6 @@ def base_referral_page(
 
 
 DATA: dict[str, dict] = {
-    "tr": {
-        "meta": {
-            "referralTitleWW": "Referans programı — Raqoon VPN",
-            "referralDescriptionWW": "Arkadaşlarını davet et, promosyon kodunu paylaş ve aboneliklerinde bonus günler kazan.",
-            "referralOgTitleWW": "Raqoon referans — davetlerle bonus günler",
-            "referralOgDescriptionWW": "Kodu bot veya uygulamada al, arkadaşınla paylaş, 30 güne kadar bonus gün kazan.",
-        },
-        "footerReferral": "Referans programı",
-        "referralPage": base_referral_page(
-            title_variants=[
-                "Arkadaşlarını davet et — 30 güne kadar ücretsiz",
-                "Erişimi paylaş — bonus günler kazan",
-                "Arkadaş getir, ücretsiz abonelik kazan",
-            ],
-            subtitle="Promosyon kodunu paylaş ve arkadaşların ödediğinde bonus günler kazan.",
-            how_title="Nasıl çalışır",
-            steps=[
-                "Promosyon kodunu Telegram botunda veya uygulamada al.",
-                "Kodu bir arkadaşına gönder.",
-                "Arkadaşın abonelik ödemesi yapar.",
-                "Sen bonus günleri kazanırsın.",
-            ],
-            friend_title="Arkadaş bonusu",
-            friend_desc="Arkadaşın ilk ayı ödedikten sonra +10 ücretsiz gün kazanır.",
-            reward_title="Senin ödülün",
-            reward_desc="Arkadaşın ne kadar uzun süre ödeme yaparsa, o kadar çok bonus gün kazanırsın.",
-            rows=[
-                ("1–5 ay", "+7 gün"),
-                ("6–11 ay", "+14 gün"),
-                ("12+ ay", "+30 gün"),
-            ],
-            accrual_title="Yükleme koşulu",
-            accrual_desc="Bonus yalnızca aktif bir aboneliğin varsa yüklenir.",
-            timing_title="Yükleme süresi",
-            timing_desc="Bonus genelde hemen görünür. En fazla 7 güne kadar sürebilir.",
-            limits_title="Kısıtlamalar",
-            limits_items=[
-                "Bonus günler nakde çevrilemez veya parayla değiştirilemez.",
-                "Promosyon kodları diğer kampanyalarla birleştirilemez.",
-                "Promosyon kodu yalnızca ilk ödemede geçerlidir.",
-            ],
-            important_title="Önemli",
-            important_old="Eski promosyon kodları artık geçerli değil.",
-            important_use_new="Yeni promosyon kodunu şuradan kullan:",
-            important_sources=["Raqoon Telegram botu.", "Raqoon mobil uygulaması."],
-            reuse_title="Promosyon kodunun tekrar kullanımı",
-            reuse_desc="Ödeme tamamlanmazsa veya iptal edilirse promosyon kodu tekrar kullanılamaz.",
-            campaign_title="Kampanya süresi",
-            campaign_desc="Kampanya 31 Aralık 2026 tarihine kadar geçerlidir ve uzatılabilir.",
-            share_title="Raqoon referans promosyon kodu",
-            share_text="Promosyon kodumla katıl:",
-            micro={
-                "copyPromo": "Promosyon kodunu kopyala",
-                "getPromo": "Promosyon kodu al",
-                "share": "Paylaş",
-                "copySuccess": "Promosyon kodu kopyalandı",
-                "applyError": "Promosyon kodu uygulanamadı. Daha sonra tekrar dene veya destekle iletişime geç.",
-            },
-        ),
-    },
     "de": {
         "meta": {
             "referralTitleWW": "Empfehlungsprogramm — Raqoon VPN",
@@ -841,7 +781,6 @@ def merge_locale(filename: str, lang: str) -> None:
 
 def main() -> None:
     mapping = [
-        ("tr.json", "tr"),
         ("de.json", "de"),
         ("fr.json", "fr"),
         ("pl.json", "pl"),

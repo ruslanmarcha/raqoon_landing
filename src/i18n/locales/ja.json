@@ -23,7 +23,11 @@
     "referralTitleWW": "紹介プログラム — Raqoon VPN",
     "referralDescriptionWW": "友だちを招待し、プロモコードを共有。サブスク購入でボーナス日数をゲット。",
     "referralOgTitleWW": "Raqoon 紹介 — 招待でボーナス日数",
-    "referralOgDescriptionWW": "ボットまたはアプリでコードを取得し共有。最大30日分のボーナス。"
+    "referralOgDescriptionWW": "ボットまたはアプリでコードを取得し共有。最大30日分のボーナス。",
+    "turkiyeTitleWW": "トルコではご利用いただけません — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPNは、トルコ国内にいる方、またはトルコ経由で接続する方には現在ご提供できません。いつか変わることを願っています。",
+    "turkiyeOgTitleWW": "Raqoonは現在トルコではご利用いただけません",
+    "turkiyeOgDescriptionWW": "ご不便をおかけして申し訳ありません。現時点ではトルコでサービスを提供できません。いつかまたお迎えできることを願っています。"
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "現在、最終調整中だよ！ もうすぐサブスクリプションが利用可能になるからね。",
-    "comingSoonOk": "楽しみに待ってる",
-    "turkeyDownloadUnavailable": "残念ながら、トルコ国内ではRaqoonのダウンロードは利用できません。"
+    "comingSoonOk": "楽しみに待ってる"
+  },
+  "turkiyePage": {
+    "title": "Raqoonは現在、トルコではご利用いただけません",
+    "lead": "心からお詫び申し上げます。現時点では、トルコ国内にいる方、またはトルコから接続する方へのRaqoon VPNの提供は行えません。",
+    "closing": "いつか状況が変わることを願っています。またお会いできる日を楽しみにしています。"
   },
   "downloadPage": {
     "heroTitle": "カード不要。メール不要。君の安全だけ。",

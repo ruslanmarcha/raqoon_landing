@@ -22,6 +22,10 @@
     "referralDescriptionWW": "Invite friends, share your promo code, and earn bonus days when they subscribe.",
     "referralOgTitleWW": "Raqoon referral — bonus days for invites",
     "referralOgDescriptionWW": "Get a promo code in the bot or app, share it with friends, and receive up to 30 bonus days.",
+    "turkiyeTitleWW": "Unavailable in Türkiye — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN is not available to users in or connecting from Türkiye. We hope this will change in the future.",
+    "turkiyeOgTitleWW": "Raqoon is not available in Türkiye right now",
+    "turkiyeOgDescriptionWW": "We’re sorry — the service cannot be offered in Türkiye at the moment. We hope to welcome you back one day.",
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
     "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service."
   },
@@ -156,11 +160,15 @@
   "common": {
     "comingSoonMessage": "We’re putting on the finishing touches! The subscription will be available very soon.",
     "comingSoonOk": "Can't wait",
-    "turkeyDownloadUnavailable": "Unfortunately, Raqoon is not available for download within Türkiye.",
     "cookieConsentMessage": "We use cookies and similar technologies to measure visits and to deliver and measure ads. You can accept or reject non-essential storage.",
     "cookieConsentAccept": "Accept",
     "cookieConsentReject": "Reject",
     "cookieConsentBannerAria": "Cookie consent"
+  },
+  "turkiyePage": {
+    "title": "Raqoon isn’t available in Türkiye right now",
+    "lead": "We’re truly sorry. For the time being we can’t offer Raqoon VPN to people located in Türkiye or connecting from there.",
+    "closing": "We hope that one day this will change — and we’ll be glad to see you again."
   },
   "downloadPage": {
     "heroTitle": "No cards. No email. Just your security.",

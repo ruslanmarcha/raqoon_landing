@@ -23,7 +23,11 @@
     "referralTitleWW": "Program referral — Raqoon VPN",
     "referralDescriptionWW": "Undang teman, bagikan kode promo, dan dapatkan hari bonus saat mereka berlangganan.",
     "referralOgTitleWW": "Referral Raqoon — hari bonus untuk undangan",
-    "referralOgDescriptionWW": "Ambil kode di bot atau aplikasi, bagikan, dan dapatkan hingga 30 hari bonus."
+    "referralOgDescriptionWW": "Ambil kode di bot atau aplikasi, bagikan, dan dapatkan hingga 30 hari bonus.",
+    "turkiyeTitleWW": "Tidak tersedia di Turki — Raqoon VPN",
+    "turkiyeDescriptionWW": "Raqoon VPN tidak tersedia untuk pengguna di Turki atau yang terhubung dari Turki. Kami berharap ini berubah suatu saat.",
+    "turkiyeOgTitleWW": "Raqoon belum tersedia di Turki saat ini",
+    "turkiyeOgDescriptionWW": "Maaf — layanan belum dapat kami tawarkan di Turki untuk saat ini. Kami berharap bisa menyambut Anda lagi suatu hari nanti."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "Kami sedang memberikan sentuhan akhir! Segera langganan akan tersedia.",
-    "comingSoonOk": "Sangat menantikannya",
-    "turkeyDownloadUnavailable": "Sayangnya, Raqoon tidak tersedia untuk diunduh di wilayah Turki."
+    "comingSoonOk": "Sangat menantikannya"
+  },
+  "turkiyePage": {
+    "title": "Raqoon belum tersedia di Turki saat ini",
+    "lead": "Kami sungguh menyesal — untuk saat ini kami tidak dapat menawarkan Raqoon VPN kepada pengguna yang berada di Turki atau terhubung dari sana.",
+    "closing": "Kami berharap suatu hari ini berubah — dan kami akan senang menyambut Anda kembali."
   },
   "downloadPage": {
     "heroTitle": "Tanpa kartu. Tanpa email. Hanya keamananmu.",

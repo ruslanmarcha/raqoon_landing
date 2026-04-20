@@ -23,7 +23,11 @@
     "referralTitleWW": "Referral program — Raqoon VPN",
     "referralDescriptionWW": "Mag-imbita ng kaibigan, ibahagi ang promo code, at kumita ng bonus na araw kapag nag-subscribe sila.",
     "referralOgTitleWW": "Raqoon referral — bonus na araw para sa imbitasyon",
-    "referralOgDescriptionWW": "Kunin ang code sa bot o app, ibahagi, at hanggang 30 araw na bonus."
+    "referralOgDescriptionWW": "Kunin ang code sa bot o app, ibahagi, at hanggang 30 araw na bonus.",
+    "turkiyeTitleWW": "Hindi available sa Türkiye — Raqoon VPN",
+    "turkiyeDescriptionWW": "Ang Raqoon VPN ay hindi available sa mga user sa Türkiye o kumokonekta mula sa Türkiye. Umaasa kaming magbabago ito balang araw.",
+    "turkiyeOgTitleWW": "Ang Raqoon ay hindi available sa Türkiye sa ngayon",
+    "turkiyeOgDescriptionWW": "Paumanhin — pansamantala naming hindi maiaalok ang serbisyo sa Türkiye. Umaasa kaming makita ka ulit balang araw."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -154,8 +158,12 @@
   },
   "common": {
     "comingSoonMessage": "Ginagawa na namin ang mga huling detalye! Sa lalong madaling panahon ay magiging available na ang subscription.",
-    "comingSoonOk": "Hindi na makapaghintay",
-    "turkeyDownloadUnavailable": "Paumanhin, ang Raqoon ay hindi available para i-download sa loob ng teritoryo ng Türkiye."
+    "comingSoonOk": "Hindi na makapaghintay"
+  },
+  "turkiyePage": {
+    "title": "Ang Raqoon ay hindi available sa Türkiye sa ngayon",
+    "lead": "Taos-puso kaming humihingi ng paumanhin — pansamantala naming hindi maiaalok ang Raqoon VPN sa mga nasa Türkiye o kumokonekta mula roon.",
+    "closing": "Umaasa kaming magbabago ito balang araw — at magiging masaya kaming makita kang muli."
   },
   "downloadPage": {
     "heroTitle": "Walang card. Walang email. Ang iyong seguridad lang.",

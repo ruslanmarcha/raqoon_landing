@@ -141,43 +141,21 @@
 .stepsTrack {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: var(--space-3);
   width: 100%;
   max-width: var(--beta-content-width);
   margin-inline: auto;
   box-sizing: border-box;
 }
 
-@media (min-width: 769px) {
-  .stepsTrack {
-    flex-direction: row;
-    align-items: stretch;
-    gap: 0;
-  }
-}
-
 .stepCard {
-  flex: 1;
   position: relative;
+  width: 100%;
   padding: var(--space-4);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: rgba(255, 255, 255, 0.05);
   text-align: left;
-}
-
-@media (min-width: 769px) {
-  .stepCard:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: -12px;
-    top: 50%;
-    width: 24px;
-    height: 2px;
-    background: linear-gradient(90deg, rgba(83, 255, 118, 0.35), rgba(255, 255, 255, 0.15));
-    transform: translateY(-50%);
-    z-index: 1;
-  }
 }
 
 .stepNum {
@@ -317,9 +295,5 @@
 
   .root :global(.section).sectionBlock {
     padding-block: var(--space-5);
-  }
-
-  .stepCard:not(:last-child) {
-    margin-bottom: var(--space-3);
   }
 }

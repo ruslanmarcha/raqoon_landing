@@ -9,6 +9,8 @@ interface ImportMetaEnv {
   readonly VITE_DEV_FORCE_EU?: string
   /** When `"true"`, visitors from Türkiye (geo TR) are limited to /turkiye only. */
   readonly VITE_ENABLE_TURKEY_GEOLOCK?: string
+  /** URL Google Apps Script Web App (или другой POST webhook) для заявок `/beta`. */
+  readonly VITE_BETA_WEBHOOK_URL?: string
 }
 
 interface ImportMeta {

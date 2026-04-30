@@ -26,6 +26,10 @@
     "turkiyeDescriptionWW": "Raqoon VPN is not available to users in or connecting from Türkiye. We hope this will change in the future.",
     "turkiyeOgTitleWW": "Raqoon is not available in Türkiye right now",
     "turkiyeOgDescriptionWW": "We’re sorry — the service cannot be offered in Türkiye at the moment. We hope to welcome you back one day.",
+    "betaTitleWW": "Beta testing — Raqoon VPN",
+    "betaDescriptionWW": "Apply to join the Raqoon mobile app closed beta (iOS / Android). Russian-only page.",
+    "betaOgTitleWW": "Raqoon beta — early access",
+    "betaOgDescriptionWW": "Choose your platform and submit your application.",
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
     "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service."
   },

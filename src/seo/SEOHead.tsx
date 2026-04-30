@@ -14,6 +14,7 @@ export type SeoPage =
   | 'refund'
   | 'referral'
   | 'turkiye'
+  | 'beta'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -65,6 +66,13 @@ function resolveMeta(
         description: t(`meta.turkiyeDescription${suffix}`),
         ogTitle: t(`meta.turkiyeOgTitle${suffix}`),
         ogDescription: t(`meta.turkiyeOgDescription${suffix}`),
+      }
+    case 'beta':
+      return {
+        title: t(`meta.betaTitle${suffix}`),
+        description: t(`meta.betaDescription${suffix}`),
+        ogTitle: t(`meta.betaOgTitle${suffix}`),
+        ogDescription: t(`meta.betaOgDescription${suffix}`),
       }
     case 'about':
       return {

@@ -20,6 +20,11 @@ export function Footer() {
               {t('footer.faq')}
             </Link>
           ) : null}
+          {i18n.language.startsWith('ru') ? (
+            <Link to="/beta" className={styles.link}>
+              {t('footer.beta')}
+            </Link>
+          ) : null}
           <Link to="/referral" className={styles.link}>
             {t('footer.referral', { defaultValue: t('referral.cta') })}
           </Link>

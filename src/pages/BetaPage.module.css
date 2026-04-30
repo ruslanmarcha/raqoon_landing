@@ -1,0 +1,325 @@
+.root {
+  background: #00000a;
+  overflow-x: hidden;
+  /* Одна колонка для платформы, шагов и формы — как у hero (max-width heroInner) */
+  --beta-content-width: min(640px, 100%);
+}
+
+.hero {
+  padding-top: var(--space-4);
+  padding-bottom: var(--space-6);
+  text-align: center;
+  background: transparent;
+}
+
+.heroInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.mascot {
+  width: 100%;
+  max-width: 560px;
+  height: 260px;
+}
+
+.mascotImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.heroTitle {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: var(--font-medium);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  max-width: 600px;
+}
+
+.heroLead {
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+  max-width: 26rem;
+  margin-inline: auto;
+}
+
+.sectionBlock {
+  background: transparent;
+}
+
+.root :global(.section).sectionBlock {
+  padding-block: var(--space-6);
+}
+
+.platformSection {
+  width: 100%;
+  max-width: var(--beta-content-width);
+  margin-inline: auto;
+}
+
+.platformLabel {
+  text-align: center;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-3);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.platformRow {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.platformBtn {
+  flex: 1 1 140px;
+  max-width: 220px;
+  min-height: 52px;
+  padding: 0 var(--space-4);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text);
+  font-size: 17px;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    transform 0.15s ease;
+}
+
+.platformBtn:hover {
+  border-color: rgba(255, 255, 255, 0.38);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.platformBtnActive {
+  border-color: rgba(83, 255, 118, 0.55);
+  background: rgba(83, 255, 118, 0.14);
+  color: #53ff76;
+  box-shadow: 0 0 0 1px rgba(83, 255, 118, 0.2);
+}
+
+.platformEmoji {
+  margin-right: 0.35em;
+}
+
+.reveal {
+  animation: betaReveal 0.45s ease-out both;
+}
+
+@keyframes betaReveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionHeading {
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: var(--font-medium);
+  text-align: center;
+  margin-bottom: var(--space-5);
+  color: var(--color-text);
+}
+
+.stepsTrack {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  max-width: var(--beta-content-width);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 769px) {
+  .stepsTrack {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.stepCard {
+  flex: 1;
+  position: relative;
+  padding: var(--space-4);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  text-align: left;
+}
+
+@media (min-width: 769px) {
+  .stepCard:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    width: 24px;
+    height: 2px;
+    background: linear-gradient(90deg, rgba(83, 255, 118, 0.35), rgba(255, 255, 255, 0.15));
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+}
+
+.stepNum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(83, 255, 118, 0.2);
+  color: #53ff76;
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  margin-bottom: var(--space-2);
+}
+
+.stepTitle {
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  margin-bottom: var(--space-1);
+  line-height: 1.35;
+}
+
+.stepHint {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+}
+
+.formCard {
+  width: 100%;
+  max-width: var(--beta-content-width);
+  margin-inline: auto;
+  margin-top: var(--space-6);
+  padding: var(--space-5);
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  box-sizing: border-box;
+}
+
+.field {
+  margin-bottom: var(--space-4);
+}
+
+.fieldLabel {
+  display: block;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-2);
+}
+
+.input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.35);
+  color: var(--color-text);
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(83, 255, 118, 0.45);
+}
+
+.inputError {
+  border-color: rgba(255, 100, 100, 0.55);
+}
+
+.fieldError {
+  margin-top: var(--space-1);
+  font-size: 13px;
+  color: #ff8a8a;
+}
+
+.consentRow {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  margin-bottom: var(--space-4);
+}
+
+.checkbox {
+  margin-top: 4px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  accent-color: #53ff76;
+}
+
+.consentLabel {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--color-text-secondary);
+}
+
+.submitWrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.formError {
+  font-size: 14px;
+  color: #ff8a8a;
+  text-align: center;
+}
+
+.successCard {
+  width: 100%;
+  max-width: var(--beta-content-width);
+  margin-inline: auto;
+  margin-top: var(--space-6);
+  padding: var(--space-5);
+  border-radius: 24px;
+  border: 1px solid rgba(83, 255, 118, 0.35);
+  background: rgba(83, 255, 118, 0.08);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.successText {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #53ff76;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: var(--space-5);
+  }
+
+  .root :global(.section).sectionBlock {
+    padding-block: var(--space-5);
+  }
+
+  .stepCard:not(:last-child) {
+    margin-bottom: var(--space-3);
+  }
+}

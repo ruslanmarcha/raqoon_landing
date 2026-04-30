@@ -12,6 +12,7 @@ const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ de
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
 const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
+const BetaPage = lazy(() => import('./pages/BetaPage').then((m) => ({ default: m.BetaPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
@@ -77,6 +78,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                   {turkeyOnlyMode ? (
                     <>
                       <Route path="/turkiye" element={<TurkiyePage />} />
+                      <Route path="/beta" element={<BetaPage />} />
                       <Route path="*" element={<Navigate to="/turkiye" replace />} />
                     </>
                   ) : (
@@ -86,6 +88,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/migration" element={<MigrationRU />} />
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />
+                      <Route path="/beta" element={<BetaPage />} />
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />
                       <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />

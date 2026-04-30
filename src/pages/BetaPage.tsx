@@ -8,6 +8,7 @@ import { submitBetaApplication, type BetaPlatform } from '@/lib/submitBetaApplic
 import styles from './BetaPage.module.css'
 
 const BETA_HERO_IMAGE_SRC = '/beta-hero.png'
+const RACCOON_ID_RE = /^[A-Za-z0-9]{16}$/
 
 type StepItem = { title: string; hint: string }
 
@@ -43,6 +44,8 @@ export function BetaPage() {
     const rid = raccoonId.trim()
     if (!rid) {
       next.raccoonId = t('betaPage.errors.raccoonIdRequired')
+    } else if (!RACCOON_ID_RE.test(rid)) {
+      next.raccoonId = t('betaPage.errors.raccoonIdInvalid')
     }
     if (!consent) {
       next.consent = t('betaPage.errors.consentRequired')
@@ -63,6 +66,19 @@ export function BetaPage() {
       setErrors((prev) => ({ ...prev, email: undefined }))
     }
   }, [email, t])
+
+  const onRaccoonIdBlur = useCallback(() => {
+    const trimmed = raccoonId.trim()
+    if (!trimmed) {
+      setErrors((prev) => ({ ...prev, raccoonId: undefined }))
+      return
+    }
+    if (!RACCOON_ID_RE.test(trimmed)) {
+      setErrors((prev) => ({ ...prev, raccoonId: t('betaPage.errors.raccoonIdInvalid') }))
+    } else {
+      setErrors((prev) => ({ ...prev, raccoonId: undefined }))
+    }
+  }, [raccoonId, t])
 
   const onSubmit = useCallback(
     async (e: React.FormEvent) => {
@@ -190,8 +206,14 @@ export function BetaPage() {
                       type="text"
                       name="raccoonId"
                       autoComplete="username"
+                      maxLength={16}
+                      pattern="[A-Za-z0-9]{16}"
                       value={raccoonId}
-                      onChange={(ev) => setRaccoonId(ev.target.value)}
+                      onChange={(ev) => {
+                        setRaccoonId(ev.target.value)
+                        setErrors((prev) => ({ ...prev, raccoonId: undefined }))
+                      }}
+                      onBlur={onRaccoonIdBlur}
                       disabled={submitting}
                     />
                     {errors.raccoonId ? <p className={styles.fieldError}>{errors.raccoonId}</p> : null}

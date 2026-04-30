@@ -218,6 +218,7 @@
       "emailRequired": "Укажите email",
       "emailInvalid": "Укажите корректный email: латинские буквы и цифры, один символ @ и домен с точкой (например, name@example.com).",
       "raccoonIdRequired": "Укажите Raqoon ID",
+      "raccoonIdInvalid": "Raqoon ID должен состоять ровно из 16 латинских букв и цифр.",
       "consentRequired": "Нужно согласие на обработку данных",
       "submitFailed": "Не удалось отправить. Попробуйте позже.",
       "notConfigured": "Отправка заявок временно недоступна (не настроен сервер приёма)."

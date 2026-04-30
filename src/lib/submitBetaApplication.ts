@@ -29,7 +29,8 @@ export async function submitBetaApplication(payload: BetaPayload): Promise<BetaS
       url,
       {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        // Apps Script rejects CORS preflight OPTIONS; text/plain keeps the POST "simple".
+        headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
         body: JSON.stringify(payload),
         mode: 'cors',
       },

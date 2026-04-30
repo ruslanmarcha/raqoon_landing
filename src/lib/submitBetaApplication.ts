@@ -1,3 +1,4 @@
+import { getBetaWebhookUrl } from '@/config/betaWebhookUrl'
 import { fetchWithTimeout } from '@/lib/fetchWithTimeout'
 
 export type BetaPlatform = 'ios' | 'android'
@@ -14,11 +15,11 @@ export type BetaSubmitResult =
   | { ok: false; error: 'network' | 'server' | 'not_configured' }
 
 /**
- * POST JSON на URL из VITE_BETA_WEBHOOK_URL (например Google Apps Script Web App).
- * Скрипт должен принять JSON и записать строку в Google Sheets + вернуть 200.
+ * POST JSON на webhook (Google Apps Script Web App).
+ * URL: `VITE_BETA_WEBHOOK_URL` при сборке, иначе резерв в `src/config/betaWebhookUrl.ts`.
  */
 export async function submitBetaApplication(payload: BetaPayload): Promise<BetaSubmitResult> {
-  const url = (import.meta.env.VITE_BETA_WEBHOOK_URL ?? '').trim()
+  const url = getBetaWebhookUrl()
   if (!url) {
     return { ok: false, error: 'not_configured' }
   }

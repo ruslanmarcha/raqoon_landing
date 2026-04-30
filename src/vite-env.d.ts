@@ -7,6 +7,8 @@ interface ImportMetaEnv {
   readonly VITE_GTAG_ID?: string
   /** Dev only: set to "1" to simulate EU visitor (consent banner). */
   readonly VITE_DEV_FORCE_EU?: string
+  /** When `"true"`, visitors from Türkiye (geo TR) are limited to /turkiye only. */
+  readonly VITE_ENABLE_TURKEY_GEOLOCK?: string
 }
 
 interface ImportMeta {

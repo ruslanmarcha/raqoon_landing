@@ -22,6 +22,9 @@ const PaymentFailPage = lazy(() =>
   import('./pages/PaymentFailPage').then((m) => ({ default: m.PaymentFailPage }))
 )
 
+/** `VITE_ENABLE_TURKEY_GEOLOCK=true` — для посетителей из TR только `/turkiye`, остальные URL редиректятся туда. Без переменной или `false` — ограничение выключено. */
+const TURKEY_GEOLOCK_ENABLED = import.meta.env.VITE_ENABLE_TURKEY_GEOLOCK === 'true'
+
 /** Сохраняем query (если платёжка дописала ?…), ведём на единую страницу успеха. */
 function RedirectToPaymentOk() {
   const { search } = useLocation()
@@ -56,6 +59,7 @@ type AppProps = {
 
 export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVisitor }: AppProps) {
   const isTurkeyVisitor = countryCode === 'TR'
+  const turkeyOnlyMode = isTurkeyVisitor && TURKEY_GEOLOCK_ENABLED
 
   return (
     <HelmetProvider>
@@ -70,7 +74,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
             <Suspense fallback={<LoadingFallback />}>
               <>
                 <Routes>
-                  {isTurkeyVisitor ? (
+                  {turkeyOnlyMode ? (
                     <>
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="*" element={<Navigate to="/turkiye" replace />} />
@@ -82,6 +86,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/migration" element={<MigrationRU />} />
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />
+                      <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />
                       <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
                       <Route path="/terms" element={<LegalPage legalKey="terms" />} />

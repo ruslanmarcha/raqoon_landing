@@ -38,6 +38,8 @@ export function RosVpnPage() {
   )
   const premium2Items: FeatureItemData[] = useMemo(() => premium2Lines.map((label) => ({ label })), [premium2Lines])
 
+  const rightIntroText = t('rosVpnPage.cards.rightIntro').trim()
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
   }, [])
@@ -74,7 +76,7 @@ export function RosVpnPage() {
         <section className={`section ${styles.sectionBlock}`}>
           <div className="container">
             <h2 className={styles.sectionHeading}>{t('rosVpnPage.steps.title')}</h2>
-            <div className={styles.featuresCard}>
+            <div className={`${styles.featuresCard} ${styles.featuresCardPlain}`}>
               <FeatureList items={stepItems} className={styles.featureList} />
             </div>
           </div>
@@ -85,7 +87,7 @@ export function RosVpnPage() {
             <div className={pricingStyles.grid}>
               <div className={`${pricingStyles.card} ${pricingStyles.cardBase}`}>
                 <div className={pricingStyles.cardHeader}>
-                  <span className={pricingStyles.badge}>{t('rosVpnPage.cards.leftTitle')}</span>
+                  <span className={`${pricingStyles.badge} ${styles.rosVpnCardHeading}`}>{t('rosVpnPage.cards.leftTitle')}</span>
                 </div>
                 <FeatureList items={leftItems} className={pricingStyles.features} />
               </div>
@@ -93,9 +95,9 @@ export function RosVpnPage() {
               <div className={`${pricingStyles.card} ${pricingStyles.cardPremium} ${styles.referralRewardCard}`}>
                 <div className={styles.referralRewardContent}>
                   <div className={pricingStyles.cardHeader}>
-                    <span className={pricingStyles.badge}>{t('rosVpnPage.cards.rightTitle')}</span>
+                    <span className={`${pricingStyles.badge} ${styles.rosVpnCardHeading}`}>{t('rosVpnPage.cards.rightTitle')}</span>
                   </div>
-                  <p className={styles.rewardIntro}>{t('rosVpnPage.cards.rightIntro')}</p>
+                  {rightIntroText ? <p className={styles.rewardIntro}>{rightIntroText}</p> : null}
                   <FeatureList items={rightItems} className={pricingStyles.features} />
                 </div>
                 <div className={styles.referralRewardDecor} aria-hidden="true">
@@ -110,16 +112,16 @@ export function RosVpnPage() {
           <div className="container">
             <div className={styles.premiumCard}>
               <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{t('rosVpnPage.premium.block1.title')}</h2>
+                <h2 className={`${styles.blockTitle} ${styles.rosVpnCardHeading}`}>{t('rosVpnPage.premium.block1.title')}</h2>
                 <p className={styles.prose}>{t('rosVpnPage.premium.block1.body')}</p>
                 <FeatureList items={premium1Items} className={styles.premiumList} />
               </div>
               <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{t('rosVpnPage.premium.block2.title')}</h2>
+                <h2 className={`${styles.blockTitle} ${styles.rosVpnCardHeading}`}>{t('rosVpnPage.premium.block2.title')}</h2>
                 <FeatureList items={premium2Items} className={styles.premiumList} />
               </div>
               <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{t('rosVpnPage.premium.block3.title')}</h2>
+                <h2 className={`${styles.blockTitle} ${styles.rosVpnCardHeading}`}>{t('rosVpnPage.premium.block3.title')}</h2>
                 <p className={styles.prose}>{t('rosVpnPage.premium.block3.body')}</p>
               </div>
             </div>

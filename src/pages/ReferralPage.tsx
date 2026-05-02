@@ -112,7 +112,7 @@ export function ReferralPage() {
         <section className={`section ${styles.sectionBlock}`}>
           <div className="container">
             <h2 className={styles.sectionHeading}>{t('referralPage.howItWorks.title')}</h2>
-            <div className={styles.featuresCard}>
+            <div className={`${styles.featuresCard} ${styles.featuresCardPlain}`}>
               <FeatureList items={howItWorksItems} className={styles.featureList} />
             </div>
           </div>

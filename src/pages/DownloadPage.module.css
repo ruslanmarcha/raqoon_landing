@@ -19,6 +19,15 @@
   }
 }
 
+/* Соседние секции с карточками: не суммируем верх+низ (иначе зазор ~2× относительно gap в сетке из двух карточек) */
+.root :global(.section).sectionBlock + :global(.section).sectionBlock {
+  padding-top: 0;
+}
+
+.root :global(.section).sectionBlock + :global(.section).finalWrap {
+  padding-top: 0;
+}
+
 .root :global(.section).finalWrap {
   padding-block: var(--space-6);
   padding-bottom: var(--space-10);
@@ -28,6 +37,10 @@
   .root :global(.section).finalWrap {
     padding-block: var(--space-5);
     padding-bottom: var(--space-8);
+  }
+
+  .root :global(.section).sectionBlock + :global(.section).finalWrap {
+    padding-top: 0;
   }
 }
 
@@ -236,6 +249,11 @@
   overflow: hidden;
 }
 
+/* Без декора снизу (енот) — те же отступы со всех сторон, как сетка карточек ниже */
+.featuresCard.featuresCardPlain {
+  padding: var(--space-6);
+}
+
 .featureList {
   position: relative;
   z-index: 1;
@@ -310,6 +328,22 @@
   line-height: var(--leading-tight);
   letter-spacing: -0.01em;
   overflow-wrap: anywhere;
+}
+
+/* RosVpnPage: бейджи в сетке и заголовки premium — как один ряд белых заголовков */
+.rosVpnCardHeading {
+  color: var(--color-text) !important;
+  font-size: var(--text-xl);
+  font-weight: var(--font-medium);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+}
+
+.premiumSection h2.blockTitle.rosVpnCardHeading {
+  font-size: var(--text-xl);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.01em;
+  color: var(--color-text);
 }
 
 .premiumSection .prose + .prose {

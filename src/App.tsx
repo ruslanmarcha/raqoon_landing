@@ -6,7 +6,6 @@ import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
 import { ConsentCookieBanner } from './components/ConsentCookieBanner/ConsentCookieBanner'
 
 const LandingRU = lazy(() => import('./pages/LandingRU').then((m) => ({ default: m.LandingRU })))
-const LandingWW = lazy(() => import('./pages/LandingWW').then((m) => ({ default: m.LandingWW })))
 const MigrationRU = lazy(() => import('./pages/MigrationRU').then((m) => ({ default: m.MigrationRU })))
 const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ default: m.AboutCompany })))
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
@@ -85,7 +84,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                   ) : (
                     <>
                       <Route path="/" element={<LandingRU />} />
-                      <Route path="/ww" element={<LandingWW />} />
+                      <Route path="/ww" element={<Navigate to="/" replace />} />
                       <Route path="/migration" element={<MigrationRU />} />
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />

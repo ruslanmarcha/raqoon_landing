@@ -182,9 +182,8 @@ export function SEOHead({
       ],
     })
 
-  const showHreflang = pathname === '/' || pathname === '/ww'
-  const ruHome = origin ? `${origin}/` : ''
-  const enWw = origin ? `${origin}/ww` : ''
+  const showHreflang = pathname === '/'
+  const homeUrl = origin ? `${origin}/` : ''
 
   return (
     <Helmet>
@@ -197,11 +196,11 @@ export function SEOHead({
       <meta name="format-detection" content="telephone=no" />
       {canonical && <link rel="canonical" href={canonical} />}
 
-      {showHreflang && ruHome && enWw ? (
+      {showHreflang && homeUrl ? (
         <>
-          <link rel="alternate" hrefLang="ru" href={ruHome} />
-          <link rel="alternate" hrefLang="en" href={enWw} />
-          <link rel="alternate" hrefLang="x-default" href={enWw} />
+          <link rel="alternate" hrefLang="ru" href={homeUrl} />
+          <link rel="alternate" hrefLang="en" href={homeUrl} />
+          <link rel="alternate" hrefLang="x-default" href={homeUrl} />
         </>
       ) : null}
 

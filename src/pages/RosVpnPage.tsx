@@ -45,7 +45,7 @@ export function RosVpnPage() {
   }, [])
 
   if (!isRu) {
-    return <Navigate to="/ww" replace />
+    return <Navigate to="/" replace />
   }
 
   return (

@@ -6,7 +6,6 @@ import { compression } from 'vite-plugin-compression2'
 
 const SEO_ROUTES: { path: string; priority: string; changefreq: string }[] = [
   { path: '', priority: '1.0', changefreq: 'weekly' },
-  { path: '/ww', priority: '0.9', changefreq: 'weekly' },
   { path: '/download', priority: '0.9', changefreq: 'weekly' },
   { path: '/about', priority: '0.7', changefreq: 'monthly' },
   { path: '/migration', priority: '0.7', changefreq: 'monthly' },

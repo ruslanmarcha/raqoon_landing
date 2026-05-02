@@ -14,6 +14,7 @@ const SEO_ROUTES: { path: string; priority: string; changefreq: string }[] = [
   { path: '/terms', priority: '0.5', changefreq: 'yearly' },
   { path: '/contact', priority: '0.5', changefreq: 'yearly' },
   { path: '/refund', priority: '0.5', changefreq: 'yearly' },
+  { path: '/rosvpn', priority: '0.55', changefreq: 'monthly' },
 ]
 
 export default defineConfig(({ mode }) => {

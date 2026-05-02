@@ -15,6 +15,7 @@ export type SeoPage =
   | 'referral'
   | 'turkiye'
   | 'beta'
+  | 'rosvpn'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -73,6 +74,13 @@ function resolveMeta(
         description: t(`meta.betaDescription${suffix}`),
         ogTitle: t(`meta.betaOgTitle${suffix}`),
         ogDescription: t(`meta.betaOgDescription${suffix}`),
+      }
+    case 'rosvpn':
+      return {
+        title: t(`meta.rosvpnTitle${suffix}`),
+        description: t(`meta.rosvpnDescription${suffix}`),
+        ogTitle: t(`meta.rosvpnOgTitle${suffix}`),
+        ogDescription: t(`meta.rosvpnOgDescription${suffix}`),
       }
     case 'about':
       return {

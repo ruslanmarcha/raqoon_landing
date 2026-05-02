@@ -407,7 +407,7 @@
   .storyCard,
   .premiumCard {
     padding: var(--space-6) var(--space-5);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius-xl);
   }
 
   .finalCard {

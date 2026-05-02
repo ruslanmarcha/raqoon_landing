@@ -25,6 +25,11 @@ export function Footer() {
               {t('footer.beta')}
             </Link>
           ) : null}
+          {i18n.language.startsWith('ru') ? (
+            <Link to="/rosvpn" className={styles.link}>
+              {t('footer.rosvpn')}
+            </Link>
+          ) : null}
           <Link to="/referral" className={styles.link}>
             {t('footer.referral', { defaultValue: t('referral.cta') })}
           </Link>

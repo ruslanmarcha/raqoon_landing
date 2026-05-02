@@ -27,6 +27,32 @@
   line-height: var(--leading-snug);
 }
 
+.labelLink {
+  font-size: var(--text-base);
+  font-weight: var(--font-semibold);
+  line-height: var(--leading-snug);
+  color: #53ff76;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(83, 255, 118, 0.45);
+  padding-bottom: 1px;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.labelLink:hover {
+  color: #7dff9a;
+  border-bottom-color: rgba(127, 255, 154, 0.65);
+}
+
+.labelLink:focus-visible {
+  outline: none;
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px rgba(83, 255, 118, 0.35);
+}
+
 .sub {
   font-size: var(--text-sm);
   color: var(--color-text-secondary);

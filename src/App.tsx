@@ -11,6 +11,7 @@ const MigrationRU = lazy(() => import('./pages/MigrationRU').then((m) => ({ defa
 const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ default: m.AboutCompany })))
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
+const RosVpnPage = lazy(() => import('./pages/RosVpnPage').then((m) => ({ default: m.RosVpnPage })))
 const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
 const BetaPage = lazy(() => import('./pages/BetaPage').then((m) => ({ default: m.BetaPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
@@ -88,6 +89,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/migration" element={<MigrationRU />} />
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />
+                      <Route path="/rosvpn" element={<RosVpnPage />} />
                       <Route path="/beta" element={<BetaPage />} />
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />

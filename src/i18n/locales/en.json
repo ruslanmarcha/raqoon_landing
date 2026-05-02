@@ -30,6 +30,10 @@
     "betaDescriptionWW": "Apply to join the Raqoon mobile app closed beta (iOS / Android). Russian-only page.",
     "betaOgTitleWW": "Raqoon beta — early access",
     "betaOgDescriptionWW": "Choose your platform and submit your application.",
+    "rosvpnTitleWW": "RosVPN — Raqoon VPN",
+    "rosvpnDescriptionWW": "Russian-locale add-on for Russian IP egress. Request via support; not included for all regions.",
+    "rosvpnOgTitleWW": "RosVPN — Raqoon",
+    "rosvpnOgDescriptionWW": "RU-only product page; switch site language to Russian to read details.",
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
     "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service."
   },

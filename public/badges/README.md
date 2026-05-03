@@ -21,4 +21,6 @@ Follow [Google Play badge guidelines](https://play.google.com/intl/en_us/badges/
 
 | File | Notes |
 |------|--------|
-| `app-gallery.svg` | Neutral black wordmark used on `/download`; swap for official localized PNG/SVG from [AppGallery Connect badge links](https://developer.huawei.com/consumer/en/doc/appgallery-connect-guides/agdlink-getlink-agc-0000001164321881) if required. |
+| `app-gallery-black-en.svg` | Dark badge used on `/download` so it matches Apple/Google black row. [Commons](https://commons.wikimedia.org/wiki/File:Huawei_AppGallery_Badge_Black_EN.svg) — **CC BY 4.0** (author Serkan Aydin; keep attribution if you replace the file). |
+
+**Official** localized badges (incl. white variants): **[AppGallery Connect → AppGallery Download → Badge links](https://developer.huawei.com/consumer/en/doc/appgallery-connect-guides/agdlink-getlink-agc-0000001164321881)** — download PNG/SVG there and point `getHuaweiAppGalleryBadgeSrc()` at your files under `/public/badges/`.

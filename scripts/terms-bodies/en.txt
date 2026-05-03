@@ -1,0 +1,171 @@
+Raqoon VPN Terms of Use
+
+Effective date: March 1, 2026
+Place of publication: Ankara, Türkiye
+Provider: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+These Terms of Use govern access to the Raqoon app, the raqoon.app website, the VPN service, subscriptions, technical support, and related features.
+
+By using Raqoon, creating an account, purchasing a subscription, or connecting to the VPN service, you confirm that you have read and accept these Terms.
+
+1. Definitions
+
+Raqoon, the Service, or the VPN service means the software, server infrastructure, website, backend systems, support, and other features provided under the Raqoon VPN brand.
+
+User means an individual who installs the app, uses the website, purchases a subscription, or connects to the VPN service.
+
+Account means an account record, technical profile, access key, device identifier, or other means of authorizing the user in the Service.
+
+Subscription means paid access to Raqoon features for a specified period, including auto-renewing subscriptions or recurring billing, purchased through the Apple App Store, Google Play, Huawei AppGallery, or another available payment channel.
+
+2. Subject matter of the Terms
+
+The Provider grants the user a limited, non-exclusive, non-transferable, and revocable right to use Raqoon VPN for personal access to a virtual private network, connection protection, and use of available app features.
+
+Raqoon is not a telecom operator, internet service provider, payment institution, legal advisor, or a guarantee of access to any particular website, app, or online service.
+
+Actual availability of specific websites, apps, protocols, countries, and server locations may depend on technical conditions, network restrictions, third-party policies, app store rules, legislation, and the operation of external providers.
+
+3. Official app and third-party clients
+
+The primary and recommended way to use Raqoon is the official Raqoon app.
+
+Use of third-party VPN clients, including Hiddify, v2rayNG, V2Box, Shadowrocket, and similar apps, is permitted only if expressly allowed by your selected plan, instructions, or support materials.
+
+Third-party apps are built and maintained by independent developers. Raqoon does not control their interface, updates, security, availability in the App Store or Google Play, or how such apps behave on your device.
+
+You are responsible for correct installation of a third-party client, importing configuration, and complying with the relevant app store rules.
+
+4. Subscriptions and payment via app stores
+
+If a subscription is purchased through an app store, it is governed by that store’s rules: Apple App Store, Google Play, or Huawei AppGallery.
+
+When subscribing through an app store:
+
+- payment is charged through your account in that app store;
+- the subscription may renew automatically unless you cancel it in advance in the store settings;
+- management, cancellation, and refunds are handled through the relevant app store;
+- Raqoon receives only technical purchase confirmation, subscription status, and data needed to provide access;
+- Raqoon does not receive or store your full bank card details.
+
+You can manage your subscription via Apple ID settings, Google Play, Huawei AppGallery, AppGallery ID/Huawei ID, or the system subscription management section on your device, depending on where the purchase was made.
+
+Duration, price, trial period, billing frequency, and renewal terms are shown in the app, the app store, or the platform purchase flow before you confirm.
+
+5. Trial periods and promotional access
+
+Raqoon may offer a free trial, promo codes, bonus days, referral credits, or other temporary access.
+
+Trial or bonus terms may differ from paid subscription terms and may change. If a trial is linked to a subscription through the Apple App Store, Google Play, or Huawei AppGallery, further renewal and billing are governed by that store’s rules and the terms shown to you before purchase confirmation.
+
+6. Acceptable use
+
+You agree to use Raqoon only for lawful purposes and in accordance with applicable law, these Terms, App Store rules, and your selected plan.
+
+You must not use the Service to:
+
+- distribute malware;
+- carry out DDoS attacks, port scanning, brute-force attacks, unauthorized access, or other attacks on networks or systems;
+- send spam, phishing, fraud, or mass automated actions;
+- distribute material that violates law, third-party rights, or app store rules;
+- infringe copyright or other intellectual property rights;
+- resell, transfer, or publish access keys without Raqoon’s permission;
+- impose excessive load on infrastructure or harm other users.
+
+Raqoon may restrict, suspend, or terminate access if there are reasonable grounds to believe you violate these Terms, the law, third-party rights, or infrastructure security.
+
+7. Fair Use Policy
+
+Some plans may include a large traffic allowance or unlimited access. Such access is intended for personal, fair use.
+
+If use creates abnormal load, degrades service quality for others, breaches technical plan limits, or is used contrary to its purpose, Raqoon may temporarily limit speed, change available location, suspend the connection, or suggest another plan.
+
+Restrictions apply only to the extent necessary to protect service stability, infrastructure, and other users.
+
+8. Service availability
+
+Raqoon aims to provide stable VPN operation but does not guarantee uninterrupted, error-free, or equally fast access in all countries, networks, devices, and apps.
+
+Service operation may be affected by:
+
+- quality of your internet connection;
+- restrictions by your ISP;
+- blocking, filtering, or other actions by third parties;
+- server load;
+- maintenance;
+- App Store, Google Play, or third-party app rules;
+- legal restrictions;
+- outages, DDoS attacks, and other circumstances beyond Raqoon’s reasonable control.
+
+Raqoon does not guarantee availability of any particular website, app, online service, country, IP address, or server location.
+
+9. Account, device, and security
+
+You are responsible for the security of your device, account, Apple ID, access keys, and configurations.
+
+You must not share access keys with third parties, publish configurations publicly, use the subscription beyond the permitted number of devices, or circumvent technical plan limits.
+
+If you suspect unauthorized access to your account or key, contact support.
+
+10. Account deletion
+
+You can delete your account and related data in Raqoon app settings.
+
+Deleting your account ends access to the Service and may result in loss of keys, settings, support history, and other account-related data.
+
+Deleting your account does not always cancel a subscription purchased through the Apple App Store, Google Play, or Huawei AppGallery. To stop future charges, you must separately cancel the subscription in the app store or the subscription management section of the platform where you purchased.
+
+11. Refunds
+
+Refunds for subscriptions purchased through the Apple App Store, Google Play, or Huawei AppGallery are governed by that app store’s rules. Raqoon has no technical ability to cancel payments or issue refunds on its own for purchases processed by an app store.
+
+For subscriptions and payments not processed through Apple, the terms of the relevant payment channel, selected plan, these Terms, and applicable law apply.
+
+See the Refund Policy on the Raqoon website for details.
+
+12. Privacy
+
+Processing of user data is described in the Raqoon Privacy Policy. By using the Service, you confirm that you have read the Privacy Policy.
+
+Raqoon does not log visited websites, DNS queries, or traffic content, but processes technical data necessary to operate the service, subscriptions, support, security, and diagnostics.
+
+13. Intellectual property
+
+The app, website, design, text, logos, code, UI elements, and other Raqoon materials belong to the Provider or are used under lawful license.
+
+You receive only the right to use the Service under these Terms. You do not receive the right to copy, modify, distribute, sell, rent, decompile, or otherwise use Raqoon materials outside permitted use.
+
+14. Limitation of liability
+
+The Service is provided “as is” and “as available” to the maximum extent permitted by law.
+
+Raqoon is not liable for:
+
+- inability to access particular websites, apps, or services;
+- reduced speed, latency, or temporary outages;
+- actions of ISPs, data centers, site owners, app stores, or other third parties;
+- incompatibility with third-party VPN clients;
+- loss of access due to your breach of these Terms;
+- indirect damages, lost profits, or data loss, except where mandatory law requires otherwise.
+
+Nothing in these Terms limits rights that cannot be limited under applicable law.
+
+15. Changes to the Terms
+
+Raqoon may update these Terms when features, plans, infrastructure, legislation, app store requirements, or business processes change.
+
+The new version takes effect when published on the website unless a different date is stated. Continued use of the Service after publication means you accept the updated Terms.
+
+16. Governing law and disputes
+
+These Terms are governed by the laws of the Republic of Türkiye, except where mandatory provisions of applicable law provide otherwise.
+
+The parties seek to resolve issues and claims through Raqoon support. If a dispute cannot be resolved amicably, it shall be submitted to competent courts in accordance with applicable law.
+
+17. Contacts
+
+For service operation, subscriptions, access, and support:
+
+- Email: help@raqoon.app
+- Company: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Location: Ankara, Türkiye

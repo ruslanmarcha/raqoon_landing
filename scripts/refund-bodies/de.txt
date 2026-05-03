@@ -1,0 +1,43 @@
+Erstattungsrichtlinie Raqoon VPN
+
+Gültig ab: 1. März 2026
+Anbieter: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Abonnements über App-Stores
+
+Wird ein Raqoon-Abonnement über die mobile App und einen App-Store gekauft, regeln Zahlung, Verlängerung, Kündigung und Erstattungen die Regeln des jeweiligen App-Stores.
+
+Raqoon erhält keine vollständigen Bankkartendaten und hat keine technische Möglichkeit, eine durch den Apple App Store, Google Play oder Huawei AppGallery verarbeitete Zahlung eigenständig zu erstatten.
+
+Zur Erstattungsanfrage nutzen Sie die Mittel des Stores, in dem gekauft wurde:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID oder Apple Support.
+- Google Play: Google Play, Bereich „Zahlungen und Abonnements“ / „Abonnements“, Bestellverlauf oder Google-Play-Support.
+- Huawei AppGallery: AppGallery, Huawei ID, Bereich „Abonnements“ oder Huawei-Support.
+
+Um künftige Abbuchungen zu stoppen, kündigen Sie das Abonnement im Store des Kaufs. Das Löschen Ihres Raqoon-Kontos hebt das Abonnement im Apple App Store, Google Play oder Huawei AppGallery nicht immer automatisch auf.
+
+2. Testphase
+
+Enthält das Abonnement eine Testphase, werden Dauer, Enddatum und weitere Verlängerungsbedingungen vom App-Store vor Kaufbestätigung angezeigt.
+
+Soll das Abonnement nach der Testphase nicht weiterlaufen, kündigen Sie es vor dem Verlängerungsdatum gemäß den Regeln des jeweiligen App-Stores.
+
+3. Käufe außerhalb des Apple App Store
+
+Wurde der Kauf nicht über den Apple App Store getätigt, hängt die Erstattungsfähigkeit vom anwendbaren Zahlungskanal, Tarifbedingungen, der Erbringung der digitalen Leistung und zwingendem Recht ab.
+
+Da Raqoon eine digitale Dienstleistung elektronisch aktiviert, kann eine Erstattung nach Beginn der tatsächlichen Nutzung ausgeschlossen sein, sofern das Gesetz nichts anderes vorschreibt.
+
+4. Technische Probleme
+
+Bei technischen Problemen mit Verbindung, Abrechnung, Abonnement oder Zugang können Sie den Raqoon-Support kontaktieren. Wir versuchen, den Zugang wiederherzustellen, den Abonnementstatus zu prüfen oder Fehler zu klären.
+
+Der Kontakt zum Raqoon-Support ersetzt nicht das Erstattungsverfahren von Apple, Google oder Huawei für vom jeweiligen App-Store verarbeitete Käufe.
+
+5. Kontakte zu Abrechnung
+
+Fragen zu Zahlungen und Abonnements:
+
+- E-Mail: help@raqoon.app
+- Website: https://raqoon.app

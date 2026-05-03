@@ -1,0 +1,171 @@
+Nutzungsbedingungen Raqoon VPN
+
+Gültig ab: 1. März 2026
+Veröffentlichungsort: Ankara, Türkiye
+Anbieter: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+Diese Nutzungsbedingungen regeln den Zugang zur Raqoon-App, der Website raqoon.app, dem VPN-Dienst, Abonnements, technischem Support und zugehörigen Funktionen.
+
+Durch Nutzung von Raqoon, Erstellung eines Kontos, Abschluss eines Abonnements oder Verbindung mit dem VPN bestätigen Sie, dass Sie diese Bedingungen gelesen und akzeptiert haben.
+
+1. Begriffe
+
+Raqoon, der Dienst oder VPN-Dienst bezeichnet Software, Serverinfrastruktur, Website, Backend-Systeme, Support und sonstige unter der Marke Raqoon VPN angebotenen Funktionen.
+
+Nutzer bezeichnet eine natürliche Person, die die App installiert, die Website nutzt, ein Abonnement abschließt oder sich mit dem VPN verbindet.
+
+Konto bezeichnet ein Benutzerkonto, technisches Profil, Zugangsschlüssel, Gerätekennung oder sonstige Autorisierung im Dienst.
+
+Abonnement bezeichnet kostenpflichtigen Zugang zu Raqoon-Funktionen für einen bestimmten Zeitraum, einschließlich automatisch verlängerter Abonnements oder wiederkehrender Abbuchungen über den Apple App Store, Google Play, Huawei AppGallery oder einen anderen verfügbaren Zahlungskanal.
+
+2. Gegenstand der Bedingungen
+
+Der Anbieter gewährt dem Nutzer ein beschränktes, nicht ausschließliches, nicht übertragbares und widerrufliches Recht, Raqoon VPN für den persönlichen Zugang zu einem virtuellen privaten Netzwerk, Verbindungsschutz und Nutzung verfügbarer App-Funktionen zu verwenden.
+
+Raqoon ist kein Telekommunikationsanbieter, Internetprovider, Zahlungsinstitut, Rechtsberater und keine Garantie für den Zugang zu einer bestimmten Website, App oder einem Online-Dienst.
+
+Die tatsächliche Verfügbarkeit einzelner Websites, Apps, Protokolle, Länder und Serverstandorte kann von technischen Bedingungen, Netzwerkbeschränkungen, Richtlinien Dritter, App-Store-Regeln, Gesetzgebung und dem Betrieb externer Anbieter abhängen.
+
+3. Offizielle App und Drittanbieter-Clients
+
+Die primäre und empfohlene Nutzung erfolgt über die offizielle Raqoon-App.
+
+Die Nutzung von VPN-Clients Dritter, einschließlich Hiddify, v2rayNG, V2Box, Shadowrocket und ähnlicher Apps, ist nur zulässig, wenn dies ausdrücklich durch den gewählten Tarif, Anleitungen oder Support-Materialien erlaubt ist.
+
+Apps Dritter werden von unabhängigen Entwicklern erstellt und gewartet. Raqoon kontrolliert nicht deren Oberfläche, Updates, Sicherheit, Verfügbarkeit im App Store oder Google Play noch das Verhalten auf dem Gerät.
+
+Der Nutzer ist für korrekte Installation, Import der Konfiguration und Einhaltung der jeweiligen App-Store-Regeln verantwortlich.
+
+4. Abonnements und Zahlung über App-Stores
+
+Wird ein Abonnement über einen App-Store gekauft, gelten die Regeln dieses Stores: Apple App Store, Google Play oder Huawei AppGallery.
+
+Bei Abonnements über einen App-Store:
+
+- erfolgt die Abbuchung über das Nutzerkonto im jeweiligen Store;
+- kann sich das Abonnement automatisch verlängern, sofern es nicht rechtzeitig in den Store-Einstellungen gekündigt wird;
+- Verwaltung, Kündigung und Erstattungen erfolgen über den jeweiligen Store;
+- Raqoon erhält nur technische Kaufbestätigung, Abonnementstatus und zur Zugangsgewährung nötige Daten;
+- Raqoon erhält und speichert keine vollständigen Kartendaten.
+
+Die Verwaltung erfolgt über Apple-ID-Einstellungen, Google Play, Huawei AppGallery, AppGallery-ID/Huawei-ID oder den systemischen Abonnementbereich, je nach Kaufstelle.
+
+Laufzeit, Preis, Testphase, Abrechnungsintervall und Verlängerungsbedingungen werden in der App, im Store oder im Kaufdialog vor Bestätigung angezeigt.
+
+5. Testphasen und Promo-Zugang
+
+Raqoon kann kostenlose Testphasen, Promo-Codes, Bonus-Tage, Empfehlungsguthaben oder anderen temporären Zugang anbieten.
+
+Test- oder Bonusbedingungen können von bezahlten Abonnements abweichen und sich ändern. Ist ein Test mit einem Abonnement über Apple App Store, Google Play oder Huawei AppGallery verknüpft, gelten für Verlängerung und Abbuchung die Store-Regeln und die vor Kaufbestätigung angezeigten Bedingungen.
+
+6. Zulässige Nutzung
+
+Der Nutzer verpflichtet sich, Raqoon nur rechtmäßig und gemäß anwendbarem Recht, diesen Bedingungen, App-Store-Regeln und dem gewählten Tarif zu nutzen.
+
+Es ist untersagt, den Dienst zu nutzen für:
+
+- Verbreitung von Schadsoftware;
+- DDoS, Port-Scans, Brute-Force, unbefugten Zugriff oder andere Angriffe auf Netze und Systeme;
+- Spam, Phishing, Betrug oder massenhafte automatisierte Aktionen;
+- Verbreitung von Material, das Recht, Rechte Dritter oder Store-Regeln verletzt;
+- Verletzung von Urheber- oder sonstigen Schutzrechten;
+- Weiterverkauf, Weitergabe oder Veröffentlichung von Zugangsschlüsseln ohne Erlaubnis von Raqoon;
+- Handlungen, die übermäßige Last erzeugen oder andere Nutzer beeinträchtigen.
+
+Raqoon kann den Zugang einschränken, aussetzen oder beenden, wenn begründete Annahme einer Verletzung dieser Bedingungen, des Rechts, Rechte Dritter oder der Infrastruktursicherheit besteht.
+
+7. Fair-Use-Richtlinie
+
+Einige Tarife können großes Datenvolumen oder „unbegrenzten“ Zugang umfassen. Solcher Zugang ist für persönlichen, redlichen Gebrauch bestimmt.
+
+Erzeugt die Nutzung anomale Last, verschlechtert die Qualität für andere, verletzt technische Tarifgrenzen oder wird missbräuchlich genutzt, kann Raqoon vorübergehend Geschwindigkeit begrenzen, verfügbare Standorte ändern, die Verbindung aussetzen oder einen anderen Tarif vorschlagen.
+
+Einschränkungen erfolgen nur im zum Schutz von Stabilität, Infrastruktur und anderen Nutzern erforderlichen Umfang.
+
+8. Verfügbarkeit des Dienstes
+
+Raqoon strebt stabilen VPN-Betrieb an, garantiert jedoch keinen unterbrechungsfreien, fehlerfreien oder überall gleich schnellen Zugang in allen Ländern, Netzen, Geräten und Apps.
+
+Beeinflusst werden können der Betrieb unter anderem durch:
+
+- Qualität der Internetverbindung;
+- Einschränkungen des ISP;
+- Sperrungen, Filterung oder Handlungen Dritter;
+- Serverlast;
+- Wartungen;
+- Regeln von App Store, Google Play oder Drittanbieter-Apps;
+- gesetzliche Beschränkungen;
+- Ausfälle, DDoS und andere Umstände außerhalb des angemessenen Einflussbereichs von Raqoon.
+
+Raqoon garantiert nicht die Verfügbarkeit einer bestimmten Website, App, eines Online-Dienstes, Landes, einer IP-Adresse oder eines Serverstandorts.
+
+9. Konto, Gerät und Sicherheit
+
+Der Nutzer ist für die Sicherheit von Gerät, Konto, Apple ID, Zugangsschlüsseln und Konfigurationen verantwortlich.
+
+Zugangsschlüssel dürfen nicht an Dritte weitergegeben, Konfigurationen nicht öffentlich veröffentlicht, das Abonnement nicht außerhalb der erlaubten Geräteanzahl genutzt und keine technischen Tarifgrenzen umgangen werden.
+
+Bei Verdacht auf unbefugten Zugriff ist der Support zu kontaktieren.
+
+10. Kontolöschung
+
+Das Konto und zugehörige Daten können in den Raqoon-App-Einstellungen gelöscht werden.
+
+Die Löschung beendet den Zugang und kann Verlust von Schlüsseln, Einstellungen, Support-Historie und anderen kontobezogenen Daten zur Folge haben.
+
+Die Kontolöschung hebt nicht immer ein über Apple App Store, Google Play oder Huawei AppGallery gekauftes Abonnement auf. Um künftige Abbuchungen zu stoppen, muss das Abonnement separat im Store oder im systemischen Abonnementbereich der Kaufplattform gekündigt werden.
+
+11. Erstattungen
+
+Erstattungen für über Apple App Store, Google Play oder Huawei AppGallery gekaufte Abonnements richten sich nach den Store-Regeln. Raqoon hat keine technische Möglichkeit, Zahlungen für vom Store verarbeitete Käufe eigenständig zu stornieren oder zu erstatten.
+
+Für Abonnements und Zahlungen, die nicht über Apple laufen, gelten die Bedingungen des jeweiligen Zahlungskanals, des gewählten Tarifs, dieser Bedingungen und anwendbares Recht.
+
+Einzelheiten siehe Erstattungsrichtlinie auf der Raqoon-Website.
+
+12. Datenschutz
+
+Die Datenverarbeitung ist in der Raqoon-Datenschutzerklärung beschrieben. Mit Nutzung des Dienstes bestätigt der Nutzer, die Datenschutzerklärung gelesen zu haben.
+
+Raqoon protokolliert keine besuchten Websites, DNS-Anfragen oder Verkehrsinhalte, verarbeitet aber technische Daten, die für Betrieb, Abonnements, Support, Sicherheit und Diagnose erforderlich sind.
+
+13. Geistiges Eigentum
+
+App, Website, Design, Texte, Logos, Code, UI-Elemente und sonstige Materialien gehören dem Anbieter oder werden rechtmäßig genutzt.
+
+Der Nutzer erhält nur das Recht zur Nutzung gemäß diesen Bedingungen. Kein Recht auf Kopieren, Modifizieren, Vertreiben, Verkaufen, Vermieten, Dekompilieren oder sonstige Nutzung außerhalb des Erlaubten.
+
+14. Haftungsbeschränkung
+
+Der Dienst wird „wie besehen“ und „wie verfügbar“ im gesetzlich zulässigen Umfang bereitgestellt.
+
+Raqoon haftet nicht für:
+
+- fehlenden Zugang zu bestimmten Websites, Apps oder Diensten;
+- reduzierte Geschwindigkeit, Latenz oder vorübergehende Ausfälle;
+- Handlungen von ISPs, Rechenzentren, Website-Betreibern, App-Stores oder anderen Dritten;
+- Inkompatibilität mit VPN-Clients Dritter;
+- Zugangsverlust durch Verstoß gegen diese Bedingungen;
+- indirekte Schäden, entgangenen Gewinn oder Datenverlust, sofern zwingendes Recht nichts anderes vorschreibt.
+
+Nichts in diesen Bedingungen schränkt Rechte ein, die nach anwendbarem Recht nicht eingeschränkt werden dürfen.
+
+15. Änderungen der Bedingungen
+
+Raqoon kann diese Bedingungen anpassen, wenn sich Funktionen, Tarife, Infrastruktur, Gesetzgebung, App-Store-Anforderungen oder Geschäftsprozesse ändern.
+
+Die neue Fassung gilt mit Veröffentlichung auf der Website, sofern kein anderes Datum genannt wird. Fortgesetzte Nutzung nach Veröffentlichung gilt als Zustimmung.
+
+16. Anwendbares Recht und Streitigkeiten
+
+Diese Bedingungen unterliegen dem Recht der Republik Türkiye, soweit nicht zwingende Normen eines anderen anwendbaren Rechts entgegenstehen.
+
+Die Parteien bemühen sich, Angelegenheiten über den Raqoon-Support zu klären. Kann ein Streit nicht einvernehmlich gelöst werden, ist er den zuständigen Gerichten nach anwendbarem Recht zu unterbreiten.
+
+17. Kontakt
+
+Betrieb des Dienstes, Abonnements, Zugang und Support:
+
+- E-Mail: help@raqoon.app
+- Unternehmen: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Standort: Ankara, Türkiye

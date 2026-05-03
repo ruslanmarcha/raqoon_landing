@@ -1,0 +1,43 @@
+Zásady vrácení peněz Raqoon VPN
+
+Účinnost: 1. března 2026
+Poskytovatel: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Předplatné přes obchody s aplikacemi
+
+Je-li předplatné Raqoon zakoupeno prostřednictvím mobilní aplikace a obchodu s aplikacemi, řídí platbu, obnovení, zrušení předplatného a vrácení peněz pravidla daného obchodu.
+
+Raqoon neobdrží úplné údaje platební karty a nemá technickou možnost samostatně vrátit platbu zpracovanou Apple App Store, Google Play nebo Huawei AppGallery.
+
+Chcete-li požádat o vrácení, použijte nástroje obchodu, kde byl nákup proveden:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID nebo podpora Apple.
+- Google Play: Google Play, sekce Platby a předplatné / Předplatné, historie objednávek nebo podpora Google Play.
+- Huawei AppGallery: AppGallery, Huawei ID, sekce Předplatné nebo podpora Huawei.
+
+Chcete-li zastavit budoucí platby, zrušte předplatné v obchodě, kde byl nákup proveden. Smazání účtu Raqoon vždy automaticky nezruší předplatné v Apple App Store, Google Play nebo Huawei AppGallery.
+
+2. Zkušební období
+
+Obsahuje-li předplatné zkušební období, jeho délku, datum konce a podmínky dalšího obnovení zobrazí obchod s aplikacemi před potvrzením nákupu.
+
+Nepřejete-li pokračování předplatného po zkušební době, zrušte ho před datem obnovení podle pravidel příslušného obchodu s aplikacemi.
+
+3. Nákupy mimo Apple App Store
+
+Nebyl-li nákup proveden přes Apple App Store, závisí možnost vrácení na použitelném platebním kanálu, podmínkách tarifu, poskytnutí digitální služby a závazných právních požadavcích.
+
+Protože Raqoon poskytuje digitální službu aktivovanou elektronicky, může být vrácení po zahájení skutečného používání služby nedostupné, pokud zákon výslovně nevyžaduje jinak.
+
+4. Technické problémy
+
+Při technickém problému s připojením, platbou, předplatným nebo přístupem můžete kontaktovat podporu Raqoon. Pokusíme se pomoci obnovit přístup, zkontrolovat stav předplatného nebo objasnit chybu.
+
+Kontakt s podporou Raqoon nenahrazuje postup vrácení Apple, Google ani Huawei u nákupů zpracovaných příslušným obchodem s aplikacemi.
+
+5. Kontakty k platbám
+
+Dotazy k platbám a předplatnému:
+
+- E-mail: help@raqoon.app
+- Web: https://raqoon.app

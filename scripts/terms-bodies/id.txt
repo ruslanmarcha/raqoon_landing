@@ -1,0 +1,171 @@
+Ketentuan Penggunaan Raqoon VPN
+
+Berlaku efektif: 1 Maret 2026
+Tempat publikasi: Ankara, Türkiye
+Penyedia: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+Ketentuan Penggunaan ini mengatur akses ke aplikasi Raqoon, situs web raqoon.app, layanan VPN, langganan, dukungan teknis, dan fitur terkait.
+
+Dengan menggunakan Raqoon, membuat akun, membeli langganan, atau terhubung ke layanan VPN, pengguna mengonfirmasi bahwa telah membaca dan menerima Ketentuan ini.
+
+1. Definisi
+
+Raqoon, Layanan, atau layanan VPN berarti perangkat lunak, infrastruktur server, situs web, sistem backend, dukungan, dan fitur lain yang disediakan di bawah merek Raqoon VPN.
+
+Pengguna berarti individu yang menginstal aplikasi, menggunakan situs web, membeli langganan, atau terhubung ke layanan VPN.
+
+Akun berarti akun pengguna, profil teknis, kunci akses, pengenal perangkat, atau cara lain untuk mengotorisasi pengguna dalam Layanan.
+
+Langganan berarti akses berbayar ke fitur Raqoon untuk periode tertentu, termasuk langganan perpanjangan otomatis atau penagihan berkala melalui Apple App Store, Google Play, Huawei AppGallery, atau saluran pembayaran lain yang tersedia.
+
+2. Pokok Ketentuan
+
+Penyedia memberikan pengguna hak terbatas, non-eksklusif, tidak dapat dialihkan, dan dapat dicabut untuk menggunakan Raqoon VPN untuk akses pribadi ke jaringan pribadi virtual, perlindungan koneksi, dan penggunaan fitur aplikasi yang tersedia.
+
+Raqoon bukan operator telekomunikasi, penyedia layanan internet, lembaga pembayaran, penasihat hukum, atau jaminan akses ke situs web, aplikasi, atau layanan online tertentu.
+
+Ketersediaan aktual situs web, aplikasi, protokol, negara, dan lokasi server tertentu dapat bergantung pada kondisi teknis, pembatasan jaringan, kebijakan pihak ketiga, aturan toko aplikasi, perundang-undangan, dan operasi penyedia eksternal.
+
+3. Aplikasi resmi dan klien pihak ketiga
+
+Cara utama dan yang disarankan untuk menggunakan Raqoon adalah aplikasi resmi Raqoon.
+
+Penggunaan klien VPN pihak ketiga, termasuk Hiddify, v2rayNG, V2Box, Shadowrocket, dan aplikasi serupa, hanya diizinkan jika secara tegas diizinkan oleh paket yang dipilih, instruksi, atau materi dukungan.
+
+Aplikasi pihak ketiga dibuat dan dipelihara oleh pengembang independen. Raqoon tidak mengontrol antarmuka, pembaruan, keamanan, ketersediaan di App Store atau Google Play, atau perilaku tersebut di perangkat Anda.
+
+Pengguna bertanggung jawab atas instalasi klien pihak ketiga yang benar, impor konfigurasi, dan kepatuhan terhadap aturan toko aplikasi yang relevan.
+
+4. Langganan dan pembayaran melalui toko aplikasi
+
+Jika langganan dibeli melalui toko aplikasi, langganan tersebut diatur oleh aturan toko tersebut: Apple App Store, Google Play, atau Huawei AppGallery.
+
+Saat berlangganan melalui toko aplikasi:
+
+- pembayaran dibebankan melalui akun pengguna di toko tersebut;
+- langganan dapat diperpanjang secara otomatis kecuali dibatalkan lebih dahulu di pengaturan toko;
+- pengelolaan, pembatalan, dan pengembalian dana ditangani melalui toko aplikasi yang relevan;
+- Raqoon hanya menerima konfirmasi pembelian teknis, status langganan, dan data yang diperlukan untuk memberikan akses;
+- Raqoon tidak menerima atau menyimpan data kartu bank lengkap pengguna.
+
+Pengguna dapat mengelola langganan melalui pengaturan Apple ID, Google Play, Huawei AppGallery, AppGallery ID/Huawei ID, atau bagian manajemen langganan sistem di perangkat, tergantung tempat pembelian.
+
+Durasi, harga, masa uji coba, frekuensi penagihan, dan syarat perpanjangan ditampilkan di aplikasi, toko aplikasi, atau alur pembelian sebelum konfirmasi.
+
+5. Masa uji coba dan akses promosi
+
+Raqoon dapat menawarkan masa uji coba gratis, kode promo, hari bonus, kredit rujukan, atau akses sementara lainnya.
+
+Syarat uji coba atau promosi dapat berbeda dari langganan berbayar dan dapat berubah. Jika uji coba terkait dengan langganan melalui Apple App Store, Google Play, atau Huawei AppGallery, perpanjangan dan penagihan selanjutnya diatur oleh aturan toko dan syarat yang ditampilkan sebelum konfirmasi pembelian.
+
+6. Penggunaan yang dapat diterima
+
+Pengguna setuju untuk hanya menggunakan Raqoon untuk tujuan yang sah dan sesuai dengan hukum yang berlaku, Ketentuan ini, aturan App Store, dan syarat paket yang dipilih.
+
+Dilarang menggunakan Layanan untuk:
+
+- mendistribusikan malware;
+- melakukan serangan DDoS, pemindaian port, brute-force, akses tidak sah, atau serangan lain terhadap jaringan dan sistem;
+- mengirim spam, phishing, penipuan, atau tindakan otomatis massal;
+- mendistribusikan materi yang melanggar hukum, hak pihak ketiga, atau aturan toko;
+- melanggar hak cipta atau kekayaan intelektual lainnya;
+- menjual kembali, mentransfer, atau mempublikasikan kunci akses tanpa izin Raqoon;
+- tindakan yang menimbulkan beban berlebihan pada infrastruktur atau mengganggu pengguna lain.
+
+Raqoon dapat membatasi, menangguhkan, atau mengakhiri akses jika ada alasan yang wajar untuk percaya bahwa pengguna melanggar Ketentuan ini, hukum, hak pihak ketiga, atau keamanan infrastruktur.
+
+7. Kebijakan Penggunaan Wajar (Fair Use)
+
+Beberapa paket dapat mencakup volume data besar atau akses «tanpa batas». Akses tersebut dimaksudkan untuk penggunaan pribadi yang wajar.
+
+Jika penggunaan menciptakan beban abnormal, menurunkan kualitas layanan bagi pengguna lain, melanggar batas teknis paket, atau digunakan di luar tujuan, Raqoon dapat membatasi kecepatan sementara, mengubah lokasi yang tersedia, menangguhkan koneksi, atau menyarankan paket lain.
+
+Pembatasan hanya berlaku sejauh diperlukan untuk melindungi stabilitas layanan, infrastruktur, dan pengguna lain.
+
+8. Ketersediaan layanan
+
+Raqoon berupaya menyediakan operasi VPN yang stabil tetapi tidak menjamin akses yang tidak terputus, bebas kesalahan, atau sama cepatnya di semua negara, jaringan, perangkat, dan aplikasi.
+
+Operasi dapat dipengaruhi oleh:
+
+- kualitas koneksi internet pengguna;
+- pembatasan ISP;
+- pemblokiran, penyaringan, atau tindakan pihak ketiga lainnya;
+- beban server;
+- pemeliharaan;
+- aturan App Store, Google Play, atau aplikasi pihak ketiga;
+- pembatasan hukum;
+- pemadaman, serangan DDoS, dan keadaan lain di luar kendali wajar Raqoon.
+
+Raqoon tidak menjamin ketersediaan situs web, aplikasi, layanan online, negara, alamat IP, atau lokasi server tertentu.
+
+9. Akun, perangkat, dan keamanan
+
+Pengguna bertanggung jawab atas keamanan perangkat, akun, Apple ID, kunci akses, dan konfigurasi.
+
+Tidak boleh membagikan kunci akses kepada pihak ketiga, mempublikasikan konfigurasi secara terbuka, menggunakan langganan di luar jumlah perangkat yang diizinkan, atau mengelak dari batas teknis paket.
+
+Jika mencurigai akses tidak sah ke akun atau kunci, hubungi dukungan.
+
+10. Penghapusan akun
+
+Pengguna dapat menghapus akun dan data terkait di pengaturan aplikasi Raqoon.
+
+Penghapusan mengakhiri akses ke Layanan dan dapat mengakibatkan hilangnya kunci, pengaturan, riwayat dukungan, dan data lain yang terkait dengan akun.
+
+Menghapus akun tidak selalu membatalkan langganan yang dibeli melalui Apple App Store, Google Play, atau Huawei AppGallery. Untuk menghentikan tagihan di masa mendatang, pengguna harus secara terpisah membatalkan langganan di toko aplikasi atau bagian manajemen langganan sistem di platform pembelian.
+
+11. Pengembalian dana
+
+Pengembalian dana untuk langganan yang dibeli melalui Apple App Store, Google Play, atau Huawei AppGallery diatur oleh aturan toko aplikasi tersebut. Raqoon tidak memiliki kemampuan teknis untuk membatalkan pembayaran atau mengeluarkan pengembalian dana sendiri untuk pembelian yang diproses oleh toko aplikasi.
+
+Untuk langganan dan pembayaran yang tidak diproses melalui Apple, berlaku syarat saluran pembayaran yang relevan, paket yang dipilih, Ketentuan ini, dan hukum yang berlaku.
+
+Lihat Kebijakan Pengembalian di situs web Raqoon untuk detail.
+
+12. Privasi
+
+Pemrosesan data pengguna dijelaskan dalam Kebijakan Privasi Raqoon. Dengan menggunakan Layanan, pengguna mengonfirmasi telah membaca Kebijakan Privasi.
+
+Raqoon tidak mencatat situs yang dikunjungi, kueri DNS, atau konten lalu lintas, tetapi memproses data teknis yang diperlukan untuk mengoperasikan layanan, langganan, dukungan, keamanan, dan diagnostik.
+
+13. Kekayaan intelektual
+
+Aplikasi, situs web, desain, teks, logo, kode, elemen UI, dan materi Raqoon lainnya dimiliki oleh penyedia atau digunakan berdasarkan lisensi yang sah.
+
+Pengguna hanya menerima hak untuk menggunakan Layanan sesuai Ketentuan ini. Pengguna tidak menerima hak untuk menyalin, memodifikasi, mendistribusikan, menjual, menyewa, mendekompilasi, atau menggunakan materi Raqoon di luar penggunaan yang diizinkan.
+
+14. Pembatasan tanggung jawab
+
+Layanan disediakan «apa adanya» dan «sesuai ketersediaan» sejauh diizinkan oleh hukum.
+
+Raqoon tidak bertanggung jawab atas:
+
+- ketidakmampuan mengakses situs web, aplikasi, atau layanan tertentu;
+- penurunan kecepatan, latensi, atau gangguan sementara;
+- tindakan ISP, pusat data, pemilik situs, toko aplikasi, atau pihak ketiga lainnya;
+- ketidakcocokan dengan klien VPN pihak ketiga;
+- kehilangan akses karena pelanggaran Ketentuan oleh pengguna;
+- kerugian tidak langsung, kehilangan keuntungan, atau kehilangan data, kecuali jika hukum wajib mensyaratkan lain.
+
+Tidak ada apa pun dalam Ketentuan ini yang membatasi hak pengguna yang tidak dapat dibatasi berdasarkan hukum yang berlaku.
+
+15. Perubahan Ketentuan
+
+Raqoon dapat memperbarui Ketentuan ini ketika fitur, paket, infrastruktur, perundang-undangan, persyaratan toko aplikasi, atau proses bisnis berubah.
+
+Versi baru berlaku sejak dipublikasikan di situs web kecuali tanggal lain disebutkan. Penggunaan berkelanjutan setelah publikasi berarti persetujuan pengguna dengan Ketentuan yang diperbarui.
+
+16. Hukum yang mengatur dan sengketa
+
+Ketentuan ini diatur oleh hukum Republik Türkiye, kecuali ketentuan wajib hukum lain yang berlaku mengatur sebaliknya.
+
+Para pihak berupaya menyelesaikan masalah melalui dukungan Raqoon. Jika sengketa tidak dapat diselesaikan secara damai, sengketa tersebut diserahkan kepada pengadilan yang berwenang sesuai hukum yang berlaku.
+
+17. Kontak
+
+Operasi layanan, langganan, akses, dan dukungan:
+
+- Email: help@raqoon.app
+- Perusahaan: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Lokasi: Ankara, Türkiye

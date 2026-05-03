@@ -1,0 +1,171 @@
+Podmínky užití Raqoon VPN
+
+Účinnost: 1. března 2026
+Místo zveřejnění: Ankara, Turecko
+Poskytovatel: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+Tyto Podmínky užití upravují přístup k aplikaci Raqoon, webu raqoon.app, službě VPN, předplatnému, technické podpoře a souvisejícím funkcím.
+
+Používáním Raqoon, vytvořením účtu, zakoupením předplatného nebo připojením k VPN uživatel potvrzuje, že se s Podmínkami seznámil a souhlasí s nimi.
+
+1. Definice
+
+Raqoon, Služba nebo VPN služba znamená software, serverovou infrastrukturu, web, backendové systémy, podporu a další funkce poskytované pod značkou Raqoon VPN.
+
+Uživatel znamená fyzickou osobu, která instaluje aplikaci, používá web, zakupuje předplatné nebo se připojuje k VPN.
+
+Účet znamená uživatelský účet, technický profil, přístupový klíč, identifikátor zařízení nebo jiný způsob autorizace ve Službě.
+
+Předplatné znamená placený přístup k funkcím Raqoon na určité období včetně automaticky obnovovaného předplatného nebo pravidelných plateb přes Apple App Store, Google Play, Huawei AppGallery nebo jiný dostupný platební kanál.
+
+2. Předmět Podmínek
+
+Poskytovatel uděluje uživateli omezené, nevýhradní, nepřevoditelné a odvolatelné právo používat Raqoon VPN pro osobní přístup k virtuální privátní síti, ochranu připojení a využití dostupných funkcí aplikace.
+
+Raqoon není telekomunikačním operátorem, poskytovatelem internetu, platební institucí, právním poradcem ani zárukou přístupu ke konkrétnímu webu, aplikaci nebo online službě.
+
+Skutečná dostupnost konkrétních webů, aplikací, protokolů, zemí a serverových lokalit může záviset na technických podmínkách, síťových omezeních, pravidlech třetích stran, pravidlech obchodů s aplikacemi, legislativě a provozu externích poskytovatelů.
+
+3. Oficiální aplikace a klienti třetích stran
+
+Primární a doporučený způsob je oficiální aplikace Raqoon.
+
+Použití VPN klientů třetích stran včetně Hiddify, v2rayNG, V2Box, Shadowrocket a podobných je povoleno pouze, pokud to výslovně umožňuje zvolený tarif, návod nebo materiály podpory.
+
+Aplikace třetích stran vytvářejí a udržují nezávislí vývojáři. Raqoon nekontroluje jejich rozhraní, aktualizace, bezpečnost, dostupnost v App Store nebo Google Play ani chování na zařízení.
+
+Uživatel odpovídá za správnou instalaci klienta třetí strany, import konfigurace a dodržování pravidel příslušného obchodu s aplikacemi.
+
+4. Předplatné a platba přes obchody s aplikacemi
+
+Je-li předplatné zakoupeno v obchodu s aplikacemi, řídí se pravidly tohoto obchodu: Apple App Store, Google Play nebo Huawei AppGallery.
+
+Při předplatném přes obchod:
+
+- platba probíhá přes účet uživatele v daném obchodu;
+- předplatné se může automaticky obnovovat, pokud jej uživatel včas nezruší v nastavení obchodu;
+- správa, zrušení a vrácení probíhá příslušným obchodem;
+- Raqoon obdrží pouze technické potvrzení nákupu, stav předplatného a data nutná k poskytnutí přístupu;
+- Raqoon neobdrží ani neukládá úplné údaje platební karty.
+
+Správa probíhá přes nastavení Apple ID, Google Play, Huawei AppGallery, AppGallery ID/Huawei ID nebo systémovou sekci předplatného na zařízení podle místa nákupu.
+
+Doba, cena, zkušební období, frekvence plateb a podmínky obnovy jsou zobrazeny v aplikaci, obchodě nebo před potvrzením nákupu.
+
+5. Zkušební období a propagační přístup
+
+Raqoon může nabídnout bezplatné zkušební období, promo kódy, bonusové dny, referenční kredity nebo jiný dočasný přístup.
+
+Podmínky zkušebního nebo bonusového přístupu se mohou lišit od placeného předplatného a měnit se. Je-li zkušební období vázáno na předplatné přes Apple App Store, Google Play nebo Huawei AppGallery, další obnovení a platby řídí pravidla obchodu a podmínky zobrazené před potvrzením nákupu.
+
+6. Přípustné použití
+
+Uživatel se zavazuje používat Raqoon pouze v souladu se zákonem, těmito Podmínkami, pravidly App Store a zvoleným tarifem.
+
+Je zakázáno Službu používat k:
+
+- šíření škodlivého softwaru;
+- DDoS útokům, skenování portů, brute-force, neoprávněnému přístupu nebo jiným útokům na sítě a systémy;
+- rozesílání spamu, phishingu, podvodů nebo masových automatizovaných akcí;
+- šíření materiálu porušujícího zákon, práva třetích stran nebo pravidla obchodů;
+- porušování autorských a jiných práv duševního vlastnictví;
+- přeprodeji, předávání nebo zveřejňování přístupových klíčů bez souhlasu Raqoon;
+- činnostem vytvářejícím nadměrnou zátěž infrastruktury nebo škodícím jiným uživatelům.
+
+Raqoon může omezit, pozastavit nebo ukončit přístup, existují-li rozumné důvody domnívat se o porušení Podmínek, zákona, práv třetích stran nebo bezpečnosti infrastruktury.
+
+7. Zásady férového užití (Fair Use)
+
+Některé tarify mohou zahrnovat velký objem dat nebo „neomezený“ přístup. Takový přístup je určen pro osobní, poctivé použití.
+
+Vytváří-li použití abnormální zátěž, snižuje kvalitu pro ostatní, porušuje technické limity tarifu nebo je v rozporu s účelem, může Raqoon dočasně omezit rychlost, změnit dostupnou lokalitu, pozastavit spojení nebo navrhnout jiný tarif.
+
+Omezení platí jen v rozsahu nutném k ochraně stability služby, infrastruktury a ostatních uživatelů.
+
+8. Dostupnost služby
+
+Raqoon usiluje o stabilní provoz VPN, ale nezaručuje nepřetržitý, bezchybný nebo stejně rychlý přístup ve všech zemích, sítích, zařízeních a aplikacích.
+
+Na provoz mohou mimo jiné vliv:
+
+- kvalita internetového připojení uživatele;
+- omezení ISP;
+- blokace, filtrování nebo jiné kroky třetích stran;
+- zatížení serverů;
+- údržba;
+- pravidla App Store, Google Play nebo aplikací třetích stran;
+- zákonná omezení;
+- výpadky, DDoS a jiné okolnosti mimo rozumnou kontrolu Raqoon.
+
+Raqoon nezaručuje dostupnost konkrétního webu, aplikace, online služby, země, IP adresy nebo serverové lokality.
+
+9. Účet, zařízení a bezpečnost
+
+Uživatel odpovídá za bezpečnost zařízení, účtu, Apple ID, přístupových klíčů a konfigurací.
+
+Nelze předávat klíče třetím stranám, veřejně zveřejňovat konfigurace, používat předplatné mimo povolený počet zařízení nebo obcházet technické limity tarifu.
+
+Při podezření na neoprávněný přístup ke účtu nebo klíči kontaktujte podporu.
+
+10. Smazání účtu
+
+Uživatel může smazat účet a související údaje v nastavení aplikace Raqoon.
+
+Smazání ukončí přístup ke Službě a může vést ke ztrátě klíčů, nastavení, historie podpory a dalších dat účtu.
+
+Smazání účtu vždy nezruší předplatné zakoupené přes Apple App Store, Google Play nebo Huawei AppGallery. Pro zastavení budoucích plateb je nutné předplatné zvlášť zrušit v obchodě nebo v systémové správě předplatného platformy nákupu.
+
+11. Vrácení plateb
+
+Vrácení za předplatné zakoupené přes Apple App Store, Google Play nebo Huawei AppGallery řídí pravidla daného obchodu. Raqoon nemá technickou možnost samostatně rušit platby nebo vracet prostředky za nákupy zpracované obchodem.
+
+U předplatného a plateb nezpracovaných společností Apple platí podmínky příslušného platebního kanálu, zvoleného tarifu, těchto Podmínek a platného práva.
+
+Podrobnosti viz Zásady vrácení na webu Raqoon.
+
+12. Ochrana soukromí
+
+Zpracování údajů je popsáno v Zásadách ochrany osobních údajů Raqoon. Používáním Služby uživatel potvrzuje, že se se zásadami seznámil.
+
+Raqoon nevede protokoly navštívených webů, DNS dotazů ani obsahu provozu, ale zpracovává technická data nutná pro provoz služby, předplatné, podporu, bezpečnost a diagnostiku.
+
+13. Duševní vlastnictví
+
+Aplikace, web, design, texty, loga, kód, prvky rozhraní a další materiály Raqoon patří poskytovateli nebo jsou užívány na zákonném základě.
+
+Uživatel získává pouze právo používat Službu v souladu s Podmínkami. Nezískává právo kopírovat, upravovat, šířit, prodávat, pronajímat, dekompilovat ani jinak používat materiály Raqoon mimo povolené použití.
+
+14. Omezení odpovědnosti
+
+Služba je poskytována „jak je“ a „jak je k dispozici“ v nejširším rozsahu povoleném zákonem.
+
+Raqoon nenese odpovědnost mimo jiné za:
+
+- nemožnost přístupu ke konkrétním webům, aplikacím nebo službám;
+- snížení rychlosti, zpoždění nebo dočasné výpadky;
+- jednání ISP, datových center, vlastníků webů, obchodů s aplikacemi nebo jiných třetích stran;
+- nekompatibilitu s VPN klienty třetích stran;
+- ztrátu přístupu v důsledku porušení Podmínek uživatelem;
+- nepřímé škody, ušlý zisk nebo ztrátu dat, pokud to zákon výslovně nevyžaduje jinak.
+
+Nic v Podmínkách neomezuje práva, která nelze podle platného práva omezit.
+
+15. Změny Podmínek
+
+Raqoon může Podmínky aktualizovat při změně funkcí, tarifů, infrastruktury, legislativy, požadavků obchodů s aplikacemi nebo obchodních procesů.
+
+Nová verze nabývá účinnosti zveřejněním na webu, pokud není uvedeno jinak. Pokračováním v používání po zveřejnění uživatel souhlasí s aktualizovanými Podmínkami.
+
+16. Rozhodné právo a spory
+
+Podmínky se řídí právem Turecké republiky, pokud zákonem nepřípustné normy jiného použitelného práva nestanoví jinak.
+
+Strany se snaží řešit záležitosti přes podporu Raqoon. Nelze-li spor vyřešit smírně, předkládá se příslušným soudům podle platného práva.
+
+17. Kontakty
+
+Provoz služby, předplatné, přístup a podpora:
+
+- E-mail: help@raqoon.app
+- Společnost: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Místo: Ankara, Turecko

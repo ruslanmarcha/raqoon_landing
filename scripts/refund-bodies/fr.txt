@@ -1,0 +1,43 @@
+Politique de remboursement Raqoon VPN
+
+Date d’entrée en vigueur : 1er mars 2026
+Prestataire : Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Abonnements via les magasins d’applications
+
+Si un abonnement Raqoon est souscrit via l’application mobile et un magasin d’applications, le paiement, le renouvellement, l’annulation et les remboursements sont régis par les règles de ce magasin.
+
+Raqoon ne reçoit pas les données complètes de carte bancaire et n’a pas la capacité technique de rembourser seul un paiement traité par l’Apple App Store, Google Play ou Huawei AppGallery.
+
+Pour demander un remboursement, utilisez les outils du magasin où l’achat a été effectué :
+
+- Apple App Store : reportaproblem.apple.com, App Store, Apple ID ou support Apple.
+- Google Play : Google Play, section Paiements et abonnements / Abonnements, historique des commandes ou support Google Play.
+- Huawei AppGallery : AppGallery, Huawei ID, section Abonnements ou support Huawei.
+
+Pour arrêter les prélèvements futurs, annulez l’abonnement dans le magasin où l’achat a été effectué. La suppression de votre compte Raqoon n’annule pas toujours automatiquement l’abonnement dans l’Apple App Store, Google Play ou Huawei AppGallery.
+
+2. Période d’essai
+
+Si l’abonnement comprend une période d’essai, sa durée, sa date de fin et les conditions de renouvellement ultérieur sont affichées par le magasin d’applications avant confirmation d’achat.
+
+Si vous ne souhaitez pas que l’abonnement se poursuive après l’essai, annulez-le avant la date de renouvellement conformément aux règles du magasin concerné.
+
+3. Achats en dehors de l’Apple App Store
+
+Si l’achat n’a pas été effectué via l’Apple App Store, l’éligibilité au remboursement dépend du canal de paiement applicable, des conditions du forfait, de la fourniture du service numérique et du droit impératif applicable.
+
+Comme Raqoon fournit un service numérique activé par voie électronique, un remboursement peut être indisponible après le début de l’utilisation effective, sauf exigence contraire du droit applicable.
+
+4. Problèmes techniques
+
+En cas de problème technique de connexion, de facturation, d’abonnement ou d’accès, vous pouvez contacter le support Raqoon. Nous nous efforcerons d’aider à rétablir l’accès, vérifier le statut d’abonnement ou analyser une erreur.
+
+Contacter le support Raqoon ne remplace pas la procédure de remboursement d’Apple, Google ou Huawei pour les achats traités par le magasin d’applications concerné.
+
+5. Contacts pour la facturation
+
+Pour les paiements et abonnements :
+
+- E-mail : help@raqoon.app
+- Site web : https://raqoon.app

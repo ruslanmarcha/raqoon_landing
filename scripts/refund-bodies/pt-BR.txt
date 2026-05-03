@@ -1,0 +1,43 @@
+Política de Reembolso Raqoon VPN
+
+Vigência: 1º de março de 2026
+Fornecedor: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Assinaturas via lojas de aplicativos
+
+Se uma assinatura Raqoon for adquirida pelo aplicativo móvel e uma loja de aplicativos, pagamento, renovação, cancelamento da assinatura e reembolsos são regidos pelas regras dessa loja.
+
+A Raqoon não recebe os dados completos do seu cartão bancário e não tem capacidade técnica de reembolsar por conta própria um pagamento processado pela Apple App Store, Google Play ou Huawei AppGallery.
+
+Para solicitar reembolso, use as ferramentas da loja onde você comprou:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID ou suporte Apple.
+- Google Play: Google Play, seção Pagamentos e assinaturas / Assinaturas, histórico de pedidos ou suporte Google Play.
+- Huawei AppGallery: AppGallery, Huawei ID, seção Assinaturas ou suporte Huawei.
+
+Para interromper cobranças futuras, cancele a assinatura na loja de aplicativos onde você comprou. Excluir sua conta Raqoon nem sempre cancela automaticamente a assinatura na Apple App Store, Google Play ou Huawei AppGallery.
+
+2. Período de teste
+
+Se a assinatura incluir um teste, sua duração, data de término e condições de renovação posteriores são exibidas pela loja de aplicativos antes da confirmação da compra.
+
+Se você não quiser que a assinatura continue após o teste, cancele-a antes da data de renovação conforme as regras da loja de aplicativos relevante.
+
+3. Compras fora da Apple App Store
+
+Se a compra não foi feita pela Apple App Store, a elegibilidade ao reembolso depende do canal de pagamento aplicável, termos do plano, entrega do serviço digital e lei imperativa.
+
+Como a Raqoon fornece um serviço digital ativado eletronicamente, o reembolso pode ficar indisponível após o início do uso efetivo do serviço, salvo exigência legal em contrário.
+
+4. Problemas técnicos
+
+Se você tiver um problema técnico de conexão, cobrança, assinatura ou acesso, pode contatar o suporte Raqoon. Tentaremos ajudar a restaurar o acesso, verificar o status da assinatura ou investigar um erro.
+
+Contatar o suporte Raqoon não substitui o processo de reembolso da Apple, Google ou Huawei para compras processadas pela loja de aplicativos correspondente.
+
+5. Contatos de cobrança
+
+Para pagamentos e assinaturas:
+
+- E-mail: help@raqoon.app
+- Site: https://raqoon.app

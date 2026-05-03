@@ -1,0 +1,43 @@
+Polityka zwrotów Raqoon VPN
+
+Data wejścia w życie: 1 marca 2026 r.
+Usługodawca: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Subskrypcje przez sklepy z aplikacjami
+
+Jeśli subskrypcja Raqoon została wykupiona przez aplikację mobilną i sklep z aplikacjami, płatność, odnowienie, anulowanie subskrypcji i zwroty regulują zasady tego sklepu.
+
+Raqoon nie otrzymuje pełnych danych karty płatniczej użytkownika i nie ma technicznej możliwości samodzielnego zwrotu płatności przetworzonej przez Apple App Store, Google Play lub Huawei AppGallery.
+
+Aby złożyć wniosek o zwrot, należy skorzystać z narzędzi sklepu, w którym dokonano zakupu:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID lub wsparcie Apple.
+- Google Play: Google Play, sekcja Płatności i subskrypcje / Subskrypcje, historia zamówień lub wsparcie Google Play.
+- Huawei AppGallery: AppGallery, Huawei ID, sekcja Subskrypcje lub wsparcie Huawei.
+
+Aby zatrzymać przyszłe obciążenia, anuluj subskrypcję w sklepie, w którym dokonano zakupu. Usunięcie konta Raqoon nie zawsze automatycznie anuluje subskrypcję w Apple App Store, Google Play lub Huawei AppGallery.
+
+2. Okres próbny
+
+Jeśli subskrypcja obejmuje okres próbny, jego długość, data zakończenia i warunki dalszego odnowienia są wyświetlane przez sklep z aplikacjami przed potwierdzeniem zakupu.
+
+Jeśli użytkownik nie chce kontynuacji subskrypcji po okresie próbnym, powinien anulować subskrypcję przed datą odnowienia zgodnie z zasadami odpowiedniego sklepu z aplikacjami.
+
+3. Zakupy poza Apple App Store
+
+Jeśli zakup nie został dokonany przez Apple App Store, możliwość zwrotu zależy od obowiązującego kanału płatności, warunków planu, faktu świadczenia usługi cyfrowej oraz wymogów obowiązującego prawa.
+
+Ponieważ Raqoon świadczy usługę cyfrową aktywowaną elektronicznie, zwrot może być niedostępny po rozpoczęciu faktycznego korzystania z usługi, o ile obowiązujące prawo nie stanowi inaczej.
+
+4. Problemy techniczne
+
+W razie problemu technicznego z połączeniem, płatnością, subskrypcją lub dostępem można skontaktować się z pomocą Raqoon. Postaramy się pomóc przywrócić dostęp, sprawdzić status subskrypcji lub wyjaśnić błąd.
+
+Kontakt z pomocą Raqoon nie zastępuje procedury zwrotu Apple, Google ani Huawei dla zakupów przetwarzanych przez dany sklep z aplikacjami.
+
+5. Kontakty dotyczące płatności
+
+W sprawach płatności i subskrypcji:
+
+- E-mail: help@raqoon.app
+- Strona: https://raqoon.app

@@ -1,0 +1,43 @@
+Patakaran sa Refund ng Raqoon VPN
+
+Epektibo: Marso 1, 2026
+Tagapagbigay: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Subscription sa pamamagitan ng app store
+
+Kung binili ang Raqoon subscription sa mobile app at app store, ang bayad, pag-renew, pagkansela ng subscription, at mga refund ay sumusunod sa tuntunin ng store na iyon.
+
+Ang Raqoon ay hindi tumatanggap ng buong bank card data mo at walang teknikal na kakayahang mag-refund nang sarili para sa bayad na pinoproseso ng Apple App Store, Google Play, o Huawei AppGallery.
+
+Para humiling ng refund, gamitin ang mga tool ng store kung saan ka bumili:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID, o suporta ng Apple.
+- Google Play: Google Play, seksyon ng Payments & subscriptions / Subscriptions, order history, o suporta ng Google Play.
+- Huawei AppGallery: AppGallery, Huawei ID, seksyon ng Subscriptions, o suporta ng Huawei.
+
+Para itigil ang mga susunod na singil, kanselahin ang subscription sa app store kung saan ka bumili. Ang pagtanggal ng Raqoon account ay hindi palaging awtomatikong kinakansela ang subscription sa Apple App Store, Google Play, o Huawei AppGallery.
+
+2. Trial period
+
+Kasama ang trial sa subscription, ang tagal, petsa ng pagtatapos, at mga tuntunin ng susunod na renewal ay ipinapakita ng app store bago kumpirmahin ang pagbili.
+
+Kung ayaw mong magpatuloy ang subscription pagkatapos ng trial, kanselahin ito bago ang petsa ng renewal ayon sa tuntunin ng nauugnay na app store.
+
+3. Mga biniling hindi sa Apple App Store
+
+Kung ang pagbili ay hindi sa pamamagitan ng Apple App Store, ang eligibility sa refund ay depende sa naaangkop na channel ng bayad, mga tuntunin ng plano, pagbibigay ng digital na serbisyo, at mandatoryong batas.
+
+Dahil nagbibigay ang Raqoon ng digital na serbisyong na-activate nang elektroniko, maaaring hindi available ang refund pagkatapos magsimula sa aktwal na paggamit ng serbisyo, maliban kung kinakailangan ng batas.
+
+4. Teknikal na problema
+
+Kung may teknikal na problema sa koneksyon, billing, subscription, o access, maaari mong kontakin ang suporta ng Raqoon. Susubukan naming tulungan na ibalik ang access, suriin ang status ng subscription, o imbestigahan ang error.
+
+Ang pakikipag-ugnayan sa suporta ng Raqoon ay hindi pumapalit sa proseso ng refund ng Apple, Google, o Huawei para sa mga biniling pinoproseso ng nauugnay na app store.
+
+5. Mga kontak sa billing
+
+Para sa bayad at subscription:
+
+- Email: help@raqoon.app
+- Website: https://raqoon.app

@@ -1,0 +1,171 @@
+Mga Tuntunin ng Paggamit ng Raqoon VPN
+
+Epektibo: Marso 1, 2026
+Lugar ng publikasyon: Ankara, Türkiye
+Tagapagbigay: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+Ang Mga Tuntuning ito ng Paggamit ay namamahala sa access sa app na Raqoon, sa website na raqoon.app, sa serbisyo ng VPN, subscription, teknikal na suporta, at kaugnay na feature.
+
+Sa paggamit ng Raqoon, paglikha ng account, pagbili ng subscription, o pagkonekta sa VPN, kinukumpirma ng user na nabasa at tinatanggap ang Mga Tuntuning ito.
+
+1. Mga kahulugan
+
+Ang Raqoon, Serbisyo, o serbisyo ng VPN ay nangangahulugang software, imprastraktura ng server, website, backend system, suporta, at iba pang feature na ibinibigay sa ilalim ng tatak na Raqoon VPN.
+
+Ang user ay nangangahulugang natural na taong nag-i-install ng app, gumagamit ng website, bumibili ng subscription, o kumokonekta sa VPN.
+
+Ang account ay nangangahulugang user account, teknikal na profile, access key, identifier ng device, o iba pang paraan ng awtorisasyon ng user sa Serbisyo.
+
+Ang subscription ay nangangahulugang bayad na access sa mga feature ng Raqoon sa takdang panahon, kasama ang awtomatikong nagre-renew na subscription o paulit-ulit na singil sa pamamagitan ng Apple App Store, Google Play, Huawei AppGallery, o iba pang available na channel ng bayad.
+
+2. Paksa ng Mga Tuntunin
+
+Ang tagapagbigay ay nagbibigay sa user ng limitado, hindi eksklusibo, hindi naililipat, at maaaring bawiing karapatang gamitin ang Raqoon VPN para sa personal na access sa virtual private network, proteksyon ng koneksyon, at paggamit ng available na feature ng app.
+
+Ang Raqoon ay hindi telecom operator, internet service provider, payment institution, legal advisor, o garantiya ng access sa partikular na website, app, o online service.
+
+Ang aktwal na availability ng partikular na website, app, protocol, bansa, at server location ay maaaring depende sa teknikal na kondisyon, network restriction, patakaran ng third party, tuntunin ng app store, batas, at operasyon ng external provider.
+
+3. Opisyal na app at third-party client
+
+Ang pangunahin at inirerekomendang paraan ng paggamit ng Raqoon ay ang opisyal na Raqoon app.
+
+Ang paggamit ng third-party VPN client, kasama ang Hiddify, v2rayNG, V2Box, Shadowrocket, at katulad na app, ay pinapayagan lamang kung tahasang pinapayagan ng napiling plano, tagubilin, o materyales ng suporta.
+
+Ang mga app ng third party ay nililikha at pinapanatili ng independiyenteng developer. Hindi kinokontrol ng Raqoon ang interface, update, seguridad, availability sa App Store o Google Play, o asal sa device.
+
+Ang user ay may pananagutan sa tamang pag-install ng third-party client, pag-import ng configuration, at pagsunod sa tuntunin ng nauugnay na app store.
+
+4. Subscription at bayad sa pamamagitan ng app store
+
+Kung binili ang subscription sa app store, ito ay sumusunod sa tuntunin ng store na iyon: Apple App Store, Google Play, o Huawei AppGallery.
+
+Kapag nagsu-subscribe sa pamamagitan ng app store:
+
+- ang bayad ay sinisingil sa account ng user sa store na iyon;
+- maaaring awtomatikong mag-renew ang subscription maliban kung kinansela nang maaga sa settings ng store;
+- pamamahala, pagkansela, at refund ay pinoproseso sa pamamagitan ng nauugnay na app store;
+- ang Raqoon ay tumatanggap lamang ng teknikal na kumpirmasyon ng pagbili, status ng subscription, at data na kailangan para sa access;
+- ang Raqoon ay hindi tumatanggap o nag-iimbak ng buong bank card data ng user.
+
+Maaaring pamahalaan ng user ang subscription sa pamamagitan ng Apple ID settings, Google Play, Huawei AppGallery, AppGallery ID/Huawei ID, o system subscription management sa device, depende sa lugar ng pagbili.
+
+Ang tagal, presyo, trial period, dalas ng singil, at mga tuntunin ng renewal ay ipinapakita sa app, app store, o bago kumpirmahin ang pagbili.
+
+5. Trial period at promosyonal na access
+
+Maaaring mag-alok ang Raqoon ng libreng trial, promo code, bonus araw, referral credit, o iba pang pansamantalang access.
+
+Ang mga tuntunin ng trial o promo ay maaaring magkaiba sa bayad na subscription at maaaring magbago. Kung ang trial ay nauugnay sa subscription sa pamamagitan ng Apple App Store, Google Play, o Huawei AppGallery, ang susunod na renewal at singil ay sumusunod sa tuntunin ng store at mga tuntuning ipinakita bago kumpirmahin ang pagbili.
+
+6. Katanggap-tanggap na paggamit
+
+Sumasang-ayon ang user na gamitin lamang ang Raqoon para sa legal na layunin at alinsunod sa naaangkop na batas, Mga Tuntuning ito, tuntunin ng App Store, at mga tuntunin ng napiling plano.
+
+Ipinagbabawal ang paggamit ng Serbisyo para sa:
+
+- pamamahagi ng malware;
+- DDoS, port scanning, brute-force, hindi awtorisadong access, o iba pang atake sa network at system;
+- spam, phishing, pandaraya, o maramihang automated na aksyon;
+- pamamahagi ng materyal na lumalabag sa batas, karapatan ng third party, o tuntunin ng store;
+- paglabag sa copyright o iba pang intellectual property;
+- muling pagbebenta, paglipat, o pag-publish ng access key nang walang pahintulot ng Raqoon;
+- mga aksyon na lumilikha ng labis na load sa imprastraktura o nakakasagabal sa ibang user.
+
+Maaaring limitahan, suspindihin, o wakasan ng Raqoon ang access kung may makatuwirang batayan na lumalabag ang user sa Mga Tuntuning ito, batas, karapatan ng third party, o seguridad ng imprastraktura.
+
+7. Patakaran sa patas na paggamit (Fair Use)
+
+Ang ilang plano ay maaaring may malaking trapiko o unlimited access. Ang gayong access ay para sa personal, patas na paggamit.
+
+Kung ang paggamit ay lumilikha ng abnormal na load, nagpapababa ng kalidad para sa iba, lumalabag sa teknikal na limit ng plano, o ginagamit laban sa layunin, maaaring pansamantalang limitahan ng Raqoon ang bilis, baguhin ang available na lokasyon, suspindihin ang koneksyon, o magmungkahi ng ibang plano.
+
+Ang mga limitasyon ay nalalapat lamang sa lawak na kinakailangan para protektahan ang katatagan ng serbisyo, imprastraktura, at iba pang user.
+
+8. Availability ng serbisyo
+
+Nagsusumikap ang Raqoon para sa matatag na operasyon ng VPN ngunit hindi ginagarantiya ang tuloy-tuloy, walang-error, o pantay na mabilis na access sa lahat ng bansa, network, device, at app.
+
+Maaaring maapektuhan ang operasyon ng:
+
+- kalidad ng internet connection ng user;
+- mga limitasyon ng ISP;
+- pag-block, filtering, o iba pang aksyon ng third party;
+- load ng server;
+- maintenance;
+- tuntunin ng App Store, Google Play, o third-party app;
+- legal na limitasyon;
+- power outage, DDoS, at iba pang kalagayan lampas sa makatuwirang kontrol ng Raqoon.
+
+Hindi ginagarantiya ng Raqoon ang availability ng partikular na website, app, online service, bansa, IP address, o server location.
+
+9. Account, device, at seguridad
+
+Ang user ay may pananagutan sa seguridad ng device, account, Apple ID, access key, at configuration.
+
+Ipinagbabawal ang pagbabahagi ng access key sa third party, pag-publish ng configuration sa publiko, paggamit ng subscription lampas sa pinapayagang bilang ng device, o pag-iwas sa teknikal na limit ng plano.
+
+Kung may hinala ng hindi awtorisadong access sa account o key, makipag-ugnayan sa suporta.
+
+10. Pagtanggal ng account
+
+Maaaring tanggalin ng user ang account at kaugnay na data sa mga setting ng Raqoon app.
+
+Ang pagtanggal ay nagtatapos ng access sa Serbisyo at maaaring magresulta sa pagkawala ng key, setting, kasaysayan ng suporta, at iba pang data na nauugnay sa account.
+
+Ang pagtanggal ng account ay hindi palaging kinakansela ang subscription na binili sa pamamagitan ng Apple App Store, Google Play, o Huawei AppGallery. Para itigil ang mga susunod na singil, dapat hiwalay na kanselahin ng user ang subscription sa app store o system subscription management ng platform kung saan binili.
+
+11. Mga refund
+
+Ang mga refund para sa subscription na binili sa pamamagitan ng Apple App Store, Google Play, o Huawei AppGallery ay sumusunod sa tuntunin ng app store na iyon. Walang teknikal na kakayahan ang Raqoon na kanselahin ang mga bayad o mag-refund nang sarili para sa mga biniling pinoproseso ng app store.
+
+Para sa subscription at bayad na hindi pinoproseso sa pamamagitan ng Apple, nalalapat ang mga tuntunin ng nauugnay na channel ng bayad, napiling plano, Mga Tuntuning ito, at naaangkop na batas.
+
+Tingnan ang Patakaran sa Refund sa website ng Raqoon para sa detalye.
+
+12. Privacy
+
+Ang pagproseso ng data ng user ay inilarawan sa Patakaran sa Privacy ng Raqoon. Sa paggamit ng Serbisyo, kinukumpirma ng user na nabasa ang Patakaran sa Privacy.
+
+Hindi naglo-log ang Raqoon ng binisitang website, DNS query, o nilalaman ng trapiko, ngunit pinoproseso ang teknikal na data na kinakailangan para patakbuhin ang serbisyo, subscription, suporta, seguridad, at diagnostics.
+
+13. Intellectual property
+
+Ang app, website, disenyo, teksto, logo, code, UI element, at iba pang materyales ng Raqoon ay pag-aari ng tagapagbigay o ginagamit nang legal.
+
+Ang user ay tumatanggap lamang ng karapatang gamitin ang Serbisyo alinsunod sa Mga Tuntuning ito. Hindi tumatanggap ng karapatang kopyahin, baguhin, ipamahagi, ibenta, upahan, decompile, o gamitin ang mga materyales ng Raqoon sa labas ng pinapayagang paggamit.
+
+14. Limitasyon ng pananagutan
+
+Ang Serbisyo ay ibinibigay «as is» at «as available» sa pinakalawak na sukat na pinapayagan ng batas.
+
+Hindi mananagot ang Raqoon para sa:
+
+- kawalan ng access sa partikular na website, app, o serbisyo;
+- pagbaba ng bilis, latency, o pansamantalang outage;
+- mga aksyon ng ISP, data center, may-ari ng site, app store, o iba pang third party;
+- hindi pagkakatugma sa third-party VPN client;
+- pagkawala ng access dahil sa paglabag ng user sa Mga Tuntuning ito;
+- hindi direktang pinsala, nawalang kita, o pagkawala ng data, maliban kung tahasang kinakailangan ng batas na bumibigkis.
+
+Walang anuman sa Mga Tuntuning ito ang lumilimita sa mga karapatan ng user na hindi maaaring limitahan sa ilalim ng naaangkop na batas.
+
+15. Mga pagbabago sa Mga Tuntunin
+
+Maaaring i-update ng Raqoon ang Mga Tuntuning ito kapag nagbago ang feature, plano, imprastraktura, batas, kinakailangan ng app store, o proseso ng negosyo.
+
+Ang bagong bersyon ay epektibo mula sa pag-publish sa website maliban kung may ibang petsa. Ang patuloy na paggamit pagkatapos ng pag-publish ay nangangahulugan ng pagsang-ayon sa na-update na Mga Tuntunin.
+
+16. Naaangkop na batas at hindi pagkakaunawaan
+
+Ang Mga Tuntuning ito ay pinamamahalaan ng mga batas ng Republika ng Türkiye, maliban kung may mandatoryong probisyon ng ibang naaangkop na batas.
+
+Nagsusumikap ang mga partido na lutasin ang mga isyu sa pamamagitan ng suporta ng Raqoon. Kung hindi maaayos nang mapayapa ang hindi pagkakaunawa, isinusumite ito sa naaangkop na hukuman alinsunod sa naaangkop na batas.
+
+17. Mga kontak
+
+Operasyon ng serbisyo, subscription, access, at suporta:
+
+- Email: help@raqoon.app
+- Kumpanya: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Lokasyon: Ankara, Türkiye

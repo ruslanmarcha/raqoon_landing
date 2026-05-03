@@ -1,0 +1,43 @@
+Kebijakan Pengembalian Dana Raqoon VPN
+
+Berlaku efektif: 1 Maret 2026
+Penyedia: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Langganan melalui toko aplikasi
+
+Jika langganan Raqoon dibeli melalui aplikasi seluler dan toko aplikasi, pembayaran, perpanjangan, pembatalan langganan, dan pengembalian dana diatur oleh aturan toko tersebut.
+
+Raqoon tidak menerima data kartu bank lengkap Anda dan tidak memiliki kemampuan teknis untuk mengembalikan sendiri pembayaran yang diproses oleh Apple App Store, Google Play, atau Huawei AppGallery.
+
+Untuk meminta pengembalian dana, gunakan alat toko tempat Anda melakukan pembelian:
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID, atau dukungan Apple.
+- Google Play: Google Play, bagian Pembayaran & langganan / Langganan, riwayat pesanan, atau dukungan Google Play.
+- Huawei AppGallery: AppGallery, Huawei ID, bagian Langganan, atau dukungan Huawei.
+
+Untuk menghentikan tagihan di masa mendatang, batalkan langganan di toko aplikasi tempat Anda membeli. Menghapus akun Raqoon tidak selalu secara otomatis membatalkan langganan di Apple App Store, Google Play, atau Huawei AppGallery.
+
+2. Masa uji coba
+
+Jika langganan mencakup masa uji coba, durasi, tanggal berakhir, dan syarat perpanjangan selanjutnya ditampilkan oleh toko aplikasi sebelum Anda mengonfirmasi pembelian.
+
+Jika Anda tidak ingin langganan berlanjut setelah masa uji coba, batalkan sebelum tanggal perpanjangan sesuai aturan toko aplikasi yang relevan.
+
+3. Pembelian di luar Apple App Store
+
+Jika pembelian tidak dilakukan melalui Apple App Store, kelayakan pengembalian dana bergantung pada saluran pembayaran yang berlaku, syarat paket, penyediaan layanan digital, dan hukum wajib.
+
+Karena Raqoon menyediakan layanan digital yang diaktifkan secara elektronik, pengembalian dana mungkin tidak tersedia setelah Anda mulai benar-benar menggunakan layanan, kecuali hukum yang berlaku mensyaratkan lain.
+
+4. Masalah teknis
+
+Jika Anda mengalami masalah teknis dengan koneksi, penagihan, langganan, atau akses, Anda dapat menghubungi dukungan Raqoon. Kami akan berusaha membantu memulihkan akses, memeriksa status langganan, atau menyelidiki kesalahan.
+
+Menghubungi dukungan Raqoon tidak menggantikan prosedur pengembalian dana Apple, Google, atau Huawei untuk pembelian yang diproses oleh toko aplikasi terkait.
+
+5. Kontak penagihan
+
+Untuk pembayaran dan langganan:
+
+- Email: help@raqoon.app
+- Situs web: https://raqoon.app

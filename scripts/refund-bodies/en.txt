@@ -1,0 +1,43 @@
+Raqoon VPN Refund Policy
+
+Effective date: March 1, 2026
+Provider: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. Subscriptions through app stores
+
+If a Raqoon subscription is purchased through the mobile app and an app store, payment, renewal, cancellation, and refunds are governed by that app store’s rules.
+
+Raqoon does not receive your full bank card details and has no technical ability to refund on its own a payment processed by the Apple App Store, Google Play, or Huawei AppGallery.
+
+To request a refund, use the tools of the store where you made the purchase:
+
+- Apple App Store: reportaproblem.apple.com, the App Store, Apple ID, or Apple support.
+- Google Play: Google Play, the Payments & subscriptions / Subscriptions section, order history, or Google Play support.
+- Huawei AppGallery: AppGallery, Huawei ID, the Subscriptions section, or Huawei support.
+
+To stop future charges, cancel the subscription in the app store where you purchased it. Deleting your Raqoon account does not always automatically cancel the subscription in the Apple App Store, Google Play, or Huawei AppGallery.
+
+2. Trial period
+
+If the subscription includes a trial, its length, end date, and further renewal terms are shown by the app store before you confirm the purchase.
+
+If you do not want the subscription to continue after the trial, cancel it before the renewal date according to the relevant app store’s rules.
+
+3. Purchases outside the Apple App Store
+
+If the purchase was not made through the Apple App Store, refund eligibility depends on the applicable payment channel, plan terms, whether the digital service was delivered, and mandatory law.
+
+Because Raqoon provides a digital service activated electronically, a refund may be unavailable after you start actually using the service, unless applicable law requires otherwise.
+
+4. Technical issues
+
+If you have a technical issue with connection, billing, subscription, or access, you can contact Raqoon support. We will try to help restore access, check subscription status, or investigate an error.
+
+Contacting Raqoon support does not replace Apple’s, Google’s, or Huawei’s refund process for purchases processed by the respective app store.
+
+5. Billing contacts
+
+For billing and subscriptions:
+
+- Email: help@raqoon.app
+- Website: https://raqoon.app

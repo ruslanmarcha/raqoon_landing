@@ -1,0 +1,43 @@
+Raqoon VPN 退款政策
+
+生效日期：2026 年 3 月 1 日
+提供方：Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. 通过应用商店的订阅
+
+若您通过移动应用程序和应用商店购买 Raqoon 订阅，付款、续订、取消订阅及退款均受该应用商店规则约束。
+
+Raqoon 不会接收您的完整银行卡数据，也没有技术能力自行退还由 Apple App Store、Google Play 或 Huawei AppGallery 处理的付款。
+
+如需申请退款，请使用您完成购买之商店的工具：
+
+- Apple App Store：reportaproblem.apple.com、App Store、Apple ID 或 Apple 支持。
+- Google Play：Google Play、「付款和订阅」/「订阅」、订单记录或 Google Play 支持。
+- Huawei AppGallery：AppGallery、Huawei ID、「订阅」或华为支持。
+
+若要停止后续扣费，请在您完成购买的应用商店中取消订阅。删除 Raqoon 账户并不总是会自动取消 Apple App Store、Google Play 或 Huawei AppGallery 中的订阅。
+
+2. 试用期
+
+若订阅包含试用期，其时长、结束日期及后续续订条件将在您确认购买前由应用商店显示。
+
+若您不希望试用期结束后继续订阅，请根据相应应用商店规则在续订日期前取消订阅。
+
+3. 非通过 Apple App Store 的购买
+
+若购买并非通过 Apple App Store 完成，退款资格取决于适用的支付渠道、套餐条件、数字服务是否已提供以及强制性法律规定。
+
+由于 Raqoon 提供以电子方式激活的数字服务，在您开始实际使用服务后，除适用法律另有要求外，可能无法退款。
+
+4. 技术问题
+
+若您在连接、账单、订阅或访问方面遇到技术问题，可联系 Raqoon 支持。我们将尽力协助恢复访问、核查订阅状态或排查错误。
+
+联系 Raqoon 支持不能替代 Apple、Google 或 Huawei 针对相应应用商店所处理购买的退款流程。
+
+5. 账单相关联系方式
+
+有关付款与订阅：
+
+- 电子邮件：help@raqoon.app
+- 网站：https://raqoon.app

@@ -1,0 +1,154 @@
+Kebijakan Privasi Raqoon VPN
+
+Berlaku efektif: 1 Maret 2026
+Yurisdiksi: Ankara, Türkiye
+Pemilik layanan: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+Kontak privasi: private@raqoon.app
+
+1. Ringkasan
+
+Raqoon VPN dirancang untuk melindungi koneksi Anda dan meningkatkan privasi saat menggunakan internet. Kami tidak menyimpan log aktivitas online Anda: kami tidak mencatat situs yang dikunjungi, kueri pencarian, kueri DNS, atau isi lalu lintas yang Anda kirim.
+
+Untuk menjalankan VPN, mengelola langganan, mendukung pengguna, dan mencegah penyalahgunaan, kami memproses kumpulan data teknis terbatas: pengenal akun dan perangkat, status langganan, lokasi server yang dipilih, volume lalu lintas yang digunakan, waktu koneksi, dan data diagnostik teknis.
+
+Kami tidak menjual data pribadi pengguna dan tidak membagikannya ke jaringan iklan.
+
+2. Arti kebijakan No-Logs kami
+
+Kami tidak mencatat atau menyimpan:
+
+- riwayat situs web dan URL yang dikunjungi;
+- kueri pencarian;
+- kueri DNS;
+- isi lalu lintas, termasuk pesan, email, file, dan data lain yang dikirim;
+- riwayat aktivitas jaringan Anda;
+- alamat IP sumber sebagai bagian dari riwayat aktivitas.
+
+Kami juga tidak menghubungkan aktivitas jaringan Anda dengan akun, perangkat, atau data pembayaran.
+
+Penting: beberapa data teknis dapat diproses sementara oleh peralatan jaringan dan infrastruktur server saat koneksi VPN dibentuk atau dipertahankan. Pemrosesan tersebut diperlukan untuk meneruskan lalu lintas dan menjalankan layanan; kami tidak menggunakannya untuk membuat riwayat penjelajahan, menganalisis isi lalu lintas, atau membuat profil pengguna.
+
+3. Data yang kami proses
+
+Kami hanya memproses data yang diperlukan untuk layanan, langganan, dukungan, dan keamanan.
+
+3.1. Akun dan akses
+
+Kami dapat memproses:
+
+- pengenal pengguna internal;
+- UUID, kunci akses, atau pengenal teknis lain untuk otorisasi koneksi;
+- pengenal perangkat atau instalasi aplikasi;
+- informasi tentang status akun;
+- data yang Anda kirim secara sukarela ke dukungan.
+
+3.2. Langganan dan pembayaran
+
+Untuk mengelola akses kami dapat memproses:
+
+- status langganan;
+- tanggal kedaluwarsa langganan;
+- informasi paket;
+- token teknis, data tanda terima, atau konfirmasi pembelian dari Apple App Store, Google Play, Huawei AppGallery, atau toko aplikasi resmi lainnya;
+- apakah langganan aktif, dibatalkan, atau kedaluwarsa.
+
+Kami tidak menyimpan data kartu bank lengkap. Jika pembelian melalui toko aplikasi, pembayaran, perpanjangan, pembatalan, dan pengembalian dana ditangani oleh toko tersebut: Apple App Store, Google Play, atau Huawei AppGallery.
+
+3.3. Koneksi VPN dan statistik teknis
+
+Untuk menyediakan VPN, menegakkan batas, diagnostik, dan dukungan kami dapat memproses:
+
+- negara, wilayah, atau lokasi server yang dipilih;
+- volume lalu lintas yang dikirim dan diterima;
+- waktu koneksi terakhir;
+- stempel waktu teknis koneksi;
+- status koneksi;
+- kesalahan koneksi teknis jika diperlukan untuk diagnostik.
+
+Data ini tidak berisi riwayat situs yang dikunjungi, kueri DNS, atau isi lalu lintas.
+
+3.4. Diagnostik aplikasi
+
+Di aplikasi seluler Raqoon kami tidak menggunakan analitik produk atau pemasaran pihak ketiga untuk melacak perilaku Anda dalam layanan VPN. Jika aplikasi macet atau tidak berfungsi dengan benar, data diagnostik dan laporan kerusakan dapat diproses oleh platform terkait seperti Apple, Google Play, atau Huawei AppGallery sesuai aturan platform dan pengaturan perangkat Anda.
+
+Data tersebut digunakan untuk memperbaiki bug, meningkatkan stabilitas, dan menyelidiki kegagalan teknis; tidak digunakan untuk menganalisis situs yang dikunjungi, kueri DNS, atau isi lalu lintas VPN.
+
+4. Situs web, cookie, dan analitik
+
+Di raqoon.app kami dapat menggunakan cookie dan teknologi serupa untuk operasi dasar situs, menyimpan preferensi Anda, dan analitik web.
+
+Situs dapat menggunakan Google Analytics untuk memahami kunjungan secara keseluruhan, kesehatan teknis halaman, dan efektivitas antarmuka. Analitik situs terpisah dari layanan VPN dan tidak digunakan untuk menganalisis lalu lintas VPN, kueri DNS, atau riwayat penjelajahan dalam sesi VPN.
+
+Jika banner persetujuan cookie ditampilkan, Anda dapat menerima atau menolak cookie yang tidak penting. Cookie teknis yang diperlukan dapat digunakan tanpa persetujuan terpisah jika diperlukan untuk operasi situs atau menyimpan pilihan Anda.
+
+5. Infrastruktur pihak ketiga dan wilayah pemrosesan
+
+Kami menggunakan sistem sendiri serta infrastruktur pihak ketiga (VPS, cloud, dan layanan pusat data). Lalu lintas VPN melewati infrastruktur server yang dipilih untuk menyediakan koneksi.
+
+Infrastruktur tersebut dapat berada di berbagai negara dan wilayah, termasuk Eropa, Asia, dan lokasi lain yang tersedia dalam layanan. Daftar lokasi VPN dapat berubah dan ditampilkan di aplikasi.
+
+Penyedia infrastruktur mengoperasikan server secara fisik dan jaringan; kami tidak memberikan riwayat penjelajahan, kueri DNS, atau isi lalu lintas sebagai log aktivitas pengguna. Sementara itu, penyedia jaringan secara teknis berpartisipasi dalam meneruskan lalu lintas sebagaimana diperlukan untuk VPN.
+
+6. Dukungan pengguna
+
+Saat Anda menghubungi dukungan, kami memproses data yang diperlukan untuk merespons:
+
+- data kontak jika Anda memberikannya;
+- isi permintaan;
+- informasi teknis yang Anda bagikan secara sukarela;
+- status akun, langganan, atau koneksi jika diperlukan untuk menyelesaikan masalah.
+
+Dukungan tersedia melalui email dan portal dukungan kami sendiri. Kami menggunakan saluran ini untuk akses, penagihan, langganan, penghapusan akun, dan masalah teknis.
+
+7. Penghapusan akun dan data
+
+Anda dapat menghapus akun dan data terkait di pengaturan aplikasi Raqoon tanpa perlu menghubungi dukungan.
+
+Setelah penghapusan kami menghentikan penyediaan akses ke layanan dan menghapus atau menganonimkan data akun, kunci akses, dan informasi teknis yang tidak lagi diperlukan untuk menjalankan layanan.
+
+Beberapa catatan dapat disimpan untuk waktu terbatas jika diperlukan untuk:
+
+- memenuhi kewajiban hukum;
+- akuntansi dan pajak;
+- konfirmasi pembayaran dan langganan;
+- mencegah penipuan, penyalahgunaan, atau sengketa;
+- melindungi hak pengguna, perusahaan, atau pihak ketiga.
+
+Catatan tersebut disimpan seminimal mungkin dan hanya selama diperlukan untuk tujuan hukum yang bersangkutan.
+
+8. Permintaan otoritas pemerintah
+
+Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. terdaftar di Türkiye. Jika kami menerima permintaan resmi dan mengikat secara hukum dari otoritas yang berwenang, kami meninjaunya sesuai hukum yang berlaku.
+
+Karena kami tidak menyimpan log aktivitas, kami tidak dapat memberikan riwayat penjelajahan, kueri DNS, atau isi lalu lintas pengguna. Bergantung pada permintaan dan data yang tersedia, kami hanya dapat mengonfirmasi informasi terbatas, misalnya keberadaan akun, status langganan, atau data teknis yang dijelaskan dalam Kebijakan ini.
+
+9. Keamanan
+
+Kami menerapkan langkah teknis dan organisasi untuk melindungi data, termasuk pembatasan akses, pemisahan peran, saluran aman, dan minimisasi data.
+
+Tidak ada metode transmisi atau penyimpanan yang sepenuhnya aman. Kami berupaya mengurangi risiko dan hanya memproses data yang benar-benar diperlukan untuk menjalankan Raqoon VPN.
+
+10. Hak Anda
+
+Anda dapat:
+
+- meminta informasi tentang data yang terkait dengan akun Anda;
+- menghapus akun di aplikasi;
+- menghubungi kami tentang privasi;
+- meminta koreksi data yang tidak akurat;
+- menolak cookie yang tidak penting di situs jika opsi tersedia.
+
+Untuk privasi: private@raqoon.app.
+
+11. Perubahan Kebijakan
+
+Kami dapat memperbarui Kebijakan ini jika layanan, infrastruktur, persyaratan hukum, atau aturan toko aplikasi berubah. Versi baru berlaku sejak dipublikasikan di situs kecuali tanggal lain disebutkan.
+
+12. Kontak
+
+Privasi, penghapusan akun, dan pemrosesan data:
+
+- Email: private@raqoon.app
+- Dukungan: help@raqoon.app
+- Perusahaan: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+- Lokasi: Ankara, Türkiye

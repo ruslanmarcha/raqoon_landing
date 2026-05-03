@@ -1,0 +1,43 @@
+Raqoon VPN 환불 정책
+
+시행일: 2026년 3월 1일
+제공자: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+
+1. 앱 스토어를 통한 구독
+
+Raqoon 구독을 모바일 앱과 앱 스토어를 통해 구매한 경우 결제, 갱신, 구독 취소 및 환불은 해당 앱 스토어의 규칙을 따릅니다.
+
+Raqoon은 사용자의 전체 카드 결제 정보를 받지 않으며 Apple App Store, Google Play 또는 Huawei AppGallery가 처리한 결제를 스스로 환불할 기술적 능력이 없습니다.
+
+환불을 요청하려면 구매한 스토어의 도구를 사용하세요.
+
+- Apple App Store: reportaproblem.apple.com, App Store, Apple ID 또는 Apple 지원.
+- Google Play: Google Play, 결제 및 정기 결제 / 정기 결제 섹션, 주문 내역 또는 Google Play 지원.
+- Huawei AppGallery: AppGallery, Huawei ID, 정기 결제 섹션 또는 Huawei 지원.
+
+향후 청구를 중지하려면 구매한 앱 스토어에서 구독을 취소하세요. Raqoon 계정을 삭제해도 Apple App Store, Google Play 또는 Huawei AppGallery의 구독이 항상 자동으로 취소되지는 않습니다.
+
+2. 무료 체험
+
+구독에 무료 체험이 포함된 경우 기간, 종료일 및 이후 갱신 조건은 구매 확인 전에 앱 스토어에 표시됩니다.
+
+체험 후 구독을 계속하지 않으려면 해당 앱 스토어의 규칙에 따라 갱신일 전에 구독을 취소해야 합니다.
+
+3. Apple App Store 외 구매
+
+Apple App Store를 통해 구매하지 않은 경우 환불 가능 여부는 적용 결제 채널, 요금제 조건, 디지털 서비스 제공 사실 및 강행 법규에 따라 달라집니다.
+
+Raqoon은 전자적으로 활성화되는 디지털 서비스를 제공하므로 실제 이용 시작 후에는 적용 법률에 달리 정함이 없는 한 환불이 불가할 수 있습니다.
+
+4. 기술 문제
+
+연결, 결제, 구독 또는 액세스에 기술적 문제가 있으면 Raqoon 지원에 문의할 수 있습니다. 액세스 복구, 구독 상태 확인 또는 오류 조사를 돕겠습니다.
+
+Raqoon 지원 문의는 해당 앱 스토어가 처리한 구매에 대한 Apple, Google 또는 Huawei의 환불 절차를 대체하지 않습니다.
+
+5. 결제 문의 연락처
+
+결제 및 구독 관련:
+
+- 이메일: help@raqoon.app
+- 웹사이트: https://raqoon.app

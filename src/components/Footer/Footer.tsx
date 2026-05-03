@@ -15,11 +15,9 @@ export function Footer() {
           </Link>
         </div>
         <nav className={styles.links} aria-label="Footer navigation">
-          {i18n.language.startsWith('ru') ? (
-            <Link to="/faq" className={styles.link}>
-              {t('footer.faq')}
-            </Link>
-          ) : null}
+          <Link to="/faq" className={styles.link}>
+            {t('footer.faq', { defaultValue: 'FAQ' })}
+          </Link>
           {i18n.language.startsWith('ru') ? (
             <Link to="/beta" className={styles.link}>
               {t('footer.beta')}

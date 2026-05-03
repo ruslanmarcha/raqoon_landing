@@ -11,6 +11,8 @@ interface ImportMetaEnv {
   readonly VITE_ENABLE_TURKEY_GEOLOCK?: string
   /** URL Google Apps Script Web App (или другой POST webhook) для заявок `/beta`. */
   readonly VITE_BETA_WEBHOOK_URL?: string
+  /** Публичный FAQ API Support: origin + `/api/public`, без хвостового слэша (например `https://tech-raqoon-s1.izirocks.store/api/public`). */
+  readonly VITE_SUPPORT_PUBLIC_API_BASE?: string
 }
 
 interface ImportMeta {

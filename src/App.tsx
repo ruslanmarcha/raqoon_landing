@@ -79,6 +79,8 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                     <>
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/beta" element={<BetaPage />} />
+                      <Route path="/faq" element={<FAQPageRU />} />
+                      <Route path="/app" element={<FAQPageRU />} />
                       <Route path="*" element={<Navigate to="/turkiye" replace />} />
                     </>
                   ) : (

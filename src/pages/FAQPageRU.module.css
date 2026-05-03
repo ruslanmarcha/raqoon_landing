@@ -295,6 +295,48 @@
   max-width: 720px;
 }
 
+.answerBody {
+  font-size: 18px;
+  color: var(--color-text-secondary);
+  line-height: 24px;
+  font-weight: var(--font-normal);
+  margin: 0;
+  max-width: 720px;
+  white-space: pre-wrap;
+}
+
+.skeleton {
+  max-width: 720px;
+  padding: 8px 0 24px;
+}
+
+.skeletonBar,
+.skeletonBarShort {
+  height: 14px;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ffffff14 0%, #ffffff24 50%, #ffffff14 100%);
+  background-size: 200% 100%;
+  animation: faqShimmer 1.2s ease-in-out infinite;
+  margin-bottom: 12px;
+}
+
+.skeletonBar {
+  width: 100%;
+}
+
+.skeletonBarShort {
+  width: 55%;
+}
+
+@keyframes faqShimmer {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
 @media (max-width: 768px) {
   .title {
     font-size: 36px;

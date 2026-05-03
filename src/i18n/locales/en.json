@@ -35,7 +35,9 @@
     "rosvpnOgTitleWW": "RosVPN — Raqoon",
     "rosvpnOgDescriptionWW": "RU-only product page; switch site language to Russian to read details.",
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
-    "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service."
+    "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service.",
+    "faqTitleWW": "Frequently asked questions — Raqoon VPN",
+    "faqDescriptionWW": "Answers about Raqoon: plans, privacy, connection, and common issues from our knowledge base."
   },
   "nav": {
     "logoAlt": "Raqoon"
@@ -331,6 +333,7 @@
     "ctaDownload": "Download the app"
   },
   "footer": {
+    "faq": "FAQ",
     "referral": "Referral program",
     "about": "About the company",
     "download": "Download",
@@ -350,5 +353,17 @@
     "description": "Something went wrong and we couldn't confirm your payment. Please try again in a moment or use another payment method.",
     "ctaHome": "Back to home",
     "ctaFaq": "FAQ"
+  },
+  "faqPage": {
+    "pageTitle": "Frequently asked questions",
+    "intro": "Answers are loaded from the support knowledge base and update without redeploying the site.",
+    "searchPlaceholder": "Search questions…",
+    "searchEmpty": "Nothing matched — try another query or browse a section below.",
+    "loadError": "We couldn’t load the FAQ. Please try refreshing the page later.",
+    "configError": "The FAQ page is not configured (missing API base URL).",
+    "unavailable": "FAQ is not available",
+    "skeletonAria": "Loading questions…",
+    "categoryAll": "All sections",
+    "categoryTabsLabel": "FAQ sections"
   }
 }

@@ -16,10 +16,13 @@ export type SiteFaqCategory = {
 const CLIENT_CACHE_TTL_MS = 10 * 60 * 1000
 const cache = new Map<string, { at: number; data: SiteFaqCategory[] }>()
 
-function getPublicBase(): string | null {
+/** Прод-адрес публичного FAQ на портале Support. Используется, если `VITE_SUPPORT_PUBLIC_API_BASE` не задан. */
+const DEFAULT_PUBLIC_BASE = 'https://help.raqoon.app/api/public'
+
+function getPublicBase(): string {
   const b = import.meta.env.VITE_SUPPORT_PUBLIC_API_BASE
-  if (typeof b !== 'string' || !b.trim()) return null
-  return b.replace(/\/$/, '')
+  const v = typeof b === 'string' && b.trim() ? b.trim() : DEFAULT_PUBLIC_BASE
+  return v.replace(/\/$/, '')
 }
 
 export function isSupportPublicFaqConfigured(): boolean {
@@ -49,9 +52,6 @@ async function fetchJson<T>(url: string): Promise<T> {
  */
 export async function fetchSiteFaq(apiLocale: FaqApiLocale): Promise<SiteFaqCategory[]> {
   const base = getPublicBase()
-  if (!base) {
-    throw new Error('VITE_SUPPORT_PUBLIC_API_BASE is not set')
-  }
 
   const ck = apiLocale
   const hit = cache.get(ck)

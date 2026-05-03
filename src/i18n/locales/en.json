@@ -199,7 +199,8 @@
     "ctaPlans": "Choose a plan",
     "badgeAriaAppStore": "Coming soon to the App Store",
     "badgeAriaGooglePlay": "Coming soon to Google Play",
-    "badgeAriaMacAppStore": "Coming soon to the Mac App Store"
+    "badgeAriaMacAppStore": "Coming soon to the Mac App Store",
+    "badgeAriaAppGallery": "Coming soon to AppGallery"
   },
   "referralPage": {
     "hero": {

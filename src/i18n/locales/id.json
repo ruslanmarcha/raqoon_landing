@@ -186,7 +186,8 @@
     "ctaPlans": "Pilih tarif",
     "badgeAriaAppStore": "Segera di App Store",
     "badgeAriaGooglePlay": "Segera di Google Play",
-    "badgeAriaMacAppStore": "Segera di Mac App Store"
+    "badgeAriaMacAppStore": "Segera di Mac App Store",
+    "badgeAriaAppGallery": "Segera di AppGallery"
   },
   "referralPage": {
     "hero": {

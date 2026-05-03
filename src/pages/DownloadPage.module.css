@@ -61,6 +61,13 @@
   margin-inline: auto;
 }
 
+/* Четыре бейджа в один ряд на широких экранах — чуть шире блок героя, заголовок/лид остаются узкими */
+@media (min-width: 640px) {
+  .heroInner {
+    max-width: min(960px, 100%);
+  }
+}
+
 .mascot {
   width: 100%;
   max-width: 560px;
@@ -91,12 +98,12 @@
   margin-inline: auto;
 }
 
-/* Фирменные бейджи магазинов — одна визуальная «строка» по центру */
+/* Фирменные бейджи магазинов — мобильный столбик по порядку; с 640px — один ряд по центру */
 .storeBadges {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: var(--space-4);
+  gap: var(--space-3);
   width: 100%;
   max-width: 200px;
   margin-top: var(--space-2);
@@ -110,7 +117,10 @@
 
 .finalStoreBadges {
   max-width: 200px;
+  width: 100%;
   margin-inline: auto;
+  /* Те же правила, что у hero: один компонент, идентичное выравнивание ряда */
+  box-sizing: border-box;
 }
 
 .badgeBtn {
@@ -177,15 +187,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 720px;
-    /* Зазоры одинаковые во всех локалях (не зависят от RTL/ширины текста) */
-    column-gap: var(--space-6);
-    row-gap: var(--space-5);
+    max-width: 920px;
+    column-gap: var(--space-4);
+    row-gap: var(--space-4);
   }
 
   .heroStoreBadges,
   .finalStoreBadges {
-    max-width: 720px;
+    max-width: 920px;
   }
 
   .badgeBtn {
@@ -202,6 +211,13 @@
 
   .badgeImgGoogle {
     transform: scale(var(--badge-google-md, 1.38));
+  }
+}
+
+/* Широкий экран: один ряд; на 640–899px при нехватке ширины — перенос 2+2 по центру */
+@media (min-width: 900px) {
+  .storeBadges {
+    flex-wrap: nowrap;
   }
 }
 
@@ -392,6 +408,13 @@
   flex-direction: column;
   align-items: flex-start;
   gap: var(--space-5);
+}
+
+/* Шире карточка на «ПК», чтобы четыре бейджа в один ряд (как в hero) не упирались в 600px */
+@media (min-width: 900px) {
+  .finalCard {
+    max-width: min(800px, 100%);
+  }
 }
 
 .finalText {

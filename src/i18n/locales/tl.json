@@ -186,7 +186,8 @@
     "ctaPlans": "Pumili ng plano",
     "badgeAriaAppStore": "Malapit na sa App Store",
     "badgeAriaGooglePlay": "Malapit na sa Google Play",
-    "badgeAriaMacAppStore": "Malapit na sa Mac App Store"
+    "badgeAriaMacAppStore": "Malapit na sa Mac App Store",
+    "badgeAriaAppGallery": "Malapit na sa AppGallery"
   },
   "referralPage": {
     "hero": {

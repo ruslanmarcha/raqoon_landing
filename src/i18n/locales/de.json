@@ -186,7 +186,8 @@
     "ctaPlans": "Tarif wählen",
     "badgeAriaAppStore": "Bald im App Store",
     "badgeAriaGooglePlay": "Bald bei Google Play",
-    "badgeAriaMacAppStore": "Bald im Mac App Store"
+    "badgeAriaMacAppStore": "Bald im Mac App Store",
+    "badgeAriaAppGallery": "Bald bei AppGallery"
   },
   "referralPage": {
     "hero": {

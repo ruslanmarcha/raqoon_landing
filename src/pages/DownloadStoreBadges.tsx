@@ -5,11 +5,12 @@ import {
   getGooglePlayBadgeUrl,
   getGooglePlayBadgeVisualScale,
   getAppleAppStoreBadgeSrc,
+  getHuaweiAppGalleryBadgeSrc,
   getMacAppStoreBadgeSrc,
 } from '../utils/storeBadgeUrls'
 import styles from './DownloadPage.module.css'
 
-type BadgeKind = 'apple' | 'google' | 'mac'
+type BadgeKind = 'apple' | 'google' | 'huawei' | 'mac'
 
 type BadgeItem = { src: string; key: string; kind: BadgeKind }
 
@@ -19,6 +20,11 @@ function useDownloadBadges(): BadgeItem[] {
     () => [
       { src: getAppleAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaAppStore', kind: 'apple' },
       { src: getGooglePlayBadgeUrl(i18n.language), key: 'downloadPage.badgeAriaGooglePlay', kind: 'google' },
+      {
+        src: getHuaweiAppGalleryBadgeSrc(i18n.language),
+        key: 'downloadPage.badgeAriaAppGallery',
+        kind: 'huawei',
+      },
       { src: getMacAppStoreBadgeSrc(i18n.language), key: 'downloadPage.badgeAriaMacAppStore', kind: 'mac' },
     ],
     [i18n.language],

@@ -186,7 +186,8 @@
     "ctaPlans": "요금제 선택",
     "badgeAriaAppStore": "App Store 출시 예정",
     "badgeAriaGooglePlay": "Google Play 출시 예정",
-    "badgeAriaMacAppStore": "Mac App Store 출시 예정"
+    "badgeAriaMacAppStore": "Mac App Store 출시 예정",
+    "badgeAriaAppGallery": "AppGallery 출시 예정"
   },
   "referralPage": {
     "hero": {

@@ -186,7 +186,8 @@
     "ctaPlans": "Escolher plano",
     "badgeAriaAppStore": "Em breve na App Store",
     "badgeAriaGooglePlay": "Em breve no Google Play",
-    "badgeAriaMacAppStore": "Em breve na Mac App Store"
+    "badgeAriaMacAppStore": "Em breve na Mac App Store",
+    "badgeAriaAppGallery": "Em breve na AppGallery"
   },
   "referralPage": {
     "hero": {

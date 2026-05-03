@@ -306,7 +306,8 @@
     "ctaPlans": "Выбрать тариф",
     "badgeAriaAppStore": "Скоро в App Store",
     "badgeAriaGooglePlay": "Скоро в Google Play",
-    "badgeAriaMacAppStore": "Скоро в Mac App Store"
+    "badgeAriaMacAppStore": "Скоро в Mac App Store",
+    "badgeAriaAppGallery": "Скоро в AppGallery"
   },
   "referralPage": {
     "hero": {

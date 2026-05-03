@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="40" viewBox="0 0 148 40" role="img">
+  <title>AppGallery</title>
+  <rect width="148" height="40" rx="8" fill="#0d0d0d"/>
+  <g fill="#fff" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="74" y="15" font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="0.04em">EXPLORE IT ON</text>
+    <text x="74" y="29" font-size="12.5" font-weight="700" text-anchor="middle">AppGallery</text>
+  </g>
+</svg>

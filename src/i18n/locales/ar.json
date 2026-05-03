@@ -186,7 +186,8 @@
     "ctaPlans": "اختر الباقة",
     "badgeAriaAppStore": "قريباً على App Store",
     "badgeAriaGooglePlay": "قريباً على Google Play",
-    "badgeAriaMacAppStore": "قريباً على Mac App Store"
+    "badgeAriaMacAppStore": "قريباً على Mac App Store",
+    "badgeAriaAppGallery": "قريباً على AppGallery"
   },
   "referralPage": {
     "hero": {

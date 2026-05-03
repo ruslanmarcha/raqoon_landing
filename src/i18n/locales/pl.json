@@ -186,7 +186,8 @@
     "ctaPlans": "Wybierz taryfę",
     "badgeAriaAppStore": "Wkrótce w App Store",
     "badgeAriaGooglePlay": "Wkrótce w Google Play",
-    "badgeAriaMacAppStore": "Wkrótce w Mac App Store"
+    "badgeAriaMacAppStore": "Wkrótce w Mac App Store",
+    "badgeAriaAppGallery": "Wkrótce w AppGallery"
   },
   "referralPage": {
     "hero": {

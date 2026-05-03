@@ -186,7 +186,8 @@
     "ctaPlans": "เลือกแพ็กเกจ",
     "badgeAriaAppStore": "เร็วๆ นี้ใน App Store",
     "badgeAriaGooglePlay": "เร็วๆ นี้ใน Google Play",
-    "badgeAriaMacAppStore": "เร็วๆ นี้ใน Mac App Store"
+    "badgeAriaMacAppStore": "เร็วๆ นี้ใน Mac App Store",
+    "badgeAriaAppGallery": "เร็วๆ นี้ใน AppGallery"
   },
   "referralPage": {
     "hero": {

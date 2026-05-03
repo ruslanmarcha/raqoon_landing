@@ -67,6 +67,8 @@ export function getGooglePlayBadgeVisualScale(language: string): {
 /** Default: US/UK English black SVG from Apple marketing guidelines (see /public/badges/). */
 export const APPLE_APP_STORE_BADGE_SRC = '/badges/app-store.svg' as const
 export const APPLE_MAC_APP_STORE_BADGE_SRC = '/badges/mac-app-store.svg' as const
+/** Black wordmark badge (Huawei provides localized PNGs via AppGallery Connect; replace if needed). */
+export const HUAWEI_APP_GALLERY_BADGE_SRC = '/badges/app-gallery.svg' as const
 
 /** Extend when you add localized SVGs from Apple’s marketing resource ZIP (folders RU, DE, …). */
 export function getAppleAppStoreBadgeSrc(_language: string): string {
@@ -75,4 +77,8 @@ export function getAppleAppStoreBadgeSrc(_language: string): string {
 
 export function getMacAppStoreBadgeSrc(_language: string): string {
   return APPLE_MAC_APP_STORE_BADGE_SRC
+}
+
+export function getHuaweiAppGalleryBadgeSrc(_language: string): string {
+  return HUAWEI_APP_GALLERY_BADGE_SRC
 }

@@ -186,7 +186,8 @@
     "ctaPlans": "选择套餐",
     "badgeAriaAppStore": "即将在 App Store 推出",
     "badgeAriaGooglePlay": "即将在 Google Play 推出",
-    "badgeAriaMacAppStore": "即将在 Mac App Store 推出"
+    "badgeAriaMacAppStore": "即将在 Mac App Store 推出",
+    "badgeAriaAppGallery": "即将在 AppGallery 推出"
   },
   "referralPage": {
     "hero": {

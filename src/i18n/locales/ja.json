@@ -186,7 +186,8 @@
     "ctaPlans": "プランを選ぶ",
     "badgeAriaAppStore": "App Storeに近日登場",
     "badgeAriaGooglePlay": "Google Playに近日登場",
-    "badgeAriaMacAppStore": "Mac App Storeに近日登場"
+    "badgeAriaMacAppStore": "Mac App Storeに近日登場",
+    "badgeAriaAppGallery": "AppGalleryに近日登場"
   },
   "referralPage": {
     "hero": {

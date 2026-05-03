@@ -186,7 +186,8 @@
     "ctaPlans": "Vybrat tarif",
     "badgeAriaAppStore": "Již brzy v App Store",
     "badgeAriaGooglePlay": "Již brzy v Google Play",
-    "badgeAriaMacAppStore": "Již brzy v Mac App Store"
+    "badgeAriaMacAppStore": "Již brzy v Mac App Store",
+    "badgeAriaAppGallery": "Již brzy v AppGallery"
   },
   "referralPage": {
     "hero": {

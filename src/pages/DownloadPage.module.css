@@ -141,6 +141,12 @@
   transition: opacity var(--transition-fast);
 }
 
+/* RU: App Store / Google Play бейджи как ссылки на /beta */
+.badgeBtn:any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .badgeBtn:hover {
   opacity: 0.88;
 }

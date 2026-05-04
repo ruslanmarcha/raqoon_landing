@@ -3,10 +3,11 @@ import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { Header } from '../components/Header/Header'
+import { ruAppStoreCtaPath } from '@/utils/ruAppStoreCtaPath'
 import styles from './PaymentOkPage.module.css'
 
 export function PaymentOkPage() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
@@ -39,7 +40,7 @@ export function PaymentOkPage() {
               <Link to="/" className="btn btn-secondary btn-lg">
                 {t('paymentOk.ctaHome')}
               </Link>
-              <Link to="/download" className="btn btn-primary btn-lg">
+              <Link to={ruAppStoreCtaPath(i18n.language)} className="btn btn-primary btn-lg">
                 {t('paymentOk.ctaDownload')}
               </Link>
             </div>

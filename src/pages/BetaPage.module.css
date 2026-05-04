@@ -186,6 +186,53 @@
   color: var(--color-text-secondary);
 }
 
+.stepLink {
+  display: inline-block;
+  margin-top: var(--space-3);
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  color: #53ff76;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.stepLink:hover {
+  opacity: 0.88;
+}
+
+.notesCard {
+  width: 100%;
+  max-width: var(--beta-content-width);
+  margin-inline: auto;
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.notesTitle {
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+  margin: 0 0 var(--space-3);
+  line-height: 1.35;
+}
+
+.notesList {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.notesList li + li {
+  margin-top: var(--space-2);
+}
+
 .formCard {
   width: 100%;
   max-width: var(--beta-content-width);

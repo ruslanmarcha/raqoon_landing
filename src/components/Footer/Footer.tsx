@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
+import { ruAppStoreCtaPath } from '@/utils/ruAppStoreCtaPath';
 
 export function Footer() {
   const { t, i18n } = useTranslation();
@@ -34,7 +35,7 @@ export function Footer() {
           <Link to="/about" className={styles.link}>
             {t('footer.about')}
           </Link>
-          <Link to="/download" className={styles.link}>
+          <Link to={ruAppStoreCtaPath(i18n.language)} className={styles.link}>
             {t('footer.download')}
           </Link>
           <Link to="/privacy" className={styles.link}>

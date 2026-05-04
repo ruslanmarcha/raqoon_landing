@@ -1,5 +1,6 @@
 import { useMemo, type CSSProperties } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import { useComingSoon } from '../contexts/ComingSoonContext'
 import {
   getGooglePlayBadgeUrl,
@@ -9,6 +10,10 @@ import {
   getMacAppStoreBadgeSrc,
 } from '../utils/storeBadgeUrls'
 import styles from './DownloadPage.module.css'
+
+function isRuLang(language: string): boolean {
+  return language.trim().toLowerCase().startsWith('ru')
+}
 
 type BadgeKind = 'apple' | 'google' | 'huawei' | 'mac'
 
@@ -44,41 +49,52 @@ export function DownloadStoreBadges({ className }: Props) {
     [i18n.language],
   )
 
+  const ru = isRuLang(i18n.language)
+
   return (
     <div className={`${styles.storeBadges} ${className ?? ''}`}>
-      {badges.map(({ src, key, kind }) => (
-        <button
-          key={key}
-          type="button"
-          className={styles.badgeBtn}
-          onClick={openComingSoon}
-          aria-label={t(key)}
-        >
-          <span
-            className={styles.badgeFrame}
-            style={
-              kind === 'google'
-                ? ({
-                    '--badge-google-sm': googleScale.sm,
-                    '--badge-google-md': googleScale.md,
-                  } as CSSProperties)
-                : undefined
-            }
-          >
+      {badges.map(({ src, key, kind }) => {
+        const frameStyle =
+          kind === 'google'
+            ? ({
+                '--badge-google-sm': googleScale.sm,
+                '--badge-google-md': googleScale.md,
+              } as CSSProperties)
+            : undefined
+        const inner = (
+          <span className={styles.badgeFrame} style={frameStyle}>
             <img
               src={src}
               alt=""
               className={
-                kind === 'google'
-                  ? `${styles.badgeImg} ${styles.badgeImgGoogle}`
-                  : styles.badgeImg
+                kind === 'google' ? `${styles.badgeImg} ${styles.badgeImgGoogle}` : styles.badgeImg
               }
               loading="lazy"
               decoding="async"
             />
           </span>
-        </button>
-      ))}
+        )
+
+        if (ru && (kind === 'apple' || kind === 'google')) {
+          return (
+            <Link key={key} to="/beta" className={styles.badgeBtn} aria-label={t(key)}>
+              {inner}
+            </Link>
+          )
+        }
+
+        return (
+          <button
+            key={key}
+            type="button"
+            className={styles.badgeBtn}
+            onClick={openComingSoon}
+            aria-label={t(key)}
+          >
+            {inner}
+          </button>
+        )
+      })}
     </div>
   )
 }

@@ -10,7 +10,7 @@ import styles from './BetaPage.module.css'
 const BETA_HERO_IMAGE_SRC = '/beta-hero.png'
 const RACCOON_ID_RE = /^[A-Za-z0-9]{16}$/
 
-type StepItem = { title: string; hint: string }
+type StepItem = { title: string; hint: string; linkLabel?: string; linkHref?: string }
 
 export function BetaPage() {
   const { i18n } = useTranslation()
@@ -27,6 +27,10 @@ export function BetaPage() {
 
   const iosSteps = useMemo(() => t('betaPage.iosSteps', { returnObjects: true }) as StepItem[], [t])
   const androidSteps = useMemo(() => t('betaPage.androidSteps', { returnObjects: true }) as StepItem[], [t])
+  const iosNotes = useMemo(() => {
+    const raw = t('betaPage.iosNotes', { returnObjects: true })
+    return Array.isArray(raw) ? (raw as string[]) : []
+  }, [t])
   const steps = platform === 'ios' ? iosSteps : platform === 'android' ? androidSteps : []
 
   useEffect(() => {
@@ -164,17 +168,41 @@ export function BetaPage() {
           <div key={platform} className={styles.reveal}>
             <section className={`section ${styles.sectionBlock}`}>
               <div className="container">
-                <h2 className={styles.sectionHeading}>{t('betaPage.stepsTitle')}</h2>
+                <h2 className={styles.sectionHeading}>
+                  {platform === 'ios' ? t('betaPage.iosStepsTitle') : t('betaPage.stepsTitle')}
+                </h2>
                 <div className={styles.stepsTrack}>
                   {steps.map((step, index) => (
                     <div key={`${platform}-${index}`} className={styles.stepCard}>
                       <div className={styles.stepNum}>{index + 1}</div>
                       <div className={styles.stepTitle}>{step.title}</div>
                       {step.hint ? <p className={styles.stepHint}>{step.hint}</p> : null}
+                      {step.linkHref && step.linkLabel ? (
+                        <a
+                          className={styles.stepLink}
+                          href={step.linkHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {step.linkLabel}
+                        </a>
+                      ) : null}
                     </div>
                   ))}
                 </div>
 
+                {platform === 'ios' && iosNotes.length > 0 ? (
+                  <div className={styles.notesCard}>
+                    <h3 className={styles.notesTitle}>{t('betaPage.iosNotesTitle')}</h3>
+                    <ul className={styles.notesList}>
+                      {iosNotes.map((line, i) => (
+                        <li key={i}>{line}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                {platform === 'android' ? (
                 <form className={styles.formCard} onSubmit={onSubmit} noValidate>
                   <div className={styles.field}>
                     <label className={styles.fieldLabel} htmlFor="beta-email">
@@ -239,6 +267,7 @@ export function BetaPage() {
                     </button>
                   </div>
                 </form>
+                ) : null}
               </div>
             </section>
           </div>

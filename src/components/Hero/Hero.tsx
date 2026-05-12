@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
 import { useComingSoon } from '../../contexts/ComingSoonContext';
-import { ruAppStoreCtaPath } from '@/utils/ruAppStoreCtaPath';
 
 type HeroVariant = 'ru' | 'ww';
 
@@ -34,7 +33,7 @@ export function Hero({ variant }: HeroProps) {
         </h1>
         <p className={styles.subtitle}>{t(`hero.subtitle${suffix}`)}</p>
         {variant === 'ru' ? (
-          <Link to={ruAppStoreCtaPath(i18n.language)} className={`btn btn-secondary btn-lg ${styles.cta}`}>
+          <Link to="/download" className={`btn btn-secondary btn-lg ${styles.cta}`}>
             {t(`hero.cta${suffix}`)}
           </Link>
         ) : (

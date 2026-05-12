@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FeatureItemData } from '../FeatureItem/FeatureItem';
 import { FeatureList } from '../FeatureList/FeatureList';
 import styles from './Pricing.module.css';
-import { useComingSoon } from '../../contexts/ComingSoonContext';
 
 type PricingVariant = 'ru' | 'ww';
 
@@ -13,7 +12,6 @@ interface PricingProps {
 
 export function Pricing({ variant = 'ww' }: PricingProps) {
   const { t, i18n } = useTranslation();
-  const { openComingSoon } = useComingSoon();
 
   // Important: when user switches language in `LanguageSelector`,
   // we must not show RU-only blocks (constructor + IZI migration) in EN.
@@ -33,9 +31,38 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
   const allInTopItems = allInFeatures.slice(0, 1);
   const allInItems = allInFeatures.slice(1);
 
+  const freeTierBenefitRows: FeatureItemData[] = showConstructor
+    ? (t('pricing.freeTier.benefits', { returnObjects: true }) as string[]).map((label) => ({
+        label,
+      }))
+    : [];
+
   return (
     <section className={`section ${styles.root}`} id="pricing">
       <div className="container">
+        {showConstructor ? (
+          <div className={styles.freeTierWrapper}>
+            <div className={styles.freeTierCard}>
+              <div className={styles.freeTierTop}>
+                <div className={styles.freeTierColTitle}>
+                  <span className={`${styles.badge} ${styles.freeTierBadge}`}>
+                    <span className={styles.badgeIcon}>
+                      <img
+                        src="constructor.png"
+                        aria-hidden="true"
+                        className={styles.badgeIcon}
+                      />
+                    </span>
+                    {t('pricing.freeTier.title')}
+                  </span>
+                  <span className={styles.freeTierSubtitle}>{t('pricing.freeTier.subtitle')}</span>
+                </div>
+                <FeatureList items={freeTierBenefitRows} className={styles.features} />
+              </div>
+            </div>
+          </div>
+        ) : null}
+
         <div
           className={`${styles.grid} ${!showConstructor ? styles.gridSingle : ''}`}
         >
@@ -59,13 +86,12 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
                   </span>
                 </div>
               </div>
-              <button
-                type="button"
+              <Link
+                to="/download"
                 className={`btn btn-primary ${styles.ctaBtn}`}
-                onClick={openComingSoon}
               >
                 {t('pricing.constructor.cta')}
-              </button>
+              </Link>
               <FeatureList
                 items={constructorFeatures}
                 className={styles.features}
@@ -92,13 +118,12 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
                 </span>
               </div>
             </div>
-            <button
-              type="button"
+            <Link
+              to="/download"
               className={`btn btn-primary ${styles.ctaBtn}`}
-              onClick={openComingSoon}
             >
               {t('pricing.allIn.cta')}
-            </button>
+            </Link>
             <FeatureList
               topItems={allInTopItems}
               items={allInItems}

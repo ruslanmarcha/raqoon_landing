@@ -120,7 +120,16 @@
       {
         "label": "Énorme forfait de trafic"
       }
-    ]
+    ],
+    "freeTier": {
+      "title": "Accès gratuit",
+      "subtitle": "Télécharge et utilise gratuitement — sans paiement ni publicité.",
+      "benefits": [
+        "1 Go de trafic par mois",
+        "Services de base en une connexion",
+        "Passez à l'accès complet quand vous voulez"
+      ]
+    }
   },
   "migration": {
     "title": "Tu quittes IZI ? Nous avons tout préparé pour un transfert facile !",

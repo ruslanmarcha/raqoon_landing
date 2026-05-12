@@ -120,7 +120,16 @@
       {
         "label": "Riesiges Datenpaket"
       }
-    ]
+    ],
+    "freeTier": {
+      "title": "Kostenloser Zugang",
+      "subtitle": "Laden und kostenlos nutzen — ohne Zahlung und Werbung.",
+      "benefits": [
+        "1 GB Traffic pro Monat",
+        "Basisservices in einer Verbindung",
+        "Upgrade auf Vollzugang jederzeit möglich"
+      ]
+    }
   },
   "migration": {
     "title": "Du ziehst von IZI um? Wir haben alles für einen einfachen Transfer vorbereitet!",

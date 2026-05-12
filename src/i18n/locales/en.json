@@ -131,7 +131,16 @@
       {
         "label": "Huge traffic package"
       }
-    ]
+    ],
+    "freeTier": {
+      "title": "Free access",
+      "subtitle": "Download and use for free — no payment, no ads.",
+      "benefits": [
+        "1 GB of traffic per month",
+        "Basic services in one connection",
+        "Upgrade to full access whenever you want"
+      ]
+    }
   },
   "migration": {
     "title": "Moving from IZI? We’ve prepared everything for an easy transfer!",

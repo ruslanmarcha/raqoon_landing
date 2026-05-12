@@ -31,37 +31,35 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
   const allInTopItems = allInFeatures.slice(0, 1);
   const allInItems = allInFeatures.slice(1);
 
-  const freeTierBenefitRows: FeatureItemData[] = showConstructor
-    ? (t('pricing.freeTier.benefits', { returnObjects: true }) as string[]).map((label) => ({
-        label,
-      }))
-    : [];
+  const freeTierBenefitRows: FeatureItemData[] = (
+    t('pricing.freeTier.benefits', { returnObjects: true }) as string[]
+  ).map((label) => ({ label }));
 
   return (
     <section className={`section ${styles.root}`} id="pricing">
       <div className="container">
-        {showConstructor ? (
-          <div className={styles.freeTierWrapper}>
-            <div className={styles.freeTierCard}>
-              <div className={styles.freeTierTop}>
-                <div className={styles.freeTierColTitle}>
-                  <span className={`${styles.badge} ${styles.freeTierBadge}`}>
-                    <span className={styles.badgeIcon}>
-                      <img
-                        src="constructor.png"
-                        aria-hidden="true"
-                        className={styles.badgeIcon}
-                      />
-                    </span>
-                    {t('pricing.freeTier.title')}
+        <div className={styles.freeTierWrapper}>
+          <div
+            className={`${styles.freeTierCard} ${!showConstructor ? styles.freeTierCardNarrow : ''}`}
+          >
+            <div className={styles.freeTierTop}>
+              <div className={styles.freeTierColTitle}>
+                <span className={`${styles.badge} ${styles.freeTierBadge}`}>
+                  <span className={styles.badgeIcon}>
+                    <img
+                      src="constructor.png"
+                      aria-hidden="true"
+                      className={styles.badgeIcon}
+                    />
                   </span>
-                  <span className={styles.freeTierSubtitle}>{t('pricing.freeTier.subtitle')}</span>
-                </div>
-                <FeatureList items={freeTierBenefitRows} className={styles.features} />
+                  {t('pricing.freeTier.title')}
+                </span>
+                <span className={styles.freeTierSubtitle}>{t('pricing.freeTier.subtitle')}</span>
               </div>
+              <FeatureList items={freeTierBenefitRows} className={styles.features} />
             </div>
           </div>
-        ) : null}
+        </div>
 
         <div
           className={`${styles.grid} ${!showConstructor ? styles.gridSingle : ''}`}

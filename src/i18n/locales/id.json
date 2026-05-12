@@ -120,7 +120,16 @@
       {
         "label": "Paket trafik besar"
       }
-    ]
+    ],
+    "freeTier": {
+      "title": "Akses gratis",
+      "subtitle": "Unduh dan gunakan gratis — tanpa pembayaran dan iklan.",
+      "benefits": [
+        "1 GB lalu lintas per bulan",
+        "Layanan dasar dalam satu koneksi",
+        "Upgrade ke akses penuh kapan saja"
+      ]
+    }
   },
   "migration": {
     "title": "Pindah dari IZI? Kami siapkan segalanya untuk transfer yang mudah!",

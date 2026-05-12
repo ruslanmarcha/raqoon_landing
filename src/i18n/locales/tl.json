@@ -120,7 +120,16 @@
       {
         "label": "Napakalaking package ng trapiko"
       }
-    ]
+    ],
+    "freeTier": {
+      "title": "Libreng access",
+      "subtitle": "I-download at gamitin nang libre — walang bayad o ads.",
+      "benefits": [
+        "1 GB traffic bawat buwan",
+        "Basic services sa isang koneksyon",
+        "Mag-upgrade sa buong access anumang oras"
+      ]
+    }
   },
   "migration": {
     "title": "Lumalipat mula sa IZI? Inihanda namin ang lahat para sa madaling transfer!",

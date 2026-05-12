@@ -105,6 +105,11 @@
   margin-inline: auto;
 }
 
+/* Как .gridSingle: та же max-width, что у одной карточки тарифа (WW) */
+.freeTierCardNarrow {
+  max-width: 520px;
+}
+
 .freeTierTop {
   display: flex;
   flex-direction: row;
@@ -186,6 +191,10 @@
   }
 
   .gridSingle {
+    max-width: 100%;
+  }
+
+  .freeTierCardNarrow {
     max-width: 100%;
   }
 

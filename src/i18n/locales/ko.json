@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "올인원",
-      "price": "9.99",
-      "unit": "$ / 월",
-      "cta": "시작"
+      "price": "4.99",
+      "unit": "달러 / 월부터",
+      "cta": "시작",
+      "regionNote": "지역별 정확한 조건은 앱에서 확인하세요."
     },
     "constructorFeatures": [
       {

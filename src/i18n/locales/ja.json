@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "フルパック",
-      "price": "9.99",
-      "unit": "$ / 月",
-      "cta": "開始"
+      "price": "4.99",
+      "unit": "米ドル / 月〜",
+      "cta": "開始",
+      "regionNote": "お住まいの地域の正確な条件はアプリでご確認ください。"
     },
     "constructorFeatures": [
       {

@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "Semua Termasuk",
-      "price": "9,99",
+      "price": "mulai dari 4,99",
       "unit": "$ / bulan",
-      "cta": "Mulai"
+      "cta": "Mulai",
+      "regionNote": "Ketentuan pasti untuk wilayahmu lihat di aplikasi."
     },
     "constructorFeatures": [
       {

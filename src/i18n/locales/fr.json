@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "Tout compris",
-      "price": "9,99",
+      "price": "à partir de 4,99",
       "unit": "$ / mois",
-      "cta": "Commencer"
+      "cta": "Commencer",
+      "regionNote": "Pour les conditions exactes selon votre région, consultez l’application."
     },
     "constructorFeatures": [
       {

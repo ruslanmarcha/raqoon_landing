@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "All-in",
-      "price": "9.99",
+      "price": "mula 4.99",
       "unit": "$ / buwan",
-      "cta": "Magsimula"
+      "cta": "Magsimula",
+      "regionNote": "Tingnan ang eksaktong terms para sa iyong rehiyon sa app."
     },
     "constructorFeatures": [
       {

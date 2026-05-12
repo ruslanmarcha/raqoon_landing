@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "Vše v ceně",
-      "price": "9,99",
+      "price": "od 4,99",
       "unit": "$ / měsíc",
-      "cta": "Začít"
+      "cta": "Začít",
+      "regionNote": "Přesné podmínky pro váš region najdeš v aplikaci."
     },
     "constructorFeatures": [
       {

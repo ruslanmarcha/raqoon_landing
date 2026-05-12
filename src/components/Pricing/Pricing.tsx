@@ -115,6 +115,9 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
                   {t('pricing.allIn.price')} {t('pricing.allIn.unit')}
                 </span>
               </div>
+              {!showConstructor ? (
+                <span className={styles.freeTierSubtitle}>{t('pricing.allIn.regionNote')}</span>
+              ) : null}
             </div>
             <Link
               to="/download"

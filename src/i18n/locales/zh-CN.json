@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "全包套餐",
-      "price": "9.99",
-      "unit": "$ / 月",
-      "cta": "开始"
+      "price": "4.99",
+      "unit": "美元 / 月起",
+      "cta": "开始",
+      "regionNote": "您所在地区的准确条款请在应用中查看。"
     },
     "constructorFeatures": [
       {

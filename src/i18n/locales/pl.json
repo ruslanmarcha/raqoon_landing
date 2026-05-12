@@ -77,9 +77,10 @@
     },
     "allIn": {
       "badge": "Wszystko w cenie",
-      "price": "9,99",
+      "price": "od 4,99",
       "unit": "$ / miesiąc",
-      "cta": "Rozpocznij"
+      "cta": "Rozpocznij",
+      "regionNote": "Dokładne warunki dla swojego regionu zobaczysz w aplikacji."
     },
     "constructorFeatures": [
       {

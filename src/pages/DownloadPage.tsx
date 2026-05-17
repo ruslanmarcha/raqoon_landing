@@ -35,7 +35,7 @@ export function DownloadPage() {
               </div>
               <h1 className={styles.heroTitle}>{t('downloadPage.heroTitle')}</h1>
               <p className={styles.heroLead}>{t('downloadPage.heroText')}</p>
-              <DownloadStoreBadges className={styles.heroStoreBadges} />
+              <DownloadStoreBadges className={styles.heroStoreBadges} variant="row" />
             </div>
           </div>
         </section>
@@ -75,7 +75,7 @@ export function DownloadPage() {
             <div className={styles.finalCard}>
               <h2 className={styles.finalTitle}>{t('downloadPage.finalTitle')}</h2>
               <p className={styles.finalLead}>{t('downloadPage.finalText')}</p>
-              <DownloadStoreBadges className={styles.finalStoreBadges} />
+              <DownloadStoreBadges className={styles.finalStoreBadges} variant="row" />
             </div>
           </div>
         </section>

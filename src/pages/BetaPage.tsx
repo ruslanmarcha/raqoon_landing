@@ -144,7 +144,7 @@ export function BetaPage() {
                   <span className={styles.platformEmoji} aria-hidden>
                     🍎
                   </span>
-                  {t('betaPage.platformIos')}
+                  {t('betaPage.platformApple')}
                 </button>
                 <button
                   type="button"

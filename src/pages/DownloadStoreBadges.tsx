@@ -38,9 +38,11 @@ function useDownloadBadges(): BadgeItem[] {
 
 type Props = {
   className?: string
+  /** ПК: один ряд, слоты 40px — белые рамки на одной линии */
+  variant?: 'stack' | 'row'
 }
 
-export function DownloadStoreBadges({ className }: Props) {
+export function DownloadStoreBadges({ className, variant = 'stack' }: Props) {
   const { t, i18n } = useTranslation()
   const { openComingSoon } = useComingSoon()
   const badges = useDownloadBadges()
@@ -50,19 +52,35 @@ export function DownloadStoreBadges({ className }: Props) {
   )
 
   const ru = isRuLang(i18n.language)
+  const isRow = variant === 'row'
 
   return (
-    <div className={`${styles.storeBadges} ${className ?? ''}`}>
+    <div
+      className={[styles.storeBadges, isRow && styles.storeBadgesRow, className].filter(Boolean).join(' ')}
+    >
       {badges.map(({ src, key, kind }) => {
-        const frameStyle =
+        const badgeVars =
           kind === 'google'
             ? ({
                 '--badge-google-sm': googleScale.sm,
                 '--badge-google-md': googleScale.md,
+                '--badge-google-row-scale': isRow ? googleScale.sm : undefined,
               } as CSSProperties)
             : undefined
-        const inner = (
-          <span className={styles.badgeFrame} style={frameStyle}>
+
+        const rowImgClass = [
+          styles.badgeImgRow,
+          kind === 'google' && styles.badgeImgRowGoogle,
+        ]
+          .filter(Boolean)
+          .join(' ')
+
+        const inner = isRow ? (
+          <span className={styles.badgeFrameRow}>
+            <img src={src} alt="" className={rowImgClass} loading="lazy" decoding="async" />
+          </span>
+        ) : (
+          <span className={styles.badgeFrame}>
             <img
               src={src}
               alt=""
@@ -75,9 +93,16 @@ export function DownloadStoreBadges({ className }: Props) {
           </span>
         )
 
-        if (ru && (kind === 'apple' || kind === 'google')) {
+        if (ru && (kind === 'apple' || kind === 'google' || kind === 'mac')) {
           return (
-            <Link key={key} to="/beta" className={styles.badgeBtn} aria-label={t(key)}>
+            <Link
+              key={key}
+              to="/beta"
+              className={styles.badgeBtn}
+              style={badgeVars}
+              data-badge={kind}
+              aria-label={t(key)}
+            >
               {inner}
             </Link>
           )
@@ -88,6 +113,8 @@ export function DownloadStoreBadges({ className }: Props) {
             key={key}
             type="button"
             className={styles.badgeBtn}
+            style={badgeVars}
+            data-badge={kind}
             onClick={openComingSoon}
             aria-label={t(key)}
           >

@@ -57,15 +57,8 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-5);
-  max-width: 640px;
+  max-width: 600px;
   margin-inline: auto;
-}
-
-/* Четыре бейджа в один ряд на широких экранах — чуть шире блок героя, заголовок/лид остаются узкими */
-@media (min-width: 640px) {
-  .heroInner {
-    max-width: min(960px, 100%);
-  }
 }
 
 .mascot {
@@ -194,13 +187,7 @@
     justify-content: center;
     align-items: center;
     max-width: 920px;
-    column-gap: var(--space-4);
-    row-gap: var(--space-4);
-  }
-
-  .heroStoreBadges,
-  .finalStoreBadges {
-    max-width: 920px;
+    gap: var(--space-4);
   }
 
   .badgeBtn {
@@ -218,12 +205,66 @@
   .badgeImgGoogle {
     transform: scale(var(--badge-google-md, 1.38));
   }
-}
 
-/* Широкий экран: один ряд; на 640–899px при нехватке ширины — перенос 2+2 по центру */
-@media (min-width: 900px) {
-  .storeBadges {
+  /* Ряд: клип 40px, белые рамки на одной линии; без transform */
+  .storeBadgesRow {
+    --badge-clip-h: 40px;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    gap: var(--space-2);
+  }
+
+  .storeBadgesRow .badgeBtn {
+    flex: 0 0 auto;
+    width: auto;
+    height: var(--badge-clip-h);
+    min-height: var(--badge-clip-h);
+    max-height: var(--badge-clip-h);
+    padding: 0;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+  }
+
+  .storeBadgesRow .badgeFrameRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: var(--badge-clip-h);
+    line-height: 0;
+  }
+
+  .storeBadgesRow .badgeImgRow {
+    display: block;
+    height: var(--badge-clip-h);
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    object-fit: contain;
+    object-position: center center;
+  }
+
+  /* Google PNG 646×250: поля в файле — scale + клип по высоте 40px */
+  .storeBadgesRow .badgeBtn[data-badge='google'] {
+    width: calc(103.36px * var(--badge-google-row-scale, 1.32));
+    overflow: hidden;
+  }
+
+  .storeBadgesRow .badgeImgRowGoogle {
+    transform: scale(var(--badge-google-row-scale, 1.32));
+    transform-origin: center center;
+  }
+
+  .heroStoreBadges,
+  .finalStoreBadges {
+    max-width: 600px;
   }
 }
 

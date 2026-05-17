@@ -59,7 +59,7 @@ export function getGooglePlayBadgeVisualScale(language: string): {
 } {
   const lower = language.trim().toLowerCase()
   if (lower.startsWith('ru')) {
-    return { sm: 1.32, md: 1.28 }
+    return { sm: 1.32, md: 1.36 }
   }
   return { sm: 1.42, md: 1.38 }
 }

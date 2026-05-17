@@ -187,7 +187,7 @@
     "heroTitle": "Присоединяйтесь к бета-тестированию",
     "heroSubtitle": "Получите ранний доступ к новым функциям приложения",
     "platformPrompt": "Выберите платформу",
-    "platformIos": "iOS",
+    "platformApple": "Apple",
     "platformAndroid": "Android",
     "stepsTitle": "Как присоединиться к тестированию",
     "iosStepsTitle": "Как начать пользоваться",
@@ -200,7 +200,7 @@
       },
       {
         "title": "Подключись к бета-тесту",
-        "hint": "Открой ссылку на iPhone или iPad и прими приглашение в TestFlight.",
+        "hint": "Открой ссылку на iPhone, iPad или Mac (Apple Silicon) и прими приглашение в TestFlight.",
         "linkLabel": "Участвовать в тестировании (TestFlight)",
         "linkHref": "https://testflight.apple.com/join/ApHa25kA"
       },
@@ -212,7 +212,8 @@
     "iosNotesTitle": "Важные нюансы по регистрации",
     "iosNotes": [
       "Если регион App Store — Россия: приглашённый друг может создать новый аккаунт прямо внутри приложения.",
-      "Если регион стора не Россия: доступна только авторизация с уже активной подпиской Raqoon ID, оформленной через Telegram."
+      "Если регион стора не Россия: доступна только авторизация с уже активной подпиской Raqoon ID, оформленной через Telegram.",
+      "macOS (Apple Silicon): бета доступна на Mac с чипами M1 и новее через TestFlight."
     ],
     "androidSteps": [
       {

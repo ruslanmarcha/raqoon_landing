@@ -1,154 +1,157 @@
 Zásady ochrany osobních údajů Raqoon VPN
 
-Účinnost: 1. března 2026
-Jurisdikce: Ankara, Turecko
-Provozovatel služby: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
-Kontakt pro ochranu soukromí: private@raqoon.app
+Datum účinnosti: 17. května 2026
+Provozovatel služby: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
+Kontakt pro soukromí: private@raqoon.app
 
-1. Stručně
+1. Shrnutí
 
-Raqoon VPN chrání vaše připojení a posiluje soukromí na internetu. Nevedeme protokoly o vaší online aktivitě: nezaznamenáváme navštívené stránky, vyhledávací dotazy, DNS dotazy ani obsah přenosu.
+Raqoon VPN je navržen k ochraně vašeho připojení a zvýšení soukromí na internetu. Aplikace nesbírá ani nezkoumá aktivitu prohlížení, DNS dotazy ani obsah VPN provozu.
 
-K provozu VPN, správě předplatného, podpoře uživatelům a prevenci zneužití zpracováváme omezenou sadu technických údajů: identifikátory účtu a zařízení, stav předplatného, zvolenou lokalitu serveru, objem provozu, časy připojení a technická diagnostická data.
+K provozu služby zpracováváme pouze omezené technické informace, včetně:
+- náhodně vygenerovaného anonymního identifikátoru zařízení;
+- náhodně vygenerovaného anonymního identifikátoru klienta;
+- informací o regionu App Store;
+- potvrzení, že je vám alespoň 18 let;
+- základní technické diagnostiky stability připojení;
+- stavu předplatného a objemu provozu pro limity tarifu.
 
-Neprodáváme osobní údaje uživatelů ani je nepředáváme reklamním sítím.
+K používání VPN nevyžadujeme jméno, telefon ani e-mail. Data VPN nepoužíváme k analytice, reklamě, profilování ani sledování uživatelů. Data uživatelů neprodáváme reklamním sítím.
 
-2. Co znamená naše zásady No-Logs
+2. Co znamená naše politika No-Logs
 
-Neprotokolujeme ani neukládáme:
-
+Nezaznamenáváme ani neukládáme:
 - historii navštívených webů a URL;
 - vyhledávací dotazy;
 - DNS dotazy;
-- obsah provozu včetně zpráv, e-mailů, souborů a dalších přenášených dat;
-- historii síťové aktivity;
-- zdrojovou IP adresu jako součást historie aktivity.
+- obsah provozu včetně zpráv, e-mailů, souborů a jiných přenášených dat;
+- historii vaší síťové aktivity;
+- vaši zdrojovou IP adresu jako součást historie aktivity.
 
-Nevážeme ani vaši síťovou aktivitu na účet, zařízení nebo platební údaje.
+Vaši síťovou aktivitu nespojujeme s účtem, zařízením ani platebními údaji za účelem profilování.
 
-Důležité: některá technická data mohou být dočasně zpracována síťovým vybavením a serverovou infrastrukturou při navazování nebo udržování VPN připojení. Takové zpracování je nutné pro přenos a provoz služby; nepoužíváme je k vytváření historie prohlížení, analýze obsahu ani profilování.
+Některá technická data mohou být dočasně zpracována síťovým vybavením při navazování nebo udržování VPN připojení. Je to nutné pro přenos šifrovaného provozu a provoz služby. Nepoužíváme je k vytváření historie prohlížení, analýze obsahu provozu ani profilování uživatelů.
 
-3. Jaké údaje zpracováváme
+3. Data shromažďovaná v aplikaci
 
-Zpracováváme pouze údaje nutné pro službu, předplatné, podporu a bezpečnost.
+3.1. Identifikátory a způsobilost
+- náhodně vygenerovaný anonymní identifikátor zařízení (autorizace zařízení a limity zařízení);
+- náhodně vygenerovaný anonymní identifikátor klienta (relace klienta);
+- region App Store (regionální dostupnost a pravidla obchodu);
+- potvrzení, že je vám 18 let nebo více.
 
-3.1. Účet a přístup
+3.2. Provoz služby a diagnostika
+- stav předplatného a limity tarifu;
+- objem přenesených dat (pro vynucení tarifu, nikoli pro zjištění, k čemu jste přistupovali);
+- čas posledního připojení a stav připojení;
+- základní technická diagnostika stability a chyb (bez historie prohlížení, DNS dotazů ani obsahu provozu).
 
-Můžeme zpracovávat:
+3.3. Předplatné a obchody s aplikacemi
+Při předplatném přes Apple App Store, Google Play nebo Huawei AppGallery zpracovává platbu obchod. Obdržíme pouze omezená technická data pro ověření stavu předplatného (např. účtenka nebo token). Úplné údaje platební karty neukládáme.
 
-- interní identifikátor uživatele;
-- UUID, přístupový klíč nebo jiný technický identifikátor pro autorizaci připojení;
-- identifikátor zařízení nebo instalace aplikace;
-- informace o stavu účtu;
-- údaje, které dobrovolně předáte podpoře.
+3.4. Podpora (pouze při kontaktu)
+Píšete-li podpoře nebo používáte portál podpory, zpracováváme kontaktní údaje a obsah, které dobrovolně poskytnete. Je to odděleno od protokolování VPN relace.
 
-3.2. Předplatné a platba
+4. Účely zpracování
 
-Ke správě přístupu můžeme zpracovávat:
+Výše uvedená data používáme výhradně k:
+- provozu a údržbě VPN služby;
+- uplatnění regionálních omezení dostupnosti;
+- správě předplatných a přístupu zařízení;
+- zlepšení spolehlivosti připojení a řešení technických problémů;
+- dodržení věkových požadavků služby.
 
-- stav předplatného;
-- datum vypršení předplatného;
-- informace o tarifu;
-- technické tokeny, údaje o účtenkách nebo potvrzení nákupu z Apple App Store, Google Play, Huawei AppGallery nebo jiného oficiálního obchodu;
-- zda je předplatné aktivní, zrušené nebo vypršelé.
+5. Kde jsou data zpracovávána (infrastruktura)
 
-Neukládáme úplné údaje platebních karet. Nákupy přes obchod s aplikacemi řeší platby, obnovení, zrušení a vrácení příslušný obchod: Apple App Store, Google Play nebo Huawei AppGallery.
+Infrastruktura je rozdělena takto:
 
-3.3. VPN připojení a technická statistika
+Spojené státy americké:
+- primární backendové systémy (identifikátory účtu, data předplatného, region App Store, potvrzení věku, diagnostika připojení popsaná v těchto Zásadách);
+- servery zákaznického portálu podpory (data odeslaná při kontaktu s podporou).
 
-K poskytování VPN, kontrole limitů, diagnostice a podpoře můžeme zpracovávat:
+Švýcarsko:
+- vyrovnávání zátěže VPN připojení;
+- VPN servery poskytující vaše šifrované VPN připojení.
 
-- zvolenou zemi, region nebo serverovou lokalitu;
-- objem odeslaného a přijatého provozu;
-- čas posledního připojení;
-- technické časové značky připojení;
-- stav připojení;
-- technické chyby připojení, pokud jsou potřeba k diagnostice.
+Šifrovaný VPN provoz prochází naší infrastrukturou VPN a vyrovnávání zátěže ve Švýcarsku. Nevedeme protokoly navštívených webů, DNS dotazů ani obsahu provozu.
 
-Tato data neobsahují historii prohlížení, DNS dotazy ani obsah provozu.
+Omezená technická servisní data mohou být přenášena mezi USA a Švýcarskem pouze v rozsahu nutném pro provoz služby, s přiměřenými technickými a organizačními zárukami.
 
-3.4. Diagnostika aplikace
+6. Třetí strany
 
-V mobilních aplikacích Raqoon nepoužíváme cizí produktovou ani marketingovou analytiku ke sledování chování ve VPN službě. Při pádu nebo chybách mohou být diagnostická data a hlášení o pádech zpracována příslušnou platformou (Apple, Google Play, Huawei AppGallery) podle pravidel platformy a nastavení zařízení.
+Nesdílíme VPN provoz, aktivitu prohlížení, DNS dotazy ani obsah provozu s třetími stranami pro analytiku, reklamu, profilování ani sledování.
 
-Slouží k opravám chyb, stabilitě a technickému šetření — ne k analýze navštívených stránek, DNS ani obsahu VPN provozu.
+Provozovatelé obchodů (Apple, Google, Huawei) zpracovávají nákupy podle vlastních podmínek a zásad ochrany soukromí. Obdržíme pouze výše popsaná technická data ověření předplatného.
 
-4. Web, cookies a analytika
+Poskytovatelé infrastruktury hostují servery a sítě; nepředáváme jim protokoly aktivity, historii prohlížení, DNS dotazy ani obsah provozu. Technicky se podílejí na přenosu šifrovaného provozu, jak VPN vyžaduje.
 
-Na raqoon.app můžeme používat cookies a podobné technologie pro základní provoz webu, uložení preferencí a webovou analytiku.
+7. Žádné sledování v aplikaci Raqoon
 
-Web může používat Google Analytics k pochopení návštěvnosti, technického stavu stránek a efektivity rozhraní. Webová analytika je oddělena od VPN služby a nepoužívá se k analýze VPN provozu, DNS ani historie prohlížení uvnitř VPN relace.
+Mobilní aplikace nepoužívají marketingová ani produktová analytická SDK třetích stran ke sledování používání VPN. Zprávy o pádech mohou zpracovávat Apple, Google nebo Huawei podle pravidel platformy a nastavení zařízení; neslouží k analýze VPN aktivity prohlížení ani obsahu provozu.
 
-Je-li zobrazen banner souhlasu s cookies, můžete přijmout nebo odmítnout nepodstatné cookies. Nezbytné technické cookies lze použít bez samostatného souhlasu, pokud jsou nutné pro web nebo uložení vašich voleb.
+8. Web (raqoon.app), cookies a analytika
 
-5. Infrastruktura třetích stran a místa zpracování
+Na raqoon.app můžeme používat cookies a podobné technologie pro provoz webu, preference a webovou analytiku.
 
-Používáme vlastní systémy a infrastrukturu třetích stran (VPS, cloud, datová centra). VPN provoz prochází serverovou infrastrukturou zvolenou pro připojení.
+Web může používat Google Analytics pro celkový provoz a výkon stránek. Webová analytika je oddělena od VPN aplikace a nepoužívá se k analýze VPN provozu, DNS dotazů ani historie prohlížení v rámci VPN relace.
 
-Může být v různých zemích a regionech včetně Evropy, Asie a dalších dostupných lokalit. Seznam VPN lokalit se může měnit a zobrazuje se v aplikaci.
+Zobrazí-li se banner souhlasu s cookies, můžete nepodstatné cookies přijmout nebo odmítnout.
 
-Poskytovatelé infrastruktury zajišťují fyzický a síťový provoz serverů; nepředáváme jim historii prohlížení, DNS dotazy ani obsah provozu jako uživatelské protokoly aktivity. Síťoví poskytovatelé technicky participují na přenosu, jak je pro VPN nutné.
+9. Uchovávání a výmaz
 
-6. Podpora uživatelů
+Technická data uchováváme po dobu aktivního předplatného a podle potřeby provozu služby. Při neobnovení mohou být data účtu po období nečinnosti smazána.
 
-Při kontaktu podpory zpracováváme údaje potřebné k odpovědi:
+Účet a související data můžete smazat v nastavení aplikace Raqoon. Po smazání ukončíme přístup a smažeme nebo anonymizujeme data, která již nejsou potřeba.
 
-- kontaktní údaje, pokud je uvedete;
-- obsah dotazu;
-- technické údaje, které dobrovolně předáte;
-- stav účtu, předplatného nebo připojení, pokud je to k vyřešení nutné.
+Některé záznamy mohou být uchovány po omezenou dobu, vyžaduje-li to zákon, ověření plateb, prevence podvodů nebo řešení sporů.
 
-Podpora je e-mailem a vlastním portálem podpory. Tyto kanály používáme pro přístup, platby, předplatné, smazání účtu a technické problémy.
+10. Žádosti orgánů
 
-7. Smazání účtu a údajů
+Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. je registrována v Türkiye. Na zákonné žádosti příslušných orgánů reagujeme podle platného práva.
 
-Účet a související údaje můžete smazat v nastavení aplikace Raqoon bez nutnosti kontaktovat podporu.
+Protože nevedeme protokoly aktivity, nemůžeme poskytnout historii prohlížení, DNS dotazy ani obsah provozu. Můžeme potvrdit pouze omezené informace, např. existenci účtu, stav předplatného nebo technická data popsaná v těchto Zásadách.
 
-Po smazání ukončíme poskytování přístupu a smažeme nebo anonymizujeme údaje účtu, přístupové klíče a technické informace, které již nejsou pro službu potřeba.
+11. Věková podmínka
 
-Některé záznamy mohou být uchovány omezenou dobu, pokud je to nutné pro:
+Služba není určena osobám mladším 18 let. Potvrzení věku v aplikaci slouží k vynucení tohoto požadavku.
 
-- splnění zákonných povinností;
-- účetnictví a daně;
-- ověření plateb a předplatného;
-- prevenci podvodů, zneužití nebo sporů;
-- ochranu práv uživatele, společnosti nebo třetích stran.
+12. Bezpečnost
 
-Uchováváme je v minimálním rozsahu a pouze po dobu nutnou pro daný účel.
+Uplatňujeme technická a organizační opatření včetně řízení přístupu, šifrování při přenosu a minimalizace dat.
 
-8. Žádosti státních orgánů
+13. Vaše práva
 
-Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. je registrována v Turecku. Obdržíme-li úřední a právně závaznou žádost příslušného orgánu, posoudíme ji podle platného práva.
+Můžete požádat o informace o datech spojených s účtem, smazat účet v aplikaci, kontaktovat nás ohledně soukromí a odmítnout nepodstatné cookies na webu, pokud je to k dispozici.
 
-Protože nevedeme protokoly aktivity, nemůžeme poskytnout historii prohlížení, DNS dotazy ani obsah provozu. V závislosti na žádosti a dostupných údajích můžeme potvrdit jen omezené informace, např. existenci účtu, stav předplatného nebo technická data popsaná v těchto zásadách.
+Soukromí: private@raqoon.app
 
-9. Bezpečnost
+14. Platformy a obchody s aplikacemi (iOS, Android, Huawei)
 
-Používáme technická a organizační opatření včetně omezení přístupu, oddělení rolí, zabezpečených kanálů a minimalizace dat.
+Raqoon VPN je distribuován prostřednictvím oficiálních obchodů s aplikacemi:
 
-Žádný způsob přenosu ani uložení není zcela bezpečný. Snažíme se snižovat rizika a zpracováváme jen údaje skutečně nutné pro Raqoon VPN.
+Apple App Store (iOS, iPadOS, macOS a další platformy Apple)
+- instalace a aktualizace přes Apple;
+- platby, obnovení, zrušení a vrácení peněz podle pravidel Apple;
+- Apple může zpracovávat Apple ID a identifikátory zařízení podle zásad ochrany soukromí Apple.
 
-10. Práva uživatele
+Google Play (Android)
+- instalace a aktualizace na zařízeních Android přes Google Play;
+- platby, obnovení, zrušení a vrácení peněz podle Google Play a Google Payments;
+- Google může zpracovávat účet Google a identifikátory zařízení podle zásad Google.
 
-Můžete:
+HUAWEI AppGallery (Android na zařízeních Huawei)
+- instalace a aktualizace přes Huawei AppGallery;
+- platby a nákupy v aplikaci podle pravidel Huawei / AppGallery;
+- Huawei může zpracovávat účet Huawei a identifikátory zařízení podle zásad Huawei.
 
-- požádat o informace o údajích vázaných na váš účet;
-- smazat účet v aplikaci;
-- kontaktovat nás ohledně ochrany soukromí;
-- požádat o opravu nepřesných údajů;
-- odmítnout nepodstatné cookies na webu, pokud je možnost k dispozici.
+Z obchodů přijímáme pouze omezená technická data potřebná k ověření předplatného a poskytnutí přístupu (např. tokeny nebo potvrzení nákupu). Používání každého obchodu se řídí také podmínkami a zásadami ochrany soukromí provozovatele.
 
-Pro soukromí: private@raqoon.app.
+15. Změny Zásad
 
-11. Změny zásad
+Zásady můžeme aktualizovat při změně služby, infrastruktury nebo právních požadavků. Datum účinnosti nahoře se při zveřejnění nové verze aktualizuje.
 
-Zásady můžeme aktualizovat při změně služby, infrastruktury, právních požadavků nebo pravidel obchodů s aplikacemi. Nová verze nabývá účinnosti zveřejněním na webu, pokud není uvedeno jinak.
+16. Kontakty
 
-12. Kontakty
-
-Soukromí, smazání účtu a zpracování údajů:
-
-- E-mail: private@raqoon.app
+- Soukromí a výmaz dat: private@raqoon.app
 - Podpora: help@raqoon.app
-- Společnost: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
-- Místo: Ankara, Turecko
+- Společnost: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye

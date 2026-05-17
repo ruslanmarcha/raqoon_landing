@@ -1,154 +1,157 @@
 Política de Privacidade Raqoon VPN
 
-Vigência: 1º de março de 2026
-Jurisdição: Ancara, Turquia
-Proprietário do serviço: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+Data de vigência: 17 de maio de 2026
+Proprietário do serviço: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ancara, Türkiye)
 Contato de privacidade: private@raqoon.app
 
 1. Resumo
 
-O Raqoon VPN foi criado para proteger sua conexão e aumentar a privacidade ao usar a internet. Não mantemos registros da sua atividade online: não registramos sites visitados, consultas de pesquisa, consultas DNS nem o conteúdo do tráfego transmitido.
+O Raqoon VPN foi projetado para proteger sua conexão e melhorar a privacidade na internet. O aplicativo não coleta nem inspeciona atividade de navegação, consultas DNS ou conteúdo do tráfego VPN.
 
-Para operar a VPN, gerenciar assinaturas, apoiar usuários e prevenir abusos, processamos um conjunto limitado de dados técnicos: identificadores de conta e dispositivo, status da assinatura, localização do servidor escolhida, volume de tráfego usado, horários de conexão e dados de diagnóstico técnico.
+Para operar o serviço, processamos apenas informações técnicas limitadas, incluindo:
+- identificador anônimo de dispositivo gerado aleatoriamente;
+- identificador anônimo de cliente gerado aleatoriamente;
+- informações da região da App Store;
+- confirmação de que você tem pelo menos 18 anos;
+- diagnósticos técnicos básicos relacionados à estabilidade da conexão;
+- status da assinatura e volume de tráfego necessários aos limites do seu plano.
 
-Não vendemos dados pessoais dos usuários nem os repassamos a redes de publicidade.
+Não exigimos nome, telefone ou e-mail para usar a VPN. Não usamos dados da VPN para análise, publicidade, criação de perfis ou rastreamento de usuários. Não vendemos dados de usuários a redes de anúncios.
 
 2. O que significa nossa política No-Logs
 
 Não registramos nem armazenamos:
-
 - histórico de sites e URLs visitados;
 - consultas de pesquisa;
 - consultas DNS;
 - conteúdo do tráfego, incluindo mensagens, e-mails, arquivos e outros dados transmitidos;
-- histórico de atividade de rede;
+- histórico da sua atividade de rede;
 - seu endereço IP de origem como parte de um histórico de atividade.
 
-Também não associamos sua atividade de rede à sua conta, dispositivo ou dados de pagamento.
+Não vinculamos sua atividade de rede à conta, dispositivo ou dados de pagamento para criação de perfis.
 
-Importante: alguns dados técnicos podem ser processados temporariamente por equipamentos de rede e infraestrutura de servidores durante o estabelecimento ou a manutenção da conexão VPN. Esse processamento é necessário para transportar o tráfego e operar o serviço; não o usamos para criar histórico de navegação, analisar o conteúdo do tráfego ou perfilar usuários.
+Alguns dados técnicos podem ser processados temporariamente por equipamentos de rede durante o estabelecimento ou manutenção de uma conexão VPN. Isso é necessário para transportar tráfego criptografado e operar o serviço. Não os usamos para construir histórico de navegação, analisar conteúdo do tráfego ou criar perfis de usuários.
 
-3. Dados que processamos
+3. Dados que coletamos no aplicativo
 
-Processamos apenas os dados necessários para o serviço, assinatura, suporte e segurança.
+3.1. Identificadores e elegibilidade
+- identificador anônimo de dispositivo gerado aleatoriamente (autorização do dispositivo e limites de dispositivos);
+- identificador anônimo de cliente gerado aleatoriamente (sessão do cliente);
+- região da App Store (disponibilidade regional e regras da loja);
+- confirmação de que você tem 18 anos ou mais.
 
-3.1. Conta e acesso
+3.2. Operação do serviço e diagnósticos
+- status da assinatura e limites do plano;
+- volume de dados transferidos (para aplicar seu plano, sem ver o que você acessou);
+- hora da última conexão e status da conexão;
+- diagnósticos técnicos básicos de estabilidade e erros (sem histórico de navegação, consultas DNS ou conteúdo do tráfego).
 
-Podemos processar:
+3.3. Assinaturas e lojas de aplicativos
+Se você assina pela Apple App Store, Google Play ou Huawei AppGallery, a loja processa o pagamento. Recebemos apenas dados técnicos limitados para validar o status da assinatura (por exemplo, recibo ou token). Não armazenamos dados completos do cartão.
 
-- identificador interno do usuário;
-- UUID, chave de acesso ou outro identificador técnico para autorizar a conexão;
-- identificador do dispositivo ou da instalação do app;
-- informações sobre o status da conta;
-- dados que você envia voluntariamente ao suporte.
+3.4. Suporte (somente se você nos contatar)
+Se você escrever ao suporte ou usar o portal de suporte, processamos os dados de contato e o conteúdo que você fornecer voluntariamente. Isso é separado do registro de sessão VPN.
 
-3.2. Assinatura e pagamento
+4. Finalidades do tratamento
 
-Para gerenciar o acesso, podemos processar:
+Usamos os dados acima exclusivamente para:
+- operar e manter o serviço VPN;
+- aplicar restrições de disponibilidade regional;
+- gerenciar assinaturas e acesso a dispositivos;
+- melhorar a confiabilidade da conexão e solucionar problemas técnicos;
+- garantir conformidade com requisitos etários do serviço.
 
-- status da assinatura;
-- data de expiração da assinatura;
-- informações do plano;
-- tokens técnicos, dados de recibo ou confirmações de compra recebidas pela Apple App Store, Google Play, Huawei AppGallery ou outra loja oficial de apps;
-- se a assinatura está ativa, cancelada ou expirada.
+5. Onde os dados são processados (infraestrutura)
 
-Não armazenamos dados completos de cartões bancários. Se a compra for feita por uma loja de apps, pagamento, renovação, cancelamento e reembolsos são tratados por essa loja: Apple App Store, Google Play ou Huawei AppGallery.
+Nossa infraestrutura está distribuída da seguinte forma:
 
-3.3. Conexão VPN e estatísticas técnicas
+Estados Unidos:
+- sistemas de backend principais (identificadores de conta, dados de assinatura, região da App Store, confirmação de idade, diagnósticos de conexão descritos nesta Política);
+- servidores do portal de suporte ao cliente (dados enviados ao contatar o suporte).
 
-Para fornecer a VPN, aplicar limites, diagnosticar e apoiar, podemos processar:
+Suíça:
+- balanceamento de carga para conexões VPN;
+- servidores VPN que fornecem sua conexão VPN criptografada.
 
-- país, região ou localização do servidor escolhidos;
-- volume de tráfego enviado e recebido;
-- horário da última conexão;
-- carimbos de data/hora técnicos das conexões;
-- status da conexão;
-- erros técnicos de conexão, quando necessários para diagnóstico.
+O tráfego VPN criptografado passa por nossa infraestrutura VPN e de balanceamento na Suíça. Não mantemos registros de sites visitados, consultas DNS ou conteúdo do tráfego.
 
-Esses dados não incluem histórico de sites visitados, consultas DNS nem conteúdo do tráfego.
+Dados técnicos limitados do serviço podem ser transferidos entre Estados Unidos e Suíça apenas na medida necessária para operar o serviço, com salvaguardas técnicas e organizacionais adequadas.
 
-3.4. Diagnóstico do app
+6. Terceiros
 
-Nos apps móveis Raqoon não usamos análises de produto ou marketing de terceiros para rastrear seu comportamento no serviço VPN. Se o app travar ou apresentar falhas, dados de diagnóstico e relatórios de falha podem ser processados pela plataforma relevante, como Apple, Google Play ou Huawei AppGallery, conforme as regras da plataforma e as configurações do seu dispositivo.
+Não compartilhamos tráfego VPN, atividade de navegação, consultas DNS ou conteúdo do tráfego com terceiros para análise, publicidade, criação de perfis ou rastreamento.
 
-Esses dados são usados para corrigir erros, melhorar a estabilidade e investigar falhas técnicas; não são usados para analisar sites visitados, consultas DNS ou conteúdo do tráfego VPN.
+Operadores de lojas (Apple, Google, Huawei) processam compras sob seus próprios termos e políticas de privacidade. Recebemos apenas os dados técnicos de validação de assinatura descritos acima.
 
-4. Site, cookies e análises
+Provedores de infraestrutura hospedam servidores e redes; não lhes fornecemos registros de atividade, histórico de navegação, consultas DNS ou conteúdo do tráfego. Participam tecnicamente do transporte de tráfego criptografado conforme necessário para uma VPN.
 
-Em raqoon.app podemos usar cookies e tecnologias semelhantes para o funcionamento básico do site, salvar suas preferências e análise web.
+7. Sem rastreamento no aplicativo Raqoon
 
-O site pode usar o Google Analytics para entender o tráfego geral, a saúde técnica das páginas e a eficácia da interface. A análise do site é separada do serviço VPN e não é usada para analisar tráfego VPN, consultas DNS ou histórico de navegação dentro de uma sessão VPN.
+Nossos aplicativos móveis não usam SDKs de marketing ou análise de produto de terceiros para rastrear o uso da VPN. Relatórios de falha ou diagnóstico podem ser processados pela Apple, Google ou Huawei conforme regras da plataforma e configurações do dispositivo; não são usados para analisar atividade de navegação VPN ou conteúdo do tráfego.
 
-Se um banner de consentimento de cookies for exibido, você pode aceitar ou rejeitar cookies não essenciais. Cookies técnicos estritamente necessários podem ser usados sem consentimento separado quando necessários para o funcionamento do site ou para salvar suas escolhas.
+8. Site (raqoon.app), cookies e análises
 
-5. Infraestrutura de terceiros e locais de processamento
+Em raqoon.app podemos usar cookies e tecnologias semelhantes para operação básica do site, preferências e análise web.
 
-Usamos nossos próprios sistemas e infraestrutura de terceiros (VPS, nuvem e data centers). O tráfego VPN passa pela infraestrutura de servidores escolhida para fornecer a conexão.
+O site pode usar Google Analytics para entender o tráfego geral e o desempenho das páginas. A análise web é separada do aplicativo VPN e não é usada para analisar tráfego VPN, consultas DNS ou histórico de navegação em uma sessão VPN.
 
-Essa infraestrutura pode estar em vários países e regiões, incluindo Europa, Ásia e outras localizações disponíveis no serviço. A lista de localizações VPN pode mudar e é exibida no app.
+Se um banner de consentimento de cookies for exibido, você pode aceitar ou recusar cookies não essenciais.
 
-Os provedores de infraestrutura operam os servidores fisicamente e na rede; não lhes entregamos histórico de navegação, consultas DNS ou conteúdo do tráfego como registros de atividade do usuário. Ao mesmo tempo, provedores de rede participam tecnicamente do transporte do tráfego conforme necessário para o VPN.
+9. Retenção e exclusão
 
-6. Suporte ao usuário
+Dados técnicos são mantidos enquanto sua assinatura estiver ativa e conforme necessário para operar o serviço. Se você não renovar, os dados da conta podem ser excluídos após um período de inatividade.
 
-Quando você entra em contato com o suporte, processamos os dados necessários para responder:
+Você pode excluir sua conta e dados relacionados nas configurações do aplicativo Raqoon. Após a exclusão, interrompemos o acesso e excluímos ou anonimizamos dados que não são mais necessários.
 
-- dados de contato, se você os fornecer;
-- conteúdo da solicitação;
-- informações técnicas que você compartilha voluntariamente;
-- status da conta, assinatura ou conexão, se necessário para resolver o problema.
+Alguns registros podem ser mantidos por tempo limitado quando exigido por lei, verificação de cobrança, prevenção de fraude ou resolução de disputas.
 
-O suporte está disponível por e-mail e pelo nosso portal de suporte. Usamos esses canais para acesso, cobrança, assinatura, exclusão de conta e problemas técnicos.
+10. Solicitações de autoridades
 
-7. Exclusão de conta e dados
+A Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. está registrada na Türkiye. Se recebermos uma solicitação legal de autoridade competente, avaliamos conforme a lei aplicável.
 
-Você pode excluir sua conta e dados relacionados nas configurações do app Raqoon sem precisar contatar o suporte.
+Como não mantemos registros de atividade, não podemos fornecer histórico de navegação, consultas DNS ou conteúdo do tráfego. Podemos apenas confirmar informações limitadas, como existência da conta, status da assinatura ou os dados técnicos descritos nesta Política.
 
-Após a exclusão, interrompemos o fornecimento de acesso ao serviço e excluímos ou anonimizamos dados da conta, chaves de acesso e informações técnicas que não são mais necessárias para operar o serviço.
+11. Requisito de idade
 
-Alguns registros podem ser mantidos por tempo limitado quando necessário para:
+O Serviço não se destina a menores de 18 anos. Usamos a confirmação de idade no aplicativo para aplicar esse requisito.
 
-- cumprimento legal;
-- contabilidade e impostos;
-- confirmação de pagamentos e assinaturas;
-- prevenção de fraude, abuso ou disputas;
-- proteção dos direitos do usuário, da empresa ou de terceiros.
+12. Segurança
 
-Esses registros são mantidos no mínimo necessário e apenas pelo tempo exigido para a finalidade legal correspondente.
+Aplicamos medidas técnicas e organizacionais, incluindo controles de acesso, criptografia em trânsito e minimização de dados.
 
-8. Solicitações de autoridades governamentais
+13. Seus direitos
 
-A Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. está registrada na Turquia. Se recebermos uma solicitação oficial e juridicamente vinculante de autoridade competente, avaliamos conforme a lei aplicável.
+Você pode solicitar informações sobre dados vinculados à sua conta, excluir sua conta no aplicativo, entrar em contato sobre privacidade e recusar cookies não essenciais no site quando disponível.
 
-Como não mantemos registros de atividade, não podemos fornecer histórico de navegação, consultas DNS ou conteúdo do tráfego do usuário. Dependendo da solicitação e dos dados disponíveis, podemos confirmar apenas informações limitadas, como existência de conta, status da assinatura ou os dados técnicos descritos nesta Política.
+Privacidade: private@raqoon.app
 
-9. Segurança
+14. Plataformas e lojas de aplicativos (iOS, Android, Huawei)
 
-Aplicamos medidas técnicas e organizacionais para proteger dados, incluindo restrição de acesso, segregação de funções, canais seguros e minimização de dados.
+O Raqoon VPN é distribuído por lojas oficiais de aplicativos:
 
-Nenhum método de transmissão ou armazenamento é totalmente seguro. Buscamos reduzir riscos e processar apenas os dados realmente necessários para operar o Raqoon VPN.
+Apple App Store (iOS, iPadOS, macOS e outras plataformas Apple)
+- download e atualizações pela Apple;
+- pagamento, renovação, cancelamento e reembolsos conforme as regras da Apple;
+- a Apple pode processar Apple ID e identificadores do dispositivo conforme sua política de privacidade.
 
-10. Seus direitos
+Google Play (Android)
+- download e atualizações em dispositivos Android pelo Google Play;
+- pagamento, renovação, cancelamento e reembolsos conforme Google Play e Google Payments;
+- o Google pode processar conta Google e identificadores do dispositivo conforme sua política de privacidade.
 
-Você pode:
+HUAWEI AppGallery (Android em dispositivos Huawei)
+- download e atualizações pela Huawei AppGallery;
+- pagamentos e compras no app conforme políticas Huawei / AppGallery;
+- a Huawei pode processar conta Huawei e identificadores do dispositivo conforme sua política de privacidade.
 
-- solicitar informações sobre dados vinculados à sua conta;
-- excluir a conta no app;
-- entrar em contato sobre privacidade;
-- solicitar correção de dados imprecisos;
-- recusar cookies não essenciais no site, quando disponível.
+Recebemos das lojas apenas dados técnicos limitados necessários para verificar a assinatura e fornecer acesso (por exemplo, tokens ou recibos de compra). O uso de cada loja também é regido pelos termos e pela política de privacidade do respectivo operador.
 
-Para privacidade: private@raqoon.app.
+15. Alterações desta Política
 
-11. Alterações desta Política
+Podemos atualizar esta Política quando o serviço, a infraestrutura ou requisitos legais mudarem. A data de vigência no topo será atualizada ao publicarmos uma nova versão.
 
-Podemos atualizar esta Política quando o serviço, a infraestrutura, os requisitos legais ou as regras das lojas de apps mudarem. A nova versão entra em vigor na publicação no site, salvo outra data indicada.
+16. Contatos
 
-12. Contatos
-
-Privacidade, exclusão de conta e processamento de dados:
-
-- E-mail: private@raqoon.app
+- Privacidade e exclusão de dados: private@raqoon.app
 - Suporte: help@raqoon.app
-- Empresa: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
-- Local: Ancara, Turquia
+- Empresa: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ancara, Türkiye

@@ -1,154 +1,157 @@
 Patakaran sa Privacy ng Raqoon VPN
 
-Epektibo: Marso 1, 2026
-Hurisdiksyon: Ankara, Türkiye
-May-ari ng serbisyo: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
-Kontak sa privacy: private@raqoon.app
+Petsa ng bisa: 17 Mayo 2026
+May-ari ng serbisyo: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
+Contact sa privacy: private@raqoon.app
 
 1. Buod
 
-Ang Raqoon VPN ay idinisenyo upang protektahan ang iyong koneksyon at palakasin ang privacy kapag gumagamit ka ng internet. Hindi kami nagsasave ng log ng iyong online na aktibidad: hindi namin nire-record ang mga binisitang website, search query, DNS query, o nilalaman ng ipinapadalang trapiko.
+Idinisenyo ang Raqoon VPN upang protektahan ang iyong koneksyon at palakasin ang privacy sa internet. Hindi kinokolekta o sinusuri ng app ang aktibidad sa pag-browse, mga DNS query, o nilalaman ng VPN traffic.
 
-Para patakbuhin ang VPN, pamahalaan ang subscription, suportahan ang mga user, at pigilan ang maling paggamit, pinoproseso namin ang limitadong hanay ng teknikal na data: mga identifier ng account at device, status ng subscription, napiling lokasyon ng server, dami ng ginamit na trapiko, oras ng koneksyon, at teknikal na diagnostic data.
+Upang patakbuhin ang serbisyo, pinoproseso lamang namin ang limitadong teknikal na impormasyon, kabilang ang:
+- random na nabuo na anonymous device identifier;
+- random na nabuo na anonymous client identifier;
+- impormasyon sa rehiyon ng App Store;
+- kumpirmasyon na ikaw ay hindi bababa sa 18 taong gulang;
+- pangunahing teknikal na diagnostic na may kaugnayan sa katatagan ng koneksyon;
+- status ng subscription at dami ng traffic para sa limit ng plano mo.
 
-Hindi namin ibinebenta ang personal na data ng mga user at hindi ito ipinapasa sa mga advertising network.
+Hindi namin kailangan ang pangalan, numero ng telepono, o email para gamitin ang VPN. Hindi namin ginagamit ang VPN data para sa analytics, advertising, profiling, o user tracking. Hindi namin ibinebenta ang data ng user sa advertising networks.
 
 2. Ano ang ibig sabihin ng aming No-Logs policy
 
-Hindi namin nilo-log o iniimbak:
-
+Hindi namin nilo-log o iniimbak ang:
 - kasaysayan ng mga binisitang website at URL;
 - mga search query;
 - mga DNS query;
-- nilalaman ng trapiko, kasama ang mensahe, email, file, at iba pang ipinadalang data;
+- nilalaman ng traffic, kabilang ang mensahe, email, file, at iba pang ipinadalang data;
 - kasaysayan ng iyong network activity;
-- iyong source IP address bilang bahagi ng kasaysayan ng aktibidad.
+- iyong source IP address bilang bahagi ng activity history.
 
-Hindi rin namin iniuugnay ang iyong network activity sa iyong account, device, o payment data.
+Hindi namin ikinakabit ang iyong network activity sa account, device, o payment data para sa profiling.
 
-Mahalaga: maaaring pansamantalang maproseso ang ilang teknikal na data ng network equipment at server infrastructure habang itinatatag o pinapanatili ang VPN connection. Kailangan ang ganitong pagproseso para sa trapiko at operasyon ng serbisyo; hindi namin ito ginagamit para gumawa ng browsing history, suriin ang nilalaman ng trapiko, o i-profile ang mga user.
+Maaaring pansamantalang maproseso ng network equipment ang ilang teknikal na data habang binubuo o pinapanatili ang VPN connection. Kailangan ito para magdala ng naka-encrypt na traffic at patakbuhin ang serbisyo. Hindi namin ito ginagamit upang bumuo ng browsing history, suriin ang nilalaman ng traffic, o mag-profile ng user.
 
-3. Anong data ang pinoproseso namin
+3. Data na kinokolekta sa app
 
-Pinoproseso lamang namin ang data na kailangan para sa serbisyo, subscription, support, at seguridad.
+3.1. Mga identifier at eligibility
+- random na nabuo na anonymous device identifier (awtorisasyon ng device at device limits);
+- random na nabuo na anonymous client identifier (client session);
+- rehiyon ng App Store (regional availability at store rules);
+- kumpirmasyon na ikaw ay 18 taong gulang o mas matanda.
 
-3.1. Account at access
+3.2. Operasyon ng serbisyo at diagnostics
+- status ng subscription at limit ng plano;
+- dami ng nailipat na data (para ipatupad ang plano mo, hindi para makita kung ano ang na-access mo);
+- oras ng huling koneksyon at status ng koneksyon;
+- pangunahing teknikal na diagnostic sa katatagan at error (walang browsing history, DNS query, o nilalaman ng traffic).
 
-Maaari naming iproseso:
+3.3. Mga subscription at app store
+Kung mag-subscribe ka sa Apple App Store, Google Play, o Huawei AppGallery, pinoproseso ng store ang bayad. Tumatanggap lamang kami ng limitadong teknikal na data para i-validate ang subscription status (hal. resibo o token data). Hindi namin iniimbak ang buong payment card details.
 
-- internal na user identifier;
-- UUID, access key, o iba pang teknikal na identifier para sa awtorisasyon ng koneksyon;
-- identifier ng device o installation ng app;
-- impormasyon tungkol sa status ng account;
-- data na kusang ipinapadala mo sa support.
+3.4. Support (kung makikipag-ugnayan ka lamang)
+Kung magsusulat ka sa support o gagamit ng support portal, pinoproseso namin ang contact details at nilalamang boluntaryo mong ibinigay. Hiwalay ito sa VPN session logging.
 
-3.2. Subscription at bayad
+4. Mga layunin ng pagproseso
 
-Para pamahalaan ang access, maaari naming iproseso:
+Ginagamit lamang namin ang data sa itaas upang:
+- patakbuhin at panatilihin ang VPN service;
+- ipatupad ang mga regional availability restriction;
+- pamahalaan ang mga subscription at device access;
+- mapabuti ang reliability ng koneksyon at ayusin ang teknikal na isyu;
+- matiyak ang pagsunod sa mga kinakailangang may kaugnayan sa edad ng serbisyo.
 
-- status ng subscription;
-- petsa ng pag-expire ng subscription;
-- impormasyon tungkol sa plano;
-- teknikal na token, receipt data, o kumpirmasyon ng pagbili mula sa Apple App Store, Google Play, Huawei AppGallery, o iba pang opisyal na app store;
-- kung ang subscription ay aktibo, kinansela, o nag-expire na.
+5. Saan pinoproseso ang data (infrastructure)
 
-Hindi namin iniimbak ang buong bank card data. Kung ang pagbili ay sa pamamagitan ng app store, ang bayad, pag-renew, pagkansela, at refund ay pinoproseso ng store na iyon: Apple App Store, Google Play, o Huawei AppGallery.
+Ganito ang distribusyon ng aming infrastructure:
 
-3.3. VPN connection at teknikal na istatistika
+Estados Unidos:
+- pangunahing backend systems (account identifiers, subscription data, rehiyon ng app store (Apple App Store, Google Play, o Huawei AppGallery), age confirmation, connection diagnostics na inilarawan sa Patakarang ito);
+- mga server ng customer support portal (data na isinusumite mo kapag nakikipag-ugnayan sa support).
 
-Para magbigay ng VPN, ipatupad ang limit, diagnostics, at support, maaari naming iproseso:
+Switzerland:
+- load balancing para sa mga VPN connection;
+- mga VPN server na nagbibigay ng iyong naka-encrypt na VPN connection.
 
-- napiling bansa, rehiyon, o server location;
-- dami ng ipinadala at natanggap na trapiko;
-- oras ng huling koneksyon;
-- teknikal na timestamps ng koneksyon;
-- status ng koneksyon;
-- teknikal na connection errors kung kailangan para sa diagnostics.
+Dumadaan ang naka-encrypt na VPN traffic sa aming VPN at load-balancing infrastructure sa Switzerland. Hindi kami nag-iimbak ng log ng mga binisitang website, DNS query, o nilalaman ng traffic.
 
-Ang data na ito ay hindi naglalaman ng kasaysayan ng mga binisitang site, DNS query, o nilalaman ng trapiko.
+Maaaring ilipat ang limitadong teknikal na service data sa pagitan ng Estados Unidos at Switzerland lamang kung kinakailangan upang patakbuhin ang serbisyo, gamit ang angkop na teknikal at organizational safeguards.
 
-3.4. Diagnostics ng app
+6. Mga third party
 
-Sa Raqoon mobile apps hindi kami gumagamit ng third-party product o marketing analytics para subaybayan ang iyong asal sa VPN service. Kung nag-crash o mali ang pag-andar ng app, maaaring iproseso ng naaangkop na platform (hal. Apple, Google Play, Huawei AppGallery) ang diagnostic data at crash reports ayon sa mga patakaran ng platform at settings ng iyong device.
+Hindi namin ibinabahagi ang VPN traffic, browsing activity, DNS query, o nilalaman ng traffic sa mga third party para sa analytics, advertising, profiling, o tracking.
 
-Ginagamit ang gayong data para ayusin ang bugs, pagandahin ang stability, at imbestigahan ang teknikal na failure; hindi ito ginagamit para suriin ang mga binisitang site, DNS query, o nilalaman ng VPN trapiko.
+Pinoproseso ng mga app store operator (Apple, Google, Huawei) ang mga pagbili ayon sa kanilang sariling terms at privacy policies. Tumatanggap lamang kami ng teknikal na subscription validation data na inilarawan sa itaas.
 
-4. Website, cookies, at analytics
+Nagho-host ang infrastructure providers ng mga server at network; hindi namin ibinibigay sa kanila ang user activity log, browsing history, DNS query, o nilalaman ng traffic. Teknikal silang nakikilahok sa pagdadala ng naka-encrypt na traffic gaya ng kinakailangan para gumana ang VPN.
 
-Sa raqoon.app maaari naming gamitin ang cookies at katulad na teknolohiya para sa pangunahing operasyon ng site, pag-save ng mga kagustuhan mo, at web analytics.
+7. Walang tracking sa Raqoon app
 
-Maaaring gumamit ang site ng Google Analytics para maintindihan ang pangkalahatang trapiko, teknikal na kalusugan ng mga pahina, at bisa ng interface. Ang web analytics ng site ay hiwalay sa VPN service at hindi ginagamit para suriin ang VPN trapiko, DNS query, o browsing history sa loob ng VPN session.
+Hindi gumagamit ang aming mobile app ng third-party marketing o product analytics SDK upang subaybayan ang paggamit ng VPN. Maaaring iproseso ng Apple, Google, o Huawei ang crash o diagnostic report ayon sa platform rules at device settings mo; hindi ginagamit ang mga ito upang suriin ang VPN browsing activity o nilalaman ng traffic.
 
-Kung may cookie consent banner, maaari mong tanggapin o tanggihan ang hindi mahahalagang cookies. Maaaring gamitin ang kinakailangang teknikal na cookies nang walang hiwalay na pahintulot kung kinakailangan para sa operasyon ng site o pag-save ng mga pinili mo.
+8. Website (raqoon.app), cookies, at analytics
 
-5. Third-party infrastructure at rehiyon ng pagproseso
+Sa raqoon.app maaari kaming gumamit ng cookies at katulad na teknolohiya para sa basic site operation, preferences, at web analytics.
 
-Gumagamit kami ng sariling mga system at third-party infrastructure (VPS, cloud, at data center services). Dumadaan ang VPN trapiko sa server infrastructure na napili para sa koneksyon.
+Maaaring gumamit ang site ng Google Analytics upang maunawaan ang kabuuang traffic at performance ng page. Hiwaay ang website analytics sa VPN app at hindi ginagamit upang suriin ang VPN traffic, DNS query, o browsing history sa loob ng VPN session.
 
-Maaaring nasa iba’t ibang bansa at rehiyon ang infrastructure na iyon, kasama ang Europa, Asia, at iba pang available na lokasyon sa serbisyo. Maaaring magbago ang listahan ng VPN locations at ipinapakita sa app.
+Kung may cookie consent banner, maaari mong tanggapin o tanggihan ang non-essential cookies.
 
-Ang mga infrastructure provider ay nagpapatakbo ng pisikal at network ng mga server; hindi namin ibinibigay sa kanila ang browsing history, DNS query, o nilalaman ng trapiko bilang user activity logs. Gayunpaman, ang anumang network provider ay teknikal na kasali sa pagpapadala ng trapiko gaya ng kinakailangan para sa VPN.
+9. Retention at pagtanggal
 
-6. Suporta sa user
+Pinapanatili ang teknikal na data habang aktibo ang subscription mo at kung kinakailangan upang patakbuhin ang serbisyo. Kung hindi mo i-renew, maaaring tanggalin ang account data pagkatapos ng panahon ng hindi paggamit.
 
-Kapag kinontak mo ang support, pinoproseso namin ang data na kailangan para tumugon:
+Maaari mong tanggalin ang account at kaugnay na data sa mga setting ng Raqoon app. Pagkatapos ng pagtanggal, titigil kami sa pagbibigay ng access at tatanggalin o ia-anonymize ang data na hindi na kailangan.
 
-- contact data kung ibinigay mo;
-- nilalaman ng hiling;
-- teknikal na impormasyon na kusang ibinahagi mo;
-- status ng account, subscription, o koneksyon kung kailangan para lutasin ang isyu.
+Maaaring panatilihin ang ilang record sa limitadong panahon kung kinakailangan ng batas, billing verification, fraud prevention, o dispute resolution.
 
-Available ang support sa email at sa aming sariling support portal. Ginagamit namin ang mga channel na ito para sa access, billing, subscription, pagtanggal ng account, at teknikal na problema.
+10. Mga kahilingan ng gobyerno at awtoridad
 
-7. Pagtanggal ng account at data
+Nakarehistro ang Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. sa Türkiye. Kung makatanggap kami ng lawful request mula sa competent authority, susuriin namin ito ayon sa applicable law.
 
-Maaari mong tanggalin ang account at kaugnay na data sa mga setting ng Raqoon app nang hindi kailangang kontakin ang support.
+Dahil hindi kami nag-iimbak ng activity log, hindi namin maibibigay ang browsing history, DNS query, o nilalaman ng traffic. Maaari lamang naming kumpirmahin ang limitadong impormasyon tulad ng pagkakaroon ng account, subscription status, o teknikal na data na inilarawan sa Patakarang ito.
 
-Pagkatapos ng pagtanggal, ititigil namin ang pagbibigay ng access sa serbisyo at tatanggalin o i-anonymize ang account data, access keys, at teknikal na impormasyon na hindi na kailangan para patakbuhin ang serbisyo.
+11. Kinakailangang edad
 
-Maaaring panatilihin ang ilang record nang limitadong panahon kung kinakailangan para sa:
+Hindi nakatuon ang Serbisyo sa mga wala pang 18 taong gulang. Ginagamit namin ang in-app age confirmation upang ipatupad ang kinakailangang ito.
 
-- pagsunod sa batas;
-- accounting at buwis;
-- kumpirmasyon ng bayad at subscription;
-- pagpigil sa pandaraya, maling paggamit, o hindi pagkakaunawaan;
-- proteksyon ng karapatan ng user, kumpanya, o third party.
+12. Seguridad
 
-Ang mga record na iyon ay minimal lamang at hangga’t kinakailangan para sa layuning legal.
+Naglalapat kami ng teknikal at organizational measures kabilang ang access controls, encryption in transit, at data minimization.
 
-8. Kahilingan mula sa gobyerno
+13. Iyong mga karapatan
 
-Ang Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. ay rehistrado sa Türkiye. Kung makakatanggap kami ng opisyal at legal na nakatali na kahilingan mula sa kompetenteng awtoridad, sinusuri namin ito ayon sa naaangkop na batas.
+Maaari kang humiling ng impormasyon tungkol sa data na naka-link sa account mo, tanggalin ang account sa app, makipag-ugnayan sa amin tungkol sa privacy, at tanggihan ang non-essential cookies sa website kung available.
 
-Dahil hindi kami nagsasave ng activity logs, hindi namin maibibigay ang browsing history, DNS query, o nilalaman ng trapiko ng user. Depende sa kahilingan at available na data, maaari lamang naming kumpirmahin ang limitadong impormasyon, hal. may account, status ng subscription, o ang teknikal na data na inilarawan sa Patakarang ito.
+Privacy: private@raqoon.app
 
-9. Seguridad
+14. Mga platform at app store (iOS, Android, Huawei)
 
-Nag-aaplay kami ng teknikal at organisasyonal na hakbang para protektahan ang data, kasama ang limitasyon ng access, paghihiwalay ng mga tungkulin, secure na channel, at pag-minimize ng data.
+Ipinamamahagi ang Raqoon VPN sa pamamagitan ng opisyal na app store:
 
-Walang paraan ng pagpapadala o imbakan ang ganap na ligtas. Nagsusumikap kaming bawasan ang panganib at iproseso lamang ang data na talagang kailangan para sa Raqoon VPN.
+Apple App Store (iOS, iPadOS, macOS, at iba pang Apple platform)
+- download at update sa pamamagitan ng Apple;
+- bayad, renewal, pagkansela, at refund ayon sa mga panuntunan ng Apple;
+- maaaring iproseso ng Apple ang Apple ID at device identifier ayon sa privacy policy ng Apple.
 
-10. Mga karapatan mo
+Google Play (Android)
+- download at update sa Android device sa pamamagitan ng Google Play;
+- bayad, renewal, pagkansela, at refund ayon sa Google Play at Google Payments;
+- maaaring iproseso ng Google ang Google account at device identifier ayon sa privacy policy ng Google.
 
-Maaari kang:
+HUAWEI AppGallery (Android sa Huawei device)
+- download at update sa pamamagitan ng Huawei AppGallery;
+- bayad at in-app purchase ayon sa mga patakaran ng Huawei / AppGallery;
+- maaaring iproseso ng Huawei ang Huawei account at device identifier ayon sa privacy policy ng Huawei.
 
-- humiling ng impormasyon tungkol sa data na nauugnay sa iyong account;
-- tanggalin ang account sa app;
-- makipag-ugnayan tungkol sa privacy;
-- humiling ng pagwawasto ng hindi tumpak na data;
-- tanggihan ang hindi mahahalagang cookies sa site kung available.
+Tumatanggap lamang kami mula sa store ng limitadong teknikal na data na kailangan para i-verify ang subscription at magbigay ng access (hal. token o purchase receipt). Ang paggamit mo ng bawat store ay pinamamahalaan din ng terms at privacy policy ng operator nito.
 
-Para sa privacy: private@raqoon.app.
+15. Mga pagbabago sa Patakarang ito
 
-11. Mga pagbabago sa Patakaran
+Maaari naming i-update ang Patakarang ito kapag nagbago ang serbisyo, infrastructure, o legal requirements. Ia-update ang petsa ng bisa sa itaas kapag nag-publish kami ng bagong bersyon.
 
-Maaari naming i-update ang Patakarang ito kapag nagbago ang serbisyo, imprastraktura, legal na kinakailangan, o mga patakaran ng app store. Ang bagong bersyon ay epektibo mula sa pag-publish sa site maliban kung may ibang petsa.
+16. Mga contact
 
-12. Mga kontak
-
-Privacy, pagtanggal ng account, at pagproseso ng data:
-
-- Email: private@raqoon.app
+- Privacy at pagtanggal ng data: private@raqoon.app
 - Support: help@raqoon.app
-- Kumpanya: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
-- Lokasyon: Ankara, Türkiye
+- Kumpanya: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye

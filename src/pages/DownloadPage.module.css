@@ -134,7 +134,7 @@
   transition: opacity var(--transition-fast);
 }
 
-/* RU: App Store / Google Play бейджи как ссылки на /beta */
+/* App Store — внешняя ссылка; RU Google Play — /beta */
 .badgeBtn:any-link {
   text-decoration: none;
   color: inherit;

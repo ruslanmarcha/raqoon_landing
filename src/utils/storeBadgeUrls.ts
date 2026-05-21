@@ -64,6 +64,9 @@ export function getGooglePlayBadgeVisualScale(language: string): {
   return { sm: 1.42, md: 1.38 }
 }
 
+/** Raqoon VPN в App Store (iPhone / iPad). Короткая ссылка на листинг. */
+export const RAQOON_IOS_APP_STORE_URL = 'https://surli.cc/grcpdn' as const
+
 /** Default: US/UK English black SVG from Apple marketing guidelines (see /public/badges/). */
 export const APPLE_APP_STORE_BADGE_SRC = '/badges/app-store.svg' as const
 export const APPLE_MAC_APP_STORE_BADGE_SRC = '/badges/mac-app-store.svg' as const

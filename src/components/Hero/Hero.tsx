@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import styles from './Hero.module.css';
 import { useComingSoon } from '../../contexts/ComingSoonContext';
+import { RAQOON_IOS_APP_STORE_URL } from '@/utils/storeBadgeUrls';
 
 type HeroVariant = 'ru' | 'ww';
 
@@ -38,10 +39,11 @@ export function Hero({ variant }: HeroProps) {
           </Link>
         ) : (
           <div className={styles.storeRow}>
-            <button
-              type="button"
+            <a
+              href={RAQOON_IOS_APP_STORE_URL}
               className={`btn btn-secondary btn-lg ${styles.cta}`}
-              onClick={openComingSoon}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src="apple.svg"
@@ -49,7 +51,7 @@ export function Hero({ variant }: HeroProps) {
                 className={styles.appleIcon}
               />
               {t('hero.storeApple')}
-            </button>
+            </a>
             <button
               type="button"
               className={`btn btn-secondary btn-lg ${styles.cta}`}

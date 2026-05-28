@@ -9,6 +9,7 @@ import {
   getHuaweiAppGalleryBadgeSrc,
   getMacAppStoreBadgeSrc,
   RAQOON_IOS_APP_STORE_URL,
+  RAQOON_APPLE_TESTFLIGHT_URL,
 } from '../utils/storeBadgeUrls'
 import styles from './DownloadPage.module.css'
 
@@ -93,6 +94,23 @@ export function DownloadStoreBadges({ className, variant = 'stack' }: Props) {
             />
           </span>
         )
+
+        if (ru && (kind === 'apple' || kind === 'mac')) {
+          return (
+            <a
+              key={key}
+              href={RAQOON_APPLE_TESTFLIGHT_URL}
+              className={styles.badgeBtn}
+              style={badgeVars}
+              data-badge={kind}
+              aria-label={t(key)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {inner}
+            </a>
+          )
+        }
 
         if (kind === 'apple') {
           return (

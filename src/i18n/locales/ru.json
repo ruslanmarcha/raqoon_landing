@@ -31,7 +31,7 @@
     "faqTitleRU": "Частые вопросы — Raqoon VPN",
     "faqDescriptionRU": "Ответы о сервисе Raqoon: подключение через приложение и сторонние клиенты, тарифы, приватность и решение типовых проблем.",
     "betaTitleRU": "Бета-тестирование — Raqoon VPN",
-    "betaDescriptionRU": "Бета-тест Raqoon для Android. iOS — скачайте в App Store.",
+    "betaDescriptionRU": "Бета-тест Raqoon для iOS, macOS (Apple Silicon) и Android.",
     "betaOgTitleRU": "Бета-тест Raqoon — ранний доступ",
     "betaOgDescriptionRU": "Выберите платформу, заполните форму и присоединяйтесь к тестированию новых функций.",
     "rosvpnTitleRU": "RosVPN — российский IP, когда ты не в России — Raqoon VPN",
@@ -190,13 +190,19 @@
     "platformApple": "Apple",
     "platformAndroid": "Android",
     "stepsTitle": "Как присоединиться к тестированию",
-    "iosStepsTitle": "Как установить",
+    "iosStepsTitle": "Как начать пользоваться",
     "iosSteps": [
       {
-        "title": "Скачай Raqoon VPN",
-        "hint": "Приложение в App Store для iPhone и iPad. Версии для Mac пока нет.",
-        "linkLabel": "Открыть в App Store",
-        "linkHref": "https://apps.apple.com/us/app/raqoon-vpn/id6763367620"
+        "title": "Скачай приложение TestFlight",
+        "hint": "Установи TestFlight из App Store — он нужен, чтобы поставить бета-сборку Raqoon.",
+        "linkLabel": "Скачать TestFlight в App Store",
+        "linkHref": "https://apps.apple.com/ru/app/testflight/id899247664?l=en-GB"
+      },
+      {
+        "title": "Подключись к бета-тесту",
+        "hint": "Открой ссылку на iPhone, iPad или Mac (Apple Silicon) и прими приглашение в TestFlight.",
+        "linkLabel": "Участвовать в тестировании (TestFlight)",
+        "linkHref": "https://testflight.apple.com/join/ApHa25kA"
       },
       {
         "title": "Вход в приложение",
@@ -206,7 +212,8 @@
     "iosNotesTitle": "Важные нюансы по регистрации",
     "iosNotes": [
       "Если регион App Store — Россия: приглашённый друг может создать новый аккаунт прямо внутри приложения.",
-      "Если регион стора не Россия: доступна только авторизация с уже активной подпиской Raqoon ID, оформленной через Telegram."
+      "Если регион стора не Россия: доступна только авторизация с уже активной подпиской Raqoon ID, оформленной через Telegram.",
+      "macOS (Apple Silicon): бета доступна на Mac с чипами M1 и новее через TestFlight."
     ],
     "androidSteps": [
       {

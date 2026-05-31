@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Qat Link refund policy for App Store subscriptions, in-app purchases, direct digital service purchases, cancellations, and support requests."
+    />
+    <meta property="og:title" content="Qat Link | Refund Policy" />
+    <meta property="og:description" content="Refund and cancellation policy for Qat Link purchases and App Store subscriptions." />
+    <meta property="og:type" content="website" />
+    <title>Qat Link | Refund Policy</title>
+    <link rel="icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://static.tildacdn.com" />
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/fonts-tildasans.css" />
+    <style>
+      :root {
+        --bg: #f6f8f8;
+        --ink: #071014;
+        --soft: #2b3539;
+        --muted: #697477;
+        --line: #d9e1e3;
+        --accent: #089fa3;
+        --accent-soft: #62b2b3;
+        --logo-dark: #103642;
+        --header: 64px;
+        color-scheme: light;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "TildaSans", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+        letter-spacing: 0;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .container {
+        width: min(calc(100% - 48px), 1120px);
+        margin: 0 auto;
+      }
+
+      .site-header {
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 20;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        min-height: var(--header);
+        padding: 0 clamp(18px, 3vw, 40px);
+        border-bottom: 1px solid rgba(217, 225, 227, 0.9);
+        background: rgba(255, 255, 255, 0.84);
+        backdrop-filter: blur(24px) saturate(170%);
+      }
+
+      .brand {
+        font-size: 18px;
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .nav-links,
+      .header-actions,
+      .footer-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+      }
+
+      .nav-links a,
+      .contact-link,
+      .language-toggle,
+      .footer a {
+        color: var(--ink);
+        font-size: 12px;
+        font-weight: 900;
+        line-height: 1;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .contact-link,
+      .language-toggle {
+        min-height: 42px;
+        padding: 0 16px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #fff;
+      }
+
+      .language-toggle {
+        cursor: pointer;
+      }
+
+      .refund-hero {
+        min-height: calc(100vh - var(--header));
+        padding: calc(var(--header) + 56px) 0 86px;
+        background:
+          linear-gradient(90deg, rgba(16, 54, 66, 0.032) 1px, transparent 1px),
+          linear-gradient(rgba(16, 54, 66, 0.032) 1px, transparent 1px),
+          var(--bg);
+        background-size: 72px 72px;
+      }
+
+      .refund-layout {
+        display: grid;
+        grid-template-columns: minmax(260px, 0.36fr) minmax(0, 0.64fr);
+        gap: clamp(28px, 5vw, 72px);
+        align-items: start;
+      }
+
+      .refund-summary,
+      .refund-policy {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.94);
+        box-shadow: 0 18px 44px rgba(8, 13, 16, 0.045);
+      }
+
+      .refund-summary {
+        position: sticky;
+        top: calc(var(--header) + 28px);
+        padding: clamp(24px, 3vw, 34px);
+      }
+
+      .link-mark {
+        display: block;
+        width: 46px;
+        aspect-ratio: 1;
+        margin-bottom: 24px;
+        border-radius: 50%;
+        background:
+          radial-gradient(circle at 50% 50%, #fff 0 38%, transparent 39%),
+          conic-gradient(from 30deg, var(--accent-soft) 0 68%, var(--logo-dark) 68% 100%);
+      }
+
+      .link-label {
+        margin: 0 0 18px;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 900;
+        line-height: 1;
+        text-transform: uppercase;
+      }
+
+      .refund-summary h2,
+      .refund-policy h1,
+      .refund-policy h2 {
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 0;
+      }
+
+      .refund-summary h2 {
+        font-size: clamp(28px, 3vw, 42px);
+        line-height: 1.04;
+      }
+
+      .refund-summary p:not(.link-label),
+      .refund-policy p {
+        color: var(--soft);
+        line-height: 1.58;
+      }
+
+      .refund-summary p:not(.link-label) {
+        margin: 22px 0 0;
+        font-size: 17px;
+      }
+
+      .refund-policy {
+        padding: clamp(28px, 4.5vw, 56px);
+      }
+
+      .refund-policy h1 {
+        max-width: 760px;
+        font-size: clamp(42px, 5vw, 72px);
+        line-height: 1.02;
+        text-wrap: balance;
+      }
+
+      .refund-effective {
+        margin: 18px 0 42px;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .refund-policy section {
+        padding-top: 30px;
+        border-top: 1px solid var(--line);
+      }
+
+      .refund-policy section + section {
+        margin-top: 30px;
+      }
+
+      .refund-policy h2 {
+        font-size: clamp(22px, 2vw, 30px);
+        line-height: 1.12;
+      }
+
+      .refund-policy p {
+        margin: 16px 0 0;
+        font-size: 17px;
+      }
+
+      .refund-policy a {
+        color: var(--accent);
+        font-weight: 900;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .footer {
+        padding: 34px 0;
+        border-top: 1px solid var(--line);
+        background: #fff;
+      }
+
+      .footer-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      @media (max-width: 980px) {
+        .refund-layout {
+          grid-template-columns: 1fr;
+        }
+
+        .refund-summary {
+          position: static;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .container {
+          width: min(calc(100% - 32px), 1120px);
+        }
+
+        .site-header {
+          grid-template-columns: auto 1fr;
+        }
+
+        .nav-links {
+          display: none;
+        }
+
+        .refund-hero {
+          padding: calc(var(--header) + 32px) 0 64px;
+        }
+
+        .refund-policy,
+        .refund-summary {
+          padding: 24px;
+        }
+
+        .refund-policy h1 {
+          font-size: 36px;
+        }
+
+        .refund-policy p,
+        .refund-summary p:not(.link-label) {
+          font-size: 16px;
+        }
+
+        .footer-inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="/" aria-label="Qat Link home">Qat Link</a>
+      <nav class="nav-links" aria-label="Qat Link legal navigation">
+        <a href="/" data-i18n="nav.home">Qat Link</a>
+        <a href="mailto:link@qat.com.tr" data-i18n="nav.support">Support</a>
+      </nav>
+      <div class="header-actions">
+        <button class="language-toggle" type="button" data-language-toggle>RU</button>
+        <a class="contact-link" href="mailto:link@qat.com.tr" data-i18n="nav.contact">Contact us</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="refund-hero" aria-labelledby="refund-title">
+        <div class="container refund-layout">
+          <aside class="refund-summary" aria-label="Policy summary">
+            <span class="link-mark" aria-hidden="true"></span>
+            <p class="link-label">Qat Link</p>
+            <h2 data-i18n="summary.title">Refunds are handled by the payment channel used for the purchase.</h2>
+            <p data-i18n="summary.body">
+              App Store purchases are reviewed and processed by Apple. Qat Link support can help with access
+              and technical issues, but cannot approve or issue Apple refunds directly.
+            </p>
+          </aside>
+
+          <article class="refund-policy">
+            <p class="link-label" data-i18n="policy.label">Refund Policy</p>
+            <h1 id="refund-title" data-i18n="policy.title">Qat Link Refund Policy</h1>
+            <p class="refund-effective" data-i18n="policy.effective">Effective date: May 31, 2026</p>
+
+            <section>
+              <h2 data-i18n="section1.title">1. App Store purchases and subscriptions</h2>
+              <p data-i18n="section1.body1">
+                If you purchased a Qat Link subscription, in-app purchase, or other paid digital service through
+                the Apple App Store, Apple is the merchant of record for that transaction. Refund requests,
+                subscription cancellations, billing disputes, trial conversions, renewal charges, taxes, and
+                eligibility decisions are handled under Apple's App Store rules and applicable Apple Media
+                Services Terms and Conditions.
+              </p>
+              <p>
+                <span data-i18n="section1.body2.before">To request a refund from Apple, sign in with the Apple ID used for the purchase at</span>
+                <a href="https://reportaproblem.apple.com/" target="_blank" rel="noreferrer">reportaproblem.apple.com</a>
+                <span data-i18n="section1.body2.after">and follow Apple's refund process. Apple may approve or deny a request at its discretion and according to the rules that apply in your country or region.</span>
+              </p>
+            </section>
+
+            <section>
+              <h2 data-i18n="section2.title">2. Cancelling an App Store subscription</h2>
+              <p data-i18n="section2.body">
+                Cancelling a subscription stops future renewals. It does not automatically refund past charges.
+                You can manage or cancel an App Store subscription from your Apple ID subscription settings.
+                Removing the app, deleting an account, or stopping use of the service does not cancel billing
+                by itself.
+              </p>
+            </section>
+
+            <section>
+              <h2 data-i18n="section3.title">3. Purchases outside the App Store</h2>
+              <p data-i18n="section3.body1">
+                If a Qat Link digital service is purchased outside the Apple App Store, refund eligibility is
+                determined by the terms of the payment channel used and mandatory consumer protection laws.
+                Where permitted by applicable law, including Article 15(ğ) of the Republic of Türkiye
+                Regulation on Distance Contracts (Mesafeli Sözleşmeler Yönetmeliği), a digital service that has
+                started to be performed or made available electronically may not be eligible for withdrawal-based
+                refund or exchange.
+              </p>
+              <p data-i18n="section3.body2">
+                This does not limit any non-waivable rights you may have under the law that applies in your
+                country or region.
+              </p>
+            </section>
+
+            <section>
+              <h2 data-i18n="section4.title">4. Technical access issues</h2>
+              <p data-i18n="section4.body">
+                If you paid successfully but cannot access the service, contact us before submitting a refund
+                request so we can check the subscription status, account access, configuration, and connection
+                issue. We will make reasonable efforts to restore access when the problem is on our side.
+              </p>
+            </section>
+
+            <section>
+              <h2 data-i18n="section5.title">5. How to contact us</h2>
+              <p>
+                <span data-i18n="section5.body1.before">For access, subscription status, or technical support questions, contact Qat Link support at</span>
+                <a href="mailto:link@qat.com.tr">link@qat.com.tr</a>.
+              </p>
+              <p data-i18n="section5.body2">
+                Company: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
+                Address: Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi
+                No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye.
+              </p>
+            </section>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>Qat Link</span>
+        <nav class="footer-links" aria-label="Qat Link footer">
+          <a href="/" data-i18n="footer.home">Qat Link home</a>
+          <a href="/refund" data-i18n="footer.refund">Refund Policy</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      const translations = {
+        en: {
+          pageTitle: "Qat Link | Refund Policy",
+          metaDescription:
+            "Qat Link refund policy for App Store subscriptions, in-app purchases, direct digital service purchases, cancellations, and support requests.",
+          "nav.home": "Qat Link",
+          "nav.support": "Support",
+          "nav.contact": "Contact us",
+          "summary.title": "Refunds are handled by the payment channel used for the purchase.",
+          "summary.body":
+            "App Store purchases are reviewed and processed by Apple. Qat Link support can help with access and technical issues, but cannot approve or issue Apple refunds directly.",
+          "policy.label": "Refund Policy",
+          "policy.title": "Qat Link Refund Policy",
+          "policy.effective": "Effective date: May 31, 2026",
+          "section1.title": "1. App Store purchases and subscriptions",
+          "section1.body1":
+            "If you purchased a Qat Link subscription, in-app purchase, or other paid digital service through the Apple App Store, Apple is the merchant of record for that transaction. Refund requests, subscription cancellations, billing disputes, trial conversions, renewal charges, taxes, and eligibility decisions are handled under Apple's App Store rules and applicable Apple Media Services Terms and Conditions.",
+          "section1.body2.before": "To request a refund from Apple, sign in with the Apple ID used for the purchase at",
+          "section1.body2.after":
+            "and follow Apple's refund process. Apple may approve or deny a request at its discretion and according to the rules that apply in your country or region.",
+          "section2.title": "2. Cancelling an App Store subscription",
+          "section2.body":
+            "Cancelling a subscription stops future renewals. It does not automatically refund past charges. You can manage or cancel an App Store subscription from your Apple ID subscription settings. Removing the app, deleting an account, or stopping use of the service does not cancel billing by itself.",
+          "section3.title": "3. Purchases outside the App Store",
+          "section3.body1":
+            "If a Qat Link digital service is purchased outside the Apple App Store, refund eligibility is determined by the terms of the payment channel used and mandatory consumer protection laws. Where permitted by applicable law, including Article 15(ğ) of the Republic of Türkiye Regulation on Distance Contracts (Mesafeli Sözleşmeler Yönetmeliği), a digital service that has started to be performed or made available electronically may not be eligible for withdrawal-based refund or exchange.",
+          "section3.body2":
+            "This does not limit any non-waivable rights you may have under the law that applies in your country or region.",
+          "section4.title": "4. Technical access issues",
+          "section4.body":
+            "If you paid successfully but cannot access the service, contact us before submitting a refund request so we can check the subscription status, account access, configuration, and connection issue. We will make reasonable efforts to restore access when the problem is on our side.",
+          "section5.title": "5. How to contact us",
+          "section5.body1.before":
+            "For access, subscription status, or technical support questions, contact Qat Link support at",
+          "section5.body2":
+            "Company: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. Address: Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye.",
+          "footer.home": "Qat Link home",
+          "footer.refund": "Refund Policy",
+        },
+        ru: {
+          pageTitle: "Qat Link | Политика возврата",
+          metaDescription:
+            "Политика возврата Qat Link для подписок App Store, встроенных покупок, прямых цифровых покупок, отмен и обращений в поддержку.",
+          "nav.home": "Qat Link",
+          "nav.support": "Поддержка",
+          "nav.contact": "Связаться",
+          "summary.title": "Возвраты обрабатываются через тот платежный канал, в котором была совершена покупка.",
+          "summary.body":
+            "Покупки через App Store рассматриваются и обрабатываются Apple. Поддержка Qat Link может помочь с доступом и техническими вопросами, но не может самостоятельно одобрять или оформлять возвраты Apple.",
+          "policy.label": "Политика возврата",
+          "policy.title": "Политика возврата Qat Link",
+          "policy.effective": "Дата вступления в силу: 31 мая 2026 г.",
+          "section1.title": "1. Покупки и подписки через App Store",
+          "section1.body1":
+            "Если вы приобрели подписку Qat Link, встроенную покупку или иную платную цифровую услугу через Apple App Store, продавцом по этой транзакции является Apple. Запросы на возврат, отмена подписки, споры по оплате, переход с пробного периода, списания за продление, налоги и решения о праве на возврат обрабатываются по правилам App Store и применимым Условиям Apple Media Services.",
+          "section1.body2.before": "Чтобы запросить возврат у Apple, войдите с Apple ID, использованным для покупки, на",
+          "section1.body2.after":
+            "и следуйте процедуре возврата Apple. Apple может одобрить или отклонить запрос по своему усмотрению и в соответствии с правилами, действующими в вашей стране или регионе.",
+          "section2.title": "2. Отмена подписки App Store",
+          "section2.body":
+            "Отмена подписки останавливает будущие продления. Она не означает автоматический возврат уже списанных платежей. Управлять подпиской или отменить ее можно в настройках подписок Apple ID. Удаление приложения, удаление аккаунта или прекращение использования сервиса сами по себе не отменяют оплату.",
+          "section3.title": "3. Покупки вне App Store",
+          "section3.body1":
+            "Если цифровая услуга Qat Link приобретена вне Apple App Store, право на возврат определяется условиями использованного платежного канала и обязательными нормами защиты прав потребителей. В случаях, разрешенных применимым правом, включая статью 15(ğ) Положения о дистанционных договорах Турецкой Республики (Mesafeli Sözleşmeler Yönetmeliği), цифровая услуга, выполнение которой началось или которая была предоставлена электронным способом, может не подлежать возврату или обмену на основании права отказа от договора.",
+          "section3.body2":
+            "Это не ограничивает неотчуждаемые права, которые могут принадлежать вам по закону вашей страны или региона.",
+          "section4.title": "4. Технические проблемы с доступом",
+          "section4.body":
+            "Если оплата прошла успешно, но вы не можете получить доступ к сервису, свяжитесь с нами до отправки запроса на возврат, чтобы мы могли проверить статус подписки, доступ к аккаунту, конфигурацию и проблему подключения. Если проблема на нашей стороне, мы приложим разумные усилия для восстановления доступа.",
+          "section5.title": "5. Как связаться с нами",
+          "section5.body1.before":
+            "По вопросам доступа, статуса подписки или технической поддержки обращайтесь в поддержку Qat Link:",
+          "section5.body2":
+            "Компания: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. Адрес: Ankara Teknoloji Köprüsü Kuluçka Merkezi, İlkadım Mahallesi, Yeşil Vadi Caddesi No: 41, Ofis No: 36, 06450 Çankaya/Ankara, Türkiye.",
+          "footer.home": "Qat Link",
+          "footer.refund": "Правила возврата",
+        },
+      };
+
+      const translatable = document.querySelectorAll("[data-i18n]");
+      const toggle = document.querySelector("[data-language-toggle]");
+      const metaDescription = document.querySelector('meta[name="description"]');
+      const requested = new URLSearchParams(window.location.search).get("lang");
+      let language = requested === "ru" || requested === "en" ? requested : localStorage.getItem("qat-link-refund-language");
+      if (!language) {
+        language = navigator.language && navigator.language.toLowerCase().startsWith("ru") ? "ru" : "en";
+      }
+
+      function setLanguage(nextLanguage) {
+        const dictionary = translations[nextLanguage] || translations.en;
+        language = nextLanguage;
+        document.documentElement.lang = nextLanguage;
+        document.title = dictionary.pageTitle;
+        toggle.textContent = nextLanguage === "ru" ? "EN" : "RU";
+        localStorage.setItem("qat-link-refund-language", nextLanguage);
+
+        if (metaDescription) {
+          metaDescription.setAttribute("content", dictionary.metaDescription);
+        }
+
+        translatable.forEach((node) => {
+          const value = dictionary[node.dataset.i18n];
+          if (value) {
+            node.textContent = value;
+          }
+        });
+      }
+
+      toggle.addEventListener("click", () => {
+        setLanguage(language === "ru" ? "en" : "ru");
+      });
+
+      setLanguage(language);
+    </script>
+  </body>
+</html>

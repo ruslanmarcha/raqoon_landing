@@ -1,6 +1,16 @@
 {
   "routes": [
     {
+      "src": "/refund",
+      "has": [
+        {
+          "type": "host",
+          "value": "link.qat.com.tr"
+        }
+      ],
+      "dest": "/link-refund.html"
+    },
+    {
       "handle": "filesystem"
     },
     {
@@ -9,4 +19,3 @@
     }
   ]
 }
-

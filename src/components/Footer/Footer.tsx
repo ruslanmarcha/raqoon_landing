@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { BrandLogo } from '../BrandLogo/BrandLogo';
 import styles from './Footer.module.css';
 import { ruAppStoreCtaPath } from '@/utils/ruAppStoreCtaPath';
 
@@ -11,8 +12,7 @@ export function Footer() {
       <div className={`container ${styles.inner}`}>
         <div className={styles.brand}>
           <Link to="/" className={styles.logo} aria-label={t('nav.logoAlt')}>
-            <img className={styles.logoIcon} src="/logo.png" alt="Raqoon" />
-            <span className={styles.logoText}>Raqoon</span>
+            <BrandLogo />
           </Link>
         </div>
         <nav className={styles.links} aria-label="Footer navigation">

@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../LanguageSelector/LanguageSelector';
+import { BrandLogo } from '../BrandLogo/BrandLogo';
 import { useLocalePolicy } from '../../contexts/LocalePolicyContext';
 import { useProfilePortal } from '../../contexts/ProfilePortalContext';
 import styles from './Header.module.css';
@@ -19,8 +20,7 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
       <div className={`container ${styles.inner}`}>
         <div className={styles.logoContainer}>
           <a href="/" className={styles.logo} aria-label={t('nav.logoAlt')}>
-            <img className={styles.logoIcon} src="/logo.png" alt="Raqoon" />
-            <span className={styles.logoText}>Raqoon</span>
+            <BrandLogo />
           </a>
         </div>
         {(showAccountLink || (showLanguageSelector && allowLanguageSwitch)) && (

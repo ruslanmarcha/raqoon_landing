@@ -13,9 +13,8 @@
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: var(--space-2);
   text-decoration: none;
   flex-shrink: 0;
 }
@@ -23,21 +22,6 @@
 .logoContainer {
   display: flex;
   align-items: center;
-}
-
-.logoIcon {
-  width: 24px;
-  height: 24px;
-}
-
-.logoText {
-  font-size: 20px;
-  font-weight: var(--font-medium);
-  color: var(--color-text);
-  background: linear-gradient(90deg, #ffffff 0%, #aaaaaa 50%, #ffffff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
 .actions {

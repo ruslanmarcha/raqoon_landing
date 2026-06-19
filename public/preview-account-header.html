@@ -81,24 +81,15 @@
       .logo {
         display: inline-flex;
         align-items: center;
-        gap: var(--space-2);
         text-decoration: none;
         color: inherit;
         flex-shrink: 0;
       }
 
-      .logo img {
-        width: 24px;
-        height: 24px;
-      }
-
-      .logo span {
-        font-size: 20px;
-        font-weight: 500;
-        background: linear-gradient(90deg, #fff 0%, #aaa 50%, #fff 100%);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
+      .logo-img {
+        display: block;
+        height: 30px;
+        width: auto;
       }
 
       .actions {
@@ -194,9 +185,8 @@
 
     <header>
       <div class="container header-inner">
-        <a class="logo" href="/">
-          <img src="/logo.png" alt="" />
-          <span>Raqoon</span>
+        <a class="logo" href="/" aria-label="Raqoon">
+          <img class="logo-img" src="/raqoon-logo-horizontal.png" alt="Raqoon" width="142" height="30" />
         </a>
         <div class="actions">
           <a class="profile-link" href="https://help.raqoon.app/support/login">Профиль</a>

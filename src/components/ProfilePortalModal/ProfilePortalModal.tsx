@@ -1,7 +1,8 @@
-import { useEffect } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Popup } from '../Popup/Popup'
 import { clientPortalUrl } from '@/utils/clientPortalUrl'
+import { isClientPortalMessageOrigin, openClientPortalPopup } from '@/utils/openClientPortalPopup'
 import styles from './ProfilePortalModal.module.css'
 
 type ProfilePortalModalProps = {
@@ -13,6 +14,18 @@ export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
   const { t } = useTranslation()
   const portalUrl = clientPortalUrl()
   const closeLabel = t('nav.profileClose')
+  const [popupBlocked, setPopupBlocked] = useState(false)
+
+  const launchPopup = useCallback(() => {
+    const popup = openClientPortalPopup(portalUrl)
+    if (!popup) {
+      setPopupBlocked(true)
+      return false
+    }
+    setPopupBlocked(false)
+    popup.focus()
+    return true
+  }, [portalUrl])
 
   useEffect(() => {
     if (!open) return
@@ -28,6 +41,24 @@ export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
     }
   }, [open, onClose])
 
+  useEffect(() => {
+    if (!open) return
+    launchPopup()
+  }, [open, launchPopup])
+
+  useEffect(() => {
+    if (!open) return
+    const onMessage = (event: MessageEvent) => {
+      if (!isClientPortalMessageOrigin(event.origin)) return
+      const data = event.data as { type?: string } | null
+      if (data?.type === 'qatlink-portal-authenticated') {
+        onClose()
+      }
+    }
+    window.addEventListener('message', onMessage)
+    return () => window.removeEventListener('message', onMessage)
+  }, [open, onClose])
+
   if (!open) return null
 
   return (
@@ -38,12 +69,19 @@ export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
           ×
         </button>
       </div>
-      <iframe
-        title={t('nav.profile')}
-        src={portalUrl}
-        className={styles.frame}
-        allow="clipboard-read; clipboard-write"
-      />
+      <div className={styles.body}>
+        {popupBlocked ? (
+          <p className={styles.hint}>{t('nav.profileEmbedBlocked')}</p>
+        ) : (
+          <p className={styles.hint}>{t('nav.profilePopupHint')}</p>
+        )}
+        <button type="button" className="btn btn-primary btn-lg" onClick={() => launchPopup()}>
+          {t('nav.profileOpenWindow')}
+        </button>
+        <a className={styles.tabLink} href={portalUrl} target="_blank" rel="noopener noreferrer">
+          {t('nav.profileOpenTab')}
+        </a>
+      </div>
     </Popup>
   )
 }

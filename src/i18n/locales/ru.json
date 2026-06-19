@@ -45,6 +45,8 @@
     "profileClose": "Закрыть",
     "profileLoading": "Загрузка…",
     "profileEmbedBlocked": "Не удалось открыть портал здесь.",
+    "profilePopupHint": "Окно входа открыто. Введите 16-значный код в отдельном окне — так сессия сохранится корректно.",
+    "profileOpenWindow": "Открыть окно входа",
     "profileOpenTab": "Открыть во вкладке"
   },
   "hero": {

@@ -45,6 +45,8 @@
     "profileClose": "Close",
     "profileLoading": "Loading…",
     "profileEmbedBlocked": "Could not load the portal here.",
+    "profilePopupHint": "A sign-in window has opened. Enter your 16-character code there so your session is saved correctly.",
+    "profileOpenWindow": "Open sign-in window",
     "profileOpenTab": "Open in new tab"
   },
   "hero": {

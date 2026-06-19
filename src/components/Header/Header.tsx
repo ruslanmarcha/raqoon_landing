@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../LanguageSelector/LanguageSelector';
 import { useLocalePolicy } from '../../contexts/LocalePolicyContext';
-import { clientPortalUrl } from '@/utils/clientPortalUrl';
+import { useProfilePortal } from '../../contexts/ProfilePortalContext';
 import styles from './Header.module.css';
 
 interface HeaderProps {
@@ -12,6 +12,7 @@ interface HeaderProps {
 export function Header({ showLanguageSelector = true, showAccountLink = true }: HeaderProps) {
   const { t } = useTranslation();
   const { allowLanguageSwitch } = useLocalePolicy();
+  const { openProfilePortal } = useProfilePortal();
 
   return (
     <header className={styles.root}>
@@ -25,9 +26,9 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
         {(showAccountLink || (showLanguageSelector && allowLanguageSwitch)) && (
           <div className={styles.actions}>
             {showAccountLink ? (
-              <a href={clientPortalUrl()} className={styles.profileLink}>
+              <button type="button" className={styles.profileLink} onClick={openProfilePortal}>
                 {t('nav.profile', { defaultValue: 'Profile' })}
-              </a>
+              </button>
             ) : null}
             {showLanguageSelector && allowLanguageSwitch ? (
               <LanguageSelector className={styles.languageSelector} />

@@ -1,4 +1,4 @@
-const DEFAULT_CLIENT_PORTAL_URL = 'https://help.raqoon.app/support/login'
+const DEFAULT_CLIENT_PORTAL_URL = 'https://raqoon.qatlink.site/support/login'
 
 /** Клиентский портал (подписка, тикеты, FAQ). Переопределяется через `VITE_CLIENT_PORTAL_URL`. */
 export function clientPortalUrl(): string {

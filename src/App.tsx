@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
+import { ProfilePortalProvider } from './contexts/ProfilePortalContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
 import { ConsentCookieBanner } from './components/ConsentCookieBanner/ConsentCookieBanner'
 
@@ -67,8 +68,9 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
 
   return (
     <HelmetProvider>
-      <ComingSoonProvider>
-        <LocalePolicyProvider
+      <ProfilePortalProvider>
+        <ComingSoonProvider>
+          <LocalePolicyProvider
           allowLanguageSwitch={allowLanguageSwitch}
           countryCode={countryCode}
           allowedLanguages={allowedLanguages}
@@ -121,7 +123,8 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
             </Suspense>
           </BrowserRouter>
         </LocalePolicyProvider>
-      </ComingSoonProvider>
+        </ComingSoonProvider>
+      </ProfilePortalProvider>
     </HelmetProvider>
   )
 }

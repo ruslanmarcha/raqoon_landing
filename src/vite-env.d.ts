@@ -13,7 +13,7 @@ interface ImportMetaEnv {
   readonly VITE_BETA_WEBHOOK_URL?: string
   /** Публичный FAQ Support: тот же хост, что и портал, + `/api/public` без хвостового слэша (прод: `https://help.raqoon.app/api/public`). */
   readonly VITE_SUPPORT_PUBLIC_API_BASE?: string
-  /** Клиентский портал — страница входа (прод: `https://help.raqoon.app/support/login`). */
+  /** Клиентский портал — страница входа (прод: `https://raqoon.qatlink.site/support/login`). */
   readonly VITE_CLIENT_PORTAL_URL?: string
 }
 

@@ -41,7 +41,8 @@
   },
   "nav": {
     "logoAlt": "Raqoon",
-    "profile": "Профиль"
+    "profile": "Профиль",
+    "profileClose": "Закрыть"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",

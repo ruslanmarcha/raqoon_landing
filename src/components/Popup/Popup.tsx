@@ -5,9 +5,10 @@ interface PopupProps {
   open: boolean
   onClose: () => void
   children: ReactNode
+  modalClassName?: string
 }
 
-export function Popup({ open, onClose, children }: PopupProps) {
+export function Popup({ open, onClose, children, modalClassName }: PopupProps) {
   if (!open) return null
 
   return (
@@ -18,7 +19,11 @@ export function Popup({ open, onClose, children }: PopupProps) {
         if (e.target === e.currentTarget) onClose()
       }}
     >
-      <div className={styles.modal} role="dialog" aria-modal="true">
+      <div
+        className={`${styles.modal} ${modalClassName ?? ''}`}
+        role="dialog"
+        aria-modal="true"
+      >
         {children}
       </div>
     </div>

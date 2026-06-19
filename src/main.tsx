@@ -53,29 +53,40 @@ async function bootstrap() {
   const rootEl = document.getElementById('root')
   if (!rootEl) return
 
-  let localePolicy: Awaited<ReturnType<typeof resolveLocalePolicy>>
-  let geoFlags: Awaited<ReturnType<typeof fetchGeoConsentFlags>>
+  const defaults = defaultMountProps()
 
+  // Сразу показываем UI — geo/analytics не должны блокировать первый кадр.
   try {
-    localePolicy = await resolveLocalePolicy(supportedLngs)
-    geoFlags = await fetchGeoConsentFlags()
-  } catch {
-    localePolicy = {
-      locale: 'en',
-      allowLanguageSwitch: true,
-      countryCode: null,
-      allowedLanguages: supportedLngs.filter((l: string) => l !== 'cimode'),
-    }
-    geoFlags = { countryCode: null, isEUUser: false }
-  }
-
-  try {
-    await i18next.changeLanguage(localePolicy.locale)
+    const stored = localStorage.getItem('raqoon_lang')
+    const initialLocale =
+      stored && supportedLngs.includes(stored) ? stored : defaults.allowedLanguages[0] ?? 'en'
+    await i18next.changeLanguage(initialLocale)
   } catch {
     await i18next.changeLanguage('en')
   }
   applyDocumentLanguageDirection(i18next.language)
   i18next.on('languageChanged', applyDocumentLanguageDirection)
+  renderApp(rootEl, defaults)
+
+  let localePolicy: Awaited<ReturnType<typeof resolveLocalePolicy>>
+  let geoFlags: Awaited<ReturnType<typeof fetchGeoConsentFlags>>
+
+  try {
+    ;[localePolicy, geoFlags] = await Promise.all([
+      resolveLocalePolicy(supportedLngs),
+      fetchGeoConsentFlags(),
+    ])
+  } catch {
+    return
+  }
+
+  try {
+    if (i18next.language !== localePolicy.locale) {
+      await i18next.changeLanguage(localePolicy.locale)
+    }
+  } catch {
+    /* ignore */
+  }
 
   try {
     await bootstrapGoogleTagForRegion({ isEUUser: geoFlags.isEUUser })

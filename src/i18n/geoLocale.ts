@@ -110,6 +110,11 @@ export async function fetchVisitorCountryCode(): Promise<string | null> {
     return cachedCountry
   }
 
+  // Локально /api/geo нет на Vite — ipapi даёт до 6 с пустого экрана.
+  if (import.meta.env.DEV) {
+    return null
+  }
+
   try {
     const response = await fetchWithTimeout('https://ipapi.co/json/', { cache: 'no-store' })
     if (!response.ok) {

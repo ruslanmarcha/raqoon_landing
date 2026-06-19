@@ -1,13 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../LanguageSelector/LanguageSelector';
 import { useLocalePolicy } from '../../contexts/LocalePolicyContext';
+import { clientPortalUrl } from '@/utils/clientPortalUrl';
 import styles from './Header.module.css';
 
 interface HeaderProps {
   showLanguageSelector?: boolean;
+  showAccountLink?: boolean;
 }
 
-export function Header({ showLanguageSelector = true }: HeaderProps) {
+export function Header({ showLanguageSelector = true, showAccountLink = true }: HeaderProps) {
   const { t } = useTranslation();
   const { allowLanguageSwitch } = useLocalePolicy();
 
@@ -20,8 +22,17 @@ export function Header({ showLanguageSelector = true }: HeaderProps) {
             <span className={styles.logoText}>Raqoon</span>
           </a>
         </div>
-        {showLanguageSelector && allowLanguageSwitch && (
-          <LanguageSelector className={styles.languageSelector} />
+        {(showAccountLink || (showLanguageSelector && allowLanguageSwitch)) && (
+          <div className={styles.actions}>
+            {showAccountLink ? (
+              <a href={clientPortalUrl()} className={styles.profileLink}>
+                {t('nav.profile', { defaultValue: 'Profile' })}
+              </a>
+            ) : null}
+            {showLanguageSelector && allowLanguageSwitch ? (
+              <LanguageSelector className={styles.languageSelector} />
+            ) : null}
+          </div>
         )}
       </div>
     </header>

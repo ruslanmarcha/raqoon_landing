@@ -22,6 +22,9 @@ const PaymentOkPage = lazy(() =>
 const PaymentFailPage = lazy(() =>
   import('./pages/PaymentFailPage').then((m) => ({ default: m.PaymentFailPage }))
 )
+const AccountHeaderPreviewPage = lazy(() =>
+  import('./pages/AccountHeaderPreviewPage').then((m) => ({ default: m.AccountHeaderPreviewPage }))
+)
 
 /** `VITE_ENABLE_TURKEY_GEOLOCK=true` — для посетителей из TR только `/turkiye`, остальные URL редиректятся туда. Без переменной или `false` — ограничение выключено. */
 const TURKEY_GEOLOCK_ENABLED = import.meta.env.VITE_ENABLE_TURKEY_GEOLOCK === 'true'
@@ -100,6 +103,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/refund" element={<LegalPage legalKey="refund" />} />
                       <Route path="/faq" element={<FAQPageRU />} />
                       <Route path="/app" element={<FAQPageRU />} />
+                      <Route path="/preview/account-header" element={<AccountHeaderPreviewPage />} />
                       <Route path="/payment_ok" element={<PaymentOkPage />} />
                       <Route path="/ok" element={<RedirectToPaymentOk />} />
                       <Route path="/apple/payment_ok" element={<RedirectToPaymentOk />} />

@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Preview — Профиль в шапке</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --color-bg: #00000a;
+        --color-surface: #ffffff1f;
+        --color-text: #ffffff;
+        --color-text-secondary: #ffffff99;
+        --color-border-light: #333333;
+        --color-primary: #fff;
+        --font-sans: 'TikTok Sans', system-ui, sans-serif;
+        --space-2: 0.5rem;
+        --space-3: 0.75rem;
+        --space-4: 1rem;
+        --space-6: 1.5rem;
+        --space-8: 2rem;
+        --space-16: 4rem;
+        --radius-full: 9999px;
+        --container-max: 1120px;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        color: var(--color-text);
+        background: var(--color-bg);
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: var(--container-max);
+        margin-inline: auto;
+        padding-inline: var(--space-4);
+      }
+
+      .banner {
+        padding-block: var(--space-4);
+        border-bottom: 1px solid var(--color-border-light);
+        background: color-mix(in srgb, var(--color-primary) 8%, var(--color-bg));
+        font-size: 0.875rem;
+      }
+
+      .banner p + p {
+        margin-top: 0.35rem;
+        color: var(--color-text-secondary);
+      }
+
+      .banner a {
+        color: var(--color-primary);
+      }
+
+      header {
+        padding-block: var(--space-4);
+      }
+
+      .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--space-4);
+        min-height: 40px;
+      }
+
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--space-2);
+        text-decoration: none;
+        color: inherit;
+        flex-shrink: 0;
+      }
+
+      .logo img {
+        width: 24px;
+        height: 24px;
+      }
+
+      .logo span {
+        font-size: 20px;
+        font-weight: 500;
+        background: linear-gradient(90deg, #fff 0%, #aaa 50%, #fff 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        flex-shrink: 0;
+      }
+
+      .profile-link,
+      .lang {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background: rgba(255, 255, 255, 0.12);
+        box-shadow: inset 0 4px 16px rgba(149, 154, 158, 0.08);
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .profile-link {
+        padding: 8px 14px;
+      }
+
+      .lang {
+        gap: 6px;
+        padding: 8px 10px 8px 8px;
+        width: 88px;
+      }
+
+      .hero {
+        padding-block: var(--space-16);
+        text-align: center;
+      }
+
+      .mascot {
+        width: 180px;
+        margin: 0 auto var(--space-8);
+      }
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        line-height: 1.15;
+        margin-bottom: var(--space-4);
+      }
+
+      .subtitle {
+        color: var(--color-text-secondary);
+        font-size: 1.125rem;
+        max-width: 36rem;
+        margin: 0 auto var(--space-8);
+      }
+
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 58px;
+        padding: 16px 28px;
+        border-radius: var(--radius-full);
+        background: var(--color-text);
+        color: var(--color-bg);
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-decoration: none;
+      }
+
+      @media (max-width: 480px) {
+        .profile-link {
+          padding: 8px 12px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <p><strong>Draft:</strong> кнопка «Профиль» в шапке (статичное превью)</p>
+        <p>
+          Ссылка кнопки →
+          <a href="https://help.raqoon.app/support/login">help.raqoon.app/support/login</a>
+          · React-версия: <a href="/">главная</a>
+        </p>
+      </div>
+    </div>
+
+    <header>
+      <div class="container header-inner">
+        <a class="logo" href="/">
+          <img src="/logo.png" alt="" />
+          <span>Raqoon</span>
+        </a>
+        <div class="actions">
+          <a class="profile-link" href="https://help.raqoon.app/support/login">Профиль</a>
+          <span class="lang" aria-hidden="true">🇷🇺 RU ▾</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="container">
+        <img class="mascot" src="/mascot.png" alt="" />
+        <h1>VPN сервис,<br />от енота Прокси</h1>
+        <p class="subtitle">
+          Скорость, надежность и приватность, которые ты заслуживаешь. Без сложных настроек.
+        </p>
+        <a class="cta" href="/download">Попробовать бесплатно</a>
+      </div>
+    </main>
+  </body>
+</html>

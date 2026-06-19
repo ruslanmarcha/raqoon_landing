@@ -16,6 +16,14 @@ export async function fetchGeoConsentFlags(): Promise<GeoConsentFlags> {
     return { countryCode: 'DE', isEUUser: true }
   }
 
+  if (import.meta.env.DEV) {
+    const countryCode = await fetchVisitorCountryCode()
+    return {
+      countryCode,
+      isEUUser: isEUOrEEARegion(countryCode),
+    }
+  }
+
   try {
     const r = await fetchWithTimeout('/api/geo', { cache: 'no-store' })
     if (r.ok) {

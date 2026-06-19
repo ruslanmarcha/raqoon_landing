@@ -40,7 +40,8 @@
     "rosvpnOgDescriptionRU": "Российский выход по запросу. Напиши в поддержку — подскажем и включим, если подходит твой тариф."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Профиль"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",

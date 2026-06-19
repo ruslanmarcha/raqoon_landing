@@ -46,6 +46,15 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [
       react(),
+      {
+        name: 'dev-geo-api',
+        configureServer(server) {
+          server.middlewares.use('/api/geo', (_req, res) => {
+            res.setHeader('Content-Type', 'application/json')
+            res.end(JSON.stringify({ countryCode: 'RU', isEUUser: false }))
+          })
+        },
+      },
       ...(mode === 'production'
         ? [
             compression({

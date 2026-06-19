@@ -40,7 +40,8 @@
     "faqDescriptionWW": "Answers about Raqoon: plans, privacy, connection, and common issues from our knowledge base."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profile"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",

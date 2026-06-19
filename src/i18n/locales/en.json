@@ -42,7 +42,10 @@
   "nav": {
     "logoAlt": "Raqoon",
     "profile": "Profile",
-    "profileClose": "Close"
+    "profileClose": "Close",
+    "profileLoading": "Loading…",
+    "profileEmbedBlocked": "Could not load the portal here.",
+    "profileOpenTab": "Open in new tab"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",

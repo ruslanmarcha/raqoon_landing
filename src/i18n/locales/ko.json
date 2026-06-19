@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "죄송합니다. 현재 튀르키예에서는 서비스를 제공할 수 없습니다. 언젠가 다시 뵙기를 바랍니다."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "프로필",
+    "profileClose": "닫기",
+    "profileLoading": "로딩 중…",
+    "profileEmbedBlocked": "여기에서 포털을 불러올 수 없습니다.",
+    "profileOpenTab": "새 탭에서 열기"
   },
   "hero": {
     "titleWW": "VPN 서비스,\n너구리 프록시로부터",

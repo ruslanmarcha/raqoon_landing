@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "非常抱歉 — 我们暂时无法在土耳其提供服务。希望有一天能再次与您相见。"
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "我的",
+    "profileClose": "关闭",
+    "profileLoading": "加载中…",
+    "profileEmbedBlocked": "无法在此处打开门户。",
+    "profileOpenTab": "在新标签页中打开"
   },
   "hero": {
     "titleWW": "VPN 服务，\n来自浣熊 Proxy",

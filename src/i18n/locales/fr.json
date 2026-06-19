@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Nous sommes désolés — le service ne peut pas être proposé en Turquie pour l’instant. Nous espérons vous accueillir à nouveau un jour."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profil",
+    "profileClose": "Fermer",
+    "profileLoading": "Chargement…",
+    "profileEmbedBlocked": "Impossible d'afficher le portail ici.",
+    "profileOpenTab": "Ouvrir dans un nouvel onglet"
   },
   "hero": {
     "titleWW": "Service VPN,\npar Proxy le Raton laveur",

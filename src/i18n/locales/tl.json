@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Paumanhin — pansamantala naming hindi maiaalok ang serbisyo sa Türkiye. Umaasa kaming makita ka ulit balang araw."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Aking profile",
+    "profileClose": "Isara",
+    "profileLoading": "Naglo-load…",
+    "profileEmbedBlocked": "Hindi ma-load ang portal dito.",
+    "profileOpenTab": "Buksan sa bagong tab"
   },
   "hero": {
     "titleWW": "Serbisyo ng VPN,\nmula kay Proxy ang Raccoon",

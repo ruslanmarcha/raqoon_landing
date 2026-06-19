@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Es tut uns leid — der Dienst kann in der Türkei vorerst nicht angeboten werden. Wir hoffen, Sie eines Tages wieder begrüßen zu dürfen."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profil",
+    "profileClose": "Schließen",
+    "profileLoading": "Wird geladen…",
+    "profileEmbedBlocked": "Das Portal konnte hier nicht geladen werden.",
+    "profileOpenTab": "In neuem Tab öffnen"
   },
   "hero": {
     "titleWW": "VPN-Dienst,\nvom Waschbär Proxy",

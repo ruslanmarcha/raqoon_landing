@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Maaf — layanan belum dapat kami tawarkan di Turki untuk saat ini. Kami berharap bisa menyambut Anda lagi suatu hari nanti."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profil",
+    "profileClose": "Tutup",
+    "profileLoading": "Memuat…",
+    "profileEmbedBlocked": "Tidak dapat membuka portal di sini.",
+    "profileOpenTab": "Buka di tab baru"
   },
   "hero": {
     "titleWW": "Layanan VPN,\ndari Proksi si Rakun",

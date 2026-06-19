@@ -27,7 +27,7 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
           <div className={styles.actions}>
             {showAccountLink ? (
               <button type="button" className={styles.profileLink} onClick={openProfilePortal}>
-                {t('nav.profile', { defaultValue: 'Profile' })}
+                {t('nav.profile')}
               </button>
             ) : null}
             {showLanguageSelector && allowLanguageSwitch ? (

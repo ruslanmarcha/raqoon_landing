@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "เราขออภัยอย่างจริงใจ — ขณะนี้ยังไม่สามารถให้บริการในตุรกีได้ เราหวังว่าจะได้ต้อนรับคุณอีกครั้งในวันหนึ่ง"
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "โปรไฟล์",
+    "profileClose": "ปิด",
+    "profileLoading": "กำลังโหลด…",
+    "profileEmbedBlocked": "ไม่สามารถเปิดพอร์ทัลที่นี่ได้",
+    "profileOpenTab": "เปิดในแท็บใหม่"
   },
   "hero": {
     "titleWW": "บริการ VPN,\nโดย พร็อกซีแรคคูน",

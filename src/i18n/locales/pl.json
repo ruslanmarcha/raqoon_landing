@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Przepraszamy — usługi nie możemy obecnie świadczyć w Turcji. Mamy nadzieję powitać Cię ponownie."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profil",
+    "profileClose": "Zamknij",
+    "profileLoading": "Ładowanie…",
+    "profileEmbedBlocked": "Nie udało się wczytać portalu tutaj.",
+    "profileOpenTab": "Otwórz w nowej karcie"
   },
   "hero": {
     "titleWW": "Usługa VPN,\nod Szopa Proxy",

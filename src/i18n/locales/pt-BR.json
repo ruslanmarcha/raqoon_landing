@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Sentimos muito — o serviço não pode ser oferecido na Turquia por enquanto. Esperamos recebê-lo novamente um dia."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Perfil",
+    "profileClose": "Fechar",
+    "profileLoading": "Carregando…",
+    "profileEmbedBlocked": "Não foi possível abrir o portal aqui.",
+    "profileOpenTab": "Abrir em nova aba"
   },
   "hero": {
     "titleWW": "Serviço de VPN,\ndo Proxy, o Guaxinim",

@@ -23,7 +23,7 @@ type ProfilePortalModalProps = {
 export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
   const { t } = useTranslation()
   const portalUrl = clientPortalUrl()
-  const closeLabel = t('nav.profileClose', { defaultValue: 'Close' })
+  const closeLabel = t('nav.profileClose')
   const [portalReady, setPortalReady] = useState(false)
   const [showFallback, setShowFallback] = useState(false)
   const frameKey = useRef(0)
@@ -74,26 +74,26 @@ export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
   return (
     <Popup open={open} onClose={onClose} modalClassName={styles.modal}>
       <div className={styles.header}>
-        <h2 className={styles.title}>{t('nav.profile', { defaultValue: 'Profile' })}</h2>
+        <h2 className={styles.title}>{t('nav.profile')}</h2>
         <button type="button" className={styles.closeBtn} onClick={onClose} aria-label={closeLabel}>
           ×
         </button>
       </div>
       <div className={styles.frameWrap}>
         {!portalReady && !showFallback ? (
-          <p className={styles.loading}>{t('nav.profileLoading', { defaultValue: 'Loading…' })}</p>
+          <p className={styles.loading}>{t('nav.profileLoading')}</p>
         ) : null}
         {showFallback && !portalReady ? (
           <div className={styles.fallback}>
-            <p>{t('nav.profileEmbedBlocked', { defaultValue: 'Could not load the portal here.' })}</p>
+            <p>{t('nav.profileEmbedBlocked')}</p>
             <a href={portalUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-              {t('nav.profileOpenTab', { defaultValue: 'Open in new tab' })}
+              {t('nav.profileOpenTab')}
             </a>
           </div>
         ) : null}
         <iframe
           key={frameKey.current}
-          title={t('nav.profile', { defaultValue: 'Profile' })}
+          title={t('nav.profile')}
           src={portalUrl}
           className={styles.frame}
           hidden={showFallback && !portalReady}
@@ -101,7 +101,7 @@ export function ProfilePortalModal({ open, onClose }: ProfilePortalModalProps) {
       </div>
       <div className={styles.footer}>
         <a href={portalUrl} target="_blank" rel="noopener noreferrer" className={styles.footerLink}>
-          {t('nav.profileOpenTab', { defaultValue: 'Open in new tab' })}
+          {t('nav.profileOpenTab')}
         </a>
       </div>
     </Popup>

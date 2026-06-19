@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "Je nám líto — službu v Turecku zatím nemůžeme nabízet. Doufáme, že vás jednou znovu přivítáme."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "Profil",
+    "profileClose": "Zavřít",
+    "profileLoading": "Načítání…",
+    "profileEmbedBlocked": "Portál se zde nepodařilo načíst.",
+    "profileOpenTab": "Otevřít na nové záložce"
   },
   "hero": {
     "titleWW": "VPN služba,\nod mývala Proxyho",

@@ -30,7 +30,12 @@
     "turkiyeOgDescriptionWW": "نعتذر بصدق — لا يمكننا تقديم الخدمة في تركيا في الوقت الحالي. نأمل أن نرحب بك مجددًا يومًا ما."
   },
   "nav": {
-    "logoAlt": "Raqoon"
+    "logoAlt": "Raqoon",
+    "profile": "حسابي",
+    "profileClose": "إغلاق",
+    "profileLoading": "جاري التحميل…",
+    "profileEmbedBlocked": "تعذّر فتح البوابة هنا.",
+    "profileOpenTab": "فتح في تبويب جديد"
   },
   "hero": {
     "titleWW": "خدمة VPN،\nمن الراكون بروكسي",

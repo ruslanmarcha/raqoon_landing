@@ -2,11 +2,12 @@
   display: block;
   height: 30px;
   width: auto;
-  max-width: 100%;
+  max-width: min(142px, 40vw);
 }
 
 @media (max-width: 480px) {
   .logo {
-    height: 24px;
+    height: 26px;
+    max-width: 36vw;
   }
 }

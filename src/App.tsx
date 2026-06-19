@@ -101,9 +101,11 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/faq" element={<FAQPageRU />} />
                       <Route path="/app" element={<FAQPageRU />} />
                       <Route path="/payment_ok" element={<PaymentOkPage />} />
+                      <Route path="/ok" element={<RedirectToPaymentOk />} />
                       <Route path="/apple/payment_ok" element={<RedirectToPaymentOk />} />
                       <Route path="/android/payment_ok" element={<RedirectToPaymentOk />} />
                       <Route path="/payment_fail" element={<PaymentFailPage />} />
+                      <Route path="/fail" element={<RedirectToPaymentFail />} />
                       <Route path="/apple/payment_fail" element={<RedirectToPaymentFail />} />
                       <Route path="/android/payment_fail" element={<RedirectToPaymentFail />} />
                       <Route path="*" element={<NotFoundPage />} />

@@ -57,8 +57,8 @@
 }
 
 .languageSelector {
-  position: static;
-  transform: none;
+  /* Якорь для position:absolute меню LanguageSelector (.menu). */
+  position: relative;
 }
 
 @media (max-width: 480px) {

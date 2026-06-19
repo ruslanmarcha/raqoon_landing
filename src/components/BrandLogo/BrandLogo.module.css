@@ -2,7 +2,7 @@
   display: block;
   height: 30px;
   width: auto;
-  max-width: min(142px, 40vw);
+  max-width: min(144px, 40vw);
 }
 
 @media (max-width: 480px) {

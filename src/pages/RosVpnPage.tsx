@@ -6,14 +6,15 @@ import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
 import { FeatureList } from '../components/FeatureList/FeatureList'
 import type { FeatureItemData } from '../components/FeatureItem/FeatureItem'
+import { useProfilePortal } from '../contexts/ProfilePortalContext'
 import styles from './DownloadPage.module.css'
 import pricingStyles from '../components/Pricing/Pricing.module.css'
 
 const ROSVPN_HERO_SRC = '/rosvpn-hero.png'
-const HELP_URL = 'https://help.raqoon.app'
 
 export function RosVpnPage() {
   const { i18n } = useTranslation()
+  const { openProfilePortal } = useProfilePortal()
   const isRu = i18n.language.startsWith('ru')
   const t = useMemo(() => i18n.getFixedT('ru'), [i18n])
 
@@ -61,14 +62,9 @@ export function RosVpnPage() {
               </div>
               <h1 className={styles.heroTitle}>{t('rosVpnPage.hero.title')}</h1>
               <p className={styles.heroLead}>{t('rosVpnPage.hero.subtitle')}</p>
-              <a
-                href={HELP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-secondary btn-lg"
-              >
+              <button type="button" className="btn btn-secondary btn-lg" onClick={openProfilePortal}>
                 {t('rosVpnPage.micro.support')}
-              </a>
+              </button>
             </div>
           </div>
         </section>
@@ -132,9 +128,9 @@ export function RosVpnPage() {
           <div className="container">
             <div className={styles.finalCard}>
               <p className={styles.finalText}>{t('rosVpnPage.final.text')}</p>
-              <a href={HELP_URL} target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.finalCta}`}>
+              <button type="button" className={`btn btn-primary ${styles.finalCta}`} onClick={openProfilePortal}>
                 {t('rosVpnPage.micro.support')}
-              </a>
+              </button>
             </div>
           </div>
         </section>

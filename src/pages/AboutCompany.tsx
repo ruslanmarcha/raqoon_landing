@@ -28,6 +28,7 @@ export function AboutCompany() {
             <div className={styles.block}>
               <p className={styles.text}>{t('about.company')}</p>
               <p className={styles.text}>{t('about.address')}</p>
+              <p className={styles.text}>{t('about.mersis')}</p>
               <p className={styles.text}>
                 {t('about.emailLabel')}{' '}
                 <a href={`mailto:${t('about.email')}`} className={styles.link}>

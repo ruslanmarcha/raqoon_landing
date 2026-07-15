@@ -67,6 +67,9 @@ export function getGooglePlayBadgeVisualScale(language: string): {
 /** Raqoon VPN в App Store (iPhone / iPad). Короткая ссылка на листинг. */
 export const RAQOON_IOS_APP_STORE_URL =
   'https://apps.apple.com/us/app/raqoon-vpn/id6763367620' as const
+/** Raqoon VPN в Mac App Store (для всех локалей кроме RU). */
+export const RAQOON_MAC_APP_STORE_URL =
+  'https://apps.apple.com/am/app/raqoon-vpn/id6763367620' as const
 /** Последний инвайт в TestFlight для Apple-платформ. */
 export const RAQOON_APPLE_TESTFLIGHT_URL = 'https://testflight.apple.com/join/VHNcnUcm' as const
 

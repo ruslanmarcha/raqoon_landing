@@ -1,0 +1,130 @@
+.heroVisual {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  height: 280px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroMascot {
+  position: relative;
+  z-index: 1;
+  width: min(58%, 280px);
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
+  pointer-events: none;
+}
+
+.heroCard {
+  position: absolute;
+  width: min(36%, 170px);
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.heroCardLeft {
+  left: 4%;
+  bottom: -2%;
+  transform: rotate(-3deg);
+}
+
+.heroCardRight {
+  right: 4%;
+  top: auto;
+  bottom: 8%;
+  transform: rotate(3deg);
+}
+
+.cta {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.35);
+}
+
+.sectionLead {
+  text-align: center;
+  max-width: 28rem;
+  margin: 0 auto var(--space-6);
+}
+
+.sectionExtraTop {
+  /* +50% к обычному зазору между секциями (у соседей padding-top обнулён) */
+  margin-top: calc(var(--space-6) * 0.5);
+}
+
+.disclaimer {
+  margin-top: var(--space-5);
+  max-width: 36rem;
+  margin-inline: auto;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.compareWrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-inline: auto;
+  max-width: 600px;
+}
+
+.compareTable {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.compareTable th,
+.compareTable td {
+  padding: var(--space-3) var(--space-2);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  font-weight: var(--font-normal);
+}
+
+.compareTable thead th {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+  white-space: nowrap;
+}
+
+.compareTable tbody th {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+  white-space: nowrap;
+}
+
+.compareHighlight {
+  color: var(--color-text) !important;
+  font-weight: var(--font-medium);
+}
+
+@media (max-width: 480px) {
+  .heroVisual {
+    height: 220px;
+  }
+
+  .heroMascot {
+    width: min(56%, 200px);
+  }
+
+  .heroCard {
+    width: min(38%, 130px);
+    border-radius: 12px;
+  }
+
+  .compareTable {
+    font-size: 13px;
+  }
+}

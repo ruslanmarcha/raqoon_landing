@@ -16,6 +16,8 @@ export type SeoPage =
   | 'turkiye'
   | 'beta'
   | 'rosvpn'
+  | 'wallet'
+  | 'card'
 
 interface SEOHeadProps {
   variant: 'ru' | 'ww'
@@ -81,6 +83,20 @@ function resolveMeta(
         description: t(`meta.rosvpnDescription${suffix}`),
         ogTitle: t(`meta.rosvpnOgTitle${suffix}`),
         ogDescription: t(`meta.rosvpnOgDescription${suffix}`),
+      }
+    case 'wallet':
+      return {
+        title: t('meta.walletTitleRU'),
+        description: t('meta.walletDescriptionRU'),
+        ogTitle: t('meta.walletOgTitleRU'),
+        ogDescription: t('meta.walletOgDescriptionRU'),
+      }
+    case 'card':
+      return {
+        title: t('meta.cardTitleRU'),
+        description: t('meta.cardDescriptionRU'),
+        ogTitle: t('meta.cardOgTitleRU'),
+        ogDescription: t('meta.cardOgDescriptionRU'),
       }
     case 'about':
       return {

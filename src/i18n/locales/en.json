@@ -41,6 +41,11 @@
   },
   "nav": {
     "logoAlt": "Raqoon",
+    "productsAria": "Raqoon products",
+    "menuAria": "Menu",
+    "vpn": "VPN",
+    "wallet": "Wallet",
+    "card": "Card",
     "profile": "Profile",
     "profileClose": "Close",
     "profileLoading": "Loading…",

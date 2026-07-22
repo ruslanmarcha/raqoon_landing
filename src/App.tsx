@@ -12,6 +12,8 @@ const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ de
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
 const RosVpnPage = lazy(() => import('./pages/RosVpnPage').then((m) => ({ default: m.RosVpnPage })))
+const WalletPage = lazy(() => import('./pages/WalletPage').then((m) => ({ default: m.WalletPage })))
+const CardPage = lazy(() => import('./pages/CardPage').then((m) => ({ default: m.CardPage })))
 const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
 const BetaPage = lazy(() => import('./pages/BetaPage').then((m) => ({ default: m.BetaPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
@@ -96,6 +98,8 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />
                       <Route path="/rosvpn" element={<RosVpnPage />} />
+                      <Route path="/wallet" element={<WalletPage />} />
+                      <Route path="/card" element={<CardPage />} />
                       <Route path="/beta" element={<BetaPage />} />
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />

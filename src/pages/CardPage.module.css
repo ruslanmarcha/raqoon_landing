@@ -1,0 +1,36 @@
+.productDesc {
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+.termsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.termRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.termLabel {
+  color: var(--color-text-secondary);
+  min-width: 0;
+}
+
+.termValue {
+  color: var(--color-text);
+  font-weight: var(--font-medium);
+  white-space: nowrap;
+  flex-shrink: 0;
+}

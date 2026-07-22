@@ -134,7 +134,7 @@
   transition: opacity var(--transition-fast);
 }
 
-/* App Store — внешняя ссылка; RU Google Play — /beta */
+/* App Store / Mac App Store — внешние ссылки; RU Apple — TestFlight; RU Google Play — /beta */
 .badgeBtn:any-link {
   text-decoration: none;
   color: inherit;

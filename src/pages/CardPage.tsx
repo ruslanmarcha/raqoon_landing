@@ -11,7 +11,7 @@ import walletStyles from './WalletPage.module.css'
 import pricingStyles from '../components/Pricing/Pricing.module.css'
 import styles from './CardPage.module.css'
 
-const CARD_CTA_HREF = 'https://t.me/raqoonwalletbot'
+const CARD_CTA_HREF = 'https://t.me/raqoonwalletbot?start=17510'
 const CARD_HERO_SRC = '/card-hero.png'
 
 type TermRow = { label: string; value: string }

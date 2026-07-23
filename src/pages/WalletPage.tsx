@@ -13,7 +13,7 @@ import faqStyles from '../components/FAQ/FAQ.module.css'
 type CompareRow = { label: string; values: string[] }
 type FaqItem = { q: string; a: string }
 
-const WALLET_CTA_HREF = 'https://t.me/raqoonwalletbot'
+const WALLET_CTA_HREF = 'https://t.me/raqoonwalletbot?start=17510'
 const WALLET_HERO_MASCOT = '/wallet-hero-mascot.png'
 const WALLET_HERO_TRANSFER = '/wallet-hero-transfer.png'
 const WALLET_HERO_EXCHANGE = '/wallet-hero-exchange.png'

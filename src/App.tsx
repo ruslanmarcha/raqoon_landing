@@ -102,7 +102,8 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/referral" element={<ReferralPage />} />
                       <Route path="/rosvpn" element={<RosVpnPage />} />
                       <Route path="/wallet" element={<WalletPage />} />
-                      <Route path="/card" element={<Navigate to="/wallet#cards" replace />} />
+                      <Route path="/card" element={<Navigate to="/wallet" replace />} />
+                      <Route path="/card/" element={<Navigate to="/wallet" replace />} />
                       <Route path="/beta" element={<BetaPage />} />
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />

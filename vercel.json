@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/card",
+      "destination": "/wallet",
+      "permanent": true
+    },
+    {
+      "source": "/card/",
+      "destination": "/wallet",
+      "permanent": true
+    }
+  ],
   "routes": [
     {
       "src": "/refund",

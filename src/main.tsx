@@ -23,9 +23,13 @@ function applyDocumentLanguageDirection(locale: string) {
 }
 
 let appMounted = false
+let reactRoot: ReturnType<typeof ReactDOM.createRoot> | null = null
 
 function renderApp(rootEl: HTMLElement, props: AppMountProps) {
-  ReactDOM.createRoot(rootEl).render(
+  if (!reactRoot) {
+    reactRoot = ReactDOM.createRoot(rootEl)
+  }
+  reactRoot.render(
     <React.StrictMode>
       <App
         allowLanguageSwitch={props.allowLanguageSwitch}

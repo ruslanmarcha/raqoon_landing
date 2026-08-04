@@ -1,246 +1,424 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Navigate } from 'react-router-dom'
+import { useEffect, useMemo, useState, type MouseEvent as ReactMouseEvent } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
-import { FeatureList } from '../components/FeatureList/FeatureList'
-import type { FeatureItemData } from '../components/FeatureItem/FeatureItem'
-import downloadStyles from './DownloadPage.module.css'
 import styles from './WalletPage.module.css'
-import faqStyles from '../components/FAQ/FAQ.module.css'
 
-type CompareRow = { label: string; values: string[] }
-type FaqItem = { q: string; a: string }
+type TileSpan = 'full' | 'half'
+type TileTheme = 'light' | 'dark' | 'soft'
+type FrontKind = 'product' | 'headline' | 'card'
 
-const WALLET_CTA_HREF = 'https://t.me/raqoonwalletbot?start=17510'
-const WALLET_HERO_MASCOT = '/wallet-hero-mascot.png'
-const WALLET_HERO_TRANSFER = '/wallet-hero-transfer.png'
-const WALLET_HERO_EXCHANGE = '/wallet-hero-exchange.png'
+type GalleryTile = {
+  id: string
+  span: TileSpan
+  theme: TileTheme
+  frontKind: FrontKind
+  headline: string
+  accent?: string
+  sub?: string
+  detailTitle: string
+  detailBody: string
+  cta?: string
+  visual?: 'transfer' | 'card' | 'telegram'
+  cardPrice?: string
+}
+
+const CTA = 'https://t.me/raqoonwalletbot?start=17510'
+const CARD_SUB = '/card-subscription-raqoon.png?v=hq2'
+const CARD_PREM = '/card-premium-raqoon.png?v=hq2'
+
+const VISUAL: Record<NonNullable<GalleryTile['visual']>, string> = {
+  transfer: '/wallet-hero-transfer.png',
+  card: '/card-hero.png',
+  telegram: '/wallet-tile-telegram-phone.png',
+}
+
+function asArray<T>(v: unknown): T[] {
+  return Array.isArray(v) ? (v as T[]) : []
+}
+
+function Lines({ text, className }: { text: string; className?: string }) {
+  return (
+    <>
+      {text.split('\n').map((line) => (
+        <span key={line} className={className}>
+          {line}
+        </span>
+      ))}
+    </>
+  )
+}
+
+function PlusIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+      <path d="M7 1v12M1 7h12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+function CloseIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+      <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+function LockIcon() {
+  return (
+    <svg className={styles.lockSvg} viewBox="0 0 80 96" fill="none" aria-hidden="true">
+      <path
+        d="M24 42V28c0-8.837 7.163-16 16-16s16 7.163 16 16v14"
+        stroke="currentColor"
+        strokeWidth="5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        opacity="0.92"
+      />
+      <rect
+        x="14"
+        y="42"
+        width="52"
+        height="42"
+        rx="10"
+        fill="currentColor"
+        opacity="0.14"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <circle cx="40" cy="60" r="5" fill="currentColor" opacity="0.9" />
+      <path d="M40 65v10" stroke="currentColor" strokeWidth="4" strokeLinecap="round" opacity="0.9" />
+    </svg>
+  )
+}
+
+/** Assist / concierge motif — same weight as LockIcon */
+function ConciergeIcon() {
+  return (
+    <svg className={styles.lockSvg} viewBox="0 0 80 96" fill="none" aria-hidden="true">
+      <path
+        d="M18 50c0-12.15 9.85-22 22-22s22 9.85 22 22"
+        stroke="currentColor"
+        strokeWidth="5"
+        strokeLinecap="round"
+        opacity="0.92"
+      />
+      <rect
+        x="12"
+        y="48"
+        width="14"
+        height="26"
+        rx="7"
+        fill="currentColor"
+        opacity="0.14"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <rect
+        x="54"
+        y="48"
+        width="14"
+        height="26"
+        rx="7"
+        fill="currentColor"
+        opacity="0.14"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <path
+        d="M68 64v6c0 6.627-5.373 12-12 12H40"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        opacity="0.9"
+      />
+      <circle cx="36" cy="82" r="4.5" fill="currentColor" opacity="0.9" />
+    </svg>
+  )
+}
 
 export function WalletPage() {
   const { i18n } = useTranslation()
-  const isRu = i18n.language.startsWith('ru')
+  const { hash } = useLocation()
   const t = useMemo(() => i18n.getFixedT('ru'), [i18n])
-  const [openFaq, setOpenFaq] = useState<number | null>(0)
+  const [openId, setOpenId] = useState<string | null>(null)
 
-  const stepLines = useMemo(() => t('walletPage.steps.items', { returnObjects: true }) as string[], [t])
-  const stepItems: FeatureItemData[] = useMemo(() => stepLines.map((label) => ({ label })), [stepLines])
-
-  const whyItems = useMemo(
-    () => t('walletPage.why.items', { returnObjects: true }) as FeatureItemData[],
+  const tiles = useMemo(
+    () => asArray<GalleryTile>(t('walletPage.tiles', { returnObjects: true })),
     [t],
   )
-
-  const referralLines = useMemo(
-    () => t('walletPage.referral.items', { returnObjects: true }) as string[],
-    [t],
-  )
-  const referralItems: FeatureItemData[] = useMemo(
-    () => referralLines.map((label) => ({ label })),
-    [referralLines],
-  )
-
-  const compareHeaders = useMemo(
-    () => t('walletPage.compare.headers', { returnObjects: true }) as string[],
-    [t],
-  )
-  const compareRows = useMemo(
-    () => t('walletPage.compare.rows', { returnObjects: true }) as CompareRow[],
-    [t],
-  )
-
-  const faqItems = useMemo(() => t('walletPage.faq.items', { returnObjects: true }) as FaqItem[], [t])
-
-  const heroTitleLines = t('walletPage.hero.title').split('\n')
 
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [])
+    if (!i18n.language.startsWith('ru')) void i18n.changeLanguage('ru')
+  }, [i18n])
 
-  if (!isRu) {
-    return <Navigate to="/" replace />
-  }
+  useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.replace('#', ''))
+      if (el) {
+        requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+        return
+      }
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [hash])
+
+  const toggle = (id: string) => setOpenId((cur) => (cur === id ? null : id))
+
+  const onCtaClick = (e: ReactMouseEvent) => e.stopPropagation()
 
   return (
     <>
       <SEOHead variant="ru" page="wallet" metaLocale="ru" />
       <Header />
-      <main className={downloadStyles.root}>
-        <section className={downloadStyles.hero}>
-          <div className="container">
-            <div className={downloadStyles.heroInner}>
-              <div className={styles.heroVisual} aria-hidden="true">
-                <img
-                  src={WALLET_HERO_TRANSFER}
-                  alt=""
-                  className={`${styles.heroCard} ${styles.heroCardLeft}`}
-                  width={343}
-                  height={341}
-                />
-                <img
-                  src={WALLET_HERO_MASCOT}
-                  alt=""
-                  className={styles.heroMascot}
-                  width={512}
-                  height={512}
-                />
-                <img
-                  src={WALLET_HERO_EXCHANGE}
-                  alt=""
-                  className={`${styles.heroCard} ${styles.heroCardRight}`}
-                  width={343}
-                  height={359}
-                />
-              </div>
-              <h1 className={downloadStyles.heroTitle}>
-                {heroTitleLines.map((line, i) => (
-                  <span key={i}>
-                    {line}
-                    {i < heroTitleLines.length - 1 ? <br /> : null}
-                  </span>
-                ))}
-              </h1>
-              <p className={downloadStyles.heroLead}>{t('walletPage.hero.subtitle')}</p>
-              <a
-                href={WALLET_CTA_HREF}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`btn btn-secondary btn-lg ${styles.cta}`}
-              >
-                {t('walletPage.hero.cta')}
-              </a>
+
+      <main className={styles.page}>
+        {/* Hero */}
+        <section id="top" className={styles.hero}>
+          <div className={styles.wrap}>
+            <p className={styles.heroBrand}>{t('walletPage.brand')}</p>
+            <h1 className={styles.heroHeadline}>
+              <Lines text={String(t('walletPage.hero.headline'))} className={styles.blockLine} />
+            </h1>
+            <a href={CTA} target="_blank" rel="noopener noreferrer" className={styles.btnDark}>
+              {t('walletPage.hero.cta')}
+            </a>
+          </div>
+        </section>
+
+        <section id="overview" className={styles.intro}>
+          <div className={styles.wrap}>
+            <div className={styles.introMedia}>
+              <img src="/wallet-overview-app.png" alt="Raqoon Wallet" width={1024} height={975} />
             </div>
           </div>
         </section>
 
-        <section className={`section ${downloadStyles.sectionBlock}`} id="how">
-          <div className="container">
-            <h2 className={downloadStyles.sectionHeading}>{t('walletPage.steps.title')}</h2>
-            <div className={`${downloadStyles.featuresCard} ${downloadStyles.featuresCardPlain}`}>
-              <FeatureList items={stepItems} className={downloadStyles.featureList} />
-            </div>
-          </div>
-        </section>
+        {/* Apple Card–style gallery */}
+        <section id="gallery" className={styles.gallery}>
+          <div className={styles.galleryWrap}>
+            <div className={styles.tiles}>
+              {tiles.map((tile) => {
+                const open = openId === tile.id
+                const themeClass =
+                  tile.theme === 'dark'
+                    ? styles.tileDark
+                    : tile.theme === 'soft'
+                      ? styles.tileSoft
+                      : styles.tileLight
+                const spanClass = tile.span === 'full' ? styles.tileFull : styles.tileHalf
+                const isCardsAnchor = tile.id === 'subscription' || tile.id === 'premium'
 
-        <section className={`section ${downloadStyles.sectionBlock} ${styles.sectionExtraTop}`}>
-          <div className="container">
-            <h2 className={downloadStyles.sectionHeading}>{t('walletPage.compare.title')}</h2>
-            <div className={styles.compareWrap}>
-              <table className={styles.compareTable}>
-                <thead>
-                  <tr>
-                    {compareHeaders.map((header, i) => (
-                      <th key={i} scope="col" className={i === 1 ? styles.compareHighlight : undefined}>
-                        {header}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {compareRows.map((row) => (
-                    <tr key={row.label}>
-                      <th scope="row">{row.label}</th>
-                      {row.values.map((value, i) => (
-                        <td key={i} className={i === 0 ? styles.compareHighlight : undefined}>
-                          {value}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        <section className={`section ${downloadStyles.sectionBlock} ${styles.sectionExtraTop}`}>
-          <div className="container">
-            <h2 className={downloadStyles.sectionHeading}>{t('walletPage.why.title')}</h2>
-            <div className={`${downloadStyles.featuresCard} ${downloadStyles.featuresCardPlain}`}>
-              <FeatureList items={whyItems} className={downloadStyles.featureList} />
-            </div>
-          </div>
-        </section>
-
-        <section className={`section ${downloadStyles.sectionBlock} ${styles.sectionExtraTop}`}>
-          <div className="container">
-            <h2 className={downloadStyles.sectionHeading}>{t('walletPage.referral.title')}</h2>
-            <p className={`${downloadStyles.prose} ${styles.sectionLead}`}>{t('walletPage.referral.subtitle')}</p>
-            <div className={`${downloadStyles.featuresCard} ${downloadStyles.featuresCardPlain}`}>
-              <FeatureList items={referralItems} className={downloadStyles.featureList} />
-            </div>
-          </div>
-        </section>
-
-        <section className={`section ${downloadStyles.sectionBlock} ${styles.sectionExtraTop}`} id="faq">
-          <div className="container">
-            <h2 className={downloadStyles.sectionHeading}>{t('walletPage.faq.title')}</h2>
-            <div className={faqStyles.list}>
-              {faqItems.map((item, i) => (
-                <div
-                  key={item.q}
-                  className={`${faqStyles.item} ${openFaq === i ? faqStyles.itemOpen : ''}`}
-                >
-                  <button
-                    type="button"
-                    className={faqStyles.question}
-                    onClick={() => setOpenFaq((prev) => (prev === i ? null : i))}
-                    aria-expanded={openFaq === i}
+                return (
+                  <article
+                    key={tile.id}
+                    id={isCardsAnchor && tile.id === 'subscription' ? 'cards' : undefined}
+                    className={`${styles.tile} ${spanClass} ${themeClass} ${open ? styles.tileOpen : ''}`}
+                    onClick={() => toggle(tile.id)}
+                    role="presentation"
                   >
-                    <span>{item.q}</span>
-                    <span className={faqStyles.icon} aria-hidden="true">
-                      {openFaq === i ? (
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                          <path
-                            d="M5 12.5L10 7.5L15 12.5"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      ) : (
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                          <path
-                            d="M5 7.5L10 12.5L15 7.5"
-                            stroke="currentColor"
-                            strokeWidth="1.5"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      )}
-                    </span>
-                  </button>
-                  {openFaq === i ? (
-                    <div className={faqStyles.answer}>
-                      <p>{item.a}</p>
+                    <div className={styles.scene}>
+                      {/* FRONT */}
+                      <div className={`${styles.face} ${styles.faceFront}`}>
+                        {tile.frontKind === 'headline' ? (
+                          <div
+                            className={`${styles.facePad} ${
+                              tile.id === 'privacy' || tile.id === 'concierge'
+                                ? styles.privacyFace
+                                : ''
+                            }`}
+                          >
+                            <h2
+                              className={`${styles.tileHeadline} ${
+                                tile.id === 'privacy' || tile.id === 'concierge'
+                                  ? styles.privacyHeadline
+                                  : tile.span === 'half'
+                                    ? styles.feeHeadline
+                                    : ''
+                              }`}
+                            >
+                              {tile.accent ? (
+                                <>
+                                  <span className={styles.gradText}>{tile.accent}</span>
+                                  {tile.headline ? (
+                                    <>
+                                      {'\n'}
+                                      <Lines text={tile.headline} className={styles.blockLine} />
+                                    </>
+                                  ) : null}
+                                </>
+                              ) : (
+                                <Lines text={tile.headline} className={styles.blockLine} />
+                              )}
+                            </h2>
+                            {tile.sub ? (
+                              <p
+                                className={`${styles.tileSub} ${
+                                  tile.id === 'privacy' || tile.id === 'concierge'
+                                    ? styles.privacySub
+                                    : ''
+                                }`}
+                              >
+                                {tile.sub}
+                              </p>
+                            ) : null}
+                            {tile.id === 'privacy' ? (
+                              <div className={styles.privacyLock} aria-hidden="true">
+                                <LockIcon />
+                              </div>
+                            ) : null}
+                            {tile.id === 'concierge' ? (
+                              <div className={styles.privacyLock} aria-hidden="true">
+                                <ConciergeIcon />
+                              </div>
+                            ) : null}
+                          </div>
+                        ) : null}
+
+                        {tile.frontKind === 'product' ? (
+                          <div
+                            className={`${styles.facePad} ${styles.productFace} ${
+                              tile.id === 'built' ? styles.productFaceBuilt : ''
+                            }`}
+                          >
+                            <h2
+                              className={`${styles.tileHeadline} ${
+                                tile.id === 'built' || tile.id === 'speed'
+                                  ? styles.privacyHeadline
+                                  : ''
+                              }`}
+                            >
+                              {tile.accent ? (
+                                <>
+                                  <span className={styles.blockLine}>{tile.accent}</span>
+                                  {tile.headline ? (
+                                    <>
+                                      {'\n'}
+                                      <Lines text={tile.headline} className={styles.blockLine} />
+                                    </>
+                                  ) : null}
+                                </>
+                              ) : (
+                                <Lines text={tile.headline} className={styles.blockLine} />
+                              )}
+                            </h2>
+                            {tile.sub ? <p className={styles.tileSub}>{tile.sub}</p> : null}
+                            {tile.visual ? (
+                              <div
+                                className={`${styles.productMedia} ${
+                                  tile.id === 'built' ? styles.productMediaBuilt : ''
+                                }`}
+                                aria-hidden="true"
+                              >
+                                <img src={VISUAL[tile.visual]} alt="" />
+                              </div>
+                            ) : null}
+                          </div>
+                        ) : null}
+
+                        {tile.frontKind === 'card' ? (
+                          <div
+                            className={`${styles.facePad} ${styles.cardFace} ${
+                              tile.id === 'subscription' ? styles.cardSubFace : ''
+                            }`}
+                          >
+                            <h2 className={styles.tileHeadlineSm}>
+                              {tile.accent ? (
+                                <>
+                                  <span className={styles.gradText}>{tile.accent}</span>
+                                  {tile.headline ? (
+                                    <>
+                                      {'\n'}
+                                      <Lines text={tile.headline} className={styles.blockLine} />
+                                    </>
+                                  ) : null}
+                                </>
+                              ) : (
+                                <Lines text={tile.headline} className={styles.blockLine} />
+                              )}
+                            </h2>
+                            <p className={styles.cardPrice}>{tile.cardPrice}</p>
+                            {(tile.id === 'subscription' || tile.id === 'premium') && (
+                              <div className={styles.cardArt} aria-hidden="true">
+                                <img
+                                  src={tile.id === 'premium' ? CARD_PREM : CARD_SUB}
+                                  alt=""
+                                  className={styles.cardArtImg}
+                                />
+                              </div>
+                            )}
+                            {tile.sub ? <p className={styles.tileSub}>{tile.sub}</p> : null}
+                          </div>
+                        ) : null}
+                      </div>
+
+                      {/* BACK — white detail face */}
+                      <div className={`${styles.face} ${styles.faceBack}`}>
+                        <div className={styles.backPad}>
+                          <h3 className={styles.backTitle}>{tile.detailTitle}</h3>
+                          <p className={styles.backBody}>{tile.detailBody}</p>
+                          {tile.cta ? (
+                            <a
+                              href={CTA}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className={styles.btnDark}
+                              onClick={onCtaClick}
+                            >
+                              {tile.cta}
+                            </a>
+                          ) : null}
+                        </div>
+                      </div>
                     </div>
-                  ) : null}
-                </div>
-              ))}
+
+                    <button
+                      type="button"
+                      className={`${styles.toggle} ${open ? styles.toggleClose : ''}`}
+                      aria-expanded={open}
+                      aria-label={
+                        open
+                          ? String(t('walletPage.closeTile'))
+                          : String(t('walletPage.openTile', { title: tile.detailTitle }))
+                      }
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggle(tile.id)
+                      }}
+                    >
+                      {open ? <CloseIcon /> : <PlusIcon />}
+                    </button>
+                  </article>
+                )
+              })}
             </div>
           </div>
         </section>
 
-        <section className={`section ${downloadStyles.finalWrap} ${styles.sectionExtraTop}`}>
-          <div className="container">
-            <div className={downloadStyles.finalCard}>
-              <p className={downloadStyles.finalText}>{t('walletPage.final.text')}</p>
-              <a
-                href={WALLET_CTA_HREF}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`btn btn-primary ${downloadStyles.finalCta}`}
-              >
-                {t('walletPage.final.cta')}
-              </a>
-            </div>
+        {/* Get started */}
+        <section className={styles.start}>
+          <div className={styles.wrap}>
+            <img
+              src="/wallet-app-icon.png"
+              alt="Raqoon"
+              width={80}
+              height={80}
+              className={styles.startIcon}
+            />
+            <h2 className={styles.startTitle}>{t('walletPage.final.headline')}</h2>
+            <p className={styles.startBody}>{t('walletPage.final.body')}</p>
+            <a href={CTA} target="_blank" rel="noopener noreferrer" className={styles.btnLight}>
+              {t('walletPage.final.cta')}
+            </a>
             <p className={styles.disclaimer}>{t('walletPage.final.disclaimer')}</p>
           </div>
         </section>
       </main>
+
       <Footer />
     </>
   )

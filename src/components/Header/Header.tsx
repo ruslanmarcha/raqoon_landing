@@ -15,12 +15,10 @@ interface HeaderProps {
 const PRODUCT_LINKS = [
   { key: 'vpn', to: '/' },
   { key: 'wallet', to: '/wallet' },
-  { key: 'card', to: '/card' },
 ] as const;
 
 function isProductActive(path: string, to: string) {
-  if (to === '/wallet') return path.startsWith('/wallet');
-  if (to === '/card') return path.startsWith('/card');
+  if (to === '/wallet') return path.startsWith('/wallet') || path.startsWith('/card');
   return !path.startsWith('/wallet') && !path.startsWith('/card');
 }
 

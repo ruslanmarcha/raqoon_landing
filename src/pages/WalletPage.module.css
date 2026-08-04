@@ -1,130 +1,593 @@
-.heroVisual {
-  position: relative;
+/* Apple Card gallery layout — Raqoon dark tokens (same palette as Landing/Download). */
+
+.page {
+  --wp-radius: 28px;
+  --wp-gap: 10px;
+
+  background: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+.wrap {
   width: 100%;
-  max-width: 560px;
-  height: 280px;
+  max-width: 600px;
   margin-inline: auto;
-  display: flex;
+  padding-inline: var(--container-px);
+  box-sizing: border-box;
+}
+
+.wrapNarrow {
+  width: 100%;
+  max-width: 520px;
+  margin-inline: auto;
+  padding-inline: var(--container-px);
+  box-sizing: border-box;
+}
+
+.blockLine {
+  display: block;
+}
+
+/* —— Buttons (site CTAs: primary fill / surface ghost) —— */
+.btnDark {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  min-height: 44px;
+  padding: 11px 22px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-bg);
+  font-size: 15px;
+  font-weight: var(--font-medium);
 }
 
-.heroMascot {
-  position: relative;
-  z-index: 1;
-  width: min(58%, 280px);
-  height: auto;
-  object-fit: contain;
-  filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
-  pointer-events: none;
+.btnLight {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 22px;
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-size: 15px;
+  font-weight: var(--font-medium);
 }
 
-.heroCard {
-  position: absolute;
-  width: min(36%, 170px);
-  height: auto;
-  object-fit: contain;
-  border-radius: 16px;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
-  z-index: 3;
-  pointer-events: none;
-}
-
-.heroCardLeft {
-  left: 4%;
-  bottom: -2%;
-  transform: rotate(-3deg);
-}
-
-.heroCardRight {
-  right: 4%;
-  top: auto;
-  bottom: 8%;
-  transform: rotate(3deg);
-}
-
-.cta {
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.35);
-}
-
-.sectionLead {
+/* —— Hero —— */
+.hero {
+  padding: var(--space-16) 0 var(--space-10);
   text-align: center;
-  max-width: 28rem;
-  margin: 0 auto var(--space-6);
+  background: transparent;
 }
 
-.sectionExtraTop {
-  /* +50% к обычному зазору между секциями (у соседей padding-top обнулён) */
-  margin-top: calc(var(--space-6) * 0.5);
+.heroBrand {
+  margin: 0 0 var(--space-5);
+  font-size: 19px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.heroHeadline {
+  margin: 0 auto var(--space-8);
+  max-width: 14ch;
+  font-size: 40px;
+  font-weight: var(--font-semibold);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+/* —— Intro —— */
+.intro {
+  background: transparent;
+  padding: 0;
+  scroll-margin-top: 56px;
+}
+
+.introMedia {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  line-height: 0;
+}
+
+.introMedia img {
+  display: block;
+  width: 40%;
+  max-width: 40%;
+  height: auto;
+  object-fit: contain;
+  object-position: bottom center;
+}
+
+/* —— Gallery —— */
+.gallery {
+  background: transparent;
+  padding: var(--space-6) 0 var(--space-12);
+  scroll-margin-top: 56px;
+}
+
+.galleryWrap {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  box-sizing: border-box;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--wp-gap);
+}
+
+.tile {
+  position: relative;
+  border-radius: var(--wp-radius);
+  perspective: 1800px;
+  cursor: pointer;
+}
+
+.tileFull {
+  grid-column: span 2;
+  aspect-ratio: 1.35 / 1;
+  min-height: 360px;
+}
+
+.tileHalf {
+  grid-column: span 1;
+  aspect-ratio: 0.78 / 1;
+  min-height: 300px;
+}
+
+@media (max-width: 519px) {
+  .tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .tileFull,
+  .tileHalf {
+    grid-column: span 1;
+    aspect-ratio: 0.9 / 1;
+    min-height: 340px;
+  }
+
+  .page {
+    --wp-radius: 22px;
+  }
+
+  .heroHeadline {
+    font-size: 34px;
+  }
+}
+
+.scene {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.tileOpen .scene {
+  transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--wp-radius);
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.faceFront {
+  background: var(--color-surface);
+}
+
+.faceBack {
+  background: var(--color-surface-elevated);
+  transform: rotateY(180deg);
+}
+
+.tileLight .faceFront {
+  background: var(--color-surface);
+}
+
+.tileSoft .faceFront {
+  background: var(--color-surface-alt);
+}
+
+.tileDark .faceFront {
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+}
+
+.tileDark .tileSub {
+  color: var(--color-text-secondary);
+}
+
+.facePad {
+  height: 100%;
+  padding: 28px 22px 56px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.backPad {
+  height: 100%;
+  padding: 28px 22px 64px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: auto;
+}
+
+/* —— Typography on tiles —— */
+.tileHeadline {
+  margin: 0;
+  font-size: 26px;
+  font-weight: var(--font-semibold);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+.tileHeadlineSm {
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--font-semibold);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--color-text);
+}
+
+.tileSub {
+  margin: 12px 0 0;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+
+/* Privacy tile — larger copy + lock visual (scoped) */
+.privacyFace {
+  position: relative;
+}
+
+.privacyHeadline {
+  font-size: clamp(52px, 11vw, 64px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  max-width: 11ch;
+}
+
+/* Accent second line on privacy + product faces that use privacyHeadline (built, speed) */
+.privacyFace .privacyHeadline .blockLine:nth-child(2),
+.productFace .privacyHeadline .blockLine:nth-child(2) {
+  color: var(--color-accent);
+}
+
+.productFace .privacyHeadline {
+  max-width: none;
+}
+
+/* Half headline tiles (fee + QR) — display scale, clamped for narrow column */
+.feeHeadline {
+  font-size: clamp(30px, 6.75vw, 42px);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+/* Mobile half-tiles: must follow base .feeHeadline or desktop clamp wins */
+@media (max-width: 519px) {
+  .feeHeadline {
+    font-size: clamp(52px, 11vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+}
+
+.feeHeadline .gradText {
+  font-size: inherit;
+  line-height: inherit;
+  word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  -webkit-hyphens: none;
+}
+
+.feeHeadline .blockLine {
+  font-size: inherit;
+}
+
+.privacySub {
+  font-size: 17px;
+  line-height: 1.4;
+  max-width: 28rem;
+  margin-top: 16px;
+}
+
+.privacyLock {
+  margin-top: auto;
+  align-self: flex-end;
+  margin-right: 36px;
+  margin-bottom: 4px;
+  width: min(112px, 28%);
+  color: var(--color-accent);
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.lockSvg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gradText {
+  display: block;
+  color: var(--color-accent);
+  background: none;
+  -webkit-background-clip: unset;
+  background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+/* —— Product / media faces —— */
+.productFace {
+  position: relative;
+}
+
+.productFaceBuilt {
+  /* Headlines keep top; art docks to bottom of face */
+  overflow: hidden;
+}
+
+.productFaceBuilt .privacyHeadline {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 12px;
+}
+
+.productMedia {
+  margin-top: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 0;
+  flex: 1;
+  padding-top: 16px;
+}
+
+.productMedia img {
+  max-width: 72%;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.45));
+}
+
+.tileFull .productMedia img {
+  max-height: 220px;
+  max-width: 42%;
+}
+
+/* Built tile phone: bottom edge, slightly right, clear of + */
+.productMediaBuilt {
+  position: absolute;
+  right: 44px;
+  bottom: 0;
+  left: auto;
+  top: auto;
+  width: min(46%, 220px);
+  height: 58%;
+  max-height: 58%;
+  margin: 0;
+  padding: 0;
+  flex: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.productMediaBuilt img,
+.tileFull .productMediaBuilt img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: contain;
+  object-position: bottom right;
+  filter: none;
+}
+
+/* Built phone on stacked mobile: after base so size sticks; clear long headline */
+@media (max-width: 519px) {
+  .productFaceBuilt .privacyHeadline {
+    padding-bottom: 20px;
+  }
+
+  .productMediaBuilt {
+    width: min(36%, 150px);
+    height: 36%;
+    max-height: 36%;
+    right: 40px;
+  }
+}
+
+/* —— Card product tiles —— */
+/* Shared content column: title / price / sub / img — identical horizontal inset */
+.cardFace.facePad,
+.cardFace {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 48px !important;
+}
+
+/* Subscription card: green second headline line ("подписок.") — not Premium */
+.cardSubFace .tileHeadlineSm .blockLine:nth-child(2) {
+  color: var(--color-accent);
+}
+
+.cardPrice {
+  margin: 0;
+  font-size: 28px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+.cardFace .tileSub {
+  margin-top: 0;
+}
+
+/* Spacer pushes art down; must NOT shrink the image */
+.cardArt {
+  margin-top: auto;
+  width: 100%;
+  flex: 0 0 auto;
+  line-height: 0;
+  padding: 0;
+  border: 0;
+}
+
+.cardArtImg {
+  display: block;
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: unset;
+  object-position: unset;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+}
+
+/* —— Detail back —— */
+.backTitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.025em;
+  color: var(--color-text);
+}
+
+.backBody {
+  margin: 0;
+  flex: 1;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+
+.backPad .btnDark {
+  align-self: flex-start;
+  min-height: 36px;
+  padding: 8px 16px;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* —— + / × control —— */
+.toggle {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.toggle:hover {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+.tileDark .toggle {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.toggleClose,
+.tileOpen .toggle {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+/* —— Start —— */
+.start {
+  padding: var(--space-16) 0 var(--space-20);
+  text-align: center;
+  background: transparent;
+  border-top: 1px solid var(--color-border);
+}
+
+.startIcon {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--space-5);
+  border-radius: var(--wp-radius);
+  object-fit: cover;
+}
+
+.startTitle {
+  margin: 0 0 var(--space-4);
+  font-size: 32px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--color-text);
+}
+
+.startBody {
+  margin: 0 auto var(--space-6);
+  max-width: 28rem;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--color-text-secondary);
+  font-weight: var(--font-medium);
 }
 
 .disclaimer {
-  margin-top: var(--space-5);
+  margin: var(--space-8) auto 0;
   max-width: 36rem;
-  margin-inline: auto;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 1.45;
   color: var(--color-text-muted);
-  text-align: center;
 }
 
-.compareWrap {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  margin-inline: auto;
-  max-width: 600px;
-}
-
-.compareTable {
-  width: 100%;
-  min-width: 520px;
-  border-collapse: collapse;
-  font-size: 14px;
-  line-height: 1.35;
-}
-
-.compareTable th,
-.compareTable td {
-  padding: var(--space-3) var(--space-2);
-  text-align: left;
-  vertical-align: top;
-  border-bottom: 1px solid var(--color-border);
-  color: var(--color-text-secondary);
-  font-weight: var(--font-normal);
-}
-
-.compareTable thead th {
-  color: var(--color-text);
-  font-weight: var(--font-medium);
-  white-space: nowrap;
-}
-
-.compareTable tbody th {
-  color: var(--color-text);
-  font-weight: var(--font-medium);
-  white-space: nowrap;
-}
-
-.compareHighlight {
-  color: var(--color-text) !important;
-  font-weight: var(--font-medium);
-}
-
-@media (max-width: 480px) {
-  .heroVisual {
-    height: 220px;
-  }
-
-  .heroMascot {
-    width: min(56%, 200px);
-  }
-
-  .heroCard {
-    width: min(38%, 130px);
-    border-radius: 12px;
-  }
-
-  .compareTable {
-    font-size: 13px;
+@media (prefers-reduced-motion: reduce) {
+  .scene {
+    transition: none;
   }
 }

@@ -36,6 +36,8 @@ The root currently contains duplicate-looking artifacts such as `node_modules 2`
 - The migration page is a special Russian-only page and intentionally hides the language switcher.
 - Footer legal/about routes should keep the same general header/footer shell as the rest of the site.
 - Direct navigation to client routes must work on Vercel via SPA rewrite config.
+- `/wallet` target design is documented in **Wallet Page — Target Design (canonical)** below; treat live `/wallet` as the visual north star for that page.
+- `/card` must redirect to `/wallet` (client router + Vercel redirects).
 
 ## Boot Flow
 1. `src/main.tsx` imports i18n and global CSS, then mounts `<App />` inside `React.StrictMode`.
@@ -57,7 +59,65 @@ The root currently contains duplicate-looking artifacts such as `node_modules 2`
 | `/terms` | `LegalPage` | Terms of service | Uses `legal.terms.*` locale keys |
 | `/contact` | `LegalPage` | Contact page | Uses `legal.contact.*` locale keys |
 | `/refund` | `LegalPage` | Refund policy | Uses `legal.refund.*` locale keys |
+| `/wallet` | `WalletPage` | Unified exchange + cards marketing | **Target design** — see below |
+| `/card` | redirect | Legacy card URL | Client + Vercel → `/wallet` |
 | `*` | `NotFoundPage` | 404 page | Background paws image, returns to `/` |
+
+## Wallet Page — Target Design (canonical)
+
+**Status (2026-08-04):** the live `/wallet` experience after gallery + concierge ship is the **target**. Do not restyle toward Apple Card light chrome, wide layouts, or new font stacks. Evolve copy/assets inside this system.
+
+**Source of truth files**
+- `src/pages/WalletPage.tsx` + `src/pages/WalletPage.module.css`
+- Copy: `src/i18n/locales/ru.json` → `walletPage`
+- Assets: `public/wallet-*.png`, `public/card-*-raqoon.png`, `public/wallet-app-icon.png`
+
+### Hard constraints (do not break)
+- **Fonts:** Raqoon site tokens only (e.g. TikTok Sans via global CSS). Do not introduce Inter/system stacks on this page.
+- **Width:** Keep the narrow ~**600px** gallery/content canvas — no Apple-scale wide marketing layout.
+- **Palette:** Raqoon dark tokens (`--color-bg`, `--color-surface`, `--color-text`, `--color-accent` / `#53FF76`). Not Apple light gray/white page chrome.
+- **Chrome:** Reuse existing site `Header` / `Footer`. No sticky Apple-like local product nav.
+- **Routing:** `/wallet` is exchange + cards. `/card` and `/card/` permanently redirect to `/wallet`.
+- **CTA:** Telegram bot `https://t.me/raqoonwalletbot?start=17510` (keep consistent with wallet CTAs).
+
+### Composition (one job per section)
+1. **Hero** — brand-led wallet intro (site tokens).
+2. **`#overview`** — phone app peek only (`wallet-overview-app.png`), centered, flush to section bottom; no intro paragraph above.
+3. **Gallery** — Apple-like **2-col tall tiles** that **flip** (+ ↔ ×), not modals. Whole tile clickable. Tile order (data-driven in `ru.json`):
+   - `built` → `no-p2p` → `entity` → `speed` → `subscription` → `premium` → `concierge` → `privacy`
+4. **Final / start** — app icon (`wallet-app-icon.png`, rounded like tiles) above «Переходи на Raqoon Wallet.» + short body + CTA + disclaimer.
+
+### Gallery interaction & Safari
+- Flip via `preserve-3d` + `rotateY`. **Do not** put `overflow: hidden` on the 3D `.face` — Safari then mirrors front text; clip on `.facePad` / `.backPad` instead.
+- Keep `-webkit-backface-visibility` / `-webkit-transform-style`.
+
+### Typography accents (green = accent / `#53FF76`)
+Patterns to preserve:
+- Built: «Создан для тебя.» white / «Работает в Telegram.» green — large privacy-scale type; phone art bottom-right, clear of headline and `+`.
+- Fee half: «Без лишней комиссии.» greentext / «Только курс.» white — `.feeHeadline`.
+- QR half: «QR СБП.» greentext / «Плати в магазинах.» white — same `.feeHeadline`.
+- Speed: «Обмен за 2 минуты» white / «USDT в RUB и обратно» green — privacy-scale size, **no** exchange widget image on front.
+- Cards: subscription «подписок.» green; premium «Премиум.» green — card art shows PS marks (Visa/MC), not UI badges.
+- Concierge after cards: «Консьерж.» white / «Бесплатно.» green; simple headset SVG (privacy-lock weight).
+- Privacy: «Твои деньги.» white / «Твои правила.» green.
+
+### Mobile (`max-width: 519px`)
+- Stack tiles to one column.
+- Half-tile headlines (`.feeHeadline`) must match built/privacy display size: `clamp(52px, 11vw, 64px)`.
+- Mobile overrides for `.feeHeadline` / `.productMediaBuilt` must be declared **after** base rules (cascade bug otherwise).
+- Shrink built phone art on mobile so it never touches the headline.
+
+### Product copy truths
+- Exchange: no separate commission — **only rate/spread** (soft wording).
+- Two cards: Subscription Visa ~20 USDT; Premium Mastercard ~60 USDT (Apple Pay / Google Pay on Premium).
+- Concierge: free for the user; cash/travel/bookings/personal tasks worldwide.
+- Built tile back: separate обмен vs карты — do not imply USDT payout lands “onto” the virtual Visa/MC as one step.
+- Disclaimer includes: not an offer; card/app design may differ; licensed exchangers; crypto risk; One Label LTD ©.
+
+### Visual budget
+- Prefer product photography / real UI peeks over abstract purple gradients.
+- No extra sticky chips, stat strips, or hero card clutter.
+- Motion: intentional flip (+ scale on toggle); don’t add noisy decoration motion.
 
 ## Routing and Language: Critical Behavior
 This project separates route choice from language choice.

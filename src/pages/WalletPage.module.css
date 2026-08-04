@@ -37,11 +37,14 @@
   justify-content: center;
   min-height: 44px;
   padding: 11px 22px;
+  border: none;
   border-radius: var(--radius-full);
   background: var(--color-primary);
   color: var(--color-bg);
+  font-family: inherit;
   font-size: 15px;
   font-weight: var(--font-medium);
+  cursor: pointer;
 }
 
 .btnLight {
@@ -54,8 +57,10 @@
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   color: var(--color-text);
+  font-family: inherit;
   font-size: 15px;
   font-weight: var(--font-medium);
+  cursor: pointer;
 }
 
 /* —— Hero —— */

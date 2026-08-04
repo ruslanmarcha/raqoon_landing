@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type MouseEvent as ReactMouseEvent } from 'react'
-import { useLocation } from 'react-router-dom'
+import { Navigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
@@ -144,6 +144,7 @@ function ConciergeIcon() {
 export function WalletPage() {
   const { i18n } = useTranslation()
   const { hash } = useLocation()
+  const isRu = i18n.language.startsWith('ru')
   const t = useMemo(() => i18n.getFixedT('ru'), [i18n])
   const [openId, setOpenId] = useState<string | null>(null)
 
@@ -151,10 +152,6 @@ export function WalletPage() {
     () => asArray<GalleryTile>(t('walletPage.tiles', { returnObjects: true })),
     [t],
   )
-
-  useEffect(() => {
-    if (!i18n.language.startsWith('ru')) void i18n.changeLanguage('ru')
-  }, [i18n])
 
   useEffect(() => {
     if (hash) {
@@ -170,6 +167,10 @@ export function WalletPage() {
   const toggle = (id: string) => setOpenId((cur) => (cur === id ? null : id))
 
   const onCtaClick = (e: ReactMouseEvent) => e.stopPropagation()
+
+  if (!isRu) {
+    return <Navigate to="/" replace />
+  }
 
   return (
     <>

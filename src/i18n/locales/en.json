@@ -227,91 +227,74 @@
     "badgeAriaAppGallery": "Coming soon to AppGallery"
   },
   "referralPage": {
+    "brand": "Referral program",
+    "openTile": "Open: {{title}}",
+    "closeTile": "Close",
     "hero": {
-      "titleVariants": [
-        "Invite friends — get up to 30 days free",
-        "Share access — get bonus days",
-        "Bring friends and get a free subscription"
-      ],
-      "subtitle": "Share your promo code and get bonus days when your friends pay.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Invite friends.\nUp to 30 days free.",
+      "cta": "Get promo code"
     },
-    "howItWorks": {
-      "title": "How it works",
-      "steps": [
-        "Get a promo code in the Telegram bot or in the app.",
-        "Send the promo code to a friend.",
-        "Your friend pays for a subscription.",
-        "You get bonus days."
-      ]
-    },
-    "friendBonus": {
-      "title": "Friend bonus",
-      "description": "Your friend gets +10 free days after paying for the first month."
-    },
-    "yourReward": {
-      "title": "Your reward",
-      "description": "The more months your friend pays for, the more bonus days you get.",
-      "rows": [
-        {
-          "period": "1–5 months",
-          "bonus": "+7 days"
-        },
-        {
-          "period": "6–11 months",
-          "bonus": "+14 days"
-        },
-        {
-          "period": "12+ months",
-          "bonus": "+30 days"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Accrual condition",
-      "description": "Bonus is credited only if you have an active subscription."
-    },
-    "timing": {
-      "title": "Accrual time",
-      "description": "Bonus usually appears right away. Maximum accrual time is up to 7 days."
-    },
-    "limits": {
-      "title": "Restrictions",
-      "items": [
-        "Bonus days cannot be withdrawn or exchanged for money.",
-        "Promo codes cannot be combined with other promotions.",
-        "Promo code works only for the first payment."
-      ]
-    },
-    "important": {
-      "title": "Important",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Old promo codes no longer work.",
-      "useNew": "Use a new promo code from:",
-      "sources": [
-        "Raqoon Telegram bot.",
-        "Raqoon mobile app."
-      ]
-    },
-    "reuse": {
-      "title": "Promo code reuse",
-      "description": "If payment is not completed or is canceled, the promo code cannot be used again."
-    },
-    "campaign": {
-      "title": "Campaign period",
-      "inline": "{{title}}. {{description}}",
-      "description": "The campaign is valid until December 31, 2026 and may be extended."
-    },
-    "share": {
-      "title": "Raqoon referral promo code",
-      "text": "Join with my promo code:"
-    },
-    "micro": {
-      "copyPromo": "Copy promo code",
-      "getPromo": "Get promo code",
-      "share": "Share",
-      "copySuccess": "Promo code copied",
-      "applyError": "Could not apply promo code. Please try again later or contact support."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "How it\nworks.",
+        "sub": "Get a promo code, send it to a friend — earn bonus days when they pay.",
+        "detailTitle": "How it works",
+        "detailBody": "Get a promo code in the Telegram bot or in the app. Send it to a friend. When they pay for a subscription, you get bonus days.",
+        "cta": "Get promo code"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Friend.",
+        "headline": "+10 days.",
+        "detailTitle": "Friend bonus",
+        "detailBody": "Your friend gets +10 free days after paying for the first month.",
+        "cta": "Get promo code"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "You.",
+        "headline": "Up to +30 days.",
+        "detailTitle": "Your reward",
+        "detailBody": "The more months your friend pays for, the more bonus days you get. 1–5 months: +7 days. 6–11 months: +14 days. 12+ months: +30 days.",
+        "cta": "Get promo code"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Rule.",
+        "headline": "Active plan needed.",
+        "detailTitle": "Accrual conditions",
+        "detailBody": "Bonus is credited only if you have an active subscription. Usually appears right away. Maximum accrual time is up to 7 days.",
+        "cta": "Get promo code"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Rules.",
+        "headline": "No surprises.",
+        "detailTitle": "Restrictions",
+        "detailBody": "Old promo codes no longer work — get a new one from the Telegram bot or the app. Bonus days cannot be withdrawn or exchanged for money. Promo codes cannot be combined with other promotions and work only for the first payment. If payment is not completed or is canceled, the promo code cannot be used again. Campaign runs until December 31, 2026 and may be extended.",
+        "cta": "Get promo code"
+      }
+    ],
+    "final": {
+      "headline": "Get your promo code.",
+      "body": "Share with friends and earn bonus days when they pay.",
+      "cta": "Get promo code"
     }
   },
   "about": {

@@ -1,180 +1,290 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useState, type MouseEvent as ReactMouseEvent } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
-import { FeatureList } from '../components/FeatureList/FeatureList'
-import type { FeatureItemData } from '../components/FeatureItem/FeatureItem'
-import styles from './DownloadPage.module.css'
-import pricingStyles from '../components/Pricing/Pricing.module.css'
+import { useProfilePortal } from '../contexts/ProfilePortalContext'
+import styles from './WalletPage.module.css'
+import local from './ReferralPage.module.css'
 
-const REFERRAL_HERO_IMAGE_SRC = '/referral-hero.png'
-const BOT_URL = 'https://t.me/raqoonbot'
+type TileSpan = 'full' | 'half'
+type TileTheme = 'light' | 'dark' | 'soft'
 
-type RewardRow = {
-  period: string
-  bonus: string
+type GalleryTile = {
+  id: string
+  span: TileSpan
+  theme: TileTheme
+  frontKind: 'headline'
+  headline: string
+  accent?: string
+  sub?: string
+  detailTitle: string
+  detailBody: string
+  cta?: string
+}
+
+const REFERRAL_HERO_SRC = '/referral-hero.png'
+const START_ICON = '/wallet-app-icon.png'
+
+function asArray<T>(v: unknown): T[] {
+  return Array.isArray(v) ? (v as T[]) : []
+}
+
+function Lines({ text, className }: { text: string; className?: string }) {
+  return (
+    <>
+      {text.split('\n').map((line) => (
+        <span key={line} className={className}>
+          {line}
+        </span>
+      ))}
+    </>
+  )
+}
+
+function PlusIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+      <path d="M7 1v12M1 7h12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+function CloseIcon() {
+  return (
+    <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true">
+      <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+/** Rules motif — clipboard with aligned checklist */
+function RulesIcon() {
+  return (
+    <svg className={styles.lockSvg} viewBox="0 0 80 96" fill="none" aria-hidden="true">
+      <rect
+        x="16"
+        y="18"
+        width="48"
+        height="62"
+        rx="12"
+        fill="currentColor"
+        opacity="0.14"
+        stroke="currentColor"
+        strokeWidth="4"
+      />
+      <path
+        d="M32 18v-2a8 8 0 0 1 16 0v2"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+        opacity="0.92"
+      />
+      <path
+        d="M28 40h24M28 52h24M28 64h24"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+        opacity="0.92"
+      />
+    </svg>
+  )
 }
 
 export function ReferralPage() {
   const { t, i18n } = useTranslation()
+  const { hash } = useLocation()
+  const { openProfilePortal } = useProfilePortal()
   const variant = i18n.language.startsWith('ru') ? 'ru' : 'ww'
-  const importantInline = t('referralPage.important.inline', {
-    title: t('referralPage.important.title'),
-    oldCode: t('referralPage.important.oldCode'),
-    defaultValue: '{{title}}: {{oldCode}}',
-  })
-  const campaignInline = t('referralPage.campaign.inline', {
-    title: t('referralPage.campaign.title'),
-    description: t('referralPage.campaign.description'),
-    defaultValue: '{{title}}. {{description}}',
-  })
+  const [openId, setOpenId] = useState<string | null>(null)
 
-  const heroTitles = useMemo(
-    () => t('referralPage.hero.titleVariants', { returnObjects: true }) as string[],
+  const tiles = useMemo(
+    () => asArray<GalleryTile>(t('referralPage.tiles', { returnObjects: true })),
     [t, i18n.language],
-  )
-  const howItWorks = useMemo(
-    () => t('referralPage.howItWorks.steps', { returnObjects: true }) as string[],
-    [t, i18n.language],
-  )
-  const rewards = useMemo(
-    () => t('referralPage.yourReward.rows', { returnObjects: true }) as RewardRow[],
-    [t, i18n.language],
-  )
-  const limits = useMemo(
-    () => t('referralPage.limits.items', { returnObjects: true }) as string[],
-    [t, i18n.language],
-  )
-  const importantSources = useMemo(
-    () => t('referralPage.important.sources', { returnObjects: true }) as string[],
-    [t, i18n.language],
-  )
-
-  const howItWorksItems: FeatureItemData[] = useMemo(
-    () => howItWorks.map((step) => ({ label: step })),
-    [howItWorks],
-  )
-  const limitsItems: FeatureItemData[] = useMemo(
-    () => limits.map((item) => ({ label: item })),
-    [limits],
-  )
-  const importantSourceItems: FeatureItemData[] = useMemo(
-    () => importantSources.map((item) => ({ label: item })),
-    [importantSources],
-  )
-  const rewardItems: FeatureItemData[] = useMemo(
-    () => rewards.map((row) => ({ label: `${row.period} - ${row.bonus}` })),
-    [rewards],
-  )
-  const leftCardItems: FeatureItemData[] = useMemo(
-    () => [
-      { label: t('referralPage.friendBonus.description') },
-      { label: t('referralPage.accrual.description') },
-      { label: t('referralPage.timing.description') },
-    ],
-    [t, i18n.language],
-  )
-  const rightCardItems: FeatureItemData[] = useMemo(
-    () => rewardItems,
-    [rewardItems],
   )
 
   useEffect(() => {
+    if (hash) {
+      const el = document.getElementById(hash.replace('#', ''))
+      if (el) {
+        requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+        return
+      }
+    }
     window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [])
+  }, [hash])
+
+  const toggle = (id: string) => setOpenId((cur) => (cur === id ? null : id))
+
+  const onCtaClick = (e: ReactMouseEvent) => {
+    e.stopPropagation()
+    openProfilePortal()
+  }
 
   return (
     <>
       <SEOHead variant={variant} page="referral" />
       <Header />
-      <main className={styles.root}>
-        <section className={styles.hero}>
-          <div className="container">
-            <div className={styles.heroInner}>
-              <div className={styles.mascot} aria-hidden="true">
-                <img src={REFERRAL_HERO_IMAGE_SRC} alt="" className={styles.mascotImg} />
-              </div>
-              <h1 className={styles.heroTitle}>{heroTitles[0]}</h1>
-              <p className={styles.heroLead}>{t('referralPage.hero.subtitle')}</p>
-              <a
-                href={BOT_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-secondary btn-lg"
-              >
-                {t('referralPage.micro.getPromo')}
-              </a>
+
+      <main className={styles.page}>
+        <section id="top" className={styles.hero}>
+          <div className={styles.wrap}>
+            <p className={styles.heroBrand}>{t('referralPage.brand')}</p>
+            <h1 className={`${styles.heroHeadline} ${local.heroHeadlineAccent}`}>
+              <Lines text={String(t('referralPage.hero.headline'))} className={styles.blockLine} />
+            </h1>
+            <button type="button" className={styles.btnDark} onClick={openProfilePortal}>
+              {t('referralPage.hero.cta')}
+            </button>
+          </div>
+        </section>
+
+        <section id="overview" className={styles.intro}>
+          <div className={styles.wrap}>
+            <div className={`${styles.introMedia} ${local.introWide}`}>
+              <img
+                src={`${REFERRAL_HERO_SRC}?v=cool`}
+                alt={String(t('referralPage.brand'))}
+                width={1024}
+                height={529}
+              />
             </div>
           </div>
         </section>
 
-        <section className={`section ${styles.sectionBlock}`}>
-          <div className="container">
-            <h2 className={styles.sectionHeading}>{t('referralPage.howItWorks.title')}</h2>
-            <div className={`${styles.featuresCard} ${styles.featuresCardPlain}`}>
-              <FeatureList items={howItWorksItems} className={styles.featureList} />
-            </div>
-          </div>
-        </section>
+        <section id="gallery" className={styles.gallery}>
+          <div className={styles.galleryWrap}>
+            <div className={styles.tiles}>
+              {tiles.map((tile) => {
+                const open = openId === tile.id
+                const themeClass =
+                  tile.theme === 'dark'
+                    ? styles.tileDark
+                    : tile.theme === 'soft'
+                      ? styles.tileSoft
+                      : styles.tileLight
+                const spanClass = tile.span === 'full' ? styles.tileFull : styles.tileHalf
+                const isFeatureFace = tile.id === 'how'
+                const isRulesFace = tile.id === 'limits'
+                const isHalfAccent = tile.span === 'half'
 
-        <section className={`section ${styles.sectionBlock}`} id="referral-benefits">
-          <div className="container">
-            <div className={pricingStyles.grid}>
-              <div className={`${pricingStyles.card} ${pricingStyles.cardBase}`}>
-                <div className={pricingStyles.cardHeader}>
-                  <span className={pricingStyles.badge}>{t('referralPage.friendBonus.title')}</span>
-                </div>
-                <FeatureList items={leftCardItems} className={pricingStyles.features} />
-              </div>
+                return (
+                  <article
+                    key={tile.id}
+                    id={tile.id === 'reward' ? 'referral-benefits' : undefined}
+                    className={`${styles.tile} ${spanClass} ${themeClass} ${open ? styles.tileOpen : ''}`}
+                    onClick={() => toggle(tile.id)}
+                    role="presentation"
+                  >
+                    <div className={styles.scene}>
+                      <div className={`${styles.face} ${styles.faceFront}`}>
+                        <div
+                          className={`${styles.facePad} ${
+                            isFeatureFace || isRulesFace ? styles.privacyFace : ''
+                          }`}
+                        >
+                          <h2
+                            className={`${styles.tileHeadline} ${
+                              isFeatureFace
+                                ? styles.privacyHeadline
+                                : isHalfAccent
+                                  ? styles.feeHeadline
+                                  : ''
+                            }`}
+                          >
+                            {tile.accent ? (
+                              <>
+                                <span className={styles.gradText}>{tile.accent}</span>
+                                {tile.headline ? (
+                                  <>
+                                    {'\n'}
+                                    <Lines text={tile.headline} className={styles.blockLine} />
+                                  </>
+                                ) : null}
+                              </>
+                            ) : (
+                              <Lines text={tile.headline} className={styles.blockLine} />
+                            )}
+                          </h2>
+                          {tile.sub ? (
+                            <p
+                              className={`${styles.tileSub} ${
+                                isFeatureFace ? styles.privacySub : ''
+                              }`}
+                            >
+                              {tile.sub}
+                            </p>
+                          ) : null}
+                          {isRulesFace ? (
+                            <div
+                              className={`${styles.privacyLock} ${local.rulesIcon}`}
+                              aria-hidden="true"
+                            >
+                              <RulesIcon />
+                            </div>
+                          ) : null}
+                        </div>
+                      </div>
 
-              <div className={`${pricingStyles.card} ${pricingStyles.cardPremium} ${styles.referralRewardCard}`}>
-                  <div className={styles.referralRewardContent}>
-                    <div className={pricingStyles.cardHeader}>
-                      <span className={pricingStyles.badge}>{t('referralPage.yourReward.title')}</span>
+                      <div className={`${styles.face} ${styles.faceBack}`}>
+                        <div className={styles.backPad}>
+                          <h3 className={styles.backTitle}>{tile.detailTitle}</h3>
+                          <p className={styles.backBody}>{tile.detailBody}</p>
+                          {tile.cta ? (
+                            <button
+                              type="button"
+                              className={styles.btnDark}
+                              onClick={onCtaClick}
+                            >
+                              {tile.cta}
+                            </button>
+                          ) : null}
+                        </div>
+                      </div>
                     </div>
-                    <p className={styles.rewardIntro}>{t('referralPage.yourReward.description')}</p>
-                    <FeatureList items={rightCardItems} className={pricingStyles.features} />
-                  </div>
-                  <div className={styles.referralRewardDecor} aria-hidden="true">
-                    <img src="/eyes.png" alt="" className={styles.eyesImg} width={300} height={200} />
-                  </div>
-              </div>
+
+                    <button
+                      type="button"
+                      className={`${styles.toggle} ${open ? styles.toggleClose : ''}`}
+                      aria-expanded={open}
+                      aria-label={
+                        open
+                          ? String(t('referralPage.closeTile'))
+                          : String(t('referralPage.openTile', { title: tile.detailTitle }))
+                      }
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        toggle(tile.id)
+                      }}
+                    >
+                      {open ? <CloseIcon /> : <PlusIcon />}
+                    </button>
+                  </article>
+                )
+              })}
             </div>
           </div>
         </section>
 
-        <section className={`section ${styles.sectionBlock}`}>
-          <div className="container">
-            <div className={styles.premiumCard}>
-              <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{importantInline}</h2>
-                <p className={styles.prose}>{t('referralPage.important.useNew')}</p>
-                <FeatureList items={importantSourceItems} className={styles.premiumList} />
-              </div>
-              <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{t('referralPage.limits.title')}</h2>
-                <FeatureList items={limitsItems} className={styles.premiumList} />
-              </div>
-              <div className={styles.premiumSection}>
-                <h2 className={styles.blockTitle}>{t('referralPage.reuse.title')}</h2>
-                <p className={styles.prose}>{t('referralPage.reuse.description')}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className={`section ${styles.finalWrap}`}>
-          <div className="container">
-            <div className={styles.finalCard}>
-              <p className={styles.finalText}>{campaignInline}</p>
-              <a href={BOT_URL} target="_blank" rel="noopener noreferrer" className={`btn btn-primary ${styles.finalCta}`}>
-                {t('referralPage.micro.getPromo')}
-              </a>
-            </div>
+        <section className={styles.start}>
+          <div className={styles.wrap}>
+            <img
+              src={START_ICON}
+              alt="Raqoon"
+              width={80}
+              height={80}
+              className={styles.startIcon}
+            />
+            <h2 className={styles.startTitle}>{t('referralPage.final.headline')}</h2>
+            <p className={styles.startBody}>{t('referralPage.final.body')}</p>
+            <button type="button" className={styles.btnLight} onClick={openProfilePortal}>
+              {t('referralPage.final.cta')}
+            </button>
           </div>
         </section>
       </main>
+
       <Footer />
     </>
   )

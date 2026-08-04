@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Segera di AppGallery"
   },
   "referralPage": {
+    "brand": "Program referral",
+    "openTile": "Buka: {{title}}",
+    "closeTile": "Tutup",
     "hero": {
-      "titleVariants": [
-        "Undang teman — hingga 30 hari gratis",
-        "Bagikan akses — dapatkan hari bonus",
-        "Ajak teman dan dapatkan langganan gratis"
-      ],
-      "subtitle": "Bagikan kode promo dan dapatkan hari bonus saat temanmu membayar.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Ajak teman.\nHingga 30 hari gratis.",
+      "cta": "Dapatkan kode promo"
     },
-    "howItWorks": {
-      "title": "Cara kerja",
-      "steps": [
-        "Dapatkan kode promo di bot Telegram atau di aplikasi.",
-        "Kirim kode ke teman.",
-        "Teman membayar langganan.",
-        "Kamu mendapat hari bonus."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bonus untuk teman",
-      "description": "Temanmu mendapat +10 hari gratis setelah membayar bulan pertama."
-    },
-    "yourReward": {
-      "title": "Hadiahmu",
-      "description": "Semakin lama temanmu membayar, semakin banyak hari bonus yang kamu dapat.",
-      "rows": [
-        {
-          "period": "1–5 bulan",
-          "bonus": "+7 hari"
-        },
-        {
-          "period": "6–11 bulan",
-          "bonus": "+14 hari"
-        },
-        {
-          "period": "12+ bulan",
-          "bonus": "+30 hari"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Syarat pencairan",
-      "description": "Bonus hanya diberikan jika kamu punya langganan aktif."
-    },
-    "timing": {
-      "title": "Waktu pencairan",
-      "description": "Bonus biasanya muncul segera. Maksimum hingga 7 hari."
-    },
-    "limits": {
-      "title": "Batasan",
-      "items": [
-        "Hari bonus tidak bisa dicairkan atau ditukar uang.",
-        "Kode promo tidak bisa digabung dengan promo lain.",
-        "Kode promo hanya untuk pembayaran pertama."
-      ]
-    },
-    "important": {
-      "title": "Penting",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Kode promo lama sudah tidak berlaku.",
-      "useNew": "Gunakan kode promo baru dari:",
-      "sources": [
-        "Bot Telegram Raqoon.",
-        "Aplikasi seluler Raqoon."
-      ]
-    },
-    "reuse": {
-      "title": "Penggunaan ulang kode",
-      "description": "Jika pembayaran tidak selesai atau dibatalkan, kode tidak bisa dipakai lagi."
-    },
-    "campaign": {
-      "title": "Masa kampanye",
-      "inline": "{{title}}. {{description}}",
-      "description": "Kampanye berlaku hingga 31 Desember 2026 dan dapat diperpanjang."
-    },
-    "share": {
-      "title": "Kode referral Raqoon",
-      "text": "Gabung dengan kode promoku:"
-    },
-    "micro": {
-      "copyPromo": "Salin kode promo",
-      "getPromo": "Dapatkan kode promo",
-      "share": "Bagikan",
-      "copySuccess": "Kode disalin",
-      "applyError": "Tidak bisa menerapkan kode. Coba lagi nanti atau hubungi dukungan."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Cara\nkerjanya.",
+        "sub": "Ambil kode promo, kirim ke teman — dapat hari bonus saat mereka bayar.",
+        "detailTitle": "Cara kerjanya",
+        "detailBody": "Ambil kode promo di bot Telegram atau di aplikasi. Kirim ke teman. Saat mereka bayar langganan, kamu dapat hari bonus.",
+        "cta": "Dapatkan kode promo"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Teman.",
+        "headline": "+10 hari.",
+        "detailTitle": "Bonus teman",
+        "detailBody": "Temanmu mendapat +10 hari gratis setelah bayar bulan pertama.",
+        "cta": "Dapatkan kode promo"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Kamu.",
+        "headline": "Hingga +30 hari.",
+        "detailTitle": "Hadiahmu",
+        "detailBody": "Semakin banyak bulan yang dibayar teman, semakin banyak hari bonusmu. 1–5 bulan: +7 hari. 6–11 bulan: +14 hari. 12+ bulan: +30 hari.",
+        "cta": "Dapatkan kode promo"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Syarat.",
+        "headline": "Paket aktif.",
+        "detailTitle": "Syarat kredit",
+        "detailBody": "Bonus hanya dikreditkan jika kamu punya langganan aktif. Biasanya langsung. Maksimal hingga 7 hari.",
+        "cta": "Dapatkan kode promo"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Aturan.",
+        "headline": "Tanpa kejutan.",
+        "detailTitle": "Batasan",
+        "detailBody": "Kode promo lama tidak berlaku — ambil yang baru di bot Telegram atau aplikasi. Hari bonus tidak bisa dicairkan atau ditukar uang. Kode tidak bisa digabung dengan promo lain dan hanya berlaku di pembayaran pertama. Jika pembayaran tidak selesai atau dibatalkan, kode tidak bisa dipakai lagi. Kampanye hingga 31 Desember 2026 dan bisa diperpanjang.",
+        "cta": "Dapatkan kode promo"
+      }
+    ],
+    "final": {
+      "headline": "Ambil kode promomu.",
+      "body": "Bagikan ke teman dan dapat hari bonus saat mereka bayar.",
+      "cta": "Dapatkan kode promo"
     }
   },
   "about": {

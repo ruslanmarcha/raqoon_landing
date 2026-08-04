@@ -175,6 +175,21 @@ function buildAllowedLanguages(
 export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
   const countryCode = await fetchVisitorCountryCode()
 
+  // Local preview: show every supported language so copy can be checked without geo tricks.
+  if (import.meta.env.DEV) {
+    const preferred = getStoredLanguage()
+    const locale =
+      preferred && isLocaleSupported(preferred, supportedLngs)
+        ? preferred
+        : detectBrowserLanguage(supportedLngs)
+    return {
+      locale,
+      allowLanguageSwitch: true,
+      countryCode,
+      allowedLanguages: buildAllowedLanguages(supportedLngs, locale, true),
+    }
+  }
+
   if (countryCode === 'RU') {
     const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'
     return {

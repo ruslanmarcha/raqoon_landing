@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Wkrótce w AppGallery"
   },
   "referralPage": {
+    "brand": "Program poleceń",
+    "openTile": "Otwórz: {{title}}",
+    "closeTile": "Zamknij",
     "hero": {
-      "titleVariants": [
-        "Zapraszaj znajomych — do 30 dni za darmo",
-        "Udostępnij dostęp — zdobądź bonusowe dni",
-        "Przyciągnij znajomych i zyskaj darmową subskrypcję"
-      ],
-      "subtitle": "Udostępnij kod promocyjny i zdobądź bonusowe dni, gdy znajomi zapłacą.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Zapraszaj znajomych.\nDo 30 dni gratis.",
+      "cta": "Pobierz kod promo"
     },
-    "howItWorks": {
-      "title": "Jak to działa",
-      "steps": [
-        "Weź kod promocyjny w bocie Telegram lub w aplikacji.",
-        "Wyślij kod znajomemu.",
-        "Znajomy opłaca subskrypcję.",
-        "Ty otrzymujesz bonusowe dni."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bonus dla znajomego",
-      "description": "Znajomy dostaje +10 dni gratis po opłaceniu pierwszego miesiąca."
-    },
-    "yourReward": {
-      "title": "Twoja nagroda",
-      "description": "Im dłużej znajomy płaci, tym więcej bonusowych dni otrzymujesz.",
-      "rows": [
-        {
-          "period": "1–5 mies.",
-          "bonus": "+7 dni"
-        },
-        {
-          "period": "6–11 mies.",
-          "bonus": "+14 dni"
-        },
-        {
-          "period": "12+ mies.",
-          "bonus": "+30 dni"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Warunek naliczenia",
-      "description": "Bonus jest naliczany tylko przy aktywnej subskrypcji."
-    },
-    "timing": {
-      "title": "Czas naliczenia",
-      "description": "Bonus zwykle pojawia się od razu. Maksymalnie do 7 dni."
-    },
-    "limits": {
-      "title": "Ograniczenia",
-      "items": [
-        "Bonusowych dni nie można wypłacić ani wymienić na pieniądze.",
-        "Kody promocyjne nie łączą się z innymi promocjami.",
-        "Kod działa tylko przy pierwszej płatności."
-      ]
-    },
-    "important": {
-      "title": "Ważne",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Stare kody promocyjne nie działają.",
-      "useNew": "Użyj nowego kodu z:",
-      "sources": [
-        "Bota Telegram Raqoon.",
-        "Aplikacji mobilnej Raqoon."
-      ]
-    },
-    "reuse": {
-      "title": "Ponowne użycie kodu",
-      "description": "Jeśli płatność nie zostanie dokończona lub zostanie anulowana, kodu nie można użyć ponownie."
-    },
-    "campaign": {
-      "title": "Okres kampanii",
-      "inline": "{{title}}. {{description}}",
-      "description": "Kampania obowiązuje do 31 grudnia 2026 r. i może zostać przedłużona."
-    },
-    "share": {
-      "title": "Kod polecający Raqoon",
-      "text": "Dołącz moim kodem:"
-    },
-    "micro": {
-      "copyPromo": "Kopiuj kod",
-      "getPromo": "Weź kod promocyjny",
-      "share": "Udostępnij",
-      "copySuccess": "Skopiowano kod",
-      "applyError": "Nie udało się zastosować kodu. Spróbuj później lub napisz do wsparcia."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Jak to\ndziała.",
+        "sub": "Weź kod promo, wyślij znajomemu — dostaniesz dni bonusowe, gdy zapłaci.",
+        "detailTitle": "Jak to działa",
+        "detailBody": "Weź kod promo w bocie Telegram lub w aplikacji. Wyślij go znajomemu. Gdy opłaci subskrypcję, dostajesz dni bonusowe.",
+        "cta": "Pobierz kod promo"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Znajomy.",
+        "headline": "+10 dni.",
+        "detailTitle": "Bonus dla znajomego",
+        "detailBody": "Znajomy dostaje +10 dni gratis po opłaceniu pierwszego miesiąca.",
+        "cta": "Pobierz kod promo"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Ty.",
+        "headline": "Do +30 dni.",
+        "detailTitle": "Twoja nagroda",
+        "detailBody": "Im dłużej znajomy płaci, tym więcej dni bonusowych dostajesz. 1–5 miesięcy: +7 dni. 6–11 miesięcy: +14 dni. 12+ miesięcy: +30 dni.",
+        "cta": "Pobierz kod promo"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Zasada.",
+        "headline": "Aktywna subskrypcja.",
+        "detailTitle": "Warunki naliczenia",
+        "detailBody": "Bonus jest naliczany tylko przy aktywnej subskrypcji. Zwykle od razu. Maksymalnie do 7 dni.",
+        "cta": "Pobierz kod promo"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Zasady.",
+        "headline": "Bez niespodzianek.",
+        "detailTitle": "Ograniczenia",
+        "detailBody": "Stare kody promo już nie działają — weź nowy w bocie Telegram lub w aplikacji. Dni bonusowych nie można wypłacić ani wymienić na pieniądze. Kody nie łączą się z innymi promocjami i działają tylko przy pierwszej płatności. Jeśli płatność nie zostanie dokończona lub zostanie anulowana, kodu nie da się użyć ponownie. Akcja do 31 grudnia 2026 i może zostać przedłużona.",
+        "cta": "Pobierz kod promo"
+      }
+    ],
+    "final": {
+      "headline": "Pobierz swój kod promo.",
+      "body": "Udostępnij znajomym i zdobywaj dni bonusowe, gdy zapłacą.",
+      "cta": "Pobierz kod promo"
     }
   },
   "about": {

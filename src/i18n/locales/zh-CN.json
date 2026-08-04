@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "即将在 AppGallery 推出"
   },
   "referralPage": {
+    "brand": "推荐计划",
+    "openTile": "打开：{{title}}",
+    "closeTile": "关闭",
     "hero": {
-      "titleVariants": [
-        "邀请好友 — 最多 30 天免费",
-        "分享访问 — 获得奖励天数",
-        "带来好友，赢取免费订阅"
-      ],
-      "subtitle": "分享优惠码，好友付款即可获得奖励天数。",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "邀请好友。\n最高免费 30 天。",
+      "cta": "获取优惠码"
     },
-    "howItWorks": {
-      "title": "如何运作",
-      "steps": [
-        "在 Telegram 机器人或应用中获取优惠码。",
-        "把码发给好友。",
-        "好友支付订阅。",
-        "你获得奖励天数。"
-      ]
-    },
-    "friendBonus": {
-      "title": "好友奖励",
-      "description": "好友支付首月后可获得 +10 天免费。"
-    },
-    "yourReward": {
-      "title": "你的奖励",
-      "description": "好友付费越久，你获得的奖励天数越多。",
-      "rows": [
-        {
-          "period": "1–5 个月",
-          "bonus": "+7 天"
-        },
-        {
-          "period": "6–11 个月",
-          "bonus": "+14 天"
-        },
-        {
-          "period": "12 个月以上",
-          "bonus": "+30 天"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "发放条件",
-      "description": "仅在你有有效订阅时才会发放奖励。"
-    },
-    "timing": {
-      "title": "到账时间",
-      "description": "奖励通常立即到账，最长不超过 7 天。"
-    },
-    "limits": {
-      "title": "限制",
-      "items": [
-        "奖励天数不可提现或兑换现金。",
-        "优惠码不可与其他活动叠加。",
-        "优惠码仅适用于首次付款。"
-      ]
-    },
-    "important": {
-      "title": "重要提示",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "旧优惠码已失效。",
-      "useNew": "请使用来自以下渠道的新优惠码：",
-      "sources": [
-        "Raqoon Telegram 机器人。",
-        "Raqoon 手机应用。"
-      ]
-    },
-    "reuse": {
-      "title": "优惠码重复使用",
-      "description": "若付款未完成或已取消，优惠码不可再次使用。"
-    },
-    "campaign": {
-      "title": "活动期限",
-      "inline": "{{title}}. {{description}}",
-      "description": "活动有效期至 2026 年 12 月 31 日，可能延长。"
-    },
-    "share": {
-      "title": "Raqoon 推荐优惠码",
-      "text": "使用我的优惠码加入："
-    },
-    "micro": {
-      "copyPromo": "复制优惠码",
-      "getPromo": "获取优惠码",
-      "share": "分享",
-      "copySuccess": "已复制优惠码",
-      "applyError": "无法应用优惠码，请稍后重试或联系客服。"
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "如何\n运作。",
+        "sub": "获取优惠码发给好友——对方付款后你可获得奖励天数。",
+        "detailTitle": "如何运作",
+        "detailBody": "在 Telegram 机器人或 App 中获取优惠码，发给好友。好友支付订阅后，你将获得奖励天数。",
+        "cta": "获取优惠码"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "好友。",
+        "headline": "+10 天。",
+        "detailTitle": "好友奖励",
+        "detailBody": "好友支付首月后可获得 +10 天免费时长。",
+        "cta": "获取优惠码"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "你。",
+        "headline": "最高 +30 天。",
+        "detailTitle": "你的奖励",
+        "detailBody": "好友支付月数越多，你获得的奖励天数越多。1–5 个月：+7 天。6–11 个月：+14 天。12 个月及以上：+30 天。",
+        "cta": "获取优惠码"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "条件。",
+        "headline": "需有效订阅。",
+        "detailTitle": "到账条件",
+        "detailBody": "仅在你拥有有效订阅时到账。通常立刻到账。最长不超过 7 天。",
+        "cta": "获取优惠码"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "规则。",
+        "headline": "无意外。",
+        "detailTitle": "限制说明",
+        "detailBody": "旧优惠码已失效——请在 Telegram 机器人或 App 中领取新码。奖励天数不可提现或兑换现金。不可与其他活动叠加，且仅适用于首次付款。若付款未完成或取消，优惠码不可再次使用。活动截至 2026 年 12 月 31 日，可能会延长。",
+        "cta": "获取优惠码"
+      }
+    ],
+    "final": {
+      "headline": "领取你的优惠码。",
+      "body": "分享给好友，他们付款后你可获得奖励天数。",
+      "cta": "获取优惠码"
     }
   },
   "about": {

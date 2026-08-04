@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Bald bei AppGallery"
   },
   "referralPage": {
+    "brand": "Empfehlungsprogramm",
+    "openTile": "Öffnen: {{title}}",
+    "closeTile": "Schließen",
     "hero": {
-      "titleVariants": [
-        "Freunde einladen — bis zu 30 Tage gratis",
-        "Zugang teilen — Bonus-Tage erhalten",
-        "Freunde bringen und kostenloses Abo sichern"
-      ],
-      "subtitle": "Teile deinen Promo-Code und erhalte Bonus-Tage, wenn Freunde zahlen.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Freunde einladen.\nBis zu 30 Tage gratis.",
+      "cta": "Promo-Code holen"
     },
-    "howItWorks": {
-      "title": "So funktioniert's",
-      "steps": [
-        "Hol dir einen Promo-Code im Telegram-Bot oder in der App.",
-        "Schick den Code an einen Freund.",
-        "Dein Freund zahlt ein Abo.",
-        "Du erhältst Bonus-Tage."
-      ]
-    },
-    "friendBonus": {
-      "title": "Freunde-Bonus",
-      "description": "Dein Freund erhält +10 Gratistage nach Zahlung des ersten Monats."
-    },
-    "yourReward": {
-      "title": "Deine Belohnung",
-      "description": "Je länger dein Freund zahlt, desto mehr Bonus-Tage erhältst du.",
-      "rows": [
-        {
-          "period": "1–5 Monate",
-          "bonus": "+7 Tage"
-        },
-        {
-          "period": "6–11 Monate",
-          "bonus": "+14 Tage"
-        },
-        {
-          "period": "12+ Monate",
-          "bonus": "+30 Tage"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Bedingung für die Gutschrift",
-      "description": "Bonus wird nur gutgeschrieben, wenn du ein aktives Abo hast."
-    },
-    "timing": {
-      "title": "Zeitpunkt der Gutschrift",
-      "description": "Der Bonus erscheint meist sofort. Maximal bis zu 7 Tage."
-    },
-    "limits": {
-      "title": "Einschränkungen",
-      "items": [
-        "Bonus-Tage können nicht ausgezahlt oder in Geld umgetauscht werden.",
-        "Promo-Codes sind nicht mit anderen Aktionen kombinierbar.",
-        "Der Promo-Code gilt nur für die erste Zahlung."
-      ]
-    },
-    "important": {
-      "title": "Wichtig",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Alte Promo-Codes funktionieren nicht mehr.",
-      "useNew": "Nutze einen neuen Promo-Code aus:",
-      "sources": [
-        "dem Raqoon Telegram-Bot.",
-        "der Raqoon-App."
-      ]
-    },
-    "reuse": {
-      "title": "Erneute Nutzung des Promo-Codes",
-      "description": "Wird die Zahlung nicht abgeschlossen oder storniert, kann der Promo-Code nicht erneut verwendet werden."
-    },
-    "campaign": {
-      "title": "Kampfzeitraum",
-      "inline": "{{title}}. {{description}}",
-      "description": "Die Kampagne gilt bis zum 31. Dezember 2026 und kann verlängert werden."
-    },
-    "share": {
-      "title": "Raqoon Empfehlungs-Promo-Code",
-      "text": "Mach mit über meinen Promo-Code:"
-    },
-    "micro": {
-      "copyPromo": "Promo-Code kopieren",
-      "getPromo": "Promo-Code holen",
-      "share": "Teilen",
-      "copySuccess": "Promo-Code kopiert",
-      "applyError": "Promo-Code konnte nicht angewendet werden. Bitte später erneut versuchen oder den Support kontaktieren."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "So\nfunktioniert’s.",
+        "sub": "Hol dir einen Promo-Code, schick ihn einem Freund — und erhalte Bonustage, wenn er zahlt.",
+        "detailTitle": "So funktioniert’s",
+        "detailBody": "Hol dir einen Promo-Code im Telegram-Bot oder in der App. Schick ihn einem Freund. Wenn er ein Abo bezahlt, erhältst du Bonustage.",
+        "cta": "Promo-Code holen"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Freund.",
+        "headline": "+10 Tage.",
+        "detailTitle": "Bonus für Freunde",
+        "detailBody": "Dein Freund erhält +10 gratis Tage nach Zahlung des ersten Monats.",
+        "cta": "Promo-Code holen"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Du.",
+        "headline": "Bis +30 Tage.",
+        "detailTitle": "Deine Belohnung",
+        "detailBody": "Je mehr Monate dein Freund zahlt, desto mehr Bonustage bekommst du. 1–5 Monate: +7 Tage. 6–11 Monate: +14 Tage. 12+ Monate: +30 Tage.",
+        "cta": "Promo-Code holen"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Regel.",
+        "headline": "Aktives Abo nötig.",
+        "detailTitle": "Gutschrift",
+        "detailBody": "Der Bonus wird nur gutgeschrieben, wenn du ein aktives Abo hast. Meist sofort. Maximal bis zu 7 Tagen.",
+        "cta": "Promo-Code holen"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Regeln.",
+        "headline": "Keine Überraschungen.",
+        "detailTitle": "Einschränkungen",
+        "detailBody": "Alte Promo-Codes funktionieren nicht mehr — hol dir einen neuen im Telegram-Bot oder in der App. Bonustage lassen sich nicht auszahlen oder in Geld umtauschen. Promo-Codes sind nicht mit anderen Aktionen kombinierbar und gelten nur für die erste Zahlung. Wird die Zahlung nicht abgeschlossen oder storniert, kann der Code nicht erneut genutzt werden. Die Aktion gilt bis 31. Dezember 2026 und kann verlängert werden.",
+        "cta": "Promo-Code holen"
+      }
+    ],
+    "final": {
+      "headline": "Hol dir deinen Promo-Code.",
+      "body": "Teile ihn mit Freunden und erhalte Bonustage, wenn sie zahlen.",
+      "cta": "Promo-Code holen"
     }
   },
   "about": {

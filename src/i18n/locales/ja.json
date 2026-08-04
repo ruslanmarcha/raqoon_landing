@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "AppGalleryに近日登場"
   },
   "referralPage": {
+    "brand": "紹介プログラム",
+    "openTile": "開く: {{title}}",
+    "closeTile": "閉じる",
     "hero": {
-      "titleVariants": [
-        "友だちを招待 — 最大30日無料",
-        "アクセスを共有 — ボーナス日数を獲得",
-        "紹介で無料サブスク"
-      ],
-      "subtitle": "プロモコードを共有し、友だちが支払うとボーナス日数がもらえます。",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "友達を招待。\n最大30日無料。",
+      "cta": "プロモコードを取得"
     },
-    "howItWorks": {
-      "title": "仕組み",
-      "steps": [
-        "Telegramボットまたはアプリでプロモコードを取得。",
-        "友だちにコードを送る。",
-        "友だちがサブスクを支払う。",
-        "あなたにボーナス日数が付与される。"
-      ]
-    },
-    "friendBonus": {
-      "title": "友だちボーナス",
-      "description": "友だちは初月の支払い後に+10日無料。"
-    },
-    "yourReward": {
-      "title": "あなたの特典",
-      "description": "友だちの支払い期間が長いほど、ボーナス日数が増えます。",
-      "rows": [
-        {
-          "period": "1〜5か月",
-          "bonus": "+7日"
-        },
-        {
-          "period": "6〜11か月",
-          "bonus": "+14日"
-        },
-        {
-          "period": "12か月以上",
-          "bonus": "+30日"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "付与条件",
-      "description": "アクティブなサブスクがある場合のみボーナスが付与されます。"
-    },
-    "timing": {
-      "title": "付与タイミング",
-      "description": "通常すぐ反映。最長7日かかる場合があります。"
-    },
-    "limits": {
-      "title": "制限",
-      "items": [
-        "ボーナス日数は現金化・換金できません。",
-        "他のキャンペーンとの併用はできません。",
-        "プロモコードは初回支払いのみ有効です。"
-      ]
-    },
-    "important": {
-      "title": "重要",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "旧プロモコードは無効です。",
-      "useNew": "新しいプロモコードは次から：",
-      "sources": [
-        "Raqoon Telegramボット。",
-        "Raqoonモバイルアプリ。"
-      ]
-    },
-    "reuse": {
-      "title": "コードの再使用",
-      "description": "支払いが完了しない／キャンセルされた場合、コードは再使用できません。"
-    },
-    "campaign": {
-      "title": "キャンペーン期間",
-      "inline": "{{title}}. {{description}}",
-      "description": "2026年12月31日まで有効。延長される場合があります。"
-    },
-    "share": {
-      "title": "Raqoon紹介プロモコード",
-      "text": "私のプロモコードで参加："
-    },
-    "micro": {
-      "copyPromo": "コードをコピー",
-      "getPromo": "プロモコードを取得",
-      "share": "共有",
-      "copySuccess": "コピーしました",
-      "applyError": "コードを適用できませんでした。後で試すかサポートへ。"
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "仕組みは\nシンプル。",
+        "sub": "プロモコードを取得して友達に送る。友達が支払うとボーナス日数がもらえます。",
+        "detailTitle": "使い方",
+        "detailBody": "Telegramボットまたはアプリでプロモコードを取得。友達に送ってください。友達がサブスクを支払うと、ボーナス日数が付与されます。",
+        "cta": "プロモコードを取得"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "友達。",
+        "headline": "+10日。",
+        "detailTitle": "友達のボーナス",
+        "detailBody": "最初の1か月分の支払い後、友達は+10日無料になります。",
+        "cta": "プロモコードを取得"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "あなた。",
+        "headline": "最大+30日。",
+        "detailTitle": "あなたの特典",
+        "detailBody": "友達の支払い月数が多いほど、ボーナス日数も増えます。1〜5か月: +7日。6〜11か月: +14日。12か月以上: +30日。",
+        "cta": "プロモコードを取得"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "条件。",
+        "headline": "有効な契約が必要。",
+        "detailTitle": "付与条件",
+        "detailBody": "ボーナスは有効なサブスクがある場合のみ付与されます。通常はすぐ。最長7日以内。",
+        "cta": "プロモコードを取得"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "ルール。",
+        "headline": "サプライズなし。",
+        "detailTitle": "制限事項",
+        "detailBody": "古いプロモコードは使えません。Telegramボットまたはアプリで新しいコードを取得してください。ボーナス日数の換金・出金はできません。他キャンペーンとの併用不可で、初回支払いのみ有効です。支払い未完了またはキャンセルの場合、コードは再利用できません。キャンペーンは2026年12月31日まで（延長の可能性あり）。",
+        "cta": "プロモコードを取得"
+      }
+    ],
+    "final": {
+      "headline": "プロモコードを取得。",
+      "body": "友達と共有して、支払い時にボーナス日数をもらいましょう。",
+      "cta": "プロモコードを取得"
     }
   },
   "about": {

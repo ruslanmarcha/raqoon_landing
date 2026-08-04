@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Již brzy v AppGallery"
   },
   "referralPage": {
+    "brand": "Doporučovací program",
+    "openTile": "Otevřít: {{title}}",
+    "closeTile": "Zavřít",
     "hero": {
-      "titleVariants": [
-        "Pozvi přátele — až 30 dní zdarma",
-        "Sdílej přístup — získej bonusové dny",
-        "Přiveď přátele a získej předplatné zdarma"
-      ],
-      "subtitle": "Sdílej promo kód a získej bonusové dny, když přátelé zaplatí.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Pozvěte přátele.\nAž 30 dní zdarma.",
+      "cta": "Získat promo kód"
     },
-    "howItWorks": {
-      "title": "Jak to funguje",
-      "steps": [
-        "Získej promo kód v Telegram botovi nebo v aplikaci.",
-        "Pošli kód příteli.",
-        "Přítel zaplatí předplatné.",
-        "Ty dostaneš bonusové dny."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bonus pro přítele",
-      "description": "Přítel dostane +10 dní zdarma po zaplacení prvního měsíce."
-    },
-    "yourReward": {
-      "title": "Tvá odměna",
-      "description": "Čím déle přítel platí, tím víc bonusových dní dostaneš.",
-      "rows": [
-        {
-          "period": "1–5 měsíců",
-          "bonus": "+7 dní"
-        },
-        {
-          "period": "6–11 měsíců",
-          "bonus": "+14 dní"
-        },
-        {
-          "period": "12+ měsíců",
-          "bonus": "+30 dní"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Podmínka připsání",
-      "description": "Bonus se připíše jen pokud máš aktivní předplatné."
-    },
-    "timing": {
-      "title": "Čas připsání",
-      "description": "Bonus obvykle přijde hned. Nejvýše do 7 dní."
-    },
-    "limits": {
-      "title": "Omezení",
-      "items": [
-        "Bonusové dny nelze vyplatit ani směnit za peníze.",
-        "Promo kódy nelze kombinovat s jinými akcemi.",
-        "Promo kód platí jen u první platby."
-      ]
-    },
-    "important": {
-      "title": "Důležité",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Staré promo kódy už neplatí.",
-      "useNew": "Použij nový promo kód z:",
-      "sources": [
-        "Telegram bota Raqoon.",
-        "Mobilní aplikace Raqoon."
-      ]
-    },
-    "reuse": {
-      "title": "Opakované použití kódu",
-      "description": "Pokud platba není dokončena nebo je zrušena, kód nelze znovu použít."
-    },
-    "campaign": {
-      "title": "Doba kampaně",
-      "inline": "{{title}}. {{description}}",
-      "description": "Kampaň platí do 31. prosince 2026 a může být prodloužena."
-    },
-    "share": {
-      "title": "Doporučovací promo kód Raqoon",
-      "text": "Připoj se mým promo kódem:"
-    },
-    "micro": {
-      "copyPromo": "Kopírovat promo kód",
-      "getPromo": "Získat promo kód",
-      "share": "Sdílet",
-      "copySuccess": "Promo kód zkopírován",
-      "applyError": "Promo kód se nepodařilo použít. Zkus to později nebo kontaktuj podporu."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Jak to\nfunguje.",
+        "sub": "Získejte promo kód, pošlete ho příteli — získáte bonusové dny, když zaplatí.",
+        "detailTitle": "Jak to funguje",
+        "detailBody": "Získejte promo kód v Telegram botu nebo v aplikaci. Pošlete ho příteli. Když zaplatí předplatné, získáte bonusové dny.",
+        "cta": "Získat promo kód"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Přítel.",
+        "headline": "+10 dní.",
+        "detailTitle": "Bonus pro přítele",
+        "detailBody": "Přítel získá +10 dní zdarma po zaplacení prvního měsíce.",
+        "cta": "Získat promo kód"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Vy.",
+        "headline": "Až +30 dní.",
+        "detailTitle": "Vaše odměna",
+        "detailBody": "Čím víc měsíců přítel zaplatí, tím víc bonusových dnů získáte. 1–5 měsíců: +7 dní. 6–11 měsíců: +14 dní. 12+ měsíců: +30 dní.",
+        "cta": "Získat promo kód"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Pravidlo.",
+        "headline": "Aktivní předplatné.",
+        "detailTitle": "Podmínky připsání",
+        "detailBody": "Bonus se připíše jen při aktivním předplatném. Obvykle hned. Maximálně do 7 dnů.",
+        "cta": "Získat promo kód"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Pravidla.",
+        "headline": "Bez překvapení.",
+        "detailTitle": "Omezení",
+        "detailBody": "Staré promo kódy už nefungují — vezměte nový v Telegram botu nebo v aplikaci. Bonusové dny nelze vyplatit ani směnit za peníze. Kódy nelze kombinovat s jinými akcemi a platí jen při první platbě. Pokud platba není dokončena nebo je zrušena, kód nelze použít znovu. Akce do 31. prosince 2026 a může být prodloužena.",
+        "cta": "Získat promo kód"
+      }
+    ],
+    "final": {
+      "headline": "Získejte svůj promo kód.",
+      "body": "Sdílejte s přáteli a získejte bonusové dny, když zaplatí.",
+      "cta": "Získat promo kód"
     }
   },
   "about": {

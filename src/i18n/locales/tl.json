@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Malapit na sa AppGallery"
   },
   "referralPage": {
+    "brand": "Programang referral",
+    "openTile": "Buksan: {{title}}",
+    "closeTile": "Isara",
     "hero": {
-      "titleVariants": [
-        "Mag-imbita ng kaibigan — hanggang 30 araw nang libre",
-        "Ibahagi ang access — kumuha ng bonus na araw",
-        "Dalhin ang mga kaibigan at makakuha ng libreng subscription"
-      ],
-      "subtitle": "Ibahagi ang promo code at makakuha ng bonus na araw kapag nagbayad ang mga kaibigan.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Mag-imbita ng kaibigan.\nHanggang 30 araw libre.",
+      "cta": "Kunin ang promo code"
     },
-    "howItWorks": {
-      "title": "Paano ito gumagana",
-      "steps": [
-        "Kumuha ng promo code sa Telegram bot o sa app.",
-        "Ipadala ang code sa kaibigan.",
-        "Magbabayad ang kaibigan ng subscription.",
-        "Makakakuha ka ng bonus na araw."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bonus para sa kaibigan",
-      "description": "+10 libreng araw ang kaibigan pagkatapos bayaran ang unang buwan."
-    },
-    "yourReward": {
-      "title": "Ang gantimpala mo",
-      "description": "Mas matagal magbayad ang kaibigan, mas maraming bonus na araw.",
-      "rows": [
-        {
-          "period": "1–5 buwan",
-          "bonus": "+7 araw"
-        },
-        {
-          "period": "6–11 buwan",
-          "bonus": "+14 araw"
-        },
-        {
-          "period": "12+ buwan",
-          "bonus": "+30 araw"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Kondisyon sa pagkredito",
-      "description": "Ang bonus ay naikredito lamang kung may aktibong subscription ka."
-    },
-    "timing": {
-      "title": "Oras ng pagkredito",
-      "description": "Karaniwang agad lumalabas ang bonus. Hanggang 7 araw ang pinakamatagal."
-    },
-    "limits": {
-      "title": "Mga limitasyon",
-      "items": [
-        "Hindi mawi-withdraw o ipapalit sa pera ang bonus na araw.",
-        "Hindi puwedeng pagsamahin ang promo codes sa ibang promo.",
-        "Ang promo code ay para lamang sa unang bayad."
-      ]
-    },
-    "important": {
-      "title": "Mahalaga",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Hindi na gumagana ang lumang promo codes.",
-      "useNew": "Gumamit ng bagong promo code mula sa:",
-      "sources": [
-        "Raqoon Telegram bot.",
-        "Raqoon mobile app."
-      ]
-    },
-    "reuse": {
-      "title": "Muling paggamit ng code",
-      "description": "Kung hindi natapos o kinansela ang bayad, hindi na magagamit muli ang code."
-    },
-    "campaign": {
-      "title": "Panahon ng kampanya",
-      "inline": "{{title}}. {{description}}",
-      "description": "May bisa hanggang Disyembre 31, 2026 at maaaring pahabain."
-    },
-    "share": {
-      "title": "Raqoon referral promo code",
-      "text": "Sumali gamit ang promo code ko:"
-    },
-    "micro": {
-      "copyPromo": "Kopyahin ang promo code",
-      "getPromo": "Kumuha ng promo code",
-      "share": "Ibahagi",
-      "copySuccess": "Nakopya ang promo code",
-      "applyError": "Hindi ma-apply ang promo code. Subukan mamaya o kontakin ang support."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Paano\nitó gumagana.",
+        "sub": "Kunin ang promo code, ipadala sa kaibigan — makakuha ng bonus days kapag sila’y nagbayad.",
+        "detailTitle": "Paano ito gumagana",
+        "detailBody": "Kunin ang promo code sa Telegram bot o sa app. Ipadala sa kaibigan. Kapag nagbayad sila ng subscription, makakakuha ka ng bonus days.",
+        "cta": "Kunin ang promo code"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Kaibigan.",
+        "headline": "+10 araw.",
+        "detailTitle": "Bonus ng kaibigan",
+        "detailBody": "Ang kaibigan mo ay makakakuha ng +10 libreng araw pagkatapos magbayad ng unang buwan.",
+        "cta": "Kunin ang promo code"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Ikaw.",
+        "headline": "Hanggang +30 araw.",
+        "detailTitle": "Ang iyong reward",
+        "detailBody": "Mas maraming buwan ang binayaran ng kaibigan, mas marami ang bonus days mo. 1–5 buwan: +7 araw. 6–11 buwan: +14 araw. 12+ buwan: +30 araw.",
+        "cta": "Kunin ang promo code"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Patakaran.",
+        "headline": "Kailangan ng active plan.",
+        "detailTitle": "Mga kundisyon ng credit",
+        "detailBody": "Nakukuha lang ang bonus kung may active subscription ka. Karaniwang agad. Maximum hanggang 7 araw.",
+        "cta": "Kunin ang promo code"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Mga rule.",
+        "headline": "Walang sorpresa.",
+        "detailTitle": "Mga restriksyon",
+        "detailBody": "Hindi na gumagana ang lumang promo codes — kumuha ng bago sa Telegram bot o app. Hindi pwedeng i-withdraw o i-exchange ang bonus days bilang pera. Hindi pwedeng pagsamahin sa ibang promo at para lang sa unang bayad. Kung hindi natapos o nakansela ang bayad, hindi na magagamit muli ang code. Campaign hanggang Disyembre 31, 2026 at maaaring i-extend.",
+        "cta": "Kunin ang promo code"
+      }
+    ],
+    "final": {
+      "headline": "Kunin ang promo code mo.",
+      "body": "I-share sa mga kaibigan at kumita ng bonus days kapag sila’y nagbayad.",
+      "cta": "Kunin ang promo code"
     }
   },
   "about": {

@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Bientôt sur AppGallery"
   },
   "referralPage": {
+    "brand": "Programme de parrainage",
+    "openTile": "Ouvrir : {{title}}",
+    "closeTile": "Fermer",
     "hero": {
-      "titleVariants": [
-        "Invite des amis — jusqu’à 30 jours gratuits",
-        "Partage l’accès — reçois des jours bonus",
-        "Amène des amis et obtiens un abonnement gratuit"
-      ],
-      "subtitle": "Partage ton code promo et reçois des jours bonus quand tes amis paient.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Invitez vos amis.\nJusqu’à 30 jours offerts.",
+      "cta": "Obtenir un code promo"
     },
-    "howItWorks": {
-      "title": "Comment ça marche",
-      "steps": [
-        "Obtiens un code promo dans le bot Telegram ou dans l’app.",
-        "Envoie le code à un ami.",
-        "Ton ami paie un abonnement.",
-        "Tu reçois des jours bonus."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bonus ami",
-      "description": "Ton ami reçoit +10 jours gratuits après le paiement du premier mois."
-    },
-    "yourReward": {
-      "title": "Ta récompense",
-      "description": "Plus ton ami paie longtemps, plus tu reçois de jours bonus.",
-      "rows": [
-        {
-          "period": "1–5 mois",
-          "bonus": "+7 jours"
-        },
-        {
-          "period": "6–11 mois",
-          "bonus": "+14 jours"
-        },
-        {
-          "period": "12+ mois",
-          "bonus": "+30 jours"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Condition d’attribution",
-      "description": "Le bonus est crédité seulement si tu as un abonnement actif."
-    },
-    "timing": {
-      "title": "Délai d’attribution",
-      "description": "Le bonus apparaît en général tout de suite. Délai maximum jusqu’à 7 jours."
-    },
-    "limits": {
-      "title": "Restrictions",
-      "items": [
-        "Les jours bonus ne peuvent pas être retirés ou échangés contre de l’argent.",
-        "Les codes promo ne sont pas cumulables avec d’autres offres.",
-        "Le code promo ne s’applique qu’au premier paiement."
-      ]
-    },
-    "important": {
-      "title": "Important",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Les anciens codes promo ne fonctionnent plus.",
-      "useNew": "Utilise un nouveau code promo depuis :",
-      "sources": [
-        "Le bot Telegram Raqoon.",
-        "L’application mobile Raqoon."
-      ]
-    },
-    "reuse": {
-      "title": "Réutilisation du code promo",
-      "description": "Si le paiement n’est pas finalisé ou est annulé, le code ne peut pas être réutilisé."
-    },
-    "campaign": {
-      "title": "Période de campagne",
-      "inline": "{{title}}. {{description}}",
-      "description": "La campagne est valable jusqu’au 31 décembre 2026 et peut être prolongée."
-    },
-    "share": {
-      "title": "Code promo de parrainage Raqoon",
-      "text": "Rejoins avec mon code promo :"
-    },
-    "micro": {
-      "copyPromo": "Copier le code promo",
-      "getPromo": "Obtenir le code promo",
-      "share": "Partager",
-      "copySuccess": "Code promo copié",
-      "applyError": "Impossible d’appliquer le code. Réessaie plus tard ou contacte le support."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Comment\nça marche.",
+        "sub": "Obtenez un code promo, envoyez-le à un ami — gagnez des jours bonus quand il paie.",
+        "detailTitle": "Comment ça marche",
+        "detailBody": "Obtenez un code promo dans le bot Telegram ou dans l’appli. Envoyez-le à un ami. Quand il paie un abonnement, vous recevez des jours bonus.",
+        "cta": "Obtenir un code promo"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Ami.",
+        "headline": "+10 jours.",
+        "detailTitle": "Bonus ami",
+        "detailBody": "Votre ami reçoit +10 jours offerts après le paiement du premier mois.",
+        "cta": "Obtenir un code promo"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Vous.",
+        "headline": "Jusqu’à +30 jours.",
+        "detailTitle": "Votre récompense",
+        "detailBody": "Plus votre ami paie de mois, plus vous gagnez de jours bonus. 1–5 mois : +7 jours. 6–11 mois : +14 jours. 12+ mois : +30 jours.",
+        "cta": "Obtenir un code promo"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Règle.",
+        "headline": "Abonnement actif.",
+        "detailTitle": "Conditions de crédit",
+        "detailBody": "Le bonus n’est crédité que si vous avez un abonnement actif. En général tout de suite. Délai max. : 7 jours.",
+        "cta": "Obtenir un code promo"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Règles.",
+        "headline": "Sans surprise.",
+        "detailTitle": "Restrictions",
+        "detailBody": "Les anciens codes promo ne marchent plus — prenez-en un nouveau dans le bot Telegram ou l’appli. Les jours bonus ne peuvent pas être retirés ni échangés contre de l’argent. Les codes ne se cumulent pas avec d’autres promos et ne marchent qu’au premier paiement. Si le paiement n’est pas terminé ou est annulé, le code ne peut pas être réutilisé. Offre valable jusqu’au 31 décembre 2026, prolongable.",
+        "cta": "Obtenir un code promo"
+      }
+    ],
+    "final": {
+      "headline": "Obtenez votre code promo.",
+      "body": "Partagez-le avec vos amis et gagnez des jours bonus quand ils paient.",
+      "cta": "Obtenir un code promo"
     }
   },
   "about": {

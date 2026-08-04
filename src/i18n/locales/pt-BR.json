@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "Em breve na AppGallery"
   },
   "referralPage": {
+    "brand": "Programa de indicação",
+    "openTile": "Abrir: {{title}}",
+    "closeTile": "Fechar",
     "hero": {
-      "titleVariants": [
-        "Convide amigos — até 30 dias grátis",
-        "Compartilhe o acesso — ganhe dias bônus",
-        "Traga amigos e ganhe assinatura grátis"
-      ],
-      "subtitle": "Compartilhe seu código promocional e ganhe dias bônus quando seus amigos pagarem.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "Convide amigos.\nAté 30 dias grátis.",
+      "cta": "Obter código promo"
     },
-    "howItWorks": {
-      "title": "Como funciona",
-      "steps": [
-        "Pegue um código promocional no bot do Telegram ou no app.",
-        "Envie o código para um amigo.",
-        "Seu amigo paga uma assinatura.",
-        "Você recebe dias bônus."
-      ]
-    },
-    "friendBonus": {
-      "title": "Bônus para o amigo",
-      "description": "Seu amigo ganha +10 dias grátis após pagar o primeiro mês."
-    },
-    "yourReward": {
-      "title": "Sua recompensa",
-      "description": "Quanto mais tempo seu amigo pagar, mais dias bônus você recebe.",
-      "rows": [
-        {
-          "period": "1–5 meses",
-          "bonus": "+7 dias"
-        },
-        {
-          "period": "6–11 meses",
-          "bonus": "+14 dias"
-        },
-        {
-          "period": "12+ meses",
-          "bonus": "+30 dias"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "Condição de crédito",
-      "description": "O bônus só é creditado se você tiver uma assinatura ativa."
-    },
-    "timing": {
-      "title": "Prazo de crédito",
-      "description": "O bônus costuma aparecer na hora. Prazo máximo de até 7 dias."
-    },
-    "limits": {
-      "title": "Restrições",
-      "items": [
-        "Dias bônus não podem ser sacados ou trocados por dinheiro.",
-        "Códigos promocionais não podem ser combinados com outras promoções.",
-        "O código vale apenas para o primeiro pagamento."
-      ]
-    },
-    "important": {
-      "title": "Importante",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "Códigos promocionais antigos não funcionam mais.",
-      "useNew": "Use um novo código promocional de:",
-      "sources": [
-        "Bot do Telegram Raqoon.",
-        "App móvel Raqoon."
-      ]
-    },
-    "reuse": {
-      "title": "Reutilização do código",
-      "description": "Se o pagamento não for concluído ou for cancelado, o código não pode ser usado de novo."
-    },
-    "campaign": {
-      "title": "Período da campanha",
-      "inline": "{{title}}. {{description}}",
-      "description": "A campanha é válida até 31 de dezembro de 2026 e pode ser prorrogada."
-    },
-    "share": {
-      "title": "Código promocional de indicação Raqoon",
-      "text": "Entre com meu código promocional:"
-    },
-    "micro": {
-      "copyPromo": "Copiar código",
-      "getPromo": "Obter código promocional",
-      "share": "Compartilhar",
-      "copySuccess": "Código copiado",
-      "applyError": "Não foi possível aplicar o código. Tente depois ou fale com o suporte."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "Como\nfunciona.",
+        "sub": "Pegue um código promo, envie a um amigo — ganhe dias bônus quando ele pagar.",
+        "detailTitle": "Como funciona",
+        "detailBody": "Pegue um código promo no bot do Telegram ou no app. Envie a um amigo. Quando ele pagar a assinatura, você ganha dias bônus.",
+        "cta": "Obter código promo"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Amigo.",
+        "headline": "+10 dias.",
+        "detailTitle": "Bônus do amigo",
+        "detailBody": "Seu amigo ganha +10 dias grátis após pagar o primeiro mês.",
+        "cta": "Obter código promo"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Você.",
+        "headline": "Até +30 dias.",
+        "detailTitle": "Sua recompensa",
+        "detailBody": "Quanto mais meses o amigo pagar, mais dias bônus você ganha. 1–5 meses: +7 dias. 6–11 meses: +14 dias. 12+ meses: +30 dias.",
+        "cta": "Obter código promo"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Regra.",
+        "headline": "Plano ativo.",
+        "detailTitle": "Condições de crédito",
+        "detailBody": "O bônus só é creditado se você tiver assinatura ativa. Geralmente na hora. Prazo máximo: até 7 dias.",
+        "cta": "Obter código promo"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Regras.",
+        "headline": "Sem surpresas.",
+        "detailTitle": "Restrições",
+        "detailBody": "Códigos promo antigos não funcionam mais — pegue um novo no bot do Telegram ou no app. Dias bônus não podem ser sacados nem trocados por dinheiro. Códigos não combinam com outras promoções e valem só no primeiro pagamento. Se o pagamento não for concluído ou for cancelado, o código não pode ser reutilizado. Campanha até 31 de dezembro de 2026 e pode ser prorrogada.",
+        "cta": "Obter código promo"
+      }
+    ],
+    "final": {
+      "headline": "Pegue seu código promo.",
+      "body": "Compartilhe com amigos e ganhe dias bônus quando eles pagarem.",
+      "cta": "Obter código promo"
     }
   },
   "about": {

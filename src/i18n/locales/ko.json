@@ -205,91 +205,74 @@
     "badgeAriaAppGallery": "AppGallery 출시 예정"
   },
   "referralPage": {
+    "brand": "추천 프로그램",
+    "openTile": "열기: {{title}}",
+    "closeTile": "닫기",
     "hero": {
-      "titleVariants": [
-        "친구 초대 — 최대 30일 무료",
-        "액세스 공유 — 보너스 일수 획득",
-        "친구를 데려오고 무료 구독 받기"
-      ],
-      "subtitle": "프로모 코드를 공유하고 친구가 결제하면 보너스 일수를 받으세요.",
-      "mockPromo": "RAQOON-FRIEND"
+      "headline": "친구를 초대하세요.\n최대 30일 무료.",
+      "cta": "프로모 코드 받기"
     },
-    "howItWorks": {
-      "title": "작동 방식",
-      "steps": [
-        "Telegram 봇 또는 앱에서 프로모 코드를 받습니다.",
-        "친구에게 코드를 보냅니다.",
-        "친구가 구독을 결제합니다.",
-        "보너스 일수를 받습니다."
-      ]
-    },
-    "friendBonus": {
-      "title": "친구 보너스",
-      "description": "친구는 첫 달 결제 후 +10일 무료를 받습니다."
-    },
-    "yourReward": {
-      "title": "내 보상",
-      "description": "친구가 더 오래 결제할수록 더 많은 보너스 일수를 받습니다.",
-      "rows": [
-        {
-          "period": "1–5개월",
-          "bonus": "+7일"
-        },
-        {
-          "period": "6–11개월",
-          "bonus": "+14일"
-        },
-        {
-          "period": "12개월 이상",
-          "bonus": "+30일"
-        }
-      ]
-    },
-    "accrual": {
-      "title": "적립 조건",
-      "description": "활성 구독이 있을 때만 보너스가 적립됩니다."
-    },
-    "timing": {
-      "title": "적립 시점",
-      "description": "보통 즉시 반영됩니다. 최대 7일까지 걸릴 수 있습니다."
-    },
-    "limits": {
-      "title": "제한",
-      "items": [
-        "보너스 일수는 현금으로 출금하거나 교환할 수 없습니다.",
-        "다른 프로모션과 중복할 수 없습니다.",
-        "프로모 코드는 첫 결제에만 적용됩니다."
-      ]
-    },
-    "important": {
-      "title": "중요",
-      "inline": "{{title}}: {{oldCode}}",
-      "oldCode": "이전 프로모 코드는 더 이상 사용할 수 없습니다.",
-      "useNew": "새 프로모 코드는 다음에서 받으세요:",
-      "sources": [
-        "Raqoon Telegram 봇.",
-        "Raqoon 모바일 앱."
-      ]
-    },
-    "reuse": {
-      "title": "코드 재사용",
-      "description": "결제가 완료되지 않거나 취소되면 코드를 다시 쓸 수 없습니다."
-    },
-    "campaign": {
-      "title": "캠페인 기간",
-      "inline": "{{title}}. {{description}}",
-      "description": "2026년 12월 31일까지 유효하며 연장될 수 있습니다."
-    },
-    "share": {
-      "title": "Raqoon 추천 프로모 코드",
-      "text": "내 프로모 코드로 가입:"
-    },
-    "micro": {
-      "copyPromo": "코드 복사",
-      "getPromo": "프로모 코드 받기",
-      "share": "공유",
-      "copySuccess": "코드가 복사되었습니다",
-      "applyError": "코드를 적용할 수 없습니다. 나중에 다시 시도하거나 지원팀에 문의하세요."
+    "tiles": [
+      {
+        "id": "how",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "headline": "이용\n방법.",
+        "sub": "프로모 코드를 받아 친구에게 보내세요. 친구가 결제하면 보너스 일수를 받습니다.",
+        "detailTitle": "이용 방법",
+        "detailBody": "Telegram 봇 또는 앱에서 프로모 코드를 받으세요. 친구에게 보내세요. 친구가 구독을 결제하면 보너스 일수가 지급됩니다.",
+        "cta": "프로모 코드 받기"
+      },
+      {
+        "id": "friend",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "친구.",
+        "headline": "+10일.",
+        "detailTitle": "친구 보너스",
+        "detailBody": "첫 달 결제 후 친구는 +10일을 무료로 받습니다.",
+        "cta": "프로모 코드 받기"
+      },
+      {
+        "id": "reward",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "나.",
+        "headline": "최대 +30일.",
+        "detailTitle": "나의 리워드",
+        "detailBody": "친구가 결제한 개월 수가 많을수록 보너스 일수가 늘어납니다. 1–5개월: +7일. 6–11개월: +14일. 12개월 이상: +30일.",
+        "cta": "프로모 코드 받기"
+      },
+      {
+        "id": "conditions",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "조건.",
+        "headline": "활성 구독 필요.",
+        "detailTitle": "적립 조건",
+        "detailBody": "활성 구독이 있을 때만 보너스가 적립됩니다. 보통 즉시. 최대 7일 이내.",
+        "cta": "프로모 코드 받기"
+      },
+      {
+        "id": "limits",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "규칙.",
+        "headline": "깜짝 없음.",
+        "detailTitle": "제한 사항",
+        "detailBody": "이전 프로모 코드는 더 이상 작동하지 않습니다. Telegram 봇 또는 앱에서 새 코드를 받으세요. 보너스 일수는 현금으로 출금하거나 교환할 수 없습니다. 다른 프로모션과 중복 적용되지 않으며 첫 결제에만 유효합니다. 결제가 완료되지 않거나 취소되면 코드를 다시 사용할 수 없습니다. 캠페인은 2026년 12월 31일까지이며 연장될 수 있습니다.",
+        "cta": "프로모 코드 받기"
+      }
+    ],
+    "final": {
+      "headline": "프로모 코드를 받으세요.",
+      "body": "친구와 공유하고, 결제 시 보너스 일수를 받아보세요.",
+      "cta": "프로모 코드 받기"
     }
   },
   "about": {

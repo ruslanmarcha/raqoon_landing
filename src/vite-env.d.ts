@@ -11,7 +11,7 @@ interface ImportMetaEnv {
   readonly VITE_ENABLE_TURKEY_GEOLOCK?: string
   /** URL Google Apps Script Web App (или другой POST webhook) для заявок `/beta`. */
   readonly VITE_BETA_WEBHOOK_URL?: string
-  /** Публичный FAQ Support: тот же хост, что и портал, + `/api/public` без хвостового слэша (прод: `https://help.raqoon.app/api/public`). */
+  /** Публичный FAQ Support: origin API + `/api/public` без хвостового слэша (прод: `https://raqoon.qatlink.site/api/public`). Не help.raqoon.app — там 301 и ломается CORS. */
   readonly VITE_SUPPORT_PUBLIC_API_BASE?: string
   /** Клиентский портал — страница входа (прод: `https://raqoon.qatlink.site/support/login`). */
   readonly VITE_CLIENT_PORTAL_URL?: string

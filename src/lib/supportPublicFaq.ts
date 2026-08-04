@@ -16,8 +16,11 @@ export type SiteFaqCategory = {
 const CLIENT_CACHE_TTL_MS = 10 * 60 * 1000
 const cache = new Map<string, { at: number; data: SiteFaqCategory[] }>()
 
-/** Прод-адрес публичного FAQ на портале Support. Используется, если `VITE_SUPPORT_PUBLIC_API_BASE` не задан. */
-const DEFAULT_PUBLIC_BASE = 'https://help.raqoon.app/api/public'
+/**
+ * Прод-адрес публичного FAQ API. Используется, если `VITE_SUPPORT_PUBLIC_API_BASE` не задан.
+ * Нельзя указывать help.raqoon.app: там 301 на другой origin, и браузерный fetch падает (CORS + cross-origin redirect).
+ */
+const DEFAULT_PUBLIC_BASE = 'https://raqoon.qatlink.site/api/public'
 
 function getPublicBase(): string {
   const b = import.meta.env.VITE_SUPPORT_PUBLIC_API_BASE

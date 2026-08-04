@@ -1,23 +1,6 @@
-import { Header } from '../components/Header/Header'
-import { Hero } from '../components/Hero/Hero'
-import { Pricing } from '../components/Pricing/Pricing'
-import { Referral } from '../components/Referral/Referral'
-import { FAQ } from '../components/FAQ/FAQ'
-import { Footer } from '../components/Footer/Footer'
-import { SEOHead } from '../seo/SEOHead'
+import { HomePage } from './HomePage'
 
+/** Main site entry — language switches hub content; wallet / RosVPN / referral stay separate. */
 export function LandingRU() {
-  return (
-    <>
-      <SEOHead variant="ru" />
-      <Header />
-      <main>
-        <Hero variant="ru" />
-        <Pricing variant="ru" />
-        <Referral />
-        <FAQ />
-      </main>
-      <Footer />
-    </>
-  )
+  return <HomePage />
 }

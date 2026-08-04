@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "Jednoduše.\nSoukromě. Tvoje.",
+      "cta": "Stáhnout"
+    },
+    "openTile": "Otevřít: {{title}}",
+    "closeTile": "Zavřít",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "Bezplatný přístup.",
+        "headline": "Bez reklam.",
+        "detailTitle": "Bezplatný přístup",
+        "detailBody": "Stáhni a používej zdarma — bez platby a bez reklam. Jen v aplikaci Raqoon.",
+        "benefits": [
+          "5 GB dat měsíčně",
+          "Základní služby přes jedno připojení",
+          "Upgrade na plný přístup kdykoli"
+        ],
+        "cta": "Stáhnout",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "All-Inclusive.",
+        "headline": "Plný přístup.",
+        "price": "od 4,99 $ / měsíc",
+        "detailTitle": "All-Inclusive",
+        "detailBody": "Plný přístup — přesné podmínky pro tvůj region najdeš v aplikaci.",
+        "benefits": [
+          "Automatický výběr nejlepšího protokolu",
+          "Podpora 24/7",
+          "Přístup ke všem globálním službám",
+          "Změna lokace",
+          "Až 5 zařízení najednou",
+          "Štědrý datový balíček"
+        ],
+        "cta": "Stáhnout",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "Doporučení.",
+        "headline": "Až +30 dní.",
+        "sub": "Přátelé získají +10 dní po předplatném.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "Brzy.",
+        "headline": "eSIM.",
+        "sub": "Zůstaň online bez zbytečných starostí.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "Začni jednoduše.",
+      "body": "Stáhni aplikaci a začni s bezplatným tarifem — upgraduj, kdy chceš.",
+      "cta": "Stáhnout"
+    }
+  },
   "features": {
     "title": "Proč si vybrat Raqoon",
     "items": [

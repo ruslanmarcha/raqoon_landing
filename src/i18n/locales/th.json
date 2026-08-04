@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "เรียบง่าย.\nเป็นส่วนตัว. ของคุณ.",
+      "cta": "ดาวน์โหลด"
+    },
+    "openTile": "เปิด: {{title}}",
+    "closeTile": "ปิด",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "ใช้งานฟรี.",
+        "headline": "ไม่มีโฆษณา.",
+        "detailTitle": "ใช้งานฟรี",
+        "detailBody": "ดาวน์โหลดแล้วใช้ฟรี — ไม่ต้องจ่าย ไม่มีโฆษณา เฉพาะในแอป Raqoon",
+        "benefits": [
+          "ข้อมูล 5 GB ต่อเดือน",
+          "บริการหลักผ่านการเชื่อมต่อเดียว",
+          "อัปเกรดเป็นสิทธิ์เต็มเมื่อไหร่ก็ได้"
+        ],
+        "cta": "ดาวน์โหลด",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "ออลอินคลูซีฟ.",
+        "headline": "สิทธิ์เต็ม.",
+        "price": "เริ่มต้น $4.99 / เดือน",
+        "detailTitle": "ออลอินคลูซีฟ",
+        "detailBody": "สิทธิ์เต็ม — ดูเงื่อนไขตามภูมิภาคของคุณในแอป",
+        "benefits": [
+          "เลือกโปรโตคอลที่ดีที่สุดอัตโนมัติ",
+          "ซัพพอร์ต 24/7",
+          "เข้าถึงบริการทั่วโลก",
+          "สลับตำแหน่ง",
+          "สูงสุด 5 อุปกรณ์พร้อมกัน",
+          "เน็ตเต็มอิ่ม"
+        ],
+        "cta": "ดาวน์โหลด",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "แนะนำเพื่อน.",
+        "headline": "สูงสุด +30 วัน.",
+        "sub": "เพื่อนได้ +10 วันหลังสมัครสมาชิก",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "เร็วๆ นี้.",
+        "headline": "eSIM.",
+        "sub": "เชื่อมต่อได้โดยไม่ยุ่งยากเหมือนเดิม",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "เริ่มต้นอย่างง่าย.",
+      "body": "ดาวน์โหลดแอปแล้วเริ่มด้วยแพ็กเกจฟรี — อัปเกรดเมื่อพร้อม",
+      "cta": "ดาวน์โหลด"
+    }
+  },
   "features": {
     "title": "ทำไมคนถึงเลือก Raqoon",
     "items": [

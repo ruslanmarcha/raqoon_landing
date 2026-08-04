@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "简单。\n私密。属于你。",
+      "cta": "下载"
+    },
+    "openTile": "打开：{{title}}",
+    "closeTile": "关闭",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "免费使用。",
+        "headline": "无广告。",
+        "detailTitle": "免费使用",
+        "detailBody": "下载即可免费使用 — 无需付费、无广告。仅限 Raqoon 应用。",
+        "benefits": [
+          "每月 5 GB 流量",
+          "一条连接覆盖核心服务",
+          "随时升级完整访问"
+        ],
+        "cta": "下载",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "全包。",
+        "headline": "完整访问。",
+        "price": "每月起 $4.99",
+        "detailTitle": "全包",
+        "detailBody": "完整访问 — 你所在地区的具体条款见应用内。",
+        "benefits": [
+          "自动选择最佳协议",
+          "全天候支持",
+          "访问全球服务",
+          "切换位置",
+          "最多同时 5 台设备",
+          "充足流量"
+        ],
+        "cta": "下载",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "推荐。",
+        "headline": "最多 +30 天。",
+        "sub": "好友订阅后可获 +10 天。",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "即将推出。",
+        "headline": "eSIM。",
+        "sub": "轻松保持连接，少些麻烦。",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "简单开始。",
+      "body": "下载应用，从免费套餐起步 — 随时升级。",
+      "cta": "下载"
+    }
+  },
   "features": {
     "title": "为什么人们选择 Raqoon",
     "items": [

@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "بسيط.\nخاص. لك.",
+      "cta": "تحميل"
+    },
+    "openTile": "فتح: {{title}}",
+    "closeTile": "إغلاق",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "وصول مجاني.",
+        "headline": "بدون إعلانات.",
+        "detailTitle": "وصول مجاني",
+        "detailBody": "حمّل واستخدم مجانًا — بلا دفع وبلا إعلانات. فقط في تطبيق Raqoon.",
+        "benefits": [
+          "5 غيغابايت بيانات شهريًا",
+          "الخدمات الأساسية عبر اتصال واحد",
+          "الترقية للوصول الكامل متى شئت"
+        ],
+        "cta": "تحميل",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "الكل شامل.",
+        "headline": "وصول كامل.",
+        "price": "من 4.99$ / شهر",
+        "detailTitle": "الكل شامل",
+        "detailBody": "وصول كامل — الشروط الدقيقة لمنطقتك داخل التطبيق.",
+        "benefits": [
+          "اختيار تلقائي لأفضل بروتوكول",
+          "دعم على مدار الساعة",
+          "الوصول إلى كل الخدمات العالمية",
+          "تبديل المواقع",
+          "حتى 5 أجهزة معًا",
+          "حزمة بيانات سخية"
+        ],
+        "cta": "تحميل",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "الإحالة.",
+        "headline": "حتى +30 يومًا.",
+        "sub": "يحصل الأصدقاء على +10 أيام بعد الاشتراك.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "قريبًا.",
+        "headline": "eSIM.",
+        "sub": "ابقَ متصلًا دون المتاعب المعتادة.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "ابدأ ببساطة.",
+      "body": "حمّل التطبيق وابدأ بالخطة المجانية — رقِّ عندما تريد.",
+      "cta": "تحميل"
+    }
+  },
   "features": {
     "title": "لماذا يختارون Raqoon",
     "items": [

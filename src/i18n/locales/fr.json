@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "Simple.\nPrivé. À toi.",
+      "cta": "Télécharger"
+    },
+    "openTile": "Ouvrir : {{title}}",
+    "closeTile": "Fermer",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "Accès gratuit.",
+        "headline": "Sans pubs.",
+        "detailTitle": "Accès gratuit",
+        "detailBody": "Télécharge et utilise gratuitement — sans paiement, sans pubs. Uniquement dans l’app Raqoon.",
+        "benefits": [
+          "5 Go de données par mois",
+          "Services essentiels via une connexion",
+          "Passe à l’accès complet quand tu veux"
+        ],
+        "cta": "Télécharger",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "All-Inclusive.",
+        "headline": "Accès complet.",
+        "price": "à partir de 4,99 $ / mois",
+        "detailTitle": "All-Inclusive",
+        "detailBody": "Accès complet — les conditions exactes pour ta région sont dans l’app.",
+        "benefits": [
+          "Choix automatique du meilleur protocole",
+          "Support 24/7",
+          "Accès à tous les services mondiaux",
+          "Changement de localisation",
+          "Jusqu’à 5 appareils à la fois",
+          "Forfait data généreux"
+        ],
+        "cta": "Télécharger",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "Parrainage.",
+        "headline": "Jusqu’à +30 jours.",
+        "sub": "Tes amis gagnent +10 jours après l’abonnement.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "Bientôt.",
+        "headline": "eSIM.",
+        "sub": "Reste connecté sans les tracas habituels.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "Commence simplement.",
+      "body": "Télécharge l’app et commence avec le forfait gratuit — passe au supérieur quand tu veux.",
+      "cta": "Télécharger"
+    }
+  },
   "features": {
     "title": "Pourquoi choisir Raqoon",
     "items": [

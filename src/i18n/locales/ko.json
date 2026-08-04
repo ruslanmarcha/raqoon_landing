@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "심플.\n프라이빗. 나의 것.",
+      "cta": "다운로드"
+    },
+    "openTile": "열기: {{title}}",
+    "closeTile": "닫기",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "무료 이용.",
+        "headline": "광고 없음.",
+        "detailTitle": "무료 이용",
+        "detailBody": "다운로드하고 무료로 사용 — 결제·광고 없음. Raqoon 앱에서만.",
+        "benefits": [
+          "월 5GB 데이터",
+          "하나의 연결로 핵심 서비스",
+          "원할 때 전체 이용으로 업그레이드"
+        ],
+        "cta": "다운로드",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "올인클루시브.",
+        "headline": "전체 이용.",
+        "price": "월 $4.99부터",
+        "detailTitle": "올인클루시브",
+        "detailBody": "전체 이용 — 지역별 정확한 조건은 앱에서 확인하세요.",
+        "benefits": [
+          "최적 프로토콜 자동 선택",
+          "24/7 지원",
+          "글로벌 서비스 이용",
+          "위치 전환",
+          "최대 5대 동시 사용",
+          "넉넉한 데이터"
+        ],
+        "cta": "다운로드",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "추천.",
+        "headline": "최대 +30일.",
+        "sub": "친구가 구독하면 +10일.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "곧 출시.",
+        "headline": "eSIM.",
+        "sub": "번거로움 없이 연결 유지.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "간단하게 시작하세요.",
+      "body": "앱을 다운로드하고 무료 플랜으로 시작 — 원할 때 업그레이드하세요.",
+      "cta": "다운로드"
+    }
+  },
   "features": {
     "title": "왜 Raqoon을 선택하는가",
     "items": [

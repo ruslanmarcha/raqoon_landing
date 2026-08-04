@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "Simple.\nPrivate. Sa’yo.",
+      "cta": "I-download"
+    },
+    "openTile": "Buksan: {{title}}",
+    "closeTile": "Isara",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "Libreng access.",
+        "headline": "Walang ads.",
+        "detailTitle": "Libreng access",
+        "detailBody": "I-download at gamitin nang libre — walang bayad, walang ads. Sa Raqoon app lang.",
+        "benefits": [
+          "5 GB data bawat buwan",
+          "Core services sa isang connection",
+          "Mag-upgrade sa full access kahit kailan"
+        ],
+        "cta": "I-download",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "All-Inclusive.",
+        "headline": "Full access.",
+        "price": "mula $4.99 / buwan",
+        "detailTitle": "All-Inclusive",
+        "detailBody": "Full access — tingnan ang exact terms para sa region mo sa app.",
+        "benefits": [
+          "Automatic best-protocol selection",
+          "24/7 support",
+          "Access sa lahat ng global services",
+          "Location switching",
+          "Hanggang 5 devices nang sabay",
+          "Malaking data allowance"
+        ],
+        "cta": "I-download",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "Referral.",
+        "headline": "Hanggang +30 araw.",
+        "sub": "May +10 araw ang friends pagkatapos mag-subscribe.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "Malapit na.",
+        "headline": "eSIM.",
+        "sub": "Manatiling connected nang walang usual hassle.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "Magsimula nang simple.",
+      "body": "I-download ang app at magsimula sa free plan — mag-upgrade kapag gusto mo.",
+      "cta": "I-download"
+    }
+  },
   "features": {
     "title": "Bakit pinipili ang Raqoon",
     "items": [

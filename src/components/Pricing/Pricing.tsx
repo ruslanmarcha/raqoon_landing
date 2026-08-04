@@ -8,9 +8,11 @@ type PricingVariant = 'ru' | 'ww';
 
 interface PricingProps {
   variant?: PricingVariant;
+  /** Home hub hides IZI migration; standalone pages can keep it. */
+  showMigration?: boolean;
 }
 
-export function Pricing({ variant = 'ww' }: PricingProps) {
+export function Pricing({ variant = 'ww', showMigration = true }: PricingProps) {
   const { t, i18n } = useTranslation();
 
   // Important: when user switches language in `LanguageSelector`,
@@ -19,6 +21,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
   // `variant` is kept for backward compatibility, but the UI is controlled by i18n language.
   void variant;
   const showConstructor = isRuLang;
+  const showMigrationBlock = showMigration && isRuLang;
 
   const constructorFeatures = t('pricing.constructorFeatures', {
     returnObjects: true,
@@ -133,7 +136,7 @@ export function Pricing({ variant = 'ww' }: PricingProps) {
           </div>
         </div>
 
-        {showConstructor && (
+        {showMigrationBlock && (
           <div className={styles.migrationWrapper}>
             <div className={styles.migrationCard}>
               <div className={styles.migrationLeft}>

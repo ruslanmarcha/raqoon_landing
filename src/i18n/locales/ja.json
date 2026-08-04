@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "シンプル。\nプライベート。あなたのもの。",
+      "cta": "ダウンロード"
+    },
+    "openTile": "開く: {{title}}",
+    "closeTile": "閉じる",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "無料アクセス。",
+        "headline": "広告なし。",
+        "detailTitle": "無料アクセス",
+        "detailBody": "ダウンロードして無料で利用 — 支払いも広告もなし。Raqoonアプリのみ。",
+        "benefits": [
+          "毎月5GBのデータ",
+          "ひとつの接続で基本サービス",
+          "いつでもフルアクセスへアップグレード"
+        ],
+        "cta": "ダウンロード",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "オールインクルーシブ。",
+        "headline": "フルアクセス。",
+        "price": "月額 $4.99 から",
+        "detailTitle": "オールインクルーシブ",
+        "detailBody": "フルアクセス — お住まいの地域の詳細条件はアプリで確認。",
+        "benefits": [
+          "最適なプロトコルを自動選択",
+          "24時間サポート",
+          "グローバルサービスへアクセス",
+          "ロケーション切り替え",
+          "同時に最大5台",
+          "十分なデータ容量"
+        ],
+        "cta": "ダウンロード",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "紹介。",
+        "headline": "最大+30日。",
+        "sub": "友だちが登録すると+10日。",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "近日公開。",
+        "headline": "eSIM。",
+        "sub": "いつもの手間なくつながる。",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "シンプルに始めよう。",
+      "body": "アプリをダウンロードして無料プランからスタート — いつでもアップグレード。",
+      "cta": "ダウンロード"
+    }
+  },
   "features": {
     "title": "なぜRaqoonが選ばれるのか",
     "items": [

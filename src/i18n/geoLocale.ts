@@ -166,22 +166,31 @@ function buildAllowedLanguages(
     return supportedLngs.filter((locale) => locale !== 'cimode')
   }
 
-  const candidates = [primaryLocale, 'ru']
+  // Always keep EN as a WW fallback next to the geo primary (+ RU when relevant).
+  const candidates = [primaryLocale, 'en', 'ru']
   return candidates.filter(
     (locale, index, list) => list.indexOf(locale) === index && isLocaleSupported(locale, supportedLngs),
   )
 }
 
+function pickLocale(
+  preferred: string | null,
+  fallback: string,
+  supportedLngs: string[],
+): string {
+  if (preferred && isLocaleSupported(preferred, supportedLngs)) {
+    return preferred
+  }
+  return isLocaleSupported(fallback, supportedLngs) ? fallback : 'en'
+}
+
 export async function resolveLocalePolicy(supportedLngs: string[]): Promise<LocalePolicy> {
   const countryCode = await fetchVisitorCountryCode()
+  const preferred = getStoredLanguage()
 
   // Local preview: show every supported language so copy can be checked without geo tricks.
   if (import.meta.env.DEV) {
-    const preferred = getStoredLanguage()
-    const locale =
-      preferred && isLocaleSupported(preferred, supportedLngs)
-        ? preferred
-        : detectBrowserLanguage(supportedLngs)
+    const locale = pickLocale(preferred, detectBrowserLanguage(supportedLngs), supportedLngs)
     return {
       locale,
       allowLanguageSwitch: true,
@@ -191,23 +200,21 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
   }
 
   if (countryCode === 'RU') {
-    const locale = isLocaleSupported('ru', supportedLngs) ? 'ru' : 'en'
+    // Persist switcher choice; RU visitors can use RU or EN.
+    const locale = pickLocale(preferred, 'ru', supportedLngs)
     return {
       locale,
       allowLanguageSwitch: true,
       countryCode,
-      allowedLanguages: buildAllowedLanguages(supportedLngs, locale),
+      allowedLanguages: ['ru', 'en'].filter((localeCode) =>
+        isLocaleSupported(localeCode, supportedLngs),
+      ),
     }
   }
 
   if (countryCode === 'TR') {
-    const preferred = getStoredLanguage()
-    const normalizedPreferred =
-      preferred === 'tr' ? null : preferred
-    const locale =
-      normalizedPreferred && isLocaleSupported(normalizedPreferred, supportedLngs)
-        ? normalizedPreferred
-        : 'en'
+    const normalizedPreferred = preferred === 'tr' ? null : preferred
+    const locale = pickLocale(normalizedPreferred, 'en', supportedLngs)
 
     return {
       locale,
@@ -218,7 +225,7 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
   }
 
   if (countryCode && countryCode !== 'IL' && ARABIC_SPEAKING_COUNTRIES.has(countryCode)) {
-    const locale = isLocaleSupported('ar', supportedLngs) ? 'ar' : 'en'
+    const locale = pickLocale(preferred, 'ar', supportedLngs)
     return {
       locale,
       allowLanguageSwitch: true,
@@ -229,7 +236,8 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
 
   if (countryCode) {
     const countryLanguage = COUNTRY_TO_LANGUAGE[countryCode] ?? 'en'
-    const locale = isLocaleSupported(countryLanguage, supportedLngs) ? countryLanguage : 'en'
+    const fallback = isLocaleSupported(countryLanguage, supportedLngs) ? countryLanguage : 'en'
+    const locale = pickLocale(preferred, fallback, supportedLngs)
     return {
       locale,
       allowLanguageSwitch: true,
@@ -238,7 +246,7 @@ export async function resolveLocalePolicy(supportedLngs: string[]): Promise<Loca
     }
   }
 
-  const locale = detectBrowserLanguage(supportedLngs)
+  const locale = pickLocale(preferred, detectBrowserLanguage(supportedLngs), supportedLngs)
   return {
     locale,
     allowLanguageSwitch: true,

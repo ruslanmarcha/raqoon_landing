@@ -62,6 +62,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "Simple.\nPrivate. Yours.",
+      "cta": "Download"
+    },
+    "openTile": "Open: {{title}}",
+    "closeTile": "Close",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "Free access.",
+        "headline": "No ads.",
+        "detailTitle": "Free access",
+        "detailBody": "Download and use for free — no payment, no ads. Only in the Raqoon app.",
+        "benefits": [
+          "5 GB of data per month",
+          "Core services through one connection",
+          "Upgrade to full access whenever you want"
+        ],
+        "cta": "Download",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "All-Inclusive.",
+        "headline": "Full access.",
+        "price": "from $4.99 / month",
+        "detailTitle": "All-Inclusive",
+        "detailBody": "Full access — see exact terms for your region in the app.",
+        "benefits": [
+          "Automatic best-protocol selection",
+          "24/7 support",
+          "Access to all global services",
+          "Location switching",
+          "Up to 5 devices at once",
+          "Generous data allowance"
+        ],
+        "cta": "Download",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "Referral.",
+        "headline": "Up to +30 days.",
+        "sub": "Friends get +10 days after they subscribe.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "Soon.",
+        "headline": "eSIM.",
+        "sub": "Stay connected without the usual hassle.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "Start simple.",
+      "body": "Download the app and start on the free plan — upgrade whenever you want.",
+      "cta": "Download"
+    }
+  },
   "features": {
     "title": "Why people choose Raqoon",
     "items": [
@@ -149,8 +226,8 @@
       "title": "Free access",
       "subtitle": "Download and use for free — no payment, no ads. Only in the Raqoon app.",
       "benefits": [
-        "5 GB of traffic per month",
-        "Basic services in one connection",
+        "5 GB of data per month",
+        "Core services through one connection",
         "Upgrade to full access whenever you want"
       ]
     }

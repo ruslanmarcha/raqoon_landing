@@ -1,0 +1,763 @@
+/* Home hub — wallet gallery language + flip for detail tiles. */
+
+.page {
+  --wp-radius: 28px;
+  --wp-gap: 10px;
+
+  background: var(--color-bg);
+  color: var(--color-text);
+  overflow-x: hidden;
+  font-family: var(--font-sans);
+}
+
+.wrap {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-inline: var(--container-px);
+  box-sizing: border-box;
+}
+
+.blockLine {
+  display: block;
+}
+
+.btnDark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 22px;
+  border: none;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-bg);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.btnLight {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 22px;
+  border-radius: var(--radius-full);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: var(--font-medium);
+  cursor: pointer;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* —— Hero —— */
+.hero {
+  padding: var(--space-16) 0 var(--space-10);
+  text-align: center;
+  background: transparent;
+}
+
+.heroMascot {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 var(--space-5);
+  line-height: 0;
+}
+
+.heroMascot img {
+  display: block;
+  width: 77%;
+  max-width: 392px;
+  height: auto;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.heroHeadline {
+  margin: 0 auto var(--space-8);
+  max-width: 14ch;
+  font-size: 40px;
+  font-weight: var(--font-semibold);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+/* —— Gallery —— */
+.gallery {
+  background: transparent;
+  padding: var(--space-6) 0 var(--space-12);
+  scroll-margin-top: 56px;
+}
+
+.galleryWrap {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-inline: 10px;
+  box-sizing: border-box;
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--wp-gap);
+  width: 100%;
+}
+
+.tile {
+  position: relative;
+  box-sizing: border-box;
+  /* Definite width so aspect-ratio × min-height cannot expand past the track
+     (media fulls: 380 × 1.55 = 589 > ~580 gallery). */
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  border-radius: var(--wp-radius);
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+
+.tileFlip {
+  perspective: 1800px;
+  cursor: pointer;
+}
+
+.tileLink {
+  display: block;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.tileFull {
+  grid-column: span 2;
+  aspect-ratio: 1.45 / 1;
+  min-height: 360px;
+}
+
+.tileFull.tileLink:has(.tileMedia),
+.tileFull.tileFlip:has(.tileMedia) {
+  /* Taller than plain fulls so wallet/eSIM art clears display copy */
+  aspect-ratio: 1.35 / 1;
+  min-height: 420px;
+}
+
+.tileHalf {
+  grid-column: span 1;
+  aspect-ratio: 0.72 / 1;
+  min-height: 380px;
+}
+
+/* Flip halves share the same box as link halves — no taller aspect/min-height */
+
+.tileLight .faceFront,
+.tileLink.tileLight {
+  background: var(--color-surface);
+}
+
+.tileSoft .faceFront,
+.tileLink.tileSoft {
+  background: var(--color-surface-alt);
+}
+
+.tileDark .faceFront,
+.tileLink.tileDark {
+  background: var(--color-surface-elevated);
+}
+
+.tileSoon {
+  background: transparent;
+  border-style: dashed;
+  border-color: var(--color-border-light);
+  cursor: default;
+}
+
+/* —— Flip scene (wallet Safari rules) —— */
+.scene {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.tileOpen .scene {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.face {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--wp-radius);
+  overflow: visible;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.faceFront {
+  background: var(--color-surface);
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+}
+
+.faceBack {
+  background: var(--color-surface-elevated);
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.facePad {
+  height: 100%;
+  padding: 28px 22px 56px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: inherit;
+  overflow: hidden;
+  gap: 12px;
+}
+
+.facePadMedia {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Link tiles: pin facePad to aspect-ratio box so padding cannot grow the tile */
+.tileLink .facePadMedia {
+  position: absolute;
+  inset: 0;
+  height: auto;
+}
+
+.facePadMedia > :not(.tileMedia) {
+  position: relative;
+  z-index: 2;
+}
+
+.tileMedia {
+  position: absolute;
+  right: 44px;
+  bottom: 0;
+  left: auto;
+  top: auto;
+  width: min(58%, 320px);
+  height: 55%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.tileMedia img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+  object-position: bottom right;
+  filter: drop-shadow(0 14px 24px rgba(0, 0, 0, 0.45));
+}
+
+.tileFull .tileMedia {
+  width: min(52%, 360px);
+  height: 62%;
+  right: 40px;
+}
+
+/* Wallet cards: text zone exclusive; art in lower-right pocket (absolute facePad — % pad won't inflate tile) */
+.facePadMediaCards {
+  padding-bottom: max(140px, 44%);
+}
+
+.facePadMediaCards .tileHeadline,
+.facePadMediaCards .tileSub {
+  position: relative;
+  z-index: 2;
+}
+
+.facePadMediaCards .tileSub {
+  padding-bottom: 12px;
+  max-width: 28ch;
+}
+
+.tileMediaCards,
+.tileFull .tileMediaCards {
+  width: min(48%, 280px);
+  height: 32%;
+  max-height: 34%;
+  right: 64px;
+  bottom: 40px;
+}
+
+.tileMediaCards img {
+  object-position: center center;
+}
+
+/* eSIM phone: portrait art docks bottom-right, clear of arrow and display copy */
+.facePadMediaPhone {
+  padding-bottom: max(56px, 58%);
+}
+
+.facePadMediaPhone .tileHeadline,
+.facePadMediaPhone .tileSub {
+  position: relative;
+  z-index: 2;
+}
+
+.facePadMediaPhone .tileSub {
+  padding-bottom: 16px;
+}
+
+.tileMediaPhone,
+.tileFull .tileMediaPhone {
+  width: min(43%, 252px);
+  height: 74%;
+  max-height: 82%;
+  right: 60px;
+  bottom: 0;
+}
+
+.tileMediaPhone img {
+  object-position: bottom right;
+}
+
+.privacyFace {
+  position: relative;
+}
+
+.facePadIcon {
+  position: relative;
+}
+
+.tileIcon {
+  margin-top: auto;
+  align-self: flex-end;
+  margin-right: 40px;
+  margin-bottom: 4px;
+  width: min(180px, 42%);
+  color: var(--color-accent);
+  opacity: 0.92;
+  pointer-events: none;
+  line-height: 0;
+}
+
+.zeroSvg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.tileHeadline {
+  margin: 0;
+  font-size: 26px;
+  font-weight: var(--font-semibold);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+.displayHeadline {
+  font-size: clamp(52px, 11vw, 64px);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  max-width: 14ch;
+}
+
+.tileFull .displayHeadline {
+  max-width: 16ch;
+}
+
+.feeHeadline,
+.tileFull .feeHeadline,
+.tileHalf .feeHeadline {
+  font-size: clamp(32px, 5.2vw, 40px);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+  max-width: none;
+}
+
+.tileSub {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+
+.tileFull .tileSub:not(.tileSubDisplay) {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 1.35;
+  color: var(--color-text-secondary);
+  font-weight: var(--font-medium);
+  max-width: 36ch;
+}
+
+.priceTag {
+  margin-top: auto;
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+}
+
+.tileFull .priceTag {
+  font-size: 28px;
+}
+
+.tileSubDisplay {
+  margin-top: 4px;
+  font-size: clamp(52px, 11vw, 64px);
+  font-weight: var(--font-semibold);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  color: var(--color-text);
+  max-width: 12ch;
+}
+
+.gradText {
+  display: block;
+  color: var(--color-accent);
+}
+
+/* Desktop full tiles: accent + headline on one row */
+@media (min-width: 520px) {
+  .tileFull .displayHeadline {
+    display: block;
+    max-width: 12ch;
+  }
+
+  .tileFull .displayHeadline .gradText,
+  .tileFull .displayHeadline .blockLine {
+    display: block;
+  }
+
+  .tileFull .feeHeadline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.3em;
+    row-gap: 0;
+    max-width: none;
+  }
+
+  .tileFull .feeHeadline .gradText,
+  .tileFull .feeHeadline .blockLine {
+    display: inline;
+  }
+}
+
+.backPad {
+  height: 100%;
+  padding: 22px 18px 72px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: inherit;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tileHalf .backPad {
+  padding: 20px 16px 76px;
+  gap: 8px;
+}
+
+.backTitle {
+  margin: 0;
+  font-size: 22px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.025em;
+  color: var(--color-text);
+}
+
+.tileHalf .backTitle {
+  font-size: 18px;
+}
+
+.backBody {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+
+.tileHalf .backBody {
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.benefits {
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.tileHalf .benefits {
+  gap: 6px;
+}
+
+.benefits li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: var(--font-medium);
+  color: var(--color-text);
+}
+
+.tileHalf .benefits li {
+  font-size: 12px;
+  padding-left: 14px;
+}
+
+.benefits li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+.cornerActions {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.downloadBtn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  font-size: 18px;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.downloadBtn:hover {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+.arrow {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  font-size: 18px;
+  line-height: 1;
+  pointer-events: none;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.tileLink:hover .arrow {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+.tileSoon .arrow {
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+.toggle {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  z-index: 5;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.toggle:hover {
+  transform: scale(1.06);
+  opacity: 0.92;
+}
+
+/* —— Start —— */
+.start {
+  padding: var(--space-16) 0 var(--space-20);
+  text-align: center;
+}
+
+.startIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto var(--space-6);
+  border-radius: 22px;
+  object-fit: cover;
+}
+
+.startTitle {
+  margin: 0 auto var(--space-4);
+  max-width: 16ch;
+  font-size: 34px;
+  font-weight: var(--font-semibold);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.startBody {
+  margin: 0 auto var(--space-8);
+  max-width: 36ch;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--color-text-secondary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scene {
+    transition: none;
+  }
+}
+
+@media (max-width: 519px) {
+  .tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .tileFull,
+  .tileHalf {
+    grid-column: span 1;
+    aspect-ratio: 0.85 / 1;
+    min-height: 380px;
+  }
+
+  .tileFull.tileLink:has(.tileMedia),
+  .tileFull.tileFlip:has(.tileMedia) {
+    aspect-ratio: 0.85 / 1;
+    min-height: 380px;
+  }
+
+  .page {
+    --wp-radius: 22px;
+  }
+
+  .heroHeadline {
+    font-size: 34px;
+  }
+
+  .heroMascot img {
+    width: 67%;
+    max-width: 280px;
+  }
+
+  .feeHeadline,
+  .tileHalf .feeHeadline,
+  .tileFull .feeHeadline {
+    font-size: clamp(36px, 9.5vw, 44px);
+    line-height: 1.05;
+    letter-spacing: -0.035em;
+  }
+
+  .displayHeadline,
+  .tileSubDisplay {
+    font-size: clamp(52px, 11vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  .facePadMediaCards {
+    padding-bottom: max(140px, 46%);
+  }
+
+  .facePadMediaCards .tileSub {
+    padding-bottom: 12px;
+    max-width: 24ch;
+  }
+
+  .tileMediaCards,
+  .tileFull .tileMediaCards {
+    width: min(56%, 248px);
+    height: 32%;
+    max-height: 34%;
+    right: 56px;
+    bottom: 44px;
+  }
+
+  .facePadMediaPhone {
+    padding-bottom: max(56px, 54%);
+  }
+
+  .facePadMediaPhone .tileSub {
+    padding-bottom: 20px;
+  }
+
+  .tileMediaPhone,
+  .tileFull .tileMediaPhone {
+    width: min(50%, 216px);
+    height: 67%;
+    max-height: 74%;
+    right: 56px;
+    bottom: 0;
+  }
+}

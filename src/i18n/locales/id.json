@@ -44,6 +44,83 @@
     "storeApple": "App Store",
     "storeGoogle": "Google Play"
   },
+  "homePage": {
+    "hero": {
+      "brand": "Raqoon",
+      "headline": "Sederhana.\nPrivat. Milikmu.",
+      "cta": "Unduh"
+    },
+    "openTile": "Buka: {{title}}",
+    "closeTile": "Tutup",
+    "tiles": [
+      {
+        "id": "free",
+        "span": "full",
+        "theme": "light",
+        "flip": true,
+        "display": true,
+        "accent": "Akses gratis.",
+        "headline": "Tanpa iklan.",
+        "detailTitle": "Akses gratis",
+        "detailBody": "Unduh dan pakai gratis — tanpa bayar, tanpa iklan. Hanya di aplikasi Raqoon.",
+        "benefits": [
+          "5 GB data per bulan",
+          "Layanan inti lewat satu koneksi",
+          "Upgrade ke akses penuh kapan saja"
+        ],
+        "cta": "Unduh",
+        "href": "/download",
+        "icon": "zero",
+        "iconLabel": "$0"
+      },
+      {
+        "id": "allin",
+        "span": "half",
+        "theme": "soft",
+        "flip": true,
+        "accent": "All-Inclusive.",
+        "headline": "Akses penuh.",
+        "price": "mulai $4,99 / bulan",
+        "detailTitle": "All-Inclusive",
+        "detailBody": "Akses penuh — syarat pasti untuk wilayahmu ada di aplikasi.",
+        "benefits": [
+          "Pemilihan protokol terbaik otomatis",
+          "Dukungan 24/7",
+          "Akses ke semua layanan global",
+          "Ganti lokasi",
+          "Hingga 5 perangkat sekaligus",
+          "Kuota data besar"
+        ],
+        "cta": "Unduh",
+        "href": "/download"
+      },
+      {
+        "id": "referral",
+        "span": "half",
+        "theme": "light",
+        "accent": "Referral.",
+        "headline": "Hingga +30 hari.",
+        "sub": "Teman dapat +10 hari setelah berlangganan.",
+        "href": "/referral"
+      },
+      {
+        "id": "esim",
+        "span": "full",
+        "theme": "dark",
+        "soon": true,
+        "display": true,
+        "accent": "Segera.",
+        "headline": "eSIM.",
+        "sub": "Tetap terhubung tanpa ribet seperti biasa.",
+        "visual": "/home-esim-phone.png"
+      }
+    ],
+    "final": {
+      "headline": "Mulai dengan sederhana.",
+      "body": "Unduh aplikasi dan mulai dari paket gratis — upgrade kapan pun kamu mau.",
+      "cta": "Unduh"
+    }
+  },
   "features": {
     "title": "Mengapa orang memilih Raqoon",
     "items": [

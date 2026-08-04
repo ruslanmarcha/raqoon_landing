@@ -1,22 +1,26 @@
 Patakaran sa Privacy ng Raqoon VPN
 
-Petsa ng bisa: 17 Mayo 2026
+Petsa ng bisa: ika-4 ng Agosto 2026
 May-ari ng serbisyo: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
 Contact sa privacy: private@raqoon.app
 
 1. Buod
 
-Idinisenyo ang Raqoon VPN upang protektahan ang iyong koneksyon at palakasin ang privacy sa internet. Hindi kinokolekta o sinusuri ng app ang aktibidad sa pag-browse, mga DNS query, o nilalaman ng VPN traffic.
+Idinisenyo ang Raqoon VPN upang protektahan ang iyong koneksyon at palakasin ang privacy kapag gumagamit ka ng internet. Hindi kinokolekta o sinusuri ng app ang aktibidad sa pag-browse, mga DNS query, o nilalaman ng VPN traffic.
 
 Upang patakbuhin ang serbisyo, pinoproseso lamang namin ang limitadong teknikal na impormasyon, kabilang ang:
 - random na nabuo na anonymous device identifier;
 - random na nabuo na anonymous client identifier;
-- impormasyon sa rehiyon ng App Store;
+- impormasyon sa rehiyon ng app store (Apple App Store, Google Play, o Huawei AppGallery);
 - kumpirmasyon na ikaw ay hindi bababa sa 18 taong gulang;
 - pangunahing teknikal na diagnostic na may kaugnayan sa katatagan ng koneksyon;
-- status ng subscription at dami ng traffic para sa limit ng plano mo.
+- status ng subscription at dami ng traffic na kailangan para sa limit ng plano mo.
 
-Hindi namin kailangan ang pangalan, numero ng telepono, o email para gamitin ang VPN. Hindi namin ginagamit ang VPN data para sa analytics, advertising, profiling, o user tracking. Hindi namin ibinebenta ang data ng user sa advertising networks.
+Hindi namin kailangan ang pangalan, numero ng telepono, o email para gamitin ang VPN kung pinapayagan ng produkto ang access nang walang account.
+
+Hindi namin ginagamit ang VPN traffic, DNS query, o browsing activity para sa analytics, advertising, profiling, o user tracking, at hindi namin ibinebenta ang datos na iyon.
+
+Hiwalay sa VPN tunnel, pagkatapos mong sumang-ayon sa in-app consent screen (kung ipinapakita), maaaring magproseso ang app ng limitadong app product analytics at diagnostics — halimbawa, mga event ng consent at age-confirmation, mga view ng onboarding screen at mga tap sa service preference, pagpili ng wika, paggawa ng account o pag-sign-in, pag-activate ng trial, at mga resulta ng purchase. Hindi ito log ng mga website na binibisita mo sa pamamagitan ng VPN.
 
 2. Ano ang ibig sabihin ng aming No-Logs policy
 
@@ -35,22 +39,40 @@ Maaaring pansamantalang maproseso ng network equipment ang ilang teknikal na dat
 3. Data na kinokolekta sa app
 
 3.1. Mga identifier at eligibility
-- random na nabuo na anonymous device identifier (awtorisasyon ng device at device limits);
-- random na nabuo na anonymous client identifier (client session);
-- rehiyon ng App Store (regional availability at store rules);
+- random na nabuo na anonymous device identifier (upang awtorisahan ang iyong device at ipatupad ang device limits);
+- random na nabuo na anonymous client identifier (upang pamahalaan ang client session);
+- rehiyon ng app store (Apple App Store, Google Play, o Huawei AppGallery) (upang ipatupad ang regional availability at store rules);
 - kumpirmasyon na ikaw ay 18 taong gulang o mas matanda.
 
 3.2. Operasyon ng serbisyo at diagnostics
 - status ng subscription at limit ng plano;
 - dami ng nailipat na data (para ipatupad ang plano mo, hindi para makita kung ano ang na-access mo);
 - oras ng huling koneksyon at status ng koneksyon;
-- pangunahing teknikal na diagnostic sa katatagan at error (walang browsing history, DNS query, o nilalaman ng traffic).
+- pangunahing teknikal na diagnostic na may kaugnayan sa katatagan ng koneksyon at error (walang browsing history, DNS query, o nilalaman ng traffic).
 
 3.3. Mga subscription at app store
-Kung mag-subscribe ka sa Apple App Store, Google Play, o Huawei AppGallery, pinoproseso ng store ang bayad. Tumatanggap lamang kami ng limitadong teknikal na data para i-validate ang subscription status (hal. resibo o token data). Hindi namin iniimbak ang buong payment card details.
+Kung mag-subscribe ka sa Apple App Store, Google Play, o Huawei AppGallery, pinoproseso ng store ang bayad. Tumatanggap lamang kami ng limitadong teknikal na data na kailangan upang i-validate ang subscription status (halimbawa, resibo o token data). Hindi namin iniimbak ang buong payment card details.
 
 3.4. Support (kung makikipag-ugnayan ka lamang)
 Kung magsusulat ka sa support o gagamit ng support portal, pinoproseso namin ang contact details at nilalamang boluntaryo mong ibinigay. Hiwalay ito sa VPN session logging.
+
+3.5. App product analytics at diagnostics (pagkatapos ng consent kung kinakailangan)
+Pagkatapos mong magbigay ng consent sa in-app consent screen (kung ipinapakita), maaari naming iproseso ang limitadong event data tungkol sa kung paano mo ginagamit ang interface ng app, kabilang ang:
+- consent na ibinigay o binawi para sa data processing / analytics;
+- age-gate confirmation na ikaw ay 18+ (boolean lang; hindi kami nangongolekta ng petsa ng kapanganakan para sa gate na ito);
+- mga view at interaksyon sa onboarding screen, kabilang ang mga service / preference selection na ginagamit para sa personalization at experiments;
+- pagpili ng wika;
+- paggawa ng account o pag-sign-in (nananatiling opsyonal ang account para sa basic na paggamit ng VPN kung pinapayagan ng app);
+- pag-activate ng trial;
+- mga resulta ng purchase / subscription (product/plan identifier, store, price at currency kung available mula sa store, at success / failure / cancellation).
+
+Maaaring ikabit muna ang mga event sa anonymous device/installation identifier at, pagkatapos ng paggawa ng account o pag-sign-in, sa internal user identifier (halimbawa, internal UUID). Hindi namin ginagamit ang iyong email address bilang analytics user_id.
+
+Mga layunin: conversion funnels, A/B at onboarding experiments, at pagpapabuti ng produkto. Hindi para muling buuin ang VPN browsing history, DNS query, o nilalaman ng traffic.
+
+Maaari ring i-store ang onboarding service preferences sa aming backend upang i-personalize ang produkto, hiwalay sa analytics events.
+
+Diagnostics: Maaaring mangolekta ang Firebase Crashlytics at Firebase Performance Monitoring ng crash reports at performance metrics upang mapabuti ang reliability. Hindi ginagamit ang mga ito upang suriin ang VPN browsing activity o nilalaman ng traffic.
 
 4. Mga layunin ng pagproseso
 
@@ -59,7 +81,10 @@ Ginagamit lamang namin ang data sa itaas upang:
 - ipatupad ang mga regional availability restriction;
 - pamahalaan ang mga subscription at device access;
 - mapabuti ang reliability ng koneksyon at ayusin ang teknikal na isyu;
-- matiyak ang pagsunod sa mga kinakailangang may kaugnayan sa edad ng serbisyo.
+- matiyak ang pagsunod sa mga kinakailangang may kaugnayan sa edad ng serbisyo;
+- sukatin at pagbutihin ang onboarding, product flows, trial, at subscription conversion;
+- magpatakbo ng A/B at interface experiments;
+- mag-diagnose ng crashes at performance issues.
 
 5. Saan pinoproseso ang data (infrastructure)
 
@@ -67,39 +92,54 @@ Ganito ang distribusyon ng aming infrastructure:
 
 Estados Unidos:
 - pangunahing backend systems (account identifiers, subscription data, rehiyon ng app store (Apple App Store, Google Play, o Huawei AppGallery), age confirmation, connection diagnostics na inilarawan sa Patakarang ito);
-- mga server ng customer support portal (data na isinusumite mo kapag nakikipag-ugnayan sa support).
+- mga server ng customer support portal (data na isinusumite mo kapag nakikipag-ugnayan sa support);
+- pagproseso ng Google Firebase / Google Cloud para sa Firebase Analytics, Crashlytics, at Performance Monitoring (ang aming Firebase project ay gumagamit ng United States default region / Google infrastructure para sa proyektong iyon).
 
 Switzerland:
 - load balancing para sa mga VPN connection;
 - mga VPN server na nagbibigay ng iyong naka-encrypt na VPN connection.
 
-Dumadaan ang naka-encrypt na VPN traffic sa aming VPN at load-balancing infrastructure sa Switzerland. Hindi kami nag-iimbak ng log ng mga binisitang website, DNS query, o nilalaman ng traffic.
+Dumadaan ang naka-encrypt na VPN traffic sa aming VPN at load-balancing infrastructure sa Switzerland. Hindi kami nag-iimbak ng log ng mga website na binibisita mo, DNS query, o nilalaman ng traffic.
 
 Maaaring ilipat ang limitadong teknikal na service data sa pagitan ng Estados Unidos at Switzerland lamang kung kinakailangan upang patakbuhin ang serbisyo, gamit ang angkop na teknikal at organizational safeguards.
 
 6. Mga third party
 
-Hindi namin ibinabahagi ang VPN traffic, browsing activity, DNS query, o nilalaman ng traffic sa mga third party para sa analytics, advertising, profiling, o tracking.
+Hindi namin ibinabahagi ang VPN traffic, browsing activity, DNS query, o nilalaman ng traffic sa mga third party para sa analytics, advertising, profiling, o tracking ng VPN sessions.
+
+Gumagamit kami ng Google Firebase (Analytics, Crashlytics, Performance Monitoring) bilang processor para sa app analytics at diagnostics na inilarawan sa Patakarang ito.
 
 Pinoproseso ng mga app store operator (Apple, Google, Huawei) ang mga pagbili ayon sa kanilang sariling terms at privacy policies. Tumatanggap lamang kami ng teknikal na subscription validation data na inilarawan sa itaas.
 
 Nagho-host ang infrastructure providers ng mga server at network; hindi namin ibinibigay sa kanila ang user activity log, browsing history, DNS query, o nilalaman ng traffic. Teknikal silang nakikilahok sa pagdadala ng naka-encrypt na traffic gaya ng kinakailangan para gumana ang VPN.
 
-7. Walang tracking sa Raqoon app
+7. App analytics at diagnostics (hiwalay sa VPN No-Logs policy)
 
-Hindi gumagamit ang aming mobile app ng third-party marketing o product analytics SDK upang subaybayan ang paggamit ng VPN. Maaaring iproseso ng Apple, Google, o Huawei ang crash o diagnostic report ayon sa platform rules at device settings mo; hindi ginagamit ang mga ito upang suriin ang VPN browsing activity o nilalaman ng traffic.
+Maaaring gumamit ang mga Raqoon mobile app ng third-party SDK para sa app product analytics at diagnostics, kabilang ang Google Firebase Analytics, Firebase Crashlytics, at Firebase Performance Monitoring.
+
+Kung may ipinapakitang consent screen, nagsisimula lamang ang non-essential app analytics collection pagkatapos mong tumanggap.
+
+Sinasaklaw ng app analytics ang in-app product events (consent, age confirmation, onboarding, language, account creation, trial, purchase outcomes). Hindi nito nilo-log ang mga binisitang website, DNS query, o nilalamang ipinapadala sa pamamagitan ng VPN tunnel.
+
+Tumutulong ang crash at performance diagnostics upang mapabuti ang stability at hindi ginagamit upang suriin ang VPN browsing activity o nilalaman ng traffic.
+
+Maaari ring magproseso ang mga platform provider (Apple, Google, Huawei) ng purchase, crash, o device data ayon sa kanilang sariling policies at sa iyong device settings.
 
 8. Website (raqoon.app), cookies, at analytics
 
 Sa raqoon.app maaari kaming gumamit ng cookies at katulad na teknolohiya para sa basic site operation, preferences, at web analytics.
 
-Maaaring gumamit ang site ng Google Analytics upang maunawaan ang kabuuang traffic at performance ng page. Hiwaay ang website analytics sa VPN app at hindi ginagamit upang suriin ang VPN traffic, DNS query, o browsing history sa loob ng VPN session.
+Maaaring gumamit ang site ng Google Analytics upang maunawaan ang kabuuang traffic at performance ng page. Hiwalay ang website analytics sa VPN app at hindi ginagamit upang suriin ang VPN traffic, DNS query, o browsing history sa loob ng VPN session.
+
+Hiwalay din ang in-app Firebase analytics na inilarawan sa Patakarang ito sa website Google Analytics cookies sa raqoon.app.
 
 Kung may cookie consent banner, maaari mong tanggapin o tanggihan ang non-essential cookies.
 
 9. Retention at pagtanggal
 
 Pinapanatili ang teknikal na data habang aktibo ang subscription mo at kung kinakailangan upang patakbuhin ang serbisyo. Kung hindi mo i-renew, maaaring tanggalin ang account data pagkatapos ng panahon ng hindi paggamit.
+
+Pinapanatili ang app analytics events na pinoproseso sa pamamagitan ng Firebase Analytics ayon sa aming Firebase / Google Analytics retention settings (bilang default hanggang 14 buwan, maliban kung mag-configure kami ng mas maikling panahon). Pinapanatili ang crash at performance diagnostics kung kinakailangan upang imbestigahan ang mga isyu at ayon sa practices ng provider. Pagkatapos ng pagtanggal ng account, tinatanggal o ina-anonymize namin ang account-linked data na hindi na kinakailangan; maaaring manatili ang ilang aggregated o de-identified analytics.
 
 Maaari mong tanggalin ang account at kaugnay na data sa mga setting ng Raqoon app. Pagkatapos ng pagtanggal, titigil kami sa pagbibigay ng access at tatanggalin o ia-anonymize ang data na hindi na kailangan.
 
@@ -141,7 +181,7 @@ Google Play (Android)
 
 HUAWEI AppGallery (Android sa Huawei device)
 - download at update sa pamamagitan ng Huawei AppGallery;
-- bayad at in-app purchase ayon sa mga patakaran ng Huawei / AppGallery;
+- bayad at in-app purchase ayon sa mga patakaran ng Huawei AppGallery;
 - maaaring iproseso ng Huawei ang Huawei account at device identifier ayon sa privacy policy ng Huawei.
 
 Tumatanggap lamang kami mula sa store ng limitadong teknikal na data na kailangan para i-verify ang subscription at magbigay ng access (hal. token o purchase receipt). Ang paggamit mo ng bawat store ay pinamamahalaan din ng terms at privacy policy ng operator nito.

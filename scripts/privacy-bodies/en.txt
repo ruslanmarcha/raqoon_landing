@@ -1,6 +1,6 @@
 Raqoon VPN Privacy Policy
 
-Effective date: May 17, 2026
+Effective date: August 4, 2026
 Service owner: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
 Privacy contact: private@raqoon.app
 
@@ -16,7 +16,11 @@ To operate the service we process only limited technical information, including:
 - basic technical diagnostics related to connection stability;
 - subscription status and traffic volume needed for your plan limits.
 
-We do not require your name, phone number, or email to use the VPN. We do not use VPN data for analytics, advertising, profiling, or user tracking. We do not sell user data to advertising networks.
+We do not require your name, phone number, or email to use the VPN where the product allows access without an account.
+
+We do not use VPN traffic, DNS queries, or browsing activity for analytics, advertising, profiling, or user tracking, and we do not sell that data.
+
+Separately from the VPN tunnel, after you agree on the in-app consent screen (where shown), the app may process limited app product analytics and diagnostics — for example consent and age-confirmation events, onboarding screen views and service-preference taps, language selection, account creation or sign-in, trial activation, and purchase outcomes. This is not a log of websites you visit through the VPN.
 
 2. What our No-Logs policy means
 
@@ -52,6 +56,24 @@ If you subscribe through the Apple App Store, Google Play, or Huawei AppGallery,
 3.4. Support (only if you contact us)
 If you write to support or use the support portal, we process contact details and the content you voluntarily provide. This is separate from VPN session logging.
 
+3.5. App product analytics and diagnostics (after consent where required)
+After you provide consent on the in-app consent screen (where shown), we may process limited event data about how you use the app interface, including:
+- consent given or withdrawn for data processing / analytics;
+- age-gate confirmation that you are 18+ (boolean only; we do not collect date of birth for this gate);
+- onboarding screen views and interactions, including service / preference selections used for personalization and experiments;
+- language selection;
+- account creation or sign-in (account remains optional for basic VPN use where the app allows it);
+- trial activation;
+- purchase / subscription outcomes (product/plan identifier, store, price and currency where available from the store, and success / failure / cancellation).
+
+Events may first be linked to an anonymous device/installation identifier and, after account creation or sign-in, to an internal user identifier (for example an internal UUID). We do not use your email address as the analytics user_id.
+
+Purposes: conversion funnels, A/B and onboarding experiments, and product improvement. Not for reconstructing VPN browsing history, DNS queries, or traffic content.
+
+Onboarding service preferences may also be stored in our backend to personalize the product, separately from analytics events.
+
+Diagnostics: Firebase Crashlytics and Firebase Performance Monitoring may collect crash reports and performance metrics to improve reliability. They are not used to analyze VPN browsing activity or traffic content.
+
 4. Purposes of processing
 
 We use the data above solely to:
@@ -59,7 +81,10 @@ We use the data above solely to:
 - apply regional availability restrictions;
 - manage subscriptions and device access;
 - improve connection reliability and troubleshoot technical issues;
-- ensure compliance with age-related service requirements.
+- ensure compliance with age-related service requirements;
+- measure and improve onboarding, product flows, trial, and subscription conversion;
+- run A/B and interface experiments;
+- diagnose crashes and performance issues.
 
 5. Where data is processed (infrastructure)
 
@@ -67,7 +92,8 @@ Our infrastructure is distributed as follows:
 
 United States:
 - primary backend systems (account identifiers, subscription data, app store region (Apple App Store, Google Play, or Huawei AppGallery), age confirmation, connection diagnostics described in this Policy);
-- customer support portal servers (data you submit when you contact support).
+- customer support portal servers (data you submit when you contact support);
+- Google Firebase / Google Cloud processing for Firebase Analytics, Crashlytics, and Performance Monitoring (our Firebase project uses a United States default region / Google infrastructure for that project).
 
 Switzerland:
 - load balancing for VPN connections;
@@ -79,15 +105,25 @@ Limited technical service data may be transferred between the United States and 
 
 6. Third parties
 
-We do not share VPN traffic, browsing activity, DNS queries, or traffic contents with third parties for analytics, advertising, profiling, or tracking.
+We do not share VPN traffic, browsing activity, DNS queries, or traffic contents with third parties for analytics, advertising, profiling, or tracking of VPN sessions.
+
+We use Google Firebase (Analytics, Crashlytics, Performance Monitoring) as a processor for the app analytics and diagnostics described in this Policy.
 
 App store operators (Apple, Google, Huawei) process purchases under their own terms and privacy policies. We receive only the technical subscription validation data described above.
 
 Infrastructure providers host servers and networks; we do not provide them with user activity logs, browsing history, DNS queries, or traffic content. They technically participate in carrying encrypted traffic as required for a VPN to function.
 
-7. No tracking in the Raqoon app
+7. App analytics and diagnostics (separate from the VPN No-Logs policy)
 
-Our mobile apps do not use third-party marketing or product analytics SDKs to track VPN usage. Crash or diagnostic reports may be processed by Apple, Google, or Huawei under platform rules and your device settings; such reports are not used to analyze VPN browsing activity or traffic content.
+The Raqoon mobile apps may use third-party SDKs for app product analytics and diagnostics, including Google Firebase Analytics, Firebase Crashlytics, and Firebase Performance Monitoring.
+
+Where a consent screen is shown, non-essential app analytics collection begins only after you accept.
+
+App analytics covers in-app product events (consent, age confirmation, onboarding, language, account creation, trial, purchase outcomes). It does not log websites visited, DNS queries, or content transmitted through the VPN tunnel.
+
+Crash and performance diagnostics help improve stability and are not used to analyze VPN browsing activity or traffic content.
+
+Platform providers (Apple, Google, Huawei) may also process purchase, crash, or device data under their own policies and your device settings.
 
 8. Website (raqoon.app), cookies, and analytics
 
@@ -95,11 +131,15 @@ On raqoon.app we may use cookies and similar technologies for basic site operati
 
 The site may use Google Analytics to understand overall traffic and page performance. Website analytics is separate from the VPN app and is not used to analyze VPN traffic, DNS queries, or browsing history inside a VPN session.
 
+In-app Firebase analytics described in this Policy is also separate from website Google Analytics cookies on raqoon.app.
+
 If a cookie consent banner is shown, you may accept or reject non-essential cookies.
 
 9. Retention and deletion
 
 Technical data is kept while your subscription is active and as needed to operate the service. If you do not renew, account data may be deleted after a period of inactivity.
+
+App analytics events processed via Firebase Analytics are retained according to our Firebase / Google Analytics retention settings (by default up to 14 months, unless we configure a shorter period). Crash and performance diagnostics are retained as needed to investigate issues and under the provider’s practices. After account deletion we delete or anonymize account-linked data that is no longer required; some aggregated or de-identified analytics may remain.
 
 You can delete your account and related data in the Raqoon app settings. After deletion we stop providing access and delete or anonymize data that is no longer required.
 

@@ -1,6 +1,6 @@
 Datenschutzerklärung Raqoon VPN
 
-Gültig ab: 17. Mai 2026
+Gültig ab: 4. August 2026
 Diensteanbieter: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
 Datenschutzkontakt: private@raqoon.app
 
@@ -16,7 +16,11 @@ Zum Betrieb des Dienstes verarbeiten wir nur begrenzte technische Informationen,
 - grundlegende technische Diagnosedaten zur Verbindungsstabilität;
 - Abonnementstatus und Datenverkehrsvolumen für Ihre Tariflimits.
 
-Für die Nutzung des VPN sind Name, Telefonnummer oder E-Mail nicht erforderlich. Wir nutzen VPN-Daten nicht für Analysen, Werbung, Profilbildung oder Nutzerverfolgung. Wir verkaufen keine Nutzerdaten an Werbenetzwerke.
+Für die Nutzung des VPN sind Name, Telefonnummer oder E-Mail nicht erforderlich, soweit das Produkt den Zugang ohne Konto erlaubt.
+
+Wir nutzen VPN-Datenverkehr, DNS-Anfragen oder Surfaktivität nicht für Analysen, Werbung, Profilbildung oder Nutzerverfolgung und verkaufen diese Daten nicht.
+
+Getrennt vom VPN-Tunnel kann die App nach Ihrer Zustimmung auf dem In-App-Einwilligungsbildschirm (soweit angezeigt) begrenzte Produktanalysen und Diagnosedaten der App verarbeiten — beispielsweise Ereignisse zu Einwilligung und Altersbestätigung, Aufrufe von Onboarding-Bildschirmen und Tipps auf Dienst-/Präferenzoptionen, Sprachauswahl, Kontoerstellung oder Anmeldung, Aktivierung einer Testphase sowie Kaufergebnisse. Dies ist kein Protokoll der über das VPN besuchten Websites.
 
 2. Was unsere No-Logs-Richtlinie bedeutet
 
@@ -36,8 +40,8 @@ Bestimmte technische Daten können vorübergehend von Netzwerkausrüstung verarb
 
 3.1. Kennungen und Berechtigung
 - zufällig erzeugte anonyme Gerätekennung (Geräteautorisierung und Gerätelimits);
-- zufällig erzeugte anonyme Client-Kennung (Client-Sitzung);
-- App-Store-Region (Apple App Store, Google Play oder Huawei AppGallery) (Apple App Store, Google Play oder Huawei AppGallery) (regionale Verfügbarkeit und Store-Regeln);
+- zufällig erzeugte anonyme Client-Kennung (Verwaltung der Client-Sitzung);
+- App-Store-Region (Apple App Store, Google Play oder Huawei AppGallery) (regionale Verfügbarkeit und Store-Regeln);
 - Bestätigung, dass Sie mindestens 18 Jahre alt sind.
 
 3.2. Dienstbetrieb und Diagnose
@@ -52,6 +56,24 @@ Bei Abonnement über Apple App Store, Google Play oder Huawei AppGallery verarbe
 3.4. Support (nur bei Kontaktaufnahme)
 Wenn Sie den Support kontaktieren oder das Support-Portal nutzen, verarbeiten wir die von Ihnen freiwillig angegebenen Kontaktdaten und Inhalte. Das ist getrennt von der VPN-Sitzungsprotokollierung.
 
+3.5. App-Produktanalysen und Diagnosen (nach Einwilligung, soweit erforderlich)
+Nachdem Sie auf dem In-App-Einwilligungsbildschirm zugestimmt haben (soweit angezeigt), können wir begrenzte Ereignisdaten zur Nutzung der App-Oberfläche verarbeiten, einschließlich:
+- erteilte oder widerrufene Einwilligung zur Datenverarbeitung / Analyse;
+- Altersbestätigung, dass Sie 18+ sind (nur Boolesch; wir erfassen für dieses Gate kein Geburtsdatum);
+- Aufrufe und Interaktionen auf Onboarding-Bildschirmen, einschließlich Dienst-/Präferenzauswahl für Personalisierung und Experimente;
+- Sprachauswahl;
+- Kontoerstellung oder Anmeldung (ein Konto bleibt für die grundlegende VPN-Nutzung optional, soweit die App das erlaubt);
+- Aktivierung einer Testphase;
+- Kauf-/Abonnementergebnisse (Produkt-/Tarifkennung, Store, Preis und Währung soweit vom Store verfügbar sowie Erfolg / Fehler / Abbruch).
+
+Ereignisse können zunächst mit einer anonymen Geräte-/Installationskennung und nach Kontoerstellung oder Anmeldung mit einer internen Nutzerkennung (z. B. einer internen UUID) verknüpft werden. Wir verwenden Ihre E-Mail-Adresse nicht als analytics user_id.
+
+Zwecke: Conversion-Funnels, A/B- und Onboarding-Experimente sowie Produktverbesserung. Nicht zur Rekonstruktion des VPN-Surfverlaufs, von DNS-Anfragen oder Verkehrsinhalten.
+
+Onboarding-Dienstpräferenzen können außerdem in unserem Backend gespeichert werden, um das Produkt zu personalisieren — getrennt von Analyseereignissen.
+
+Diagnosen: Firebase Crashlytics und Firebase Performance Monitoring können Absturzberichte und Leistungskennzahlen erfassen, um die Zuverlässigkeit zu verbessern. Sie dienen nicht der Analyse von VPN-Surfaktivität oder Verkehrsinhalten.
+
 4. Zwecke der Verarbeitung
 
 Wir verwenden die oben genannten Daten ausschließlich, um:
@@ -59,15 +81,19 @@ Wir verwenden die oben genannten Daten ausschließlich, um:
 - regionale Verfügbarkeitsbeschränkungen anzuwenden;
 - Abonnements und Gerätezugriff zu verwalten;
 - die Verbindungszuverlässigkeit zu verbessern und technische Probleme zu beheben;
-- altersbezogene Anforderungen des Dienstes einzuhalten.
+- altersbezogene Anforderungen des Dienstes einzuhalten;
+- Onboarding, Produktabläufe, Testphasen und Abonnement-Conversion zu messen und zu verbessern;
+- A/B- und Interface-Experimente durchzuführen;
+- Abstürze und Leistungsprobleme zu diagnostizieren.
 
 5. Wo Daten verarbeitet werden (Infrastruktur)
 
 Unsere Infrastruktur ist wie folgt verteilt:
 
 Vereinigte Staaten:
-- primäre Backend-Systeme (Kontokennungen, Abonnementdaten, App-Store-Region, Altersbestätigung, in dieser Richtlinie beschriebene Verbindungsdiagnose);
-- Server des Kundensupport-Portals (Daten, die Sie beim Support-Kontakt übermitteln).
+- primäre Backend-Systeme (Kontokennungen, Abonnementdaten, App-Store-Region (Apple App Store, Google Play oder Huawei AppGallery), Altersbestätigung, in dieser Richtlinie beschriebene Verbindungsdiagnose);
+- Server des Kundensupport-Portals (Daten, die Sie beim Support-Kontakt übermitteln);
+- Google Firebase / Google Cloud-Verarbeitung für Firebase Analytics, Crashlytics und Performance Monitoring (unser Firebase-Projekt nutzt eine Standardregion in den Vereinigten Staaten / Google-Infrastruktur für dieses Projekt).
 
 Schweiz:
 - Lastverteilung für VPN-Verbindungen;
@@ -79,27 +105,41 @@ Begrenzte technische Dienstdaten können zwischen den Vereinigten Staaten und de
 
 6. Dritte
 
-Wir geben VPN-Verkehr, Surfaktivität, DNS-Anfragen oder Verkehrsinhalte nicht an Dritte weiter, um Analysen, Werbung, Profilbildung oder Tracking durchzuführen.
+Wir geben VPN-Verkehr, Surfaktivität, DNS-Anfragen oder Verkehrsinhalte nicht an Dritte weiter, um Analysen, Werbung, Profilbildung oder Tracking von VPN-Sitzungen durchzuführen.
+
+Wir nutzen Google Firebase (Analytics, Crashlytics, Performance Monitoring) als Auftragsverarbeiter für die in dieser Richtlinie beschriebenen App-Analysen und Diagnosen.
 
 App-Store-Betreiber (Apple, Google, Huawei) verarbeiten Käufe nach ihren eigenen Bedingungen und Datenschutzrichtlinien. Wir erhalten nur die oben beschriebenen technischen Abonnementvalidierungsdaten.
 
 Infrastrukturanbieter hosten Server und Netzwerke; wir übermitteln ihnen keine Nutzeraktivitätsprotokolle, Surfverläufe, DNS-Anfragen oder Verkehrsinhalte. Sie wirken technisch am Transport verschlüsselten Verkehrs mit, wie für ein VPN erforderlich.
 
-7. Kein Tracking in der Raqoon-App
+7. App-Analysen und Diagnosen (getrennt von der VPN-No-Logs-Richtlinie)
 
-Unsere mobilen Apps nutzen keine Drittanbieter-Marketing- oder Produktanalyse-SDKs zur Verfolgung der VPN-Nutzung. Absturz- oder Diagnoseberichte können von Apple, Google oder Huawei nach Plattformregeln und Ihren Geräteeinstellungen verarbeitet werden; solche Berichte dienen nicht der Analyse von VPN-Surfaktivität oder Verkehrsinhalten.
+Die mobilen Raqoon-Apps können Drittanbieter-SDKs für App-Produktanalysen und Diagnosen nutzen, einschließlich Google Firebase Analytics, Firebase Crashlytics und Firebase Performance Monitoring.
+
+Soweit ein Einwilligungsbildschirm angezeigt wird, beginnt die nicht wesentliche App-Analysedatenerfassung erst nach Ihrer Zustimmung.
+
+App-Analysen umfassen In-App-Produktereignisse (Einwilligung, Altersbestätigung, Onboarding, Sprache, Kontoerstellung, Testphase, Kaufergebnisse). Sie protokollieren weder besuchte Websites, DNS-Anfragen noch über den VPN-Tunnel übertragene Inhalte.
+
+Absturz- und Leistungsdiagnosen dienen der Stabilitätsverbesserung und werden nicht zur Analyse von VPN-Surfaktivität oder Verkehrsinhalten genutzt.
+
+Plattformanbieter (Apple, Google, Huawei) können außerdem Kauf-, Absturz- oder Gerätedaten nach ihren eigenen Richtlinien und Ihren Geräteeinstellungen verarbeiten.
 
 8. Website (raqoon.app), Cookies und Analysen
 
 Auf raqoon.app können wir Cookies und ähnliche Technologien für den Betrieb der Website, Einstellungen und Webanalysen einsetzen.
 
-Die Website kann Google Analytics nutzen, um Gesamttraffic und Seitenleistung zu verstehen. Webanalysen sind vom VPN getrennt und dienen nicht der Analyse von VPN-Verkehr, DNS-Anfragen oder Surfverlauf innerhalb einer VPN-Sitzung.
+Die Website kann Google Analytics nutzen, um Gesamttraffic und Seitenleistung zu verstehen. Webanalysen sind vom VPN und von der VPN-App getrennt und dienen nicht der Analyse von VPN-Verkehr, DNS-Anfragen oder Surfverlauf innerhalb einer VPN-Sitzung.
+
+Die in dieser Richtlinie beschriebenen In-App-Firebase-Analysen sind ebenfalls getrennt von den Google-Analytics-Cookies der Website auf raqoon.app.
 
 Wenn ein Cookie-Einwilligungsbanner angezeigt wird, können Sie nicht wesentliche Cookies akzeptieren oder ablehnen.
 
 9. Aufbewahrung und Löschung
 
 Technische Daten werden während Ihres aktiven Abonnements und soweit für den Betrieb nötig aufbewahrt. Bei Nichtverlängerung können Kontodaten nach einer Inaktivitätsphase gelöscht werden.
+
+Über Firebase Analytics verarbeitete App-Analyseereignisse werden gemäß unseren Firebase-/Google-Analytics-Aufbewahrungseinstellungen aufbewahrt (standardmäßig bis zu 14 Monate, sofern wir keinen kürzeren Zeitraum konfigurieren). Absturz- und Leistungsdiagnosen werden soweit zur Untersuchung von Problemen erforderlich und nach den Praktiken des Anbieters aufbewahrt. Nach Kontolöschung löschen oder anonymisieren wir kontobezogene Daten, die nicht mehr erforderlich sind; einige aggregierte oder de-identifizierte Analysedaten können verbleiben.
 
 Sie können Ihr Konto und zugehörige Daten in den Raqoon-App-Einstellungen löschen. Nach der Löschung beenden wir den Zugang und löschen oder anonymisieren nicht mehr benötigte Daten.
 
@@ -141,7 +181,7 @@ Google Play (Android)
 
 HUAWEI AppGallery (Android auf Huawei-Geräten)
 - Installation und Updates über Huawei AppGallery;
-- Zahlungen und In-App-Käufe nach den Richtlinien von Huawei / AppGallery;
+- Zahlungen und In-App-Käufe nach den Richtlinien von Huawei AppGallery;
 - Huawei kann Huawei-Konto- und Gerätekennungen nach der Datenschutzrichtlinie von Huawei verarbeiten.
 
 Wir erhalten von den Stores nur begrenzte technische Daten zur Abonnementprüfung und Bereitstellung des Zugangs (z. B. Tokens oder Kaufbelege). Die Nutzung jedes Stores unterliegt auch den Bedingungen und der Datenschutzrichtlinie des jeweiligen Betreibers.

@@ -1,6 +1,6 @@
 Polityka prywatności Raqoon VPN
 
-Data wejścia w życie: 17 maja 2026 r.
+Data wejścia w życie: 4 sierpnia 2026 r.
 Właściciel usługi: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
 Kontakt w sprawach prywatności: private@raqoon.app
 
@@ -11,12 +11,16 @@ Raqoon VPN ma chronić Twoje połączenie i zwiększać prywatność w interneci
 Aby świadczyć usługę, przetwarzamy wyłącznie ograniczone dane techniczne, w tym:
 - losowo wygenerowany anonimowy identyfikator urządzenia;
 - losowo wygenerowany anonimowy identyfikator klienta;
-- informacje o regionie App Store;
+- informacje o regionie sklepu z aplikacjami (Apple App Store, Google Play lub Huawei AppGallery);
 - potwierdzenie, że masz ukończone 18 lat;
 - podstawową diagnostykę techniczną związaną ze stabilnością połączenia;
 - status subskrypcji i wolumen ruchu potrzebny do limitów planu.
 
-Do korzystania z VPN nie wymagamy imienia, numeru telefonu ani e-maila. Nie wykorzystujemy danych VPN do analityki, reklamy, profilowania ani śledzenia użytkowników. Nie sprzedajemy danych użytkowników sieciom reklamowym.
+Do korzystania z VPN nie wymagamy imienia, numeru telefonu ani e-maila, gdy produkt umożliwia dostęp bez konta.
+
+Nie wykorzystujemy ruchu VPN, zapytań DNS ani aktywności przeglądania do analityki, reklamy, profilowania ani śledzenia użytkowników i nie sprzedajemy tych danych.
+
+Niezależnie od tunelu VPN, po wyrażeniu zgody na ekranie zgody w aplikacji (gdy jest wyświetlany), aplikacja może przetwarzać ograniczoną analitykę produktową i diagnostykę aplikacji — na przykład zdarzenia dotyczące zgody i potwierdzenia wieku, wyświetlenia ekranów onboardingowych i wyborów preferencji usług, wyboru języka, utworzenia konta lub logowania, aktywacji okresu próbnego oraz wyników zakupów. Nie jest to dziennik stron odwiedzanych przez VPN.
 
 2. Co oznacza nasza polityka No-Logs
 
@@ -36,8 +40,8 @@ Niektóre dane techniczne mogą być tymczasowo przetwarzane przez sprzęt sieci
 
 3.1. Identyfikatory i uprawnienia
 - losowo wygenerowany anonimowy identyfikator urządzenia (autoryzacja urządzenia i limity urządzeń);
-- losowo wygenerowany anonimowy identyfikator klienta (sesja klienta);
-- region App Store (dostępność regionalna i zasady sklepu);
+- losowo wygenerowany anonimowy identyfikator klienta (zarządzanie sesją klienta);
+- region sklepu z aplikacjami (Apple App Store, Google Play lub Huawei AppGallery) (dostępność regionalna i zasady sklepu);
 - potwierdzenie, że masz ukończone 18 lat.
 
 3.2. Działanie usługi i diagnostyka
@@ -52,6 +56,24 @@ Przy subskrypcji przez Apple App Store, Google Play lub Huawei AppGallery płatn
 3.4. Wsparcie (tylko po kontakcie)
 Jeśli piszesz do wsparcia lub korzystasz z portalu pomocy, przetwarzamy dane kontaktowe i treść, które dobrowolnie podajesz. Jest to oddzielone od rejestrowania sesji VPN.
 
+3.5. Analityka produktowa aplikacji i diagnostyka (po zgodzie, gdy jest wymagana)
+Po wyrażeniu zgody na ekranie zgody w aplikacji (gdy jest wyświetlany) możemy przetwarzać ograniczone dane zdarzeń o tym, jak korzystasz z interfejsu aplikacji, w tym:
+- wyrażoną lub wycofaną zgodę na przetwarzanie danych / analitykę;
+- potwierdzenie wieku, że masz 18+ (tylko wartość logiczna; nie zbieramy daty urodzenia dla tej bramki);
+- wyświetlenia i interakcje ekranów onboardingowych, w tym wybory usług / preferencji używane do personalizacji i eksperymentów;
+- wybór języka;
+- utworzenie konta lub logowanie (konto pozostaje opcjonalne przy podstawowym korzystaniu z VPN, gdy aplikacja na to pozwala);
+- aktywację okresu próbnego;
+- wyniki zakupów / subskrypcji (identyfikator produktu/planu, sklep, cena i waluta, o ile są dostępne ze sklepu, oraz sukces / niepowodzenie / anulowanie).
+
+Zdarzenia mogą być najpierw powiązane z anonimowym identyfikatorem urządzenia/instalacji, a po utworzeniu konta lub zalogowaniu — z wewnętrznym identyfikatorem użytkownika (np. wewnętrznym UUID). Nie używamy Twojego adresu e-mail jako analytics user_id.
+
+Cele: lejki konwersji, eksperymenty A/B i onboardingowe oraz ulepszanie produktu. Nie w celu odtwarzania historii przeglądania VPN, zapytań DNS ani treści ruchu.
+
+Preferencje usług z onboardingu mogą być także przechowywane w naszym backendzie w celu personalizacji produktu, osobno od zdarzeń analitycznych.
+
+Diagnostyka: Firebase Crashlytics i Firebase Performance Monitoring mogą zbierać raporty awarii i wskaźniki wydajności w celu poprawy niezawodności. Nie służą do analizy aktywności przeglądania VPN ani treści ruchu.
+
 4. Cele przetwarzania
 
 Dane powyżej wykorzystujemy wyłącznie, aby:
@@ -59,15 +81,19 @@ Dane powyżej wykorzystujemy wyłącznie, aby:
 - stosować regionalne ograniczenia dostępności;
 - zarządzać subskrypcjami i dostępem urządzeń;
 - poprawiać niezawodność połączenia i usuwać problemy techniczne;
-- zapewniać zgodność z wymogami wiekowymi usługi.
+- zapewniać zgodność z wymogami wiekowymi usługi;
+- mierzyć i ulepszać onboarding, przepływy produktowe, okres próbny oraz konwersję subskrypcji;
+- prowadzić eksperymenty A/B i dotyczące interfejsu;
+- diagnozować awarie i problemy z wydajnością.
 
 5. Gdzie przetwarzane są dane (infrastruktura)
 
 Infrastruktura jest rozłożona następująco:
 
 Stany Zjednoczone:
-- główne systemy backend (identyfikatory konta, dane subskrypcji, region App Store, potwierdzenie wieku, diagnostyka połączenia opisana w niniejszej Polityce);
-- serwery portalu wsparcia klienta (dane przesyłane przy kontakcie ze wsparciem).
+- główne systemy backend (identyfikatory konta, dane subskrypcji, region sklepu z aplikacjami (Apple App Store, Google Play lub Huawei AppGallery), potwierdzenie wieku, diagnostyka połączenia opisana w niniejszej Polityce);
+- serwery portalu wsparcia klienta (dane przesyłane przy kontakcie ze wsparciem);
+- przetwarzanie Google Firebase / Google Cloud dla Firebase Analytics, Crashlytics i Performance Monitoring (nasz projekt Firebase korzysta z domyślnego regionu w Stanach Zjednoczonych / infrastruktury Google dla tego projektu).
 
 Szwajcaria:
 - równoważenie obciążenia połączeń VPN;
@@ -79,15 +105,25 @@ Ograniczone dane techniczne usługi mogą być przekazywane między Stanami Zjed
 
 6. Podmioty trzecie
 
-Nie udostępniamy ruchu VPN, aktywności przeglądania, zapytań DNS ani treści ruchu podmiotom trzecim w celach analityki, reklamy, profilowania ani śledzenia.
+Nie udostępniamy ruchu VPN, aktywności przeglądania, zapytań DNS ani treści ruchu podmiotom trzecim w celach analityki, reklamy, profilowania ani śledzenia sesji VPN.
+
+Korzystamy z Google Firebase (Analytics, Crashlytics, Performance Monitoring) jako procesora na potrzeby analityki i diagnostyki aplikacji opisanych w niniejszej Polityce.
 
 Operatorzy sklepów (Apple, Google, Huawei) przetwarzają zakupy na własnych warunkach i politykach prywatności. Otrzymujemy wyłącznie opisane powyżej dane techniczne weryfikacji subskrypcji.
 
 Dostawcy infrastruktury hostują serwery i sieci; nie przekazujemy im logów aktywności, historii przeglądania, zapytań DNS ani treści ruchu. Technicznie uczestniczą w przesyłaniu zaszyfrowanego ruchu, jak wymaga działanie VPN.
 
-7. Brak śledzenia w aplikacji Raqoon
+7. Analityka i diagnostyka aplikacji (oddzielnie od polityki No-Logs VPN)
 
-Aplikacje mobilne nie używają zewnętrznych SDK marketingowych ani analitycznych do śledzenia korzystania z VPN. Raporty awarii mogą być przetwarzane przez Apple, Google lub Huawei zgodnie z zasadami platformy i ustawieniami urządzenia; nie służą do analizy aktywności VPN ani treści ruchu.
+Aplikacje mobilne Raqoon mogą korzystać z zewnętrznych SDK do analityki produktowej i diagnostyki aplikacji, w tym Google Firebase Analytics, Firebase Crashlytics i Firebase Performance Monitoring.
+
+Gdy wyświetlany jest ekran zgody, zbieranie nieistotnej analityki aplikacji rozpoczyna się dopiero po Twojej akceptacji.
+
+Analityka aplikacji obejmuje zdarzenia produktowe w aplikacji (zgoda, potwierdzenie wieku, onboarding, język, utworzenie konta, okres próbny, wyniki zakupów). Nie rejestruje odwiedzanych stron, zapytań DNS ani treści przesyłanych przez tunel VPN.
+
+Diagnostyka awarii i wydajności pomaga poprawiać stabilność i nie służy do analizy aktywności przeglądania VPN ani treści ruchu.
+
+Dostawcy platform (Apple, Google, Huawei) mogą także przetwarzać dane zakupów, awarii lub urządzenia zgodnie z własnymi politykami i ustawieniami Twojego urządzenia.
 
 8. Strona (raqoon.app), pliki cookie i analityka
 
@@ -95,11 +131,15 @@ Na raqoon.app możemy używać plików cookie i podobnych technologii do działa
 
 Strona może korzystać z Google Analytics w celu ogólnego ruchu i wydajności stron. Analityka strony jest oddzielona od aplikacji VPN i nie służy do analizy ruchu VPN, zapytań DNS ani historii przeglądania w sesji VPN.
 
+Analityka Firebase w aplikacji opisana w niniejszej Polityce jest także oddzielona od plików cookie Google Analytics na stronie raqoon.app.
+
 Jeśli wyświetlany jest baner zgody na pliki cookie, możesz zaakceptować lub odrzucić pliki nieistotne.
 
 9. Przechowywanie i usuwanie
 
 Dane techniczne są przechowywane przez aktywną subskrypcję i tak długo, jak wymaga działanie usługi. Przy braku odnowienia dane konta mogą zostać usunięte po okresie nieaktywności.
+
+Zdarzenia analityki aplikacji przetwarzane przez Firebase Analytics są przechowywane zgodnie z naszymi ustawieniami retencji Firebase / Google Analytics (domyślnie do 14 miesięcy, chyba że skonfigurujemy krótszy okres). Diagnostyka awarii i wydajności jest przechowywana w zakresie potrzebnym do badania problemów oraz zgodnie z praktykami dostawcy. Po usunięciu konta usuwamy lub anonimizujemy dane powiązane z kontem, które nie są już wymagane; niektóre zagregowane lub zdeidentyfikowane dane analityczne mogą pozostać.
 
 Możesz usunąć konto i powiązane dane w ustawieniach aplikacji Raqoon. Po usunięciu wstrzymujemy dostęp i usuwamy lub anonimizujemy dane, które nie są już potrzebne.
 
@@ -141,7 +181,7 @@ Google Play (Android)
 
 HUAWEI AppGallery (Android na urządzeniach Huawei)
 - instalacja i aktualizacje przez Huawei AppGallery;
-- płatności i zakupy w aplikacji — zgodnie z zasadami Huawei / AppGallery;
+- płatności i zakupy w aplikacji — zgodnie z zasadami Huawei AppGallery;
 - Huawei może przetwarzać konto Huawei i identyfikatory urządzenia według polityki prywatności Huawei.
 
 Otrzymujemy ze sklepów wyłącznie ograniczone dane techniczne potrzebne do weryfikacji subskrypcji i zapewnienia dostępu (np. tokeny lub potwierdzenia zakupu). Korzystanie z każdego sklepu podlega także warunkom i polityce prywatności operatora.

@@ -1,6 +1,6 @@
 Zásady ochrany osobních údajů Raqoon VPN
 
-Datum účinnosti: 17. května 2026
+Datum účinnosti: 4. srpna 2026
 Provozovatel služby: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti. (Ankara, Türkiye)
 Kontakt pro soukromí: private@raqoon.app
 
@@ -11,12 +11,16 @@ Raqoon VPN je navržen k ochraně vašeho připojení a zvýšení soukromí na 
 K provozu služby zpracováváme pouze omezené technické informace, včetně:
 - náhodně vygenerovaného anonymního identifikátoru zařízení;
 - náhodně vygenerovaného anonymního identifikátoru klienta;
-- informací o regionu App Store;
+- informací o regionu obchodu s aplikacemi (Apple App Store, Google Play nebo Huawei AppGallery);
 - potvrzení, že je vám alespoň 18 let;
 - základní technické diagnostiky stability připojení;
 - stavu předplatného a objemu provozu pro limity tarifu.
 
-K používání VPN nevyžadujeme jméno, telefon ani e-mail. Data VPN nepoužíváme k analytice, reklamě, profilování ani sledování uživatelů. Data uživatelů neprodáváme reklamním sítím.
+K používání VPN nevyžadujeme jméno, telefon ani e-mail, pokud produkt umožňuje přístup bez účtu.
+
+VPN provoz, DNS dotazy ani aktivitu prohlížení nepoužíváme k analytice, reklamě, profilování ani sledování uživatelů a tato data neprodáváme.
+
+Odděleně od VPN tunelu může aplikace po vašem souhlasu na obrazovce souhlasu v aplikaci (je-li zobrazena) zpracovávat omezenou produktovou analytiku a diagnostiku aplikace — například události souhlasu a potvrzení věku, zobrazení onboardingových obrazovek a výběry preferencí služeb, výběr jazyka, vytvoření účtu nebo přihlášení, aktivaci zkušebního období a výsledky nákupů. Nejde o protokol webů, které navštěvujete přes VPN.
 
 2. Co znamená naše politika No-Logs
 
@@ -36,8 +40,8 @@ Některá technická data mohou být dočasně zpracována síťovým vybavením
 
 3.1. Identifikátory a způsobilost
 - náhodně vygenerovaný anonymní identifikátor zařízení (autorizace zařízení a limity zařízení);
-- náhodně vygenerovaný anonymní identifikátor klienta (relace klienta);
-- region App Store (regionální dostupnost a pravidla obchodu);
+- náhodně vygenerovaný anonymní identifikátor klienta (správa relace klienta);
+- region obchodu s aplikacemi (Apple App Store, Google Play nebo Huawei AppGallery) (regionální dostupnost a pravidla obchodu);
 - potvrzení, že je vám 18 let nebo více.
 
 3.2. Provoz služby a diagnostika
@@ -52,6 +56,24 @@ Při předplatném přes Apple App Store, Google Play nebo Huawei AppGallery zpr
 3.4. Podpora (pouze při kontaktu)
 Píšete-li podpoře nebo používáte portál podpory, zpracováváme kontaktní údaje a obsah, které dobrovolně poskytnete. Je to odděleno od protokolování VPN relace.
 
+3.5. Produktová analytika aplikace a diagnostika (po souhlasu, je-li vyžadován)
+Po udělení souhlasu na obrazovce souhlasu v aplikaci (je-li zobrazena) můžeme zpracovávat omezená data událostí o tom, jak používáte rozhraní aplikace, včetně:
+- uděleného nebo odvolaného souhlasu se zpracováním údajů / analytikou;
+- potvrzení věku, že je vám 18+ (pouze boolean; pro tuto bránu neshromažďujeme datum narození);
+- zobrazení a interakcí onboardingových obrazovek včetně výběrů služeb / preferencí používaných k personalizaci a experimentům;
+- výběru jazyka;
+- vytvoření účtu nebo přihlášení (účet zůstává volitelný pro základní používání VPN, pokud to aplikace umožňuje);
+- aktivace zkušebního období;
+- výsledků nákupu / předplatného (identifikátor produktu/tarif, obchod, cena a měna, pokud jsou dostupné z obchodu, a úspěch / selhání / zrušení).
+
+Události mohou být nejprve propojeny s anonymním identifikátorem zařízení/instalace a po vytvoření účtu nebo přihlášení s interním identifikátorem uživatele (například interním UUID). Vaši e-mailovou adresu nepoužíváme jako analytics user_id.
+
+Účely: konverzní trychtýře, A/B a onboardingové experimenty a zlepšování produktu. Nikoli pro rekonstrukci historie prohlížení VPN, DNS dotazů ani obsahu provozu.
+
+Preference služeb z onboardingu mohou být také uloženy v našem backendu k personalizaci produktu, odděleně od analytických událostí.
+
+Diagnostika: Firebase Crashlytics a Firebase Performance Monitoring mohou shromažďovat zprávy o pádech a metriky výkonu ke zlepšení spolehlivosti. Nepoužívají se k analýze aktivity prohlížení VPN ani obsahu provozu.
+
 4. Účely zpracování
 
 Výše uvedená data používáme výhradně k:
@@ -59,15 +81,19 @@ Výše uvedená data používáme výhradně k:
 - uplatnění regionálních omezení dostupnosti;
 - správě předplatných a přístupu zařízení;
 - zlepšení spolehlivosti připojení a řešení technických problémů;
-- dodržení věkových požadavků služby.
+- dodržení věkových požadavků služby;
+- měření a zlepšování onboardingu, produktových toků, zkušebního období a konverze předplatného;
+- provádění A/B a rozhranových experimentů;
+- diagnostice pádů a problémů s výkonem.
 
 5. Kde jsou data zpracovávána (infrastruktura)
 
 Infrastruktura je rozdělena takto:
 
 Spojené státy americké:
-- primární backendové systémy (identifikátory účtu, data předplatného, region App Store, potvrzení věku, diagnostika připojení popsaná v těchto Zásadách);
-- servery zákaznického portálu podpory (data odeslaná při kontaktu s podporou).
+- primární backendové systémy (identifikátory účtu, data předplatného, region obchodu s aplikacemi (Apple App Store, Google Play nebo Huawei AppGallery), potvrzení věku, diagnostika připojení popsaná v těchto Zásadách);
+- servery zákaznického portálu podpory (data odeslaná při kontaktu s podporou);
+- zpracování Google Firebase / Google Cloud pro Firebase Analytics, Crashlytics a Performance Monitoring (náš projekt Firebase používá výchozí region ve Spojených státech / infrastrukturu Google pro tento projekt).
 
 Švýcarsko:
 - vyrovnávání zátěže VPN připojení;
@@ -79,15 +105,25 @@ Omezená technická servisní data mohou být přenášena mezi USA a Švýcarsk
 
 6. Třetí strany
 
-Nesdílíme VPN provoz, aktivitu prohlížení, DNS dotazy ani obsah provozu s třetími stranami pro analytiku, reklamu, profilování ani sledování.
+Nesdílíme VPN provoz, aktivitu prohlížení, DNS dotazy ani obsah provozu s třetími stranami pro analytiku, reklamu, profilování ani sledování VPN relací.
+
+Používáme Google Firebase (Analytics, Crashlytics, Performance Monitoring) jako zpracovatele pro analytiku a diagnostiku aplikace popsanou v těchto Zásadách.
 
 Provozovatelé obchodů (Apple, Google, Huawei) zpracovávají nákupy podle vlastních podmínek a zásad ochrany soukromí. Obdržíme pouze výše popsaná technická data ověření předplatného.
 
 Poskytovatelé infrastruktury hostují servery a sítě; nepředáváme jim protokoly aktivity, historii prohlížení, DNS dotazy ani obsah provozu. Technicky se podílejí na přenosu šifrovaného provozu, jak VPN vyžaduje.
 
-7. Žádné sledování v aplikaci Raqoon
+7. Analytika a diagnostika aplikace (odděleně od politiky No-Logs VPN)
 
-Mobilní aplikace nepoužívají marketingová ani produktová analytická SDK třetích stran ke sledování používání VPN. Zprávy o pádech mohou zpracovávat Apple, Google nebo Huawei podle pravidel platformy a nastavení zařízení; neslouží k analýze VPN aktivity prohlížení ani obsahu provozu.
+Mobilní aplikace Raqoon mohou používat SDK třetích stran pro produktovou analytiku a diagnostiku aplikace, včetně Google Firebase Analytics, Firebase Crashlytics a Firebase Performance Monitoring.
+
+Je-li zobrazena obrazovka souhlasu, shromažďování nepodstatné analytiky aplikace začíná až po vašem přijetí.
+
+Analytika aplikace pokrývá produktové události v aplikaci (souhlas, potvrzení věku, onboarding, jazyk, vytvoření účtu, zkušební období, výsledky nákupů). Neprotokoluje navštívené weby, DNS dotazy ani obsah přenášený přes VPN tunel.
+
+Diagnostika pádů a výkonu pomáhá zlepšovat stabilitu a nepoužívá se k analýze aktivity prohlížení VPN ani obsahu provozu.
+
+Poskytovatelé platforem (Apple, Google, Huawei) mohou také zpracovávat data o nákupech, pádech nebo zařízení podle vlastních zásad a nastavení vašeho zařízení.
 
 8. Web (raqoon.app), cookies a analytika
 
@@ -95,11 +131,15 @@ Na raqoon.app můžeme používat cookies a podobné technologie pro provoz webu
 
 Web může používat Google Analytics pro celkový provoz a výkon stránek. Webová analytika je oddělena od VPN aplikace a nepoužívá se k analýze VPN provozu, DNS dotazů ani historie prohlížení v rámci VPN relace.
 
+Analytika Firebase v aplikaci popsaná v těchto Zásadách je také oddělena od cookies Google Analytics na webu raqoon.app.
+
 Zobrazí-li se banner souhlasu s cookies, můžete nepodstatné cookies přijmout nebo odmítnout.
 
 9. Uchovávání a výmaz
 
 Technická data uchováváme po dobu aktivního předplatného a podle potřeby provozu služby. Při neobnovení mohou být data účtu po období nečinnosti smazána.
+
+Události analytiky aplikace zpracovávané přes Firebase Analytics jsou uchovávány podle našich nastavení retence Firebase / Google Analytics (ve výchozím nastavení až 14 měsíců, pokud nenakonfigurujeme kratší období). Diagnostika pádů a výkonu je uchovávána podle potřeby vyšetřování problémů a podle praktik poskytovatele. Po smazání účtu smažeme nebo anonymizujeme data spojená s účtem, která již nejsou potřeba; některá agregovaná nebo deidentifikovaná analytická data mohou zůstat.
 
 Účet a související data můžete smazat v nastavení aplikace Raqoon. Po smazání ukončíme přístup a smažeme nebo anonymizujeme data, která již nejsou potřeba.
 
@@ -141,7 +181,7 @@ Google Play (Android)
 
 HUAWEI AppGallery (Android na zařízeních Huawei)
 - instalace a aktualizace přes Huawei AppGallery;
-- platby a nákupy v aplikaci podle pravidel Huawei / AppGallery;
+- platby a nákupy v aplikaci podle pravidel Huawei AppGallery;
 - Huawei může zpracovávat účet Huawei a identifikátory zařízení podle zásad Huawei.
 
 Z obchodů přijímáme pouze omezená technická data potřebná k ověření předplatného a poskytnutí přístupu (např. tokeny nebo potvrzení nákupu). Používání každého obchodu se řídí také podmínkami a zásadami ochrany soukromí provozovatele.

@@ -140,7 +140,7 @@ export function RosVpnPage() {
         <section id="overview" className={styles.intro}>
           <div className={styles.wrap}>
             <div className={styles.introMedia}>
-              <img src={`${ROSVPN_HERO_SRC}?v=phone2`} alt="RosVPN" width={1024} height={963} />
+              <img src={`${ROSVPN_HERO_SRC}?v=phone2`} alt="РосВПН" width={1024} height={963} />
             </div>
           </div>
         </section>

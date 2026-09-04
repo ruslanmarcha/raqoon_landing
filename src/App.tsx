@@ -16,6 +16,8 @@ import { WalletPage } from './pages/WalletPage'
 const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
 const BetaPage = lazy(() => import('./pages/BetaPage').then((m) => ({ default: m.BetaPage })))
 const LegalPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.LegalPage })))
+const ContactPage = lazy(() => import('./pages/LegalPage').then((m) => ({ default: m.ContactPage })))
+const DocumentsPage = lazy(() => import('./pages/DocumentsPage').then((m) => ({ default: m.DocumentsPage })))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage').then((m) => ({ default: m.NotFoundPage })))
 const FAQPageRU = lazy(() => import('./pages/FAQPageRU').then((m) => ({ default: m.FAQPageRU })))
 const PaymentOkPage = lazy(() =>
@@ -91,6 +93,13 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/beta" element={<BetaPage />} />
                       <Route path="/faq" element={<FAQPageRU />} />
                       <Route path="/app" element={<FAQPageRU />} />
+                      <Route path="/documents" element={<DocumentsPage />} />
+                      <Route path="/privacy" element={<LegalPage product="vpn" document="privacy" />} />
+                      <Route path="/terms" element={<LegalPage product="vpn" document="terms" />} />
+                      <Route path="/refund" element={<LegalPage product="vpn" document="refund" />} />
+                      <Route path="/esim/privacy" element={<LegalPage product="esim" document="privacy" />} />
+                      <Route path="/esim/terms" element={<LegalPage product="esim" document="terms" />} />
+                      <Route path="/esim/refund" element={<LegalPage product="esim" document="refund" />} />
                       <Route path="*" element={<Navigate to="/turkiye" replace />} />
                     </>
                   ) : (
@@ -107,10 +116,14 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/beta" element={<BetaPage />} />
                       <Route path="/turkiye" element={<TurkiyePage />} />
                       <Route path="/about" element={<AboutCompany />} />
-                      <Route path="/privacy" element={<LegalPage legalKey="privacy" />} />
-                      <Route path="/terms" element={<LegalPage legalKey="terms" />} />
-                      <Route path="/contact" element={<LegalPage legalKey="contact" />} />
-                      <Route path="/refund" element={<LegalPage legalKey="refund" />} />
+                      <Route path="/documents" element={<DocumentsPage />} />
+                      <Route path="/privacy" element={<LegalPage product="vpn" document="privacy" />} />
+                      <Route path="/terms" element={<LegalPage product="vpn" document="terms" />} />
+                      <Route path="/contact" element={<ContactPage />} />
+                      <Route path="/refund" element={<LegalPage product="vpn" document="refund" />} />
+                      <Route path="/esim/privacy" element={<LegalPage product="esim" document="privacy" />} />
+                      <Route path="/esim/terms" element={<LegalPage product="esim" document="terms" />} />
+                      <Route path="/esim/refund" element={<LegalPage product="esim" document="refund" />} />
                       <Route path="/faq" element={<FAQPageRU />} />
                       <Route path="/app" element={<FAQPageRU />} />
                       <Route path="/preview/account-header" element={<AccountHeaderPreviewPage />} />

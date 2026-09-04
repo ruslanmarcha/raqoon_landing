@@ -1,5 +1,5 @@
 /**
- * Applies scripts/refund-bodies/<code>.txt to src/i18n/locales/<file>.json → legal.refund.body
+ * Applies scripts/refund-bodies/<code>.txt to src/i18n/locales/<file>.json → legal.vpn.refund.body
  * Run from repo root: node scripts/sync-refund-bodies.mjs
  */
 import fs from "node:fs";
@@ -38,11 +38,11 @@ function main() {
     const jsonPath = path.join(ROOT, "src", "i18n", "locales", file);
     const raw = fs.readFileSync(jsonPath, "utf8");
     const data = JSON.parse(raw);
-    if (!data.legal?.refund) {
-      console.error(`No legal.refund in ${file}`);
+    if (!data.legal?.vpn?.refund) {
+      console.error(`No legal.vpn.refund in ${file}`);
       process.exit(1);
     }
-    data.legal.refund.body = body;
+    data.legal.vpn.refund.body = body;
     fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2) + "\n", "utf8");
     console.log("updated", file, body.length, "chars");
   }

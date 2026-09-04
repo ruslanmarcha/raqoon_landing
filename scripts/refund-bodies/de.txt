@@ -3,6 +3,8 @@ Erstattungsrichtlinie Raqoon VPN
 Gültig ab: 1. März 2026
 Anbieter: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
 
+Diese Richtlinie gilt ausschließlich für Raqoon-VPN-Abonnements und den Raqoon-VPN-Dienst.
+
 1. Abonnements über App-Stores
 
 Wird ein Raqoon-Abonnement über die mobile App und einen App-Store gekauft, regeln Zahlung, Verlängerung, Kündigung und Erstattungen die Regeln des jeweiligen App-Stores.

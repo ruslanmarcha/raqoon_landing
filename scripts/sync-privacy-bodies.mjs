@@ -1,5 +1,5 @@
 /**
- * Applies scripts/privacy-bodies/<code>.txt to src/i18n/locales/<file>.json → legal.privacy.body
+ * Applies scripts/privacy-bodies/<code>.txt to src/i18n/locales/<file>.json → legal.vpn.privacy.body
  * Run from repo root: node scripts/sync-privacy-bodies.mjs
  */
 import fs from "node:fs";
@@ -38,11 +38,11 @@ function main() {
     const jsonPath = path.join(ROOT, "src", "i18n", "locales", file);
     const raw = fs.readFileSync(jsonPath, "utf8");
     const data = JSON.parse(raw);
-    if (!data.legal?.privacy) {
-      console.error(`No legal.privacy in ${file}`);
+    if (!data.legal?.vpn?.privacy) {
+      console.error(`No legal.vpn.privacy in ${file}`);
       process.exit(1);
     }
-    data.legal.privacy.body = body;
+    data.legal.vpn.privacy.body = body;
     fs.writeFileSync(jsonPath, JSON.stringify(data, null, 2) + "\n", "utf8");
     console.log("updated", file, body.length, "chars");
   }

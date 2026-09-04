@@ -3,6 +3,8 @@ Patakaran sa Refund ng Raqoon VPN
 Epektibo: Marso 1, 2026
 Tagapagbigay: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
 
+Ang patakarang ito ay para lamang sa mga subscription at serbisyong Raqoon VPN.
+
 1. Subscription sa pamamagitan ng app store
 
 Kung binili ang Raqoon subscription sa mobile app at app store, ang bayad, pag-renew, pagkansela ng subscription, at mga refund ay sumusunod sa tuntunin ng store na iyon.

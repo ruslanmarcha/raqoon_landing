@@ -13,6 +13,10 @@ const SEO_ROUTES: { path: string; priority: string; changefreq: string }[] = [
   { path: '/terms', priority: '0.5', changefreq: 'yearly' },
   { path: '/contact', priority: '0.5', changefreq: 'yearly' },
   { path: '/refund', priority: '0.5', changefreq: 'yearly' },
+  { path: '/documents', priority: '0.5', changefreq: 'yearly' },
+  { path: '/esim/privacy', priority: '0.5', changefreq: 'yearly' },
+  { path: '/esim/terms', priority: '0.5', changefreq: 'yearly' },
+  { path: '/esim/refund', priority: '0.5', changefreq: 'yearly' },
   { path: '/rosvpn', priority: '0.55', changefreq: 'monthly' },
 ]
 
@@ -99,6 +103,11 @@ ${urls}
       alias: {
         '@': path.resolve(__dirname, 'src'),
       },
+    },
+    test: {
+      environment: 'jsdom',
+      setupFiles: [],
+      include: ['src/**/*.test.{js,ts,jsx,tsx}'],
     },
   }
 })

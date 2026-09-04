@@ -3,6 +3,8 @@ Raqoon VPN Refund Policy
 Effective date: March 1, 2026
 Provider: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti.
 
+This policy applies only to Raqoon VPN subscriptions and the Raqoon VPN service.
+
 1. Subscriptions through app stores
 
 If a Raqoon subscription is purchased through the mobile app and an app store, payment, renewal, cancellation, and refunds are governed by that app store’s rules.

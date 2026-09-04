@@ -12,6 +12,10 @@ export type SeoPage =
   | 'terms'
   | 'contact'
   | 'refund'
+  | 'documents'
+  | 'esimPrivacy'
+  | 'esimTerms'
+  | 'esimRefund'
   | 'referral'
   | 'turkiye'
   | 'beta'
@@ -122,6 +126,16 @@ function resolveMeta(
         ogTitle: t(`meta.${page}Title${suffix}`),
         ogDescription: t(`meta.${page}Description${suffix}`),
       }
+    case 'documents':
+    case 'esimPrivacy':
+    case 'esimTerms':
+    case 'esimRefund':
+      return {
+        title: t(`meta.${page}Title${suffix}`),
+        description: t(`meta.${page}Description${suffix}`),
+        ogTitle: t(`meta.${page}Title${suffix}`),
+        ogDescription: t(`meta.${page}Description${suffix}`),
+      }
     default:
       return {
         title: t(`meta.title${suffix}`),
@@ -149,7 +163,9 @@ export function SEOHead({
   void variant
 
   const lang = langForMeta
-  const siteName = 'Raqoon VPN'
+  const siteName = ['documents', 'esimPrivacy', 'esimTerms', 'esimRefund'].includes(page)
+    ? 'Raqoon'
+    : 'Raqoon VPN'
 
   const { title, description, ogTitle, ogDescription } = resolveMeta(page, lang, t)
 

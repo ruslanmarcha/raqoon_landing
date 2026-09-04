@@ -2,17 +2,23 @@ import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
+import { getLegalDocument, type LegalDocument, type LegalProduct } from '../legal/documentRegistry'
 import { SEOHead } from '../seo/SEOHead'
 import styles from './AboutCompany.module.css'
 
-type LegalKey = 'privacy' | 'terms' | 'contact' | 'refund'
-
 interface LegalPageProps {
-  legalKey: LegalKey
+  product: LegalProduct
+  document: LegalDocument
 }
 
-export function LegalPage({ legalKey }: LegalPageProps) {
-  const { t, i18n } = useTranslation()
+interface LegalContentPageProps {
+  title: string
+  body: string
+  seoPage: 'privacy' | 'terms' | 'contact' | 'refund' | 'esimPrivacy' | 'esimTerms' | 'esimRefund'
+}
+
+function LegalContentPage({ title, body, seoPage }: LegalContentPageProps) {
+  const { i18n } = useTranslation()
   const variant = i18n.language.startsWith('ru') ? 'ru' : 'ww'
 
   useEffect(() => {
@@ -21,15 +27,15 @@ export function LegalPage({ legalKey }: LegalPageProps) {
 
   return (
     <>
-      <SEOHead variant={variant} page={legalKey} />
+      <SEOHead variant={variant} page={seoPage} />
       <Header />
       <main className={styles.root}>
         <section className={`section ${styles.section}`}>
           <div className="container">
-            <h1 className={styles.title}>{t(`legal.${legalKey}.title`)}</h1>
+            <h1 className={styles.title}>{title}</h1>
             <div className={styles.block}>
               <p className={`${styles.text} ${styles.legalText}`}>
-                {t(`legal.${legalKey}.body`)}
+                {body}
               </p>
             </div>
           </div>
@@ -40,3 +46,21 @@ export function LegalPage({ legalKey }: LegalPageProps) {
   )
 }
 
+export function LegalPage({ product, document }: LegalPageProps) {
+  const { t } = useTranslation()
+  const definition = getLegalDocument(product, document)
+
+  return (
+    <LegalContentPage
+      seoPage={definition.seoPage}
+      title={t(`${definition.translationPrefix}.title`)}
+      body={t(`${definition.translationPrefix}.body`)}
+    />
+  )
+}
+
+export function ContactPage() {
+  const { t } = useTranslation()
+
+  return <LegalContentPage seoPage="contact" title={t('legal.contact.title')} body={t('legal.contact.body')} />
+}

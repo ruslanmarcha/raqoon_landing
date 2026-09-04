@@ -38,17 +38,11 @@ export function Footer() {
           <Link to={ruAppStoreCtaPath(i18n.language)} className={styles.link}>
             {t('footer.download')}
           </Link>
-          <Link to="/privacy" className={styles.link}>
-            {t('footer.privacy')}
-          </Link>
-          <Link to="/terms" className={styles.link}>
-            {t('footer.terms')}
+          <Link to="/documents" className={styles.link}>
+            {t('footer.documents')}
           </Link>
           <Link to="/contact" className={styles.link}>
             {t('footer.contact')}
-          </Link>
-          <Link to="/refund" className={styles.link}>
-            {t('footer.refund')}
           </Link>
         </nav>
         <p className={styles.copy}>{t('footer.copy')}</p>

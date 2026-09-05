@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 const LOCALES = ['ar', 'cs', 'de', 'en', 'fr', 'id', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'th', 'tl', 'zh-CN']
 const DOCUMENTS = ['privacy', 'terms', 'refund']
+const SEO_PAGES = ['documents', 'esimPrivacy', 'esimTerms', 'esimRefund', 'esimDistanceSales', 'kvkk', 'sustainability']
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..')
@@ -102,6 +103,16 @@ function main() {
     ]) {
       if (typeof getValue(locale, keyPath) !== 'string' || getValue(locale, keyPath).trim() === '') {
         errors.push(`Missing localized UI key: ${localeCode}.${keyPath}`)
+      }
+    }
+
+    const metaSuffix = localeCode === 'ru' ? 'RU' : 'WW'
+    for (const page of SEO_PAGES) {
+      for (const field of ['Title', 'Description']) {
+        const keyPath = `meta.${page}${field}${metaSuffix}`
+        if (typeof getValue(locale, keyPath) !== 'string' || getValue(locale, keyPath).trim() === '') {
+          errors.push(`Missing localized SEO key: ${localeCode}.${keyPath}`)
+        }
       }
     }
   }

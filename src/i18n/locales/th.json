@@ -35,7 +35,13 @@
     "turkiyeTitleWW": "ไม่พร้อมให้บริการในตุรกี — Raqoon VPN",
     "turkiyeDescriptionWW": "Raqoon VPN ไม่พร้อมให้บริการแก่ผู้ใช้ในตุรกีหรือเชื่อมต่อจากตุรกีในขณะนี้ เราหวังว่าสถานการณ์จะเปลี่ยนแปลงในอนาคต",
     "turkiyeOgTitleWW": "Raqoon ไม่พร้อมให้บริการในตุรกีในตอนนี้",
-    "turkiyeOgDescriptionWW": "เราขออภัยอย่างจริงใจ — ขณะนี้ยังไม่สามารถให้บริการในตุรกีได้ เราหวังว่าจะได้ต้อนรับคุณอีกครั้งในวันหนึ่ง"
+    "turkiyeOgDescriptionWW": "เราขออภัยอย่างจริงใจ — ขณะนี้ยังไม่สามารถให้บริการในตุรกีได้ เราหวังว่าจะได้ต้อนรับคุณอีกครั้งในวันหนึ่ง",
+    "esimDistanceSalesTitleWW": "ข้อตกลงการขาย Raqoon eSIM ทางไกล",
+    "esimDistanceSalesDescriptionWW": "อ่านข้อตกลงที่ใช้กับการซื้อ Raqoon eSIM",
+    "kvkkDescriptionWW": "ประกาศการประมวลผลข้อมูลส่วนบุคคลสำหรับ Raqoon ภายใต้ KVKK ของตุรกี",
+    "kvkkTitleWW": "ประกาศข้อมูล KVKK — Raqoon",
+    "sustainabilityTitleWW": "นโยบายความยั่งยืน — Raqoon",
+    "sustainabilityDescriptionWW": "นโยบายความยั่งยืนองค์กรของ Raqoon"
   },
   "nav": {
     "logoAlt": "Raqoon",

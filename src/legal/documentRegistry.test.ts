@@ -12,6 +12,7 @@ describe('legal document registry', () => {
       '/esim/refund',
       '/esim/distance-sales',
       '/about',
+      '/contact',
       '/kvkk',
       '/sustainability',
     ])
@@ -20,8 +21,9 @@ describe('legal document registry', () => {
   it('groups documents by product without duplicating the existing company page', () => {
     expect(DOCUMENTS_BY_PRODUCT.vpn).toHaveLength(3)
     expect(DOCUMENTS_BY_PRODUCT.esim).toHaveLength(4)
-    expect(DOCUMENTS_BY_PRODUCT.corporate).toHaveLength(3)
+    expect(DOCUMENTS_BY_PRODUCT.corporate).toHaveLength(4)
     expect(getLegalDocument('corporate', 'about').path).toBe('/about')
+    expect(getLegalDocument('corporate', 'contact').path).toBe('/contact')
   })
 
   it('resolves an eSIM refund document without returning VPN content', () => {

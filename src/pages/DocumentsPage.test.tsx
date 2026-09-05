@@ -47,7 +47,8 @@ describe('DocumentsPage', () => {
       'href',
       '/esim/distance-sales',
     )
-    expect(screen.getByRole('link', { name: 'Corporate — KVKK Information Notice' })).toHaveAttribute('href', '/kvkk')
-    expect(screen.getAllByRole('link', { name: /^(Raqoon VPN|Raqoon eSIM|Corporate) —/ })).toHaveLength(10)
+    expect(screen.getByRole('link', { name: 'Company information — Contacts' })).toHaveAttribute('href', '/contact')
+    expect(screen.getByRole('link', { name: 'Company information — KVKK Information Notice' })).toHaveAttribute('href', '/kvkk')
+    expect(screen.getAllByRole('link', { name: /^(Raqoon VPN|Raqoon eSIM|Company information) —/ })).toHaveLength(11)
   })
 })

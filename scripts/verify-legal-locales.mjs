@@ -90,6 +90,7 @@ function main() {
       ...DOCUMENTS.map((document) => `documents.documents.${document}`),
       'documents.documents.distanceSales',
       'documents.documents.about',
+      'documents.documents.contact',
       'documents.documents.kvkk',
       'documents.documents.sustainability',
       'legal.esim.distanceSales.title',

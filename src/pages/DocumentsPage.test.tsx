@@ -10,7 +10,7 @@ import { ProfilePortalProvider } from '../contexts/ProfilePortalContext'
 import { DocumentsPage } from './DocumentsPage'
 
 describe('DocumentsPage', () => {
-  it('renders two product sections with six distinct legal document destinations', () => {
+  it('renders VPN, eSIM and corporate sections with the checkout documents', () => {
     render(
       <I18nextProvider i18n={i18n}>
         <HelmetProvider>
@@ -30,7 +30,7 @@ describe('DocumentsPage', () => {
       </I18nextProvider>,
     )
 
-    expect(screen.getAllByRole('heading')).toHaveLength(3)
+    expect(screen.getAllByRole('heading')).toHaveLength(4)
     expect(screen.getByRole('link', { name: 'Raqoon VPN — Privacy Policy' })).toHaveAttribute(
       'href',
       '/privacy',
@@ -39,12 +39,15 @@ describe('DocumentsPage', () => {
       'href',
       '/refund',
     )
-    expect(screen.getByRole('link', { name: 'Raqoon Travel eSIM — Privacy Policy' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'Raqoon eSIM — Privacy Policy' })).toHaveAttribute(
       'href',
       '/esim/privacy',
     )
-    expect(screen.getAllByRole('link', {
-      name: /Raqoon (VPN|Travel eSIM) — (Privacy Policy|Terms of Use|Refund Policy)/,
-    })).toHaveLength(6)
+    expect(screen.getByRole('link', { name: 'Raqoon eSIM — Distance Sales Agreement' })).toHaveAttribute(
+      'href',
+      '/esim/distance-sales',
+    )
+    expect(screen.getByRole('link', { name: 'Corporate — KVKK Information Notice' })).toHaveAttribute('href', '/kvkk')
+    expect(screen.getAllByRole('link', { name: /^(Raqoon VPN|Raqoon eSIM|Corporate) —/ })).toHaveLength(10)
   })
 })

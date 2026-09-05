@@ -1,35 +1,41 @@
-Zásady ochrany osobních údajů eSIM Raqoon Travel
+Zásady ochrany osobních údajů Raqoon eSIM
 
+Datum účinnosti: 5. září 2026
+Správce: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Kontakt pro ochranu osobních údajů: private@raqoon.app
 
+1. Rozsah a Raqoonova role
 
-1. Řadič a rozsah
+Tyto zásady se vztahují na eSIM Raqoon, včetně webu Raqoon, aplikace, toku objednávek, doručení, zobrazení zůstatku, dobíjení a podpory. Raqoon prodává předplacené cestovní datové plány eSIM a poskytuje zákaznické rozhraní pro produkt. Společnost Raqoon neprovozuje veřejnou mobilní síť, nepřiděluje telefonní čísla ani neposkytuje služby hlasových zpráv, SMS nebo tísňového volání.
 
-Raqoon je nezávislý maloobchodní prodejce tohoto produktu Travel eSIM; podnik musí před zveřejněním poskytnout identitu správce a adresu.
+Profil eSIM a mobilní datové připojení jsou technicky zajišťovány společností E7 Access a jejími síťovými partnery. Tyto strany mohou zpracovávat údaje v rámci své vlastní právní odpovědnosti, pokud určí účely a prostředky zpracování.
 
-2. Role společnosti Raqoon jako maloobchodního prodejce
+2. Údaje, které zpracováváme
 
-Raqoon je nezávislý maloobchodní prodejce. Třetí strany poskytují profily eSIM a konektivitu; Raqoon neprovozuje veřejné mobilní sítě, nepřiděluje telefonní čísla ani neposkytuje hlasové nebo SMS služby.
+Můžeme zpracovat vaši e-mailovou adresu, číslo objednávky, vybraný produkt a destinaci, cenu, měnu, stav platby a referenční údaje o platbě. Můžeme také zpracovávat identifikátor profilu eSIM, stav aktivace a vypršení platnosti, disponibilní zůstatek, historii dobíjení, diagnostiku kompatibility zařízení a instalace, korespondenci s podporou, podvodné a bezpečnostní signály a technické protokoly webových stránek/aplikací, jako je IP adresa, prohlížeč, typ zařízení a časová razítka.
 
-3. Kategorie dat
+Nepřijímáme ani neuchováváme úplná čísla platebních karet. Neposílejte na podporu pasy, doklady totožnosti, bankovní výpisy, obrázky platebních karet, zdravotní údaje nebo jiné citlivé osobní údaje, pokud výslovně a zákonně nepožadujeme nezbytně nutnou položku.
 
-Informace o objednávkách, kontaktech, zařízení, stavu profilu, zůstatku a dobíjení mohou být zpracovány pouze v případě potřeby služby a příslušných zákonů.
+3. Proč je zpracováváme a naše právní důvody
 
-4. Účely zpracování a právní důvody
+Zpracováváme údaje za účelem vytvoření a doručení objednávky, poskytnutí profilu eSIM, zobrazení stavu a zůstatku vašeho produktu, zpracování dobití, zodpovězení žádostí o podporu, předcházení podvodům a zneužití, ochranu našich systémů, plnění účetních a zákonných povinností a zakládání, uplatňování nebo obhajoba právních nároků. V závislosti na činnosti je základem plnění smlouvy, plnění zákonné povinnosti, naše oprávněné zájmy, pokud nepřevažují nad vašimi právy, nebo váš výslovný souhlas, je-li to vyžadováno.
 
-Účely zpracování a právní důvody musí být potvrzeny podnikem před zveřejněním; povinná práva zůstávají nedotčena.
+4. Příjemci a mezinárodní převody
 
-5. Příjemci a mezinárodní převody
+Se společností E7 Access a jejími příslušnými partnery v oblasti připojení, poskytovateli plateb, dodavateli hostingu a zabezpečení, nástroji zákaznické podpory, odbornými poradci a veřejnými orgány sdílíme pouze údaje, které jsou nezbytné pro daný účel. Dodavatelský řetězec eSIM je mezinárodní, takže příjemci mohou zpracovávat data mimo Turecko a zemi vašeho bydliště. Používáme převodní mechanismus a záruky vyžadované platnými zákony, včetně záruk pro zahraniční převody podle KVKK tam, kde je to vhodné.
 
-Třetí strany poskytují profily eSIM a konektivitu. Umístění přenosu, zabezpečení, příjemci a přidělení procesoru/řadiče zůstávají neověřená a blokují zveřejnění.
+5. Retence
 
-6. Uchovávání, zabezpečení a uživatelská práva
+Objednávky, platby a daňové záznamy uchováváme po dobu vyžadovanou platnými právními předpisy. Uchováváme záznamy o doručení, aktivaci, zůstatku a podpoře eSIM tak dlouho, jak je přiměřeně potřeba k poskytnutí produktu, vyřešení sporu, zabránění podvodu nebo splnění zákonných povinností. Údaje vymažeme nebo anonymizujeme, když tyto účely již neplatí, pokud zákon nevyžaduje delší období.
 
-Doba uchovávání, bezpečnostní opatření a postupy týkající se práv budou poskytnuty před vydáním; povinná práva zůstávají nedotčena.
+6. Bezpečnost
 
-7. Podpora a kontaktní informace
+Používáme vhodná technická a organizační opatření určená k ochraně osobních údajů, včetně řízení přístupu, šifrování při přenosu tam, kde je to vhodné, protokolování, nejméně privilegovaného přístupu a kontrol dodavatele. Žádný internetový přenosový ani úložný systém není zcela bezpečný. Udržujte prosím svůj e-mailový účet, zařízení a QR kód v tajnosti a pokud se domníváte, že byly prozrazeny, neprodleně nás kontaktujte.
 
-Aplikace může zobrazovat objednávky, stav, zůstatek, dobití a podporu. Použijte publikovaný kanál podpory; zde není přislíbena žádná podpora SLA.
+7. Vaše práva a požadavky
 
-8. Změny těchto zásad
+V souladu s platnými právními předpisy můžete požadovat informace o zpracování, přístupu, opravě, výmazu, omezení, námitce nebo přenositelnosti, pokud jsou k dispozici, a odvolat souhlas pro budoucí zpracování, kde je souhlas základem. V rámci KVKK můžete také uplatnit práva stanovená v článku 11. Zašlete žádost z e-mailu použitého pro objednávku na private@raqoon.app. Můžeme požádat o přiměřené informace potřebné k ověření žádosti a ochraně vašich údajů.
 
-Změny budou zveřejněny dříve, než se uplatní tam, kde to vyžaduje zákon. Tyto zásady nelze zveřejnit, dokud nebudou potvrzeny uvedené skutečnosti.
+8. Děti, třetí strany a aktualizace
+
+Raqoon eSIM není určena osobám, které nemohou uzavřít platnou kupní smlouvu podle platných zákonů. Webové stránky třetích stran, platební služby a poskytovatelé sítí mají své vlastní podmínky ochrany osobních údajů. Tyto zásady můžeme aktualizovat, když se změní produkt, poskytovatelé nebo zákon; datum účinnosti bude aktualizováno a v případě potřeby budou sděleny podstatné změny.

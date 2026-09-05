@@ -7,7 +7,7 @@ import { DOCUMENTS_BY_PRODUCT, type LegalProduct } from '../legal/documentRegist
 import { SEOHead } from '../seo/SEOHead'
 import styles from './DocumentsPage.module.css'
 
-const PRODUCTS: readonly LegalProduct[] = ['vpn', 'esim']
+const PRODUCTS: readonly LegalProduct[] = ['vpn', 'esim', 'corporate']
 
 export function DocumentsPage() {
   const { t, i18n } = useTranslation()

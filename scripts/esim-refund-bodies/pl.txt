@@ -1,27 +1,33 @@
-Polityka zwrotów eSIM Raqoon Travel
+Polityka zwrotów Raqoon eSIM
 
+Data wejścia w życie: 5 września 2026 r
+Sprzedawca: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Prośby: help@raqoon.app
 
+1. Zakres i uprawnienia obowiązkowe
 
-1. Zakres i obligatoryjne prawa konsumentów
+Niniejsza polityka dotyczy zakupów i doładowań karty Raqoon eSIM. Nie wyłącza praw, których nie można wyłączyć na mocy obowiązującego prawa konsumenckiego. Jeżeli przepis obowiązkowy zapewnia szerszy środek zaradczy, zasada ta ma zastosowanie.
 
-Niniejsza polityka podlega obowiązkowym prawom konsumenckim i podstawowym zabezpieczeniom wynikającym z prawa tureckiego.
+2. Dostawa cyfrowa i ekspresowe żądanie rozpoczęcia realizacji
 
-2. Anulowanie nieużywanego i odinstalowanego profilu
+Karta eSIM to cyfrowy produkt przedpłacony, dostarczany drogą elektroniczną. Przed dokonaniem transakcji poprosimy Cię o potwierdzenie natychmiastowego dostarczenia szczegółów aktywacji i, w razie potrzeby, wyraźnie poprosimy o rozpoczęcie realizacji przed upływem okresu odstąpienia od umowy. Prowadzimy rejestr tego potwierdzenia, czasu dostawy, statusu profilu i informacji o użytkowaniu.
 
-Klient może żądać anulowania nieużywanego, odinstalowanego profilu, z zastrzeżeniem obowiązujących przepisów prawa i warunków zamówienia.
+3. Kiedy może być dostępny zwrot pieniędzy
 
-3. Przegląd techniczny zainstalowanego, aktywowanego lub używanego profilu
+Skontaktuj się z nami niezwłocznie, jeśli profil nie został dostarczony, nie można go zainstalować lub aktywować ze względu na potwierdzoną usterkę techniczną, dostarczony plan w istotny sposób różni się od zamówienia lub urządzenie było niezgodne, mimo że nasze informacje o produkcie były istotnie błędne. Najpierw zbadamy sprawę i, w stosownych przypadkach, zaoferujemy wykonalną wymianę, korektę, kredyt lub zwrot pieniędzy zgodnie z obowiązującym prawem.
 
-W przypadku zainstalowanego, aktywowanego lub używanego profilu Raqoon może zażądać dowodów technicznych i uzyskać ocenę udostępniania przez stronę trzecią.
+4. Kiedy zwrot pieniędzy jest zwykle niedostępny
 
-4. Okoliczności bezzwrotne dozwolone przez prawo
+W zakresie dozwolonym przez prawo zwrot pieniędzy jest zwykle niemożliwy po zainstalowaniu, aktywowaniu profilu eSIM, podłączeniu do sieci, doładowaniu lub użyciu lub po rozpoczęciu świadczenia usług cyfrowych za potwierdzeniem opisanym powyżej. Zwykle jest również niedostępny w przypadku niewykorzystanego limitu po wygaśnięciu planu, zmianie planów podróży, ujawnieniu wymogu odblokowania urządzenia, nieprawidłowej instalacji przez klienta, nieobsługiwanym użyciu lub utracie poufności kodu QR spowodowanej przez klienta.
 
-Zwrot środków może nie być możliwy tylko wtedy, gdy zezwala na to obowiązujące prawo, w tym w przypadku świadczenia usługi cyfrowej po rozpoczęciu zgodnego z prawem świadczenia.
+5. Jak złożyć wniosek
 
-5. Poproś o kanał, dowody i wynik przeglądu
+Wyślij żądanie z adresu e-mail użytego do zamówienia na adres help@raqoon.app, podając numer zamówienia, jasny opis problemu, model i wersję urządzenia, miejsce docelowe, zrzuty ekranu z instalacji/aktywacji, jeśli dotyczy, oraz czas wystąpienia problemu. Nie wysyłaj kopii paszportów, pełnych danych kart płatniczych ani wyciągów bankowych. Możemy zażądać proporcjonalnych informacji technicznych niezbędnych do zbadania konkretnego problemu.
 
-Prześlij żądanie za pośrednictwem opublikowanego kanału wsparcia, podając szczegóły zamówienia i odpowiednie dowody. Wynik jest następstwem przeglądu i obowiązującego prawa.
+6. Przegląd i płatność
 
-6. Obciążenia zwrotne i zasady dostawców płatności
+W razie potrzeby weryfikujemy dostawę, instalację, aktywację, użytkowanie i stan udostępnienia sieci za pomocą E7 Access. Możemy odrzucić wniosek, który jest fałszywy, obraźliwy, zdublowany lub wykracza poza obowiązujący środek prawny. Jeśli zwrot zostanie zatwierdzony, zostanie on przywrócony do pierwotnej metody płatności, o ile jest to technicznie możliwe, w terminie wymaganym przez obowiązujące prawo i zasady dostawcy usług płatniczych.
 
-Obciążenia zwrotne i wszelkie procedury dostawcy płatności podlegają zasadom potwierdzonego dostawcy; żaden dostawca nie zostanie zidentyfikowany, dopóki nie zostanie zweryfikowany.
+7. Obciążenia zwrotne
+
+Przed otwarciem sporu dotyczącego płatności skontaktuj się z nami, abyśmy mogli zbadać problem. Nie ogranicza to Twoich praw ustawowych ani prawa do skontaktowania się z dostawcą usług płatniczych. Możemy udostępnić dostawcy usług płatniczych dokumentację zamówień i realizacji technicznych w celu udzielenia odpowiedzi na obciążenie zwrotne.

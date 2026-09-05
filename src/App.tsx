@@ -100,6 +100,9 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/esim/privacy" element={<LegalPage product="esim" document="privacy" />} />
                       <Route path="/esim/terms" element={<LegalPage product="esim" document="terms" />} />
                       <Route path="/esim/refund" element={<LegalPage product="esim" document="refund" />} />
+                      <Route path="/esim/distance-sales" element={<LegalPage product="esim" document="distanceSales" />} />
+                      <Route path="/kvkk" element={<LegalPage product="corporate" document="kvkk" />} />
+                      <Route path="/sustainability" element={<LegalPage product="corporate" document="sustainability" />} />
                       <Route path="*" element={<Navigate to="/turkiye" replace />} />
                     </>
                   ) : (
@@ -124,6 +127,9 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/esim/privacy" element={<LegalPage product="esim" document="privacy" />} />
                       <Route path="/esim/terms" element={<LegalPage product="esim" document="terms" />} />
                       <Route path="/esim/refund" element={<LegalPage product="esim" document="refund" />} />
+                      <Route path="/esim/distance-sales" element={<LegalPage product="esim" document="distanceSales" />} />
+                      <Route path="/kvkk" element={<LegalPage product="corporate" document="kvkk" />} />
+                      <Route path="/sustainability" element={<LegalPage product="corporate" document="sustainability" />} />
                       <Route path="/faq" element={<FAQPageRU />} />
                       <Route path="/app" element={<FAQPageRU />} />
                       <Route path="/preview/account-header" element={<AccountHeaderPreviewPage />} />

@@ -1,39 +1,41 @@
-Podmínky použití eSIM Raqoon Travel
+Podmínky použití Raqoon eSIM
 
+Datum účinnosti: 5. září 2026
+Prodejce: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Podpora: help@raqoon.app
 
+1. Shoda a způsobilost
 
-1. Prodávající, přijetí a způsobilost
+Tyto podmínky upravují vaše používání Raqoon eSIM. Vytvořením objednávky, instalací profilu eSIM nebo použitím plánu přijímáte tyto Podmínky, Zásady ochrany osobních údajů Raqoon eSIM, Zásady vrácení peněz a v případě nákupu Smlouvu o prodeji na dálku. Potvrzujete, že jste ze zákona schopni uzavřít tuto smlouvu a poskytnout přesné informace o objednávce.
 
-Objednávkou zákazník přijímá tyto podmínky a potvrzuje způsobilost. Před zveřejněním je nutné uvést identitu a adresu prodejce.
+2. Co Raqoon prodává
 
-2. Předplacený cestovní eSIM datový tarif
+Raqoon prodává předplacené cestovní datové plány eSIM. Tarif poskytuje mobilní datový přístup pouze po uvedenou povolenou hodnotu, dobu platnosti a destinaci. Nezahrnuje telefonní číslo, hlasové hovory, SMS ani tísňové služby. Raqoon je maloobchodní prodejce a rozhraní pro správu produktů; neprovozuje síť nebo infrastrukturu elektronických komunikací a není mobilním operátorem.
 
-Produktem je předplacený datový tarif Travel eSIM; nezahrnuje telefonní čísla, hlas ani SMS.
+3. Technické zásobování
 
-3. Role prodejce Raqoon a techničtí poskytovatelé třetích stran
+E7 Access a její síťoví partneři technicky zajišťují profil eSIM a konektivitu. Pokrytí, povolené sítě, rychlost, latence, IP umístění, dostupnost sítě a kontinuita služeb závisí na těchto třetích stranách a místních podmínkách. Raqoon nezaručuje nepřetržité nebo bezchybné připojení ani dostupnost každé aplikace, sítě nebo umístění.
 
-Raqoon působí jako nezávislý maloobchodní prodejce. Třetí strany poskytují profil eSIM a konektivitu; Raqoon neprovozuje veřejné sítě.
+4. Zařízení, dodávka a aktivace
 
-4. Kompatibilita zařízení, QR kód, instalace, aktivace a platnost
+Před nákupem musíte použít odemčené zařízení kompatibilní s eSIM a zkontrolovat kompatibilitu. Po úspěšné platbě jsou profil nebo aktivační údaje doručeny elektronicky na váš e-mail objednávky, účet nebo aplikaci. Chraňte QR kód a podrobnosti o aktivaci: mohou být jednorázové a po instalaci je nelze znovu vydat. U vybraného produktu se zobrazí platnost plánu, aktivační pravidlo, příspěvek a krytí. Plán může začít instalací, aktivací nebo prvním připojením, jak je uvedeno v detailech produktu.
 
-Zákazník musí ověřit kompatibilitu zařízení, naskenovat QR kód, správně nainstalovat a aktivovat profil. Platnost je uvedena u objednávky nebo profilu.
+5. Vyloučení Turecka
 
-5. Pokrytí, kvalita, spravedlivé použití a zakázané použití
+Raqoon eSIM není nabízena k nákupu, aktivaci nebo použití v Türkiye a nesmí být prodávána jako produkt pro Türkiye. Raqoon neposkytuje služby elektronických komunikací v Türkiye, neprovozuje tam síť a nepřiděluje místní číslovací zdroje. Pokud se Türkiye objeví v jakémkoli materiálu pokrytí třetí stranou, neznamená to, že se jedná o destinaci Raqoon eSIM, ani nemění toto vyloučení.
 
-Pokrytí a kvalita závisí na poskytovatelích třetích stran a místních podmínkách. Platí spravedlivé použití; nezákonné, zneužívající a zakázané použití není povoleno.
+6. Správné a zakázané použití
 
-6. Vyloučení Türkiye, podmíněné ověřeným pokrytím poskytovatele
+Používejte produkt v souladu se zákonem a pouze pro osobní cestovní připojení. Profil eSIM nesmíte dále prodávat, převádět, klonovat ani sdílet; obejít technická omezení; používat plán pro podvody, spam, nelegální obsah, útoky na systémy, nadměrný automatizovaný provoz nebo jakékoli chování, které porušuje platné zákony nebo pravidla sítě. Můžeme pozastavit přístup, pokud je to přiměřeně nutné pro bezpečnost, dodržování právních předpisů, prevenci podvodů nebo vymáhání těchto podmínek.
 
-Dostupnost Türkiye není uvedena, pokud poskytovatel nepotvrdí pokrytí. Publikování zůstává zablokováno, dokud nebude tato pozice ověřena.
+7. Ceny, platba a dobíjení
 
-7. Objednávky, cena, daně, platby a dobíjení
+Před zadáním objednávky se zobrazí cena, měna, povolený tarif, platnost, místo určení a příslušné daně nebo poplatky. Platbu zpracovává poskytovatel uvedený v pokladně. Dobití je samostatný předplacený nákup a neprodlužuje plán, pokud není v detailech produktu uvedeno jinak. Před dodáním můžeme opravit zjevné chyby v cenách nebo technickém zobrazení a nabídneme vrácení peněz, pokud nebudeme moci splnit opravenou objednávku.
 
-Ceny, daně, způsob platby a podrobnosti o dobíjení jsou zobrazeny v době objednávky. Před zveřejněním musí být potvrzen poskytovatel platby.
+8. Podpora, změny a odpovědnost
 
-8. Podpora, omezení a povinná práva spotřebitelů
+Podpora může pomoci s dodávkou, informacemi o instalaci, stavu, zůstatku, doplňování a potvrzených technických problémech. V maximálním rozsahu povoleném zákonem společnost Raqoon neodpovídá za nepřímé ztráty, ušlý zisk, poplatky za roaming od jiného poskytovatele, poškození zařízení nebo poruchy způsobené vaším zařízením, podmínkami místní sítě nebo třetími stranami. Nic neomezuje práva nebo odpovědnost, které nelze právně omezit. Tyto Podmínky můžeme případně aktualizovat; pokračování v používání po datu účinnosti znamená přijetí tam, kde to zákon dovoluje.
 
-Podpora může pomoci s objednávkami, stavem, zůstatkem, dobíjením a technickými informacemi, s výhradou omezení. Povinná práva spotřebitelů jsou zachována.
+9. Rozhodné právo a styk
 
-9. Turecké rozhodné právo, jurisdikce a změny
-
-Základem je turecké právo, které neomezuje povinnou ochranu spotřebitele. Jurisdikce a podrobnosti o změnách vyžadují před zveřejněním obchodní potvrzení.
+Tyto podmínky se řídí zákony Türkiye, aniž by byla omezena povinná ochrana spotřebitele, která se na vás vztahuje. Nejprve kontaktujte help@raqoon.app, abychom se mohli pokusit problém vyřešit. Nic v těchto podmínkách nebrání spotřebiteli v používání povinných cest pro stížnosti nebo řešení sporů, které jsou dostupné podle platných zákonů.

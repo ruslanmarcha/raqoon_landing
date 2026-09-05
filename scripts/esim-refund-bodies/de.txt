@@ -1,27 +1,33 @@
-Raqoon Travel eSIM-Rückerstattungsrichtlinie
+Raqoon eSIM-Rückerstattungsrichtlinie
 
+Datum des Inkrafttretens: 5. September 2026
+Verkäufer: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Anfragen: help@raqoon.app
 
+1. Geltungsbereich und zwingende Rechte
 
-1. Geltungsbereich und zwingende Verbraucherrechte
+Diese Richtlinie gilt für Raqoon eSIM-Käufe und Aufladungen. Rechte, die nach geltendem Verbraucherrecht nicht ausgeschlossen werden können, werden dadurch nicht ausgeschlossen. Wenn Ihnen eine zwingende Vorschrift einen umfassenderen Rechtsbehelf einräumt, gilt diese Vorschrift.
 
-Diese Richtlinie unterliegt den zwingenden Verbraucherrechten und den grundlegenden Schutzbestimmungen des türkischen Rechts.
+2. Digitale Zustellung und ausdrückliche Aufforderung zum Beginn der Aufführung
 
-2. Löschung ungenutzter und deinstallierter Profile
+Eine eSIM ist ein digitales Prepaid-Produkt, das elektronisch geliefert wird. Vor dem Bezahlvorgang werden wir Sie bitten, die unverzügliche Zusendung der Aktivierungsdaten zu bestätigen und ggf. ausdrücklich darum zu bitten, dass die Leistung vor Ablauf einer etwaigen Widerrufsfrist beginnt. Wir protokollieren diese Bestätigung, die Lieferzeit, den Profilstatus und die Nutzungsinformationen.
 
-Ein Kunde kann vorbehaltlich des geltenden Rechts und der Bestellbedingungen die Löschung eines ungenutzten, deinstallierten Profils beantragen.
+3. Wann eine Rückerstattung möglich ist
 
-3. Technische Überprüfung des installierten, aktivierten oder verwendeten Profils
+Kontaktieren Sie uns umgehend, wenn das Profil nicht geliefert wurde, aufgrund eines bestätigten technischen Fehlers nicht installiert oder aktiviert werden kann, der gelieferte Plan erheblich von der Bestellung abweicht oder das Gerät trotz wesentlich fehlerhafter Produktinformationen inkompatibel war. Wir werden zunächst eine Untersuchung durchführen und gegebenenfalls einen praktikablen Ersatz, eine Korrektur, eine Gutschrift oder eine Rückerstattung gemäß geltendem Recht anbieten.
 
-Für ein installiertes, aktiviertes oder genutztes Profil kann Raqoon technische Nachweise verlangen und eine Bereitstellungsprüfung durch einen Dritten einholen.
+4. Wenn eine Rückerstattung normalerweise nicht möglich ist
 
-4. Nicht erstattungsfähige Umstände, die gesetzlich zulässig sind
+Soweit gesetzlich zulässig, ist eine Rückerstattung normalerweise nicht möglich, nachdem das eSIM-Profil installiert, aktiviert, mit einem Netzwerk verbunden, aufgeladen oder genutzt wurde oder nachdem die digitale Leistung mit der oben beschriebenen Bestätigung begonnen hat. Es ist normalerweise auch nicht verfügbar, wenn nach Ablauf des Plans nicht genutztes Kontingent, eine Änderung der Reisepläne, eine offengelegte Anforderung zum Entsperren des Geräts, eine fehlerhafte Installation durch den Kunden, eine nicht unterstützte Verwendung oder ein durch den Kunden verursachter Verlust der Vertraulichkeit des QR-Codes vorliegt.
 
-Eine Rückerstattung kann nur dann nicht möglich sein, wenn dies nach geltendem Recht zulässig ist, einschließlich der Umstände digitaler Dienste nach Beginn der rechtmäßigen Leistungserbringung.
+5. So stellen Sie eine Anfrage
 
-5. Kanal, Beweise und Überprüfungsergebnis anfordern
+Senden Sie die Anfrage von der für die Bestellung verwendeten E-Mail an help@raqoon.app mit Ihrer Bestellnummer, einer klaren Beschreibung des Problems, Gerätemodell und -version, Ziel, Installations-/Aktivierungs-Screenshots (sofern relevant) und dem Zeitpunkt, zu dem das Problem aufgetreten ist. Senden Sie keine Passkopien, vollständigen Zahlungskartendaten oder Kontoauszüge. Wir können angemessene technische Informationen anfordern, die zur Untersuchung des spezifischen Problems erforderlich sind.
 
-Senden Sie die Anfrage über den veröffentlichten Supportkanal mit Bestelldetails und relevanten Nachweisen. Das Ergebnis folgt der Prüfung und dem zwingenden Recht.
+6. Überprüfung und Zahlung
 
-6. Rückbuchungen und Regeln des Zahlungsanbieters
+Bei Bedarf überprüfen wir den Liefer-, Installations-, Aktivierungs-, Nutzungs- und Netzwerkbereitstellungsstatus mit E7 Access. Wir können eine Anfrage ablehnen, die betrügerisch, missbräuchlich oder dupliziert ist oder außerhalb der geltenden Rechtsbehelfe liegt. Wenn eine Rückerstattung genehmigt wird, wird sie, soweit technisch möglich, innerhalb der durch geltendes Recht und die Regeln des Zahlungsanbieters vorgeschriebenen Frist an die ursprüngliche Zahlungsmethode zurückgegeben.
 
-Rückbuchungen und alle Verfahren des Zahlungsanbieters folgen den Regeln des bestätigten Anbieters; Bis zur Überprüfung wird kein Anbieter identifiziert.
+7. Rückbuchungen
+
+Bitte kontaktieren Sie uns, bevor Sie einen Zahlungsstreit eröffnen, damit wir das Problem untersuchen können. Ihre gesetzlichen Rechte oder Ihr Recht, Ihren Zahlungsanbieter zu kontaktieren, werden dadurch nicht eingeschränkt. Wir können dem Zahlungsanbieter Bestell- und technische Ausführungsunterlagen zur Verfügung stellen, um auf eine Rückbuchung zu reagieren.

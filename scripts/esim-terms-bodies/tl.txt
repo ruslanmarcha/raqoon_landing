@@ -1,37 +1,41 @@
-Mga Tuntunin sa Paggamit ng Raqoon Travel eSIM
+Mga Tuntunin ng Paggamit ng Raqoon eSIM
 
-1. Nagbebenta, pagtanggap at pagiging karapat-dapat
+Petsa ng bisa: Setyembre 5, 2026
+Nagbebenta: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Suporta: help@raqoon.app
 
-Sa paglalagay ng order, tinatanggap ng mamimili ang mga tuntuning ito at pinatutunayan ang pagiging karapat-dapat. Dapat ibigay ang pagkakakilanlan at tirahan ng nagbebenta bago ilathala.
+1. Kasunduan at pagiging karapat-dapat
 
-2. Produktong paunang-bayad na Travel eSIM na may planong datos
+Ang Mga Tuntuning ito ay namamahala sa iyong paggamit ng Raqoon eSIM. Sa pamamagitan ng paggawa ng order, pag-install ng eSIM profile o paggamit ng plan, tinatanggap mo ang Mga Tuntuning ito, ang Raqoon eSIM Privacy Policy, ang Refund Policy at, para sa isang pagbili, ang Distance Sales Agreement. Kinukumpirma mo na legal kang nakapasok sa kasunduang ito at nagbibigay ng tumpak na impormasyon ng order.
 
-Ang produkto ay isang paunang-bayad na planong datos ng Travel eSIM. Hindi ito may kasamang numero ng telepono, serbisyo ng tawag o SMS.
+2. Ang ibinebenta ni Raqoon
 
-3. Papel ng Raqoon bilang tagapagbenta at mga panlabas na teknikal na tagapagbigay
+Nagbebenta ang Raqoon ng mga prepaid na travel eSIM data plan. Ang isang plano ay nagbibigay lamang ng access sa mobile-data para sa nakasaad na allowance, panahon ng bisa at patutunguhan. Hindi ito kasama ang numero ng telepono, voice call, SMS o mga serbisyong pang-emergency. Ang Raqoon ay isang retail seller at product-management interface; hindi ito nagpapatakbo ng isang electronic na network ng komunikasyon o imprastraktura at hindi isang mobile operator.
 
-Ang Raqoon ay isang malayang tagapagbenta sa tingi. Ang mga panlabas na tagapagbigay ang naghahanda ng eSIM profile at koneksiyon; hindi nagpapatakbo ang Raqoon ng pampublikong network.
+3. Teknikal na supply
 
-4. Pagkakatugma ng kagamitan, QR code, pag-install, pag-activate at bisa
+Ang E7 Access at ang mga network partner nito ay teknikal na nagbibigay ng eSIM profile at connectivity. Ang saklaw, pinahihintulutang network, bilis, latency, lokasyon ng IP, availability ng network at pagpapatuloy ng serbisyo ay nakasalalay sa mga third party at lokal na kundisyon. Hindi ginagarantiya ng Raqoon ang tuluy-tuloy o walang error na koneksyon, o pagkakaroon ng bawat application, network o lokasyon.
 
-Dapat tiyakin ng mamimili ang pagkakatugma ng kagamitan, i-scan ang QR code, at maayos na i-install at i-activate ang profile. Ipinapakita kasama ng order o profile ang panahon ng bisa.
+4. Device, paghahatid at pag-activate
 
-5. Saklaw, kalidad, makatarungang paggamit at ipinagbabawal na paggamit
+Dapat kang gumamit ng naka-unlock, eSIM-compatible na device at suriin ang compatibility bago bumili. Pagkatapos ng matagumpay na pagbabayad, ang mga detalye ng profile o pag-activate ay inihahatid sa elektronikong paraan sa iyong email ng order, account o app. Protektahan ang QR code at mga detalye ng activation: maaaring single-use lang ang mga ito at hindi na mai-reissue kapag na-install na. Ang bisa ng plano, panuntunan sa pag-activate, allowance at saklaw ay ipinapakita kasama ng napiling produkto. Maaaring magsimula ang isang plano sa pag-install, pag-activate o unang koneksyon, gaya ng nakasaad sa mga detalye ng produkto.
 
-Ang saklaw at kalidad ay nakasalalay sa mga panlabas na tagapagbigay at lokal na kundisyon. Ipinapatupad ang makatarungang paggamit; hindi pinapayagan ang labag sa batas, mapang-abuso, o ipinagbabawal na paggamit.
+5. Pagbubukod ng Türkiye
 
-6. Pagbubukod sa Türkiye na nakasalalay sa napatunayang saklaw ng tagapagbigay
+Ang Raqoon eSIM ay hindi inaalok para sa pagbili, pag-activate o paggamit sa Türkiye at hindi dapat ibenta bilang isang produkto para sa Türkiye. Ang Raqoon ay hindi nagbibigay ng mga serbisyong elektronikong komunikasyon sa Türkiye, hindi nagpapatakbo ng isang network doon at hindi naglalaan ng mga lokal na mapagkukunan ng pagnunumero. Kung lumilitaw ang Türkiye sa anumang materyal sa saklaw ng third-party, hindi iyon gagawing Raqoon eSIM na destinasyon o binabago ang pagbubukod na ito.
 
-Hindi isinasaad ang pagkakaroon sa Türkiye maliban kung nakumpirma ng tagapagbigay ang saklaw. Nananatiling hindi mailalathala ang dokumento hangga't hindi napatutunayan ang posisyong ito.
+6. Wasto at ipinagbabawal na paggamit
 
-7. Mga order, presyo, buwis, bayad at pagdaragdag ng credit
+Gamitin ang produkto ayon sa batas at para lamang sa personal na koneksyon sa paglalakbay. Hindi mo dapat ibenta muli, ilipat, i-clone o ibahagi ang profile ng eSIM; lampasan ang mga teknikal na paghihigpit; gamitin ang plano para sa panloloko, spam, ilegal na nilalaman, pag-atake sa mga system, labis na automated na trapiko o anumang pag-uugali na lumalabag sa naaangkop na batas o mga panuntunan sa network. Maaari naming suspindihin ang pag-access kung saan makatwirang kinakailangan para sa seguridad, legal na pagsunod, pag-iwas sa panloloko o pagpapatupad ng Mga Tuntuning ito.
 
-Ipinapakita sa oras ng order ang presyo, buwis, paraan ng bayad at detalye ng pagdaragdag ng credit. Dapat kumpirmahin ang tagapagbigay ng bayad bago ilathala.
+7. Mga presyo, pagbabayad at top-up
 
-8. Suporta, mga limitasyon at mga karapatang ipinag-uutos ng batas
+Ang presyo, currency, allowance ng plan, validity, destinasyon at mga naaangkop na buwis o singil ay ipinapakita bago mo ilagay ang order. Ang pagbabayad ay pinoproseso ng provider na ipinapakita sa checkout. Ang top-up ay isang hiwalay na prepaid na pagbili at hindi nagpapalawig ng plano maliban kung iba ang sinasabi ng mga detalye ng produkto. Maaari naming itama ang malinaw na pagpepresyo o mga error sa teknikal na pagpapakita bago ihatid at mag-aalok ng refund kung hindi namin matupad ang naitama na order.
 
-Maaaring tumulong ang suporta sa mga order, katayuan, balanse, pagdaragdag ng credit at teknikal na impormasyon, na may mga limitasyon. Pinangangalagaan ang mga karapatang ipinag-uutos ng batas para sa mamimili.
+8. Suporta, pagbabago at pananagutan
 
-9. Batas ng Türkiye, hurisdiksiyon at mga pagbabago
+Makakatulong ang suporta sa paghahatid, impormasyon sa pag-install, katayuan, balanse, mga top-up at nakumpirma na mga teknikal na problema. Sa pinakamataas na lawak na pinahihintulutan ng batas, walang pananagutan ang Raqoon para sa hindi direktang pagkawala, nawalang kita, roaming na mga singil mula sa ibang provider, pagkasira ng device, o mga pagkabigo na dulot ng iyong device, mga kondisyon ng lokal na network o mga third party. Walang naglilimita sa mga karapatan o pananagutan na hindi maaaring limitado sa batas. Maaari naming i-update ang Mga Tuntuning ito nang may posibilidad; Ang patuloy na paggamit pagkatapos ng petsa ng bisa ay nangangahulugan ng pagtanggap kung saan pinahihintulutan ng batas.
 
-Ang batas ng Türkiye ang saligang batayan nang hindi nililimitahan ang sapilitang proteksiyon ng mamimili. Kailangan ang kumpirmasyon ng negosyo sa hurisdiksiyon at mga detalye ng pagbabago bago ilathala.
+9. Batas na namamahala at pakikipag-ugnayan
+
+Ang Mga Tuntuning ito ay pinamamahalaan ng mga batas ng Türkiye, nang hindi nililimitahan ang mga mandatoryong proteksyon ng consumer na nalalapat sa iyo. Makipag-ugnayan muna sa help@raqoon.app para masubukan naming lutasin ang isang isyu. Wala sa Mga Tuntuning ito ang pumipigil sa isang mamimili mula sa paggamit ng mandatoryong reklamo o mga ruta sa pagresolba ng hindi pagkakaunawaan na available sa ilalim ng naaangkop na batas.

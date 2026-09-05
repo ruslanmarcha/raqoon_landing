@@ -1,39 +1,41 @@
-Nutzungsbedingungen für Raqoon Travel eSIM
+Nutzungsbedingungen für Raqoon eSIM
 
+Datum des Inkrafttretens: 5. September 2026
+Verkäufer: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Support: help@raqoon.app
 
+1. Vereinbarung und Teilnahmeberechtigung
 
-1. Verkäufer, Annahme und Berechtigung
+Diese Bedingungen regeln Ihre Nutzung von Raqoon eSIM. Indem Sie eine Bestellung erstellen, ein eSIM-Profil installieren oder einen Plan nutzen, akzeptieren Sie diese Bedingungen, die Raqoon eSIM-Datenschutzrichtlinie, die Rückerstattungsrichtlinie und bei einem Kauf die Fernabsatzvereinbarung. Sie bestätigen, dass Sie rechtlich in der Lage sind, diese Vereinbarung abzuschließen, und geben korrekte Bestellinformationen an.
 
-Mit der Bestellung akzeptiert der Kunde diese Bedingungen und bestätigt die Berechtigung. Vor der Veröffentlichung müssen Identität und Adresse des Verkäufers angegeben werden.
+2. Was Raqoon verkauft
 
-2. Prepaid Travel eSIM-Datentarifprodukt
+Raqoon verkauft Prepaid-Reise-eSIM-Datentarife. Ein Plan bietet mobilen Datenzugriff nur für das angegebene Kontingent, den angegebenen Gültigkeitszeitraum und das angegebene Ziel. Es umfasst keine Telefonnummer, Sprachanrufe, SMS oder Notdienste. Raqoon ist eine Schnittstelle für Einzelhandelsverkäufer und Produktmanagement. Es betreibt kein elektronisches Kommunikationsnetz oder keine Infrastruktur und ist kein Mobilfunkbetreiber.
 
-Bei dem Produkt handelt es sich um einen Prepaid-Reise-eSIM-Datentarif; es umfasst keine Telefonnummern, Sprache oder SMS.
+3. Technische Versorgung
 
-3. Rolle des Raqoon-Resellers und technischer Drittanbieter
+E7 Access und seine Netzwerkpartner stellen das eSIM-Profil und die Konnektivität technisch bereit. Abdeckung, zulässige Netzwerke, Geschwindigkeit, Latenz, IP-Standort, Netzwerkverfügbarkeit und Dienstkontinuität hängen von diesen Dritten und den örtlichen Bedingungen ab. Raqoon garantiert keine unterbrechungsfreie oder fehlerfreie Konnektivität oder Verfügbarkeit jeder Anwendung, jedes Netzwerks oder Standorts.
 
-Raqoon fungiert als unabhängiger Wiederverkäufer. Dritte stellen das eSIM-Profil und die Konnektivität bereit; Raqoon betreibt keine öffentlichen Netze.
+4. Gerät, Lieferung und Aktivierung
 
-4. Gerätekompatibilität, QR-Code, Installation, Aktivierung und Gültigkeit
+Sie müssen vor dem Kauf ein entsperrtes, eSIM-kompatibles Gerät verwenden und die Kompatibilität prüfen. Nach erfolgreicher Zahlung werden die Profil- oder Aktivierungsdaten elektronisch an Ihre Bestell-E-Mail, Ihr Konto oder Ihre App übermittelt. Schützen Sie den QR-Code und die Aktivierungsdetails: Sie dürfen nur einmal verwendet werden und können nach der Installation nicht erneut ausgestellt werden. Die Gültigkeit des Plans, die Aktivierungsregel, der Freibetrag und die Deckung werden für das ausgewählte Produkt angezeigt. Ein Plan kann mit der Installation, der Aktivierung oder der ersten Verbindung beginnen, wie in den Produktdetails angegeben.
 
-Der Kunde muss die Gerätekompatibilität überprüfen, den QR-Code scannen, das Profil korrekt installieren und aktivieren. Die Gültigkeit wird bei der Bestellung bzw. dem Profil angezeigt.
+5. Türkiye-Ausschluss
 
-5. Abdeckung, Qualität, faire Nutzung und verbotene Nutzungen
+Raqoon eSIM wird in Türkiye nicht zum Kauf, zur Aktivierung oder Nutzung angeboten und darf nicht als Produkt für Türkiye vermarktet werden. Raqoon bietet in der Türkei keine elektronischen Kommunikationsdienste an, betreibt dort kein Netzwerk und vergibt keine lokalen Nummerierungsressourcen. Wenn Türkiye in Berichterstattungsmaterialien Dritter auftaucht, wird es dadurch nicht zu einem Raqoon eSIM-Ziel und ändert auch nicht diesen Ausschluss.
 
-Abdeckung und Qualität hängen von Drittanbietern und den örtlichen Gegebenheiten ab. Es gilt eine faire Nutzung; Eine rechtswidrige, missbräuchliche und verbotene Nutzung ist nicht gestattet.
+6. Bestimmungsgemäße und verbotene Verwendung
 
-6. Türkiye-Ausschluss, abhängig von der verifizierten Anbieterabdeckung
+Verwenden Sie das Produkt rechtmäßig und nur für persönliche Reiseverbindungen. Sie dürfen das eSIM-Profil nicht weiterverkaufen, übertragen, klonen oder teilen; technische Beschränkungen umgehen; Nutzen Sie den Plan für Betrug, Spam, illegale Inhalte, Angriffe auf Systeme, übermäßigen automatisierten Datenverkehr oder jegliches Verhalten, das gegen geltendes Recht oder Netzwerkregeln verstößt. Wir können den Zugriff sperren, wenn dies aus Sicherheitsgründen, zur Einhaltung gesetzlicher Vorschriften, zur Betrugsprävention oder zur Durchsetzung dieser Bedingungen erforderlich ist.
 
-Die Verfügbarkeit in Türkiye wird nicht angegeben, es sei denn, der Anbieter bestätigt die Abdeckung. Die Veröffentlichung bleibt bis zur Überprüfung dieser Position gesperrt.
+7. Preise, Zahlung und Aufladungen
 
-7. Bestellungen, Preise, Steuern, Zahlungen und Aufladungen
+Der Preis, die Währung, die Planzulage, die Gültigkeit, das Ziel und die anfallenden Steuern oder Gebühren werden angezeigt, bevor Sie die Bestellung aufgeben. Die Zahlungsabwicklung erfolgt über den im Checkout angezeigten Anbieter. Eine Aufladung ist ein separater Prepaid-Kauf und verlängert den Plan nicht, es sei denn, in den Produktdetails ist etwas anderes angegeben. Wir können offensichtliche Preis- oder technische Anzeigefehler vor der Lieferung korrigieren und bieten eine Rückerstattung an, wenn wir die korrigierte Bestellung nicht ausführen können.
 
-Preise, Steuern, Zahlungsmethode und Aufladedetails werden zum Zeitpunkt der Bestellung angezeigt. Der Zahlungsanbieter muss vor der Veröffentlichung bestätigt werden.
+8. Support, Änderungen und Haftung
 
-8. Support, Einschränkungen und zwingende Verbraucherrechte
+Der Support kann bei Lieferung, Installationsinformationen, Status, Guthaben, Aufladungen und bestätigten technischen Problemen helfen. Soweit gesetzlich zulässig, haftet Raqoon nicht für indirekte Verluste, entgangenen Gewinn, Roaming-Gebühren eines anderen Anbieters, Geräteschäden oder Ausfälle, die durch Ihr Gerät, lokale Netzwerkbedingungen oder Dritte verursacht werden. Nichts schränkt Rechte oder Haftung ein, die nicht gesetzlich eingeschränkt werden können. Wir können diese Bedingungen künftig aktualisieren; Eine fortgesetzte Nutzung nach dem Datum des Inkrafttretens bedeutet Akzeptanz, sofern dies gesetzlich zulässig ist.
 
-Der Support kann Ihnen bei Bestellungen, Status, Guthaben, Aufladungen und technischen Informationen behilflich sein, vorbehaltlich der Beschränkungen. Die zwingenden Verbraucherrechte bleiben gewahrt.
+9. Anwendbares Recht und Kontakt
 
-9. Türkisches geltendes Recht, Gerichtsstand und Änderungen
-
-Das türkische Recht ist die Grundlage, ohne den zwingenden Verbraucherschutz einzuschränken. Gerichtsstand und Änderungsangaben bedürfen vor der Veröffentlichung der geschäftlichen Bestätigung.
+Diese Bedingungen unterliegen den Gesetzen der Türkei, ohne die für Sie geltenden zwingenden Verbraucherschutzbestimmungen einzuschränken. Kontaktieren Sie zuerst help@raqoon.app, damit wir versuchen können, ein Problem zu lösen. Nichts in diesen Bedingungen hindert einen Verbraucher daran, die nach geltendem Recht vorgeschriebenen Beschwerde- oder Streitbeilegungswege zu nutzen.

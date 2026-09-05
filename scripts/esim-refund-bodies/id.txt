@@ -1,27 +1,33 @@
-Kebijakan Pengembalian Dana eSIM Perjalanan Raqoon
+Kebijakan Pengembalian Dana eSIM Raqoon
 
+Tanggal efektif: 5 September 2026
+Penjual: Qat Bilişim dan Yazılım Teknolojileri Ltd.Şti., Ankara, Türkiye
+Permintaan: help@raqoon.app
 
+1. Ruang lingkup dan hak wajib
 
-1. Ruang lingkup dan hak-hak konsumen yang bersifat wajib
+Kebijakan ini berlaku untuk pembelian dan isi ulang eSIM Raqoon. Hal ini tidak mengecualikan hak-hak yang tidak dapat dikecualikan berdasarkan hukum konsumen yang berlaku. Jika aturan wajib memberi Anda penyelesaian yang lebih luas, maka aturan itu berlaku.
 
-Kebijakan ini tunduk pada hak-hak konsumen wajib dan perlindungan dasar hukum Turki.
+2. Pengiriman digital dan permintaan cepat untuk memulai pertunjukan
 
-2. Pembatalan profil yang tidak digunakan dan dihapus instalasinya
+eSIM adalah produk prabayar digital yang dikirimkan secara elektronik. Sebelum checkout, kami akan meminta Anda untuk menyetujui pengiriman segera rincian aktivasi dan, jika diperlukan, secara tegas meminta agar kinerja dimulai sebelum periode penarikan berakhir. Kami menyimpan catatan pengakuan tersebut, waktu pengiriman, status profil, dan informasi penggunaan.
 
-Pelanggan dapat meminta pembatalan profil yang tidak digunakan dan dihapus instalasinya, sesuai dengan hukum yang berlaku dan ketentuan pemesanan.
+3. Kapan pengembalian dana mungkin tersedia
 
-3. Tinjauan teknis profil yang diinstal, diaktifkan, atau digunakan
+Hubungi kami segera jika profil tidak terkirim, tidak dapat diinstal atau diaktifkan karena kesalahan teknis yang dikonfirmasi, paket yang dikirimkan berbeda secara material dari pesanan, atau perangkat tidak kompatibel meskipun informasi produk kami salah secara material. Kami akan menyelidiki terlebih dahulu dan, jika diperlukan, menawarkan penggantian, koreksi, kredit, atau pengembalian dana yang dapat diterapkan sesuai dengan hukum yang berlaku.
 
-Untuk profil yang diinstal, diaktifkan, atau digunakan, Raqoon dapat meminta bukti teknis dan mendapatkan tinjauan penyediaan pihak ketiga.
+4. Ketika pengembalian dana biasanya tidak tersedia
 
-4. Keadaan yang tidak dapat dikembalikan diizinkan oleh hukum
+Sejauh diizinkan oleh undang-undang, pengembalian dana biasanya tidak tersedia setelah profil eSIM dipasang, diaktifkan, terhubung ke jaringan, diisi ulang atau digunakan, atau setelah kinerja digital dimulai dengan pengakuan yang dijelaskan di atas. Biasanya juga tidak tersedia untuk jatah yang tidak digunakan setelah masa berlaku paket habis, perubahan rencana perjalanan, persyaratan perangkat tidak terkunci yang diungkapkan, pemasangan yang salah oleh pelanggan, penggunaan yang tidak didukung, atau hilangnya kerahasiaan kode QR yang disebabkan oleh pelanggan.
 
-Pengembalian dana mungkin tidak tersedia hanya jika diizinkan oleh hukum yang berlaku, termasuk keadaan layanan digital setelah pelaksanaan yang sah dimulai.
+5. Cara mengajukan permintaan
 
-5. Meminta saluran, bukti, dan hasil peninjauan
+Kirim permintaan dari email yang digunakan untuk pemesanan ke help@raqoon.app dengan nomor pesanan Anda, deskripsi yang jelas tentang masalah, model dan versi perangkat, tujuan, tangkapan layar instalasi/aktivasi jika relevan, dan waktu terjadinya masalah. Jangan mengirimkan salinan paspor, data lengkap kartu pembayaran, atau laporan bank. Kami dapat meminta informasi teknis proporsional yang diperlukan untuk menyelidiki masalah spesifik.
 
-Kirimkan permintaan melalui saluran dukungan yang dipublikasikan dengan rincian pesanan dan bukti yang relevan. Hasilnya mengikuti review dan hukum wajib.
+6. Review dan pembayaran
 
-6. Tagihan balik dan aturan penyedia pembayaran
+Kami memverifikasi status pengiriman, instalasi, aktivasi, penggunaan dan penyediaan jaringan dengan E7 Access jika diperlukan. Kami dapat menolak permintaan yang bersifat menipu, kasar, terduplikasi, atau di luar upaya hukum yang berlaku. Jika pengembalian dana disetujui, pengembalian dana akan dikembalikan ke metode pembayaran asli jika memungkinkan secara teknis, dalam jangka waktu yang diwajibkan oleh hukum yang berlaku dan peraturan penyedia pembayaran.
 
-Penagihan balik dan prosedur penyedia pembayaran mengikuti aturan penyedia yang dikonfirmasi; tidak ada penyedia yang teridentifikasi sampai diverifikasi.
+7. Tagihan Balik
+
+Silakan hubungi kami sebelum membuka sengketa pembayaran sehingga kami dapat menyelidiki masalahnya. Hal ini tidak membatasi hak hukum Anda atau hak Anda untuk menghubungi penyedia pembayaran Anda. Kami dapat memberikan catatan pemenuhan pesanan dan teknis kepada penyedia pembayaran untuk menanggapi tagihan balik.

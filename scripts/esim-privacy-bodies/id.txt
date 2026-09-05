@@ -1,35 +1,41 @@
-Kebijakan Privasi eSIM Perjalanan Raqoon
+Kebijakan Privasi Raqoon eSIM
 
+Tanggal efektif: 5 September 2026
+Pengendali: Qat Bilişim dan Yazılım Teknolojileri Ltd.Şti., Ankara, Türkiye
+Kontak privasi: private@raqoon.app
 
+1. Ruang lingkup dan peran Raqoon
 
-1. Pengendali dan ruang lingkup
+Kebijakan ini berlaku untuk Raqoon eSIM, termasuk situs web Raqoon, aplikasi, alur pemesanan, pengiriman, tampilan saldo, isi ulang, dan dukungan. Raqoon menjual paket data eSIM perjalanan prabayar dan menyediakan antarmuka pelanggan untuk produk tersebut. Raqoon tidak mengoperasikan jaringan seluler publik, mengalokasikan nomor telepon, atau menyediakan layanan suara, SMS atau panggilan darurat.
 
-Raqoon adalah pengecer ritel independen untuk produk Travel eSIM ini; bisnis harus memberikan identitas dan alamat pengontrol sebelum dipublikasikan.
+Profil eSIM dan konektivitas data seluler secara teknis disediakan oleh E7 Access dan mitra jaringannya. Pihak-pihak tersebut dapat memproses data berdasarkan tanggung jawab hukum mereka sendiri di mana mereka menentukan tujuan dan cara pemrosesan.
 
-2. Peran Raqoon sebagai pengecer
+2. Data yang kami proses
 
-Raqoon adalah pengecer ritel independen. Pihak ketiga menyediakan profil dan konektivitas eSIM; Raqoon tidak mengoperasikan jaringan seluler publik, mengalokasikan nomor telepon, atau menyediakan layanan suara atau SMS.
+Kami dapat memproses alamat email Anda, nomor pesanan, produk dan tujuan yang dipilih, harga, mata uang, status pembayaran, dan data referensi pembayaran. Kami juga dapat memproses pengidentifikasi profil eSIM, status aktivasi dan masa berlaku, saldo yang tersedia, riwayat isi ulang, kompatibilitas perangkat dan diagnostik pemasangan, korespondensi dukungan, sinyal penipuan dan keamanan, serta log situs web/aplikasi teknis seperti alamat IP, browser, jenis perangkat, dan stempel waktu.
 
-3. Kategori data
+Kami tidak menerima atau menyimpan nomor kartu pembayaran penuh. Jangan mengirimkan paspor, dokumen identitas, laporan bank, gambar kartu pembayaran, data kesehatan, atau data pribadi sensitif lainnya ke dukungan kecuali kami secara tegas dan sah meminta barang yang benar-benar diperlukan.
 
-Informasi pesanan, kontak, perangkat, status profil, saldo, dan isi ulang hanya dapat diproses jika diperlukan untuk layanan dan hukum yang berlaku.
+3. Alasan kami memprosesnya dan dasar hukum kami
 
-4. Tujuan pemrosesan dan dasar hukum
+Kami memproses data untuk membuat dan mengirimkan pesanan, memberikan profil eSIM, menunjukkan status dan saldo produk Anda, memproses isi ulang, menjawab permintaan dukungan, mencegah penipuan dan penyalahgunaan, melindungi sistem kami, memenuhi kewajiban akuntansi dan hukum, dan menetapkan, melaksanakan atau membela klaim hukum. Tergantung pada aktivitasnya, landasannya adalah pelaksanaan kontrak, kepatuhan terhadap kewajiban hukum, kepentingan sah kami jika hal tersebut tidak mengesampingkan hak Anda, atau persetujuan eksplisit Anda jika diperlukan.
 
-Tujuan pemrosesan dan dasar hukum harus dikonfirmasi oleh perusahaan sebelum dipublikasikan; hak wajib tetap tidak terpengaruh.
+4. Penerima dan transfer internasional
 
-5. Penerima dan transfer internasional
+Kami hanya membagikan data yang diperlukan untuk tujuan yang disebutkan dengan E7 Access dan mitra konektivitas terkait, penyedia pembayaran, vendor hosting dan keamanan, alat dukungan pelanggan, penasihat profesional, dan otoritas publik bila diperlukan secara hukum. Rantai pasokan eSIM bersifat internasional, sehingga penerima dapat memproses data di luar Türkiye dan negara tempat tinggal Anda. Kami menggunakan mekanisme transfer dan pengamanan yang diwajibkan oleh hukum yang berlaku, termasuk pengamanan untuk transfer ke luar negeri di bawah KVKK jika berlaku.
 
-Pihak ketiga menyediakan profil dan konektivitas eSIM. Lokasi transfer, pengamanan, penerima, dan alokasi pemroses/pengendali tetap tidak terverifikasi dan memblokir publikasi.
+5. Retensi
 
-6. Retensi, keamanan, dan hak pengguna
+Kami menyimpan catatan pesanan, pembayaran, dan pajak untuk jangka waktu yang diwajibkan oleh hukum yang berlaku. Kami menyimpan catatan pengiriman, aktivasi, saldo, dan dukungan eSIM selama diperlukan secara wajar untuk menyediakan produk, menyelesaikan perselisihan, mencegah penipuan, atau memenuhi kewajiban hukum. Kami menghapus atau menganonimkan data ketika tujuan ini tidak lagi berlaku, kecuali diperlukan jangka waktu yang lebih lama secara hukum.
 
-Periode penyimpanan, langkah-langkah keamanan, dan prosedur hak akan diberikan sebelum pelepasan; hak wajib tetap tidak terpengaruh.
+6. Keamanan
 
-7. Dukungan dan informasi kontak
+Kami menggunakan tindakan teknis dan organisasi yang sesuai yang dirancang untuk melindungi data pribadi, termasuk kontrol akses, enkripsi saat transit jika diperlukan, pencatatan, akses dengan hak paling rendah, dan kontrol vendor. Tidak ada transmisi internet atau sistem penyimpanan yang sepenuhnya aman. Harap jaga kerahasiaan akun email, perangkat, dan kode QR Anda dan segera hubungi kami jika Anda yakin akun tersebut telah disusupi.
 
-Aplikasi ini mungkin menampilkan pesanan, status, saldo, isi ulang, dan dukungan. Gunakan saluran dukungan yang dipublikasikan; tidak ada dukungan SLA yang dijanjikan di sini.
+7. Hak dan permintaan Anda
 
-8. Perubahan kebijakan ini
+Tunduk pada hukum yang berlaku, Anda dapat meminta informasi tentang pemrosesan, akses, koreksi, penghapusan, pembatasan, keberatan, atau portabilitas jika tersedia, dan membatalkan persetujuan untuk pemrosesan di masa mendatang jika izin adalah dasarnya. Berdasarkan KVKK, Anda juga dapat menggunakan hak yang ditetapkan dalam Pasal 11. Kirimkan permintaan dari email yang digunakan untuk pemesanan ke private@raqoon.app. Kami mungkin meminta informasi proporsional yang diperlukan untuk memverifikasi permintaan dan melindungi data Anda.
 
-Perubahan akan dipublikasikan sebelum diterapkan jika diwajibkan oleh hukum. Kebijakan ini tidak dapat dipublikasikan sampai fakta-fakta yang tercantum dikonfirmasi.
+8. Anak-anak, pihak ketiga, dan pembaruan
+
+Raqoon eSIM tidak ditujukan untuk orang yang tidak dapat menandatangani kontrak pembelian yang sah berdasarkan hukum yang berlaku. Situs web pihak ketiga, layanan pembayaran, dan penyedia jaringan memiliki ketentuan privasinya sendiri. Kami dapat memperbarui kebijakan ini ketika produk, penyedia, atau undang-undang berubah; tanggal efektif akan diperbarui dan perubahan material akan dikomunikasikan jika diperlukan.

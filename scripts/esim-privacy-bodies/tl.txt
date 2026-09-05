@@ -1,33 +1,41 @@
-Patakaran sa Pagkapribado ng Raqoon Travel eSIM
+Patakaran sa Privacy ng Raqoon eSIM
 
-1. Tagapangasiwa at saklaw
+Petsa ng bisa: Setyembre 5, 2026
+Controller: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Pakikipag-ugnayan sa privacy: private@raqoon.app
 
-Ang Raqoon ay isang malayang tagapagbenta sa tingi ng produktong Travel eSIM. Bago ilathala, dapat ibigay ng negosyo ang pagkakakilanlan at tirahan ng tagapangasiwa ng datos.
+1. Saklaw at tungkulin ni Raqoon
 
-2. Papel ng Raqoon bilang tagapagbenta sa tingi
+Nalalapat ang patakarang ito sa Raqoon eSIM, kabilang ang Raqoon website, app, daloy ng order, paghahatid, pagpapakita ng balanse, mga top-up at suporta. Nagbebenta ang Raqoon ng mga prepaid na travel eSIM data plan at nagbibigay ng interface ng customer para sa produkto. Ang Raqoon ay hindi nagpapatakbo ng pampublikong mobile network, naglalaan ng mga numero ng telepono, o nagbibigay ng boses, SMS o mga serbisyong pang-emergency na tawag.
 
-Ang Raqoon ay isang malayang tagapagbenta sa tingi. Ang mga panlabas na tagapagbigay ang naghahanda ng eSIM profile at koneksiyon; hindi nagpapatakbo ang Raqoon ng pampublikong mobile network, hindi ito naglalaan ng numero ng telepono, at hindi ito nagbibigay ng tawag o SMS.
+Ang eSIM profile at mobile-data connectivity ay technically provisioned ng E7 Access at ng mga network partner nito. Maaaring iproseso ng mga partidong iyon ang data sa ilalim ng kanilang sariling mga legal na responsibilidad kung saan tinutukoy nila ang mga layunin at paraan ng pagproseso.
 
-3. Mga uri ng datos
+2. Ang data na aming pinoproseso
 
-Maaaring iproseso ang impormasyon tungkol sa order, pakikipag-ugnayan, kagamitan, katayuan ng profile, balanse at pagdaragdag ng credit kung kailangan para sa serbisyo at ayon sa naaangkop na batas.
+Maaari naming iproseso ang iyong email address, numero ng order, produkto at destinasyong napili, presyo, pera, katayuan ng pagbabayad at data ng sanggunian sa pagbabayad. Maaari rin naming iproseso ang eSIM profile identifier, activation at expiry status, available na balanse, top-up history, device-compatibility at installation diagnostics, support correspondence, panloloko at mga signal ng seguridad, at teknikal na website/app logs gaya ng IP address, browser, uri ng device at timestamp.
 
-4. Mga layunin ng pagproseso at batayang legal
+Hindi kami tumatanggap o nag-iimbak ng buong mga numero ng payment-card. Huwag magpadala ng mga pasaporte, mga dokumento ng pagkakakilanlan, mga bank statement, mga larawan ng card sa pagbabayad, data ng kalusugan o iba pang sensitibong personal na data upang suportahan maliban kung hayagang at legal kaming humiling ng isang mahigpit na kinakailangang bagay.
 
-Dapat kumpirmahin ng negosyo ang bawat layunin ng pagproseso at batayang legal bago ilathala. Hindi nito naaapektuhan ang mga karapatang ipinag-uutos ng batas.
+3. Bakit namin pinoproseso ito at ang aming mga legal na batayan
 
-5. Mga tatanggap at paglilipat sa ibang bansa
+Pinoproseso namin ang data upang gumawa at maghatid ng order, ibigay ang profile ng eSIM, ipakita ang katayuan at balanse ng iyong produkto, iproseso ang mga top-up, sagutin ang mga kahilingan sa suporta, maiwasan ang panloloko at pang-aabuso, protektahan ang aming mga system, matugunan ang mga obligasyon sa accounting at legal, at magtatag, magsagawa o magtanggol ng mga legal na claim. Depende sa aktibidad, ang batayan ay pagganap ng isang kontrata, pagsunod sa isang legal na obligasyon, ang aming mga lehitimong interes kung saan hindi nila pinapalampas ang iyong mga karapatan, o ang iyong tahasang pahintulot kung saan ito kinakailangan.
 
-Ang mga panlabas na tagapagbigay ang naghahanda ng eSIM profile at koneksiyon. Hindi pa napatutunayan ang mga lugar ng paglilipat, mga pananggalang, mga tatanggap, at paghahati ng papel ng tagapagproseso at tagapangasiwa; kaya hindi pa maaaring ilathala ang patakaran.
+4. Mga tatanggap at internasyonal na paglilipat
 
-6. Pagpapanatili, seguridad at mga karapatan ng gumagamit
+Ibinabahagi lang namin ang data na kailangan para sa nakasaad na layunin sa E7 Access at sa mga nauugnay na kasosyo sa koneksyon, provider ng pagbabayad, hosting at security vendor, mga tool sa suporta sa customer, mga propesyonal na tagapayo at pampublikong awtoridad kapag legal na kinakailangan. Ang eSIM supply chain ay internasyonal, kaya ang mga tatanggap ay maaaring magproseso ng data sa labas ng Türkiye at sa iyong bansang tinitirhan. Ginagamit namin ang mekanismo ng paglipat at mga pananggalang na kinakailangan ng naaangkop na batas, kabilang ang mga pananggalang para sa mga paglilipat sa ibang bansa sa ilalim ng KVKK kung saan naaangkop.
 
-Ibibigay bago ilabas ang mga panahon ng pagpapanatili, hakbang sa seguridad, at paraan ng paggamit ng mga karapatan. Nananatiling buo ang mga karapatang ipinag-uutos ng batas.
+5. Pagpapanatili
 
-7. Suporta at impormasyon sa pakikipag-ugnayan
+Pinapanatili namin ang mga talaan ng order, pagbabayad at buwis para sa panahon na kinakailangan ng naaangkop na batas. Pinapanatili namin ang paghahatid ng eSIM, pag-activate, balanse at mga talaan ng suporta hangga't makatwirang kinakailangan upang maibigay ang produkto, malutas ang isang hindi pagkakaunawaan, maiwasan ang panloloko o matugunan ang mga legal na obligasyon. Nagde-delete o nag-anonymise kami ng data kapag hindi na nalalapat ang mga layuning ito, maliban kung kinakailangan ng mas mahabang panahon.
 
-Maaaring ipakita ng app ang mga order, katayuan, balanse, pagdaragdag ng credit at suporta. Gamitin ang inilathalang daan ng suporta; walang ipinapangakong tiyak na oras ng pagtugon.
+6. Seguridad
 
-8. Mga pagbabago sa patakarang ito
+Gumagamit kami ng mga naaangkop na teknikal at pang-organisasyong hakbang na idinisenyo upang protektahan ang personal na data, kabilang ang mga kontrol sa pag-access, pag-encrypt sa transit kung saan naaangkop, pag-log, pag-access na may pinakamababang pribilehiyo at mga kontrol ng vendor. Walang internet transmission o storage system ang ganap na secure. Mangyaring panatilihing kumpidensyal ang iyong email account, device at QR code at makipag-ugnayan sa amin kaagad kung naniniwala kang nakompromiso ang mga ito.
 
-Ilalathala ang mga pagbabago bago maging epektibo kung hinihingi ng batas. Hindi mailalabas ang patakarang ito hangga't hindi nakukumpirma ang mga nakalistang katotohanan.
+7. Ang iyong mga karapatan at kahilingan
+
+Alinsunod sa naaangkop na batas, maaari kang humiling ng impormasyon tungkol sa pagpoproseso, pag-access, pagwawasto, pagtanggal, paghihigpit, pagtutol o portability kung saan available, at bawiin ang pahintulot para sa pagproseso sa hinaharap kung saan ang pahintulot ang batayan. Sa ilalim ng KVKK, maaari mo ring gamitin ang mga karapatang itinakda sa Artikulo 11. Magpadala ng kahilingan mula sa email na ginamit para sa order sa private@raqoon.app. Maaari kaming humingi ng proporsyonal na impormasyong kailangan para ma-verify ang kahilingan at maprotektahan ang iyong data.
+
+8. Mga bata, ikatlong partido at mga update
+
+Ang Raqoon eSIM ay hindi inilaan para sa mga taong hindi maaaring pumasok sa isang wastong kontrata sa pagbili sa ilalim ng naaangkop na batas. Ang mga third-party na website, mga serbisyo sa pagbabayad at network provider ay may sariling mga tuntunin sa privacy. Maaari naming i-update ang patakarang ito kapag nagbago ang produkto, provider o batas; ia-update ang petsa ng bisa at ang mga materyal na pagbabago ay ipapaalam kung kinakailangan.

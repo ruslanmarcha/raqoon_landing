@@ -1,39 +1,41 @@
-Raqoon Travel eSIM Terms of Use
+Raqoon eSIM Terms of Use
 
+Effective date: September 5, 2026
+Seller: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Support: help@raqoon.app
 
+1. Agreement and eligibility
 
-1. Seller, acceptance, and eligibility
+These Terms govern your use of Raqoon eSIM. By creating an order, installing an eSIM profile or using a plan, you accept these Terms, the Raqoon eSIM Privacy Policy, the Refund Policy and, for a purchase, the Distance Sales Agreement. You confirm that you are legally able to enter into this agreement and provide accurate order information.
 
-By ordering, the customer accepts these terms and confirms eligibility. Seller identity and address must be supplied before publication.
+2. What Raqoon sells
 
-2. Prepaid Travel eSIM data-plan product
+Raqoon sells prepaid travel eSIM data plans. A plan provides mobile-data access only for the stated allowance, validity period and destination. It does not include a telephone number, voice calls, SMS or emergency services. Raqoon is a retail seller and product-management interface; it does not operate an electronic communications network or infrastructure and is not a mobile operator.
 
-The product is a prepaid Travel eSIM data plan; it does not include telephone numbers, voice or SMS.
+3. Technical supply
 
-3. Raqoon reseller role and third-party technical providers
+E7 Access and its network partners technically provision the eSIM profile and connectivity. Coverage, permitted networks, speed, latency, IP location, network availability and service continuity depend on those third parties and local conditions. Raqoon does not guarantee uninterrupted or error-free connectivity, or availability of every application, network or location.
 
-Raqoon acts as an independent retail reseller. Third parties provision the eSIM profile and connectivity; Raqoon does not operate public networks.
+4. Device, delivery and activation
 
-4. Device compatibility, QR code, installation, activation, and validity
+You must use an unlocked, eSIM-compatible device and check compatibility before purchase. After successful payment, the profile or activation details are delivered electronically to your order email, account or app. Protect the QR code and activation details: they may be single-use and cannot be reissued once installed. The plan validity, activation rule, allowance and coverage are shown with the selected product. A plan may start on installation, activation or first connection, as stated in the product details.
 
-The customer must verify device compatibility, scan the QR code, install and activate the profile correctly. Validity is shown with the order or profile.
+5. Türkiye exclusion
 
-5. Coverage, quality, fair use, and prohibited uses
+Raqoon eSIM is not offered for purchase, activation or use in Türkiye and must not be marketed as a product for Türkiye. Raqoon does not provide electronic communications services in Türkiye, does not operate a network there and does not allocate local numbering resources. If Türkiye appears in any third-party coverage material, that does not make it a Raqoon eSIM destination or change this exclusion.
 
-Coverage and quality depend on third-party providers and local conditions. Fair use applies; unlawful, abusive and prohibited use is not permitted.
+6. Proper and prohibited use
 
-6. Türkiye exclusion, conditional on verified provider coverage
+Use the product lawfully and only for personal travel connectivity. You must not resell, transfer, clone or share the eSIM profile; bypass technical restrictions; use the plan for fraud, spam, illegal content, attacks on systems, excessive automated traffic or any conduct that breaches applicable law or network rules. We may suspend access where reasonably necessary for security, legal compliance, fraud prevention or enforcement of these Terms.
 
-Türkiye availability is not stated unless the provider confirms coverage. Publication remains blocked until that position is verified.
+7. Prices, payment and top-ups
 
-7. Orders, price, taxes, payments, and top-ups
+The price, currency, plan allowance, validity, destination and applicable taxes or charges are displayed before you place the order. Payment is processed by the provider shown in checkout. A top-up is a separate prepaid purchase and does not extend a plan unless the product details state otherwise. We may correct obvious pricing or technical-display errors before delivery and will offer a refund if we cannot fulfil the corrected order.
 
-Prices, taxes, payment method and top-up details are shown at order time. The payment provider must be confirmed before publication.
+8. Support, changes and liability
 
-8. Support, limitations, and mandatory consumer rights
+Support can help with delivery, installation information, status, balance, top-ups and confirmed technical problems. To the maximum extent permitted by law, Raqoon is not liable for indirect loss, lost profits, roaming charges from another provider, device damage, or failures caused by your device, local network conditions or third parties. Nothing limits rights or liability that cannot legally be limited. We may update these Terms prospectively; continued use after the effective date means acceptance where law permits.
 
-Support can assist with orders, status, balance, top-ups and technical information, subject to limits. Mandatory consumer rights are preserved.
+9. Governing law and contact
 
-9. Turkish governing law, jurisdiction, and changes
-
-Turkish law is the baseline, without limiting mandatory consumer protection. Jurisdiction and change details require business confirmation before publication.
+These Terms are governed by the laws of Türkiye, without limiting mandatory consumer protections that apply to you. Contact help@raqoon.app first so that we can try to resolve an issue. Nothing in these Terms prevents a consumer from using mandatory complaint or dispute-resolution routes available under applicable law.

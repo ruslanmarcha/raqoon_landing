@@ -1,39 +1,41 @@
-Ketentuan Penggunaan eSIM Perjalanan Raqoon
+Ketentuan Penggunaan eSIM Raqoon
 
+Tanggal efektif: 5 September 2026
+Penjual: Qat Bilişim dan Yazılım Teknolojileri Ltd.Şti., Ankara, Türkiye
+Dukungan: help@raqoon.app
 
+1. Kesepakatan dan kelayakan
 
-1. Penjual, penerimaan, dan kelayakan
+Ketentuan ini mengatur penggunaan Anda atas Raqoon eSIM. Dengan membuat pesanan, memasang profil eSIM, atau menggunakan paket, Anda menerima Ketentuan ini, Kebijakan Privasi Raqoon eSIM, Kebijakan Pengembalian Dana dan, untuk pembelian, Perjanjian Penjualan Jarak Jauh. Anda mengonfirmasi bahwa Anda secara hukum dapat menandatangani perjanjian ini dan memberikan informasi pesanan yang akurat.
 
-Dengan memesan, pelanggan menerima persyaratan ini dan mengonfirmasi kelayakan. Identitas dan alamat penjual harus diberikan sebelum dipublikasikan.
+2. Apa yang Raqoon jual
 
-2. Produk paket data eSIM Perjalanan Prabayar
+Raqoon menjual paket data eSIM perjalanan prabayar. Paket menyediakan akses data seluler hanya untuk kuota, masa berlaku, dan tujuan yang ditentukan. Ini tidak termasuk nomor telepon, panggilan suara, SMS atau layanan darurat. Raqoon adalah antarmuka penjual ritel dan manajemen produk; ia tidak mengoperasikan jaringan atau infrastruktur komunikasi elektronik dan bukan merupakan operator seluler.
 
-Produknya adalah paket data eSIM Perjalanan prabayar; itu tidak termasuk nomor telepon, suara atau SMS.
+3. Pasokan teknis
 
-3. Peran pengecer Raqoon dan penyedia teknis pihak ketiga
+E7 Access dan mitra jaringannya secara teknis menyediakan profil dan konektivitas eSIM. Cakupan, jaringan yang diizinkan, kecepatan, latensi, lokasi IP, ketersediaan jaringan, dan kontinuitas layanan bergantung pada pihak ketiga tersebut dan kondisi lokal. Raqoon tidak menjamin konektivitas, atau ketersediaan setiap aplikasi, jaringan, atau lokasi tanpa gangguan atau bebas kesalahan.
 
-Raqoon bertindak sebagai pengecer ritel independen. Pihak ketiga menyediakan profil dan konektivitas eSIM; Raqoon tidak mengoperasikan jaringan publik.
+4. Perangkat, pengiriman dan aktivasi
 
-4. Kompatibilitas perangkat, kode QR, instalasi, aktivasi, dan validitas
+Anda harus menggunakan perangkat yang tidak terkunci dan kompatibel dengan eSIM dan memeriksa kompatibilitasnya sebelum membeli. Setelah pembayaran berhasil, profil atau detail aktivasi dikirimkan secara elektronik ke email pesanan, akun, atau aplikasi Anda. Lindungi kode QR dan detail aktivasi: mungkin hanya sekali pakai dan tidak dapat diterbitkan ulang setelah diinstal. Validitas paket, aturan aktivasi, tunjangan dan cakupan ditunjukkan pada produk yang dipilih. Sebuah paket dapat dimulai pada instalasi, aktivasi atau koneksi pertama, sebagaimana tercantum dalam detail produk.
 
-Pelanggan harus memverifikasi kompatibilitas perangkat, memindai kode QR, menginstal dan mengaktifkan profil dengan benar. Validitas ditunjukkan dengan pesanan atau profil.
+5. Pengecualian Turkiye
 
-5. Cakupan, kualitas, penggunaan wajar, dan penggunaan yang dilarang
+Raqoon eSIM tidak ditawarkan untuk pembelian, aktivasi atau penggunaan di Türkiye dan tidak boleh dipasarkan sebagai produk untuk Türkiye. Raqoon tidak menyediakan layanan komunikasi elektronik di Türkiye, tidak mengoperasikan jaringan di sana, dan tidak mengalokasikan sumber daya penomoran lokal. Jika Türkiye muncul dalam materi liputan pihak ketiga mana pun, hal tersebut tidak menjadikannya tujuan eSIM Raqoon atau mengubah pengecualian ini.
 
-Cakupan dan kualitas bergantung pada penyedia pihak ketiga dan kondisi setempat. Penggunaan wajar berlaku; penggunaan yang melanggar hukum, kasar dan terlarang tidak diizinkan.
+6. Penggunaan yang benar dan dilarang
 
-6. Pengecualian Türkiye, tergantung pada cakupan penyedia yang terverifikasi
+Gunakan produk secara sah dan hanya untuk konektivitas perjalanan pribadi. Anda tidak boleh menjual kembali, mentransfer, mengkloning, atau membagikan profil eSIM; melewati batasan teknis; menggunakan rencana tersebut untuk melakukan penipuan, spam, konten ilegal, serangan terhadap sistem, lalu lintas otomatis yang berlebihan, atau tindakan apa pun yang melanggar hukum atau peraturan jaringan yang berlaku. Kami dapat menangguhkan akses jika diperlukan secara wajar demi keamanan, kepatuhan hukum, pencegahan penipuan, atau penegakan Ketentuan ini.
 
-Ketersediaan Türkiye tidak disebutkan kecuali penyedia mengkonfirmasi cakupannya. Publikasi tetap diblokir sampai posisi tersebut diverifikasi.
+7. Harga, pembayaran dan isi ulang
 
-7. Pesanan, harga, pajak, pembayaran, dan top-up
+Harga, mata uang, tunjangan paket, validitas, tujuan, dan pajak atau biaya yang berlaku ditampilkan sebelum Anda melakukan pemesanan. Pembayaran diproses oleh penyedia yang ditunjukkan di checkout. Isi ulang adalah pembelian prabayar terpisah dan tidak memperpanjang paket kecuali rincian produk menyatakan sebaliknya. Kami mungkin memperbaiki kesalahan harga atau tampilan teknis sebelum pengiriman dan akan menawarkan pengembalian dana jika kami tidak dapat memenuhi pesanan yang telah diperbaiki.
 
-Harga, pajak, metode pembayaran, dan detail isi ulang ditampilkan pada waktu pemesanan. Penyedia pembayaran harus dikonfirmasi sebelum dipublikasikan.
+8. Dukungan, perubahan dan tanggung jawab
 
-8. Dukungan, batasan, dan hak wajib konsumen
+Dukungan dapat membantu pengiriman, informasi pemasangan, status, saldo, isi ulang, dan masalah teknis yang dikonfirmasi. Sejauh diizinkan oleh hukum, Raqoon tidak bertanggung jawab atas kerugian tidak langsung, hilangnya keuntungan, biaya roaming dari penyedia lain, kerusakan perangkat, atau kegagalan yang disebabkan oleh perangkat Anda, kondisi jaringan lokal, atau pihak ketiga. Tidak ada yang membatasi hak atau tanggung jawab yang tidak dapat dibatasi secara hukum. Kami dapat memperbarui Ketentuan ini secara prospektif; penggunaan berkelanjutan setelah tanggal efektif berarti penerimaan jika diizinkan oleh hukum.
 
-Dukungan dapat membantu dengan pesanan, status, saldo, isi ulang, dan informasi teknis, dengan batasan. Hak konsumen wajib dipertahankan.
+9. Hukum yang mengatur dan kontak
 
-9. Hukum, yurisdiksi, dan perubahan yang berlaku di Turki
-
-Hukum Turki adalah landasannya, tanpa membatasi perlindungan konsumen wajib. Yurisdiksi dan detail perubahan memerlukan konfirmasi bisnis sebelum dipublikasikan.
+Ketentuan ini diatur oleh hukum Türkiye, tanpa membatasi perlindungan konsumen wajib yang berlaku bagi Anda. Hubungi help@raqoon.app terlebih dahulu agar kami dapat mencoba menyelesaikan masalah. Tidak ada ketentuan apa pun dalam Ketentuan ini yang menghalangi konsumen untuk menggunakan jalur wajib pengaduan atau penyelesaian sengketa yang tersedia berdasarkan hukum yang berlaku.

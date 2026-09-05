@@ -1,27 +1,33 @@
-Zásady vrácení peněz za eSIM Raqoon Travel
+Zásady vrácení peněz Raqoon eSIM
 
+Datum účinnosti: 5. září 2026
+Prodejce: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Požadavky: help@raqoon.app
 
+1. Rozsah a závazná práva
 
-1. Rozsah a závazná práva spotřebitele
+Tyto zásady se vztahují na nákupy a dobíjení eSIM Raqoon. Nevylučuje práva, která nelze vyloučit podle platného spotřebitelského práva. Pokud vám závazné pravidlo poskytuje širší nápravu, platí toto pravidlo.
 
-Tato politika podléhá povinným právům spotřebitelů a základní ochraně podle tureckého práva.
+2. Digitální doručení a výslovná žádost o zahájení plnění
 
-2. Zrušení nepoužívaného a odinstalovaného profilu
+eSIM je digitální, předplacený produkt dodávaný elektronicky. Před pokladnou vás požádáme o potvrzení okamžitého doručení aktivačních údajů a v případě potřeby výslovně požádáme, aby plnění začalo před uplynutím lhůty pro odstoupení od smlouvy. Vedeme záznamy o tomto potvrzení, době dodání, stavu profilu a informacích o použití.
 
-Zákazník může požádat o zrušení nepoužívaného, odinstalovaného profilu v souladu s platnými zákony a podmínkami objednávky.
+3. Kdy může být k dispozici vrácení peněz
 
-3. Technická kontrola nainstalovaného, aktivovaného nebo použitého profilu
+Neprodleně nás kontaktujte, pokud profil nebyl dodán, nelze jej nainstalovat nebo aktivovat z důvodu potvrzené technické závady, dodaný plán se podstatně liší od objednávky nebo zařízení bylo nekompatibilní, přestože naše produktové informace byly věcně nesprávné. Nejprve prošetříme a případně nabídneme proveditelnou náhradu, opravu, kredit nebo vrácení peněz v souladu s platnými zákony.
 
-Pro nainstalovaný, aktivovaný nebo používaný profil může společnost Raqoon požadovat technické důkazy a získat kontrolu poskytování třetí stranou.
+4. Když je náhrada obvykle nedostupná
 
-4. Nevratné okolnosti povolené zákonem
+V rozsahu povoleném zákonem je náhrada obvykle nedostupná po instalaci, aktivaci, připojení k síti, dobití nebo použití profilu eSIM nebo po zahájení digitálního výkonu s výše popsaným potvrzením. Obvykle je také nedostupná pro nevyužité povolenky po vypršení plánu, změnu cestovních plánů, požadavek na odemčené zařízení, který byl zveřejněn, nesprávnou instalaci zákazníkem, nepodporované použití nebo ztrátu důvěrnosti QR kódu způsobenou zákazníkem.
 
-Vrácení peněz může být nedostupné pouze v případech, kdy to povolují platné zákony, včetně okolností digitálních služeb po zahájení zákonného plnění.
+5. Jak podat žádost
 
-5. Vyžádejte si kanál, důkazy a výsledek kontroly
+Odešlete požadavek z e-mailu použitého pro objednávku na adresu help@raqoon.app s číslem objednávky, jasným popisem problému, modelem a verzí zařízení, místem určení, případně snímky obrazovky instalace/aktivace a časem, kdy k problému došlo. Neposílejte kopie pasu, úplné údaje o platební kartě ani výpisy z bankovního účtu. Můžeme požadovat přiměřené technické informace potřebné k prošetření konkrétního problému.
 
-Odešlete žádost prostřednictvím zveřejněného kanálu podpory s podrobnostmi o objednávce a relevantními důkazy. Výsledek se řídí revizním a kogentním zákonem.
+6. Kontrola a platba
 
-6. Zpětná zúčtování a pravidla poskytovatelů plateb
+V případě potřeby ověřujeme doručení, instalaci, aktivaci, používání a stav zřizování sítě pomocí E7 Access. Můžeme odmítnout žádost, která je podvodná, urážlivá, duplicitní nebo mimo platný právní prostředek. Pokud je refundace schválena, je vrácena původní platební metodou, pokud je to technicky možné, ve lhůtě požadované platnými zákony a pravidly poskytovatele plateb.
 
-Zpětná zúčtování a jakékoli postupy poskytovatele plateb se řídí pravidly potvrzeného poskytovatele; žádný poskytovatel není identifikován, dokud nebude ověřen.
+7. Zpětná zúčtování
+
+Před zahájením sporu o platbu nás prosím kontaktujte, abychom mohli problém prošetřit. Tím nejsou omezena vaše zákonná práva ani vaše právo kontaktovat svého poskytovatele plateb. Poskytovateli plateb můžeme poskytnout záznamy o objednávkách a technickém plnění, abychom mohli reagovat na zúčtování.

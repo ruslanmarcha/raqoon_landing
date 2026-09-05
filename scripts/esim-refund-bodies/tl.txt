@@ -1,25 +1,33 @@
-Patakaran sa Pagsasauli ng Bayad ng Raqoon Travel eSIM
+Patakaran sa Refund ng Raqoon eSIM
 
-1. Saklaw at mga karapatang ipinag-uutos ng batas
+Petsa ng bisa: Setyembre 5, 2026
+Nagbebenta: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Mga Kahilingan: help@raqoon.app
 
-Ang patakarang ito ay saklaw ng mga karapatang ipinag-uutos ng batas para sa mamimili at ng mga proteksiyong nakabatay sa batas ng Türkiye.
+1. Saklaw at ipinag-uutos na mga karapatan
 
-2. Pagkansela ng hindi nagamit at hindi na-install na profile
+Nalalapat ang patakarang ito sa mga pagbili at pag-top-up ng Raqoon eSIM. Hindi nito ibinubukod ang mga karapatan na hindi maaaring ibukod sa ilalim ng naaangkop na batas ng consumer. Kung saan ang isang mandatoryong panuntunan ay nagbibigay sa iyo ng mas malawak na remedyo, nalalapat ang panuntunang iyon.
 
-Maaaring humiling ang mamimili ng pagkansela ng profile na hindi nagamit at hindi na-install, ayon sa naaangkop na batas at mga tuntunin ng order.
+2. Digital delivery at express request para simulan ang performance
 
-3. Teknikal na pagsusuri ng na-install, na-activate o nagamit na profile
+Ang eSIM ay isang digital, prepaid na produkto na inihahatid sa elektronikong paraan. Bago mag-checkout, hihilingin namin sa iyo na kilalanin ang agarang paghahatid ng mga detalye ng pag-activate at, kung kinakailangan, hayagang hilingin na magsimula ang pagganap bago matapos ang anumang panahon ng pag-withdraw. Nag-iingat kami ng talaan ng pagkilalang iyon, ang oras ng paghahatid, katayuan ng profile at impormasyon sa paggamit.
 
-Para sa profile na na-install, na-activate o nagamit na, maaaring humingi ang Raqoon ng teknikal na katibayan at kumuha ng pagsusuri mula sa panlabas na tagapagbigay na naghanda ng profile.
+3. Kapag maaaring magkaroon ng refund
 
-4. Mga sitwasyong hindi maisasauli ang bayad na pinahihintulutan ng batas
+Makipag-ugnayan sa amin kaagad kung ang profile ay hindi naihatid, hindi ma-install o ma-activate dahil sa isang kumpirmadong teknikal na pagkakamali, ang inihatid na plano ay naiiba sa order, o ang device ay hindi tugma sa kabila ng aming impormasyon ng produkto na hindi tama. Sisiyasatin muna namin at, kung naaangkop, mag-aalok ng isang mabisang kapalit, pagwawasto, kredito o refund alinsunod sa naaangkop na batas.
 
-Maaaring hindi maisauli ang bayad lamang kung pinahihintulutan ng naaangkop na batas, kabilang ang sitwasyon ng serbisyong digital kapag nagsimula na ang legal na pagganap.
+4. Kapag ang isang refund ay karaniwang hindi magagamit
 
-5. Daan ng kahilingan, katibayan at resulta ng pagsusuri
+Sa lawak na pinahihintulutan ng batas, karaniwang hindi available ang refund pagkatapos ma-install, ma-activate, konektado sa network, mag-top up o magamit ang eSIM profile, o pagkatapos magsimula ang digital performance gamit ang pagkilalang inilarawan sa itaas. Karaniwan din itong hindi available para sa hindi nagamit na allowance pagkatapos mag-expire ang plan, pagbabago ng mga plano sa paglalakbay, isang naka-unlock na kinakailangan sa device na isiniwalat, isang maling pag-install ng customer, hindi sinusuportahang paggamit, o pagkawala ng pagiging kumpidensyal ng QR-code na dulot ng customer.
 
-Isumite ang kahilingan sa inilathalang daan ng suporta kasama ang mga detalye ng order at kaugnay na katibayan. Ang resulta ay ibabatay sa pagsusuri at sa mga karapatang ipinag-uutos ng batas.
+5. Paano gumawa ng kahilingan
 
-6. Pagtutol sa singil at mga tuntunin ng tagapagbigay ng bayad
+Ipadala ang kahilingan mula sa email na ginamit para sa order sa help@raqoon.app kasama ang iyong numero ng order, isang malinaw na paglalarawan ng isyu, modelo ng device at bersyon, patutunguhan, mga screenshot sa pag-install/pag-activate kung saan nauugnay, at ang oras na nangyari ang isyu. Huwag magpadala ng mga kopya ng pasaporte, buong data ng payment-card o mga bank statement. Maaari kaming humiling ng proporsyonal na teknikal na impormasyon na kinakailangan upang siyasatin ang partikular na problema.
 
-Ang pagtutol sa singil at anumang pamamaraan ng tagapagbigay ng bayad ay sumusunod sa mga tuntunin ng nakumpirmang tagapagbigay. Walang tinutukoy na tagapagbigay hangga't hindi ito napatutunayan.
+6. Pagsusuri at pagbabayad
+
+Bine-verify namin ang katayuan ng paghahatid, pag-install, pag-activate, paggamit at pagbibigay ng network gamit ang E7 Access kung kinakailangan. Maaari naming tanggihan ang isang kahilingan na mapanlinlang, mapang-abuso, nadoble o sa labas ng naaangkop na legal na remedyo. Kung maaaprubahan ang isang refund, ibabalik ito sa orihinal na paraan ng pagbabayad kung saan posible, sa loob ng panahon na kinakailangan ng naaangkop na batas at mga panuntunan sa provider ng pagbabayad.
+
+7. Mga chargeback
+
+Mangyaring makipag-ugnayan sa amin bago magbukas ng hindi pagkakaunawaan sa pagbabayad para maimbestigahan namin ang isyu. Hindi nito nililimitahan ang iyong mga karapatan ayon sa batas o ang iyong karapatang makipag-ugnayan sa iyong provider ng pagbabayad. Maaari kaming magbigay ng mga talaan ng order at teknikal na pagtupad sa provider ng pagbabayad upang tumugon sa isang chargeback.

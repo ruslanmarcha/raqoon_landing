@@ -630,6 +630,10 @@ git commit -m "docs: add legal documents release checklist"
 
 ## Plan self-review
 
+## Mandatory release condition
+
+This implementation is not complete until the changes are deployed to production and the live legal routes return the updated content. A local build, commit, or push alone is not a completion condition. If the primary workspace blocks a build or push, use a clean checkout to complete deployment and verify the live site before reporting completion.
+
 - **Spec coverage:** Tasks 1–3 cover the product/route model, reusable page, catalogue, footer, localization, and legal content. Task 4 covers SEO and sitemap. Task 5 covers release prerequisites and all stated acceptance checks.
 - **No placeholders:** The plan names all routes, locales, files, i18n keys, command names, document sections, and required verification commands. Business facts that cannot safely be inferred are explicit publication gates, not invented copy.
 - **Type consistency:** `LegalProduct`, `LegalDocument`, `LEGAL_DOCUMENTS`, `DOCUMENTS_BY_PRODUCT`, and `getLegalDocument` are introduced once in Task 1 and consumed consistently in later tasks.

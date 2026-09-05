@@ -1,27 +1,33 @@
-Politique de remboursement eSIM de Raqoon Travel
+Politique de remboursement de l'eSIM de Raqoon
 
+Date d'entrée en vigueur : 5 septembre 2026
+Vendeur: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Demandes : help@raqoon.app
 
+1. Portée et droits obligatoires
 
-1. Portée et droits obligatoires des consommateurs
+Cette politique s'applique aux achats et recharges Raqoon eSIM. Il n'exclut pas les droits qui ne peuvent être exclus en vertu du droit de la consommation applicable. Lorsqu’une règle impérative vous offre un recours plus large, cette règle s’applique.
 
-Cette politique est soumise aux droits obligatoires des consommateurs et aux protections de base de la loi turque.
+2. Livraison numérique et demande expresse de début d’exécution
 
-2. Annulation du profil inutilisé et désinstallé
+Une eSIM est un produit numérique prépayé livré par voie électronique. Avant le paiement, nous vous demanderons d'accuser réception immédiate des détails d'activation et, le cas échéant, de demander expressément que l'exécution commence avant la fin du délai de rétractation. Nous conservons une trace de cet accusé de réception, du délai de livraison, du statut du profil et des informations d'utilisation.
 
-Un client peut demander l'annulation d'un profil inutilisé et désinstallé, sous réserve de la loi applicable et des conditions de commande.
+3. Quand un remboursement peut être disponible
 
-3. Examen technique du profil installé, activé ou utilisé
+Contactez-nous rapidement si le profil n'a pas été livré, ne peut pas être installé ou activé en raison d'un défaut technique confirmé, si le plan livré diffère sensiblement de la commande ou si l'appareil était incompatible malgré que nos informations sur le produit soient matériellement incorrectes. Nous enquêterons d’abord et, le cas échéant, proposerons un remplacement, une correction, un crédit ou un remboursement réalisable conformément à la loi applicable.
 
-Pour un profil installé, activé ou utilisé, Raqoon peut demander des preuves techniques et obtenir un examen d'approvisionnement par un tiers.
+4. Lorsqu'un remboursement n'est normalement pas disponible
 
-4. Circonstances non remboursables autorisées par la loi
+Dans la mesure permise par la loi, un remboursement n'est normalement pas disponible après que le profil eSIM a été installé, activé, connecté à un réseau, rechargé ou utilisé, ou après que l'exécution numérique a commencé avec la reconnaissance décrite ci-dessus. Il est également normalement indisponible en cas de quota non utilisé après l'expiration du forfait, d'un changement de projet de voyage, d'une exigence d'appareil déverrouillé qui a été divulguée, d'une installation incorrecte par le client, d'une utilisation non prise en charge ou d'une perte de confidentialité du code QR causée par le client.
 
-Un remboursement peut ne pas être disponible uniquement lorsque la loi applicable le permet, y compris dans les circonstances liées aux services numériques après le début de l'exécution légale.
+5. Comment faire une demande
 
-5. Demander un canal, des preuves et examiner le résultat
+Envoyez la demande à partir de l'e-mail utilisé pour la commande à help@raqoon.app avec votre numéro de commande, une description claire du problème, le modèle et la version de l'appareil, la destination, les captures d'écran d'installation/activation le cas échéant et l'heure à laquelle le problème s'est produit. N'envoyez pas de copies de passeport, de données complètes de carte de paiement ou de relevés bancaires. Nous pouvons demander des informations techniques proportionnées nécessaires pour enquêter sur le problème spécifique.
 
-Soumettez la demande via le canal d'assistance publié avec les détails de la commande et les preuves pertinentes. Le résultat fait suite à l’examen et à la loi impérative.
+6. Révision et paiement
 
-6. Rétrofacturations et règles du fournisseur de paiement
+Nous vérifions l'état de livraison, d'installation, d'activation, d'utilisation et d'approvisionnement du réseau avec E7 Access si nécessaire. Nous pouvons refuser une demande qui est frauduleuse, abusive, dupliquée ou en dehors du recours légal applicable. Si un remboursement est approuvé, il est renvoyé vers le mode de paiement d'origine lorsque cela est techniquement possible, dans le délai requis par la loi applicable et les règles du fournisseur de paiement.
 
-Les rétrofacturations et toutes les procédures du fournisseur de paiement suivent les règles du fournisseur confirmé ; aucun fournisseur n’est identifié tant qu’il n’a pas été vérifié.
+7. Rétrofacturations
+
+Veuillez nous contacter avant d'ouvrir un litige de paiement afin que nous puissions enquêter sur le problème. Cela ne limite pas vos droits statutaires ou votre droit de contacter votre fournisseur de paiement. Nous pouvons fournir des enregistrements de commande et d'exécution technique au fournisseur de paiement pour répondre à une rétrofacturation.

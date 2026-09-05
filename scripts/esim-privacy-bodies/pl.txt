@@ -1,35 +1,41 @@
-Polityka prywatności eSIM Raqoon Travel
+Polityka prywatności Raqoon eSIM
 
+Data wejścia w życie: 5 września 2026 r
+Administrator: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Kontakt w sprawie prywatności: private@raqoon.app
 
+1. Zakres i rola Raqoon
 
-1. Kontroler i zakres
+Niniejsza polityka dotyczy karty Raqoon eSIM, w tym witryny internetowej Raqoon, aplikacji, przepływu zamówień, dostawy, wyświetlania salda, doładowań i wsparcia. Raqoon sprzedaje przedpłacone podróżne plany transmisji danych eSIM i zapewnia interfejs klienta dla produktu. Raqoon nie obsługuje publicznej sieci komórkowej, nie przydziela numerów telefonów ani nie świadczy usług głosowych, SMS-ów ani połączeń alarmowych.
 
-Raqoon jest niezależnym sprzedawcą detalicznym tego produktu Travel eSIM; przed publikacją firma musi podać tożsamość i adres administratora.
+Profil eSIM i mobilna łączność danych są technicznie zapewniane przez firmę E7 Access i jej partnerów sieciowych. Strony te mogą przetwarzać dane w ramach swoich własnych obowiązków prawnych, jeżeli ustalają cele i sposoby przetwarzania.
 
-2. Rola Raqoon jako sprzedawcy detalicznego
+2. Dane, które przetwarzamy
 
-Raqoon jest niezależnym sprzedawcą detalicznym. Strony trzecie udostępniają profile eSIM i łączność; Raqoon nie obsługuje publicznych sieci komórkowych, nie przydziela numerów telefonów ani nie świadczy usług głosowych ani SMS-ów.
+Możemy przetwarzać Twój adres e-mail, numer zamówienia, wybrany produkt i miejsce docelowe, cenę, walutę, status płatności i dane referencyjne dotyczące płatności. Możemy również przetwarzać identyfikator profilu eSIM, status aktywacji i wygaśnięcia, dostępne saldo, historię doładowań, kompatybilność urządzeń i diagnostykę instalacji, korespondencję z pomocą techniczną, sygnały o oszustwach i bezpieczeństwie, a także techniczne dzienniki witryn/aplikacji, takie jak adres IP, przeglądarka, typ urządzenia i znaczniki czasu.
 
-3. Kategorie danych
+Nie otrzymujemy i nie przechowujemy pełnych numerów kart płatniczych. Nie wysyłaj do wsparcia paszportów, dokumentów tożsamości, wyciągów bankowych, zdjęć kart płatniczych, danych zdrowotnych ani innych wrażliwych danych osobowych, chyba że wyraźnie i zgodnie z prawem poprosimy o absolutnie niezbędny przedmiot.
 
-Informacje o zamówieniu, kontakcie, urządzeniu, statusie profilu, saldzie i doładowaniu mogą być przetwarzane wyłącznie w zakresie niezbędnym do realizacji usługi i obowiązującego prawa.
+3. Dlaczego je przetwarzamy i nasze podstawy prawne
 
-4. Cele przetwarzania i podstawy prawne
+Przetwarzamy dane w celu utworzenia i dostarczenia zamówienia, udostępnienia profilu eSIM, pokazania statusu i salda produktu, przetwarzania doładowań, odpowiadania na prośby o pomoc, zapobiegania oszustwom i nadużyciom, ochrony naszych systemów, wypełniania obowiązków księgowych i prawnych oraz ustalania, dochodzenia lub obrony roszczeń prawnych. W zależności od rodzaju działalności podstawą jest wykonanie umowy, dopełnienie obowiązku prawnego, nasze prawnie uzasadnione interesy, jeśli nie są one nadrzędne wobec Twoich praw, lub Twoja wyraźna zgoda, gdy jest to wymagane.
 
-Cele przetwarzania i podstawy prawne muszą zostać potwierdzone przez firmę przed publikacją; prawa obowiązkowe pozostają nienaruszone.
+4. Odbiorcy i przelewy międzynarodowe
 
-5. Odbiorcy i przelewy międzynarodowe
+Udostępniamy wyłącznie dane potrzebne do określonego celu firmie E7 Access i jej odpowiednim partnerom w zakresie łączności, dostawcom usług płatniczych, dostawcom usług hostingowych i zabezpieczeń, narzędziom obsługi klienta, profesjonalnym doradcom i organom publicznym, jeśli jest to wymagane prawnie. Łańcuch dostaw eSIM ma charakter międzynarodowy, więc odbiorcy mogą przetwarzać dane poza Turcją i Twoim krajem zamieszkania. Korzystamy z mechanizmu przekazywania danych i zabezpieczeń wymaganych przez obowiązujące prawo, w tym, w stosownych przypadkach, zabezpieczeń dotyczących przelewów zagranicznych w ramach KVKK.
 
-Strony trzecie udostępniają profile eSIM i łączność. Lokalizacje transferu, zabezpieczenia, odbiorcy i przydziały procesorów/kontrolerów pozostają niezweryfikowane i blokują publikację.
+5. Zatrzymanie
 
-6. Przechowywanie, bezpieczeństwo i prawa użytkownika
+Przechowujemy dokumentację zamówień, płatności i podatków przez okres wymagany obowiązującymi przepisami prawa. Przechowujemy dokumentację dotyczącą dostawy eSIM, aktywacji, salda i pomocy technicznej tak długo, jak jest to zasadnie potrzebne do dostarczenia produktu, rozwiązania sporu, zapobiegania oszustwom lub spełnienia zobowiązań prawnych. Usuwamy lub anonimizujemy dane, gdy te cele już nie mają zastosowania, chyba że prawnie wymagany jest dłuższy okres.
 
-Okresy przechowywania, środki bezpieczeństwa i procedury dotyczące praw zostaną podane przed udostępnieniem; prawa obowiązkowe pozostają nienaruszone.
+6. Bezpieczeństwo
 
-7. Wsparcie i informacje kontaktowe
+Stosujemy odpowiednie środki techniczne i organizacyjne mające na celu ochronę danych osobowych, w tym kontrolę dostępu, szyfrowanie podczas przesyłania, w stosownych przypadkach, rejestrowanie, dostęp z najniższymi uprawnieniami i kontrole dostawców. Żaden system transmisji i przechowywania danych w Internecie nie jest całkowicie bezpieczny. Zachowaj poufność swojego konta e-mail, urządzenia i kodu QR, a jeśli uważasz, że zostały naruszone, skontaktuj się z nami niezwłocznie.
 
-Aplikacja może wyświetlać zamówienia, status, saldo, doładowania i wsparcie. Skorzystaj z opublikowanego kanału wsparcia; nie jest tutaj obiecana żadna umowa SLA dotycząca wsparcia.
+7. Twoje prawa i żądania
 
-8. Zmiany niniejszej polityki
+Z zastrzeżeniem obowiązującego prawa, możesz zażądać informacji na temat przetwarzania, dostępu, poprawiania, usuwania, ograniczania, sprzeciwu lub przenoszenia, jeśli są dostępne, a także wycofać zgodę na przyszłe przetwarzanie, jeśli zgoda jest podstawą. W ramach KVKK możesz także skorzystać z praw określonych w artykule 11. Wyślij żądanie z adresu e-mail użytego do zamówienia na adres private@raqoon.app. Możemy poprosić o proporcjonalne informacje potrzebne do weryfikacji żądania i ochrony Twoich danych.
 
-Zmiany zostaną opublikowane przed wejściem w życie, jeżeli wymaga tego prawo. Niniejsza polityka nie podlega publikacji do czasu potwierdzenia wymienionych faktów.
+8. Dzieci, osoby trzecie i aktualizacje
+
+Raqoon eSIM nie jest przeznaczony dla osób, które w świetle obowiązującego prawa nie mogą zawrzeć ważnej umowy zakupu. Witryny stron trzecich, usługi płatnicze i dostawcy sieci mają własne warunki ochrony prywatności. Możemy aktualizować tę politykę w przypadku zmiany produktu, dostawców lub prawa; data wejścia w życie zostanie zaktualizowana, a w razie potrzeby zostaną przekazane istotne zmiany.

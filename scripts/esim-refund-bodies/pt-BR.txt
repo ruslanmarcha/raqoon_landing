@@ -1,27 +1,33 @@
-Política de reembolso do eSIM da Raqoon Travel
+Política de reembolso do Raqoon eSIM
 
+Data de vigência: 5 de setembro de 2026
+Vendedor: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ancara, Türkiye
+Solicitações: help@raqoon.app
 
+1. Âmbito e direitos obrigatórios
 
-1. Âmbito e direitos obrigatórios do consumidor
+Esta política se aplica a compras e recargas de Raqoon eSIM. Não exclui direitos que não possam ser excluídos ao abrigo da legislação do consumidor aplicável. Quando uma regra obrigatória oferece uma solução mais ampla, essa regra se aplica.
 
-Esta política está sujeita aos direitos obrigatórios do consumidor e às proteções básicas da lei turca.
+2. Entrega digital e solicitação expressa para início de atuação
 
-2. Cancelamento de perfil não utilizado e desinstalado
+Um eSIM é um produto digital pré-pago entregue eletronicamente. Antes da finalização da compra, solicitaremos que você confirme a entrega imediata dos detalhes de ativação e, quando necessário, solicitaremos expressamente que a execução comece antes do término de qualquer período de retirada. Mantemos um registro dessa confirmação, do prazo de entrega, do status do perfil e das informações de uso.
 
-Um cliente pode solicitar o cancelamento de um perfil não utilizado e desinstalado, sujeito à lei aplicável e aos termos do pedido.
+3. Quando um reembolso pode estar disponível
 
-3. Revisão técnica do perfil instalado, ativado ou usado
+Contacte-nos imediatamente se o perfil não tiver sido entregue, não puder ser instalado ou ativado devido a uma falha técnica confirmada, o plano entregue for materialmente diferente do pedido ou o dispositivo for incompatível apesar das informações do produto estarem materialmente incorretas. Primeiramente investigaremos e, quando apropriado, ofereceremos uma substituição, correção, crédito ou reembolso viável, de acordo com a lei aplicável.
 
-Para um perfil instalado, ativado ou usado, a Raqoon poderá solicitar evidências técnicas e obter uma revisão de provisionamento de terceiros.
+4. Quando um reembolso normalmente não está disponível
 
-4. Circunstâncias não reembolsáveis permitidas por lei
+Na medida permitida por lei, um reembolso normalmente não está disponível após o perfil eSIM ter sido instalado, ativado, conectado a uma rede, carregado ou usado, ou após o desempenho digital ter começado com o reconhecimento descrito acima. Normalmente também não está disponível para franquia não utilizada após o vencimento do plano, mudança de planos de viagem, exigência de dispositivo desbloqueado que foi divulgada, instalação incorreta pelo cliente, uso não suportado ou perda de confidencialidade do código QR causada pelo cliente.
 
-Um reembolso poderá não estar disponível apenas quando permitido pela lei aplicável, incluindo circunstâncias de serviço digital após o início do desempenho legal.
+5. Como fazer uma solicitação
 
-5. Solicite canal, evidências e analise o resultado
+Envie a solicitação do e-mail usado para o pedido para help@raqoon.app com o número do seu pedido, uma descrição clara do problema, modelo e versão do dispositivo, destino, capturas de tela de instalação/ativação quando relevante e a hora em que o problema ocorreu. Não envie cópias do passaporte, dados completos do cartão de pagamento ou extratos bancários. Poderemos solicitar informações técnicas proporcionais necessárias para investigar o problema específico.
 
-Envie a solicitação por meio do canal de suporte publicado com detalhes do pedido e evidências relevantes. O resultado segue a revisão e a lei obrigatória.
+6. Revisão e pagamento
 
-6. Estornos e regras do provedor de pagamento
+Verificamos o status de entrega, instalação, ativação, uso e provisionamento de rede com o E7 Access quando necessário. Poderemos recusar uma solicitação fraudulenta, abusiva, duplicada ou fora do recurso legal aplicável. Se um reembolso for aprovado, ele será devolvido ao método de pagamento original sempre que for tecnicamente possível, dentro do prazo exigido pela lei aplicável e pelas regras do provedor de pagamento.
 
-Os estornos e quaisquer procedimentos do provedor de pagamento seguem as regras do provedor confirmado; nenhum provedor é identificado até ser verificado.
+7. Estornos
+
+Entre em contato conosco antes de abrir uma disputa de pagamento para que possamos investigar o problema. Isto não limita os seus direitos legais ou o seu direito de contactar o seu fornecedor de pagamento. Poderemos fornecer registros de pedidos e de atendimento técnico ao provedor de pagamento para responder a um estorno.

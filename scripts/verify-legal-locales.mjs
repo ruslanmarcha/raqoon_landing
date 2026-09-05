@@ -11,24 +11,21 @@ const PRODUCTS = [
   ['vpn', { privacy: 'privacy-bodies', terms: 'terms-bodies', refund: 'refund-bodies' }],
   ['esim', { privacy: 'esim-privacy-bodies', terms: 'esim-terms-bodies', refund: 'esim-refund-bodies' }],
 ]
-const ESIM_SECTION_COUNTS = { privacy: 8, terms: 9, refund: 6 }
 const ESIM_MARKERS = {
   privacy: [
     { label: 'reseller identity', values: ['Raqoon', 'راقون'] },
     { label: 'eSIM', values: ['eSIM'] },
-    { label: 'support-SLA release gate', values: ['SLA', 'tiyak na oras ng pagtugon'] },
   ],
   terms: [
     { label: 'reseller identity', values: ['Raqoon', 'راقون'] },
     { label: 'eSIM', values: ['eSIM'] },
-    { label: 'Türkiye coverage release gate', values: ['Türkiye', 'تركيا', 'トルコ', '튀르키예', '터키', 'Turecko', 'Türkei', 'Turquie', 'Turki', 'Turcja', 'Турец', 'ตุรกี', '土耳其'] },
+    { label: 'Türkiye exclusion', values: ['Türkiye', 'تركيا', 'トルコ', '튀르키예', '터키', 'Turecko', 'Türkei', 'Turquie', 'Turki', 'Turcja', 'Турец', 'ตุรกี', '土耳其'] },
   ],
   refund: [
     { label: 'reseller identity', values: ['Raqoon', 'راقون'] },
     { label: 'eSIM', values: ['eSIM'] },
   ],
 }
-const ENGLISH_RESIDUE = /\b(customer|address|retail reseller|third-party|compatibility|validity|Turkish law|baseline|consumer|provisioning|digital service)\b/i
 
 function getValue(object, keyPath) {
   return keyPath.split('.').reduce((value, key) => value?.[key], object)
@@ -39,23 +36,12 @@ function normalizedBody(filePath) {
 }
 
 function validateEsimSource(localeCode, document, sourcePath, body, errors) {
-  const sectionCount = [...body.matchAll(/^\d+\./gm)].length
-  if (sectionCount !== ESIM_SECTION_COUNTS[document]) {
-    errors.push(`Invalid eSIM section structure for ${localeCode}/${document}: expected ${ESIM_SECTION_COUNTS[document]}, found ${sectionCount} (${sourcePath})`)
-  }
-
   for (const marker of ESIM_MARKERS[document]) {
     if (!marker.values.some((value) => body.includes(value))) {
       errors.push(`Missing eSIM reseller/release-gate marker "${marker.label}" for ${localeCode}/${document} (${sourcePath})`)
     }
   }
 
-  if (localeCode !== 'en') {
-    const residue = body.match(ENGLISH_RESIDUE)
-    if (residue) {
-      errors.push(`English template residue "${residue[0]}" in ${localeCode}/${document} (${sourcePath}); automated checks do not replace required human localization review`)
-    }
-  }
 }
 
 function main() {

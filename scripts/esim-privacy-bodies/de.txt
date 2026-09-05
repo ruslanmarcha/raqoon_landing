@@ -1,35 +1,41 @@
-Raqoon Travel eSIM-Datenschutzrichtlinie
+Raqoon eSIM-Datenschutzrichtlinie
 
+Datum des Inkrafttretens: 5. September 2026
+Verantwortlicher: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Datenschutzkontakt: private@raqoon.app
 
+1. Umfang und Rolle von Raqoon
 
-1. Verantwortlicher und Geltungsbereich
+Diese Richtlinie gilt für Raqoon eSIM, einschließlich der Raqoon-Website, App, Bestellablauf, Lieferung, Guthabenanzeige, Aufladungen und Support. Raqoon verkauft Prepaid-Reise-eSIM-Datentarife und stellt eine Kundenschnittstelle für das Produkt bereit. Raqoon betreibt kein öffentliches Mobilfunknetz, vergibt keine Telefonnummern und bietet keine Sprach-, SMS- oder Notrufdienste an.
 
-Raqoon ist ein unabhängiger Wiederverkäufer dieses Travel eSIM-Produkts; Das Unternehmen muss vor der Veröffentlichung die Identität und Adresse des Verantwortlichen angeben.
+Das eSIM-Profil und die mobile Datenkonnektivität werden technisch von E7 Access und seinen Netzwerkpartnern bereitgestellt. Diese Parteien können Daten im Rahmen ihrer eigenen rechtlichen Verantwortlichkeiten verarbeiten, wobei sie die Zwecke und Mittel der Verarbeitung bestimmen.
 
-2. Raqoons Rolle als Wiederverkäufer im Einzelhandel
+2. Von uns verarbeitete Daten
 
-Raqoon ist ein unabhängiger Wiederverkäufer. Dritte stellen eSIM-Profile und Konnektivität bereit; Raqoon betreibt keine öffentlichen Mobilfunknetze, vergibt keine Telefonnummern und bietet keine Sprach- oder SMS-Dienste an.
+Wir können Ihre E-Mail-Adresse, Bestellnummer, ausgewähltes Produkt und Ziel, Preis, Währung, Zahlungsstatus und Zahlungsreferenzdaten verarbeiten. Wir verarbeiten möglicherweise auch die eSIM-Profilkennung, den Aktivierungs- und Ablaufstatus, das verfügbare Guthaben, den Aufladeverlauf, Gerätekompatibilitäts- und Installationsdiagnosen, Support-Korrespondenz, Betrugs- und Sicherheitssignale sowie technische Website-/App-Protokolle wie IP-Adresse, Browser, Gerätetyp und Zeitstempel.
 
-3. Datenkategorien
+Wir erhalten oder speichern keine vollständigen Zahlungskartennummern. Senden Sie keine Pässe, Ausweisdokumente, Kontoauszüge, Bilder von Zahlungskarten, Gesundheitsdaten oder andere sensible personenbezogene Daten an den Support, es sei denn, wir fordern ausdrücklich und rechtmäßig eine unbedingt notwendige Sendung an.
 
-Bestell-, Kontakt-, Geräte-, Profilstatus-, Kontostand- und Aufladeinformationen dürfen nur verarbeitet werden, soweit dies für den Dienst und geltendes Recht erforderlich ist.
+3. Warum wir es verarbeiten und unsere Rechtsgrundlage
 
-4. Verarbeitungszwecke und Rechtsgrundlagen
+Wir verarbeiten Daten, um die Bestellung zu erstellen und auszuliefern, das eSIM-Profil bereitzustellen, Ihren Produktstatus und Ihr Guthaben anzuzeigen, Aufladungen zu verarbeiten, Supportanfragen zu beantworten, Betrug und Missbrauch zu verhindern, unsere Systeme zu schützen, buchhalterische und rechtliche Verpflichtungen zu erfüllen und Rechtsansprüche geltend zu machen, auszuüben oder zu verteidigen. Grundlage hierfür ist je nach Tätigkeit die Erfüllung eines Vertrages, die Einhaltung einer gesetzlichen Verpflichtung, unsere berechtigten Interessen, sofern diese nicht Ihre Rechte überwiegen, oder Ihre ausdrückliche Einwilligung, sofern diese erforderlich ist.
 
-Verarbeitungszwecke und Rechtsgrundlagen müssen vom Unternehmen vor der Veröffentlichung bestätigt werden; zwingende Rechte bleiben unberührt.
+4. Empfänger und internationale Überweisungen
 
-5. Empfänger und internationale Überweisungen
+Wir geben nur die für den angegebenen Zweck erforderlichen Daten an E7 Access und seine relevanten Konnektivitätspartner, Zahlungsanbieter, Hosting- und Sicherheitsanbieter, Kundensupport-Tools, professionellen Berater und Behörden weiter, sofern dies gesetzlich vorgeschrieben ist. Die eSIM-Lieferkette ist international, sodass Empfänger Daten möglicherweise außerhalb der Türkei und Ihres Wohnsitzlandes verarbeiten. Wir nutzen die nach geltendem Recht erforderlichen Übertragungsmechanismen und Sicherheitsvorkehrungen, einschließlich der Sicherheitsvorkehrungen für Auslandsüberweisungen gemäß KVKK, sofern zutreffend.
 
-Dritte stellen eSIM-Profile und Konnektivität bereit. Übertragungsorte, Sicherheitsmaßnahmen, Empfänger und Auftragsverarbeiter/Verantwortliche bleiben ungeprüft und blockieren die Veröffentlichung.
+5. Aufbewahrung
 
-6. Aufbewahrung, Sicherheit und Benutzerrechte
+Wir bewahren Auftrags-, Zahlungs- und Steuerunterlagen für den gesetzlich vorgeschriebenen Zeitraum auf. Wir bewahren die eSIM-Liefer-, Aktivierungs-, Guthaben- und Supportaufzeichnungen so lange auf, wie es vernünftigerweise erforderlich ist, um das Produkt bereitzustellen, einen Streit beizulegen, Betrug zu verhindern oder gesetzlichen Verpflichtungen nachzukommen. Wir löschen oder anonymisieren Daten, wenn diese Zwecke nicht mehr bestehen, es sei denn, eine längere Frist ist gesetzlich vorgeschrieben.
 
-Aufbewahrungsfristen, Sicherheitsmaßnahmen und Rechteverfahren werden vor der Veröffentlichung mitgeteilt; zwingende Rechte bleiben unberührt.
+6. Sicherheit
 
-7. Support- und Kontaktinformationen
+Wir nutzen geeignete technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten, einschließlich Zugriffskontrollen, gegebenenfalls Verschlüsselung bei der Übertragung, Protokollierung, Least-Privilege-Zugriff und Anbieterkontrollen. Kein Internet-Übertragungs- oder Speichersystem ist absolut sicher. Bitte behandeln Sie Ihr E-Mail-Konto, Ihr Gerät und Ihren QR-Code vertraulich und kontaktieren Sie uns umgehend, wenn Sie glauben, dass diese kompromittiert wurden.
 
-Die App kann Bestellungen, Status, Guthaben, Aufladungen und Support anzeigen. Nutzen Sie den veröffentlichten Supportkanal; Hier wird kein Support-SLA versprochen.
+7. Ihre Rechte und Wünsche
 
-8. Änderungen dieser Richtlinie
+Vorbehaltlich des geltenden Rechts können Sie Informationen über die Verarbeitung, den Zugriff, die Berichtigung, Löschung, Einschränkung, den Widerspruch oder die Übertragbarkeit anfordern, sofern verfügbar, und Ihre Einwilligung für die zukünftige Verarbeitung widerrufen, wenn die Einwilligung die Grundlage bildet. Gemäß KVKK können Sie auch die in Artikel 11 genannten Rechte ausüben. Senden Sie eine Anfrage von der für die Bestellung verwendeten E-Mail an private@raqoon.app. Wir können um angemessene Informationen bitten, die zur Überprüfung der Anfrage und zum Schutz Ihrer Daten erforderlich sind.
 
-Änderungen werden veröffentlicht, bevor sie in Kraft treten, sofern dies gesetzlich vorgeschrieben ist. Diese Richtlinie kann erst veröffentlicht werden, wenn die aufgeführten Fakten bestätigt sind.
+8. Kinder, Dritte und Updates
+
+Raqoon eSIM ist nicht für Personen gedacht, die nach geltendem Recht keinen gültigen Kaufvertrag abschließen können. Für Websites Dritter, Zahlungsdienste und Netzwerkanbieter gelten eigene Datenschutzbestimmungen. Wir können diese Richtlinie aktualisieren, wenn sich das Produkt, der Anbieter oder das Gesetz ändert; Das Datum des Inkrafttretens wird aktualisiert und wesentliche Änderungen werden bei Bedarf mitgeteilt.

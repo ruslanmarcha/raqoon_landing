@@ -14,7 +14,7 @@ interface LegalPageProps {
 interface LegalContentPageProps {
   title: string
   body: string
-  seoPage: 'privacy' | 'terms' | 'contact' | 'refund' | 'esimPrivacy' | 'esimTerms' | 'esimRefund'
+  seoPage: 'privacy' | 'terms' | 'contact' | 'refund' | 'esimPrivacy' | 'esimTerms' | 'esimRefund' | 'esimDistanceSales' | 'kvkk' | 'sustainability'
 }
 
 function LegalContentPage({ title, body, seoPage }: LegalContentPageProps) {
@@ -49,6 +49,10 @@ function LegalContentPage({ title, body, seoPage }: LegalContentPageProps) {
 export function LegalPage({ product, document }: LegalPageProps) {
   const { t } = useTranslation()
   const definition = getLegalDocument(product, document)
+
+  if (!definition.translationPrefix) {
+    throw new Error(`Document ${product}/${document} has no legal page content`)
+  }
 
   return (
     <LegalContentPage

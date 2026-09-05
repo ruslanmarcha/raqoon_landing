@@ -1,39 +1,41 @@
-Warunki korzystania z karty eSIM firmy Raqoon Travel
+Warunki korzystania z karty Raqoon eSIM
 
+Data wejścia w życie: 5 września 2026 r
+Sprzedawca: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Wsparcie: help@raqoon.app
 
+1. Umowa i kwalifikowalność
 
-1. Sprzedawca, akceptacja i uprawnienia
+Niniejsze Warunki regulują korzystanie z karty Raqoon eSIM. Tworząc zamówienie, instalując profil eSIM lub korzystając z planu, akceptujesz niniejsze Warunki, Politykę prywatności Raqoon eSIM, Politykę zwrotów oraz, w przypadku zakupu, Umowę sprzedaży na odległość. Potwierdzasz, że jesteś w stanie zgodnie z prawem zawrzeć tę umowę i podajesz dokładne informacje o zamówieniu.
 
-Składając zamówienie, klient akceptuje niniejsze warunki i potwierdza uprawnienia. Przed publikacją należy podać tożsamość i adres sprzedającego.
+2. Co sprzedaje Raqoon
 
-2. Produkt przedpłacony Travel eSIM z pakietem danych
+Raqoon sprzedaje przedpłacone podróżne plany transmisji danych eSIM. Plan zapewnia mobilny dostęp do danych tylko w ramach określonego limitu, okresu ważności i miejsca docelowego. Nie obejmuje numeru telefonu, połączeń głosowych, SMS-ów ani usług alarmowych. Raqoon to sprzedawca detaliczny i interfejs zarządzania produktami; nie obsługuje sieci ani infrastruktury łączności elektronicznej i nie jest operatorem telefonii komórkowej.
 
-Produkt jest przedpłaconym planem danych Travel eSIM; nie obejmuje numerów telefonów, połączeń głosowych ani SMS-ów.
+3. Zasilanie techniczne
 
-3. Rola sprzedawcy Raqoon i zewnętrznych dostawców technicznych
+E7 Access i jej partnerzy sieciowi zapewniają technicznie profil eSIM i łączność. Zasięg, dozwolone sieci, prędkość, opóźnienie, lokalizacja IP, dostępność sieci i ciągłość usług zależą od tych stron trzecich i warunków lokalnych. Raqoon nie gwarantuje nieprzerwanej i wolnej od błędów łączności ani dostępności każdej aplikacji, sieci lub lokalizacji.
 
-Raqoon działa jako niezależny sprzedawca detaliczny. Strony trzecie zapewniają profil eSIM i łączność; Raqoon nie obsługuje sieci publicznych.
+4. Urządzenie, dostawa i aktywacja
 
-4. Zgodność urządzenia, kod QR, instalacja, aktywacja i ważność
+Przed zakupem musisz użyć odblokowanego urządzenia zgodnego z eSIM i sprawdzić kompatybilność. Po pomyślnej płatności profil lub szczegóły aktywacji zostaną dostarczone elektronicznie na adres e-mail zamówienia, konto lub aplikację. Chroń kod QR i szczegóły aktywacji: mogą być jednorazowe i po zainstalowaniu nie można ich ponownie wydać. Ważność planu, zasada aktywacji, dodatek i zasięg są wyświetlane przy wybranym produkcie. Plan może rozpocząć się w momencie instalacji, aktywacji lub pierwszego podłączenia, zgodnie ze szczegółami produktu.
 
-Klient musi sprawdzić kompatybilność urządzenia, zeskanować kod QR, poprawnie zainstalować i aktywować profil. Ważność jest pokazana przy zamówieniu lub profilu.
+5. Wykluczenie Turcji
 
-5. Zasięg, jakość, dozwolony użytek i zabronione zastosowania
+Raqoon eSIM nie jest oferowany do zakupu, aktywacji ani używania w Turcji i nie może być sprzedawany jako produkt dla Türkiye. Raqoon nie świadczy usług łączności elektronicznej na terenie Turcji, nie obsługuje tam sieci i nie przydziela lokalnych zasobów numeracyjnych. Jeśli Türkiye pojawia się w jakimkolwiek materiale dotyczącym zasięgu stron trzecich, nie oznacza to, że jest to miejsce docelowe Raqoon eSIM ani nie zmienia tego wykluczenia.
 
-Zasięg i jakość zależą od zewnętrznych dostawców i warunków lokalnych. Obowiązuje dozwolony użytek; użytkowanie niezgodne z prawem, nadużycie i zabronione jest niedozwolone.
+6. Użytkowanie właściwe i zabronione
 
-6. Wyłączenie Türkiye, uzależnione od zweryfikowanego zasięgu dostawcy
+Używaj produktu zgodnie z prawem i wyłącznie w celu osobistej łączności w podróży. Nie wolno odsprzedawać, przenosić, klonować ani udostępniać profilu eSIM; ominąć ograniczenia techniczne; korzystać z planu w przypadku oszustw, spamu, nielegalnych treści, ataków na systemy, nadmiernego zautomatyzowanego ruchu lub wszelkich zachowań naruszających obowiązujące prawo lub zasady sieci. Możemy zawiesić dostęp, jeśli jest to zasadnie konieczne ze względu na bezpieczeństwo, zgodność z prawem, zapobieganie oszustwom lub egzekwowanie niniejszych Warunków.
 
-Dostępność Türkiye nie jest podana, chyba że dostawca potwierdzi zasięg. Publikacja pozostaje zablokowana do czasu zweryfikowania tego stanowiska.
+7. Ceny, płatności i doładowania
 
-7. Zamówienia, cena, podatki, płatności i doładowania
+Cena, waluta, limit planu, ważność, miejsce docelowe oraz obowiązujące podatki lub opłaty są wyświetlane przed złożeniem zamówienia. Płatność jest przetwarzana przez dostawcę wskazanego w kasie. Doładowanie jest oddzielnym zakupem przedpłaconym i nie przedłuża planu, chyba że w szczegółach produktu określono inaczej. Możemy poprawić oczywiste błędy w cenach lub wyświetlaniu danych technicznych przed dostawą i zaoferujemy zwrot pieniędzy, jeśli nie będziemy mogli zrealizować poprawionego zamówienia.
 
-Ceny, podatki, metody płatności i szczegóły doładowania są wyświetlane w momencie składania zamówienia. Dostawca płatności musi zostać potwierdzony przed publikacją.
+8. Wsparcie, zmiany i odpowiedzialność
 
-8. Wsparcie, ograniczenia i obowiązkowe prawa konsumentów
+Wsparcie może pomóc w zakresie dostawy, informacji o instalacji, statusie, saldzie, doładowaniach i potwierdzonych problemach technicznych. W maksymalnym zakresie dozwolonym przez prawo Raqoon nie ponosi odpowiedzialności za straty pośrednie, utracone zyski, opłaty roamingowe od innego dostawcy, uszkodzenie urządzenia lub awarie spowodowane przez Twoje urządzenie, warunki sieci lokalnej lub osoby trzecie. Nic nie ogranicza praw ani odpowiedzialności, których nie można prawnie ograniczyć. Możemy prospektywnie aktualizować niniejsze Warunki; dalsze użytkowanie po dacie wejścia w życie oznacza akceptację, jeśli pozwala na to prawo.
 
-Wsparcie może pomóc w zakresie zamówień, statusu, salda, doładowań i informacji technicznych, z zastrzeżeniem ograniczeń. Obowiązkowe prawa konsumentów zostają zachowane.
+9. Obowiązujące prawo i kontakt
 
-9. Tureckie prawo właściwe, jurysdykcja i zmiany
-
-Prawo tureckie stanowi podstawę, nie ograniczając obowiązkowej ochrony konsumentów. Informacje dotyczące jurysdykcji i zmian wymagają potwierdzenia biznesowego przed publikacją.
+Niniejsze Warunki podlegają prawu Turcji, bez ograniczania obowiązkowych zabezpieczeń konsumenckich mających zastosowanie do Ciebie. Najpierw skontaktuj się z help@raqoon.app, abyśmy mogli spróbować rozwiązać problem. Żadne z postanowień niniejszych Warunków nie uniemożliwia konsumentowi skorzystania z obowiązkowych dróg rozpatrywania reklamacji lub rozstrzygania sporów dostępnych na mocy obowiązującego prawa.

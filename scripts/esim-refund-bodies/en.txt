@@ -1,27 +1,33 @@
-Raqoon Travel eSIM Refund Policy
+Raqoon eSIM Refund Policy
 
+Effective date: September 5, 2026
+Seller: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
+Requests: help@raqoon.app
 
+1. Scope and mandatory rights
 
-1. Scope and mandatory consumer rights
+This policy applies to Raqoon eSIM purchases and top-ups. It does not exclude rights that cannot be excluded under applicable consumer law. Where a mandatory rule gives you a broader remedy, that rule applies.
 
-This policy is subject to mandatory consumer rights and Turkish-law baseline protections.
+2. Digital delivery and express request to begin performance
 
-2. Unused and uninstalled profile cancellation
+An eSIM is a digital, prepaid product delivered electronically. Before checkout, we will ask you to acknowledge the immediate delivery of the activation details and, where required, expressly request that performance begin before any withdrawal period ends. We keep a record of that acknowledgement, the delivery time, profile status and usage information.
 
-A customer may request cancellation of an unused, uninstalled profile, subject to applicable law and the order terms.
+3. When a refund may be available
 
-3. Installed, activated, or used profile technical review
+Contact us promptly if the profile was not delivered, cannot be installed or activated because of a confirmed technical fault, the delivered plan materially differs from the order, or the device was incompatible despite our product information being materially incorrect. We will first investigate and, where appropriate, offer a workable replacement, correction, credit or refund in accordance with applicable law.
 
-For an installed, activated or used profile, Raqoon may request technical evidence and obtain a third-party provisioning review.
+4. When a refund is normally unavailable
 
-4. Non-refundable circumstances permitted by law
+To the extent permitted by law, a refund is normally unavailable after the eSIM profile has been installed, activated, connected to a network, topped up or used, or after digital performance has begun with the acknowledgement described above. It is also normally unavailable for unused allowance after plan expiry, a change of travel plans, an unlocked-device requirement that was disclosed, an incorrect installation by the customer, unsupported use, or loss of QR-code confidentiality caused by the customer.
 
-A refund may be unavailable only where permitted by applicable law, including digital-service circumstances after lawful performance begins.
+5. How to make a request
 
-5. Request channel, evidence, and review outcome
+Send the request from the email used for the order to help@raqoon.app with your order number, a clear description of the issue, device model and version, destination, installation/activation screenshots where relevant, and the time the issue occurred. Do not send passport copies, full payment-card data or bank statements. We may request proportionate technical information required to investigate the specific problem.
 
-Submit the request through the published support channel with order details and relevant evidence. The outcome follows the review and mandatory law.
+6. Review and payment
 
-6. Chargebacks and payment-provider rules
+We verify delivery, installation, activation, usage and network-provisioning status with E7 Access where necessary. We may decline a request that is fraudulent, abusive, duplicated or outside the applicable legal remedy. If a refund is approved, it is returned to the original payment method where technically possible, within the period required by applicable law and payment-provider rules.
 
-Chargebacks and any payment-provider procedures follow the confirmed provider’s rules; no provider is identified until verified.
+7. Chargebacks
+
+Please contact us before opening a payment dispute so we can investigate the issue. This does not limit your statutory rights or your right to contact your payment provider. We may provide order and technical fulfilment records to the payment provider to respond to a chargeback.

@@ -455,7 +455,7 @@
   },
   "documents": {
     "title": "法律文件",
-    "intro": "请选择产品以阅读其法律文件。",
+    "intro": "查找每个 Raqoon 产品和服务的法律信息。",
     "products": {
       "vpn": {
         "title": "Raqoon VPN"
@@ -464,7 +464,7 @@
         "title": "Raqoon eSIM"
       },
       "corporate": {
-        "title": "公司的"
+        "title": "公司信息"
       }
     },
     "documents": {

@@ -455,7 +455,7 @@
   },
   "documents": {
     "title": "Právní dokumenty",
-    "intro": "Vyberte produkt pro jeho právní dokumenty.",
+    "intro": "Najděte právní informace pro každý produkt a službu Raqoon.",
     "products": {
       "vpn": {
         "title": "Raqoon VPN"
@@ -464,7 +464,7 @@
         "title": "Raqoon eSIM"
       },
       "corporate": {
-        "title": "korporátní"
+        "title": "Informace o společnosti"
       }
     },
     "documents": {

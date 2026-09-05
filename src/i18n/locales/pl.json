@@ -455,7 +455,7 @@
   },
   "documents": {
     "title": "Dokumenty prawne",
-    "intro": "Wybierz produkt, aby przeczytać jego dokumenty prawne.",
+    "intro": "Znajdź informacje prawne dotyczące każdego produktu i usługi Raqoon.",
     "products": {
       "vpn": {
         "title": "Raqoon VPN"
@@ -464,7 +464,7 @@
         "title": "Raqoon eSIM"
       },
       "corporate": {
-        "title": "Zbiorowy"
+        "title": "Informacje o firmie"
       }
     },
     "documents": {

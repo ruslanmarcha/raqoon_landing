@@ -32,17 +32,11 @@ export function Footer() {
           <Link to="/referral" className={styles.link}>
             {t('footer.referral', { defaultValue: t('referral.cta') })}
           </Link>
-          <Link to="/about" className={styles.link}>
-            {t('footer.about')}
-          </Link>
           <Link to={ruAppStoreCtaPath(i18n.language)} className={styles.link}>
             {t('footer.download')}
           </Link>
           <Link to="/documents" className={styles.link}>
             {t('footer.documents')}
-          </Link>
-          <Link to="/contact" className={styles.link}>
-            {t('footer.contact')}
           </Link>
         </nav>
         <p className={styles.copy}>{t('footer.copy')}</p>

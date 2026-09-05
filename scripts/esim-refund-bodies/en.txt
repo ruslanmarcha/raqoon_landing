@@ -4,30 +4,30 @@ Effective date: September 5, 2026
 Seller: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
 Requests: help@raqoon.app
 
-1. Scope and mandatory rights
+1. Final-sale digital product
 
-This policy applies to Raqoon eSIM purchases and top-ups. It does not exclude rights that cannot be excluded under applicable consumer law. Where a mandatory rule gives you a broader remedy, that rule applies.
+Raqoon eSIM plans and top-ups are prepaid digital telecommunications products. Subject only to non-waivable rights under applicable law, every order is final once the activation details have been delivered. We do not offer voluntary cancellations, exchanges, account credits, transfers or refunds after that point.
 
-2. Digital delivery and express request to begin performance
+2. Immediate performance and evidence of delivery
 
-An eSIM is a digital, prepaid product delivered electronically. Before checkout, we will ask you to acknowledge the immediate delivery of the activation details and, where required, expressly request that performance begin before any withdrawal period ends. We keep a record of that acknowledgement, the delivery time, profile status and usage information.
+At checkout, you are asked to request immediate electronic delivery and the start of digital performance before any withdrawal period expires, where such acknowledgement is required. Raqoon records the acknowledgement, delivery time, QR/profile status, installation, activation, top-up, network connection and usage information. This record may be used to establish that digital performance has begun.
 
-3. When a refund may be available
+3. Events that end voluntary eligibility
 
-Contact us promptly if the profile was not delivered, cannot be installed or activated because of a confirmed technical fault, the delivered plan materially differs from the order, or the device was incompatible despite our product information being materially incorrect. We will first investigate and, where appropriate, offer a workable replacement, correction, credit or refund in accordance with applicable law.
+To the fullest extent permitted by law, no refund, cancellation, replacement or credit is available after any of the following: delivery of the QR code or activation details; installation of the profile; activation; first network registration or connection; a top-up; any data, call or SMS usage; profile disclosure, copying, transfer or loss of QR-code confidentiality; or expiry of the plan. An unused, partly used or unwanted allowance is not refundable.
 
-4. When a refund is normally unavailable
+4. Matters that are not refund grounds
 
-To the extent permitted by law, a refund is normally unavailable after the eSIM profile has been installed, activated, connected to a network, topped up or used, or after digital performance has begun with the acknowledgement described above. It is also normally unavailable for unused allowance after plan expiry, a change of travel plans, an unlocked-device requirement that was disclosed, an incorrect installation by the customer, unsupported use, or loss of QR-code confidentiality caused by the customer.
+The following are not refund grounds: a changed itinerary; a duplicate, accidental or incorrect destination, plan or top-up purchase; failure to check device compatibility, carrier lock, eSIM capability or installation instructions; customer installation error; unsupported or altered device software; coverage, speed, latency or service availability that varies by location or partner network; a failure caused by the device, local network, settings, roaming controls, insufficient balance or third-party service; or a plan that has expired. This list does not exclude a mandatory remedy for a fault attributable to the supplied digital product.
 
-5. How to make a request
+5. Limited statutory-remedy review
 
-Send the request from the email used for the order to help@raqoon.app with your order number, a clear description of the issue, device model and version, destination, installation/activation screenshots where relevant, and the time the issue occurred. Do not send passport copies, full payment-card data or bank statements. We may request proportionate technical information required to investigate the specific problem.
+Raqoon will assess a remedy only if required by applicable law, or if (a) activation details were not delivered, (b) a documented fault attributable to the supplied profile prevents use, and (c) Raqoon and E7 Access cannot correct or replace the profile within a reasonable time. Where lawful and appropriate, correction or replacement is the primary remedy; a refund is not automatic. We may reject a request that is fraudulent, abusive, duplicated, inconsistent with fulfilment records or outside a mandatory legal remedy.
 
-6. Review and payment
+6. Strict request process
 
-We verify delivery, installation, activation, usage and network-provisioning status with E7 Access where necessary. We may decline a request that is fraudulent, abusive, duplicated or outside the applicable legal remedy. If a refund is approved, it is returned to the original payment method where technically possible, within the period required by applicable law and payment-provider rules.
+Report a technical issue within 48 hours of discovery and before the plan expires, using the order email and help@raqoon.app. State the order number, device make/model and operating-system version, destination, precise error, time zone and time of the issue, and provide relevant screenshots of the eSIM settings and error. Do not send passport copies, full card data or bank statements. We may require reasonable, relevant technical information before a technical claim can be verified. A late or incomplete report may prevent us from confirming the facts, but does not limit any non-waivable statutory right.
 
-7. Chargebacks
+7. Payment, disputes and fraud controls
 
-Please contact us before opening a payment dispute so we can investigate the issue. This does not limit your statutory rights or your right to contact your payment provider. We may provide order and technical fulfilment records to the payment provider to respond to a chargeback.
+If a refund is legally due and approved, it is returned only to the original payment method where technically possible and within the period required by applicable law and payment-provider rules. No cash or third-party payment is made unless mandatory law requires it. Contact us before opening a payment dispute so we can investigate; this does not limit your right to contact your payment provider. Raqoon may provide order, acknowledgement and technical fulfilment records to the provider in response to a chargeback.

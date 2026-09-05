@@ -4,30 +4,30 @@ Date d'entrée en vigueur : 5 septembre 2026
 Vendeur: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
 Demandes : help@raqoon.app
 
-1. Portée et droits obligatoires
+1. Produit numérique de vente finale
 
-Cette politique s'applique aux achats et recharges Raqoon eSIM. Il n'exclut pas les droits qui ne peuvent être exclus en vertu du droit de la consommation applicable. Lorsqu’une règle impérative vous offre un recours plus large, cette règle s’applique.
+Les forfaits et recharges Raqoon eSIM sont des produits de télécommunications numériques prépayés. Sous réserve uniquement des droits inaliénables en vertu de la loi applicable, chaque commande est définitive une fois les détails d'activation fournis. Nous ne proposons pas d'annulations volontaires, d'échanges, de crédits de compte, de transferts ou de remboursements après ce point.
 
-2. Livraison numérique et demande expresse de début d’exécution
+2. Exécution immédiate et preuve de livraison
 
-Une eSIM est un produit numérique prépayé livré par voie électronique. Avant le paiement, nous vous demanderons d'accuser réception immédiate des détails d'activation et, le cas échéant, de demander expressément que l'exécution commence avant la fin du délai de rétractation. Nous conservons une trace de cet accusé de réception, du délai de livraison, du statut du profil et des informations d'utilisation.
+Lors du paiement, il vous est demandé de demander une livraison électronique immédiate et le début de l'exécution numérique avant l'expiration de tout délai de rétractation, lorsqu'un tel accusé de réception est requis. Raqoon enregistre l'accusé de réception, le délai de livraison, l'état du QR/profil, l'installation, l'activation, la recharge, la connexion réseau et les informations d'utilisation. Cet enregistrement peut être utilisé pour établir que la performance numérique a commencé.
 
-3. Quand un remboursement peut être disponible
+3. Événements mettant fin à l’éligibilité volontaire
 
-Contactez-nous rapidement si le profil n'a pas été livré, ne peut pas être installé ou activé en raison d'un défaut technique confirmé, si le plan livré diffère sensiblement de la commande ou si l'appareil était incompatible malgré que nos informations sur le produit soient matériellement incorrectes. Nous enquêterons d’abord et, le cas échéant, proposerons un remplacement, une correction, un crédit ou un remboursement réalisable conformément à la loi applicable.
+Dans toute la mesure permise par la loi, aucun remboursement, annulation, remplacement ou crédit n'est disponible après l'un des événements suivants : livraison du code QR ou des détails d'activation ; installation du profil; activation ; premier enregistrement ou connexion au réseau ; une recharge ; toute utilisation de données, d'appels ou de SMS ; divulgation du profil, copie, transfert ou perte de la confidentialité du code QR ; ou l'expiration du plan. Une allocation non utilisée, partiellement utilisée ou non désirée n'est pas remboursable.
 
-4. Lorsqu'un remboursement n'est normalement pas disponible
+4. Questions qui ne constituent pas un motif de remboursement
 
-Dans la mesure permise par la loi, un remboursement n'est normalement pas disponible après que le profil eSIM a été installé, activé, connecté à un réseau, rechargé ou utilisé, ou après que l'exécution numérique a commencé avec la reconnaissance décrite ci-dessus. Il est également normalement indisponible en cas de quota non utilisé après l'expiration du forfait, d'un changement de projet de voyage, d'une exigence d'appareil déverrouillé qui a été divulguée, d'une installation incorrecte par le client, d'une utilisation non prise en charge ou d'une perte de confidentialité du code QR causée par le client.
+Les éléments suivants ne constituent pas des motifs de remboursement : un itinéraire modifié ; un achat de destination, de forfait ou de recharge en double, accidentel ou incorrect ; défaut de vérification de la compatibilité de l'appareil, du verrouillage de l'opérateur, de la capacité eSIM ou des instructions d'installation ; erreur d'installation du client ; logiciel de périphérique non pris en charge ou modifié ; la couverture, la vitesse, la latence ou la disponibilité du service qui varient selon l'emplacement ou le réseau partenaire ; une panne causée par l'appareil, le réseau local, les paramètres, les contrôles d'itinérance, un solde insuffisant ou un service tiers ; ou un plan qui a expiré. Cette liste n'exclut pas un recours obligatoire en cas de défaut imputable au produit numérique fourni.
 
-5. Comment faire une demande
+5. Examen limité des recours légaux
 
-Envoyez la demande à partir de l'e-mail utilisé pour la commande à help@raqoon.app avec votre numéro de commande, une description claire du problème, le modèle et la version de l'appareil, la destination, les captures d'écran d'installation/activation le cas échéant et l'heure à laquelle le problème s'est produit. N'envoyez pas de copies de passeport, de données complètes de carte de paiement ou de relevés bancaires. Nous pouvons demander des informations techniques proportionnées nécessaires pour enquêter sur le problème spécifique.
+Raqoon évaluera un remède uniquement si la loi applicable l'exige, ou si (a) les détails d'activation n'ont pas été fournis, (b) un défaut documenté attribuable au profil fourni empêche l'utilisation, et (c) Raqoon et E7 Access ne peuvent pas corriger ou remplacer le profil dans un délai raisonnable. Lorsque cela est licite et approprié, la correction ou le remplacement constitue le principal recours ; un remboursement n'est pas automatique. Nous pouvons rejeter une demande qui est frauduleuse, abusive, dupliquée, incompatible avec les dossiers de traitement ou en dehors d'un recours juridique obligatoire.
 
-6. Révision et paiement
+6. Processus de demande strict
 
-Nous vérifions l'état de livraison, d'installation, d'activation, d'utilisation et d'approvisionnement du réseau avec E7 Access si nécessaire. Nous pouvons refuser une demande qui est frauduleuse, abusive, dupliquée ou en dehors du recours légal applicable. Si un remboursement est approuvé, il est renvoyé vers le mode de paiement d'origine lorsque cela est techniquement possible, dans le délai requis par la loi applicable et les règles du fournisseur de paiement.
+Signalez un problème technique dans les 48 heures suivant sa découverte et avant l'expiration du forfait, en utilisant l'e-mail de commande et help@raqoon.app. Indiquez le numéro de commande, la marque/le modèle de l'appareil et la version du système d'exploitation, la destination, l'erreur précise, le fuseau horaire et l'heure du problème, et fournissez des captures d'écran pertinentes des paramètres et de l'erreur de l'eSIM. N'envoyez pas de copies de passeport, de données complètes de carte ou de relevés bancaires. Nous pouvons exiger des informations techniques raisonnables et pertinentes avant qu’une réclamation technique puisse être vérifiée. Un rapport tardif ou incomplet peut nous empêcher de confirmer les faits, mais ne limite aucun droit légal auquel on ne peut pas renoncer.
 
-7. Rétrofacturations
+7. Paiement, litiges et contrôles de fraude
 
-Veuillez nous contacter avant d'ouvrir un litige de paiement afin que nous puissions enquêter sur le problème. Cela ne limite pas vos droits statutaires ou votre droit de contacter votre fournisseur de paiement. Nous pouvons fournir des enregistrements de commande et d'exécution technique au fournisseur de paiement pour répondre à une rétrofacturation.
+Si un remboursement est légalement dû et approuvé, il est renvoyé uniquement via le mode de paiement d'origine lorsque cela est techniquement possible et dans le délai requis par la loi applicable et les règles du fournisseur de paiement. Aucun paiement en espèces ou par un tiers n'est effectué sauf si une loi impérative l'exige. Contactez-nous avant d'ouvrir un litige de paiement afin que nous puissions enquêter ; cela ne limite pas votre droit de contacter votre fournisseur de paiement. Raqoon peut fournir des enregistrements de commande, d'accusé de réception et d'exécution technique au fournisseur en réponse à une rétrofacturation.

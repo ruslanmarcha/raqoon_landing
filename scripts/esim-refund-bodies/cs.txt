@@ -4,30 +4,30 @@ Datum účinnosti: 5. září 2026
 Prodejce: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
 Požadavky: help@raqoon.app
 
-1. Rozsah a závazná práva
+1. Doprodej digitálního produktu
 
-Tyto zásady se vztahují na nákupy a dobíjení eSIM Raqoon. Nevylučuje práva, která nelze vyloučit podle platného spotřebitelského práva. Pokud vám závazné pravidlo poskytuje širší nápravu, platí toto pravidlo.
+Raqoon eSIM plány a dobíjení jsou předplacené digitální telekomunikační produkty. S výhradou práv, kterých se nelze vzdát podle platných zákonů, je každá objednávka konečná, jakmile budou doručeny podrobnosti o aktivaci. Po tomto okamžiku již nenabízíme dobrovolná zrušení, výměny, kredity na účet, převody ani refundace.
 
-2. Digitální doručení a výslovná žádost o zahájení plnění
+2. Okamžité plnění a doklad o dodání
 
-eSIM je digitální, předplacený produkt dodávaný elektronicky. Před pokladnou vás požádáme o potvrzení okamžitého doručení aktivačních údajů a v případě potřeby výslovně požádáme, aby plnění začalo před uplynutím lhůty pro odstoupení od smlouvy. Vedeme záznamy o tomto potvrzení, době dodání, stavu profilu a informacích o použití.
+Při pokladně jste požádáni o okamžité elektronické doručení a zahájení digitálního plnění před uplynutím lhůty pro odstoupení od smlouvy, kde je takové potvrzení vyžadováno. Raqoon zaznamenává potvrzení, dodací lhůtu, stav QR/profilu, instalaci, aktivaci, dobití, síťové připojení a informace o použití. Tento záznam lze použít ke stanovení, že digitální představení začalo.
 
-3. Kdy může být k dispozici vrácení peněz
+3. Události, které ukončují dobrovolnou způsobilost
 
-Neprodleně nás kontaktujte, pokud profil nebyl dodán, nelze jej nainstalovat nebo aktivovat z důvodu potvrzené technické závady, dodaný plán se podstatně liší od objednávky nebo zařízení bylo nekompatibilní, přestože naše produktové informace byly věcně nesprávné. Nejprve prošetříme a případně nabídneme proveditelnou náhradu, opravu, kredit nebo vrácení peněz v souladu s platnými zákony.
+V maximálním rozsahu povoleném zákonem není k dispozici žádná náhrada, zrušení, výměna nebo kredit po: doručení QR kódu nebo aktivačních údajů; instalace profilu; aktivace; první síťová registrace nebo připojení; doplnění; jakékoli využití dat, hovorů nebo SMS; zpřístupnění profilu, kopírování, přenos nebo ztráta důvěrnosti QR kódu; nebo vypršení plánu. Nevyužitý, částečně použitý nebo nechtěný příspěvek se nevrací.
 
-4. Když je náhrada obvykle nedostupná
+4. Záležitosti, které nejsou důvodem pro vrácení peněz
 
-V rozsahu povoleném zákonem je náhrada obvykle nedostupná po instalaci, aktivaci, připojení k síti, dobití nebo použití profilu eSIM nebo po zahájení digitálního výkonu s výše popsaným potvrzením. Obvykle je také nedostupná pro nevyužité povolenky po vypršení plánu, změnu cestovních plánů, požadavek na odemčené zařízení, který byl zveřejněn, nesprávnou instalaci zákazníkem, nepodporované použití nebo ztrátu důvěrnosti QR kódu způsobenou zákazníkem.
+Následující nejsou důvody pro vrácení peněz: změněný itinerář; duplicitní, náhodný nebo nesprávný cíl, plán nebo doplňkový nákup; selhání při kontrole kompatibility zařízení, zámku operátora, schopnosti eSIM nebo pokynů k instalaci; chyba instalace zákazníka; nepodporovaný nebo pozměněný software zařízení; pokrytí, rychlost, latence nebo dostupnost služeb, které se liší podle lokality nebo partnerské sítě; selhání způsobené zařízením, místní sítí, nastavením, ovládáním roamingu, nedostatečným zůstatkem nebo službou třetí strany; nebo plán, který vypršel. Tento seznam nevylučuje povinné odstranění závady způsobené dodaným digitálním produktem.
 
-5. Jak podat žádost
+5. Omezený zákonný přezkum
 
-Odešlete požadavek z e-mailu použitého pro objednávku na adresu help@raqoon.app s číslem objednávky, jasným popisem problému, modelem a verzí zařízení, místem určení, případně snímky obrazovky instalace/aktivace a časem, kdy k problému došlo. Neposílejte kopie pasu, úplné údaje o platební kartě ani výpisy z bankovního účtu. Můžeme požadovat přiměřené technické informace potřebné k prošetření konkrétního problému.
+Společnost Raqoon posoudí nápravu pouze v případě, že to vyžadují platné zákony, nebo pokud (a) nebyly doručeny podrobnosti o aktivaci, (b) zdokumentovaná chyba související s dodaným profilem brání použití a (c) Raqoon a E7 Access nemohou opravit nebo nahradit profil v přiměřené době. Tam, kde je to zákonné a vhodné, je oprava nebo nahrazení primárním opravným prostředkem; vrácení peněz není automatické. Můžeme odmítnout žádost, která je podvodná, urážlivá, duplicitní, neslučitelná se záznamy o plnění nebo mimo povinný právní opravný prostředek.
 
-6. Kontrola a platba
+6. Přísný proces žádosti
 
-V případě potřeby ověřujeme doručení, instalaci, aktivaci, používání a stav zřizování sítě pomocí E7 Access. Můžeme odmítnout žádost, která je podvodná, urážlivá, duplicitní nebo mimo platný právní prostředek. Pokud je refundace schválena, je vrácena původní platební metodou, pokud je to technicky možné, ve lhůtě požadované platnými zákony a pravidly poskytovatele plateb.
+Nahlaste technický problém do 48 hodin od zjištění a před vypršením plánu pomocí e-mailu pro objednávku a help@raqoon.app. Uveďte číslo objednávky, značku/model zařízení a verzi operačního systému, cíl, přesnou chybu, časové pásmo a čas vydání a poskytněte relevantní snímky obrazovky nastavení a chyby eSIM. Neposílejte kopie pasu, úplné údaje o kartě nebo výpisy z účtu. Před ověřením technického nároku můžeme vyžadovat přiměřené, relevantní technické informace. Pozdní nebo neúplná zpráva nám může bránit v potvrzení faktů, ale neomezuje žádné zákonné právo, kterého se nelze vzdát.
 
-7. Zpětná zúčtování
+7. Kontrola plateb, sporů a podvodů
 
-Před zahájením sporu o platbu nás prosím kontaktujte, abychom mohli problém prošetřit. Tím nejsou omezena vaše zákonná práva ani vaše právo kontaktovat svého poskytovatele plateb. Poskytovateli plateb můžeme poskytnout záznamy o objednávkách a technickém plnění, abychom mohli reagovat na zúčtování.
+Pokud je refundace ze zákona splatná a schválená, je vrácena pouze původní platební metodou, pokud je to technicky možné a ve lhůtě požadované platnými zákony a pravidly poskytovatele plateb. Pokud to nevyžaduje zákon, neprovádí se žádné platby v hotovosti ani třetí stranou. Kontaktujte nás před zahájením sporu o platbu, abychom to mohli prošetřit; tím není omezeno vaše právo kontaktovat svého poskytovatele plateb. Společnost Raqoon může poskytovateli v reakci na zpětné zúčtování poskytnout objednávku, potvrzení a záznamy o technickém plnění.

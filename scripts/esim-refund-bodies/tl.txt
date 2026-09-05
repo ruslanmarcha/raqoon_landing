@@ -4,30 +4,30 @@ Petsa ng bisa: Setyembre 5, 2026
 Nagbebenta: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ankara, Türkiye
 Mga Kahilingan: help@raqoon.app
 
-1. Saklaw at ipinag-uutos na mga karapatan
+1. Pangwakas na pagbebenta ng digital na produkto
 
-Nalalapat ang patakarang ito sa mga pagbili at pag-top-up ng Raqoon eSIM. Hindi nito ibinubukod ang mga karapatan na hindi maaaring ibukod sa ilalim ng naaangkop na batas ng consumer. Kung saan ang isang mandatoryong panuntunan ay nagbibigay sa iyo ng mas malawak na remedyo, nalalapat ang panuntunang iyon.
+Ang mga plano at top-up ng Raqoon eSIM ay mga prepaid na digital telecommunications na produkto. Napapailalim lamang sa mga hindi maipapawalang-bisa na mga karapatan sa ilalim ng naaangkop na batas, ang bawat order ay pinal kapag naihatid na ang mga detalye ng pag-activate. Hindi kami nag-aalok ng boluntaryong pagkansela, pagpapalitan, mga kredito sa account, paglilipat o pagbabalik ng bayad pagkatapos ng puntong iyon.
 
-2. Digital delivery at express request para simulan ang performance
+2. Agarang pagganap at katibayan ng paghahatid
 
-Ang eSIM ay isang digital, prepaid na produkto na inihahatid sa elektronikong paraan. Bago mag-checkout, hihilingin namin sa iyo na kilalanin ang agarang paghahatid ng mga detalye ng pag-activate at, kung kinakailangan, hayagang hilingin na magsimula ang pagganap bago matapos ang anumang panahon ng pag-withdraw. Nag-iingat kami ng talaan ng pagkilalang iyon, ang oras ng paghahatid, katayuan ng profile at impormasyon sa paggamit.
+Sa pag-checkout, hihilingin sa iyong humiling ng agarang elektronikong paghahatid at pagsisimula ng digital na pagganap bago mag-expire ang anumang panahon ng pag-withdraw, kung saan kinakailangan ang naturang pagkilala. Itinatala ng Raqoon ang pagkilala, oras ng paghahatid, status ng QR/profile, pag-install, pag-activate, top-up, koneksyon sa network at impormasyon sa paggamit. Maaaring gamitin ang rekord na ito upang itatag na nagsimula na ang digital performance.
 
-3. Kapag maaaring magkaroon ng refund
+3. Mga kaganapang nagtatapos sa boluntaryong pagiging karapat-dapat
 
-Makipag-ugnayan sa amin kaagad kung ang profile ay hindi naihatid, hindi ma-install o ma-activate dahil sa isang kumpirmadong teknikal na pagkakamali, ang inihatid na plano ay naiiba sa order, o ang device ay hindi tugma sa kabila ng aming impormasyon ng produkto na hindi tama. Sisiyasatin muna namin at, kung naaangkop, mag-aalok ng isang mabisang kapalit, pagwawasto, kredito o refund alinsunod sa naaangkop na batas.
+Sa sukdulang pinahihintulutan ng batas, walang refund, pagkansela, pagpapalit, o credit na makukuha pagkatapos ng alinman sa mga sumusunod: paghahatid ng QR code o mga detalye ng activation; pag-install ng profile; pag-activate; unang pagpaparehistro o koneksyon sa network; isang top-up; anumang data, tawag o paggamit ng SMS; pagbubunyag ng profile, pagkopya, paglilipat o pagkawala ng pagiging kumpidensyal ng QR-code; o pag-expire ng plano. Ang hindi nagamit, bahagyang nagamit o hindi gustong allowance ay hindi maibabalik.
 
-4. Kapag ang isang refund ay karaniwang hindi magagamit
+4. Mga bagay na hindi batayan ng refund
 
-Sa lawak na pinahihintulutan ng batas, karaniwang hindi available ang refund pagkatapos ma-install, ma-activate, konektado sa network, mag-top up o magamit ang eSIM profile, o pagkatapos magsimula ang digital performance gamit ang pagkilalang inilarawan sa itaas. Karaniwan din itong hindi available para sa hindi nagamit na allowance pagkatapos mag-expire ang plan, pagbabago ng mga plano sa paglalakbay, isang naka-unlock na kinakailangan sa device na isiniwalat, isang maling pag-install ng customer, hindi sinusuportahang paggamit, o pagkawala ng pagiging kumpidensyal ng QR-code na dulot ng customer.
+Ang mga sumusunod ay hindi batayan ng refund: isang binagong itinerary; isang duplicate, hindi sinasadya o hindi tamang destinasyon, plano o top-up na pagbili; kabiguang suriin ang pagiging tugma ng device, lock ng carrier, kakayahan ng eSIM o mga tagubilin sa pag-install; error sa pag-install ng customer; hindi suportado o binagong software ng device; saklaw, bilis, latency o availability ng serbisyo na nag-iiba ayon sa lokasyon o network ng kasosyo; isang pagkabigo na dulot ng device, lokal na network, mga setting, mga kontrol sa roaming, hindi sapat na balanse o serbisyo ng third-party; o isang plano na nag-expire na. Hindi ibinubukod ng listahang ito ang isang mandatoryong remedyo para sa isang pagkakamali na nauugnay sa ibinigay na digital na produkto.
 
-5. Paano gumawa ng kahilingan
+5. Limitadong repaso ayon sa batas-remedyo
 
-Ipadala ang kahilingan mula sa email na ginamit para sa order sa help@raqoon.app kasama ang iyong numero ng order, isang malinaw na paglalarawan ng isyu, modelo ng device at bersyon, patutunguhan, mga screenshot sa pag-install/pag-activate kung saan nauugnay, at ang oras na nangyari ang isyu. Huwag magpadala ng mga kopya ng pasaporte, buong data ng payment-card o mga bank statement. Maaari kaming humiling ng proporsyonal na teknikal na impormasyon na kinakailangan upang siyasatin ang partikular na problema.
+Susuriin lamang ng Raqoon ang isang remedyo kung kinakailangan ng naaangkop na batas, o kung (a) hindi naihatid ang mga detalye ng pag-activate, (b) ang isang dokumentadong pagkakamali na nauugnay sa ibinigay na profile ay pumipigil sa paggamit, at (c) Ang Raqoon at E7 Access ay hindi maaaring itama o palitan ang profile sa loob ng makatwirang oras. Kung saan ayon sa batas at naaangkop, ang pagwawasto o pagpapalit ay ang pangunahing remedyo; hindi awtomatiko ang refund. Maaari naming tanggihan ang isang kahilingan na mapanlinlang, mapang-abuso, nadoble, hindi naaayon sa mga talaan ng katuparan o sa labas ng isang mandatoryong legal na remedyo.
 
-6. Pagsusuri at pagbabayad
+6. Mahigpit na proseso ng paghiling
 
-Bine-verify namin ang katayuan ng paghahatid, pag-install, pag-activate, paggamit at pagbibigay ng network gamit ang E7 Access kung kinakailangan. Maaari naming tanggihan ang isang kahilingan na mapanlinlang, mapang-abuso, nadoble o sa labas ng naaangkop na legal na remedyo. Kung maaaprubahan ang isang refund, ibabalik ito sa orihinal na paraan ng pagbabayad kung saan posible, sa loob ng panahon na kinakailangan ng naaangkop na batas at mga panuntunan sa provider ng pagbabayad.
+Mag-ulat ng teknikal na isyu sa loob ng 48 oras ng pagtuklas at bago mag-expire ang plano, gamit ang email ng order at help@raqoon.app. Sabihin ang numero ng order, gumawa/modelo ng device at bersyon ng operating-system, patutunguhan, tumpak na error, time zone at oras ng isyu, at magbigay ng mga kaugnay na screenshot ng mga setting at error ng eSIM. Huwag magpadala ng mga kopya ng pasaporte, buong data ng card o mga bank statement. Maaaring kailanganin namin ang makatwiran, may-katuturang teknikal na impormasyon bago ma-verify ang isang teknikal na paghahabol. Ang isang huli o hindi kumpletong ulat ay maaaring pumigil sa amin mula sa pagkumpirma ng mga katotohanan, ngunit hindi nililimitahan ang anumang hindi mapapawalang-bisa ayon sa batas.
 
-7. Mga chargeback
+7. Pagbabayad, mga hindi pagkakaunawaan at mga kontrol sa pandaraya
 
-Mangyaring makipag-ugnayan sa amin bago magbukas ng hindi pagkakaunawaan sa pagbabayad para maimbestigahan namin ang isyu. Hindi nito nililimitahan ang iyong mga karapatan ayon sa batas o ang iyong karapatang makipag-ugnayan sa iyong provider ng pagbabayad. Maaari kaming magbigay ng mga talaan ng order at teknikal na pagtupad sa provider ng pagbabayad upang tumugon sa isang chargeback.
+Kung ang isang refund ay legal na dapat bayaran at naaprubahan, ito ay ibabalik lamang sa orihinal na paraan ng pagbabayad kung saan posible ang teknikal at sa loob ng panahon na kinakailangan ng naaangkop na batas at mga tuntunin ng provider ng pagbabayad. Walang cash o third-party na pagbabayad ang ginawa maliban kung kinakailangan ito ng mandatoryong batas. Makipag-ugnayan sa amin bago magbukas ng hindi pagkakaunawaan sa pagbabayad para makapag-imbestiga kami; hindi nito nililimitahan ang iyong karapatang makipag-ugnayan sa iyong provider ng pagbabayad. Maaaring magbigay ang Raqoon ng mga talaan ng order, pagkilala at teknikal na pagtupad sa provider bilang tugon sa isang chargeback.

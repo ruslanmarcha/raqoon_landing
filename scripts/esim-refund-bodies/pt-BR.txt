@@ -4,30 +4,30 @@ Data de vigência: 5 de setembro de 2026
 Vendedor: Qat Bilişim ve Yazılım Teknolojileri Ltd. Şti., Ancara, Türkiye
 Solicitações: help@raqoon.app
 
-1. Âmbito e direitos obrigatórios
+1. Produto digital de venda final
 
-Esta política se aplica a compras e recargas de Raqoon eSIM. Não exclui direitos que não possam ser excluídos ao abrigo da legislação do consumidor aplicável. Quando uma regra obrigatória oferece uma solução mais ampla, essa regra se aplica.
+Os planos e recargas Raqoon eSIM são produtos de telecomunicações digitais pré-pagos. Sujeito apenas aos direitos irrenunciáveis ​​sob a lei aplicável, cada pedido será final assim que os detalhes de ativação forem entregues. Não oferecemos cancelamentos voluntários, trocas, créditos em conta, transferências ou reembolsos após esse ponto.
 
-2. Entrega digital e solicitação expressa para início de atuação
+2. Desempenho imediato e evidência de entrega
 
-Um eSIM é um produto digital pré-pago entregue eletronicamente. Antes da finalização da compra, solicitaremos que você confirme a entrega imediata dos detalhes de ativação e, quando necessário, solicitaremos expressamente que a execução comece antes do término de qualquer período de retirada. Mantemos um registro dessa confirmação, do prazo de entrega, do status do perfil e das informações de uso.
+No momento da finalização da compra, é solicitado que você solicite a entrega eletrônica imediata e o início da execução digital antes de expirar qualquer período de saque, sempre que tal confirmação seja necessária. Raqoon registra a confirmação, prazo de entrega, status de QR/perfil, instalação, ativação, recarga, conexão de rede e informações de uso. Este registro pode ser usado para estabelecer que a performance digital começou.
 
-3. Quando um reembolso pode estar disponível
+3. Eventos que encerram a elegibilidade voluntária
 
-Contacte-nos imediatamente se o perfil não tiver sido entregue, não puder ser instalado ou ativado devido a uma falha técnica confirmada, o plano entregue for materialmente diferente do pedido ou o dispositivo for incompatível apesar das informações do produto estarem materialmente incorretas. Primeiramente investigaremos e, quando apropriado, ofereceremos uma substituição, correção, crédito ou reembolso viável, de acordo com a lei aplicável.
+Na medida máxima permitida por lei, nenhum reembolso, cancelamento, substituição ou crédito estará disponível após qualquer um dos seguintes: entrega do código QR ou detalhes de ativação; instalação do perfil; ativação; primeiro registro ou conexão de rede; uma recarga; qualquer uso de dados, chamadas ou SMS; divulgação de perfil, cópia, transferência ou perda de confidencialidade do código QR; ou expiração do plano. Um subsídio não utilizado, parcialmente utilizado ou indesejado não é reembolsável.
 
-4. Quando um reembolso normalmente não está disponível
+4. Assuntos que não são motivos de reembolso
 
-Na medida permitida por lei, um reembolso normalmente não está disponível após o perfil eSIM ter sido instalado, ativado, conectado a uma rede, carregado ou usado, ou após o desempenho digital ter começado com o reconhecimento descrito acima. Normalmente também não está disponível para franquia não utilizada após o vencimento do plano, mudança de planos de viagem, exigência de dispositivo desbloqueado que foi divulgada, instalação incorreta pelo cliente, uso não suportado ou perda de confidencialidade do código QR causada pelo cliente.
+Não são motivos de reembolso: alteração de itinerário; uma compra duplicada, acidental ou incorreta de destino, plano ou recarga; falha na verificação da compatibilidade do dispositivo, bloqueio da operadora, capacidade do eSIM ou instruções de instalação; erro de instalação do cliente; software de dispositivo não suportado ou alterado; cobertura, velocidade, latência ou disponibilidade de serviço que varia de acordo com o local ou rede parceira; uma falha causada pelo dispositivo, rede local, configurações, controles de roaming, saldo insuficiente ou serviço de terceiros; ou um plano que expirou. Esta lista não exclui uma solução obrigatória para uma falha atribuível ao produto digital fornecido.
 
-5. Como fazer uma solicitação
+5. Revisão limitada de recursos legais
 
-Envie a solicitação do e-mail usado para o pedido para help@raqoon.app com o número do seu pedido, uma descrição clara do problema, modelo e versão do dispositivo, destino, capturas de tela de instalação/ativação quando relevante e a hora em que o problema ocorreu. Não envie cópias do passaporte, dados completos do cartão de pagamento ou extratos bancários. Poderemos solicitar informações técnicas proporcionais necessárias para investigar o problema específico.
+A Raqoon avaliará uma solução somente se exigido pela lei aplicável ou se (a) os detalhes de ativação não forem entregues, (b) uma falha documentada atribuível ao perfil fornecido impedir o uso e (c) a Raqoon e o E7 Access não puderem corrigir ou substituir o perfil dentro de um prazo razoável. Quando for legal e apropriado, a correção ou substituição será a principal solução; um reembolso não é automático. Poderemos rejeitar uma solicitação fraudulenta, abusiva, duplicada, inconsistente com os registros de cumprimento ou fora de um recurso legal obrigatório.
 
-6. Revisão e pagamento
+6. Processo de solicitação rigoroso
 
-Verificamos o status de entrega, instalação, ativação, uso e provisionamento de rede com o E7 Access quando necessário. Poderemos recusar uma solicitação fraudulenta, abusiva, duplicada ou fora do recurso legal aplicável. Se um reembolso for aprovado, ele será devolvido ao método de pagamento original sempre que for tecnicamente possível, dentro do prazo exigido pela lei aplicável e pelas regras do provedor de pagamento.
+Relate um problema técnico dentro de 48 horas após a descoberta e antes que o plano expire, usando o e-mail do pedido e help@raqoon.app. Indique o número do pedido, marca/modelo do dispositivo e versão do sistema operacional, destino, erro preciso, fuso horário e hora do problema e forneça capturas de tela relevantes das configurações e erros do eSIM. Não envie cópias do passaporte, dados completos do cartão ou extratos bancários. Poderemos exigir informações técnicas razoáveis ​​e relevantes antes que uma reclamação técnica possa ser verificada. Um relatório tardio ou incompleto pode impedir-nos de confirmar os factos, mas não limita qualquer direito legal irrenunciável.
 
-7. Estornos
+7. Pagamentos, disputas e controles de fraude
 
-Entre em contato conosco antes de abrir uma disputa de pagamento para que possamos investigar o problema. Isto não limita os seus direitos legais ou o seu direito de contactar o seu fornecedor de pagamento. Poderemos fornecer registros de pedidos e de atendimento técnico ao provedor de pagamento para responder a um estorno.
+Se um reembolso for legalmente devido e aprovado, ele será devolvido somente ao método de pagamento original quando for tecnicamente possível e dentro do prazo exigido pela lei aplicável e pelas regras do provedor de pagamento. Nenhum pagamento em dinheiro ou de terceiros é feito, a menos que a lei obrigatória assim o exija. Entre em contato conosco antes de abrir uma disputa de pagamento para que possamos investigar; isso não limita o seu direito de entrar em contato com seu provedor de pagamento. A Raqoon pode fornecer registros de pedido, confirmação e cumprimento técnico ao fornecedor em resposta a um estorno.

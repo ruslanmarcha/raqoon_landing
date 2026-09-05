@@ -4,30 +4,30 @@ Tanggal efektif: 5 September 2026
 Penjual: Qat Bilişim dan Yazılım Teknolojileri Ltd.Şti., Ankara, Türkiye
 Permintaan: help@raqoon.app
 
-1. Ruang lingkup dan hak wajib
+1. Produk digital penjualan akhir
 
-Kebijakan ini berlaku untuk pembelian dan isi ulang eSIM Raqoon. Hal ini tidak mengecualikan hak-hak yang tidak dapat dikecualikan berdasarkan hukum konsumen yang berlaku. Jika aturan wajib memberi Anda penyelesaian yang lebih luas, maka aturan itu berlaku.
+Paket dan isi ulang Raqoon eSIM adalah produk telekomunikasi digital prabayar. Hanya tunduk pada hak yang tidak dapat diabaikan berdasarkan hukum yang berlaku, setiap pesanan bersifat final setelah rincian aktivasi dikirimkan. Kami tidak menawarkan pembatalan, penukaran, kredit akun, transfer, atau pengembalian dana secara sukarela setelah titik tersebut.
 
-2. Pengiriman digital dan permintaan cepat untuk memulai pertunjukan
+2. Kinerja segera dan bukti pengiriman
 
-eSIM adalah produk prabayar digital yang dikirimkan secara elektronik. Sebelum checkout, kami akan meminta Anda untuk menyetujui pengiriman segera rincian aktivasi dan, jika diperlukan, secara tegas meminta agar kinerja dimulai sebelum periode penarikan berakhir. Kami menyimpan catatan pengakuan tersebut, waktu pengiriman, status profil, dan informasi penggunaan.
+Saat checkout, Anda diminta untuk segera meminta pengiriman elektronik dan dimulainya kinerja digital sebelum periode penarikan berakhir, jika pengakuan tersebut diperlukan. Raqoon mencatat pengakuan, waktu pengiriman, status QR/profil, instalasi, aktivasi, isi ulang, koneksi jaringan dan informasi penggunaan. Catatan ini dapat digunakan untuk menetapkan bahwa kinerja digital telah dimulai.
 
-3. Kapan pengembalian dana mungkin tersedia
+3. Peristiwa yang mengakhiri kelayakan sukarela
 
-Hubungi kami segera jika profil tidak terkirim, tidak dapat diinstal atau diaktifkan karena kesalahan teknis yang dikonfirmasi, paket yang dikirimkan berbeda secara material dari pesanan, atau perangkat tidak kompatibel meskipun informasi produk kami salah secara material. Kami akan menyelidiki terlebih dahulu dan, jika diperlukan, menawarkan penggantian, koreksi, kredit, atau pengembalian dana yang dapat diterapkan sesuai dengan hukum yang berlaku.
+Sejauh diizinkan oleh hukum, pengembalian dana, pembatalan, penggantian, atau kredit tidak dapat dilakukan setelah salah satu hal berikut: pengiriman kode QR atau detail aktivasi; pemasangan profil; pengaktifan; pendaftaran atau koneksi jaringan pertama; isi ulang; penggunaan data, panggilan atau SMS apa pun; pengungkapan profil, penyalinan, transfer, atau hilangnya kerahasiaan kode QR; atau berakhirnya rencana. Tunjangan yang tidak digunakan, digunakan sebagian atau tidak diinginkan tidak dapat dikembalikan.
 
-4. Ketika pengembalian dana biasanya tidak tersedia
+4. Hal-hal yang bukan merupakan alasan pengembalian dana
 
-Sejauh diizinkan oleh undang-undang, pengembalian dana biasanya tidak tersedia setelah profil eSIM dipasang, diaktifkan, terhubung ke jaringan, diisi ulang atau digunakan, atau setelah kinerja digital dimulai dengan pengakuan yang dijelaskan di atas. Biasanya juga tidak tersedia untuk jatah yang tidak digunakan setelah masa berlaku paket habis, perubahan rencana perjalanan, persyaratan perangkat tidak terkunci yang diungkapkan, pemasangan yang salah oleh pelanggan, penggunaan yang tidak didukung, atau hilangnya kerahasiaan kode QR yang disebabkan oleh pelanggan.
+Hal-hal berikut ini bukan merupakan alasan pengembalian uang: rencana perjalanan yang diubah; tujuan, rencana, atau pembelian isi ulang yang duplikat, tidak disengaja atau salah; kegagalan dalam memeriksa kompatibilitas perangkat, kunci operator, kemampuan eSIM, atau petunjuk pemasangan; kesalahan instalasi pelanggan; perangkat lunak perangkat yang tidak didukung atau diubah; jangkauan, kecepatan, latensi, atau ketersediaan layanan yang berbeda-beda menurut lokasi atau jaringan mitra; kegagalan yang disebabkan oleh perangkat, jaringan lokal, pengaturan, kontrol roaming, saldo tidak mencukupi, atau layanan pihak ketiga; atau rencana yang telah kedaluwarsa. Daftar ini tidak mengecualikan perbaikan wajib atas kesalahan yang disebabkan oleh produk digital yang disertakan.
 
-5. Cara mengajukan permintaan
+5. Tinjauan penyelesaian hukum yang terbatas
 
-Kirim permintaan dari email yang digunakan untuk pemesanan ke help@raqoon.app dengan nomor pesanan Anda, deskripsi yang jelas tentang masalah, model dan versi perangkat, tujuan, tangkapan layar instalasi/aktivasi jika relevan, dan waktu terjadinya masalah. Jangan mengirimkan salinan paspor, data lengkap kartu pembayaran, atau laporan bank. Kami dapat meminta informasi teknis proporsional yang diperlukan untuk menyelidiki masalah spesifik.
+Raqoon akan menilai perbaikan hanya jika diwajibkan oleh hukum yang berlaku, atau jika (a) rincian aktivasi tidak dikirimkan, (b) kesalahan terdokumentasi yang disebabkan oleh profil yang disediakan menghalangi penggunaan, dan (c) Raqoon dan E7 Access tidak dapat memperbaiki atau mengganti profil dalam waktu yang wajar. Jika sah dan sesuai, koreksi atau penggantian merupakan solusi utama; pengembalian dana tidak otomatis. Kami dapat menolak permintaan yang bersifat menipu, kasar, terduplikasi, tidak sesuai dengan catatan pemenuhan, atau di luar upaya hukum wajib.
 
-6. Review dan pembayaran
+6. Proses permintaan yang ketat
 
-Kami memverifikasi status pengiriman, instalasi, aktivasi, penggunaan dan penyediaan jaringan dengan E7 Access jika diperlukan. Kami dapat menolak permintaan yang bersifat menipu, kasar, terduplikasi, atau di luar upaya hukum yang berlaku. Jika pengembalian dana disetujui, pengembalian dana akan dikembalikan ke metode pembayaran asli jika memungkinkan secara teknis, dalam jangka waktu yang diwajibkan oleh hukum yang berlaku dan peraturan penyedia pembayaran.
+Laporkan masalah teknis dalam waktu 48 jam setelah penemuan dan sebelum paket berakhir, menggunakan email pesanan dan help@raqoon.app. Sebutkan nomor pesanan, merek/model perangkat dan versi sistem operasi, tujuan, kesalahan sebenarnya, zona waktu dan waktu masalah, dan berikan tangkapan layar yang relevan tentang pengaturan dan kesalahan eSIM. Jangan mengirimkan salinan paspor, data lengkap kartu atau laporan bank. Kami mungkin memerlukan informasi teknis yang masuk akal dan relevan sebelum klaim teknis dapat diverifikasi. Laporan yang terlambat atau tidak lengkap dapat menghalangi kami untuk mengonfirmasi fakta, namun tidak membatasi hak hukum yang tidak dapat dikesampingkan.
 
-7. Tagihan Balik
+7. Pengendalian pembayaran, perselisihan dan penipuan
 
-Silakan hubungi kami sebelum membuka sengketa pembayaran sehingga kami dapat menyelidiki masalahnya. Hal ini tidak membatasi hak hukum Anda atau hak Anda untuk menghubungi penyedia pembayaran Anda. Kami dapat memberikan catatan pemenuhan pesanan dan teknis kepada penyedia pembayaran untuk menanggapi tagihan balik.
+Jika pengembalian dana telah jatuh tempo dan disetujui secara hukum, pengembalian dana tersebut hanya akan dikembalikan ke metode pembayaran awal jika memungkinkan secara teknis dan dalam jangka waktu yang diwajibkan oleh hukum yang berlaku dan aturan penyedia pembayaran. Tidak ada pembayaran tunai atau pembayaran pihak ketiga yang dilakukan kecuali diwajibkan oleh undang-undang. Hubungi kami sebelum membuka sengketa pembayaran sehingga kami dapat menyelidikinya; ini tidak membatasi hak Anda untuk menghubungi penyedia pembayaran Anda. Raqoon dapat memberikan catatan pesanan, pengakuan, dan pemenuhan teknis kepada penyedia sebagai tanggapan atas tagihan balik.

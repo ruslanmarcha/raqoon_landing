@@ -86,7 +86,18 @@ function main() {
       'documents.intro',
       'documents.products.vpn.title',
       'documents.products.esim.title',
+      'documents.products.corporate.title',
       ...DOCUMENTS.map((document) => `documents.documents.${document}`),
+      'documents.documents.distanceSales',
+      'documents.documents.about',
+      'documents.documents.kvkk',
+      'documents.documents.sustainability',
+      'legal.esim.distanceSales.title',
+      'legal.esim.distanceSales.body',
+      'legal.corporate.kvkk.title',
+      'legal.corporate.kvkk.body',
+      'legal.corporate.sustainability.title',
+      'legal.corporate.sustainability.body',
     ]) {
       if (typeof getValue(locale, keyPath) !== 'string' || getValue(locale, keyPath).trim() === '') {
         errors.push(`Missing localized UI key: ${localeCode}.${keyPath}`)

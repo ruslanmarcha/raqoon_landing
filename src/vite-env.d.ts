@@ -15,6 +15,12 @@ interface ImportMetaEnv {
   readonly VITE_SUPPORT_PUBLIC_API_BASE?: string
   /** Клиентский портал — страница входа (прод: `https://raqoon.qatlink.site/support/login`). */
   readonly VITE_CLIENT_PORTAL_URL?: string
+  /**
+   * Public eSIM pricing catalog URL.
+   * Default: https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing
+   * CORS allows https://raqoon.app by default — localhost/www need backend allow-list.
+   */
+  readonly VITE_ESIM_PRICING_URL?: string
 }
 
 interface ImportMeta {

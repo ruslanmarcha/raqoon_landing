@@ -41,7 +41,11 @@
     "kvkkTitleWW": "KVKK 정보 공지 — Raqoon",
     "sustainabilityTitleWW": "지속가능성 정책 — Raqoon",
     "kvkkDescriptionWW": "터키 KVKK에 따른 Raqoon의 개인 데이터 처리 고지.",
-    "esimDistanceSalesDescriptionWW": "Raqoon eSIM 구매에 적용되는 계약을 읽어보세요."
+    "esimDistanceSalesDescriptionWW": "Raqoon eSIM 구매에 적용되는 계약을 읽어보세요.",
+    "esimTitleWW": "Raqoon eSIM — travel mobile data",
+    "esimDescriptionWW": "Browse Raqoon travel eSIM packages and informational catalog prices. Buy and install in the Raqoon app.",
+    "esimOgTitleWW": "Raqoon eSIM — stay connected on the go",
+    "esimOgDescriptionWW": "Destination packages, data volume, and live catalog prices. Purchase in the Raqoon app."
   },
   "nav": {
     "logoAlt": "Raqoon",
@@ -49,7 +53,12 @@
     "profileClose": "닫기",
     "profileLoading": "로딩 중…",
     "profileEmbedBlocked": "여기에서 포털을 불러올 수 없습니다.",
-    "profileOpenTab": "새 탭에서 열기"
+    "profileOpenTab": "새 탭에서 열기",
+    "productsAria": "Raqoon 제품",
+    "menuAria": "메뉴",
+    "vpn": "VPN",
+    "wallet": "지갑",
+    "esim": "eSIM"
   },
   "hero": {
     "titleWW": "VPN 서비스,\n너구리 프록시로부터",
@@ -73,14 +82,17 @@
         "theme": "light",
         "flip": true,
         "display": true,
-        "accent": "무료 이용.",
-        "headline": "광고 없음.",
-        "detailTitle": "무료 이용",
-        "detailBody": "다운로드하고 무료로 사용 — 결제·광고 없음. Raqoon 앱에서만.",
+        "accent": "무료로 체험.",
+        "headline": "품질을 느껴보세요.",
+        "detailTitle": "무료로 체험",
+        "detailBody": "다운로드 후 3일간 무료로 사용하세요. 이후에는 합리적인 요금으로.",
         "benefits": [
-          "월 5GB 데이터",
-          "하나의 연결로 핵심 서비스",
-          "원할 때 전체 이용으로 업그레이드"
+          "최적 프로토콜 자동 선택",
+          "24/7 지원",
+          "글로벌 서비스 이용",
+          "위치 전환",
+          "최대 5대 동시 사용",
+          "넉넉한 데이터"
         ],
         "cta": "다운로드",
         "href": "/download",
@@ -121,12 +133,12 @@
         "id": "esim",
         "span": "full",
         "theme": "dark",
-        "soon": true,
         "display": true,
-        "accent": "곧 출시.",
-        "headline": "eSIM.",
-        "sub": "번거로움 없이 연결 유지.",
-        "visual": "/home-esim-phone.png"
+        "accent": "eSIM.",
+        "headline": "여행 중에도 연결.",
+        "sub": "번거로움 없는 여행 데이터.",
+        "visual": "/home-esim-phone.png",
+        "href": "/esim"
       }
     ],
     "final": {
@@ -219,12 +231,15 @@
       }
     ],
     "freeTier": {
-      "title": "무료 이용",
-      "subtitle": "다운로드 후 무료로 이용하세요. 결제와 광고 없음. Raqoon 앱에서만.",
+      "title": "무료로 체험",
+      "subtitle": "다운로드 후 3일간 무료로 사용하세요. 이후에는 합리적인 요금으로.",
       "benefits": [
-        "월 5GB 트래픽",
-        "한 연결로 기본 서비스",
-        "원할 때 전체 이용으로 업그레이드"
+        "최적 프로토콜 자동 선택",
+        "24/7 지원",
+        "글로벌 서비스 이용",
+        "위치 전환",
+        "최대 5대 동시 사용",
+        "넉넉한 데이터"
       ]
     }
   },
@@ -482,6 +497,106 @@
       "kvkk": "KVKK 정보 공지",
       "sustainability": "지속가능성 정책",
       "contact": "콘택트 렌즈"
+    }
+  },
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "openTile": "Open: {{title}}",
+    "closeTile": "Close",
+    "hero": {
+      "headline": "Mobile data\nfor your trip.",
+      "cta": "Download the app"
+    },
+    "tiles": [
+      {
+        "id": "install",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "In the app.",
+        "headline": "Install eSIM.",
+        "sub": "Buy and set up travel data without a plastic SIM.",
+        "detailTitle": "Install in Raqoon",
+        "detailBody": "Choose a destination package in the Raqoon app, then install the eSIM profile on a compatible unlocked device. Raqoon sells prepaid travel eSIM data — it is not a mobile carrier and does not issue phone numbers or voice/SMS.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "coverage",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Coverage.",
+        "headline": "Countries & packs.",
+        "detailTitle": "Countries and packages",
+        "detailBody": "Browse destinations and data packages with duration, network types, and live catalog prices. Pick what fits your trip.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "topup",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Top-up.",
+        "headline": "Add more data.",
+        "detailTitle": "Top-up when needed",
+        "detailBody": "Many packages support top-up so you can add data without buying a new SIM. Availability depends on the package.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "networks",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Networks.",
+        "headline": "4G / 5G.",
+        "detailTitle": "Modern networks",
+        "detailBody": "Packages list supported network types such as 4G and 5G. Actual speed depends on local partners and coverage.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "no-plastic",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "No plastic.",
+        "headline": "Digital SIM.",
+        "detailTitle": "No physical SIM",
+        "detailBody": "Skip airport kiosks and tiny trays. Activate digitally and stay online for maps, chats, and payments.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "fair-price",
+        "span": "full",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Catalog prices.",
+        "headline": "Clear on the shelf.",
+        "detailTitle": "Informational pricing",
+        "detailBody": "Prices on this page come from the live public catalog for your market. The final amount is confirmed when you purchase in the app.",
+        "cta": "Download the app"
+      }
+    ],
+    "pricing": {
+      "title": "Plans & prices",
+      "loading": "Loading prices…",
+      "unavailable": "Prices are temporarily unavailable.",
+      "stale": "Prices may be out of date — trying to refresh.",
+      "updatedBanner": "Prices updated — refresh the page",
+      "refresh": "Refresh",
+      "marketLabel": "Market",
+      "searchCountry": "Search country",
+      "data": "Data",
+      "days": "{{count}} days",
+      "networks": "Networks",
+      "topUpYes": "Top-up available",
+      "buyCta": "Buy in the app",
+      "priceDisclaimer": "Prices are informational; the final amount is confirmed at checkout in the app."
+    },
+    "final": {
+      "headline": "Get connected before you fly.",
+      "body": "Download Raqoon, pick a package, and install your eSIM in minutes.",
+      "cta": "Download the app",
+      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
     }
   }
 }

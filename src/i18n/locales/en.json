@@ -51,7 +51,11 @@
     "migrationTitleRU": "Moving from IZI to Raqoon — Instructions",
     "migrationDescriptionRU": "Migrate from IZI VPN to Raqoon: connect to @raqoonbot on Telegram and move to the new service.",
     "faqTitleWW": "Frequently asked questions — Raqoon VPN",
-    "faqDescriptionWW": "Answers about Raqoon: plans, privacy, connection, and common issues from our knowledge base."
+    "faqDescriptionWW": "Answers about Raqoon: plans, privacy, connection, and common issues from our knowledge base.",
+    "esimTitleWW": "Raqoon eSIM — travel mobile data",
+    "esimDescriptionWW": "Browse Raqoon travel eSIM packages and informational catalog prices. Buy and install in the Raqoon app.",
+    "esimOgTitleWW": "Raqoon eSIM — stay connected on the go",
+    "esimOgDescriptionWW": "Destination packages, data volume, and live catalog prices. Purchase in the Raqoon app."
   },
   "nav": {
     "logoAlt": "Raqoon",
@@ -66,7 +70,8 @@
     "profileEmbedBlocked": "Could not load the portal here.",
     "profilePopupHint": "A sign-in window has opened. Enter your 16-character code there so your session is saved correctly.",
     "profileOpenWindow": "Open sign-in window",
-    "profileOpenTab": "Open in new tab"
+    "profileOpenTab": "Open in new tab",
+    "esim": "eSIM"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",
@@ -91,14 +96,17 @@
         "theme": "light",
         "flip": true,
         "display": true,
-        "accent": "Free access.",
-        "headline": "No ads.",
-        "detailTitle": "Free access",
-        "detailBody": "Download and use for free — no payment, no ads. Only in the Raqoon app.",
+        "accent": "Try free.",
+        "headline": "Feel the quality.",
+        "detailTitle": "Try free",
+        "detailBody": "Download and use free for three days. Then continue at a fair price.",
         "benefits": [
-          "5 GB of data per month",
-          "Core services through one connection",
-          "Upgrade to full access whenever you want"
+          "Automatic best-protocol selection",
+          "24/7 support",
+          "Access to all global services",
+          "Location switching",
+          "Up to 5 devices at once",
+          "Generous data allowance"
         ],
         "cta": "Download",
         "href": "/download",
@@ -139,12 +147,12 @@
         "id": "esim",
         "span": "full",
         "theme": "dark",
-        "soon": true,
         "display": true,
-        "accent": "Soon.",
-        "headline": "eSIM.",
-        "sub": "Stay connected without the usual hassle.",
-        "visual": "/home-esim-phone.png"
+        "accent": "eSIM.",
+        "headline": "Stay connected.",
+        "sub": "Travel data without the usual hassle.",
+        "visual": "/home-esim-phone.png",
+        "href": "/esim"
       }
     ],
     "final": {
@@ -237,12 +245,15 @@
       }
     ],
     "freeTier": {
-      "title": "Free access",
-      "subtitle": "Download and use for free — no payment, no ads. Only in the Raqoon app.",
+      "title": "Try free",
+      "subtitle": "Download and use free for three days. Then continue at a fair price.",
       "benefits": [
-        "5 GB of data per month",
-        "Core services through one connection",
-        "Upgrade to full access whenever you want"
+        "Automatic best-protocol selection",
+        "24/7 support",
+        "Access to all global services",
+        "Location switching",
+        "Up to 5 devices at once",
+        "Generous data allowance"
       ]
     }
   },
@@ -517,6 +528,106 @@
       "contact": "Contacts",
       "kvkk": "KVKK Information Notice",
       "sustainability": "Sustainability Policy"
+    }
+  },
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "openTile": "Open: {{title}}",
+    "closeTile": "Close",
+    "hero": {
+      "headline": "Mobile data\nfor your trip.",
+      "cta": "Download the app"
+    },
+    "tiles": [
+      {
+        "id": "install",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "In the app.",
+        "headline": "Install eSIM.",
+        "sub": "Buy and set up travel data without a plastic SIM.",
+        "detailTitle": "Install in Raqoon",
+        "detailBody": "Choose a destination package in the Raqoon app, then install the eSIM profile on a compatible unlocked device. Raqoon sells prepaid travel eSIM data — it is not a mobile carrier and does not issue phone numbers or voice/SMS.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "coverage",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Coverage.",
+        "headline": "Countries & packs.",
+        "detailTitle": "Countries and packages",
+        "detailBody": "Browse destinations and data packages with duration, network types, and live catalog prices. Pick what fits your trip.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "topup",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Top-up.",
+        "headline": "Add more data.",
+        "detailTitle": "Top-up when needed",
+        "detailBody": "Many packages support top-up so you can add data without buying a new SIM. Availability depends on the package.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "networks",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Networks.",
+        "headline": "4G / 5G.",
+        "detailTitle": "Modern networks",
+        "detailBody": "Packages list supported network types such as 4G and 5G. Actual speed depends on local partners and coverage.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "no-plastic",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "No plastic.",
+        "headline": "Digital SIM.",
+        "detailTitle": "No physical SIM",
+        "detailBody": "Skip airport kiosks and tiny trays. Activate digitally and stay online for maps, chats, and payments.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "fair-price",
+        "span": "full",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Catalog prices.",
+        "headline": "Clear on the shelf.",
+        "detailTitle": "Informational pricing",
+        "detailBody": "Prices on this page come from the live public catalog for your market. The final amount is confirmed when you purchase in the app.",
+        "cta": "Download the app"
+      }
+    ],
+    "pricing": {
+      "title": "Plans & prices",
+      "loading": "Loading prices…",
+      "unavailable": "Prices are temporarily unavailable.",
+      "stale": "Prices may be out of date — trying to refresh.",
+      "updatedBanner": "Prices updated — refresh the page",
+      "refresh": "Refresh",
+      "marketLabel": "Market",
+      "searchCountry": "Search country",
+      "data": "Data",
+      "days": "{{count}} days",
+      "networks": "Networks",
+      "topUpYes": "Top-up available",
+      "buyCta": "Buy in the app",
+      "priceDisclaimer": "Prices are informational; the final amount is confirmed at checkout in the app."
+    },
+    "final": {
+      "headline": "Get connected before you fly.",
+      "body": "Download Raqoon, pick a package, and install your eSIM in minutes.",
+      "cta": "Download the app",
+      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
     }
   }
 }

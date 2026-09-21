@@ -12,14 +12,24 @@ interface HeaderProps {
   showAccountLink?: boolean;
 }
 
-const PRODUCT_LINKS = [
-  { key: 'vpn', to: '/' },
-  { key: 'wallet', to: '/wallet' },
-] as const;
+type ProductLink = { key: string; to: string };
+
+function buildProductLinks(isRu: boolean): ProductLink[] {
+  const links: ProductLink[] = [
+    { key: 'vpn', to: '/' },
+  ];
+  if (isRu) {
+    links.push({ key: 'wallet', to: '/wallet' });
+  }
+  links.push({ key: 'esim', to: '/esim' });
+  return links;
+}
 
 function isProductActive(path: string, to: string) {
   if (to === '/wallet') return path.startsWith('/wallet') || path.startsWith('/card');
-  return !path.startsWith('/wallet') && !path.startsWith('/card');
+  if (to === '/esim') return path === '/esim';
+  if (to === '/') return path === '/' || path === '';
+  return path === to;
 }
 
 export function Header({ showLanguageSelector = true, showAccountLink = true }: HeaderProps) {
@@ -30,11 +40,12 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
   const isRu = i18n.language.startsWith('ru');
+  const productLinks = buildProductLinks(isRu);
   const hideProfileOnProductPages =
     pathname.startsWith('/wallet') || pathname.startsWith('/card');
   const showProfile = showAccountLink && !hideProfileOnProductPages;
   const showLang = showLanguageSelector && allowLanguageSwitch;
-  const showMobileMenu = isRu;
+  const showMobileMenu = true;
   const showActions = showProfile || showLang || showMobileMenu;
 
   useEffect(() => {
@@ -70,29 +81,27 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
 
   return (
     <header className={styles.root}>
-      <div className={`container ${styles.inner} ${isRu ? styles.innerWithNav : ''}`}>
+      <div className={`container ${styles.inner} ${styles.innerWithNav}`}>
         <div className={styles.logoContainer}>
           <Link to="/" className={styles.logo} aria-label={t('nav.logoAlt')}>
             <BrandLogo />
           </Link>
         </div>
-        {isRu ? (
-          <nav className={styles.productNav} aria-label={t('nav.productsAria')}>
-            {PRODUCT_LINKS.map(({ key, to }) => {
-              const active = isProductActive(pathname, to);
-              return (
-                <Link
-                  key={key}
-                  to={to}
-                  className={`${styles.productLink} ${active ? styles.productLinkActive : ''}`}
-                  aria-current={active ? 'page' : undefined}
-                >
-                  {t(`nav.${key}`)}
-                </Link>
-              );
-            })}
-          </nav>
-        ) : null}
+        <nav className={styles.productNav} aria-label={t('nav.productsAria')}>
+          {productLinks.map(({ key, to }) => {
+            const active = isProductActive(pathname, to);
+            return (
+              <Link
+                key={key}
+                to={to}
+                className={`${styles.productLink} ${active ? styles.productLinkActive : ''}`}
+                aria-current={active ? 'page' : undefined}
+              >
+                {t(`nav.${key}`)}
+              </Link>
+            );
+          })}
+        </nav>
         {showActions ? (
           <div className={styles.actions}>
             {showProfile ? (
@@ -118,7 +127,7 @@ export function Header({ showLanguageSelector = true, showAccountLink = true }: 
                 </button>
                 {menuOpen ? (
                   <div className={styles.menuPanel} role="menu">
-                    {PRODUCT_LINKS.map(({ key, to }) => {
+                    {productLinks.map(({ key, to }) => {
                       const active = isProductActive(pathname, to);
                       return (
                         <Link

@@ -41,7 +41,11 @@
     "sustainabilityTitleWW": "Patakaran sa Pagpapanatili — Raqoon",
     "sustainabilityDescriptionWW": "Patakaran sa pagpapanatili ng kumpanya ng Raqoon.",
     "kvkkDescriptionWW": "Paunawa sa pagpoproseso ng personal na data para sa Raqoon sa ilalim ng Turkish KVKK.",
-    "esimDistanceSalesDescriptionWW": "Basahin ang kasunduan na nalalapat sa isang pagbili ng Raqoon eSIM."
+    "esimDistanceSalesDescriptionWW": "Basahin ang kasunduan na nalalapat sa isang pagbili ng Raqoon eSIM.",
+    "esimTitleWW": "Raqoon eSIM — travel mobile data",
+    "esimDescriptionWW": "Browse Raqoon travel eSIM packages and informational catalog prices. Buy and install in the Raqoon app.",
+    "esimOgTitleWW": "Raqoon eSIM — stay connected on the go",
+    "esimOgDescriptionWW": "Destination packages, data volume, and live catalog prices. Purchase in the Raqoon app."
   },
   "nav": {
     "logoAlt": "Raqoon",
@@ -49,7 +53,12 @@
     "profileClose": "Isara",
     "profileLoading": "Naglo-load…",
     "profileEmbedBlocked": "Hindi ma-load ang portal dito.",
-    "profileOpenTab": "Buksan sa bagong tab"
+    "profileOpenTab": "Buksan sa bagong tab",
+    "productsAria": "Mga produkto ng Raqoon",
+    "menuAria": "Menu",
+    "vpn": "VPN",
+    "wallet": "Wallet",
+    "esim": "eSIM"
   },
   "hero": {
     "titleWW": "Serbisyo ng VPN,\nmula kay Proxy ang Raccoon",
@@ -73,14 +82,17 @@
         "theme": "light",
         "flip": true,
         "display": true,
-        "accent": "Libreng access.",
-        "headline": "Walang ads.",
-        "detailTitle": "Libreng access",
-        "detailBody": "I-download at gamitin nang libre — walang bayad, walang ads. Sa Raqoon app lang.",
+        "accent": "Subukan nang libre.",
+        "headline": "Maranasan ang quality.",
+        "detailTitle": "Subukan nang libre",
+        "detailBody": "I-download at gamitin nang libre sa loob ng tatlong araw. Pagkatapos — sa abot-kayang presyo.",
         "benefits": [
-          "5 GB data bawat buwan",
-          "Core services sa isang connection",
-          "Mag-upgrade sa full access kahit kailan"
+          "Automatic best-protocol selection",
+          "24/7 support",
+          "Access sa lahat ng global services",
+          "Location switching",
+          "Hanggang 5 devices nang sabay",
+          "Malaking data allowance"
         ],
         "cta": "I-download",
         "href": "/download",
@@ -121,12 +133,12 @@
         "id": "esim",
         "span": "full",
         "theme": "dark",
-        "soon": true,
         "display": true,
-        "accent": "Malapit na.",
-        "headline": "eSIM.",
-        "sub": "Manatiling connected nang walang usual hassle.",
-        "visual": "/home-esim-phone.png"
+        "accent": "eSIM.",
+        "headline": "Manatiling connected.",
+        "sub": "Travel data nang walang karaniwang abala.",
+        "visual": "/home-esim-phone.png",
+        "href": "/esim"
       }
     ],
     "final": {
@@ -219,12 +231,15 @@
       }
     ],
     "freeTier": {
-      "title": "Libreng access",
-      "subtitle": "I-download at gamitin nang libre — walang bayad o ads. Sa Raqoon app lang.",
+      "title": "Subukan nang libre",
+      "subtitle": "I-download at gamitin nang libre sa loob ng tatlong araw. Pagkatapos — sa abot-kayang presyo.",
       "benefits": [
-        "5 GB traffic bawat buwan",
-        "Basic services sa isang koneksyon",
-        "Mag-upgrade sa buong access anumang oras"
+        "Automatic best-protocol selection",
+        "24/7 support",
+        "Access sa lahat ng global services",
+        "Location switching",
+        "Hanggang 5 devices nang sabay",
+        "Malaking data allowance"
       ]
     }
   },
@@ -482,6 +497,106 @@
       "kvkk": "Paunawa sa Impormasyon ng KVKK",
       "sustainability": "Patakaran sa Pagpapanatili",
       "contact": "Mga contact"
+    }
+  },
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "openTile": "Open: {{title}}",
+    "closeTile": "Close",
+    "hero": {
+      "headline": "Mobile data\nfor your trip.",
+      "cta": "Download the app"
+    },
+    "tiles": [
+      {
+        "id": "install",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "In the app.",
+        "headline": "Install eSIM.",
+        "sub": "Buy and set up travel data without a plastic SIM.",
+        "detailTitle": "Install in Raqoon",
+        "detailBody": "Choose a destination package in the Raqoon app, then install the eSIM profile on a compatible unlocked device. Raqoon sells prepaid travel eSIM data — it is not a mobile carrier and does not issue phone numbers or voice/SMS.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "coverage",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Coverage.",
+        "headline": "Countries & packs.",
+        "detailTitle": "Countries and packages",
+        "detailBody": "Browse destinations and data packages with duration, network types, and live catalog prices. Pick what fits your trip.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "topup",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Top-up.",
+        "headline": "Add more data.",
+        "detailTitle": "Top-up when needed",
+        "detailBody": "Many packages support top-up so you can add data without buying a new SIM. Availability depends on the package.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "networks",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Networks.",
+        "headline": "4G / 5G.",
+        "detailTitle": "Modern networks",
+        "detailBody": "Packages list supported network types such as 4G and 5G. Actual speed depends on local partners and coverage.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "no-plastic",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "No plastic.",
+        "headline": "Digital SIM.",
+        "detailTitle": "No physical SIM",
+        "detailBody": "Skip airport kiosks and tiny trays. Activate digitally and stay online for maps, chats, and payments.",
+        "cta": "Download the app"
+      },
+      {
+        "id": "fair-price",
+        "span": "full",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Catalog prices.",
+        "headline": "Clear on the shelf.",
+        "detailTitle": "Informational pricing",
+        "detailBody": "Prices on this page come from the live public catalog for your market. The final amount is confirmed when you purchase in the app.",
+        "cta": "Download the app"
+      }
+    ],
+    "pricing": {
+      "title": "Plans & prices",
+      "loading": "Loading prices…",
+      "unavailable": "Prices are temporarily unavailable.",
+      "stale": "Prices may be out of date — trying to refresh.",
+      "updatedBanner": "Prices updated — refresh the page",
+      "refresh": "Refresh",
+      "marketLabel": "Market",
+      "searchCountry": "Search country",
+      "data": "Data",
+      "days": "{{count}} days",
+      "networks": "Networks",
+      "topUpYes": "Top-up available",
+      "buyCta": "Buy in the app",
+      "priceDisclaimer": "Prices are informational; the final amount is confirmed at checkout in the app."
+    },
+    "final": {
+      "headline": "Get connected before you fly.",
+      "body": "Download Raqoon, pick a package, and install your eSIM in minutes.",
+      "cta": "Download the app",
+      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
     }
   }
 }

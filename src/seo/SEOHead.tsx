@@ -23,6 +23,7 @@ export type SeoPage =
   | 'turkiye'
   | 'beta'
   | 'rosvpn'
+  | 'esim'
   | 'wallet'
   | 'card'
 
@@ -90,6 +91,13 @@ function resolveMeta(
         description: t(`meta.rosvpnDescription${suffix}`),
         ogTitle: t(`meta.rosvpnOgTitle${suffix}`),
         ogDescription: t(`meta.rosvpnOgDescription${suffix}`),
+      }
+    case 'esim':
+      return {
+        title: t(`meta.esimTitle${suffix}`),
+        description: t(`meta.esimDescription${suffix}`),
+        ogTitle: t(`meta.esimOgTitle${suffix}`),
+        ogDescription: t(`meta.esimOgDescription${suffix}`),
       }
     case 'wallet':
       return {

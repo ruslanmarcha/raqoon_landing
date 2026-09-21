@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
+import { Analytics } from '@vercel/analytics/react'
 import { ComingSoonProvider } from './contexts/ComingSoonContext'
 import { ProfilePortalProvider } from './contexts/ProfilePortalContext'
 import { LocalePolicyProvider } from './contexts/LocalePolicyContext'
@@ -12,6 +13,7 @@ const AboutCompany = lazy(() => import('./pages/AboutCompany').then((m) => ({ de
 const DownloadPage = lazy(() => import('./pages/DownloadPage').then((m) => ({ default: m.DownloadPage })))
 const ReferralPage = lazy(() => import('./pages/ReferralPage').then((m) => ({ default: m.ReferralPage })))
 const RosVpnPage = lazy(() => import('./pages/RosVpnPage').then((m) => ({ default: m.RosVpnPage })))
+const EsimPage = lazy(() => import('./pages/EsimPage').then((m) => ({ default: m.EsimPage })))
 import { WalletPage } from './pages/WalletPage'
 const TurkiyePage = lazy(() => import('./pages/TurkiyePage').then((m) => ({ default: m.TurkiyePage })))
 const BetaPage = lazy(() => import('./pages/BetaPage').then((m) => ({ default: m.BetaPage })))
@@ -113,6 +115,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                       <Route path="/download" element={<DownloadPage />} />
                       <Route path="/referral" element={<ReferralPage />} />
                       <Route path="/rosvpn" element={<RosVpnPage />} />
+                      <Route path="/esim" element={<EsimPage />} />
                       <Route path="/wallet" element={<WalletPage />} />
                       <Route path="/card" element={<Navigate to="/wallet" replace />} />
                       <Route path="/card/" element={<Navigate to="/wallet" replace />} />
@@ -146,6 +149,7 @@ export function App({ allowLanguageSwitch, countryCode, allowedLanguages, isEUVi
                   )}
                 </Routes>
                 <ConsentCookieBanner />
+                <Analytics />
               </>
             </Suspense>
           </BrowserRouter>

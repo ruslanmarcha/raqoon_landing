@@ -59,7 +59,11 @@
     "cardTitleRU": "Raqoon Card — криптокарты VISA и MasterCard",
     "cardDescriptionRU": "Оплачивай подписки и плати онлайн по всему миру через Apple Pay и Google Pay.",
     "cardOgTitleRU": "Raqoon Card — VISA и MasterCard",
-    "cardOgDescriptionRU": "Виртуальные криптокарты для подписок и покупок. Быстрый выпуск, KYC Lite, Apple Pay и Google Pay."
+    "cardOgDescriptionRU": "Виртуальные криптокарты для подписок и покупок. Быстрый выпуск, KYC Lite, Apple Pay и Google Pay.",
+    "esimTitleRU": "Raqoon eSIM — мобильный интернет в поездках",
+    "esimDescriptionRU": "Смотри пакеты travel eSIM Raqoon и информационные цены каталога. Покупка и установка — в приложении Raqoon.",
+    "esimOgTitleRU": "Raqoon eSIM — связь в поездках",
+    "esimOgDescriptionRU": "Пакеты по направлениям, объём данных и живые цены каталога. Покупка в приложении Raqoon."
   },
   "nav": {
     "logoAlt": "Raqoon",
@@ -74,7 +78,8 @@
     "profileEmbedBlocked": "Не удалось открыть портал здесь.",
     "profilePopupHint": "Окно входа открыто. Введите 16-значный код в отдельном окне — так сессия сохранится корректно.",
     "profileOpenWindow": "Открыть окно входа",
-    "profileOpenTab": "Открыть во вкладке"
+    "profileOpenTab": "Открыть во вкладке",
+    "esim": "eSIM"
   },
   "hero": {
     "titleRU": "VPN сервис,\nот енота Прокси",
@@ -186,12 +191,12 @@
         "id": "esim",
         "span": "full",
         "theme": "dark",
-        "soon": true,
         "display": true,
-        "accent": "Скоро.",
-        "headline": "eSIM.",
+        "accent": "eSIM.",
+        "headline": "Связь в поездках.",
         "sub": "Связь без лишней возни.",
-        "visual": "/home-esim-phone.png"
+        "visual": "/home-esim-phone.png",
+        "href": "/esim"
       }
     ],
     "final": {
@@ -821,6 +826,106 @@
       "kvkk": "Информационное уведомление КВКК",
       "sustainability": "Политика устойчивого развития",
       "contact": "Контакты"
+    }
+  },
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "openTile": "Открыть: {{title}}",
+    "closeTile": "Закрыть",
+    "hero": {
+      "headline": "Мобильный интернет\nв поездках.",
+      "cta": "Скачать приложение"
+    },
+    "tiles": [
+      {
+        "id": "install",
+        "span": "full",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "В приложении.",
+        "headline": "Установи eSIM.",
+        "sub": "Купи и настрой интернет для поездки без пластиковой SIM.",
+        "detailTitle": "Установка в Raqoon",
+        "detailBody": "Выбери пакет для направления в приложении Raqoon и установи профиль eSIM на разблокированном совместимом устройстве. Raqoon продаёт предоплаченный travel eSIM с мобильным интернетом — это не оператор связи, номера и голос/SMS не выдаются.",
+        "cta": "Скачать приложение"
+      },
+      {
+        "id": "coverage",
+        "span": "half",
+        "theme": "soft",
+        "frontKind": "headline",
+        "accent": "Покрытие.",
+        "headline": "Страны и пакеты.",
+        "detailTitle": "Страны и пакеты",
+        "detailBody": "Смотри направления и пакеты данных со сроком, типами сетей и ценами из живого каталога. Выбери то, что подходит для поездки.",
+        "cta": "Скачать приложение"
+      },
+      {
+        "id": "topup",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Пополнение.",
+        "headline": "Добавь трафик.",
+        "detailTitle": "Пополнение при необходимости",
+        "detailBody": "Многие пакеты поддерживают top-up — можно добавить данные без новой SIM. Доступность зависит от пакета.",
+        "cta": "Скачать приложение"
+      },
+      {
+        "id": "networks",
+        "span": "half",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Сети.",
+        "headline": "4G / 5G.",
+        "detailTitle": "Современные сети",
+        "detailBody": "В пакетах указаны типы сетей, например 4G и 5G. Скорость зависит от местных партнёров и покрытия.",
+        "cta": "Скачать приложение"
+      },
+      {
+        "id": "no-plastic",
+        "span": "half",
+        "theme": "light",
+        "frontKind": "headline",
+        "accent": "Без пластика.",
+        "headline": "Цифровая SIM.",
+        "detailTitle": "Без физической SIM",
+        "detailBody": "Без киосков в аэропорту и крошечных лотков. Активируй цифрово и оставайся на связи для карт, чатов и оплаты.",
+        "cta": "Скачать приложение"
+      },
+      {
+        "id": "fair-price",
+        "span": "full",
+        "theme": "dark",
+        "frontKind": "headline",
+        "accent": "Цены каталога.",
+        "headline": "Без сюрпризов на витрине.",
+        "detailTitle": "Информационные цены",
+        "detailBody": "Цены на этой странице берутся из публичного каталога для твоего рынка. Итоговая сумма подтверждается при покупке в приложении.",
+        "cta": "Скачать приложение"
+      }
+    ],
+    "pricing": {
+      "title": "Тарифы и цены",
+      "loading": "Загрузка цен…",
+      "unavailable": "Цены временно недоступны.",
+      "stale": "Цены могут быть устаревшими — пытаемся обновить.",
+      "updatedBanner": "Цены обновились — обновите страницу",
+      "refresh": "Обновить",
+      "marketLabel": "Рынок",
+      "searchCountry": "Поиск страны",
+      "data": "Данные",
+      "days": "{{count}} дн.",
+      "networks": "Сети",
+      "topUpYes": "Есть пополнение",
+      "buyCta": "Купить в приложении",
+      "priceDisclaimer": "Цены информационные; итоговая сумма при оформлении в приложении."
+    },
+    "final": {
+      "headline": "Подключись до вылета.",
+      "body": "Скачай Raqoon, выбери пакет и установи eSIM за минуты.",
+      "cta": "Скачать приложение",
+      "disclaimer": "Raqoon — розничный продавец предоплаченных travel eSIM с мобильным интернетом. Не оператор мобильной сети. Подробнее — в условиях и политике eSIM."
     }
   }
 }

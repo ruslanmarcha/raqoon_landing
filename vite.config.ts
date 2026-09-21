@@ -18,6 +18,7 @@ const SEO_ROUTES: { path: string; priority: string; changefreq: string }[] = [
   { path: '/esim/terms', priority: '0.5', changefreq: 'yearly' },
   { path: '/esim/refund', priority: '0.5', changefreq: 'yearly' },
   { path: '/rosvpn', priority: '0.55', changefreq: 'monthly' },
+  { path: '/esim', priority: '0.8', changefreq: 'weekly' },
 ]
 
 export default defineConfig(({ mode }) => {

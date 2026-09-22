@@ -326,8 +326,12 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
                   </div>
                   <div className={styles.packageSide}>
                     <p className={styles.price}>{price}</p>
-                    <Link to={purchaseHref} className={styles.buyLink}>
-                      {t('esimPage.pricing.buyCta')}
+                    <Link
+                      to={purchaseHref}
+                      className={styles.buyLink}
+                      aria-label={String(t('esimPage.pricing.buyCta'))}
+                    >
+                      <span aria-hidden="true">→</span>
                     </Link>
                   </div>
                 </li>

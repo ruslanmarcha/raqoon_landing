@@ -131,7 +131,6 @@ export function EsimPage() {
                       ? styles.tileSoft
                       : styles.tileLight
                 const spanClass = tile.span === 'full' ? styles.tileFull : styles.tileHalf
-                const isHalfAccent = tile.span === 'half'
 
                 return (
                   <article
@@ -143,11 +142,7 @@ export function EsimPage() {
                     <div className={styles.scene}>
                       <div className={`${styles.face} ${styles.faceFront}`}>
                         <div className={styles.facePad}>
-                          <h2
-                            className={`${styles.tileHeadline} ${
-                              isHalfAccent ? styles.feeHeadline : ''
-                            }`}
-                          >
+                          <h2 className={`${styles.tileHeadline} ${styles.feeHeadline}`}>
                             {tile.accent ? (
                               <>
                                 <span className={styles.gradText}>{tile.accent}</span>

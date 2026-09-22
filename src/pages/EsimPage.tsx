@@ -5,7 +5,8 @@ import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
 import { EsimPricingCatalog } from '../components/EsimPricing/EsimPricingCatalog'
-import styles from './WalletPage.module.css'
+import home from './HomePage.module.css'
+import wallet from './WalletPage.module.css'
 import local from './EsimPage.module.css'
 
 type TileSpan = 'full' | 'half'
@@ -15,18 +16,20 @@ type GalleryTile = {
   id: string
   span: TileSpan
   theme: TileTheme
-  frontKind: 'headline'
-  headline: string
   accent?: string
+  headline: string
   sub?: string
   detailTitle: string
   detailBody: string
+  benefits?: string[]
   cta?: string
+  href?: string
+  display?: boolean
 }
 
 const ESIM_HERO_SRC = '/home-esim-phone.png'
 const START_ICON = '/wallet-app-icon.png'
-const PURCHASE_CTA = '/download'
+const DOWNLOAD_HREF = '/download'
 
 function asArray<T>(v: unknown): T[] {
   return Array.isArray(v) ? (v as T[]) : []
@@ -60,6 +63,49 @@ function CloseIcon() {
   )
 }
 
+function TileCta({
+  tile,
+  onClick,
+}: {
+  tile: GalleryTile
+  onClick: (e: ReactMouseEvent) => void
+}) {
+  if (!tile.href) return null
+  const label = tile.cta || 'Download'
+  const content = (
+    <>
+      <span className={home.srOnly}>{label}</span>
+      <span aria-hidden="true">→</span>
+    </>
+  )
+  if (tile.href.startsWith('http')) {
+    return (
+      <a
+        href={tile.href}
+        className={home.downloadBtn}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={label}
+        onClick={onClick}
+      >
+        {content}
+      </a>
+    )
+  }
+  if (tile.href.startsWith('#')) {
+    return (
+      <a href={tile.href} className={home.downloadBtn} aria-label={label} onClick={onClick}>
+        {content}
+      </a>
+    )
+  }
+  return (
+    <Link to={tile.href} className={home.downloadBtn} aria-label={label} onClick={onClick}>
+      {content}
+    </Link>
+  )
+}
+
 export function EsimPage() {
   const { t, i18n } = useTranslation()
   const { hash } = useLocation()
@@ -83,32 +129,32 @@ export function EsimPage() {
   }, [hash])
 
   const toggle = (id: string) => setOpenId((cur) => (cur === id ? null : id))
-
-  const onTileCtaClick = (e: ReactMouseEvent) => {
-    e.stopPropagation()
-  }
+  const stop = (e: ReactMouseEvent) => e.stopPropagation()
 
   return (
     <>
       <SEOHead variant={variant} page="esim" />
       <Header />
 
-      <main className={styles.page}>
-        <section id="top" className={styles.hero}>
-          <div className={styles.wrap}>
-            <p className={styles.heroBrand}>{t('esimPage.brand')}</p>
-            <h1 className={styles.heroHeadline}>
-              <Lines text={String(t('esimPage.hero.headline'))} className={styles.blockLine} />
+      <main className={home.page}>
+        <section id="top" className={wallet.hero}>
+          <div className={wallet.wrap}>
+            <p className={wallet.heroBrand}>{t('esimPage.brand')}</p>
+            <h1 className={wallet.heroHeadline}>
+              <Lines text={String(t('esimPage.hero.headline'))} className={wallet.blockLine} />
             </h1>
-            <Link to={PURCHASE_CTA} className={`${styles.btnDark} ${local.ctaLink} ${local.ctaAccent}`}>
+            <Link
+              to={DOWNLOAD_HREF}
+              className={`${wallet.btnDark} ${local.ctaLink} ${local.ctaAccent}`}
+            >
               {t('esimPage.hero.cta')}
             </Link>
           </div>
         </section>
 
-        <section id="overview" className={styles.intro}>
-          <div className={styles.wrap}>
-            <div className={`${styles.introMedia} ${local.introMedia}`}>
+        <section id="overview" className={wallet.intro}>
+          <div className={wallet.wrap}>
+            <div className={`${wallet.introMedia} ${local.introMedia}`}>
               <img
                 src={ESIM_HERO_SRC}
                 alt={String(t('esimPage.brand'))}
@@ -119,83 +165,98 @@ export function EsimPage() {
           </div>
         </section>
 
-        <section id="gallery" className={styles.gallery}>
-          <div className={styles.galleryWrap}>
-            <div className={styles.tiles}>
+        <section id="gallery" className={home.gallery}>
+          <div className={home.galleryWrap}>
+            <div className={home.tiles}>
               {tiles.map((tile) => {
                 const open = openId === tile.id
                 const themeClass =
                   tile.theme === 'dark'
-                    ? styles.tileDark
+                    ? home.tileDark
                     : tile.theme === 'soft'
-                      ? styles.tileSoft
-                      : styles.tileLight
-                const spanClass = tile.span === 'full' ? styles.tileFull : styles.tileHalf
+                      ? home.tileSoft
+                      : home.tileLight
+                const spanClass = tile.span === 'full' ? home.tileFull : home.tileHalf
+                const headlineClass = [
+                  home.tileHeadline,
+                  tile.display ? home.displayHeadline : home.feeHeadline,
+                ].join(' ')
+                const benefits = Array.isArray(tile.benefits) ? tile.benefits : []
 
                 return (
                   <article
                     key={tile.id}
-                    className={`${styles.tile} ${spanClass} ${themeClass} ${open ? styles.tileOpen : ''}`}
+                    className={`${home.tile} ${home.tileFlip} ${spanClass} ${themeClass} ${
+                      open ? home.tileOpen : ''
+                    }`}
                     onClick={() => toggle(tile.id)}
                     role="presentation"
                   >
-                    <div className={styles.scene}>
-                      <div className={`${styles.face} ${styles.faceFront}`}>
-                        <div className={styles.facePad}>
-                          <h2 className={`${styles.tileHeadline} ${styles.feeHeadline}`}>
+                    <div className={home.scene}>
+                      <div className={`${home.face} ${home.faceFront}`}>
+                        <div
+                          className={`${home.facePad} ${tile.display ? home.privacyFace : ''}`}
+                        >
+                          <h2 className={headlineClass}>
                             {tile.accent ? (
                               <>
-                                <span className={styles.gradText}>{tile.accent}</span>
+                                <span className={home.gradText}>{tile.accent}</span>
                                 {tile.headline ? (
-                                  <>
-                                    {'\n'}
-                                    <Lines text={tile.headline} className={styles.blockLine} />
-                                  </>
+                                  <Lines text={tile.headline} className={home.blockLine} />
                                 ) : null}
                               </>
                             ) : (
-                              <Lines text={tile.headline} className={styles.blockLine} />
+                              <Lines text={tile.headline} className={home.blockLine} />
                             )}
                           </h2>
                           {tile.sub ? (
-                            <p className={`${styles.tileSub} ${styles.privacySub}`}>{tile.sub}</p>
+                            <p
+                              className={`${home.tileSub} ${
+                                tile.display ? home.tileSubDisplay : ''
+                              }`}
+                            >
+                              {tile.sub}
+                            </p>
                           ) : null}
                         </div>
                       </div>
 
-                      <div className={`${styles.face} ${styles.faceBack}`}>
-                        <div className={styles.backPad}>
-                          <h3 className={styles.backTitle}>{tile.detailTitle}</h3>
-                          <p className={styles.backBody}>{tile.detailBody}</p>
-                          {tile.cta ? (
-                            <Link
-                              to={PURCHASE_CTA}
-                              className={`${styles.btnDark} ${local.ctaLink}`}
-                              onClick={onTileCtaClick}
-                            >
-                              {tile.cta}
-                            </Link>
+                      <div className={`${home.face} ${home.faceBack}`}>
+                        <div className={home.backPad}>
+                          <h3 className={home.backTitle}>{tile.detailTitle}</h3>
+                          {tile.detailBody ? (
+                            <p className={home.backBody}>{tile.detailBody}</p>
+                          ) : null}
+                          {benefits.length > 0 ? (
+                            <ul className={home.benefits}>
+                              {benefits.map((item) => (
+                                <li key={item}>{item}</li>
+                              ))}
+                            </ul>
                           ) : null}
                         </div>
                       </div>
                     </div>
 
-                    <button
-                      type="button"
-                      className={`${styles.toggle} ${open ? styles.toggleClose : ''}`}
-                      aria-expanded={open}
-                      aria-label={
-                        open
-                          ? String(t('esimPage.closeTile'))
-                          : String(t('esimPage.openTile', { title: tile.detailTitle }))
-                      }
-                      onClick={(e) => {
-                        e.stopPropagation()
-                        toggle(tile.id)
-                      }}
-                    >
-                      {open ? <CloseIcon /> : <PlusIcon />}
-                    </button>
+                    <div className={home.cornerActions}>
+                      <TileCta tile={tile} onClick={stop} />
+                      <button
+                        type="button"
+                        className={`${home.toggle} ${open ? home.toggleClose : ''}`}
+                        aria-expanded={open}
+                        aria-label={
+                          open
+                            ? String(t('esimPage.closeTile'))
+                            : String(t('esimPage.openTile', { title: tile.detailTitle }))
+                        }
+                        onClick={(e) => {
+                          e.stopPropagation()
+                          toggle(tile.id)
+                        }}
+                      >
+                        {open ? <CloseIcon /> : <PlusIcon />}
+                      </button>
+                    </div>
                   </article>
                 )
               })}
@@ -204,24 +265,24 @@ export function EsimPage() {
         </section>
 
         <section id="pricing" className={local.pricing}>
-          <div className={styles.wrap}>
+          <div className={wallet.wrap}>
             <h2 className={local.pricingTitle}>{t('esimPage.pricing.title')}</h2>
-            <EsimPricingCatalog purchaseHref={PURCHASE_CTA} />
+            <EsimPricingCatalog purchaseHref={DOWNLOAD_HREF} />
           </div>
         </section>
 
-        <section className={styles.start}>
-          <div className={styles.wrap}>
+        <section className={home.start}>
+          <div className={home.wrap}>
             <img
               src={START_ICON}
               alt="Raqoon"
               width={80}
               height={80}
-              className={styles.startIcon}
+              className={home.startIcon}
             />
-            <h2 className={styles.startTitle}>{t('esimPage.final.headline')}</h2>
-            <p className={styles.startBody}>{t('esimPage.final.body')}</p>
-            <Link to={PURCHASE_CTA} className={`${styles.btnLight} ${local.ctaLink}`}>
+            <h2 className={home.startTitle}>{t('esimPage.final.headline')}</h2>
+            <p className={home.startBody}>{t('esimPage.final.body')}</p>
+            <Link to={DOWNLOAD_HREF} className={`${home.btnLight} ${local.ctaLink}`}>
               {t('esimPage.final.cta')}
             </Link>
             <p className={local.finalDisclaimer}>{t('esimPage.final.disclaimer')}</p>

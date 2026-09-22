@@ -504,76 +504,92 @@
     "openTile": "Open: {{title}}",
     "closeTile": "Close",
     "hero": {
-      "headline": "Mobile data\nfor your trip.",
+      "headline": "Cheaper than roaming.\nEasier than a kiosk.",
       "cta": "Download the app"
     },
     "tiles": [
       {
-        "id": "install",
+        "id": "cheaper",
         "span": "full",
         "theme": "light",
-        "frontKind": "headline",
-        "accent": "In the app.",
-        "headline": "Install eSIM.",
-        "sub": "Buy and set up travel data without a plastic SIM.",
-        "detailTitle": "Install in Raqoon",
-        "detailBody": "Choose a destination package in the Raqoon app, then install the eSIM profile on a compatible unlocked device. Raqoon sells prepaid travel eSIM data — it is not a mobile carrier and does not issue phone numbers or voice/SMS.",
-        "cta": "Download the app"
+        "display": true,
+        "accent": "2× cheaper.",
+        "headline": "Than popular apps.",
+        "detailTitle": "Honest price",
+        "detailBody": "Raqoon travel eSIM is at least twice as cheap as popular alternatives. No roaming surprises — see the pack and price before you buy.",
+        "benefits": [
+          "At least 2× cheaper than popular travel eSIMs",
+          "Live catalog prices on this page",
+          "Buy straight away — no trial tricks"
+        ],
+        "cta": "See plans",
+        "href": "#pricing"
+      },
+      {
+        "id": "pay",
+        "span": "half",
+        "theme": "soft",
+        "accent": "Pay.",
+        "headline": "Card & Apple Pay.",
+        "detailTitle": "Pay in the app",
+        "detailBody": "Checkout in the Raqoon app with card or Apple Pay. Fast, familiar, no airport kiosk cash.",
+        "benefits": [
+          "Card in the Raqoon app",
+          "Apple Pay where available",
+          "Built for travelers and nomads"
+        ],
+        "cta": "Download",
+        "href": "/download"
+      },
+      {
+        "id": "minute",
+        "span": "half",
+        "theme": "light",
+        "accent": "1 minute.",
+        "headline": "You're online.",
+        "detailTitle": "Before you fly",
+        "detailBody": "Buy ahead and install the eSIM in the Raqoon app on a compatible unlocked phone. After landing — online in about a minute.",
+        "benefits": [
+          "Install in the Raqoon app",
+          "Buy before departure",
+          "Dual SIM if your phone allows it",
+          "Unlocked + eSIM-capable device required"
+        ],
+        "cta": "Download",
+        "href": "/download"
       },
       {
         "id": "coverage",
         "span": "half",
-        "theme": "soft",
-        "frontKind": "headline",
-        "accent": "Coverage.",
-        "headline": "Countries & packs.",
-        "detailTitle": "Countries and packages",
-        "detailBody": "Browse destinations and data packages with duration, network types, and live catalog prices. Pick what fits your trip.",
-        "cta": "Download the app"
+        "theme": "dark",
+        "accent": "~200.",
+        "headline": "Destinations.",
+        "detailTitle": "Countries & packs",
+        "detailBody": "Country packs only for now. Browse data, days, and networks in the live catalog. Popular picks: Turkey, Greece, Thailand, Georgia, Cyprus, Armenia.",
+        "benefits": [
+          "About 200 destinations",
+          "Country packs only",
+          "Live prices below"
+        ],
+        "cta": "See plans",
+        "href": "#pricing"
       },
       {
-        "id": "topup",
+        "id": "honest",
         "span": "half",
         "theme": "light",
-        "frontKind": "headline",
-        "accent": "Top-up.",
-        "headline": "Add more data.",
-        "detailTitle": "Top-up when needed",
-        "detailBody": "Many packages support top-up so you can add data without buying a new SIM. Availability depends on the package.",
-        "cta": "Download the app"
-      },
-      {
-        "id": "networks",
-        "span": "half",
-        "theme": "dark",
-        "frontKind": "headline",
-        "accent": "Networks.",
-        "headline": "4G / 5G.",
-        "detailTitle": "Modern networks",
-        "detailBody": "Packages list supported network types such as 4G and 5G. Actual speed depends on local partners and coverage.",
-        "cta": "Download the app"
-      },
-      {
-        "id": "no-plastic",
-        "span": "half",
-        "theme": "light",
-        "frontKind": "headline",
-        "accent": "No plastic.",
-        "headline": "Digital SIM.",
-        "detailTitle": "No physical SIM",
-        "detailBody": "Skip airport kiosks and tiny trays. Activate digitally and stay online for maps, chats, and payments.",
-        "cta": "Download the app"
-      },
-      {
-        "id": "fair-price",
-        "span": "full",
-        "theme": "dark",
-        "frontKind": "headline",
-        "accent": "Catalog prices.",
-        "headline": "Clear on the shelf.",
-        "detailTitle": "Informational pricing",
-        "detailBody": "Prices on this page come from the live public catalog for your market. The final amount is confirmed when you purchase in the app.",
-        "cta": "Download the app"
+        "accent": "Honest.",
+        "headline": "GB packs.",
+        "detailTitle": "No fluff",
+        "detailBody": "Fixed GB and days — what you see is what you get. Unused data expires. 5G where partners have it; otherwise 4G. Local-network speeds. Top-up on most packs.",
+        "benefits": [
+          "Packs like 5 / 10 / 20 GB",
+          "Durations like 7 / 15 / 30 days",
+          "Top-up on most packages",
+          "Data only — no number or voice"
+        ],
+        "cta": "Download",
+        "href": "/download"
       }
     ],
     "pricing": {
@@ -590,11 +606,11 @@
       "networks": "Networks",
       "topUpYes": "Top-up available",
       "buyCta": "Buy in the app",
-      "priceDisclaimer": "Prices are informational; the final amount is confirmed at checkout in the app."
+      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app."
     },
     "final": {
       "headline": "Get connected before you fly.",
-      "body": "Download Raqoon, pick a package, and install your eSIM in minutes.",
+      "body": "Download Raqoon, pick a pack, and install your eSIM in about a minute.",
       "cta": "Download the app",
       "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
     }

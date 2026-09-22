@@ -504,7 +504,7 @@
     "openTile": "Open: {{title}}",
     "closeTile": "Close",
     "hero": {
-      "headline": "Cheaper than roaming.\nEasier than a kiosk.",
+      "headline": "Online in a minute.\nHalf the price.",
       "cta": "Download the app"
     },
     "tiles": [
@@ -530,7 +530,7 @@
         "span": "half",
         "theme": "soft",
         "accent": "Pay.",
-        "headline": "Card & Apple Pay.",
+        "headline": "Card & {{apple}} Pay.",
         "detailTitle": "Pay in the app",
         "detailBody": "Checkout in the Raqoon app with card or Apple Pay. Fast, familiar, no airport kiosk cash.",
         "benefits": [

@@ -46,6 +46,12 @@
   color: var(--color-bg);
 }
 
+.appleMark {
+  display: inline-block;
+  vertical-align: -0.12em;
+  margin-inline: 0.06em 0.02em;
+}
+
 @media (max-width: 519px) {
   .introMedia img {
     width: min(64%, 220px);

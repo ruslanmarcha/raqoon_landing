@@ -47,6 +47,46 @@ function Lines({ text, className }: { text: string; className?: string }) {
   )
 }
 
+function AppleLogo({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 14 17"
+      width="0.72em"
+      height="0.88em"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path
+        fill="currentColor"
+        d="M11.73 9.05c-.02-1.99 1.63-2.95 1.7-3-.96-1.4-2.45-1.59-2.98-1.61-1.27-.13-2.48.75-3.12.75-.65 0-1.64-.73-2.7-.71-1.39.02-2.67.81-3.38 2.05-1.45 2.51-.37 6.22 1.04 8.25.69.99 1.51 2.1 2.59 2.06 1.04-.04 1.43-.67 2.69-.67 1.25 0 1.61.67 2.71.65 1.12-.02 1.83-1.01 2.51-2.01.79-1.15 1.12-2.26 1.14-2.32-.02-.01-2.18-.84-2.2-3.44zM9.62 2.91c.57-.69.96-1.65.85-2.61-.82.03-1.82.55-2.41 1.24-.53.61-.99 1.59-.87 2.52.92.07 1.86-.47 2.43-1.15z"
+      />
+    </svg>
+  )
+}
+
+/** Renders tile lines; `{{apple}}` becomes the Apple mark. */
+function RichLines({ text, className }: { text: string; className?: string }) {
+  return (
+    <>
+      {text.split('\n').map((line) => {
+        const parts = line.split(/(\{\{apple\}\})/g)
+        return (
+          <span key={line} className={className}>
+            {parts.map((part, i) =>
+              part === '{{apple}}' ? (
+                <AppleLogo key={`apple-${i}`} className={local.appleMark} />
+              ) : (
+                <span key={`t-${i}`}>{part}</span>
+              ),
+            )}
+          </span>
+        )
+      })}
+    </>
+  )
+}
+
 function PlusIcon() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
@@ -202,11 +242,11 @@ export function EsimPage() {
                               <>
                                 <span className={home.gradText}>{tile.accent}</span>
                                 {tile.headline ? (
-                                  <Lines text={tile.headline} className={home.blockLine} />
+                                  <RichLines text={tile.headline} className={home.blockLine} />
                                 ) : null}
                               </>
                             ) : (
-                              <Lines text={tile.headline} className={home.blockLine} />
+                              <RichLines text={tile.headline} className={home.blockLine} />
                             )}
                           </h2>
                           {tile.sub ? (

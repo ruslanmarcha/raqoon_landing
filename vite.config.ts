@@ -58,6 +58,48 @@ export default defineConfig(({ mode }) => {
             res.setHeader('Content-Type', 'application/json')
             res.end(JSON.stringify({ countryCode: 'RU', isEUUser: false }))
           })
+
+          // Mirror production api/esim-pricing.ts for local /esim catalog
+          const pricingUpstream =
+            env.ESIM_PRICING_UPSTREAM_URL?.trim() ||
+            'https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing'
+          server.middlewares.use('/api/esim-pricing', async (req, res) => {
+            try {
+              const headers: Record<string, string> = { Accept: 'application/json' }
+              const inm = req.headers['if-none-match']
+              if (typeof inm === 'string' && inm) headers['If-None-Match'] = inm
+
+              const upstream = await fetch(pricingUpstream, {
+                method: 'GET',
+                headers,
+                signal: AbortSignal.timeout(10_000),
+              })
+
+              const etag = upstream.headers.get('etag')
+              if (etag) res.setHeader('ETag', etag)
+              const cacheControl = upstream.headers.get('cache-control')
+              if (cacheControl) res.setHeader('Cache-Control', cacheControl)
+              res.setHeader(
+                'Content-Type',
+                upstream.headers.get('content-type') || 'application/json',
+              )
+              res.statusCode = upstream.status
+              if (upstream.status === 304) {
+                res.end()
+                return
+              }
+              res.end(Buffer.from(await upstream.arrayBuffer()))
+            } catch {
+              res.statusCode = 503
+              res.setHeader('Content-Type', 'application/json')
+              res.setHeader('Cache-Control', 'no-store')
+              res.end(
+                JSON.stringify({
+                  error: { code: 'CATALOG_UNAVAILABLE', message: 'Upstream pricing unavailable' },
+                }),
+              )
+            }
+          })
         },
       },
       ...(mode === 'production'

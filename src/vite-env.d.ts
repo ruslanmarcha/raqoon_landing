@@ -17,8 +17,8 @@ interface ImportMetaEnv {
   readonly VITE_CLIENT_PORTAL_URL?: string
   /**
    * Public eSIM pricing catalog URL.
-   * Default: https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing
-   * CORS allows https://raqoon.app by default — localhost/www need backend allow-list.
+   * Default: `/api/esim-pricing` (same-origin proxy). Direct upstream only works
+   * from CORS-allowed origins (https://raqoon.app by default).
    */
   readonly VITE_ESIM_PRICING_URL?: string
 }

@@ -100,7 +100,7 @@ export function EsimPage() {
             <h1 className={styles.heroHeadline}>
               <Lines text={String(t('esimPage.hero.headline'))} className={styles.blockLine} />
             </h1>
-            <Link to={PURCHASE_CTA} className={`${styles.btnDark} ${local.ctaLink}`}>
+            <Link to={PURCHASE_CTA} className={`${styles.btnDark} ${local.ctaLink} ${local.ctaAccent}`}>
               {t('esimPage.hero.cta')}
             </Link>
           </div>
@@ -112,7 +112,7 @@ export function EsimPage() {
               <img
                 src={ESIM_HERO_SRC}
                 alt={String(t('esimPage.brand'))}
-                width={1024}
+                width={761}
                 height={1024}
               />
             </div>

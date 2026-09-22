@@ -102,7 +102,9 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
   if (pricing.status === 'loading' || pricing.status === 'idle') {
     return (
       <div className={styles.root} aria-busy="true">
-        <p className={styles.status}>{t('esimPage.pricing.loading')}</p>
+        <div className={styles.panel}>
+          <p className={styles.status}>{t('esimPage.pricing.loading')}</p>
+        </div>
       </div>
     )
   }
@@ -110,7 +112,9 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
   if (pricing.status === 'error' || !catalog || !market || countries.length === 0) {
     return (
       <div className={styles.root}>
-        <p className={styles.status}>{t('esimPage.pricing.unavailable')}</p>
+        <div className={styles.panel}>
+          <p className={styles.status}>{t('esimPage.pricing.unavailable')}</p>
+        </div>
       </div>
     )
   }
@@ -128,38 +132,38 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
 
       {pricing.stale ? <p className={styles.stale}>{t('esimPage.pricing.stale')}</p> : null}
 
-      {catalog.markets.length > 1 ? (
-        <label className={styles.marketRow}>
-          <span className={styles.fieldLabel}>{t('esimPage.pricing.marketLabel')}</span>
-          <select
-            className={styles.select}
-            value={market.customerCountry}
-            onChange={(e) => {
-              setMarketCode(e.target.value)
-              setSelectedCountry(null)
-            }}
-          >
-            {catalog.markets.map((m) => (
-              <option key={m.customerCountry} value={m.customerCountry}>
-                {m.customerCountry} · {m.currency}
-              </option>
-            ))}
-          </select>
+      <div className={styles.panel}>
+        {catalog.markets.length > 1 ? (
+          <label className={styles.marketRow}>
+            <span className={styles.fieldLabel}>{t('esimPage.pricing.marketLabel')}</span>
+            <select
+              className={styles.select}
+              value={market.customerCountry}
+              onChange={(e) => {
+                setMarketCode(e.target.value)
+                setSelectedCountry(null)
+              }}
+            >
+              {catalog.markets.map((m) => (
+                <option key={m.customerCountry} value={m.customerCountry}>
+                  {m.customerCountry} · {m.currency}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : null}
+
+        <label className={styles.searchRow}>
+          <span className={styles.visuallyHidden}>{t('esimPage.pricing.searchCountry')}</span>
+          <input
+            className={styles.search}
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={String(t('esimPage.pricing.searchCountry'))}
+          />
         </label>
-      ) : null}
 
-      <label className={styles.searchRow}>
-        <span className={styles.visuallyHidden}>{t('esimPage.pricing.searchCountry')}</span>
-        <input
-          className={styles.search}
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder={String(t('esimPage.pricing.searchCountry'))}
-        />
-      </label>
-
-      <div className={styles.layout}>
         <ul className={styles.countryList} role="listbox" aria-label={t('esimPage.pricing.searchCountry')}>
           {filteredCountries.map((c) => {
             const active = c.code === activeCountry

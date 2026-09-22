@@ -1,31 +1,58 @@
+/* eSIM-only overrides on top of WalletPage.module.css — keep typography/tokens shared. */
+
 .introMedia img {
-  width: 100%;
+  /* Override wallet 40% square hero — phone art is portrait */
+  width: min(56%, 280px);
+  max-width: min(56%, 280px);
   height: auto;
   display: block;
+  object-fit: contain;
+  object-position: bottom center;
 }
 
 .pricing {
-  padding: var(--space-12) 0 var(--space-10);
+  padding: var(--space-6) 0 var(--space-12);
+  scroll-margin-top: 56px;
 }
 
 .pricingTitle {
-  margin: 0 0 var(--space-6);
+  margin: 0 auto var(--space-6);
+  max-width: 16ch;
   text-align: center;
-  font-size: clamp(28px, 5vw, 40px);
+  font-size: 32px;
   font-weight: var(--font-semibold);
   letter-spacing: -0.03em;
-  line-height: 1.15;
+  line-height: 1.1;
   color: var(--color-text);
+  font-family: var(--font-sans);
 }
 
 .finalDisclaimer {
   margin: var(--space-4) 0 0;
   color: var(--color-text-secondary);
   font-size: 13px;
+  font-weight: var(--font-medium);
   line-height: 1.45;
   text-align: center;
 }
 
 .ctaLink {
   text-decoration: none;
+}
+
+/* Hero CTA: wallet uses white primary; product pages use accent for download on eSIM */
+.ctaAccent {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+@media (max-width: 519px) {
+  .introMedia img {
+    width: min(64%, 220px);
+    max-width: min(64%, 220px);
+  }
+
+  .pricingTitle {
+    font-size: 28px;
+  }
 }

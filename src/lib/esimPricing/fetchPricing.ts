@@ -1,7 +1,7 @@
 import type { Pricing, PricingResult } from './types'
 
-export const DEFAULT_ESIM_PRICING_URL =
-  'https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing'
+/** Same-origin proxy (api/esim-pricing.ts) — avoids CORS on www/localhost/previews. */
+export const DEFAULT_ESIM_PRICING_URL = '/api/esim-pricing'
 
 export function getEsimPricingUrl(): string {
   const fromEnv = import.meta.env.VITE_ESIM_PRICING_URL?.trim()

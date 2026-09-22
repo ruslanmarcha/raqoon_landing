@@ -12,9 +12,17 @@ import styles from './EsimPricingCatalog.module.css'
 
 const PURCHASE_HREF = '/download'
 
+/** Shown first in the country strip (marketing + common trips). */
+const POPULAR_DESTINATIONS = ['TR', 'GR', 'TH', 'GE', 'CY', 'AM'] as const
+
 type CountryOption = {
   code: string
   packages: Package[]
+}
+
+function popularRank(code: string): number {
+  const idx = POPULAR_DESTINATIONS.indexOf(code.toUpperCase() as (typeof POPULAR_DESTINATIONS)[number])
+  return idx === -1 ? POPULAR_DESTINATIONS.length : idx
 }
 
 function resolveMarket(markets: Market[], preferred: string | null): Market | null {
@@ -99,9 +107,11 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
         ),
       }))
       .filter((group) => group.packages.length > 0)
-      .sort((a, b) =>
-        countryLabel(a.code, locale).localeCompare(countryLabel(b.code, locale), locale),
-      )
+      .sort((a, b) => {
+        const byPopular = popularRank(a.code) - popularRank(b.code)
+        if (byPopular !== 0) return byPopular
+        return countryLabel(a.code, locale).localeCompare(countryLabel(b.code, locale), locale)
+      })
   }, [catalog, market, locale])
 
   const filteredCountries = useMemo(() => {

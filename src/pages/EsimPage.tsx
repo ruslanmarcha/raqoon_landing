@@ -157,7 +157,9 @@ export function EsimPage() {
                               <Lines text={tile.headline} className={styles.blockLine} />
                             )}
                           </h2>
-                          {tile.sub ? <p className={styles.tileSub}>{tile.sub}</p> : null}
+                          {tile.sub ? (
+                            <p className={`${styles.tileSub} ${styles.privacySub}`}>{tile.sub}</p>
+                          ) : null}
                         </div>
                       </div>
 

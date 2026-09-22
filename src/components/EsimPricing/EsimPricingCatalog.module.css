@@ -271,7 +271,7 @@
 .packageRow {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 12px 16px;
   padding: 18px 0;

@@ -515,12 +515,12 @@
         "display": true,
         "accent": "2× cheaper.",
         "headline": "Than popular apps.",
-        "detailTitle": "Honest price",
-        "detailBody": "Raqoon travel eSIM is at least twice as cheap as popular alternatives. No roaming surprises — see the pack and price before you buy.",
+        "detailTitle": "Half the price",
+        "detailBody": "Same travel data — at least twice as cheap as the usual apps. See the pack and the price before you pay. No carrier roaming bill waiting when you get home.",
         "benefits": [
           "At least 2× cheaper than popular travel eSIMs",
-          "Live catalog prices on this page",
-          "Buy straight away — no trial tricks"
+          "Live catalog prices — what you see is what you pay",
+          "Buy once. No trial bait, no fine-print games"
         ],
         "cta": "See plans",
         "href": "#pricing"
@@ -531,12 +531,12 @@
         "theme": "soft",
         "accent": "Pay.",
         "headline": "Card & {{apple}} Pay.",
-        "detailTitle": "Pay in the app",
-        "detailBody": "Checkout in the Raqoon app with card or Apple Pay. Fast, familiar, no airport kiosk cash.",
+        "detailTitle": "Pay your way",
+        "detailBody": "Card or Apple Pay in the Raqoon app — checkout in seconds. No airport kiosk, no cash scramble, no waiting for foreign-card approval.",
         "benefits": [
-          "Card in the Raqoon app",
-          "Apple Pay where available",
-          "Built for travelers and nomads"
+          "Card checkout in the app",
+          "Apple Pay where your phone supports it",
+          "Built for travelers who move fast"
         ],
         "cta": "Download",
         "href": "/download"
@@ -547,13 +547,13 @@
         "theme": "light",
         "accent": "1 minute.",
         "headline": "You're online.",
-        "detailTitle": "Before you fly",
-        "detailBody": "Buy ahead and install the eSIM in the Raqoon app on a compatible unlocked phone. After landing — online in about a minute.",
+        "detailTitle": "Ready before you land",
+        "detailBody": "Buy at home, install in the Raqoon app on an unlocked eSIM phone — after landing you’re online in about a minute. Keep your home number on the second line if Dual SIM.",
         "benefits": [
-          "Install in the Raqoon app",
-          "Buy before departure",
-          "Dual SIM if your phone allows it",
-          "Unlocked + eSIM-capable device required"
+          "Install in-app, connect on arrival",
+          "Buy before you fly",
+          "Dual SIM when your phone allows",
+          "Unlocked + eSIM-capable required"
         ],
         "cta": "Download",
         "href": "/download"
@@ -564,12 +564,12 @@
         "theme": "dark",
         "accent": "~200.",
         "headline": "Destinations.",
-        "detailTitle": "Countries & packs",
-        "detailBody": "Country packs only for now. Browse data, days, and networks in the live catalog. Popular picks: Turkey, Greece, Thailand, Georgia, Cyprus, Armenia.",
+        "detailTitle": "Wherever you go",
+        "detailBody": "About 200 countries and regions in one catalog — pick a destination, data, and days, see network and price. Turkey, Greece, Thailand, Georgia, Cyprus, and Armenia top the list.",
         "benefits": [
-          "About 200 destinations",
-          "Country packs only",
-          "Live prices below"
+          "~200 destinations, no carrier roaming",
+          "Country packs built for the trip",
+          "Live prices on this page"
         ],
         "cta": "See plans",
         "href": "#pricing"
@@ -580,13 +580,13 @@
         "theme": "light",
         "accent": "Honest.",
         "headline": "GB packs.",
-        "detailTitle": "No fluff",
-        "detailBody": "Fixed GB and days — what you see is what you get. Unused data expires. 5G where partners have it; otherwise 4G. Local-network speeds. Top-up on most packs.",
+        "detailTitle": "Clear packs",
+        "detailBody": "Fixed GB and days on the pack card — no fake unlimited. Unused data expires. 5G when the partner has it, otherwise 4G at local-network speed. Run out early? Top up on most packs.",
         "benefits": [
           "Packs like 5 / 10 / 20 GB",
           "Durations like 7 / 15 / 30 days",
-          "Top-up on most packages",
-          "Data only — no number or voice"
+          "Top-up when you need more",
+          "Data only — no number, no calls"
         ],
         "cta": "Download",
         "href": "/download"
@@ -606,7 +606,10 @@
       "networks": "Networks",
       "topUpYes": "Top-up available",
       "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app."
+      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
+      "filterDuration": "Validity",
+      "filterData": "Data volume",
+      "noMatchingPlans": "No packs match these filters"
     },
     "final": {
       "headline": "Get connected before you fly.",

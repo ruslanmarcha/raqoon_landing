@@ -134,9 +134,9 @@
         "span": "full",
         "theme": "dark",
         "display": true,
-        "accent": "eSIM.",
-        "headline": "เชื่อมต่อระหว่างเดินทาง",
-        "sub": "เน็ตท่องเที่ยวโดยไม่ยุ่งยาก",
+        "accent": "Your eSIM.",
+        "headline": "Around the world.",
+        "sub": "Travel data without the usual hassle.",
         "visual": "/home-esim-phone.png",
         "href": "/esim"
       }

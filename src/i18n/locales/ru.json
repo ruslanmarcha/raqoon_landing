@@ -192,8 +192,8 @@
         "span": "full",
         "theme": "dark",
         "display": true,
-        "accent": "eSIM.",
-        "headline": "Связь в поездках.",
+        "accent": "Твоя eSIM.",
+        "headline": "В поездках по миру.",
         "sub": "Связь без лишней возни.",
         "visual": "/home-esim-phone.png",
         "href": "/esim"

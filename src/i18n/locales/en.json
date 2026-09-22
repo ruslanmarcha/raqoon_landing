@@ -148,8 +148,8 @@
         "span": "full",
         "theme": "dark",
         "display": true,
-        "accent": "eSIM.",
-        "headline": "Stay connected.",
+        "accent": "Your eSIM.",
+        "headline": "Around the world.",
         "sub": "Travel data without the usual hassle.",
         "visual": "/home-esim-phone.png",
         "href": "/esim"

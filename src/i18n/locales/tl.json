@@ -134,9 +134,9 @@
         "span": "full",
         "theme": "dark",
         "display": true,
-        "accent": "eSIM.",
-        "headline": "Manatiling connected.",
-        "sub": "Travel data nang walang karaniwang abala.",
+        "accent": "Your eSIM.",
+        "headline": "Around the world.",
+        "sub": "Travel data without the usual hassle.",
         "visual": "/home-esim-phone.png",
         "href": "/esim"
       }

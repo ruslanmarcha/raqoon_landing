@@ -134,9 +134,9 @@
         "span": "full",
         "theme": "dark",
         "display": true,
-        "accent": "eSIM.",
-        "headline": "ابقَ متصلاً.",
-        "sub": "بيانات السفر دون المتاعب المعتادة.",
+        "accent": "Your eSIM.",
+        "headline": "Around the world.",
+        "sub": "Travel data without the usual hassle.",
         "visual": "/home-esim-phone.png",
         "href": "/esim"
       }

@@ -8,6 +8,7 @@ import { formatDataBytes } from '../../lib/esimPricing/formatDataBytes'
 import { formatPrice } from '../../lib/esimPricing/formatPrice'
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
 import type { Market, Package } from '../../lib/esimPricing/types'
+import { EsimPlanSelector } from './EsimPlanSelector'
 import styles from './EsimPricingCatalog.module.css'
 
 const PURCHASE_HREF = '/download'
@@ -253,53 +254,23 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
 
         {durationOptions.length > 0 ? (
           <div className={styles.filters}>
-            <label className={`${styles.filter} ${styles.filterDuration}`}>
-              <span className={styles.filterHead}>
-                <span className={styles.fieldLabel}>{t('esimPage.pricing.filterDuration')}</span>
-                <span className={styles.filterValue}>
-                  {t('esimPage.pricing.days', { count: activeDuration ?? durationOptions[0] })}
-                </span>
-              </span>
-              <input
-                className={styles.slider}
-                type="range"
-                min={0}
-                max={Math.max(0, durationOptions.length - 1)}
-                step={1}
-                value={durationIndex}
-                disabled={durationOptions.length < 2}
-                onChange={(e) => {
-                  const next = durationOptions[Number(e.target.value)]
-                  setDurationPref(next)
-                  setDataPref(null)
-                }}
-                aria-valuetext={String(
-                  t('esimPage.pricing.days', { count: activeDuration ?? durationOptions[0] }),
-                )}
-              />
-            </label>
-
-            {dataOptions.length > 0 ? (
-              <label className={`${styles.filter} ${styles.filterData}`}>
-                <span className={styles.filterHead}>
-                  <span className={styles.fieldLabel}>{t('esimPage.pricing.filterData')}</span>
-                  <span className={styles.filterValue}>
-                    {formatDataBytes(activeData ?? dataOptions[0], locale)}
-                  </span>
-                </span>
-                <input
-                  className={styles.slider}
-                  type="range"
-                  min={0}
-                  max={Math.max(0, dataOptions.length - 1)}
-                  step={1}
-                  value={dataIndex}
-                  disabled={dataOptions.length < 2}
-                  onChange={(e) => setDataPref(dataOptions[Number(e.target.value)])}
-                  aria-valuetext={formatDataBytes(activeData ?? dataOptions[0], locale)}
-                />
-              </label>
-            ) : null}
+            <EsimPlanSelector
+              durationSteps={durationOptions}
+              dataSteps={dataOptions}
+              durationIndex={durationIndex}
+              dataIndex={dataIndex}
+              onDurationIndex={(index) => {
+                setDurationPref(durationOptions[index] ?? null)
+                setDataPref(null)
+              }}
+              onDataIndex={(index) => {
+                setDataPref(dataOptions[index] ?? null)
+              }}
+              formatDurationValue={(days) => String(t('esimPage.pricing.days', { count: days }))}
+              formatDataValue={(bytes) => formatDataBytes(bytes, locale)}
+              durationLabel={String(t('esimPage.pricing.filterDuration'))}
+              dataLabel={String(t('esimPage.pricing.filterData'))}
+            />
           </div>
         ) : null}
 

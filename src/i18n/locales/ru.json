@@ -932,6 +932,8 @@
       "searchCountry": "Поиск страны",
       "filterDuration": "Срок действия",
       "filterData": "Объём трафика",
+      "daysUnit": "дней",
+      "dataUnit": "GB",
       "noMatchingPlans": "Нет пакетов с такими параметрами",
       "data": "Данные",
       "days": "{{count}} дн.",

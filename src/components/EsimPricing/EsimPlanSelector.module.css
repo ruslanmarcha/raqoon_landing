@@ -1,0 +1,225 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.dropdowns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dropdown {
+  position: relative;
+  min-width: 0;
+}
+
+.dropdownBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+
+.dropdownBtn:hover,
+.dropdownBtn[aria-expanded='true'] {
+  border-color: color-mix(in srgb, var(--sel-accent) 45%, var(--color-border));
+}
+
+.dropdownLabel {
+  font-size: 12px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+  line-height: 1.2;
+}
+
+.dropdownValueRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.dropdownValue {
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.02em;
+  color: var(--sel-accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chevron {
+  flex-shrink: 0;
+  color: var(--color-text-secondary);
+}
+
+.menu {
+  position: absolute;
+  z-index: 8;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  max-height: 220px;
+  overflow: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: #16161c;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: var(--font-medium);
+  text-align: left;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.menuItemActive {
+  color: var(--sel-accent);
+}
+
+.strips {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.strip {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stripHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.stripLabel {
+  font-size: 13px;
+  font-weight: var(--font-medium);
+  color: var(--color-text-secondary);
+}
+
+.stripValue {
+  font-size: 14px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.02em;
+  color: var(--sel-accent);
+}
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 28px;
+  margin: 0;
+  background: transparent;
+  cursor: pointer;
+  accent-color: var(--sel-accent);
+}
+
+.slider:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.slider:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--sel-accent) 70%, transparent);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    var(--sel-accent) 0%,
+    var(--sel-accent) calc(var(--sel-progress, 0) * 100%),
+    color-mix(in srgb, var(--sel-accent) 22%, var(--color-border))
+      calc(var(--sel-progress, 0) * 100%),
+    color-mix(in srgb, var(--sel-accent) 22%, var(--color-border)) 100%
+  );
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  margin-top: -8px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  background: var(--sel-accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--sel-accent) 18%, transparent);
+}
+
+.slider::-moz-range-track {
+  height: 8px;
+  border: none;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--sel-accent) 22%, var(--color-border));
+}
+
+.slider::-moz-range-progress {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--sel-accent);
+}
+
+.slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  background: var(--sel-accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--sel-accent) 18%, transparent);
+}
+
+@media (max-width: 419px) {
+  .dropdowns {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dropdownBtn {
+    transition: none;
+  }
+}

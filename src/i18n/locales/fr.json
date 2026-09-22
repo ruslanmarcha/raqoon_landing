@@ -609,7 +609,9 @@
       "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
       "filterDuration": "Validity",
       "filterData": "Data volume",
-      "noMatchingPlans": "No packs match these filters"
+      "noMatchingPlans": "No packs match these filters",
+      "daysUnit": "days",
+      "dataUnit": "GB"
     },
     "final": {
       "headline": "Get connected before you fly.",

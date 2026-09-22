@@ -634,6 +634,8 @@
       "searchCountry": "Search country",
       "filterDuration": "Validity",
       "filterData": "Data volume",
+      "daysUnit": "days",
+      "dataUnit": "GB",
       "noMatchingPlans": "No packs match these filters",
       "data": "Data",
       "days": "{{count}} days",

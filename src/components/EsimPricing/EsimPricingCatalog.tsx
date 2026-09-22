@@ -5,6 +5,7 @@ import { useLocalePolicy } from '../../contexts/LocalePolicyContext'
 import { excludeOneDayPackages } from '../../lib/esimPricing/excludeOneDayPackages'
 import { filterTurkeyDestinationSims } from '../../lib/esimPricing/filterTurkeySims'
 import { formatDataBytes } from '../../lib/esimPricing/formatDataBytes'
+import { formatPackageTitle } from '../../lib/esimPricing/formatPackageTitle'
 import { formatPrice } from '../../lib/esimPricing/formatPrice'
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
 import type { Market, Package } from '../../lib/esimPricing/types'
@@ -284,7 +285,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
               return (
                 <li key={pkg.id} className={styles.packageRow}>
                   <div className={styles.packageMain}>
-                    <h3 className={styles.packageName}>{pkg.name}</h3>
+                    <h3 className={styles.packageName}>{formatPackageTitle(pkg, locale, t)}</h3>
                     <p className={styles.packageMeta}>
                       {t('esimPage.pricing.data')}: {formatDataBytes(pkg.dataBytes, locale)}
                       {' · '}

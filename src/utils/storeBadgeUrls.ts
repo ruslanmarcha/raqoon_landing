@@ -67,6 +67,9 @@ export function getGooglePlayBadgeVisualScale(language: string): {
 /** Raqoon VPN в App Store (iPhone / iPad) для всех локалей кроме RU. */
 export const RAQOON_IOS_APP_STORE_URL =
   'https://apps.apple.com/app/apple-store/id6763367620?pt=128820745&ct=Main_landing&mt=8' as const
+/** App Store CTA for the eSIM product page. */
+export const RAQOON_ESIM_APP_STORE_URL =
+  'https://apps.apple.com/am/app/raqoon-vpn/id6763367620' as const
 /** Raqoon VPN в Mac App Store (для всех локалей кроме RU). */
 export const RAQOON_MAC_APP_STORE_URL =
   'https://apps.apple.com/app/apple-store/id6763367620?pt=128820745&ct=Main_landing&mt=8' as const

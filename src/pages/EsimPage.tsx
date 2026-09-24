@@ -5,6 +5,7 @@ import { Header } from '../components/Header/Header'
 import { Footer } from '../components/Footer/Footer'
 import { SEOHead } from '../seo/SEOHead'
 import { EsimPricingCatalog } from '../components/EsimPricing/EsimPricingCatalog'
+import { RAQOON_ESIM_APP_STORE_URL } from '../utils/storeBadgeUrls'
 import home from './HomePage.module.css'
 import wallet from './WalletPage.module.css'
 import local from './EsimPage.module.css'
@@ -29,7 +30,7 @@ type GalleryTile = {
 
 const ESIM_HERO_SRC = '/home-esim-phone.png'
 const START_ICON = '/wallet-app-icon.png'
-const DOWNLOAD_HREF = '/download'
+const DOWNLOAD_HREF = RAQOON_ESIM_APP_STORE_URL
 
 function asArray<T>(v: unknown): T[] {
   return Array.isArray(v) ? (v as T[]) : []
@@ -183,12 +184,14 @@ export function EsimPage() {
             <h1 className={wallet.heroHeadline}>
               <Lines text={String(t('esimPage.hero.headline'))} className={wallet.blockLine} />
             </h1>
-            <Link
-              to={DOWNLOAD_HREF}
+            <a
+              href={DOWNLOAD_HREF}
               className={`${wallet.btnDark} ${local.ctaLink} ${local.ctaAccent}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {t('esimPage.hero.cta')}
-            </Link>
+            </a>
           </div>
         </section>
 
@@ -322,9 +325,14 @@ export function EsimPage() {
             />
             <h2 className={home.startTitle}>{t('esimPage.final.headline')}</h2>
             <p className={home.startBody}>{t('esimPage.final.body')}</p>
-            <Link to={DOWNLOAD_HREF} className={`${home.btnLight} ${local.ctaLink}`}>
+            <a
+              href={DOWNLOAD_HREF}
+              className={`${home.btnLight} ${local.ctaLink}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t('esimPage.final.cta')}
-            </Link>
+            </a>
             <p className={local.finalDisclaimer}>{t('esimPage.final.disclaimer')}</p>
           </div>
         </section>

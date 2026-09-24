@@ -9,10 +9,11 @@ import { formatPackageTitle } from '../../lib/esimPricing/formatPackageTitle'
 import { formatPrice } from '../../lib/esimPricing/formatPrice'
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
 import type { Market, Package } from '../../lib/esimPricing/types'
+import { RAQOON_ESIM_APP_STORE_URL } from '../../utils/storeBadgeUrls'
 import { EsimPlanSelector } from './EsimPlanSelector'
 import styles from './EsimPricingCatalog.module.css'
 
-const PURCHASE_HREF = '/download'
+const PURCHASE_HREF = RAQOON_ESIM_APP_STORE_URL
 
 /** Shown first in the country strip (marketing + common trips). */
 const POPULAR_DESTINATIONS = ['TR', 'GR', 'TH', 'GE', 'CY', 'AM'] as const
@@ -298,13 +299,25 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
                   </div>
                   <div className={styles.packageSide}>
                     <p className={styles.price}>{price}</p>
-                    <Link
-                      to={purchaseHref}
-                      className={styles.buyLink}
-                      aria-label={String(t('esimPage.pricing.buyCta'))}
-                    >
-                      <span aria-hidden="true">→</span>
-                    </Link>
+                    {purchaseHref.startsWith('http') ? (
+                      <a
+                        href={purchaseHref}
+                        className={styles.buyLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={String(t('esimPage.pricing.buyCta'))}
+                      >
+                        <span aria-hidden="true">→</span>
+                      </a>
+                    ) : (
+                      <Link
+                        to={purchaseHref}
+                        className={styles.buyLink}
+                        aria-label={String(t('esimPage.pricing.buyCta'))}
+                      >
+                        <span aria-hidden="true">→</span>
+                      </Link>
+                    )}
                   </div>
                 </li>
               )

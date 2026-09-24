@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLocalePolicy } from '../../contexts/LocalePolicyContext'
@@ -6,9 +6,13 @@ import { excludeOneDayPackages } from '../../lib/esimPricing/excludeOneDayPackag
 import { filterTurkeyDestinationSims } from '../../lib/esimPricing/filterTurkeySims'
 import { formatDataBytes } from '../../lib/esimPricing/formatDataBytes'
 import { formatPackageTitle } from '../../lib/esimPricing/formatPackageTitle'
-import { formatPrice } from '../../lib/esimPricing/formatPrice'
+import {
+  formatPriceForLocale,
+  packageHasPriceForLocale,
+  resolveMarketForLocale,
+} from '../../lib/esimPricing/formatPrice'
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
-import type { Market, Package } from '../../lib/esimPricing/types'
+import type { Package } from '../../lib/esimPricing/types'
 import { RAQOON_ESIM_APP_STORE_URL } from '../../utils/storeBadgeUrls'
 import { EsimPlanSelector } from './EsimPlanSelector'
 import styles from './EsimPricingCatalog.module.css'
@@ -26,15 +30,6 @@ type CountryOption = {
 function popularRank(code: string): number {
   const idx = POPULAR_DESTINATIONS.indexOf(code.toUpperCase() as (typeof POPULAR_DESTINATIONS)[number])
   return idx === -1 ? POPULAR_DESTINATIONS.length : idx
-}
-
-function resolveMarket(markets: Market[], preferred: string | null): Market | null {
-  if (!markets.length) return null
-  if (preferred) {
-    const match = markets.find((m) => m.customerCountry === preferred)
-    if (match) return match
-  }
-  return markets.find((m) => m.customerCountry === 'RU') ?? markets[0]
 }
 
 function countryLabel(code: string, locale: string): string {
@@ -90,6 +85,10 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
 
   const locale = i18n.language || 'en'
 
+  useEffect(() => {
+    setMarketCode(null)
+  }, [locale])
+
   const catalog = useMemo(() => {
     if (!pricing.data) return null
     return excludeOneDayPackages(filterTurkeyDestinationSims(pricing.data, countryCode))
@@ -97,16 +96,16 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
 
   const market = useMemo(() => {
     if (!catalog) return null
-    return resolveMarket(catalog.markets, marketCode)
-  }, [catalog, marketCode])
+    return resolveMarketForLocale(catalog.markets, locale, marketCode)
+  }, [catalog, marketCode, locale])
 
   const countries = useMemo((): CountryOption[] => {
-    if (!catalog || !market) return []
+    if (!catalog) return []
     return catalog.countries
       .map((group) => ({
         code: group.code,
-        packages: group.packages.filter(
-          (pkg) => pkg.prices[market.customerCountry] !== undefined,
+        packages: group.packages.filter((pkg) =>
+          packageHasPriceForLocale(pkg, catalog.markets, locale),
         ),
       }))
       .filter((group) => group.packages.length > 0)
@@ -115,7 +114,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
         if (byPopular !== 0) return byPopular
         return countryLabel(a.code, locale).localeCompare(countryLabel(b.code, locale), locale)
       })
-  }, [catalog, market, locale])
+  }, [catalog, locale])
 
   const filteredCountries = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -171,7 +170,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
     )
   }
 
-  if (pricing.status === 'error' || !catalog || !market || countries.length === 0) {
+  if (pricing.status === 'error' || !catalog || countries.length === 0) {
     return (
       <div className={styles.root}>
         <div className={styles.panel}>
@@ -195,7 +194,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
       {pricing.stale ? <p className={styles.stale}>{t('esimPage.pricing.stale')}</p> : null}
 
       <div className={styles.panel}>
-        {catalog.markets.length > 1 ? (
+        {catalog.markets.length > 1 && market ? (
           <label className={styles.marketRow}>
             <span className={styles.fieldLabel}>{t('esimPage.pricing.marketLabel')}</span>
             <select
@@ -281,7 +280,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
         ) : (
           <ul className={styles.packageList}>
             {activePackages.map((pkg) => {
-              const price = formatPrice(pkg, market, locale)
+              const price = formatPriceForLocale(pkg, catalog.markets, locale)
               if (price === null) return null
               return (
                 <li key={pkg.id} className={styles.packageRow}>

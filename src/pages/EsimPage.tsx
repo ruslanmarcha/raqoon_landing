@@ -9,6 +9,7 @@ import { RAQOON_ESIM_APP_STORE_URL } from '../utils/storeBadgeUrls'
 import styles from './EsimPage.module.css'
 
 const APP_HREF = RAQOON_ESIM_APP_STORE_URL
+const START_ICON = '/wallet-app-icon.png'
 
 type FeatureCard = { titleGreen: string; titleRest: string; body: string }
 type Step = { title: string; body: string }
@@ -84,20 +85,6 @@ export function EsimPage() {
           </div>
         </section>
 
-        <section className={styles.mapSection} aria-label={String(t('esimPage.mapLabel'))}>
-          <div className={styles.wrap}>
-            <div className={styles.mapPanel}>
-              <img
-                src="/home-esim-phone.png"
-                alt=""
-                className={styles.mapArt}
-                width={400}
-                height={520}
-              />
-            </div>
-          </div>
-        </section>
-
         <section className={styles.features}>
           <div className={styles.wrap}>
             <div className={styles.featureGrid}>
@@ -105,7 +92,7 @@ export function EsimPage() {
                 <article key={f.titleGreen + f.titleRest} className={styles.featureCard}>
                   <h2 className={styles.featureTitle}>
                     <span className={styles.featureGreen}>{f.titleGreen}</span>
-                    {f.titleRest ? ` ${f.titleRest}` : null}
+                    {f.titleRest ? <span>{f.titleRest}</span> : null}
                   </h2>
                   <p className={styles.featureBody}>{f.body}</p>
                 </article>
@@ -168,8 +155,11 @@ export function EsimPage() {
                           aria-expanded={open}
                           onClick={() => setOpenFaq(open ? null : id)}
                         >
-                          {item.q}
-                          <span aria-hidden="true">{open ? '−' : '+'}</span>
+                          <span>{item.q}</span>
+                          <span
+                            className={`${styles.faqMark} ${open ? styles.faqMarkOpen : ''}`}
+                            aria-hidden="true"
+                          />
                         </button>
                         {open ? <p className={styles.faqAnswer}>{item.a}</p> : null}
                       </div>
@@ -183,6 +173,13 @@ export function EsimPage() {
 
         <section className={styles.final}>
           <div className={styles.wrapNarrow}>
+            <img
+              src={START_ICON}
+              alt=""
+              width={80}
+              height={80}
+              className={styles.finalIcon}
+            />
             <h2 className={styles.sectionTitle}>{t('esimPage.final.headline')}</h2>
             <p className={styles.sectionLead}>{t('esimPage.final.body')}</p>
             <a

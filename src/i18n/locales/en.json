@@ -604,29 +604,31 @@
       "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
       "searchLabel": "Country or region",
       "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees."
+      "finalPriceNote": "Final price. No extra fees.",
+      "mapLabel": "Countries with eSIM",
+      "paymentMethods": "Payment methods"
     },
     "mapLabel": "eSIM coverage",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "Packages without",
+        "titleRest": "markup",
+        "body": "Same data and days for less. Exact price before you open the app."
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "Pay with",
+        "titleRest": "any card",
+        "body": "Pay in Raqoon before you fly — local or foreign cards where available."
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "Out of",
+        "titleRest": "data?",
+        "body": "Buy another pack in the app over Wi‑Fi or your main SIM."
       },
       {
         "titleGreen": "In the",
         "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "body": "Buy and install eSIM the convenient way — all in one place."
       }
     ],
     "featuresCta": "Choose a country →",
@@ -758,6 +760,25 @@
       "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
       "cta": "Download the app",
       "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+    },
+    "deviceCheckLink": "Check if your phone works",
+    "device": {
+      "badge": "30-second check",
+      "title": "Will your phone work?",
+      "subtitle": "Maker and model — instant answer.",
+      "manufacturer": "Manufacturer",
+      "model": "Model",
+      "pickMaker": "Manufacturer",
+      "pickModel": "Model",
+      "needMaker": "Pick a maker first",
+      "compatible": "Yes, it works. Pick a plan.",
+      "incompatible": "This model usually has no eSIM.",
+      "disclaimer": "For reference. The phone must be unlocked.",
+      "count": "{{count}} models",
+      "searchModel": "Search model",
+      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
+      "titleShort": "Will your phone work?",
+      "subtitleShort": "Maker and model — answer in a second."
     }
   }
 }

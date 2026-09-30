@@ -1,0 +1,2215 @@
+{
+  "source": "AeroSims devices.json (CC BY 4.0)",
+  "sourceUrl": "https://aerosims.com/devices.json",
+  "generatedAt": "2026-09-03T00:00:00Z",
+  "manufacturers": [
+    {
+      "id": "apple",
+      "name": "Apple",
+      "models": [
+        {
+          "id": "apple-iphone-17e",
+          "name": "iPhone 17e",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "apple-iphone-16e",
+          "name": "iPhone 16e",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "apple-iphone-17",
+          "name": "iPhone 17",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "apple-iphone-17-pro",
+          "name": "iPhone 17 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "apple-iphone-17-pro-max",
+          "name": "iPhone 17 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "apple-iphone-air",
+          "name": "iPhone Air",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "apple-iphone-16",
+          "name": "iPhone 16",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "apple-iphone-16-plus",
+          "name": "iPhone 16 Plus",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "apple-iphone-16-pro",
+          "name": "iPhone 16 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "apple-iphone-16-pro-max",
+          "name": "iPhone 16 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "apple-iphone-15",
+          "name": "iPhone 15",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "apple-iphone-15-plus",
+          "name": "iPhone 15 Plus",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "apple-iphone-15-pro",
+          "name": "iPhone 15 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "apple-iphone-15-pro-max",
+          "name": "iPhone 15 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "apple-iphone-14",
+          "name": "iPhone 14",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "apple-iphone-14-plus",
+          "name": "iPhone 14 Plus",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "apple-iphone-14-pro",
+          "name": "iPhone 14 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "apple-iphone-14-pro-max",
+          "name": "iPhone 14 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "apple-iphone-se-3rd-generation",
+          "name": "iPhone SE (3rd generation)",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "apple-iphone-13",
+          "name": "iPhone 13",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "apple-iphone-13-pro",
+          "name": "iPhone 13 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "apple-iphone-13-pro-max",
+          "name": "iPhone 13 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "apple-iphone-13-mini",
+          "name": "iPhone 13 mini",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "apple-iphone-12",
+          "name": "iPhone 12",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "apple-iphone-12-pro",
+          "name": "iPhone 12 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "apple-iphone-12-pro-max",
+          "name": "iPhone 12 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "apple-iphone-12-mini",
+          "name": "iPhone 12 mini",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "apple-iphone-se-2nd-generation",
+          "name": "iPhone SE (2nd generation)",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "apple-iphone-11",
+          "name": "iPhone 11",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        },
+        {
+          "id": "apple-iphone-11-pro",
+          "name": "iPhone 11 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        },
+        {
+          "id": "apple-iphone-11-pro-max",
+          "name": "iPhone 11 Pro Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        },
+        {
+          "id": "apple-iphone-xr",
+          "name": "iPhone XR",
+          "compatible": true,
+          "regional": false,
+          "year": 2018
+        },
+        {
+          "id": "apple-iphone-xs",
+          "name": "iPhone XS",
+          "compatible": true,
+          "regional": false,
+          "year": 2018
+        },
+        {
+          "id": "apple-iphone-xs-max",
+          "name": "iPhone XS Max",
+          "compatible": true,
+          "regional": false,
+          "year": 2018
+        },
+        {
+          "id": "apple-iphone-8",
+          "name": "iPhone 8",
+          "compatible": false,
+          "regional": false,
+          "year": 2017
+        },
+        {
+          "id": "apple-iphone-8-plus",
+          "name": "iPhone 8 Plus",
+          "compatible": false,
+          "regional": false,
+          "year": 2017
+        },
+        {
+          "id": "apple-iphone-x",
+          "name": "iPhone X",
+          "compatible": false,
+          "regional": false,
+          "year": 2017
+        },
+        {
+          "id": "apple-iphone-7",
+          "name": "iPhone 7",
+          "compatible": false,
+          "regional": false,
+          "year": 2016
+        },
+        {
+          "id": "apple-iphone-7-plus",
+          "name": "iPhone 7 Plus",
+          "compatible": false,
+          "regional": false,
+          "year": 2016
+        },
+        {
+          "id": "apple-iphone-se-1st-generation",
+          "name": "iPhone SE (1st generation)",
+          "compatible": false,
+          "regional": false,
+          "year": 2016
+        },
+        {
+          "id": "apple-iphone-6s",
+          "name": "iPhone 6s",
+          "compatible": false,
+          "regional": false,
+          "year": 2015
+        },
+        {
+          "id": "apple-iphone-6s-plus",
+          "name": "iPhone 6s Plus",
+          "compatible": false,
+          "regional": false,
+          "year": 2015
+        },
+        {
+          "id": "apple-iphone-6",
+          "name": "iPhone 6",
+          "compatible": false,
+          "regional": false,
+          "year": 2014
+        },
+        {
+          "id": "apple-iphone-6-plus",
+          "name": "iPhone 6 Plus",
+          "compatible": false,
+          "regional": false,
+          "year": 2014
+        },
+        {
+          "id": "apple-iphone-5c",
+          "name": "iPhone 5c",
+          "compatible": false,
+          "regional": false,
+          "year": 2013
+        },
+        {
+          "id": "apple-iphone-5s",
+          "name": "iPhone 5s",
+          "compatible": false,
+          "regional": false,
+          "year": 2013
+        },
+        {
+          "id": "apple-iphone-5",
+          "name": "iPhone 5",
+          "compatible": false,
+          "regional": false,
+          "year": 2012
+        },
+        {
+          "id": "apple-iphone-4s",
+          "name": "iPhone 4s",
+          "compatible": false,
+          "regional": false,
+          "year": 2011
+        },
+        {
+          "id": "apple-iphone-4",
+          "name": "iPhone 4",
+          "compatible": false,
+          "regional": false,
+          "year": 2010
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung",
+      "models": [
+        {
+          "id": "samsung-galaxy-a27-5g",
+          "name": "Galaxy A27 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-a57-5g",
+          "name": "Galaxy A57 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-s26",
+          "name": "Galaxy S26",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-s26-ultra",
+          "name": "Galaxy S26 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-z-flip8",
+          "name": "Galaxy Z Flip8",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-z-fold8",
+          "name": "Galaxy Z Fold8",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-z-fold8-ultra",
+          "name": "Galaxy Z Fold8 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "samsung-galaxy-a17-5g",
+          "name": "Galaxy A17 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-a26-5g",
+          "name": "Galaxy A26 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-a36",
+          "name": "Galaxy A36",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-a56",
+          "name": "Galaxy A56",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-s25",
+          "name": "Galaxy S25",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-s25-edge",
+          "name": "Galaxy S25 Edge",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-s25-fe",
+          "name": "Galaxy S25 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-s25-ultra",
+          "name": "Galaxy S25 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-xcover7-pro",
+          "name": "Galaxy XCover7 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-z-flip7",
+          "name": "Galaxy Z Flip7",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-z-flip7-fe",
+          "name": "Galaxy Z Flip7 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-z-fold7",
+          "name": "Galaxy Z Fold7",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-z-trifold",
+          "name": "Galaxy Z TriFold",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "samsung-galaxy-a16-5g",
+          "name": "Galaxy A16 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-a25-5g",
+          "name": "Galaxy A25 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-a35",
+          "name": "Galaxy A35",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-a55",
+          "name": "Galaxy A55",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-s24",
+          "name": "Galaxy S24",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-s24-fe",
+          "name": "Galaxy S24 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-s24-ultra",
+          "name": "Galaxy S24 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-xcover7",
+          "name": "Galaxy XCover7",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-z-flip6",
+          "name": "Galaxy Z Flip6",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-z-fold6",
+          "name": "Galaxy Z Fold6",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "samsung-galaxy-a14-5g",
+          "name": "Galaxy A14 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-a15-5g",
+          "name": "Galaxy A15 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-a54",
+          "name": "Galaxy A54",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-s23",
+          "name": "Galaxy S23",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-s23-fe",
+          "name": "Galaxy S23 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-s23-ultra",
+          "name": "Galaxy S23 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-z-flip5",
+          "name": "Galaxy Z Flip5",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-z-fold5",
+          "name": "Galaxy Z Fold5",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "samsung-galaxy-a13-lte",
+          "name": "Galaxy A13 LTE",
+          "compatible": false,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-a53-5g",
+          "name": "Galaxy A53 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-s21-fe",
+          "name": "Galaxy S21 FE",
+          "compatible": false,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-s22",
+          "name": "Galaxy S22",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-s22-ultra",
+          "name": "Galaxy S22 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-xcover6-pro",
+          "name": "Galaxy XCover6 Pro",
+          "compatible": true,
+          "regional": true,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-z-flip4",
+          "name": "Galaxy Z Flip4",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-z-fold4",
+          "name": "Galaxy Z Fold4",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "samsung-galaxy-a02",
+          "name": "Galaxy A02",
+          "compatible": false,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-a03",
+          "name": "Galaxy A03",
+          "compatible": false,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-a13-5g",
+          "name": "Galaxy A13 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-a32-5g",
+          "name": "Galaxy A32 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-a52-5g",
+          "name": "Galaxy A52 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-s21",
+          "name": "Galaxy S21",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-s21-ultra",
+          "name": "Galaxy S21 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-z-flip3",
+          "name": "Galaxy Z Flip3",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-z-fold3",
+          "name": "Galaxy Z Fold3",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "samsung-galaxy-a12",
+          "name": "Galaxy A12",
+          "compatible": false,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-a42-5g",
+          "name": "Galaxy A42 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-note20",
+          "name": "Galaxy Note20",
+          "compatible": true,
+          "regional": true,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-note20-ultra",
+          "name": "Galaxy Note20 Ultra",
+          "compatible": true,
+          "regional": true,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-s20",
+          "name": "Galaxy S20",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-s20-fe",
+          "name": "Galaxy S20 FE",
+          "compatible": false,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-s20-ultra",
+          "name": "Galaxy S20 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-z-flip",
+          "name": "Galaxy Z Flip",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-z-flip-5g",
+          "name": "Galaxy Z Flip 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-z-fold2",
+          "name": "Galaxy Z Fold2",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "samsung-galaxy-fold",
+          "name": "Galaxy Fold",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "models": [
+        {
+          "id": "google-pixel-10a",
+          "name": "Pixel 10a",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "google-pixel-10",
+          "name": "Pixel 10",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "google-pixel-10-pro",
+          "name": "Pixel 10 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "google-pixel-10-pro-fold",
+          "name": "Pixel 10 Pro Fold",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "google-pixel-10-pro-xl",
+          "name": "Pixel 10 Pro XL",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "google-pixel-9a",
+          "name": "Pixel 9a",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "google-pixel-8a",
+          "name": "Pixel 8a",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "google-pixel-9",
+          "name": "Pixel 9",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "google-pixel-9-pro",
+          "name": "Pixel 9 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "google-pixel-9-pro-fold",
+          "name": "Pixel 9 Pro Fold",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "google-pixel-9-pro-xl",
+          "name": "Pixel 9 Pro XL",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "google-pixel-7a",
+          "name": "Pixel 7a",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "google-pixel-8",
+          "name": "Pixel 8",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "google-pixel-8-pro",
+          "name": "Pixel 8 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "google-pixel-fold",
+          "name": "Pixel Fold",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "google-pixel-6a",
+          "name": "Pixel 6a",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "google-pixel-7",
+          "name": "Pixel 7",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "google-pixel-7-pro",
+          "name": "Pixel 7 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "google-pixel-5a-5g",
+          "name": "Pixel 5a (5G)",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "google-pixel-6",
+          "name": "Pixel 6",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "google-pixel-6-pro",
+          "name": "Pixel 6 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "google-pixel-4a",
+          "name": "Pixel 4a",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "google-pixel-4a-5g",
+          "name": "Pixel 4a (5G)",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "google-pixel-5",
+          "name": "Pixel 5",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "google-pixel-3a-pixel-3a-xl",
+          "name": "Pixel 3a / Pixel 3a XL",
+          "compatible": true,
+          "regional": true,
+          "year": 2019
+        },
+        {
+          "id": "google-pixel-4",
+          "name": "Pixel 4",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        },
+        {
+          "id": "google-pixel-4-xl",
+          "name": "Pixel 4 XL",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        },
+        {
+          "id": "google-pixel-3-pixel-3-xl",
+          "name": "Pixel 3 / Pixel 3 XL",
+          "compatible": true,
+          "regional": true,
+          "year": 2018
+        },
+        {
+          "id": "google-pixel-2-pixel-2-xl",
+          "name": "Pixel 2 / Pixel 2 XL",
+          "compatible": true,
+          "regional": true,
+          "year": 2017
+        },
+        {
+          "id": "google-pixel-2016",
+          "name": "Pixel (2016)",
+          "compatible": false,
+          "regional": false,
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "models": [
+        {
+          "id": "xiaomi-xiaomi-17-ultra",
+          "name": "Xiaomi 17 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "xiaomi-xiaomi-15",
+          "name": "Xiaomi 15",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "xiaomi-xiaomi-15-ultra",
+          "name": "Xiaomi 15 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "xiaomi-xiaomi-15t",
+          "name": "Xiaomi 15T",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "xiaomi-xiaomi-15t-pro",
+          "name": "Xiaomi 15T Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "xiaomi-xiaomi-14t",
+          "name": "Xiaomi 14T",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "xiaomi-xiaomi-14t-pro",
+          "name": "Xiaomi 14T Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "redmi",
+      "name": "Redmi",
+      "models": [
+        {
+          "id": "redmi-redmi-note-14-4g",
+          "name": "Redmi Note 14 (4G)",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "redmi-redmi-note-14-5g",
+          "name": "Redmi Note 14 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "redmi-redmi-note-14-pro-5g",
+          "name": "Redmi Note 14 Pro 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "redmi-redmi-note-11-pro-5g",
+          "name": "Redmi Note 11 Pro+ 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "motorola",
+      "name": "Motorola",
+      "models": [
+        {
+          "id": "motorola-moto-g-play-2026",
+          "name": "moto g play (2026)",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "motorola-moto-g-stylus-2026",
+          "name": "moto g stylus (2026)",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "motorola-edge-2025",
+          "name": "edge (2025)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-edge-60-pro",
+          "name": "edge 60 pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-edge-60-stylus",
+          "name": "edge 60 stylus",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-moto-g-power-2025",
+          "name": "moto g power (2025)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-razr-2025",
+          "name": "razr (2025)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-razr-60",
+          "name": "razr 60",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-razr-60-ultra",
+          "name": "razr 60 ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-razr-ultra-2025",
+          "name": "razr ultra (2025)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "motorola-thinkphone-25",
+          "name": "ThinkPhone 25",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-edge-2024",
+          "name": "edge (2024)",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-edge-50",
+          "name": "edge 50",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-edge-50-fusion",
+          "name": "edge 50 fusion",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-edge-50-pro",
+          "name": "edge 50 pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-edge-50-ultra",
+          "name": "edge 50 ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-moto-g-power-5g-2024",
+          "name": "moto g power 5G (2024)",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-razr-2024",
+          "name": "razr (2024)",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-razr-50-ultra",
+          "name": "razr 50 ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "motorola-razr-40",
+          "name": "razr 40",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "motorola-razr-2023",
+          "name": "razr+ (2023)",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "motorola-razr-2019",
+          "name": "razr (2019)",
+          "compatible": true,
+          "regional": false,
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "id": "oneplus",
+      "name": "OnePlus",
+      "models": [
+        {
+          "id": "oneplus-oneplus-13",
+          "name": "OnePlus 13",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oneplus-oneplus-13r",
+          "name": "OnePlus 13R",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oneplus-oneplus-13s",
+          "name": "OnePlus 13s",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oneplus-oneplus-15",
+          "name": "OnePlus 15",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oneplus-oneplus-nord-5",
+          "name": "OnePlus Nord 5",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oneplus-oneplus-12",
+          "name": "OnePlus 12",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oneplus-oneplus-12r",
+          "name": "OnePlus 12R",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oneplus-oneplus-11",
+          "name": "OnePlus 11",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "oneplus-oneplus-open",
+          "name": "OnePlus Open",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO",
+      "models": [
+        {
+          "id": "oppo-find-n5",
+          "name": "Find N5",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-find-x9",
+          "name": "Find X9",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-find-x9-pro",
+          "name": "Find X9 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-reno13",
+          "name": "Reno13",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-reno13-pro",
+          "name": "Reno13 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-reno14",
+          "name": "Reno14",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-reno14-f-5g",
+          "name": "Reno14 F 5G",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-reno14-pro",
+          "name": "Reno14 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "oppo-find-x8",
+          "name": "Find X8",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oppo-find-x8-pro",
+          "name": "Find X8 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oppo-reno12",
+          "name": "Reno12",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oppo-reno12-pro",
+          "name": "Reno12 Pro",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "oppo-find-x3-pro",
+          "name": "Find X3 Pro",
+          "compatible": true,
+          "regional": true,
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "vivo",
+      "name": "vivo",
+      "models": [
+        {
+          "id": "vivo-v70",
+          "name": "V70",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "vivo-v70-fe",
+          "name": "V70 FE",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "vivo-v50",
+          "name": "V50",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "vivo-v50-lite-5g",
+          "name": "V50 Lite 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "vivo-v50e",
+          "name": "V50e",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "vivo-v60",
+          "name": "V60",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "vivo-v60-lite-5g",
+          "name": "V60 Lite 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x-fold5",
+          "name": "X Fold5",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x200-fe",
+          "name": "X200 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x200t",
+          "name": "X200T",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x300",
+          "name": "X300",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x300-fe",
+          "name": "X300 FE",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x300-pro",
+          "name": "X300 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-x300-ultra",
+          "name": "X300 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-y31-5g",
+          "name": "Y31 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "vivo-v40",
+          "name": "V40",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "vivo-v40-lite",
+          "name": "V40 Lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-v40-se",
+          "name": "V40 SE",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-v40-se-5g",
+          "name": "V40 SE 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-x100-pro",
+          "name": "X100 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-x200",
+          "name": "X200",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-x200-pro",
+          "name": "X200 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "vivo-v29",
+          "name": "V29",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "vivo-v29-lite-5g",
+          "name": "V29 Lite 5G",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "vivo-x90-pro",
+          "name": "X90 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "honor",
+      "name": "HONOR",
+      "models": [
+        {
+          "id": "honor-honor-600",
+          "name": "HONOR 600",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "honor-honor-600-lite",
+          "name": "HONOR 600 Lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "honor-honor-600-pro",
+          "name": "HONOR 600 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "honor-honor-magic8-lite",
+          "name": "HONOR Magic8 Lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "honor-honor-400",
+          "name": "HONOR 400",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-400-lite",
+          "name": "HONOR 400 Lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-400-pro",
+          "name": "HONOR 400 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-magic-v5",
+          "name": "HONOR Magic V5",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-magic7-lite",
+          "name": "HONOR Magic7 Lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-magic7-pro",
+          "name": "HONOR Magic7 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-magic8-pro",
+          "name": "HONOR Magic8 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-x9d",
+          "name": "HONOR X9d",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "honor-honor-200",
+          "name": "HONOR 200",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-200-pro",
+          "name": "HONOR 200 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-magic-v3",
+          "name": "HONOR Magic V3",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-magic6-pro",
+          "name": "HONOR Magic6 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-x8c",
+          "name": "HONOR X8c",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-x9c",
+          "name": "HONOR X9c",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "honor-honor-90",
+          "name": "HONOR 90",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "honor-honor-magic-v2",
+          "name": "HONOR Magic V2",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "honor-honor-magic5-pro",
+          "name": "HONOR Magic5 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "honor-honor-magic-vs",
+          "name": "HONOR Magic Vs",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "honor-honor-magic4-pro",
+          "name": "HONOR Magic4 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "huawei",
+      "name": "HUAWEI",
+      "models": [
+        {
+          "id": "huawei-mate-x7",
+          "name": "Mate X7",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "huawei-pura-80-pro",
+          "name": "Pura 80 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "huawei-pura-80-ultra",
+          "name": "Pura 80 Ultra",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "huawei-pura-70-pro",
+          "name": "Pura 70 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "huawei-mate-40-pro",
+          "name": "Mate 40 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "huawei-p40-pro",
+          "name": "P40 Pro",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "sony",
+      "name": "Sony",
+      "models": [
+        {
+          "id": "sony-xperia-1-vii",
+          "name": "Xperia 1 VII",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "sony-xperia-10-vii",
+          "name": "Xperia 10 VII",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "sony-xperia-1-vi",
+          "name": "Xperia 1 VI",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "sony-xperia-10-vi",
+          "name": "Xperia 10 VI",
+          "compatible": true,
+          "regional": true,
+          "year": 2024
+        },
+        {
+          "id": "sony-xperia-1-v",
+          "name": "Xperia 1 V",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "sony-xperia-10-v",
+          "name": "Xperia 10 V",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "sony-xperia-5-v",
+          "name": "Xperia 5 V",
+          "compatible": true,
+          "regional": true,
+          "year": 2023
+        },
+        {
+          "id": "sony-xperia-1-iv",
+          "name": "Xperia 1 IV",
+          "compatible": true,
+          "regional": true,
+          "year": 2022
+        },
+        {
+          "id": "sony-xperia-10-iv",
+          "name": "Xperia 10 IV",
+          "compatible": true,
+          "regional": true,
+          "year": 2022
+        },
+        {
+          "id": "sony-xperia-5-iv",
+          "name": "Xperia 5 IV",
+          "compatible": true,
+          "regional": true,
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "nothing",
+      "name": "Nothing",
+      "models": [
+        {
+          "id": "nothing-phone-4a",
+          "name": "Phone (4a)",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "nothing-phone-4b",
+          "name": "Phone (4b)",
+          "compatible": true,
+          "regional": true,
+          "year": 2026
+        },
+        {
+          "id": "nothing-phone-3",
+          "name": "Phone (3)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "nothing-phone-3a",
+          "name": "Phone (3a)",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "nothing-phone-3a-lite",
+          "name": "Phone (3a) Lite",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "nothing-phone-3a-pro",
+          "name": "Phone (3a) Pro",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "nothing-phone-2a",
+          "name": "Phone (2a)",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "nothing-phone-2a-plus",
+          "name": "Phone (2a) Plus",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "nothing-phone-2",
+          "name": "Phone (2)",
+          "compatible": false,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "nothing-phone-1",
+          "name": "Phone (1)",
+          "compatible": false,
+          "regional": false,
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "sharp",
+      "name": "Sharp",
+      "models": [
+        {
+          "id": "sharp-aquos-r11",
+          "name": "AQUOS R11",
+          "compatible": true,
+          "regional": false,
+          "year": 2026
+        },
+        {
+          "id": "sharp-aquos-r10",
+          "name": "AQUOS R10",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "sharp-aquos-sense10-sh-m33-sim-free",
+          "name": "AQUOS sense10 SH-M33 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "sharp-aquos-wish5",
+          "name": "AQUOS wish5",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "sharp-aquos-sense9-sh-m29-sim-free",
+          "name": "AQUOS sense9 SH-M29 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "sharp-aquos-wish4",
+          "name": "AQUOS wish4",
+          "compatible": true,
+          "regional": false,
+          "year": 2024
+        },
+        {
+          "id": "sharp-aquos-sense8-sh-m26-sim-free",
+          "name": "AQUOS sense8 SH-M26 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "sharp-aquos-wish3-sh-m25-sim-free",
+          "name": "AQUOS wish3 SH-M25 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "sharp-aquos-sense7-sh-m24-sim-free",
+          "name": "AQUOS sense7 SH-M24 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "sharp-aquos-wish-j-com-mobile",
+          "name": "AQUOS wish (J:COM MOBILE)",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "sharp-aquos-sense6-sh-m19-sim-free",
+          "name": "AQUOS sense6 SH-M19 (SIM-free)",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "sharp-aquos-sense4-lite",
+          "name": "AQUOS sense4 lite",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "fairphone",
+      "name": "Fairphone",
+      "models": [
+        {
+          "id": "fairphone-fairphone-gen-6",
+          "name": "Fairphone (Gen. 6)",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "fairphone-fairphone-gen-6-us-model",
+          "name": "Fairphone (Gen. 6+) - US model",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "fairphone-fairphone-5",
+          "name": "Fairphone 5",
+          "compatible": true,
+          "regional": false,
+          "year": 2023
+        },
+        {
+          "id": "fairphone-fairphone-4",
+          "name": "Fairphone 4",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "fairphone-fairphone-3-3",
+          "name": "Fairphone 3 / 3+",
+          "compatible": false,
+          "regional": false,
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "id": "cmf-by-nothing",
+      "name": "CMF by Nothing",
+      "models": [
+        {
+          "id": "cmf-by-nothing-cmf-phone-2-pro",
+          "name": "CMF Phone 2 Pro",
+          "compatible": true,
+          "regional": true,
+          "year": 2025
+        },
+        {
+          "id": "cmf-by-nothing-cmf-phone-1",
+          "name": "CMF Phone 1",
+          "compatible": false,
+          "regional": false,
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "poco",
+      "name": "POCO",
+      "models": [
+        {
+          "id": "poco-poco-f7",
+          "name": "POCO F7",
+          "compatible": false,
+          "regional": false,
+          "year": 2025
+        },
+        {
+          "id": "poco-poco-x7",
+          "name": "POCO X7",
+          "compatible": true,
+          "regional": false,
+          "year": 2025
+        }
+      ]
+    },
+    {
+      "id": "rakuten",
+      "name": "Rakuten",
+      "models": [
+        {
+          "id": "rakuten-rakuten-hand-5g",
+          "name": "Rakuten Hand 5G",
+          "compatible": true,
+          "regional": false,
+          "year": 2022
+        },
+        {
+          "id": "rakuten-rakuten-big-s",
+          "name": "Rakuten BIG s",
+          "compatible": true,
+          "regional": false,
+          "year": 2021
+        },
+        {
+          "id": "rakuten-rakuten-big",
+          "name": "Rakuten BIG",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "rakuten-rakuten-hand",
+          "name": "Rakuten Hand",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        },
+        {
+          "id": "rakuten-rakuten-mini",
+          "name": "Rakuten Mini",
+          "compatible": true,
+          "regional": false,
+          "year": 2020
+        }
+      ]
+    }
+  ]
+}

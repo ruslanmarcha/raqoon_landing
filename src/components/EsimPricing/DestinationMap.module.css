@@ -1,0 +1,81 @@
+.root {
+  margin-top: 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 28px;
+  background: var(--color-surface);
+  padding: 14px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.well {
+  position: relative;
+  border-radius: 18px;
+  background: #121218;
+  overflow: hidden;
+}
+
+.map {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+}
+
+.geo {
+  fill: #252530;
+  stroke: #0b0b12;
+  stroke-width: 0.5;
+  outline: none;
+  cursor: default;
+  transition: fill 120ms ease;
+}
+
+.available {
+  fill: #3dff6e;
+  cursor: pointer;
+}
+
+.available:hover,
+.available:focus-visible {
+  fill: var(--color-accent);
+}
+
+.selected,
+.selected:hover,
+.selected:focus-visible {
+  fill: var(--color-accent);
+}
+
+.tip {
+  position: absolute;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: min(240px, calc(100% - 16px));
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: #1a1a22;
+  color: var(--color-text);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+  font-family: var(--font-sans);
+  font-size: var(--type-ui-size, 14px);
+  font-weight: var(--font-medium);
+  line-height: 1.2;
+  pointer-events: none;
+  transform: translate(-50%, calc(-100% - 12px));
+  white-space: nowrap;
+}
+
+.tipFlag {
+  flex-shrink: 0;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.tipName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

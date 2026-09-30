@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLocalePolicy } from '../../contexts/LocalePolicyContext'
+import { DeviceCheck } from '../Home/DeviceCheck'
+import { PaymentBadges } from '../PaymentBadges/PaymentBadges'
 import { excludeOneDayPackages } from '../../lib/esimPricing/excludeOneDayPackages'
 import { filterTurkeyDestinationSims } from '../../lib/esimPricing/filterTurkeySims'
 import { formatDataBytes } from '../../lib/esimPricing/formatDataBytes'
@@ -14,6 +16,7 @@ import {
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
 import type { Package } from '../../lib/esimPricing/types'
 import { RAQOON_ESIM_APP_STORE_URL } from '../../utils/storeBadgeUrls'
+import { DestinationMap } from './DestinationMap'
 import styles from './EsimPricingCatalog.module.css'
 
 const PURCHASE_HREF = RAQOON_ESIM_APP_STORE_URL
@@ -60,6 +63,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
   const [marketCode, setMarketCode] = useState<string | null>(null)
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [query, setQuery] = useState('')
+  const [deviceOpen, setDeviceOpen] = useState(false)
 
   const locale = i18n.language || 'en'
 
@@ -119,6 +123,11 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
   const activePackages = activeCountry
     ? (countries.find((c) => c.code === activeCountry)?.packages ?? [])
     : []
+
+  const selectCountry = (code: string) => {
+    setSelectedCountry(code)
+    setQuery(countryLabel(code, locale))
+  }
 
   if (pricing.status === 'loading' || pricing.status === 'idle') {
     return (
@@ -195,7 +204,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
                   role="option"
                   aria-selected={active}
                   className={`${styles.countryBtn} ${active ? styles.countryBtnActive : ''}`}
-                  onClick={() => setSelectedCountry(c.code)}
+                  onClick={() => selectCountry(c.code)}
                 >
                   <span className={styles.flag} aria-hidden="true">
                     {flagEmoji(c.code)}
@@ -258,10 +267,38 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
           </ul>
         )}
 
-        <p className={styles.panelNote}>{t('esimPage.pricing.finalPriceNote')}</p>
+        <div className={styles.deviceBlock}>
+          <button
+            type="button"
+            className={styles.deviceToggle}
+            aria-expanded={deviceOpen}
+            onClick={() => setDeviceOpen((v) => !v)}
+          >
+            {t('esimPage.deviceCheckLink')}
+          </button>
+          {deviceOpen ? (
+            <DeviceCheck
+              variant="compact"
+              onCompatibleCta={() => {
+                document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+              }}
+            />
+          ) : null}
+        </div>
+
+        <div className={styles.payRow}>
+          <PaymentBadges compact />
+          <p className={styles.payNote}>{t('esimPage.pricing.finalPriceNote')}</p>
+        </div>
       </div>
 
-      <p className={styles.disclaimer}>{t('esimPage.pricing.priceDisclaimer')}</p>
+      <DestinationMap
+        availableCodes={countries.map((c) => c.code)}
+        selectedCode={activeCountry}
+        onSelect={selectCountry}
+        countryName={(code) => countryLabel(code, locale)}
+        label={String(t('esimPage.pricing.mapLabel'))}
+      />
     </div>
   )
 }

@@ -14,13 +14,12 @@ import {
 import { useEsimPricing } from '../../lib/esimPricing/useEsimPricing'
 import type { Package } from '../../lib/esimPricing/types'
 import { RAQOON_ESIM_APP_STORE_URL } from '../../utils/storeBadgeUrls'
-import { EsimPlanSelector } from './EsimPlanSelector'
 import styles from './EsimPricingCatalog.module.css'
 
 const PURCHASE_HREF = RAQOON_ESIM_APP_STORE_URL
 
-/** Shown first in the country strip (marketing + common trips). */
-const POPULAR_DESTINATIONS = ['TR', 'GR', 'TH', 'GE', 'CY', 'AM'] as const
+/** Popular chips order (aligned with raqoon.cc). */
+const POPULAR_DESTINATIONS = ['TR', 'TH', 'AE', 'EG', 'GR', 'CY', 'IT', 'ES', 'US', 'JP'] as const
 
 type CountryOption = {
   code: string
@@ -50,25 +49,6 @@ function flagEmoji(code: string): string {
   )
 }
 
-function uniqueSorted(values: number[]): number[] {
-  return [...new Set(values.filter((n) => Number.isFinite(n)))].sort((a, b) => a - b)
-}
-
-function nearestIndex(values: number[], target: number | null): number {
-  if (!values.length) return 0
-  if (target === null) return 0
-  let best = 0
-  let bestDist = Math.abs(values[0] - target)
-  for (let i = 1; i < values.length; i += 1) {
-    const dist = Math.abs(values[i] - target)
-    if (dist < bestDist) {
-      best = i
-      bestDist = dist
-    }
-  }
-  return best
-}
-
 type EsimPricingCatalogProps = {
   purchaseHref?: string
 }
@@ -80,8 +60,6 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
   const [marketCode, setMarketCode] = useState<string | null>(null)
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null)
   const [query, setQuery] = useState('')
-  const [durationPref, setDurationPref] = useState<number | null>(null)
-  const [dataPref, setDataPref] = useState<number | null>(null)
 
   const locale = i18n.language || 'en'
 
@@ -104,9 +82,9 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
     return catalog.countries
       .map((group) => ({
         code: group.code,
-        packages: group.packages.filter((pkg) =>
-          packageHasPriceForLocale(pkg, catalog.markets, locale),
-        ),
+        packages: group.packages
+          .filter((pkg) => packageHasPriceForLocale(pkg, catalog.markets, locale))
+          .sort((a, b) => a.durationDays - b.durationDays || a.dataBytes - b.dataBytes),
       }))
       .filter((group) => group.packages.length > 0)
       .sort((a, b) => {
@@ -115,6 +93,14 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
         return countryLabel(a.code, locale).localeCompare(countryLabel(b.code, locale), locale)
       })
   }, [catalog, locale])
+
+  const popularCountries = useMemo(
+    () =>
+      POPULAR_DESTINATIONS.map((code) => countries.find((c) => c.code === code)).filter(
+        (c): c is CountryOption => Boolean(c),
+      ),
+    [countries],
+  )
 
   const filteredCountries = useMemo(() => {
     const q = query.trim().toLowerCase()
@@ -125,40 +111,14 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
     })
   }, [countries, query, locale])
 
+  const chipCountries = query.trim() ? filteredCountries.slice(0, 24) : popularCountries
+
   const activeCountry =
-    selectedCountry && filteredCountries.some((c) => c.code === selectedCountry)
-      ? selectedCountry
-      : filteredCountries[0]?.code ?? null
+    selectedCountry && countries.some((c) => c.code === selectedCountry) ? selectedCountry : null
 
-  const countryPackages =
-    filteredCountries.find((c) => c.code === activeCountry)?.packages ?? []
-
-  const durationOptions = useMemo(
-    () => uniqueSorted(countryPackages.map((pkg) => pkg.durationDays)),
-    [countryPackages],
-  )
-
-  const durationIndex = nearestIndex(durationOptions, durationPref)
-  const activeDuration = durationOptions[durationIndex] ?? null
-
-  const dataOptions = useMemo(() => {
-    const pool =
-      activeDuration === null
-        ? countryPackages
-        : countryPackages.filter((pkg) => pkg.durationDays === activeDuration)
-    return uniqueSorted(pool.map((pkg) => pkg.dataBytes))
-  }, [countryPackages, activeDuration])
-
-  const dataIndex = nearestIndex(dataOptions, dataPref)
-  const activeData = dataOptions[dataIndex] ?? null
-
-  const activePackages = useMemo(() => {
-    return countryPackages.filter(
-      (pkg) =>
-        (activeDuration === null || pkg.durationDays === activeDuration) &&
-        (activeData === null || pkg.dataBytes === activeData),
-    )
-  }, [countryPackages, activeDuration, activeData])
+  const activePackages = activeCountry
+    ? (countries.find((c) => c.code === activeCountry)?.packages ?? [])
+    : []
 
   if (pricing.status === 'loading' || pricing.status === 'idle') {
     return (
@@ -203,8 +163,6 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
               onChange={(e) => {
                 setMarketCode(e.target.value)
                 setSelectedCountry(null)
-                setDurationPref(null)
-                setDataPref(null)
               }}
             >
               {catalog.markets.map((m) => (
@@ -217,7 +175,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
         ) : null}
 
         <label className={styles.searchRow}>
-          <span className={styles.visuallyHidden}>{t('esimPage.pricing.searchCountry')}</span>
+          <span className={styles.fieldLabel}>{t('esimPage.pricing.searchLabel')}</span>
           <input
             className={styles.search}
             type="search"
@@ -227,8 +185,8 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
           />
         </label>
 
-        <ul className={styles.countryList} role="listbox" aria-label={t('esimPage.pricing.searchCountry')}>
-          {filteredCountries.map((c) => {
+        <ul className={styles.countryList} role="listbox" aria-label={t('esimPage.pricing.searchLabel')}>
+          {chipCountries.map((c) => {
             const active = c.code === activeCountry
             return (
               <li key={c.code}>
@@ -237,11 +195,7 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
                   role="option"
                   aria-selected={active}
                   className={`${styles.countryBtn} ${active ? styles.countryBtnActive : ''}`}
-                  onClick={() => {
-                    setSelectedCountry(c.code)
-                    setDurationPref(null)
-                    setDataPref(null)
-                  }}
+                  onClick={() => setSelectedCountry(c.code)}
                 >
                   <span className={styles.flag} aria-hidden="true">
                     {flagEmoji(c.code)}
@@ -253,29 +207,9 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
           })}
         </ul>
 
-        {durationOptions.length > 0 ? (
-          <div className={styles.filters}>
-            <EsimPlanSelector
-              durationSteps={durationOptions}
-              dataSteps={dataOptions}
-              durationIndex={durationIndex}
-              dataIndex={dataIndex}
-              onDurationIndex={(index) => {
-                setDurationPref(durationOptions[index] ?? null)
-                setDataPref(null)
-              }}
-              onDataIndex={(index) => {
-                setDataPref(dataOptions[index] ?? null)
-              }}
-              formatDurationValue={(days) => String(t('esimPage.pricing.days', { count: days }))}
-              formatDataValue={(bytes) => formatDataBytes(bytes, locale)}
-              durationLabel={String(t('esimPage.pricing.filterDuration'))}
-              dataLabel={String(t('esimPage.pricing.filterData'))}
-            />
-          </div>
-        ) : null}
-
-        {activePackages.length === 0 ? (
+        {!activeCountry ? (
+          <p className={styles.empty}>{t('esimPage.pricing.startWithCountry')}</p>
+        ) : activePackages.length === 0 ? (
           <p className={styles.empty}>{t('esimPage.pricing.noMatchingPlans')}</p>
         ) : (
           <ul className={styles.packageList}>
@@ -323,6 +257,8 @@ export function EsimPricingCatalog({ purchaseHref = PURCHASE_HREF }: EsimPricing
             })}
           </ul>
         )}
+
+        <p className={styles.panelNote}>{t('esimPage.pricing.finalPriceNote')}</p>
       </div>
 
       <p className={styles.disclaimer}>{t('esimPage.pricing.priceDisclaimer')}</p>

@@ -1,64 +1,292 @@
-/* eSIM-only overrides on top of WalletPage.module.css — keep typography/tokens shared. */
+.page {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  min-height: 60vh;
+}
 
-.introMedia img {
-  /* Override wallet 40% square hero — phone art is portrait */
-  width: min(56%, 280px);
-  max-width: min(56%, 280px);
+.wrap,
+.wrapNarrow {
+  width: min(100% - 32px, 720px);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.wrapNarrow {
+  width: min(100% - 32px, 640px);
+  text-align: center;
+}
+
+.hero {
+  padding: clamp(48px, 10vw, 96px) 0 clamp(40px, 8vw, 72px);
+}
+
+.heroTitle {
+  margin: 0 0 16px;
+  font-size: clamp(34px, 7vw, 56px);
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.heroLead {
+  margin: 0 auto 28px;
+  max-width: 36ch;
+  color: var(--color-text-secondary);
+  font-size: clamp(16px, 2.4vw, 18px);
+  font-weight: var(--font-medium);
+  line-height: 1.45;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.btnPrimary,
+.btnSecondary,
+.btnAccent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+.btnPrimary,
+.btnSecondary {
+  background: #fff;
+  color: #000;
+}
+
+.btnSecondary {
+  background: var(--color-surface-elevated);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+}
+
+.btnAccent {
+  background: var(--color-accent);
+  color: var(--color-bg);
+}
+
+.pricing,
+.features,
+.how,
+.stats,
+.faq,
+.final,
+.mapSection {
+  padding: clamp(40px, 8vw, 72px) 0;
+  scroll-margin-top: 64px;
+}
+
+.badge {
+  margin: 0 0 12px;
+  text-align: center;
+  color: var(--color-accent);
+  font-size: 12px;
+  font-weight: var(--font-semibold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sectionTitle {
+  margin: 0 0 12px;
+  text-align: center;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+.sectionLead {
+  margin: 0 auto 28px;
+  max-width: 40ch;
+  text-align: center;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: var(--font-medium);
+  line-height: 1.45;
+}
+
+.mapPanel {
+  border: 1px solid var(--color-border);
+  border-radius: 28px;
+  background: var(--color-surface);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 28px 16px 0;
+  min-height: 220px;
+}
+
+.mapArt {
+  width: min(52%, 260px);
   height: auto;
   display: block;
   object-fit: contain;
   object-position: bottom center;
 }
 
-.pricing {
-  padding: var(--space-6) 0 var(--space-12);
-  scroll-margin-top: 56px;
+.featureGrid,
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
 }
 
-.pricingTitle {
-  margin: 0 auto var(--space-6);
-  max-width: 16ch;
-  text-align: center;
-  font-size: 32px;
+.featureCard,
+.statCard {
+  border: 1px solid var(--color-border);
+  border-radius: 22px;
+  background: var(--color-surface);
+  padding: 22px 18px;
+}
+
+.featureTitle,
+.statTitle {
+  margin: 0 0 10px;
+  font-size: clamp(20px, 3vw, 24px);
   font-weight: var(--font-semibold);
   letter-spacing: -0.03em;
-  line-height: 1.1;
+  line-height: 1.15;
+}
+
+.featureGreen {
+  color: var(--color-accent);
+}
+
+.featureBody,
+.statBody,
+.stepBody,
+.faqAnswer {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  font-weight: var(--font-medium);
+  line-height: 1.45;
+}
+
+.textLink {
+  display: block;
+  margin: 22px auto 0;
+  width: fit-content;
+  color: var(--color-accent);
+  font-size: 16px;
+  font-weight: var(--font-semibold);
+  text-decoration: none;
+}
+
+.stepList {
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.stepItem {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  border: 1px solid var(--color-border);
+  border-radius: 22px;
+  background: var(--color-surface);
+  padding: 18px;
+}
+
+.stepNum {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  font-weight: var(--font-semibold);
+}
+
+.stepTitle {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: var(--font-semibold);
+  letter-spacing: -0.02em;
+}
+
+.faqGroup {
+  margin-top: 28px;
+}
+
+.faqGroupTitle {
+  margin: 0 0 12px;
+  color: var(--color-accent);
+  font-size: 14px;
+  font-weight: var(--font-semibold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.faqItem {
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.faqBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border: none;
+  background: transparent;
   color: var(--color-text);
-  font-family: var(--font-sans);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: var(--font-semibold);
+  text-align: left;
+  cursor: pointer;
+}
+
+.faqAnswer {
+  padding: 0 16px 16px;
 }
 
 .finalDisclaimer {
-  margin: var(--space-4) 0 0;
+  margin: 16px 0 0;
   color: var(--color-text-secondary);
   font-size: 13px;
   font-weight: var(--font-medium);
   line-height: 1.45;
-  text-align: center;
 }
 
-.ctaLink {
-  text-decoration: none;
-}
-
-/* Hero CTA: wallet uses white primary; product pages use accent for download on eSIM */
-.ctaAccent {
-  background: var(--color-accent);
-  color: var(--color-bg);
-}
-
-.appleMark {
-  display: inline-block;
-  vertical-align: -0.12em;
-  margin-inline: 0.06em 0.02em;
-}
-
-@media (max-width: 519px) {
-  .introMedia img {
-    width: min(64%, 220px);
-    max-width: min(64%, 220px);
+@media (max-width: 619px) {
+  .featureGrid,
+  .statGrid {
+    grid-template-columns: 1fr;
   }
 
-  .pricingTitle {
-    font-size: 28px;
+  .mapArt {
+    width: min(70%, 220px);
   }
 }

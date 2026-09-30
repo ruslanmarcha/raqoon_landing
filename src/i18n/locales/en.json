@@ -532,106 +532,21 @@
   },
   "esimPage": {
     "brand": "Raqoon eSIM",
-    "openTile": "Open: {{title}}",
-    "closeTile": "Close",
     "hero": {
-      "headline": "Online in a minute.\nHalf the price.",
-      "cta": "Download the app"
+      "headline": "Landed — and already online.",
+      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
+      "ctaCountry": "Choose a country",
+      "ctaHow": "How it works"
     },
-    "tiles": [
-      {
-        "id": "cheaper",
-        "span": "full",
-        "theme": "light",
-        "display": true,
-        "accent": "2× cheaper.",
-        "headline": "Than popular apps.",
-        "detailTitle": "Half the price",
-        "detailBody": "Same travel data — at least twice as cheap as the usual apps. See the pack and the price before you pay. No carrier roaming bill waiting when you get home.",
-        "benefits": [
-          "At least 2× cheaper than popular travel eSIMs",
-          "Live catalog prices — what you see is what you pay",
-          "Buy once. No trial bait, no fine-print games"
-        ],
-        "cta": "See plans",
-        "href": "#pricing"
-      },
-      {
-        "id": "pay",
-        "span": "half",
-        "theme": "soft",
-        "accent": "Pay.",
-        "headline": "Card & {{apple}} Pay.",
-        "detailTitle": "Pay your way",
-        "detailBody": "Card or Apple Pay in the Raqoon app — checkout in seconds. No airport kiosk, no cash scramble, no waiting for foreign-card approval.",
-        "benefits": [
-          "Card checkout in the app",
-          "Apple Pay where your phone supports it",
-          "Built for travelers who move fast"
-        ],
-        "cta": "Download",
-        "href": "https://apps.apple.com/am/app/raqoon-vpn/id6763367620"
-      },
-      {
-        "id": "minute",
-        "span": "half",
-        "theme": "light",
-        "accent": "1 minute.",
-        "headline": "You're online.",
-        "detailTitle": "Ready before you land",
-        "detailBody": "Buy at home, install in the Raqoon app on an unlocked eSIM phone — after landing you’re online in about a minute. Keep your home number on the second line if Dual SIM.",
-        "benefits": [
-          "Install in-app, connect on arrival",
-          "Buy before you fly",
-          "Dual SIM when your phone allows",
-          "Unlocked + eSIM-capable required"
-        ],
-        "cta": "Download",
-        "href": "https://apps.apple.com/am/app/raqoon-vpn/id6763367620"
-      },
-      {
-        "id": "coverage",
-        "span": "half",
-        "theme": "dark",
-        "accent": "~200.",
-        "headline": "Regions.",
-        "detailTitle": "Wherever you go",
-        "detailBody": "About 200 countries and regions in one catalog — pick a destination, data, and days, see network and price. Turkey, Greece, Thailand, Georgia, Cyprus, and Armenia top the list.",
-        "benefits": [
-          "~200 destinations, no carrier roaming",
-          "Country packs built for the trip",
-          "Live prices on this page"
-        ],
-        "cta": "See plans",
-        "href": "#pricing"
-      },
-      {
-        "id": "honest",
-        "span": "half",
-        "theme": "light",
-        "accent": "Honest.",
-        "headline": "GB packs.",
-        "detailTitle": "Clear packs",
-        "detailBody": "Fixed GB and days on the pack card — no fake unlimited. Unused data expires. 5G when the partner has it, otherwise 4G at local-network speed. Run out early? Top up on most packs.",
-        "benefits": [
-          "Packs like 5 / 10 / 20 GB",
-          "Durations like 7 / 15 / 30 days",
-          "Top-up when you need more",
-          "Data only — no number, no calls"
-        ],
-        "cta": "Download",
-        "href": "https://apps.apple.com/am/app/raqoon-vpn/id6763367620"
-      }
-    ],
     "pricing": {
-      "title": "Plans & prices",
+      "title": "Pick a country — see the price.",
       "loading": "Loading prices…",
       "unavailable": "Prices are temporarily unavailable.",
       "stale": "Prices may be out of date — trying to refresh.",
       "updatedBanner": "Prices updated — refresh the page",
       "refresh": "Refresh",
       "marketLabel": "Market",
-      "searchCountry": "Search country",
+      "searchCountry": "e.g. Turkey, Thailand, Europe",
       "filterDuration": "Validity",
       "filterData": "Data volume",
       "daysUnit": "days",
@@ -684,11 +599,163 @@
       "networks": "Networks",
       "topUpYes": "Top-up available",
       "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app."
+      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
+      "badge": "Live prices · 150+ destinations",
+      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
+      "searchLabel": "Country or region",
+      "startWithCountry": "Start with a country — we’ll show every pack and price.",
+      "finalPriceNote": "Final price. No extra fees."
+    },
+    "mapLabel": "eSIM coverage",
+    "features": [
+      {
+        "titleGreen": "Packs without",
+        "titleRest": "the markup",
+        "body": "Same data and days for less. See the exact price before you open the app."
+      },
+      {
+        "titleGreen": "Pay",
+        "titleRest": "in the app",
+        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+      },
+      {
+        "titleGreen": "Out of data?",
+        "titleRest": "",
+        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+      },
+      {
+        "titleGreen": "In the",
+        "titleRest": "Raqoon app",
+        "body": "Buy and install your eSIM in one place."
+      }
+    ],
+    "featuresCta": "Choose a country →",
+    "steps": {
+      "title": "Four steps to data",
+      "items": [
+        {
+          "title": "Pick a country and pack",
+          "body": "Where you’re going and how much data you need. The price shows up right away."
+        },
+        {
+          "title": "Pay in the app",
+          "body": "Open Raqoon and check out. Install from the app."
+        },
+        {
+          "title": "Install at home",
+          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+        },
+        {
+          "title": "Turn it on after landing",
+          "body": "One toggle — you’re online. Validity starts then."
+        }
+      ]
+    },
+    "stats": {
+      "title": "Wherever you go",
+      "items": [
+        {
+          "title": "150+ countries.",
+          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+        },
+        {
+          "title": "200+ networks.",
+          "body": "We connect you to local operators — the same ones residents use."
+        },
+        {
+          "title": "LTE and 5G.",
+          "body": "Video, maps, messenger calls — like at home."
+        },
+        {
+          "title": "Real support.",
+          "body": "Stuck on install? Write us. People reply on business days."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Before you buy",
+      "groups": [
+        {
+          "title": "Before purchase",
+          "items": [
+            {
+              "q": "What is an eSIM?",
+              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+            },
+            {
+              "q": "Will my phone work?",
+              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+            },
+            {
+              "q": "Do I need a pack per country?",
+              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+            },
+            {
+              "q": "Can I buy for the family?",
+              "a": "Yes. One pack per phone — all in the Raqoon app."
+            }
+          ]
+        },
+        {
+          "title": "Payment",
+          "items": [
+            {
+              "q": "Do you take my local cards?",
+              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+            },
+            {
+              "q": "Is the price final?",
+              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+            },
+            {
+              "q": "Can I get a refund?",
+              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+            }
+          ]
+        },
+        {
+          "title": "On the trip",
+          "items": [
+            {
+              "q": "When does validity start?",
+              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+            },
+            {
+              "q": "Out of data — what next?",
+              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+            },
+            {
+              "q": "Can I hotspot?",
+              "a": "On most packs, yes. Share to a laptop or travel companions."
+            },
+            {
+              "q": "Where do I see remaining data?",
+              "a": "In the Raqoon app — per pack."
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "items": [
+            {
+              "q": "eSIM won’t install",
+              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+            },
+            {
+              "q": "Installed but no data",
+              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+            },
+            {
+              "q": "How do I contact you?",
+              "a": "help@raqoon.app — humans, not a bot."
+            }
+          ]
+        }
+      ]
     },
     "final": {
-      "headline": "Get connected before you fly.",
-      "body": "Download Raqoon, pick a pack, and install your eSIM in about a minute.",
+      "headline": "Buy now — turn on after landing",
+      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
       "cta": "Download the app",
       "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
     }

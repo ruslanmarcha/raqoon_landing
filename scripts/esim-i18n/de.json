@@ -1,0 +1,251 @@
+{
+  "brand": "Raqoon eSIM",
+  "hero": {
+    "headline": "Gelandet — und schon online.",
+    "lead": "eSIM für 150+ Länder. Zu Hause in einer Minute kaufen — ohne Roaming, ohne SIM-Suche.",
+    "ctaCountry": "Land wählen",
+    "ctaHow": "So funktioniert’s"
+  },
+  "pricing": {
+    "title": "Land wählen — Preis sehen.",
+    "loading": "Preise werden geladen…",
+    "unavailable": "Preise vorübergehend nicht verfügbar.",
+    "stale": "Preise können veraltet sein — wir aktualisieren.",
+    "updatedBanner": "Preise aktualisiert — Seite neu laden",
+    "refresh": "Aktualisieren",
+    "marketLabel": "Markt",
+    "searchCountry": "z. B. Türkei, Thailand, Europa",
+    "filterDuration": "Laufzeit",
+    "filterData": "Datenvolumen",
+    "daysUnit": "Tage",
+    "dataUnit": "GB",
+    "noMatchingPlans": "Keine Pakete mit diesen Filtern",
+    "premium": "Premium",
+    "data": "Daten",
+    "days": "{{count}} Tage",
+    "networks": "Netze",
+    "topUpYes": "Aufladen möglich",
+    "buyCta": "In der App kaufen",
+    "priceDisclaimer": "Live-Katalogpreise; der Endbetrag wird beim Kauf in der App bestätigt.",
+    "badge": "Live-Preise · 150+ Ziele",
+    "lead": "Was Sie sehen, zahlen Sie. Kein „ab“, keine Überraschungen vor Ort.",
+    "searchLabel": "Land oder Region",
+    "startWithCountry": "Mit dem Land starten — wir zeigen alle Pakete und Preise.",
+    "finalPriceNote": "Endpreis. Keine Extra-Gebühren.",
+    "mapLabel": "Länder mit eSIM",
+    "paymentMethods": "Zahlungsarten",
+    "regions": {
+      "Africa": "Afrika",
+      "Africa (21 areas)": "Afrika (21 Gebiete)",
+      "Asia (12 areas)": "Asien (12 Gebiete)",
+      "Asia (14 areas)": "Asien (14 Gebiete)",
+      "Asia (20 areas)": "Asien (20 Gebiete)",
+      "Asia (7 areas)": "Asien (7 Gebiete)",
+      "Asia-20": "Asien-20",
+      "AUKUS(3 countries)": "AUKUS (3 Länder)",
+      "Australia & New Zealand": "Australien & Neuseeland",
+      "Balkans (5+ areas)": "Balkan (5+ Gebiete)",
+      "Caribbean (20+ areas)": "Karibik (20+ Gebiete)",
+      "Central Asia": "Zentralasien",
+      "Central Asia (4 areas)": "Zentralasien (4 Gebiete)",
+      "China (mainland HK Macao)": "China (Festland, HK, Macao)",
+      "China mainland & Japan & South Korea": "China, Japan & Südkorea",
+      "Europe": "Europa",
+      "Europe (31 areas)": "Europa (31 Gebiete)",
+      "Europe (33 areas)": "Europa (33 Gebiete)",
+      "Europe (35 areas)": "Europa (35 Gebiete)",
+      "Europe (40+ areas) & Morocco": "Europa (40+) & Marokko",
+      "Europe(30+ areas)": "Europa (30+ Gebiete)",
+      "GCC": "GCC",
+      "Global (120+ areas)": "Global (120+ Gebiete)",
+      "Global139": "Global 139",
+      "Gulf Region": "Golfregion",
+      "Ireland & Slovenia": "Irland & Slowenien",
+      "Ireland & UK": "Irland & UK",
+      "Japan & South Korea": "Japan & Südkorea",
+      "Middle East": "Naher Osten",
+      "Middle East & North Africa": "Naher Osten & Nordafrika",
+      "Middle East (5 areas)": "Naher Osten (5 Gebiete)",
+      "North America": "Nordamerika",
+      "Oceania (8 areas)": "Ozeanien (8 Gebiete)",
+      "Singapore & Malaysia & Thailand": "Singapur, Malaysia & Thailand",
+      "South America": "Südamerika",
+      "South America (6 areas)": "Südamerika (6 Gebiete)",
+      "South Asia (6 areas)": "Südasien (6 Gebiete)",
+      "South East Asia (8 areas)": "Südostasien (8 Gebiete)",
+      "USA & Canada": "USA & Kanada"
+    }
+  },
+  "mapLabel": "eSIM-Abdeckung",
+  "features": [
+    {
+      "titleGreen": "Pakete ohne",
+      "titleRest": "Aufpreis",
+      "body": "Gleiches Volumen und gleiche Laufzeit für weniger. Genauer Preis vor dem App-Wechsel."
+    },
+    {
+      "titleGreen": "Zahlen mit",
+      "titleRest": "jeder Karte",
+      "body": "In Raqoon vor dem Flug bezahlen — lokale oder ausländische Karten, wo verfügbar."
+    },
+    {
+      "titleGreen": "Daten",
+      "titleRest": "leer?",
+      "body": "Neues Paket in der App über WLAN oder Haupt-SIM kaufen."
+    },
+    {
+      "titleGreen": "In der",
+      "titleRest": "Raqoon-App",
+      "body": "Kaufen und installieren — alles an einem Ort."
+    }
+  ],
+  "featuresCta": "Land wählen →",
+  "steps": {
+    "title": "Vier Schritte zum Internet",
+    "items": [
+      {
+        "title": "Land und Paket wählen",
+        "body": "Wohin und wie viel Daten. Der Preis erscheint sofort."
+      },
+      {
+        "title": "In der App bezahlen",
+        "body": "Raqoon öffnen und abschließen. Installation in der App."
+      },
+      {
+        "title": "Zu Hause installieren",
+        "body": "eSIM per WLAN hinzufügen. Ihre Hauptnummer bleibt aktiv."
+      },
+      {
+        "title": "Nach der Landung einschalten",
+        "body": "Ein Schalter — und Sie sind online. Die Laufzeit startet dann."
+      }
+    ]
+  },
+  "stats": {
+    "title": "Wohin Sie auch reisen",
+    "items": [
+      {
+        "title": "150+ Länder.",
+        "body": "Ein Land oder eine ganze Region mit einer eSIM. Europa, Asien, Naher Osten."
+      },
+      {
+        "title": "200+ Netze.",
+        "body": "Anschluss an lokale Betreiber — dieselben wie Einheimische."
+      },
+      {
+        "title": "LTE und 5G.",
+        "body": "Video, Karten, Messenger-Anrufe — wie zu Hause."
+      },
+      {
+        "title": "Echter Support.",
+        "body": "Hängen bei der Installation? Schreiben Sie uns. Menschen antworten an Werktagen."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vor dem Kauf",
+    "groups": [
+      {
+        "title": "Vor dem Kauf",
+        "items": [
+          {
+            "q": "Was ist eine eSIM?",
+            "a": "Eine digitale SIM im Telefon. Das Paket installieren Sie in der App — nichts einlegen. Die Hauptnummer bleibt erreichbar."
+          },
+          {
+            "q": "Funktioniert mein Telefon?",
+            "a": "Sie brauchen eSIM-Unterstützung und ein entsperrtes Gerät. Prüfen Sie die Einstellungen vor dem Kauf."
+          },
+          {
+            "q": "Brauche ich ein Paket pro Land?",
+            "a": "Nicht immer. Regionale Mehrländer-Pakete decken die ganze Reise mit einer eSIM ab."
+          },
+          {
+            "q": "Kann ich für die Familie kaufen?",
+            "a": "Ja. Ein Paket pro Telefon — alles in der Raqoon-App."
+          }
+        ]
+      },
+      {
+        "title": "Zahlung",
+        "items": [
+          {
+            "q": "Akzeptieren Sie lokale Karten?",
+            "a": "In der App gibt es Zahlungsmethoden für Ihre Region, wo verfügbar. Vor dem Flug zahlen."
+          },
+          {
+            "q": "Ist der Preis endgültig?",
+            "a": "Ja. Was Sie hier sehen, zahlen Sie in der App — ohne Roaming des Heimnetzbetreibers oben drauf."
+          },
+          {
+            "q": "Kann ich zurückerstatten?",
+            "a": "Vor der Aktivierung gelten die eSIM-Rückerstattungsregeln. Nach dem ersten Netzanschluss gilt das Paket als genutzt."
+          }
+        ]
+      },
+      {
+        "title": "Unterwegs",
+        "items": [
+          {
+            "q": "Wann startet die Laufzeit?",
+            "a": "Beim ersten Verbindungsaufbau im Ausland, nicht bei der Zahlung. Früh kaufen — nichts verfällt vorzeitig."
+          },
+          {
+            "q": "Daten leer — was tun?",
+            "a": "Neues Paket in der App über WLAN oder Heim-SIM. Etwa eine Minute."
+          },
+          {
+            "q": "Kann ich Hotspot teilen?",
+            "a": "Bei den meisten Paketen ja. Laptop und Mitreisende verbinden."
+          },
+          {
+            "q": "Wo sehe ich das Restvolumen?",
+            "a": "In der Raqoon-App — je Paket."
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "items": [
+          {
+            "q": "eSIM lässt sich nicht installieren",
+            "a": "WLAN verbinden und prüfen, ob das Telefon nicht netzgebunden ist. Hilft nicht — help@raqoon.app."
+          },
+          {
+            "q": "Installiert, aber kein Internet",
+            "a": "Daten und Datenroaming für die eSIM-Leitung einschalten. Wenn es scheitert, schreiben Sie uns mit dem Modell."
+          },
+          {
+            "q": "Wie kontaktiere ich euch?",
+            "a": "help@raqoon.app — Menschen, kein Bot."
+          }
+        ]
+      }
+    ]
+  },
+  "final": {
+    "headline": "Jetzt kaufen — nach der Landung einschalten",
+    "body": "Eine Minute zu Hause schlägt die SIM-Schlange am Flughafen. Installation in der Raqoon-App.",
+    "cta": "App herunterladen",
+    "disclaimer": "Raqoon vertreibt prepaid Reise-eSIM-Daten. Kein Mobilfunknetzbetreiber. Details in den eSIM-AGB und der Datenschutzrichtlinie."
+  },
+  "deviceCheckLink": "Prüfen, ob das Telefon passt",
+  "device": {
+    "badge": "30-Sekunden-Check",
+    "title": "Funktioniert Ihr Telefon?",
+    "subtitle": "Hersteller und Modell — sofortige Antwort.",
+    "manufacturer": "Hersteller",
+    "model": "Modell",
+    "pickMaker": "Hersteller",
+    "pickModel": "Modell",
+    "needMaker": "Zuerst Hersteller wählen",
+    "compatible": "Ja, es funktioniert. Paket wählen.",
+    "incompatible": "Dieses Modell hat meist keine eSIM.",
+    "disclaimer": "Zur Orientierung. Das Telefon muss entsperrt sein.",
+    "count": "{{count}} Modelle",
+    "searchModel": "Modell suchen",
+    "regional": "Oft ja, aber in manchen Märkten ohne eSIM. Entsperrtes Gerät nötig.",
+    "titleShort": "Funktioniert Ihr Telefon?",
+    "subtitleShort": "Hersteller und Modell — Antwort in einer Sekunde."
+  }
+}

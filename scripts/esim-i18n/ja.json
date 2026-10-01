@@ -1,0 +1,253 @@
+{
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "hero": {
+      "headline": "到着したら、もうオンライン。",
+      "lead": "150か国以上対応のeSIM。自宅で1分で購入 — ローミングもSIM探しも不要。",
+      "ctaCountry": "国を選ぶ",
+      "ctaHow": "使い方"
+    },
+    "pricing": {
+      "title": "国を選ぶ — 料金が表示されます。",
+      "loading": "料金を読み込み中…",
+      "unavailable": "料金は一時的に表示できません。",
+      "stale": "料金が古い可能性があります — 更新を試みています。",
+      "updatedBanner": "料金を更新しました — ページを再読み込みしてください",
+      "refresh": "更新",
+      "marketLabel": "マーケット",
+      "searchCountry": "例：トルコ、タイ、ヨーロッパ",
+      "filterDuration": "有効期間",
+      "filterData": "データ容量",
+      "daysUnit": "日",
+      "dataUnit": "GB",
+      "noMatchingPlans": "条件に合うパックがありません",
+      "premium": "プレミアム",
+      "regions": {
+        "Africa": "アフリカ",
+        "Africa (21 areas)": "アフリカ（21エリア）",
+        "Asia (12 areas)": "アジア（12エリア）",
+        "Asia (14 areas)": "アジア（14エリア）",
+        "Asia (20 areas)": "アジア（20エリア）",
+        "Asia (7 areas)": "アジア（7エリア）",
+        "Asia-20": "アジア-20",
+        "AUKUS(3 countries)": "AUKUS（3か国）",
+        "Australia & New Zealand": "オーストラリア＆ニュージーランド",
+        "Balkans (5+ areas)": "バルカン（5+エリア）",
+        "Caribbean (20+ areas)": "カリブ（20+エリア）",
+        "Central Asia": "中央アジア",
+        "Central Asia (4 areas)": "中央アジア（4エリア）",
+        "China (mainland HK Macao)": "中国（本土・香港・マカオ）",
+        "China mainland & Japan & South Korea": "中国・日本・韓国",
+        "Europe": "ヨーロッパ",
+        "Europe (31 areas)": "ヨーロッパ（31エリア）",
+        "Europe (33 areas)": "ヨーロッパ（33エリア）",
+        "Europe (35 areas)": "ヨーロッパ（35エリア）",
+        "Europe (40+ areas) & Morocco": "ヨーロッパ（40+）＆モロッコ",
+        "Europe(30+ areas)": "ヨーロッパ（30+エリア）",
+        "GCC": "GCC",
+        "Global (120+ areas)": "グローバル（120+エリア）",
+        "Global139": "グローバル139",
+        "Gulf Region": "湾岸地域",
+        "Ireland & Slovenia": "アイルランド＆スロベニア",
+        "Ireland & UK": "アイルランド＆英国",
+        "Japan & South Korea": "日本＆韓国",
+        "Middle East": "中東",
+        "Middle East & North Africa": "中東＆北アフリカ",
+        "Middle East (5 areas)": "中東（5エリア）",
+        "North America": "北米",
+        "Oceania (8 areas)": "オセアニア（8エリア）",
+        "Singapore & Malaysia & Thailand": "シンガポール・マレーシア・タイ",
+        "South America": "南米",
+        "South America (6 areas)": "南米（6エリア）",
+        "South Asia (6 areas)": "南アジア（6エリア）",
+        "South East Asia (8 areas)": "東南アジア（8エリア）",
+        "USA & Canada": "アメリカ＆カナダ"
+      },
+      "data": "データ",
+      "days": "{{count}}日",
+      "networks": "ネットワーク",
+      "topUpYes": "チャージ可能",
+      "buyCta": "アプリで購入",
+      "priceDisclaimer": "ライブカタログの料金。最終金額はアプリの決済時に確定します。",
+      "badge": "ライブ料金 · 150以上の目的地",
+      "lead": "表示どおりがお支払い額。「〜から」も現地での追加料金もありません。",
+      "searchLabel": "国または地域",
+      "startWithCountry": "国から選ぶ — すべてのパックと料金を表示します。",
+      "finalPriceNote": "最終価格。追加手数料なし。",
+      "mapLabel": "eSIM対応国",
+      "paymentMethods": "お支払い方法"
+    },
+    "mapLabel": "eSIMカバレッジ",
+    "features": [
+      {
+        "titleGreen": "マークアップなしの",
+        "titleRest": "パック",
+        "body": "同じデータ・日数をより安く。アプリを開く前に正確な価格が分かります。"
+      },
+      {
+        "titleGreen": "どのカードでも",
+        "titleRest": "支払い",
+        "body": "出発前にRaqoonで決済 — 利用可能な地域では国内・海外カードに対応。"
+      },
+      {
+        "titleGreen": "データが",
+        "titleRest": "足りない？",
+        "body": "Wi‑FiまたはメインSIM経由でアプリから別パックを購入。"
+      },
+      {
+        "titleGreen": "Raqoon",
+        "titleRest": "アプリで",
+        "body": "eSIMの購入とインストールをまとめて — すべて一か所で。"
+      }
+    ],
+    "featuresCta": "国を選ぶ →",
+    "steps": {
+      "title": "データまで4ステップ",
+      "items": [
+        {
+          "title": "国とパックを選ぶ",
+          "body": "行き先と必要なデータ量。料金はすぐ表示されます。"
+        },
+        {
+          "title": "アプリで支払う",
+          "body": "Raqoonを開いて購入。アプリからインストール。"
+        },
+        {
+          "title": "自宅でインストール",
+          "body": "Wi‑FiでeSIMを追加。メイン番号はそのまま使えます。"
+        },
+        {
+          "title": "到着後にオン",
+          "body": "トグルひとつでオンライン。有効期間はその時点から。"
+        }
+      ]
+    },
+    "stats": {
+      "title": "どこへ行っても",
+      "items": [
+        {
+          "title": "150か国以上。",
+          "body": "1か国でも広域でも、1枚のeSIMで。ヨーロッパ、アジア、中東。"
+        },
+        {
+          "title": "200以上のネットワーク。",
+          "body": "現地のキャリアに接続 — 住民と同じ回線。"
+        },
+        {
+          "title": "LTEと5G。",
+          "body": "動画、地図、メッセンジャー通話 — 自宅と同じように。"
+        },
+        {
+          "title": "本物のサポート。",
+          "body": "インストールで困ったらご連絡を。平日は人が返信します。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "購入前に",
+      "groups": [
+        {
+          "title": "購入前",
+          "items": [
+            {
+              "q": "eSIMとは？",
+              "a": "端末内のデジタルSIM。アプリでプランをインストール — 差し込み不要。メイン番号はそのまま。"
+            },
+            {
+              "q": "自分の端末は使える？",
+              "a": "eSIM対応とSIMロック解除が必要です。購入前に端末設定で確認してください。"
+            },
+            {
+              "q": "国ごとにパックが必要？",
+              "a": "必ずしもそうではありません。複数国対応の地域パックで1枚のeSIMが旅全体をカバー。"
+            },
+            {
+              "q": "家族分も買える？",
+              "a": "はい。端末1台につき1パック — すべてRaqoonアプリで。"
+            }
+          ]
+        },
+        {
+          "title": "お支払い",
+          "items": [
+            {
+              "q": "地元のカードは使える？",
+              "a": "アプリの決済では、利用可能な地域の方法に対応。出発前にお支払い。"
+            },
+            {
+              "q": "表示価格が最終？",
+              "a": "はい。ここに表示された金額がアプリでの支払い額 — キャリアローミングは上乗せされません。"
+            },
+            {
+              "q": "返金はできる？",
+              "a": "有効化前はeSIM返金ポリシーをご確認ください。初回ネットワーク接続後はパック使用済みとなります。"
+            }
+          ]
+        },
+        {
+          "title": "旅行中",
+          "items": [
+            {
+              "q": "有効期間はいつから？",
+              "a": "海外での初回接続時。支払い時ではありません。事前購入しても早く消費されません。"
+            },
+            {
+              "q": "データがなくなったら？",
+              "a": "Wi‑FiまたはホームSIM経由でアプリから別パックを購入。約1分。"
+            },
+            {
+              "q": "テザリングは？",
+              "a": "多くのパックで可能。ノートPCや同行者と共有。"
+            },
+            {
+              "q": "残量はどこで見る？",
+              "a": "Raqoonアプリ — パックごと。"
+            }
+          ]
+        },
+        {
+          "title": "サポート",
+          "items": [
+            {
+              "q": "eSIMがインストールできない",
+              "a": "Wi‑Fiに接続し、キャリアロックでないことを確認。それでも — help@raqoon.app。"
+            },
+            {
+              "q": "インストールしたがデータが出ない",
+              "a": "eSIM回線でデータとデータローミングを有効に。ダメなら機種名を添えてご連絡を。"
+            },
+            {
+              "q": "連絡方法は？",
+              "a": "help@raqoon.app — ボットではなく人が対応。"
+            }
+          ]
+        }
+      ]
+    },
+    "final": {
+      "headline": "今すぐ購入 — 到着後にオン",
+      "body": "自宅の1分は空港のSIM列より早い。Raqoonアプリでインストール。",
+      "cta": "アプリをダウンロード",
+      "disclaimer": "Raqoonはプリペイド旅行eSIMデータの小売業者です。モバイルネットワーク事業者ではありません。詳細はeSIM利用規約とプライバシーをご覧ください。"
+    },
+    "deviceCheckLink": "端末の対応を確認",
+    "device": {
+      "badge": "30秒チェック",
+      "title": "端末は使えますか？",
+      "subtitle": "メーカーとモデル — すぐに回答。",
+      "manufacturer": "メーカー",
+      "model": "モデル",
+      "pickMaker": "メーカー",
+      "pickModel": "モデル",
+      "needMaker": "先にメーカーを選択",
+      "compatible": "はい、使えます。プランを選んでください。",
+      "incompatible": "このモデルは通常eSIM非対応です。",
+      "disclaimer": "参考情報。端末はSIMロック解除が必要です。",
+      "count": "{{count}}モデル",
+      "searchModel": "モデルを検索",
+      "regional": "多くは可ですが、一部市場ではeSIM非対応モデルがあります。ロック解除端末が必要。",
+      "titleShort": "端末は使えますか？",
+      "subtitleShort": "メーカーとモデル — 1秒で回答。"
+    }
+  }
+}

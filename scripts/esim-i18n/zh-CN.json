@@ -1,0 +1,253 @@
+{
+  "esimPage": {
+    "brand": "Raqoon eSIM",
+    "hero": {
+      "headline": "落地即可上网。",
+      "lead": "覆盖 150+ 国家的 eSIM。在家一分钟购买 — 无漫游、不用找 SIM 卡。",
+      "ctaCountry": "选择国家/地区",
+      "ctaHow": "如何运作"
+    },
+    "pricing": {
+      "title": "选国家/地区 — 看价格。",
+      "loading": "正在加载价格…",
+      "unavailable": "价格暂时无法显示。",
+      "stale": "价格可能已过期 — 正在尝试刷新。",
+      "updatedBanner": "价格已更新 — 请刷新页面",
+      "refresh": "刷新",
+      "marketLabel": "市场",
+      "searchCountry": "例如：土耳其、泰国、欧洲",
+      "filterDuration": "有效期",
+      "filterData": "流量",
+      "daysUnit": "天",
+      "dataUnit": "GB",
+      "noMatchingPlans": "没有符合筛选条件的套餐",
+      "premium": "高级",
+      "regions": {
+        "Africa": "非洲",
+        "Africa (21 areas)": "非洲（21个地区）",
+        "Asia (12 areas)": "亚洲（12个地区）",
+        "Asia (14 areas)": "亚洲（14个地区）",
+        "Asia (20 areas)": "亚洲（20个地区）",
+        "Asia (7 areas)": "亚洲（7个地区）",
+        "Asia-20": "亚洲-20",
+        "AUKUS(3 countries)": "AUKUS（3国）",
+        "Australia & New Zealand": "澳大利亚与新西兰",
+        "Balkans (5+ areas)": "巴尔干（5+地区）",
+        "Caribbean (20+ areas)": "加勒比（20+地区）",
+        "Central Asia": "中亚",
+        "Central Asia (4 areas)": "中亚（4个地区）",
+        "China (mainland HK Macao)": "中国（大陆、香港、澳门）",
+        "China mainland & Japan & South Korea": "中国、日本与韩国",
+        "Europe": "欧洲",
+        "Europe (31 areas)": "欧洲（31个地区）",
+        "Europe (33 areas)": "欧洲（33个地区）",
+        "Europe (35 areas)": "欧洲（35个地区）",
+        "Europe (40+ areas) & Morocco": "欧洲（40+）与摩洛哥",
+        "Europe(30+ areas)": "欧洲（30+地区）",
+        "GCC": "海湾合作委员会",
+        "Global (120+ areas)": "全球（120+地区）",
+        "Global139": "全球139",
+        "Gulf Region": "海湾地区",
+        "Ireland & Slovenia": "爱尔兰与斯洛文尼亚",
+        "Ireland & UK": "爱尔兰与英国",
+        "Japan & South Korea": "日本与韩国",
+        "Middle East": "中东",
+        "Middle East & North Africa": "中东与北非",
+        "Middle East (5 areas)": "中东（5个地区）",
+        "North America": "北美",
+        "Oceania (8 areas)": "大洋洲（8个地区）",
+        "Singapore & Malaysia & Thailand": "新加坡、马来西亚与泰国",
+        "South America": "南美",
+        "South America (6 areas)": "南美（6个地区）",
+        "South Asia (6 areas)": "南亚（6个地区）",
+        "South East Asia (8 areas)": "东南亚（8个地区）",
+        "USA & Canada": "美国与加拿大"
+      },
+      "data": "流量",
+      "days": "{{count}} 天",
+      "networks": "网络",
+      "topUpYes": "可充值",
+      "buyCta": "在 App 中购买",
+      "priceDisclaimer": "实时目录价格；最终金额在 App 结账时确认。",
+      "badge": "实时价格 · 150+ 目的地",
+      "lead": "所见即所付。没有“起价”，落地无额外费用。",
+      "searchLabel": "国家/地区",
+      "startWithCountry": "从国家/地区开始 — 我们会展示所有套餐与价格。",
+      "finalPriceNote": "最终价格。无额外费用。",
+      "mapLabel": "支持 eSIM 的国家/地区",
+      "paymentMethods": "支付方式"
+    },
+    "mapLabel": "eSIM 覆盖范围",
+    "features": [
+      {
+        "titleGreen": "无加价",
+        "titleRest": "套餐",
+        "body": "相同流量与天数更实惠。打开 App 前即可看到准确价格。"
+      },
+      {
+        "titleGreen": "任意卡",
+        "titleRest": "支付",
+        "body": "出发前在 Raqoon 结账 — 在可用地区支持本地或国际银行卡。"
+      },
+      {
+        "titleGreen": "流量",
+        "titleRest": "用完了？",
+        "body": "通过 Wi‑Fi 或主 SIM 在 App 中购买新套餐。"
+      },
+      {
+        "titleGreen": "在 Raqoon",
+        "titleRest": "App 中",
+        "body": "便捷购买并安装 eSIM — 一站完成。"
+      }
+    ],
+    "featuresCta": "选择国家/地区 →",
+    "steps": {
+      "title": "四步即可上网",
+      "items": [
+        {
+          "title": "选择国家/地区与套餐",
+          "body": "目的地与所需流量。价格立即显示。"
+        },
+        {
+          "title": "在 App 中支付",
+          "body": "打开 Raqoon 并完成购买。在 App 中安装。"
+        },
+        {
+          "title": "在家安装",
+          "body": "在 Wi‑Fi 下添加 eSIM。主号码继续可用。"
+        },
+        {
+          "title": "落地后开启",
+          "body": "切换一次即可上网。有效期从此时开始。"
+        }
+      ]
+    },
+    "stats": {
+      "title": "无论去哪",
+      "items": [
+        {
+          "title": "150+ 国家/地区。",
+          "body": "单个国家或整个区域，一张 eSIM。欧洲、亚洲、中东。"
+        },
+        {
+          "title": "200+ 网络。",
+          "body": "连接本地运营商 — 与居民使用相同的网络。"
+        },
+        {
+          "title": "LTE 与 5G。",
+          "body": "视频、地图、即时通讯通话 — 像在家一样。"
+        },
+        {
+          "title": "真实客服。",
+          "body": "安装遇到问题？联系我们。工作日由人工回复。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "购买前",
+      "groups": [
+        {
+          "title": "购买前",
+          "items": [
+            {
+              "q": "什么是 eSIM？",
+              "a": "手机内的数字 SIM。在 App 中安装套餐 — 无需插卡。主号码保持可用。"
+            },
+            {
+              "q": "我的手机能用吗？",
+              "a": "需要支持 eSIM 且设备已解锁。购买前请在手机设置中确认。"
+            },
+            {
+              "q": "每个国家都要买套餐吗？",
+              "a": "不一定。多国区域套餐可一张 eSIM 覆盖整趟行程。"
+            },
+            {
+              "q": "可以为家人购买吗？",
+              "a": "可以。每台手机一个套餐 — 均在 Raqoon App 中完成。"
+            }
+          ]
+        },
+        {
+          "title": "支付",
+          "items": [
+            {
+              "q": "支持本地银行卡吗？",
+              "a": "App 结账在可用地区支持相应支付方式。请在出发前完成支付。"
+            },
+            {
+              "q": "价格是最终价吗？",
+              "a": "是的。此处显示的价格即为 App 支付金额 — 不含运营商漫游附加费。"
+            },
+            {
+              "q": "可以退款吗？",
+              "a": "激活前请参阅 eSIM 退款政策。首次连接网络后，套餐视为已使用。"
+            }
+          ]
+        },
+        {
+          "title": "旅途中",
+          "items": [
+            {
+              "q": "有效期何时开始？",
+              "a": "在境外首次连接网络时，而非付款时。可提前购买 — 不会提前消耗。"
+            },
+            {
+              "q": "流量用完了怎么办？",
+              "a": "通过 Wi‑Fi 或主 SIM 在 App 中购买新套餐。约一分钟。"
+            },
+            {
+              "q": "可以开热点吗？",
+              "a": "大多数套餐可以。分享给笔记本或同行伙伴。"
+            },
+            {
+              "q": "在哪里查看剩余流量？",
+              "a": "在 Raqoon App 中 — 按套餐查看。"
+            }
+          ]
+        },
+        {
+          "title": "支持",
+          "items": [
+            {
+              "q": "eSIM 无法安装",
+              "a": "连接 Wi‑Fi 并确认手机未运营商锁定。仍无法安装 — help@raqoon.app。"
+            },
+            {
+              "q": "已安装但没有数据",
+              "a": "在 eSIM 线路启用移动数据和数据漫游。若仍无效，请写明机型联系我们。"
+            },
+            {
+              "q": "如何联系你们？",
+              "a": "help@raqoon.app — 人工回复，不是机器人。"
+            }
+          ]
+        }
+      ]
+    },
+    "final": {
+      "headline": "现在购买 — 落地后开启",
+      "body": "在家花一分钟，胜过机场排队买 SIM。在 Raqoon App 中安装。",
+      "cta": "下载 App",
+      "disclaimer": "Raqoon 是预付费旅行 eSIM 数据零售商，并非移动网络运营商。详见 eSIM 条款与隐私政策。"
+    },
+    "deviceCheckLink": "检查手机是否支持",
+    "device": {
+      "badge": "30 秒检测",
+      "title": "您的手机能用吗？",
+      "subtitle": "品牌与型号 — 即时答案。",
+      "manufacturer": "品牌",
+      "model": "型号",
+      "pickMaker": "品牌",
+      "pickModel": "型号",
+      "needMaker": "请先选择品牌",
+      "compatible": "可以。请选择套餐。",
+      "incompatible": "该型号通常不支持 eSIM。",
+      "disclaimer": "仅供参考。手机须已解锁。",
+      "count": "{{count}} 款型号",
+      "searchModel": "搜索型号",
+      "regional": "多数情况可以，但部分市场销售的该型号无 eSIM。需已解锁手机。",
+      "titleShort": "您的手机能用吗？",
+      "subtitleShort": "品牌与型号 — 一秒得出答案。"
+    }
+  }
+}

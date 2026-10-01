@@ -502,252 +502,252 @@
   "esimPage": {
     "brand": "Raqoon eSIM",
     "hero": {
-      "headline": "Landed — and already online.",
-      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
-      "ctaCountry": "Choose a country",
-      "ctaHow": "How it works"
+      "headline": "착륙했을 때, 이미 온라인.",
+      "lead": "150개 이상 국가 eSIM. 집에서 1분 만에 구매 — 로밍 없음, SIM 찾기 없음.",
+      "ctaCountry": "국가 선택",
+      "ctaHow": "이용 방법"
     },
     "pricing": {
-      "title": "Pick a country — see the price.",
-      "loading": "Loading prices…",
-      "unavailable": "Prices are temporarily unavailable.",
-      "stale": "Prices may be out of date — trying to refresh.",
-      "updatedBanner": "Prices updated — refresh the page",
-      "refresh": "Refresh",
-      "marketLabel": "Market",
-      "searchCountry": "e.g. Turkey, Thailand, Europe",
-      "filterDuration": "Validity",
-      "filterData": "Data volume",
-      "daysUnit": "days",
+      "title": "국가를 고르세요 — 가격이 보입니다.",
+      "loading": "가격 불러오는 중…",
+      "unavailable": "가격을 일시적으로 표시할 수 없습니다.",
+      "stale": "가격이 오래되었을 수 있습니다 — 새로고침 중.",
+      "updatedBanner": "가격이 업데이트되었습니다 — 페이지를 새로고침하세요",
+      "refresh": "새로고침",
+      "marketLabel": "마켓",
+      "searchCountry": "예: 터키, 태국, 유럽",
+      "filterDuration": "유효 기간",
+      "filterData": "데이터 용량",
+      "daysUnit": "일",
       "dataUnit": "GB",
-      "noMatchingPlans": "No packs match these filters",
-      "premium": "Premium",
+      "noMatchingPlans": "필터에 맞는 패키지가 없습니다",
+      "premium": "프리미엄",
       "regions": {
-        "Africa": "Africa",
-        "Africa (21 areas)": "Africa (21 areas)",
-        "Asia (12 areas)": "Asia (12 areas)",
-        "Asia (14 areas)": "Asia (14 areas)",
-        "Asia (20 areas)": "Asia (20 areas)",
-        "Asia (7 areas)": "Asia (7 areas)",
-        "Asia-20": "Asia-20",
-        "AUKUS(3 countries)": "AUKUS (3 countries)",
-        "Australia & New Zealand": "Australia & New Zealand",
-        "Balkans (5+ areas)": "Balkans (5+ areas)",
-        "Caribbean (20+ areas)": "Caribbean (20+ areas)",
-        "Central Asia": "Central Asia",
-        "Central Asia (4 areas)": "Central Asia (4 areas)",
-        "China (mainland HK Macao)": "China (mainland, HK, Macao)",
-        "China mainland & Japan & South Korea": "China mainland & Japan & South Korea",
-        "Europe": "Europe",
-        "Europe (31 areas)": "Europe (31 areas)",
-        "Europe (33 areas)": "Europe (33 areas)",
-        "Europe (35 areas)": "Europe (35 areas)",
-        "Europe (40+ areas) & Morocco": "Europe (40+ areas) & Morocco",
-        "Europe(30+ areas)": "Europe (30+ areas)",
+        "Africa": "아프리카",
+        "Africa (21 areas)": "아프리카(21개 지역)",
+        "Asia (12 areas)": "아시아(12개 지역)",
+        "Asia (14 areas)": "아시아(14개 지역)",
+        "Asia (20 areas)": "아시아(20개 지역)",
+        "Asia (7 areas)": "아시아(7개 지역)",
+        "Asia-20": "아시아-20",
+        "AUKUS(3 countries)": "AUKUS(3개국)",
+        "Australia & New Zealand": "호주 & 뉴질랜드",
+        "Balkans (5+ areas)": "발칸(5+ 지역)",
+        "Caribbean (20+ areas)": "카리브(20+ 지역)",
+        "Central Asia": "중앙아시아",
+        "Central Asia (4 areas)": "중앙아시아(4개 지역)",
+        "China (mainland HK Macao)": "중국(본토·홍콩·마카오)",
+        "China mainland & Japan & South Korea": "중국·일본·한국",
+        "Europe": "유럽",
+        "Europe (31 areas)": "유럽(31개 지역)",
+        "Europe (33 areas)": "유럽(33개 지역)",
+        "Europe (35 areas)": "유럽(35개 지역)",
+        "Europe (40+ areas) & Morocco": "유럽(40+) & 모로코",
+        "Europe(30+ areas)": "유럽(30+ 지역)",
         "GCC": "GCC",
-        "Global (120+ areas)": "Global (120+ areas)",
-        "Global139": "Global 139",
-        "Gulf Region": "Gulf Region",
-        "Ireland & Slovenia": "Ireland & Slovenia",
-        "Ireland & UK": "Ireland & UK",
-        "Japan & South Korea": "Japan & South Korea",
-        "Middle East": "Middle East",
-        "Middle East & North Africa": "Middle East & North Africa",
-        "Middle East (5 areas)": "Middle East (5 areas)",
-        "North America": "North America",
-        "Oceania (8 areas)": "Oceania (8 areas)",
-        "Singapore & Malaysia & Thailand": "Singapore & Malaysia & Thailand",
-        "South America": "South America",
-        "South America (6 areas)": "South America (6 areas)",
-        "South Asia (6 areas)": "South Asia (6 areas)",
-        "South East Asia (8 areas)": "South East Asia (8 areas)",
-        "USA & Canada": "USA & Canada"
+        "Global (120+ areas)": "글로벌(120+ 지역)",
+        "Global139": "글로벌 139",
+        "Gulf Region": "걸프 지역",
+        "Ireland & Slovenia": "아일랜드 & 슬로베니아",
+        "Ireland & UK": "아일랜드 & 영국",
+        "Japan & South Korea": "일본 & 한국",
+        "Middle East": "중동",
+        "Middle East & North Africa": "중동 & 북아프리카",
+        "Middle East (5 areas)": "중동(5개 지역)",
+        "North America": "북미",
+        "Oceania (8 areas)": "오세아니아(8개 지역)",
+        "Singapore & Malaysia & Thailand": "싱가포르·말레이시아·태국",
+        "South America": "남미",
+        "South America (6 areas)": "남미(6개 지역)",
+        "South Asia (6 areas)": "남아시아(6개 지역)",
+        "South East Asia (8 areas)": "동남아시아(8개 지역)",
+        "USA & Canada": "미국 & 캐나다"
       },
-      "data": "Data",
-      "days": "{{count}} days",
-      "networks": "Networks",
-      "topUpYes": "Top-up available",
-      "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
-      "badge": "Live prices · 150+ destinations",
-      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
-      "searchLabel": "Country or region",
-      "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees.",
-      "mapLabel": "Countries with eSIM",
-      "paymentMethods": "Payment methods"
+      "data": "데이터",
+      "days": "{{count}}일",
+      "networks": "네트워크",
+      "topUpYes": "충전 가능",
+      "buyCta": "앱에서 구매",
+      "priceDisclaimer": "실시간 카탈로그 가격; 최종 금액은 앱 결제 시 확정됩니다.",
+      "badge": "실시간 가격 · 150+ 여행지",
+      "lead": "보이는 가격이 그대로 결제 금액입니다. \"부터\" 표시나 현지 추가 요금 없음.",
+      "searchLabel": "국가 또는 지역",
+      "startWithCountry": "국가부터 선택 — 모든 패키지와 가격을 보여 드립니다.",
+      "finalPriceNote": "최종 가격. 추가 수수료 없음.",
+      "mapLabel": "eSIM 지원 국가",
+      "paymentMethods": "결제 수단"
     },
-    "mapLabel": "eSIM coverage",
+    "mapLabel": "eSIM 커버리지",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "마크업 없는",
+        "titleRest": "패키지",
+        "body": "같은 데이터·기간을 더 저렴하게. 앱을 열기 전 정확한 가격 확인."
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "어떤 카드로든",
+        "titleRest": "결제",
+        "body": "출발 전 Raqoon에서 결제 — 이용 가능한 지역의 국내·해외 카드."
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "데이터가",
+        "titleRest": "부족한가요?",
+        "body": "Wi‑Fi 또는 메인 SIM으로 앱에서 새 패키지 구매."
       },
       {
-        "titleGreen": "In the",
-        "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "titleGreen": "Raqoon",
+        "titleRest": "앱에서",
+        "body": "eSIM 구매와 설치를 편하게 — 한곳에서 모두."
       }
     ],
-    "featuresCta": "Choose a country →",
+    "featuresCta": "국가 선택 →",
     "steps": {
-      "title": "Four steps to data",
+      "title": "데이터까지 4단계",
       "items": [
         {
-          "title": "Pick a country and pack",
-          "body": "Where you’re going and how much data you need. The price shows up right away."
+          "title": "국가와 패키지 선택",
+          "body": "어디로 가는지, 데이터가 얼마나 필요한지. 가격이 바로 표시됩니다."
         },
         {
-          "title": "Pay in the app",
-          "body": "Open Raqoon and check out. Install from the app."
+          "title": "앱에서 결제",
+          "body": "Raqoon을 열고 결제. 앱에서 설치."
         },
         {
-          "title": "Install at home",
-          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+          "title": "집에서 설치",
+          "body": "Wi‑Fi에서 eSIM 추가. 기본 번호는 그대로 사용."
         },
         {
-          "title": "Turn it on after landing",
-          "body": "One toggle — you’re online. Validity starts then."
+          "title": "착륙 후 켜기",
+          "body": "토글 하나 — 온라인. 유효 기간은 그때부터."
         }
       ]
     },
     "stats": {
-      "title": "Wherever you go",
+      "title": "어디로 가든",
       "items": [
         {
-          "title": "150+ countries.",
-          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+          "title": "150+ 국가.",
+          "body": "한 국가든 넓은 지역이든 eSIM 하나로. 유럽, 아시아, 중동."
         },
         {
-          "title": "200+ networks.",
-          "body": "We connect you to local operators — the same ones residents use."
+          "title": "200+ 네트워크.",
+          "body": "현지 통신사에 연결 — 주민이 쓰는 그 네트워크."
         },
         {
-          "title": "LTE and 5G.",
-          "body": "Video, maps, messenger calls — like at home."
+          "title": "LTE 및 5G.",
+          "body": "영상, 지도, 메신저 통화 — 집처럼."
         },
         {
-          "title": "Real support.",
-          "body": "Stuck on install? Write us. People reply on business days."
+          "title": "진짜 지원.",
+          "body": "설치가 막히면 문의하세요. 평일에는 사람이 답합니다."
         }
       ]
     },
     "faq": {
-      "title": "Before you buy",
+      "title": "구매 전",
       "groups": [
         {
-          "title": "Before purchase",
+          "title": "구매 전",
           "items": [
             {
-              "q": "What is an eSIM?",
-              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+              "q": "eSIM이란?",
+              "a": "휴대폰 안의 디지털 SIM. 앱에서 요금제 설치 — 끼울 카드 없음. 기본 번호는 그대로."
             },
             {
-              "q": "Will my phone work?",
-              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+              "q": "내 휴대폰이 되나요?",
+              "a": "eSIM 지원과 잠금 해제 기기가 필요합니다. 구매 전 설정에서 확인하세요."
             },
             {
-              "q": "Do I need a pack per country?",
-              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+              "q": "나라마다 패키지가 필요한가요?",
+              "a": "항상 그런 건 아닙니다. 여러 국가 지역 패키지로 한 eSIM이 여행 전체를 커버."
             },
             {
-              "q": "Can I buy for the family?",
-              "a": "Yes. One pack per phone — all in the Raqoon app."
+              "q": "가족용으로 살 수 있나요?",
+              "a": "네. 휴대폰당 패키지 하나 — 모두 Raqoon 앱에서."
             }
           ]
         },
         {
-          "title": "Payment",
+          "title": "결제",
           "items": [
             {
-              "q": "Do you take my local cards?",
-              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+              "q": "현지 카드도 되나요?",
+              "a": "앱 결제는 이용 가능한 지역의 수단을 지원합니다. 출발 전에 결제하세요."
             },
             {
-              "q": "Is the price final?",
-              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+              "q": "가격이 최종인가요?",
+              "a": "네. 여기 보이는 금액이 앱 결제 금액 — 통신사 로밍 추가 없음."
             },
             {
-              "q": "Can I get a refund?",
-              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+              "q": "환불 가능한가요?",
+              "a": "활성화 전에는 eSIM 환불 정책을 참고하세요. 첫 네트워크 연결 후에는 패키지 사용으로 간주됩니다."
             }
           ]
         },
         {
-          "title": "On the trip",
+          "title": "여행 중",
           "items": [
             {
-              "q": "When does validity start?",
-              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+              "q": "유효 기간은 언제부터?",
+              "a": "해외 첫 연결 시, 결제 시가 아닙니다. 미리 사도 일찍 소진되지 않습니다."
             },
             {
-              "q": "Out of data — what next?",
-              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+              "q": "데이터가 다 떨어지면?",
+              "a": "Wi‑Fi 또는 홈 SIM으로 앱에서 새 패키지 구매. 약 1분."
             },
             {
-              "q": "Can I hotspot?",
-              "a": "On most packs, yes. Share to a laptop or travel companions."
+              "q": "핫스팟 가능?",
+              "a": "대부분 패키지에서 가능. 노트북이나 동행자와 공유."
             },
             {
-              "q": "Where do I see remaining data?",
-              "a": "In the Raqoon app — per pack."
+              "q": "남은 데이터는 어디서?",
+              "a": "Raqoon 앱 — 패키지별."
             }
           ]
         },
         {
-          "title": "Support",
+          "title": "지원",
           "items": [
             {
-              "q": "eSIM won’t install",
-              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+              "q": "eSIM 설치가 안 됨",
+              "a": "Wi‑Fi에 연결하고 통신사 잠금이 아닌지 확인. 그래도 안 되면 — help@raqoon.app."
             },
             {
-              "q": "Installed but no data",
-              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+              "q": "설치했는데 데이터 없음",
+              "a": "eSIM 회선에서 데이터와 데이터 로밍을 켜세요. 안 되면 기종과 함께 문의."
             },
             {
-              "q": "How do I contact you?",
-              "a": "help@raqoon.app — humans, not a bot."
+              "q": "연락 방법은?",
+              "a": "help@raqoon.app — 봇이 아닌 사람이 답합니다."
             }
           ]
         }
       ]
     },
     "final": {
-      "headline": "Buy now — turn on after landing",
-      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
-      "cta": "Download the app",
-      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+      "headline": "지금 구매 — 착륙 후 켜기",
+      "body": "집에서 1분이 공항 SIM 줄보다 낫습니다. Raqoon 앱에서 설치.",
+      "cta": "앱 다운로드",
+      "disclaimer": "Raqoon은 선불 여행 eSIM 데이터 소매업체입니다. 이동통신사가 아닙니다. 자세한 내용은 eSIM 약관 및 개인정보 처리방침을 참고하세요."
     },
-    "deviceCheckLink": "Check if your phone works",
+    "deviceCheckLink": "휴대폰 호환 확인",
     "device": {
-      "badge": "30-second check",
-      "title": "Will your phone work?",
-      "subtitle": "Maker and model — instant answer.",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "pickMaker": "Manufacturer",
-      "pickModel": "Model",
-      "needMaker": "Pick a maker first",
-      "compatible": "Yes, it works. Pick a plan.",
-      "incompatible": "This model usually has no eSIM.",
-      "disclaimer": "For reference. The phone must be unlocked.",
-      "count": "{{count}} models",
-      "searchModel": "Search model",
-      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
-      "titleShort": "Will your phone work?",
-      "subtitleShort": "Maker and model — answer in a second."
+      "badge": "30초 확인",
+      "title": "휴대폰이 되나요?",
+      "subtitle": "제조사와 모델 — 즉시 답변.",
+      "manufacturer": "제조사",
+      "model": "모델",
+      "pickMaker": "제조사",
+      "pickModel": "모델",
+      "needMaker": "먼저 제조사 선택",
+      "compatible": "네, 됩니다. 요금제를 고르세요.",
+      "incompatible": "이 모델은 보통 eSIM을 지원하지 않습니다.",
+      "disclaimer": "참고용. 휴대폰은 잠금 해제되어야 합니다.",
+      "count": "{{count}}개 모델",
+      "searchModel": "모델 검색",
+      "regional": "대개 가능하지만 일부 시장에서는 eSIM 없이 출시됩니다. 잠금 해제 기기 필요.",
+      "titleShort": "휴대폰이 되나요?",
+      "subtitleShort": "제조사와 모델 — 1초 만에 답변."
     }
   }
 }

@@ -1,0 +1,251 @@
+{
+  "brand": "Raqoon eSIM",
+  "hero": {
+    "headline": "Mendarat — langsung online.",
+    "lead": "eSIM untuk 150+ negara. Beli di rumah dalam semenit — tanpa roaming, tanpa cari SIM.",
+    "ctaCountry": "Pilih negara",
+    "ctaHow": "Cara kerjanya"
+  },
+  "pricing": {
+    "title": "Pilih negara — lihat harganya.",
+    "loading": "Memuat harga…",
+    "unavailable": "Harga sementara tidak tersedia.",
+    "stale": "Harga mungkin sudah usang — sedang memperbarui.",
+    "updatedBanner": "Harga diperbarui — muat ulang halaman",
+    "refresh": "Muat ulang",
+    "marketLabel": "Pasar",
+    "searchCountry": "mis. Turki, Thailand, Eropa",
+    "filterDuration": "Masa berlaku",
+    "filterData": "Volume data",
+    "daysUnit": "hari",
+    "dataUnit": "GB",
+    "noMatchingPlans": "Tidak ada paket yang cocok dengan filter",
+    "premium": "Premium",
+    "data": "Data",
+    "days": "{{count}} hari",
+    "networks": "Jaringan",
+    "topUpYes": "Isi ulang tersedia",
+    "buyCta": "Beli di aplikasi",
+    "priceDisclaimer": "Harga katalog langsung; jumlah final dikonfirmasi saat checkout di aplikasi.",
+    "badge": "Harga langsung · 150+ destinasi",
+    "lead": "Yang Anda lihat, itulah yang Anda bayar. Tanpa «mulai dari», tanpa biaya mengejutkan di lokasi.",
+    "searchLabel": "Negara atau wilayah",
+    "startWithCountry": "Mulai dari negara — kami tampilkan semua paket dan harga.",
+    "finalPriceNote": "Harga final. Tanpa biaya tambahan.",
+    "mapLabel": "Negara dengan eSIM",
+    "paymentMethods": "Metode pembayaran",
+    "regions": {
+      "Africa": "Afrika",
+      "Africa (21 areas)": "Afrika (21 area)",
+      "Asia (12 areas)": "Asia (12 area)",
+      "Asia (14 areas)": "Asia (14 area)",
+      "Asia (20 areas)": "Asia (20 area)",
+      "Asia (7 areas)": "Asia (7 area)",
+      "Asia-20": "Asia-20",
+      "AUKUS(3 countries)": "AUKUS (3 negara)",
+      "Australia & New Zealand": "Australia & Selandia Baru",
+      "Balkans (5+ areas)": "Balkan (5+ area)",
+      "Caribbean (20+ areas)": "Karibia (20+ area)",
+      "Central Asia": "Asia Tengah",
+      "Central Asia (4 areas)": "Asia Tengah (4 area)",
+      "China (mainland HK Macao)": "Tiongkok (daratan, HK, Makau)",
+      "China mainland & Japan & South Korea": "Tiongkok, Jepang & Korea Selatan",
+      "Europe": "Eropa",
+      "Europe (31 areas)": "Eropa (31 area)",
+      "Europe (33 areas)": "Eropa (33 area)",
+      "Europe (35 areas)": "Eropa (35 area)",
+      "Europe (40+ areas) & Morocco": "Eropa (40+) & Maroko",
+      "Europe(30+ areas)": "Eropa (30+ area)",
+      "GCC": "GCC",
+      "Global (120+ areas)": "Global (120+ area)",
+      "Global139": "Global 139",
+      "Gulf Region": "Wilayah Teluk",
+      "Ireland & Slovenia": "Irlandia & Slovenia",
+      "Ireland & UK": "Irlandia & Inggris",
+      "Japan & South Korea": "Jepang & Korea Selatan",
+      "Middle East": "Timur Tengah",
+      "Middle East & North Africa": "Timur Tengah & Afrika Utara",
+      "Middle East (5 areas)": "Timur Tengah (5 area)",
+      "North America": "Amerika Utara",
+      "Oceania (8 areas)": "Oseania (8 area)",
+      "Singapore & Malaysia & Thailand": "Singapura, Malaysia & Thailand",
+      "South America": "Amerika Selatan",
+      "South America (6 areas)": "Amerika Selatan (6 area)",
+      "South Asia (6 areas)": "Asia Selatan (6 area)",
+      "South East Asia (8 areas)": "Asia Tenggara (8 area)",
+      "USA & Canada": "AS & Kanada"
+    }
+  },
+  "mapLabel": "Cakupan eSIM",
+  "features": [
+    {
+      "titleGreen": "Paket tanpa",
+      "titleRest": "markup",
+      "body": "Data dan hari sama, harga lebih rendah. Harga pasti sebelum buka aplikasi."
+    },
+    {
+      "titleGreen": "Bayar dengan",
+      "titleRest": "kartu apa pun",
+      "body": "Bayar di Raqoon sebelum terbang — kartu lokal atau asing jika tersedia."
+    },
+    {
+      "titleGreen": "Kehabisan",
+      "titleRest": "data?",
+      "body": "Beli paket lagi di aplikasi lewat Wi‑Fi atau SIM utama."
+    },
+    {
+      "titleGreen": "Di",
+      "titleRest": "aplikasi Raqoon",
+      "body": "Beli dan pasang eSIM dengan mudah — semua di satu tempat."
+    }
+  ],
+  "featuresCta": "Pilih negara →",
+  "steps": {
+    "title": "Empat langkah ke internet",
+    "items": [
+      {
+        "title": "Pilih negara dan paket",
+        "body": "Ke mana Anda pergi dan berapa data yang dibutuhkan. Harga muncul segera."
+      },
+      {
+        "title": "Bayar di aplikasi",
+        "body": "Buka Raqoon dan checkout. Pasang dari aplikasi."
+      },
+      {
+        "title": "Pasang di rumah",
+        "body": "Tambahkan eSIM lewat Wi‑Fi. Nomor utama tetap aktif."
+      },
+      {
+        "title": "Nyalakan setelah mendarat",
+        "body": "Satu tombol — Anda online. Masa berlaku dimulai saat itu."
+      }
+    ]
+  },
+  "stats": {
+    "title": "Ke mana pun Anda pergi",
+    "items": [
+      {
+        "title": "150+ negara.",
+        "body": "Satu negara atau seluruh wilayah dengan satu eSIM. Eropa, Asia, Timur Tengah."
+      },
+      {
+        "title": "200+ jaringan.",
+        "body": "Kami hubungkan ke operator lokal — yang sama dipakai penduduk setempat."
+      },
+      {
+        "title": "LTE dan 5G.",
+        "body": "Video, peta, panggilan messenger — seperti di rumah."
+      },
+      {
+        "title": "Dukungan nyata.",
+        "body": "Macet saat pasang? Hubungi kami. Manusia membalas di hari kerja."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sebelum membeli",
+    "groups": [
+      {
+        "title": "Sebelum pembelian",
+        "items": [
+          {
+            "q": "Apa itu eSIM?",
+            "a": "SIM digital di dalam ponsel. Paket dipasang di aplikasi — tidak perlu kartu fisik. Nomor utama tetap aktif."
+          },
+          {
+            "q": "Apakah ponsel saya cocok?",
+            "a": "Perlu dukungan eSIM dan perangkat tidak terkunci operator. Cek pengaturan ponsel sebelum beli."
+          },
+          {
+            "q": "Perlu paket per negara?",
+            "a": "Tidak selalu. Paket regional multi-negara menutup seluruh perjalanan dengan satu eSIM."
+          },
+          {
+            "q": "Bisa beli untuk keluarga?",
+            "a": "Ya. Satu paket per ponsel — semua di aplikasi Raqoon."
+          }
+        ]
+      },
+      {
+        "title": "Pembayaran",
+        "items": [
+          {
+            "q": "Terima kartu lokal?",
+            "a": "Checkout di aplikasi mendukung metode untuk wilayah Anda jika tersedia. Bayar sebelum terbang."
+          },
+          {
+            "q": "Apakah harga final?",
+            "a": "Ya. Yang Anda lihat di sini adalah yang Anda bayar di aplikasi — tanpa roaming operator di atasnya."
+          },
+          {
+            "q": "Bisa refund?",
+            "a": "Sebelum aktivasi, lihat kebijakan refund eSIM. Setelah koneksi jaringan pertama, paket dianggap terpakai."
+          }
+        ]
+      },
+      {
+        "title": "Saat perjalanan",
+        "items": [
+          {
+            "q": "Kapan masa berlaku dimulai?",
+            "a": "Saat koneksi pertama di luar negeri, bukan saat bayar. Beli lebih awal — tidak hangus dulu."
+          },
+          {
+            "q": "Kehabisan data — lalu?",
+            "a": "Beli paket lagi di aplikasi lewat Wi‑Fi atau SIM utama. Sekitar semenit."
+          },
+          {
+            "q": "Bisa hotspot?",
+            "a": "Di sebagian besar paket, ya. Bagikan ke laptop atau teman perjalanan."
+          },
+          {
+            "q": "Di mana lihat sisa data?",
+            "a": "Di aplikasi Raqoon — per paket."
+          }
+        ]
+      },
+      {
+        "title": "Dukungan",
+        "items": [
+          {
+            "q": "eSIM tidak terpasang",
+            "a": "Sambung Wi‑Fi dan pastikan ponsel tidak terkunci operator. Masih macet — help@raqoon.app."
+          },
+          {
+            "q": "Terpasang tapi tidak ada data",
+            "a": "Aktifkan data dan roaming data di jalur eSIM. Jika gagal, hubungi kami dengan model ponsel."
+          },
+          {
+            "q": "Bagaimana menghubungi?",
+            "a": "help@raqoon.app — manusia, bukan bot."
+          }
+        ]
+      }
+    ]
+  },
+  "final": {
+    "headline": "Beli sekarang — nyalakan setelah mendarat",
+    "body": "Semenit di rumah lebih baik daripada antre SIM di bandara. Pasang di aplikasi Raqoon.",
+    "cta": "Unduh aplikasi",
+    "disclaimer": "Raqoon adalah retailer data eSIM perjalanan prabayar. Bukan operator jaringan seluler. Lihat ketentuan eSIM dan privasi untuk detail."
+  },
+  "deviceCheckLink": "Cek apakah ponsel Anda cocok",
+  "device": {
+    "badge": "Cek 30 detik",
+    "title": "Apakah ponsel Anda cocok?",
+    "subtitle": "Merek dan model — jawaban instan.",
+    "manufacturer": "Produsen",
+    "model": "Model",
+    "pickMaker": "Produsen",
+    "pickModel": "Model",
+    "needMaker": "Pilih produsen dulu",
+    "compatible": "Ya, cocok. Pilih paket.",
+    "incompatible": "Model ini biasanya tanpa eSIM.",
+    "disclaimer": "Sebagai referensi. Ponsel harus tidak terkunci.",
+    "count": "{{count}} model",
+    "searchModel": "Cari model",
+    "regional": "Sering ya, tapi beberapa pasar menjual model ini tanpa eSIM. Perlu ponsel tidak terkunci.",
+    "titleShort": "Apakah ponsel Anda cocok?",
+    "subtitleShort": "Merek dan model — jawaban dalam hitungan detik."
+  }
+}

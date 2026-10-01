@@ -502,252 +502,252 @@
   "esimPage": {
     "brand": "Raqoon eSIM",
     "hero": {
-      "headline": "Landed — and already online.",
-      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
-      "ctaCountry": "Choose a country",
-      "ctaHow": "How it works"
+      "headline": "Přistáli jste — a už jste online.",
+      "lead": "eSIM pro 150+ zemí. Kupte doma za minutu — bez roamingu a hledání SIM.",
+      "ctaCountry": "Vyberte zemi",
+      "ctaHow": "Jak to funguje"
     },
     "pricing": {
-      "title": "Pick a country — see the price.",
-      "loading": "Loading prices…",
-      "unavailable": "Prices are temporarily unavailable.",
-      "stale": "Prices may be out of date — trying to refresh.",
-      "updatedBanner": "Prices updated — refresh the page",
-      "refresh": "Refresh",
-      "marketLabel": "Market",
-      "searchCountry": "e.g. Turkey, Thailand, Europe",
-      "filterDuration": "Validity",
-      "filterData": "Data volume",
-      "daysUnit": "days",
+      "title": "Vyberte zemi — uvidíte cenu.",
+      "loading": "Načítání cen…",
+      "unavailable": "Ceny jsou dočasně nedostupné.",
+      "stale": "Ceny mohou být zastaralé — zkoušíme obnovit.",
+      "updatedBanner": "Ceny aktualizovány — obnovte stránku",
+      "refresh": "Obnovit",
+      "marketLabel": "Trh",
+      "searchCountry": "např. Turecko, Thajsko, Evropa",
+      "filterDuration": "Platnost",
+      "filterData": "Objem dat",
+      "daysUnit": "dní",
       "dataUnit": "GB",
-      "noMatchingPlans": "No packs match these filters",
+      "noMatchingPlans": "Žádné balíčky neodpovídají filtrům",
       "premium": "Premium",
-      "regions": {
-        "Africa": "Africa",
-        "Africa (21 areas)": "Africa (21 areas)",
-        "Asia (12 areas)": "Asia (12 areas)",
-        "Asia (14 areas)": "Asia (14 areas)",
-        "Asia (20 areas)": "Asia (20 areas)",
-        "Asia (7 areas)": "Asia (7 areas)",
-        "Asia-20": "Asia-20",
-        "AUKUS(3 countries)": "AUKUS (3 countries)",
-        "Australia & New Zealand": "Australia & New Zealand",
-        "Balkans (5+ areas)": "Balkans (5+ areas)",
-        "Caribbean (20+ areas)": "Caribbean (20+ areas)",
-        "Central Asia": "Central Asia",
-        "Central Asia (4 areas)": "Central Asia (4 areas)",
-        "China (mainland HK Macao)": "China (mainland, HK, Macao)",
-        "China mainland & Japan & South Korea": "China mainland & Japan & South Korea",
-        "Europe": "Europe",
-        "Europe (31 areas)": "Europe (31 areas)",
-        "Europe (33 areas)": "Europe (33 areas)",
-        "Europe (35 areas)": "Europe (35 areas)",
-        "Europe (40+ areas) & Morocco": "Europe (40+ areas) & Morocco",
-        "Europe(30+ areas)": "Europe (30+ areas)",
-        "GCC": "GCC",
-        "Global (120+ areas)": "Global (120+ areas)",
-        "Global139": "Global 139",
-        "Gulf Region": "Gulf Region",
-        "Ireland & Slovenia": "Ireland & Slovenia",
-        "Ireland & UK": "Ireland & UK",
-        "Japan & South Korea": "Japan & South Korea",
-        "Middle East": "Middle East",
-        "Middle East & North Africa": "Middle East & North Africa",
-        "Middle East (5 areas)": "Middle East (5 areas)",
-        "North America": "North America",
-        "Oceania (8 areas)": "Oceania (8 areas)",
-        "Singapore & Malaysia & Thailand": "Singapore & Malaysia & Thailand",
-        "South America": "South America",
-        "South America (6 areas)": "South America (6 areas)",
-        "South Asia (6 areas)": "South Asia (6 areas)",
-        "South East Asia (8 areas)": "South East Asia (8 areas)",
-        "USA & Canada": "USA & Canada"
-      },
       "data": "Data",
-      "days": "{{count}} days",
-      "networks": "Networks",
-      "topUpYes": "Top-up available",
-      "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
-      "badge": "Live prices · 150+ destinations",
-      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
-      "searchLabel": "Country or region",
-      "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees.",
-      "mapLabel": "Countries with eSIM",
-      "paymentMethods": "Payment methods"
+      "days": "{{count}} dní",
+      "networks": "Sítě",
+      "topUpYes": "Dobití k dispozici",
+      "buyCta": "Koupit v aplikaci",
+      "priceDisclaimer": "Ceny z živého katalogu; konečná částka se potvrdí při platbě v aplikaci.",
+      "badge": "Živé ceny · 150+ destinací",
+      "lead": "Co vidíte, to zaplatíte. Bez „od“, bez překvapení na místě.",
+      "searchLabel": "Země nebo region",
+      "startWithCountry": "Začněte zemí — ukážeme všechny balíčky a ceny.",
+      "finalPriceNote": "Konečná cena. Bez skrytých poplatků.",
+      "mapLabel": "Země s eSIM",
+      "paymentMethods": "Platební metody",
+      "regions": {
+        "Africa": "Afrika",
+        "Africa (21 areas)": "Afrika (21 oblastí)",
+        "Asia (12 areas)": "Asie (12 oblastí)",
+        "Asia (14 areas)": "Asie (14 oblastí)",
+        "Asia (20 areas)": "Asie (20 oblastí)",
+        "Asia (7 areas)": "Asie (7 oblastí)",
+        "Asia-20": "Asie-20",
+        "AUKUS(3 countries)": "AUKUS (3 země)",
+        "Australia & New Zealand": "Austrálie a Nový Zéland",
+        "Balkans (5+ areas)": "Balkán (5+ oblastí)",
+        "Caribbean (20+ areas)": "Karibik (20+ oblastí)",
+        "Central Asia": "Střední Asie",
+        "Central Asia (4 areas)": "Střední Asie (4 oblasti)",
+        "China (mainland HK Macao)": "Čína (pevnina, HK, Macao)",
+        "China mainland & Japan & South Korea": "Čína, Japonsko a Jižní Korea",
+        "Europe": "Evropa",
+        "Europe (31 areas)": "Evropa (31 oblastí)",
+        "Europe (33 areas)": "Evropa (33 oblastí)",
+        "Europe (35 areas)": "Evropa (35 oblastí)",
+        "Europe (40+ areas) & Morocco": "Evropa (40+) a Maroko",
+        "Europe(30+ areas)": "Evropa (30+ oblastí)",
+        "GCC": "GCC",
+        "Global (120+ areas)": "Globální (120+ oblastí)",
+        "Global139": "Globální 139",
+        "Gulf Region": "Oblast Perského zálivu",
+        "Ireland & Slovenia": "Irsko a Slovinsko",
+        "Ireland & UK": "Irsko a Spojené království",
+        "Japan & South Korea": "Japonsko a Jižní Korea",
+        "Middle East": "Blízký východ",
+        "Middle East & North Africa": "Blízký východ a Severní Afrika",
+        "Middle East (5 areas)": "Blízký východ (5 oblastí)",
+        "North America": "Severní Amerika",
+        "Oceania (8 areas)": "Oceánie (8 oblastí)",
+        "Singapore & Malaysia & Thailand": "Singapur, Malajsie a Thajsko",
+        "South America": "Jižní Amerika",
+        "South America (6 areas)": "Jižní Amerika (6 oblastí)",
+        "South Asia (6 areas)": "Jižní Asie (6 oblastí)",
+        "South East Asia (8 areas)": "Jihovýchodní Asie (8 oblastí)",
+        "USA & Canada": "USA a Kanada"
+      }
     },
-    "mapLabel": "eSIM coverage",
+    "mapLabel": "Pokrytí eSIM",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "Balíčky bez",
+        "titleRest": "přirážky",
+        "body": "Stejná data a délka za méně. Přesná cena ještě před otevřením aplikace."
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "Platba",
+        "titleRest": "libovolnou kartou",
+        "body": "Zaplaťte v Raqoon před letem — místní nebo zahraniční karty, kde jsou k dispozici."
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "Data",
+        "titleRest": "došla?",
+        "body": "Kupte další balíček v aplikaci přes Wi‑Fi nebo hlavní SIM."
       },
       {
-        "titleGreen": "In the",
-        "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "titleGreen": "V aplikaci",
+        "titleRest": "Raqoon",
+        "body": "Nákup a instalace eSIM na jednom místě — pohodlně a přehledně."
       }
     ],
-    "featuresCta": "Choose a country →",
+    "featuresCta": "Vyberte zemi →",
     "steps": {
-      "title": "Four steps to data",
+      "title": "Čtyři kroky k datům",
       "items": [
         {
-          "title": "Pick a country and pack",
-          "body": "Where you’re going and how much data you need. The price shows up right away."
+          "title": "Vyberte zemi a balíček",
+          "body": "Kam jedete a kolik dat potřebujete. Cena se zobrazí hned."
         },
         {
-          "title": "Pay in the app",
-          "body": "Open Raqoon and check out. Install from the app."
+          "title": "Zaplaťte v aplikaci",
+          "body": "Otevřete Raqoon a dokončete nákup. Instalace z aplikace."
         },
         {
-          "title": "Install at home",
-          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+          "title": "Nainstalujte doma",
+          "body": "Přidejte eSIM přes Wi‑Fi. Hlavní číslo zůstane v provozu."
         },
         {
-          "title": "Turn it on after landing",
-          "body": "One toggle — you’re online. Validity starts then."
+          "title": "Po přistání zapněte",
+          "body": "Jeden přepínač — jste online. Platnost začíná v tu chvíli."
         }
       ]
     },
     "stats": {
-      "title": "Wherever you go",
+      "title": "Kamkoli letíte",
       "items": [
         {
-          "title": "150+ countries.",
-          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+          "title": "150+ zemí.",
+          "body": "Jedna země nebo celý region na jedné eSIM. Evropa, Asie, Blízký východ."
         },
         {
-          "title": "200+ networks.",
-          "body": "We connect you to local operators — the same ones residents use."
+          "title": "200+ sítí.",
+          "body": "Připojíme vás k místním operátorům — stejným jako místní obyvatelé."
         },
         {
-          "title": "LTE and 5G.",
-          "body": "Video, maps, messenger calls — like at home."
+          "title": "LTE a 5G.",
+          "body": "Video, mapy, hovory v messengerech — jako doma."
         },
         {
-          "title": "Real support.",
-          "body": "Stuck on install? Write us. People reply on business days."
+          "title": "Skutečná podpora.",
+          "body": "Zasekli jste se při instalaci? Napište nám. Odpovídají lidé v pracovní dny."
         }
       ]
     },
     "faq": {
-      "title": "Before you buy",
+      "title": "Než koupíte",
       "groups": [
         {
-          "title": "Before purchase",
+          "title": "Před nákupem",
           "items": [
             {
-              "q": "What is an eSIM?",
-              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+              "q": "Co je eSIM?",
+              "a": "Digitální SIM v telefonu. Balíček nainstalujete v aplikaci — nic nevkládáte. Hlavní číslo zůstane aktivní."
             },
             {
-              "q": "Will my phone work?",
-              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+              "q": "Bude můj telefon fungovat?",
+              "a": "Potřebujete podporu eSIM a odemčené zařízení. Před nákupem zkontrolujte nastavení telefonu."
             },
             {
-              "q": "Do I need a pack per country?",
-              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+              "q": "Potřebuji balíček na každou zemi?",
+              "a": "Ne vždy. Regionální balíčky pro více zemí pokryjí celou cestu na jedné eSIM."
             },
             {
-              "q": "Can I buy for the family?",
-              "a": "Yes. One pack per phone — all in the Raqoon app."
+              "q": "Mohu koupit pro rodinu?",
+              "a": "Ano. Jeden balíček na telefon — vše v aplikaci Raqoon."
             }
           ]
         },
         {
-          "title": "Payment",
+          "title": "Platba",
           "items": [
             {
-              "q": "Do you take my local cards?",
-              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+              "q": "Berete mé místní karty?",
+              "a": "Platba v aplikaci nabízí metody pro váš region, kde jsou dostupné. Zaplaťte před letem."
             },
             {
-              "q": "Is the price final?",
-              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+              "q": "Je cena konečná?",
+              "a": "Ano. Co vidíte zde, zaplatíte v aplikaci — bez roamingu operátora navíc."
             },
             {
-              "q": "Can I get a refund?",
-              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+              "q": "Mohu dostat refundaci?",
+              "a": "Před aktivací platí pravidla vrácení eSIM. Po prvním připojení k síti je balíček považován za použitý."
             }
           ]
         },
         {
-          "title": "On the trip",
+          "title": "Na cestě",
           "items": [
             {
-              "q": "When does validity start?",
-              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+              "q": "Kdy začíná platnost?",
+              "a": "Při prvním připojení v zahraničí, ne při platbě. Kupte předem — nic nevyprší předčasně."
             },
             {
-              "q": "Out of data — what next?",
-              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+              "q": "Došla data — co dál?",
+              "a": "Kupte další balíček v aplikaci přes Wi‑Fi nebo domácí SIM. Asi minuta."
             },
             {
-              "q": "Can I hotspot?",
-              "a": "On most packs, yes. Share to a laptop or travel companions."
+              "q": "Mohu sdílet hotspot?",
+              "a": "U většiny balíčků ano. Notebook i spolucestující se připojí."
             },
             {
-              "q": "Where do I see remaining data?",
-              "a": "In the Raqoon app — per pack."
+              "q": "Kde uvidím zbývající data?",
+              "a": "V aplikaci Raqoon — u každého balíčku."
             }
           ]
         },
         {
-          "title": "Support",
+          "title": "Podpora",
           "items": [
             {
-              "q": "eSIM won’t install",
-              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+              "q": "eSIM se neinstaluje",
+              "a": "Připojte se k Wi‑Fi a ověřte, že telefon není uzamčen u operátora. Stále ne — help@raqoon.app."
             },
             {
-              "q": "Installed but no data",
-              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+              "q": "Nainstalováno, ale žádná data",
+              "a": "Zapněte data a datový roaming na lince eSIM. Nepomůže to — napište nám s modelem telefonu."
             },
             {
-              "q": "How do I contact you?",
-              "a": "help@raqoon.app — humans, not a bot."
+              "q": "Jak vás kontaktovat?",
+              "a": "help@raqoon.app — odpovídají lidé, ne bot."
             }
           ]
         }
       ]
     },
     "final": {
-      "headline": "Buy now — turn on after landing",
-      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
-      "cta": "Download the app",
-      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+      "headline": "Kupte teď — zapněte po přistání",
+      "body": "Minuta doma je lepší než fronta na SIM na letišti. Instalace v aplikaci Raqoon.",
+      "cta": "Stáhnout aplikaci",
+      "disclaimer": "Raqoon je prodejce prepaid dat pro cestovní eSIM. Není mobilní operátor. Podrobnosti v podmínkách eSIM a zásadách ochrany soukromí."
     },
-    "deviceCheckLink": "Check if your phone works",
+    "deviceCheckLink": "Ověřit kompatibilitu telefonu",
     "device": {
-      "badge": "30-second check",
-      "title": "Will your phone work?",
-      "subtitle": "Maker and model — instant answer.",
-      "manufacturer": "Manufacturer",
+      "badge": "Kontrola za 30 s",
+      "title": "Bude váš telefon fungovat?",
+      "subtitle": "Výrobce a model — odpověď hned.",
+      "manufacturer": "Výrobce",
       "model": "Model",
-      "pickMaker": "Manufacturer",
+      "pickMaker": "Výrobce",
       "pickModel": "Model",
-      "needMaker": "Pick a maker first",
-      "compatible": "Yes, it works. Pick a plan.",
-      "incompatible": "This model usually has no eSIM.",
-      "disclaimer": "For reference. The phone must be unlocked.",
-      "count": "{{count}} models",
-      "searchModel": "Search model",
-      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
-      "titleShort": "Will your phone work?",
-      "subtitleShort": "Maker and model — answer in a second."
+      "needMaker": "Nejdřív vyberte výrobce",
+      "compatible": "Ano, funguje. Vyberte balíček.",
+      "incompatible": "Tento model obvykle eSIM nemá.",
+      "disclaimer": "Informativní údaj. Telefon musí být odemčený.",
+      "count": "{{count}} modelů",
+      "searchModel": "Hledat model",
+      "regional": "Často ano, ale na některých trzích se prodává bez eSIM. Potřebujete odemčený telefon.",
+      "titleShort": "Bude váš telefon fungovat?",
+      "subtitleShort": "Výrobce a model — odpověď za vteřinu."
     }
   }
 }

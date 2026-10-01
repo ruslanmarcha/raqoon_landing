@@ -502,206 +502,206 @@
   "esimPage": {
     "brand": "Raqoon eSIM",
     "hero": {
-      "headline": "Landed — and already online.",
-      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
-      "ctaCountry": "Choose a country",
-      "ctaHow": "How it works"
+      "headline": "Atterri — déjà en ligne.",
+      "lead": "eSIM pour 150+ pays. Achetez chez vous en une minute — sans roaming, sans chasse à la SIM.",
+      "ctaCountry": "Choisir un pays",
+      "ctaHow": "Comment ça marche"
     },
     "pricing": {
-      "title": "Pick a country — see the price.",
-      "loading": "Loading prices…",
-      "unavailable": "Prices are temporarily unavailable.",
-      "stale": "Prices may be out of date — trying to refresh.",
-      "updatedBanner": "Prices updated — refresh the page",
-      "refresh": "Refresh",
-      "marketLabel": "Market",
-      "searchCountry": "e.g. Turkey, Thailand, Europe",
-      "filterDuration": "Validity",
-      "filterData": "Data volume",
-      "daysUnit": "days",
-      "dataUnit": "GB",
-      "noMatchingPlans": "No packs match these filters",
+      "title": "Choisissez un pays — voyez le prix.",
+      "loading": "Chargement des prix…",
+      "unavailable": "Prix temporairement indisponibles.",
+      "stale": "Les prix peuvent être obsolètes — actualisation en cours.",
+      "updatedBanner": "Prix mis à jour — actualisez la page",
+      "refresh": "Actualiser",
+      "marketLabel": "Marché",
+      "searchCountry": "ex. Turquie, Thaïlande, Europe",
+      "filterDuration": "Validité",
+      "filterData": "Volume de data",
+      "daysUnit": "jours",
+      "dataUnit": "Go",
+      "noMatchingPlans": "Aucun forfait ne correspond à ces filtres",
       "premium": "Premium",
-      "regions": {
-        "Africa": "Africa",
-        "Africa (21 areas)": "Africa (21 areas)",
-        "Asia (12 areas)": "Asia (12 areas)",
-        "Asia (14 areas)": "Asia (14 areas)",
-        "Asia (20 areas)": "Asia (20 areas)",
-        "Asia (7 areas)": "Asia (7 areas)",
-        "Asia-20": "Asia-20",
-        "AUKUS(3 countries)": "AUKUS (3 countries)",
-        "Australia & New Zealand": "Australia & New Zealand",
-        "Balkans (5+ areas)": "Balkans (5+ areas)",
-        "Caribbean (20+ areas)": "Caribbean (20+ areas)",
-        "Central Asia": "Central Asia",
-        "Central Asia (4 areas)": "Central Asia (4 areas)",
-        "China (mainland HK Macao)": "China (mainland, HK, Macao)",
-        "China mainland & Japan & South Korea": "China mainland & Japan & South Korea",
-        "Europe": "Europe",
-        "Europe (31 areas)": "Europe (31 areas)",
-        "Europe (33 areas)": "Europe (33 areas)",
-        "Europe (35 areas)": "Europe (35 areas)",
-        "Europe (40+ areas) & Morocco": "Europe (40+ areas) & Morocco",
-        "Europe(30+ areas)": "Europe (30+ areas)",
-        "GCC": "GCC",
-        "Global (120+ areas)": "Global (120+ areas)",
-        "Global139": "Global 139",
-        "Gulf Region": "Gulf Region",
-        "Ireland & Slovenia": "Ireland & Slovenia",
-        "Ireland & UK": "Ireland & UK",
-        "Japan & South Korea": "Japan & South Korea",
-        "Middle East": "Middle East",
-        "Middle East & North Africa": "Middle East & North Africa",
-        "Middle East (5 areas)": "Middle East (5 areas)",
-        "North America": "North America",
-        "Oceania (8 areas)": "Oceania (8 areas)",
-        "Singapore & Malaysia & Thailand": "Singapore & Malaysia & Thailand",
-        "South America": "South America",
-        "South America (6 areas)": "South America (6 areas)",
-        "South Asia (6 areas)": "South Asia (6 areas)",
-        "South East Asia (8 areas)": "South East Asia (8 areas)",
-        "USA & Canada": "USA & Canada"
-      },
       "data": "Data",
-      "days": "{{count}} days",
-      "networks": "Networks",
-      "topUpYes": "Top-up available",
-      "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
-      "badge": "Live prices · 150+ destinations",
-      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
-      "searchLabel": "Country or region",
-      "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees.",
-      "mapLabel": "Countries with eSIM",
-      "paymentMethods": "Payment methods"
+      "days": "{{count}} jours",
+      "networks": "Réseaux",
+      "topUpYes": "Recharge disponible",
+      "buyCta": "Acheter dans l’app",
+      "priceDisclaimer": "Prix du catalogue en direct ; le montant final est confirmé au paiement dans l’app.",
+      "badge": "Prix en direct · 150+ destinations",
+      "lead": "Ce que vous voyez, c’est ce que vous payez. Pas de « à partir de », pas de frais surprise sur place.",
+      "searchLabel": "Pays ou région",
+      "startWithCountry": "Commencez par un pays — nous affichons tous les forfaits et prix.",
+      "finalPriceNote": "Prix final. Sans frais cachés.",
+      "mapLabel": "Pays avec eSIM",
+      "paymentMethods": "Moyens de paiement",
+      "regions": {
+        "Africa": "Afrique",
+        "Africa (21 areas)": "Afrique (21 zones)",
+        "Asia (12 areas)": "Asie (12 zones)",
+        "Asia (14 areas)": "Asie (14 zones)",
+        "Asia (20 areas)": "Asie (20 zones)",
+        "Asia (7 areas)": "Asie (7 zones)",
+        "Asia-20": "Asie-20",
+        "AUKUS(3 countries)": "AUKUS (3 pays)",
+        "Australia & New Zealand": "Australie et Nouvelle-Zélande",
+        "Balkans (5+ areas)": "Balkans (5+ zones)",
+        "Caribbean (20+ areas)": "Caraïbes (20+ zones)",
+        "Central Asia": "Asie centrale",
+        "Central Asia (4 areas)": "Asie centrale (4 zones)",
+        "China (mainland HK Macao)": "Chine (continent, HK, Macao)",
+        "China mainland & Japan & South Korea": "Chine, Japon et Corée du Sud",
+        "Europe": "Europe",
+        "Europe (31 areas)": "Europe (31 zones)",
+        "Europe (33 areas)": "Europe (33 zones)",
+        "Europe (35 areas)": "Europe (35 zones)",
+        "Europe (40+ areas) & Morocco": "Europe (40+) et Maroc",
+        "Europe(30+ areas)": "Europe (30+ zones)",
+        "GCC": "CCG",
+        "Global (120+ areas)": "Mondial (120+ zones)",
+        "Global139": "Mondial 139",
+        "Gulf Region": "Région du Golfe",
+        "Ireland & Slovenia": "Irlande et Slovénie",
+        "Ireland & UK": "Irlande et Royaume-Uni",
+        "Japan & South Korea": "Japon et Corée du Sud",
+        "Middle East": "Moyen-Orient",
+        "Middle East & North Africa": "Moyen-Orient et Afrique du Nord",
+        "Middle East (5 areas)": "Moyen-Orient (5 zones)",
+        "North America": "Amérique du Nord",
+        "Oceania (8 areas)": "Océanie (8 zones)",
+        "Singapore & Malaysia & Thailand": "Singapour, Malaisie et Thaïlande",
+        "South America": "Amérique du Sud",
+        "South America (6 areas)": "Amérique du Sud (6 zones)",
+        "South Asia (6 areas)": "Asie du Sud (6 zones)",
+        "South East Asia (8 areas)": "Asie du Sud-Est (8 zones)",
+        "USA & Canada": "États-Unis et Canada"
+      }
     },
-    "mapLabel": "eSIM coverage",
+    "mapLabel": "Couverture eSIM",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "Forfaits sans",
+        "titleRest": "marge",
+        "body": "Même data et durée pour moins. Prix exact avant d’ouvrir l’app."
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "Payez avec",
+        "titleRest": "n’importe quelle carte",
+        "body": "Réglez dans Raqoon avant le vol — cartes locales ou étrangères selon disponibilité."
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "Plus de",
+        "titleRest": "data ?",
+        "body": "Achetez un autre forfait dans l’app via le Wi‑Fi ou votre SIM principale."
       },
       {
-        "titleGreen": "In the",
-        "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "titleGreen": "Dans l’app",
+        "titleRest": "Raqoon",
+        "body": "Achetez et installez l’eSIM au même endroit — tout en un."
       }
     ],
-    "featuresCta": "Choose a country →",
+    "featuresCta": "Choisir un pays →",
     "steps": {
-      "title": "Four steps to data",
+      "title": "Quatre étapes pour être en ligne",
       "items": [
         {
-          "title": "Pick a country and pack",
-          "body": "Where you’re going and how much data you need. The price shows up right away."
+          "title": "Choisissez pays et forfait",
+          "body": "Destination et volume de data. Le prix s’affiche tout de suite."
         },
         {
-          "title": "Pay in the app",
-          "body": "Open Raqoon and check out. Install from the app."
+          "title": "Payez dans l’app",
+          "body": "Ouvrez Raqoon et finalisez. Installation depuis l’app."
         },
         {
-          "title": "Install at home",
-          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+          "title": "Installez chez vous",
+          "body": "Ajoutez l’eSIM en Wi‑Fi. Votre numéro principal reste actif."
         },
         {
-          "title": "Turn it on after landing",
-          "body": "One toggle — you’re online. Validity starts then."
+          "title": "Activez après l’atterrissage",
+          "body": "Un interrupteur — vous êtes en ligne. La validité commence alors."
         }
       ]
     },
     "stats": {
-      "title": "Wherever you go",
+      "title": "Où que vous alliez",
       "items": [
         {
-          "title": "150+ countries.",
-          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+          "title": "150+ pays.",
+          "body": "Un pays ou toute une région sur une seule eSIM. Europe, Asie, Moyen-Orient."
         },
         {
-          "title": "200+ networks.",
-          "body": "We connect you to local operators — the same ones residents use."
+          "title": "200+ réseaux.",
+          "body": "Connexion aux opérateurs locaux — les mêmes que les habitants."
         },
         {
-          "title": "LTE and 5G.",
-          "body": "Video, maps, messenger calls — like at home."
+          "title": "LTE et 5G.",
+          "body": "Vidéo, cartes, appels messagerie — comme chez vous."
         },
         {
-          "title": "Real support.",
-          "body": "Stuck on install? Write us. People reply on business days."
+          "title": "Vrai support.",
+          "body": "Blocage à l’installation ? Écrivez-nous. Des humains répondent en jours ouvrés."
         }
       ]
     },
     "faq": {
-      "title": "Before you buy",
+      "title": "Avant d’acheter",
       "groups": [
         {
-          "title": "Before purchase",
+          "title": "Avant l’achat",
           "items": [
             {
-              "q": "What is an eSIM?",
-              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+              "q": "Qu’est-ce qu’une eSIM ?",
+              "a": "Une SIM numérique dans le téléphone. Vous installez le forfait dans l’app — rien à insérer. Votre numéro principal reste actif."
             },
             {
-              "q": "Will my phone work?",
-              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+              "q": "Mon téléphone est-il compatible ?",
+              "a": "Il faut la eSIM et un appareil débloqué. Vérifiez les réglages avant d’acheter."
             },
             {
-              "q": "Do I need a pack per country?",
-              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+              "q": "Un forfait par pays ?",
+              "a": "Pas toujours. Les forfaits régionaux multi-pays couvrent tout le voyage avec une eSIM."
             },
             {
-              "q": "Can I buy for the family?",
-              "a": "Yes. One pack per phone — all in the Raqoon app."
+              "q": "Acheter pour toute la famille ?",
+              "a": "Oui. Un forfait par téléphone — le tout dans l’app Raqoon."
             }
           ]
         },
         {
-          "title": "Payment",
+          "title": "Paiement",
           "items": [
             {
-              "q": "Do you take my local cards?",
-              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+              "q": "Acceptez-vous mes cartes locales ?",
+              "a": "Le paiement dans l’app propose les moyens de votre région quand ils sont disponibles. Payez avant le vol."
             },
             {
-              "q": "Is the price final?",
-              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+              "q": "Le prix est-il final ?",
+              "a": "Oui. Ce que vous voyez ici est ce que vous payez dans l’app — sans roaming opérateur en plus."
             },
             {
-              "q": "Can I get a refund?",
-              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+              "q": "Puis-je me faire rembourser ?",
+              "a": "Avant activation, voir la politique de remboursement eSIM. Après la première connexion réseau, le forfait est considéré comme utilisé."
             }
           ]
         },
         {
-          "title": "On the trip",
+          "title": "En voyage",
           "items": [
             {
-              "q": "When does validity start?",
-              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+              "q": "Quand commence la validité ?",
+              "a": "À la première connexion à l’étranger, pas au paiement. Achetez à l’avance — rien ne part trop tôt."
             },
             {
-              "q": "Out of data — what next?",
-              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+              "q": "Plus de data — et après ?",
+              "a": "Achetez un autre forfait dans l’app via Wi‑Fi ou votre SIM principale. Environ une minute."
             },
             {
-              "q": "Can I hotspot?",
-              "a": "On most packs, yes. Share to a laptop or travel companions."
+              "q": "Partage de connexion ?",
+              "a": "Sur la plupart des forfaits, oui. Partagez avec un ordinateur ou vos compagnons de voyage."
             },
             {
-              "q": "Where do I see remaining data?",
-              "a": "In the Raqoon app — per pack."
+              "q": "Où voir le data restant ?",
+              "a": "Dans l’app Raqoon — par forfait."
             }
           ]
         },
@@ -709,45 +709,45 @@
           "title": "Support",
           "items": [
             {
-              "q": "eSIM won’t install",
-              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+              "q": "L’eSIM ne s’installe pas",
+              "a": "Connectez-vous au Wi‑Fi et vérifiez que le téléphone n’est pas verrouillé opérateur. Toujours bloqué — help@raqoon.app."
             },
             {
-              "q": "Installed but no data",
-              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+              "q": "Installée mais pas de data",
+              "a": "Activez les données et le roaming data sur la ligne eSIM. Si ça échoue, écrivez-nous avec le modèle."
             },
             {
-              "q": "How do I contact you?",
-              "a": "help@raqoon.app — humans, not a bot."
+              "q": "Comment vous contacter ?",
+              "a": "help@raqoon.app — des humains, pas un bot."
             }
           ]
         }
       ]
     },
     "final": {
-      "headline": "Buy now — turn on after landing",
-      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
-      "cta": "Download the app",
-      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+      "headline": "Achetez maintenant — activez après l’atterrissage",
+      "body": "Une minute chez vous vaut mieux que la file SIM à l’aéroport. Installation dans l’app Raqoon.",
+      "cta": "Télécharger l’app",
+      "disclaimer": "Raqoon est revendeur de data eSIM voyage prépayée. Pas un opérateur mobile. Voir conditions eSIM et confidentialité pour les détails."
     },
-    "deviceCheckLink": "Check if your phone works",
+    "deviceCheckLink": "Vérifier la compatibilité du téléphone",
     "device": {
-      "badge": "30-second check",
-      "title": "Will your phone work?",
-      "subtitle": "Maker and model — instant answer.",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "pickMaker": "Manufacturer",
-      "pickModel": "Model",
-      "needMaker": "Pick a maker first",
-      "compatible": "Yes, it works. Pick a plan.",
-      "incompatible": "This model usually has no eSIM.",
-      "disclaimer": "For reference. The phone must be unlocked.",
-      "count": "{{count}} models",
-      "searchModel": "Search model",
-      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
-      "titleShort": "Will your phone work?",
-      "subtitleShort": "Maker and model — answer in a second."
+      "badge": "Vérification en 30 s",
+      "title": "Votre téléphone est-il compatible ?",
+      "subtitle": "Marque et modèle — réponse immédiate.",
+      "manufacturer": "Fabricant",
+      "model": "Modèle",
+      "pickMaker": "Fabricant",
+      "pickModel": "Modèle",
+      "needMaker": "Choisissez d’abord le fabricant",
+      "compatible": "Oui, compatible. Choisissez un forfait.",
+      "incompatible": "Ce modèle n’a généralement pas d’eSIM.",
+      "disclaimer": "À titre indicatif. Le téléphone doit être débloqué.",
+      "count": "{{count}} modèles",
+      "searchModel": "Rechercher un modèle",
+      "regional": "Souvent oui, mais certains marchés vendent ce modèle sans eSIM. Téléphone débloqué requis.",
+      "titleShort": "Votre téléphone est-il compatible ?",
+      "subtitleShort": "Marque et modèle — réponse en une seconde."
     }
   }
 }

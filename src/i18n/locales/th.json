@@ -502,252 +502,252 @@
   "esimPage": {
     "brand": "Raqoon eSIM",
     "hero": {
-      "headline": "Landed — and already online.",
-      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
-      "ctaCountry": "Choose a country",
-      "ctaHow": "How it works"
+      "headline": "ลงเครื่องแล้ว — ออนไลน์ทันที",
+      "lead": "eSIM กว่า 150 ประเทศ ซื้อที่บ้านภายในนาที — ไม่มีค่า roaming ไม่ต้องหาซิม",
+      "ctaCountry": "เลือกประเทศ",
+      "ctaHow": "วิธีใช้งาน"
     },
     "pricing": {
-      "title": "Pick a country — see the price.",
-      "loading": "Loading prices…",
-      "unavailable": "Prices are temporarily unavailable.",
-      "stale": "Prices may be out of date — trying to refresh.",
-      "updatedBanner": "Prices updated — refresh the page",
-      "refresh": "Refresh",
-      "marketLabel": "Market",
-      "searchCountry": "e.g. Turkey, Thailand, Europe",
-      "filterDuration": "Validity",
-      "filterData": "Data volume",
-      "daysUnit": "days",
+      "title": "เลือกประเทศ — ดูราคาได้เลย",
+      "loading": "กำลังโหลดราคา…",
+      "unavailable": "ราคาไม่พร้อมใช้งานชั่วคราว",
+      "stale": "ราคาอาจไม่เป็นปัจจุบัน — กำลังรีเฟรช",
+      "updatedBanner": "อัปเดตราคาแล้ว — รีเฟรชหน้า",
+      "refresh": "รีเฟรช",
+      "marketLabel": "ตลาด",
+      "searchCountry": "เช่น ตุรกี ไทย ยุโรป",
+      "filterDuration": "ระยะเวลา",
+      "filterData": "ปริมาณข้อมูล",
+      "daysUnit": "วัน",
       "dataUnit": "GB",
-      "noMatchingPlans": "No packs match these filters",
+      "noMatchingPlans": "ไม่มีแพ็กที่ตรงกับตัวกรอง",
       "premium": "Premium",
+      "data": "ข้อมูล",
+      "days": "{{count}} วัน",
+      "networks": "เครือข่าย",
+      "topUpYes": "เติมเงินได้",
+      "buyCta": "ซื้อในแอป",
+      "priceDisclaimer": "ราคาจากรายการสด ยอดสุดท้ายยืนยันตอนชำระในแอป",
+      "badge": "ราคาสด · 150+ จุดหมาย",
+      "lead": "เห็นเท่าไร จ่ายเท่านั้น ไม่มี «เริ่มต้น» ไม่มีค่าธรรมเนียมแอบแฝงที่ปลายทาง",
+      "searchLabel": "ประเทศหรือภูมิภาค",
+      "startWithCountry": "เริ่มจากประเทศ — เราแสดงทุกแพ็กและราคา",
+      "finalPriceNote": "ราคาสุดท้าย ไม่มีค่าธรรมเนียมเพิ่ม",
+      "mapLabel": "ประเทศที่มี eSIM",
+      "paymentMethods": "วิธีชำระเงิน",
       "regions": {
-        "Africa": "Africa",
-        "Africa (21 areas)": "Africa (21 areas)",
-        "Asia (12 areas)": "Asia (12 areas)",
-        "Asia (14 areas)": "Asia (14 areas)",
-        "Asia (20 areas)": "Asia (20 areas)",
-        "Asia (7 areas)": "Asia (7 areas)",
-        "Asia-20": "Asia-20",
-        "AUKUS(3 countries)": "AUKUS (3 countries)",
-        "Australia & New Zealand": "Australia & New Zealand",
-        "Balkans (5+ areas)": "Balkans (5+ areas)",
-        "Caribbean (20+ areas)": "Caribbean (20+ areas)",
-        "Central Asia": "Central Asia",
-        "Central Asia (4 areas)": "Central Asia (4 areas)",
-        "China (mainland HK Macao)": "China (mainland, HK, Macao)",
-        "China mainland & Japan & South Korea": "China mainland & Japan & South Korea",
-        "Europe": "Europe",
-        "Europe (31 areas)": "Europe (31 areas)",
-        "Europe (33 areas)": "Europe (33 areas)",
-        "Europe (35 areas)": "Europe (35 areas)",
-        "Europe (40+ areas) & Morocco": "Europe (40+ areas) & Morocco",
-        "Europe(30+ areas)": "Europe (30+ areas)",
-        "GCC": "GCC",
-        "Global (120+ areas)": "Global (120+ areas)",
-        "Global139": "Global 139",
-        "Gulf Region": "Gulf Region",
-        "Ireland & Slovenia": "Ireland & Slovenia",
-        "Ireland & UK": "Ireland & UK",
-        "Japan & South Korea": "Japan & South Korea",
-        "Middle East": "Middle East",
-        "Middle East & North Africa": "Middle East & North Africa",
-        "Middle East (5 areas)": "Middle East (5 areas)",
-        "North America": "North America",
-        "Oceania (8 areas)": "Oceania (8 areas)",
-        "Singapore & Malaysia & Thailand": "Singapore & Malaysia & Thailand",
-        "South America": "South America",
-        "South America (6 areas)": "South America (6 areas)",
-        "South Asia (6 areas)": "South Asia (6 areas)",
-        "South East Asia (8 areas)": "South East Asia (8 areas)",
-        "USA & Canada": "USA & Canada"
-      },
-      "data": "Data",
-      "days": "{{count}} days",
-      "networks": "Networks",
-      "topUpYes": "Top-up available",
-      "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
-      "badge": "Live prices · 150+ destinations",
-      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
-      "searchLabel": "Country or region",
-      "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees.",
-      "mapLabel": "Countries with eSIM",
-      "paymentMethods": "Payment methods"
+        "Africa": "แอฟริกา",
+        "Africa (21 areas)": "แอฟริกา (21 พื้นที่)",
+        "Asia (12 areas)": "เอเชีย (12 พื้นที่)",
+        "Asia (14 areas)": "เอเชีย (14 พื้นที่)",
+        "Asia (20 areas)": "เอเชีย (20 พื้นที่)",
+        "Asia (7 areas)": "เอเชีย (7 พื้นที่)",
+        "Asia-20": "เอเชีย-20",
+        "AUKUS(3 countries)": "AUKUS (3 ประเทศ)",
+        "Australia & New Zealand": "ออสเตรเลียและนิวซีแลนด์",
+        "Balkans (5+ areas)": "บอลข่าน (5+ พื้นที่)",
+        "Caribbean (20+ areas)": "แคริบเบียน (20+ พื้นที่)",
+        "Central Asia": "เอเชียกลาง",
+        "Central Asia (4 areas)": "เอเชียกลาง (4 พื้นที่)",
+        "China (mainland HK Macao)": "จีน (แผ่นดินใหญ่ ฮ่องกง มาเก๊า)",
+        "China mainland & Japan & South Korea": "จีน ญี่ปุ่น และเกาหลีใต้",
+        "Europe": "ยุโรป",
+        "Europe (31 areas)": "ยุโรป (31 พื้นที่)",
+        "Europe (33 areas)": "ยุโรป (33 พื้นที่)",
+        "Europe (35 areas)": "ยุโรป (35 พื้นที่)",
+        "Europe (40+ areas) & Morocco": "ยุโรป (40+) และโมร็อกโก",
+        "Europe(30+ areas)": "ยุโรป (30+ พื้นที่)",
+        "GCC": "กลุ่มประเทศอ่าว",
+        "Global (120+ areas)": "ทั่วโลก (120+ พื้นที่)",
+        "Global139": "ทั่วโลก 139",
+        "Gulf Region": "ภูมิภาคอ่าว",
+        "Ireland & Slovenia": "ไอร์แลนด์และสโลวีเนีย",
+        "Ireland & UK": "ไอร์แลนด์และสหราชอาณาจักร",
+        "Japan & South Korea": "ญี่ปุ่นและเกาหลีใต้",
+        "Middle East": "ตะวันออกกลาง",
+        "Middle East & North Africa": "ตะวันออกกลางและแอฟริกาเหนือ",
+        "Middle East (5 areas)": "ตะวันออกกลาง (5 พื้นที่)",
+        "North America": "อเมริกาเหนือ",
+        "Oceania (8 areas)": "โอเชียเนีย (8 พื้นที่)",
+        "Singapore & Malaysia & Thailand": "สิงคโปร์ มาเลเซีย และไทย",
+        "South America": "อเมริกาใต้",
+        "South America (6 areas)": "อเมริกาใต้ (6 พื้นที่)",
+        "South Asia (6 areas)": "เอเชียใต้ (6 พื้นที่)",
+        "South East Asia (8 areas)": "เอเชียตะวันออกเฉียงใต้ (8 พื้นที่)",
+        "USA & Canada": "สหรัฐฯ และแคนาดา"
+      }
     },
-    "mapLabel": "eSIM coverage",
+    "mapLabel": "ความครอบคลุม eSIM",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "แพ็กไร้",
+        "titleRest": "มาร์กอัป",
+        "body": "ข้อมูลและวันเท่าเดิม ราคาน้อยลง เห็นราคาชัดก่อนเปิดแอป"
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "จ่ายด้วย",
+        "titleRest": "บัตรใดก็ได้",
+        "body": "ชำระใน Raqoon ก่อนบิน — บัตรในประเทศหรือต่างประเทศตามที่รองรับ"
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "ข้อมูล",
+        "titleRest": "หมด?",
+        "body": "ซื้อแพ็กใหม่ในแอปผ่าน Wi‑Fi หรือซิมหลัก"
       },
       {
-        "titleGreen": "In the",
-        "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "titleGreen": "ใน",
+        "titleRest": "แอป Raqoon",
+        "body": "ซื้อและติดตั้ง eSIM ครบในที่เดียว"
       }
     ],
-    "featuresCta": "Choose a country →",
+    "featuresCta": "เลือกประเทศ →",
     "steps": {
-      "title": "Four steps to data",
+      "title": "สี่ขั้นสู่เน็ต",
       "items": [
         {
-          "title": "Pick a country and pack",
-          "body": "Where you’re going and how much data you need. The price shows up right away."
+          "title": "เลือกประเทศและแพ็ก",
+          "body": "ไปที่ไหน ต้องการข้อมูลเท่าไร ราคาแสดงทันที"
         },
         {
-          "title": "Pay in the app",
-          "body": "Open Raqoon and check out. Install from the app."
+          "title": "ชำระในแอป",
+          "body": "เปิด Raqoon แล้วชำระ ติดตั้งจากแอป"
         },
         {
-          "title": "Install at home",
-          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+          "title": "ติดตั้งที่บ้าน",
+          "body": "เพิ่ม eSIM ผ่าน Wi‑Fi เบอร์หลักยังใช้ได้"
         },
         {
-          "title": "Turn it on after landing",
-          "body": "One toggle — you’re online. Validity starts then."
+          "title": "เปิดหลังลงเครื่อง",
+          "body": "สวิตช์เดียว — ออนไลน์ทันที นับระยะเวลาตั้งแต่ตอนนั้น"
         }
       ]
     },
     "stats": {
-      "title": "Wherever you go",
+      "title": "ไปที่ไหนก็ได้",
       "items": [
         {
-          "title": "150+ countries.",
-          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+          "title": "150+ ประเทศ",
+          "body": "หนึ่งประเทศหรือทั้งภูมิภาคบน eSIM เดียว ยุโรป เอเชีย ตะวันออกกลาง"
         },
         {
-          "title": "200+ networks.",
-          "body": "We connect you to local operators — the same ones residents use."
+          "title": "200+ เครือข่าย",
+          "body": "เชื่อมต่อผู้ให้บริการท้องถิ่น — เครือข่ายเดียวกับคนในประเทศ"
         },
         {
-          "title": "LTE and 5G.",
-          "body": "Video, maps, messenger calls — like at home."
+          "title": "LTE และ 5G",
+          "body": "วิดีโอ แผนที่ โทรผ่านแอปแชต — เหมือนอยู่บ้าน"
         },
         {
-          "title": "Real support.",
-          "body": "Stuck on install? Write us. People reply on business days."
+          "title": "ซัพพอร์ตจริง",
+          "body": "ติดตั้งไม่ได้? ทักมา มีคนตอบในวันทำการ"
         }
       ]
     },
     "faq": {
-      "title": "Before you buy",
+      "title": "ก่อนซื้อ",
       "groups": [
         {
-          "title": "Before purchase",
+          "title": "ก่อนซื้อ",
           "items": [
             {
-              "q": "What is an eSIM?",
-              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+              "q": "eSIM คืออะไร?",
+              "a": "ซิมดิจิทัลในเครื่อง ติดตั้งแพ็กในแอป ไม่ต้องใส่การ์ด เบอร์หลักยังใช้ได้"
             },
             {
-              "q": "Will my phone work?",
-              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+              "q": "มือถือฉันใช้ได้ไหม?",
+              "a": "ต้องรองรับ eSIM และเครื่องปลดล็อก ตรวจใน Settings ก่อนซื้อ"
             },
             {
-              "q": "Do I need a pack per country?",
-              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+              "q": "ต้องซื้อแพ็กต่อประเทศไหม?",
+              "a": "ไม่เสมอไป แพ็กภูมิภาคหลายประเทศครอบคลุมทริปบน eSIM เดียว"
             },
             {
-              "q": "Can I buy for the family?",
-              "a": "Yes. One pack per phone — all in the Raqoon app."
+              "q": "ซื้อให้ครอบครัวได้ไหม?",
+              "a": "ได้ หนึ่งแพ็กต่อเครื่อง ทำได้ในแอป Raqoon"
             }
           ]
         },
         {
-          "title": "Payment",
+          "title": "การชำระเงิน",
           "items": [
             {
-              "q": "Do you take my local cards?",
-              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+              "q": "รับบัตรในประเทศไหม?",
+              "a": "ชำระในแอปรองรับวิธีตามภูมิภาคที่มี จ่ายก่อนบิน"
             },
             {
-              "q": "Is the price final?",
-              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+              "q": "ราคาสุดท้ายไหม?",
+              "a": "ใช่ เห็นเท่านี้ จ่ายเท่านี้ในแอป ไม่มีค่า roaming เพิ่มจากผู้ให้บริการ"
             },
             {
-              "q": "Can I get a refund?",
-              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+              "q": "ขอคืนเงินได้ไหม?",
+              "a": "ก่อนเปิดใช้ ดูนโยบายคืนเงิน eSIM หลังเชื่อมต่อเครือข่ายครั้งแรก ถือว่าใช้แล้ว"
             }
           ]
         },
         {
-          "title": "On the trip",
+          "title": "ระหว่างเดินทาง",
           "items": [
             {
-              "q": "When does validity start?",
-              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+              "q": "เริ่มนับวันเมื่อไร?",
+              "a": "เมื่อเชื่อมต่อครั้งแรกต่างประเทศ ไม่ใช่ตอนจ่าย ซื้อล่วงหน้าได้"
             },
             {
-              "q": "Out of data — what next?",
-              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+              "q": "ข้อมูลหมด — ทำอย่างไร?",
+              "a": "ซื้อแพ็กใหม่ในแอปผ่าน Wi‑Fi หรือซิมหลัก ประมาณหนึ่งนาที"
             },
             {
-              "q": "Can I hotspot?",
-              "a": "On most packs, yes. Share to a laptop or travel companions."
+              "q": "แชร์ hotspot ได้ไหม?",
+              "a": "แพ็กส่วนใหญ่ได้ แชร์ให้แล็ปท็อปหรือเพื่อนร่วมทาง"
             },
             {
-              "q": "Where do I see remaining data?",
-              "a": "In the Raqoon app — per pack."
+              "q": "ดูข้อมูลเหลือที่ไหน?",
+              "a": "ในแอป Raqoon — แยกตามแพ็ก"
             }
           ]
         },
         {
-          "title": "Support",
+          "title": "ซัพพอร์ต",
           "items": [
             {
-              "q": "eSIM won’t install",
-              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+              "q": "ติดตั้ง eSIM ไม่ได้",
+              "a": "ต่อ Wi‑Fi ตรวจว่าเครื่องไม่ล็อกเครือข่าย ยังไม่ได้ — help@raqoon.app"
             },
             {
-              "q": "Installed but no data",
-              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+              "q": "ติดตั้งแล้วไม่มีเน็ต",
+              "a": "เปิดข้อมูลมือถือและ data roaming บนสาย eSIM ยังไม่ได้ ทักมาพร้อมรุ่นเครื่อง"
             },
             {
-              "q": "How do I contact you?",
-              "a": "help@raqoon.app — humans, not a bot."
+              "q": "ติดต่อได้อย่างไร?",
+              "a": "help@raqoon.app — คนตอบ ไม่ใช่บอท"
             }
           ]
         }
       ]
     },
     "final": {
-      "headline": "Buy now — turn on after landing",
-      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
-      "cta": "Download the app",
-      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+      "headline": "ซื้อตอนนี้ — เปิดหลังลงเครื่อง",
+      "body": "หนึ่งนาทีที่บ้านดีกว่าคิวซิมที่สนามบิน ติดตั้งในแอป Raqoon",
+      "cta": "ดาวน์โหลดแอป",
+      "disclaimer": "Raqoon จำหน่าย eSIM ท่องเที่ยวแบบ prepaid ไม่ใช่ผู้ให้บริการเครือข่าย ดูข้อกำหนด eSIM และความเป็นส่วนตัว"
     },
-    "deviceCheckLink": "Check if your phone works",
+    "deviceCheckLink": "ตรวจว่าเครื่องรองรับไหม",
     "device": {
-      "badge": "30-second check",
-      "title": "Will your phone work?",
-      "subtitle": "Maker and model — instant answer.",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "pickMaker": "Manufacturer",
-      "pickModel": "Model",
-      "needMaker": "Pick a maker first",
-      "compatible": "Yes, it works. Pick a plan.",
-      "incompatible": "This model usually has no eSIM.",
-      "disclaimer": "For reference. The phone must be unlocked.",
-      "count": "{{count}} models",
-      "searchModel": "Search model",
-      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
-      "titleShort": "Will your phone work?",
-      "subtitleShort": "Maker and model — answer in a second."
+      "badge": "ตรวจ 30 วินาที",
+      "title": "มือถือคุณใช้ได้ไหม?",
+      "subtitle": "ยี่ห้อและรุ่น — ตอบทันที",
+      "manufacturer": "ผู้ผลิต",
+      "model": "รุ่น",
+      "pickMaker": "ผู้ผลิต",
+      "pickModel": "รุ่น",
+      "needMaker": "เลือกยี่ห้อก่อน",
+      "compatible": "ใช้ได้ เลือกแพ็กได้เลย",
+      "incompatible": "รุ่นนี้มักไม่มี eSIM",
+      "disclaimer": "อ้างอิงเท่านั้น เครื่องต้องปลดล็อก",
+      "count": "{{count}} รุ่น",
+      "searchModel": "ค้นหารุ่น",
+      "regional": "มักได้ แต่บางตลาดขายรุ่นนี้ไม่มี eSIM ต้องเครื่องปลดล็อก",
+      "titleShort": "มือถือคุณใช้ได้ไหม?",
+      "subtitleShort": "ยี่ห้อและรุ่น — ตอบในไม่กี่วินาที"
     }
   }
 }

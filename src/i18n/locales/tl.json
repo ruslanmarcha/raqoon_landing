@@ -502,26 +502,39 @@
   "esimPage": {
     "brand": "Raqoon eSIM",
     "hero": {
-      "headline": "Landed — and already online.",
-      "lead": "eSIM for 150+ countries. Buy at home in a minute — no roaming, no SIM hunt.",
-      "ctaCountry": "Choose a country",
-      "ctaHow": "How it works"
+      "headline": "Bumaba ka na — online ka na agad.",
+      "lead": "eSIM para sa 150+ bansa. Bumili sa bahay sa isang minuto — walang roaming, walang hanap ng SIM.",
+      "ctaCountry": "Pumili ng bansa",
+      "ctaHow": "Paano ito gumagana"
     },
     "pricing": {
-      "title": "Pick a country — see the price.",
-      "loading": "Loading prices…",
-      "unavailable": "Prices are temporarily unavailable.",
-      "stale": "Prices may be out of date — trying to refresh.",
-      "updatedBanner": "Prices updated — refresh the page",
-      "refresh": "Refresh",
-      "marketLabel": "Market",
-      "searchCountry": "e.g. Turkey, Thailand, Europe",
-      "filterDuration": "Validity",
-      "filterData": "Data volume",
-      "daysUnit": "days",
+      "title": "Pumili ng bansa — makita ang presyo.",
+      "loading": "Nilo-load ang presyo…",
+      "unavailable": "Pansamantalang hindi available ang presyo.",
+      "stale": "Maaaring luma na ang presyo — sinusubukang i-refresh.",
+      "updatedBanner": "Na-update ang presyo — i-refresh ang page",
+      "refresh": "I-refresh",
+      "marketLabel": "Merkado",
+      "searchCountry": "hal. Turkey, Thailand, Europe",
+      "filterDuration": "Bisa",
+      "filterData": "Dami ng data",
+      "daysUnit": "araw",
       "dataUnit": "GB",
-      "noMatchingPlans": "No packs match these filters",
+      "noMatchingPlans": "Walang pack na tumugma sa filter",
       "premium": "Premium",
+      "data": "Data",
+      "days": "{{count}} araw",
+      "networks": "Network",
+      "topUpYes": "Puwedeng mag-top-up",
+      "buyCta": "Bumili sa app",
+      "priceDisclaimer": "Live na presyo mula sa catalog; kumpirmado ang final na halaga sa checkout sa app.",
+      "badge": "Live na presyo · 150+ destinasyon",
+      "lead": "Kung ano ang nakikita mo, iyon ang babayaran mo. Walang «mula sa», walang surprise fee sa destination.",
+      "searchLabel": "Bansa o rehiyon",
+      "startWithCountry": "Magsimula sa bansa — ipapakita namin lahat ng pack at presyo.",
+      "finalPriceNote": "Final na presyo. Walang dagdag na bayad.",
+      "mapLabel": "Mga bansang may eSIM",
+      "paymentMethods": "Paraan ng pagbabayad",
       "regions": {
         "Africa": "Africa",
         "Africa (21 areas)": "Africa (21 areas)",
@@ -530,224 +543,211 @@
         "Asia (20 areas)": "Asia (20 areas)",
         "Asia (7 areas)": "Asia (7 areas)",
         "Asia-20": "Asia-20",
-        "AUKUS(3 countries)": "AUKUS (3 countries)",
-        "Australia & New Zealand": "Australia & New Zealand",
+        "AUKUS(3 countries)": "AUKUS (3 bansa)",
+        "Australia & New Zealand": "Australia at New Zealand",
         "Balkans (5+ areas)": "Balkans (5+ areas)",
         "Caribbean (20+ areas)": "Caribbean (20+ areas)",
-        "Central Asia": "Central Asia",
-        "Central Asia (4 areas)": "Central Asia (4 areas)",
+        "Central Asia": "Gitnang Asya",
+        "Central Asia (4 areas)": "Gitnang Asya (4 areas)",
         "China (mainland HK Macao)": "China (mainland, HK, Macao)",
-        "China mainland & Japan & South Korea": "China mainland & Japan & South Korea",
+        "China mainland & Japan & South Korea": "China, Japan at South Korea",
         "Europe": "Europe",
         "Europe (31 areas)": "Europe (31 areas)",
         "Europe (33 areas)": "Europe (33 areas)",
         "Europe (35 areas)": "Europe (35 areas)",
-        "Europe (40+ areas) & Morocco": "Europe (40+ areas) & Morocco",
+        "Europe (40+ areas) & Morocco": "Europe (40+) at Morocco",
         "Europe(30+ areas)": "Europe (30+ areas)",
         "GCC": "GCC",
         "Global (120+ areas)": "Global (120+ areas)",
         "Global139": "Global 139",
-        "Gulf Region": "Gulf Region",
-        "Ireland & Slovenia": "Ireland & Slovenia",
-        "Ireland & UK": "Ireland & UK",
-        "Japan & South Korea": "Japan & South Korea",
+        "Gulf Region": "Rehiyon ng Gulf",
+        "Ireland & Slovenia": "Ireland at Slovenia",
+        "Ireland & UK": "Ireland at UK",
+        "Japan & South Korea": "Japan at South Korea",
         "Middle East": "Middle East",
-        "Middle East & North Africa": "Middle East & North Africa",
+        "Middle East & North Africa": "Middle East at North Africa",
         "Middle East (5 areas)": "Middle East (5 areas)",
         "North America": "North America",
         "Oceania (8 areas)": "Oceania (8 areas)",
-        "Singapore & Malaysia & Thailand": "Singapore & Malaysia & Thailand",
+        "Singapore & Malaysia & Thailand": "Singapore, Malaysia at Thailand",
         "South America": "South America",
         "South America (6 areas)": "South America (6 areas)",
         "South Asia (6 areas)": "South Asia (6 areas)",
-        "South East Asia (8 areas)": "South East Asia (8 areas)",
-        "USA & Canada": "USA & Canada"
-      },
-      "data": "Data",
-      "days": "{{count}} days",
-      "networks": "Networks",
-      "topUpYes": "Top-up available",
-      "buyCta": "Buy in the app",
-      "priceDisclaimer": "Live catalog prices; the final amount is confirmed at checkout in the app.",
-      "badge": "Live prices · 150+ destinations",
-      "lead": "What you see is what you pay. No “from”, no surprise fees on the ground.",
-      "searchLabel": "Country or region",
-      "startWithCountry": "Start with a country — we’ll show every pack and price.",
-      "finalPriceNote": "Final price. No extra fees.",
-      "mapLabel": "Countries with eSIM",
-      "paymentMethods": "Payment methods"
+        "South East Asia (8 areas)": "Southeast Asia (8 areas)",
+        "USA & Canada": "USA at Canada"
+      }
     },
-    "mapLabel": "eSIM coverage",
+    "mapLabel": "Saklaw ng eSIM",
     "features": [
       {
-        "titleGreen": "Packs without",
-        "titleRest": "the markup",
-        "body": "Same data and days for less. See the exact price before you open the app."
+        "titleGreen": "Mga pack na walang",
+        "titleRest": "dagdag-bayad",
+        "body": "Parehong data at araw, mas mura. Exact na presyo bago mo buksan ang app."
       },
       {
-        "titleGreen": "Pay",
-        "titleRest": "in the app",
-        "body": "Checkout in Raqoon before you fly — local or international cards where available."
+        "titleGreen": "Magbayad gamit ang",
+        "titleRest": "kahit anong card",
+        "body": "Magbayad sa Raqoon bago lumipad — local o foreign card kung available."
       },
       {
-        "titleGreen": "Out of data?",
-        "titleRest": "",
-        "body": "Buy another pack in the app over Wi‑Fi or your home SIM."
+        "titleGreen": "Naubos ang",
+        "titleRest": "data?",
+        "body": "Bumili ng bagong pack sa app via Wi‑Fi o main SIM mo."
       },
       {
-        "titleGreen": "In the",
-        "titleRest": "Raqoon app",
-        "body": "Buy and install your eSIM in one place."
+        "titleGreen": "Sa",
+        "titleRest": "app ng Raqoon",
+        "body": "Bumili at i-install ang eSIM — lahat sa isang lugar."
       }
     ],
-    "featuresCta": "Choose a country →",
+    "featuresCta": "Pumili ng bansa →",
     "steps": {
-      "title": "Four steps to data",
+      "title": "Apat na hakbang para sa data",
       "items": [
         {
-          "title": "Pick a country and pack",
-          "body": "Where you’re going and how much data you need. The price shows up right away."
+          "title": "Pumili ng bansa at pack",
+          "body": "Saan ka pupunta at gaano karaming data ang kailangan. Lalabas agad ang presyo."
         },
         {
-          "title": "Pay in the app",
-          "body": "Open Raqoon and check out. Install from the app."
+          "title": "Magbayad sa app",
+          "body": "Buksan ang Raqoon at mag-checkout. I-install mula sa app."
         },
         {
-          "title": "Install at home",
-          "body": "Add the eSIM on Wi‑Fi. Your main number keeps working."
+          "title": "I-install sa bahay",
+          "body": "Idagdag ang eSIM sa Wi‑Fi. Gagana pa rin ang main number mo."
         },
         {
-          "title": "Turn it on after landing",
-          "body": "One toggle — you’re online. Validity starts then."
+          "title": "I-on pagkababa ng eroplano",
+          "body": "Isang toggle — online ka na. Magsisimula ang validity noon."
         }
       ]
     },
     "stats": {
-      "title": "Wherever you go",
+      "title": "Saan ka man pumunta",
       "items": [
         {
-          "title": "150+ countries.",
-          "body": "One country or a whole region on a single eSIM. Europe, Asia, the Middle East."
+          "title": "150+ bansa.",
+          "body": "Isang bansa o buong rehiyon sa isang eSIM. Europe, Asia, Middle East."
         },
         {
-          "title": "200+ networks.",
-          "body": "We connect you to local operators — the same ones residents use."
+          "title": "200+ network.",
+          "body": "Ikokonekta ka sa local operator — pareho sa ginagamit ng mga residente."
         },
         {
-          "title": "LTE and 5G.",
-          "body": "Video, maps, messenger calls — like at home."
+          "title": "LTE at 5G.",
+          "body": "Video, maps, tawag sa messenger — parang nasa bahay."
         },
         {
-          "title": "Real support.",
-          "body": "Stuck on install? Write us. People reply on business days."
+          "title": "Tunay na support.",
+          "body": "Nahihirapan sa install? Mag-message. Tao ang sumasagot sa business days."
         }
       ]
     },
     "faq": {
-      "title": "Before you buy",
+      "title": "Bago bumili",
       "groups": [
         {
-          "title": "Before purchase",
+          "title": "Bago bumili",
           "items": [
             {
-              "q": "What is an eSIM?",
-              "a": "A digital SIM inside your phone. You install the plan in the app — nothing to insert. Your main number stays on."
+              "q": "Ano ang eSIM?",
+              "a": "Digital SIM sa loob ng phone mo. I-install ang plan sa app — walang isasaksak. Active pa rin ang main number mo."
             },
             {
-              "q": "Will my phone work?",
-              "a": "You need eSIM support and an unlocked device. Check your phone settings before buying."
+              "q": "Gagana ba ang phone ko?",
+              "a": "Kailangan ng eSIM support at unlocked device. I-check ang settings bago bumili."
             },
             {
-              "q": "Do I need a pack per country?",
-              "a": "Not always. Multi-country regional packs cover a whole trip on one eSIM."
+              "q": "Kailangan ba ng pack bawat bansa?",
+              "a": "Hindi palagi. May regional multi-country packs para sa buong trip sa isang eSIM."
             },
             {
-              "q": "Can I buy for the family?",
-              "a": "Yes. One pack per phone — all in the Raqoon app."
+              "q": "Puwede bang bilhin para sa pamilya?",
+              "a": "Oo. Isang pack bawat phone — lahat sa Raqoon app."
             }
           ]
         },
         {
-          "title": "Payment",
+          "title": "Pagbabayad",
           "items": [
             {
-              "q": "Do you take my local cards?",
-              "a": "Checkout in the app supports methods for your region where available. Pay before you fly."
+              "q": "Tumatanggap ba kayo ng local cards?",
+              "a": "Sa app, may payment methods para sa region mo kung available. Magbayad bago lumipad."
             },
             {
-              "q": "Is the price final?",
-              "a": "Yes. What you see here is what you pay in the app — no carrier roaming on top."
+              "q": "Final na ba ang presyo?",
+              "a": "Oo. Kung ano ang nakikita mo dito, iyon ang babayaran mo sa app — walang carrier roaming sa ibabaw."
             },
             {
-              "q": "Can I get a refund?",
-              "a": "Before activation, see the eSIM refund policy. After first network attach, the pack is used."
+              "q": "Puwede bang mag-refund?",
+              "a": "Bago ang activation, tingnan ang eSIM refund policy. Pagkatapos ng unang network attach, considered used na ang pack."
             }
           ]
         },
         {
-          "title": "On the trip",
+          "title": "Sa biyahe",
           "items": [
             {
-              "q": "When does validity start?",
-              "a": "On first connection abroad, not at payment. Buy ahead — nothing burns early."
+              "q": "Kailan magsisimula ang validity?",
+              "a": "Sa unang koneksyon abroad, hindi sa pagbabayad. Bumili nang maaga — hindi mauubos agad."
             },
             {
-              "q": "Out of data — what next?",
-              "a": "Buy another pack in the app over Wi‑Fi or your home SIM. About a minute."
+              "q": "Naubos ang data — ano next?",
+              "a": "Bumili ng bagong pack sa app via Wi‑Fi o home SIM. Mga isang minuto."
             },
             {
-              "q": "Can I hotspot?",
-              "a": "On most packs, yes. Share to a laptop or travel companions."
+              "q": "Puwede bang mag-hotspot?",
+              "a": "Sa karamihan ng packs, oo. I-share sa laptop o kasama sa biyahe."
             },
             {
-              "q": "Where do I see remaining data?",
-              "a": "In the Raqoon app — per pack."
+              "q": "Saan makikita ang natitirang data?",
+              "a": "Sa Raqoon app — per pack."
             }
           ]
         },
         {
-          "title": "Support",
+          "title": "Suporta",
           "items": [
             {
-              "q": "eSIM won’t install",
-              "a": "Join Wi‑Fi and confirm the phone isn’t carrier-locked. Still stuck — help@raqoon.app."
+              "q": "Hindi ma-install ang eSIM",
+              "a": "Kumonekta sa Wi‑Fi at siguraduhing hindi carrier-locked ang phone. Kung hindi pa rin — help@raqoon.app."
             },
             {
-              "q": "Installed but no data",
-              "a": "Enable data and data roaming on the eSIM line. If it fails, write us with your model."
+              "q": "Na-install pero walang data",
+              "a": "I-enable ang data at data roaming sa eSIM line. Kung hindi pa rin, message kami kasama ang model."
             },
             {
-              "q": "How do I contact you?",
-              "a": "help@raqoon.app — humans, not a bot."
+              "q": "Paano makontak?",
+              "a": "help@raqoon.app — tao, hindi bot."
             }
           ]
         }
       ]
     },
     "final": {
-      "headline": "Buy now — turn on after landing",
-      "body": "A minute at home beats the airport SIM queue. Install in the Raqoon app.",
-      "cta": "Download the app",
-      "disclaimer": "Raqoon is a retailer of prepaid travel eSIM data. Not a mobile network operator. See eSIM terms and privacy for details."
+      "headline": "Bumili ngayon — i-on pagkababa",
+      "body": "Isang minuto sa bahay mas okay kaysa pila ng SIM sa airport. I-install sa Raqoon app.",
+      "cta": "I-download ang app",
+      "disclaimer": "Retailer ang Raqoon ng prepaid travel eSIM data. Hindi mobile network operator. Tingnan ang eSIM terms at privacy para sa detalye."
     },
-    "deviceCheckLink": "Check if your phone works",
+    "deviceCheckLink": "I-check kung compatible ang phone mo",
     "device": {
-      "badge": "30-second check",
-      "title": "Will your phone work?",
-      "subtitle": "Maker and model — instant answer.",
-      "manufacturer": "Manufacturer",
-      "model": "Model",
-      "pickMaker": "Manufacturer",
-      "pickModel": "Model",
-      "needMaker": "Pick a maker first",
-      "compatible": "Yes, it works. Pick a plan.",
-      "incompatible": "This model usually has no eSIM.",
-      "disclaimer": "For reference. The phone must be unlocked.",
-      "count": "{{count}} models",
-      "searchModel": "Search model",
-      "regional": "Often yes, but some markets ship this model without eSIM. Needs an unlocked phone.",
-      "titleShort": "Will your phone work?",
-      "subtitleShort": "Maker and model — answer in a second."
+      "badge": "30-segundong check",
+      "title": "Gagana ba ang phone mo?",
+      "subtitle": "Brand at model — sagot agad.",
+      "manufacturer": "Gumawa",
+      "model": "Modelo",
+      "pickMaker": "Gumawa",
+      "pickModel": "Modelo",
+      "needMaker": "Piliin muna ang brand",
+      "compatible": "Oo, gagana. Pumili ng plan.",
+      "incompatible": "Karaniwang walang eSIM ang model na ito.",
+      "disclaimer": "Para sa reference. Dapat unlocked ang phone.",
+      "count": "{{count}} model",
+      "searchModel": "Maghanap ng model",
+      "regional": "Madalas oo, pero may market na walang eSIM ang model na ito. Kailangan unlocked phone.",
+      "titleShort": "Gagana ba ang phone mo?",
+      "subtitleShort": "Brand at model — sagot sa isang segundo."
     }
   }
 }

@@ -1,0 +1,251 @@
+{
+  "brand": "Raqoon eSIM",
+  "hero": {
+    "headline": "Přistáli jste — a už jste online.",
+    "lead": "eSIM pro 150+ zemí. Kupte doma za minutu — bez roamingu a hledání SIM.",
+    "ctaCountry": "Vyberte zemi",
+    "ctaHow": "Jak to funguje"
+  },
+  "pricing": {
+    "title": "Vyberte zemi — uvidíte cenu.",
+    "loading": "Načítání cen…",
+    "unavailable": "Ceny jsou dočasně nedostupné.",
+    "stale": "Ceny mohou být zastaralé — zkoušíme obnovit.",
+    "updatedBanner": "Ceny aktualizovány — obnovte stránku",
+    "refresh": "Obnovit",
+    "marketLabel": "Trh",
+    "searchCountry": "např. Turecko, Thajsko, Evropa",
+    "filterDuration": "Platnost",
+    "filterData": "Objem dat",
+    "daysUnit": "dní",
+    "dataUnit": "GB",
+    "noMatchingPlans": "Žádné balíčky neodpovídají filtrům",
+    "premium": "Premium",
+    "data": "Data",
+    "days": "{{count}} dní",
+    "networks": "Sítě",
+    "topUpYes": "Dobití k dispozici",
+    "buyCta": "Koupit v aplikaci",
+    "priceDisclaimer": "Ceny z živého katalogu; konečná částka se potvrdí při platbě v aplikaci.",
+    "badge": "Živé ceny · 150+ destinací",
+    "lead": "Co vidíte, to zaplatíte. Bez „od“, bez překvapení na místě.",
+    "searchLabel": "Země nebo region",
+    "startWithCountry": "Začněte zemí — ukážeme všechny balíčky a ceny.",
+    "finalPriceNote": "Konečná cena. Bez skrytých poplatků.",
+    "mapLabel": "Země s eSIM",
+    "paymentMethods": "Platební metody",
+    "regions": {
+      "Africa": "Afrika",
+      "Africa (21 areas)": "Afrika (21 oblastí)",
+      "Asia (12 areas)": "Asie (12 oblastí)",
+      "Asia (14 areas)": "Asie (14 oblastí)",
+      "Asia (20 areas)": "Asie (20 oblastí)",
+      "Asia (7 areas)": "Asie (7 oblastí)",
+      "Asia-20": "Asie-20",
+      "AUKUS(3 countries)": "AUKUS (3 země)",
+      "Australia & New Zealand": "Austrálie a Nový Zéland",
+      "Balkans (5+ areas)": "Balkán (5+ oblastí)",
+      "Caribbean (20+ areas)": "Karibik (20+ oblastí)",
+      "Central Asia": "Střední Asie",
+      "Central Asia (4 areas)": "Střední Asie (4 oblasti)",
+      "China (mainland HK Macao)": "Čína (pevnina, HK, Macao)",
+      "China mainland & Japan & South Korea": "Čína, Japonsko a Jižní Korea",
+      "Europe": "Evropa",
+      "Europe (31 areas)": "Evropa (31 oblastí)",
+      "Europe (33 areas)": "Evropa (33 oblastí)",
+      "Europe (35 areas)": "Evropa (35 oblastí)",
+      "Europe (40+ areas) & Morocco": "Evropa (40+) a Maroko",
+      "Europe(30+ areas)": "Evropa (30+ oblastí)",
+      "GCC": "GCC",
+      "Global (120+ areas)": "Globální (120+ oblastí)",
+      "Global139": "Globální 139",
+      "Gulf Region": "Oblast Perského zálivu",
+      "Ireland & Slovenia": "Irsko a Slovinsko",
+      "Ireland & UK": "Irsko a Spojené království",
+      "Japan & South Korea": "Japonsko a Jižní Korea",
+      "Middle East": "Blízký východ",
+      "Middle East & North Africa": "Blízký východ a Severní Afrika",
+      "Middle East (5 areas)": "Blízký východ (5 oblastí)",
+      "North America": "Severní Amerika",
+      "Oceania (8 areas)": "Oceánie (8 oblastí)",
+      "Singapore & Malaysia & Thailand": "Singapur, Malajsie a Thajsko",
+      "South America": "Jižní Amerika",
+      "South America (6 areas)": "Jižní Amerika (6 oblastí)",
+      "South Asia (6 areas)": "Jižní Asie (6 oblastí)",
+      "South East Asia (8 areas)": "Jihovýchodní Asie (8 oblastí)",
+      "USA & Canada": "USA a Kanada"
+    }
+  },
+  "mapLabel": "Pokrytí eSIM",
+  "features": [
+    {
+      "titleGreen": "Balíčky bez",
+      "titleRest": "přirážky",
+      "body": "Stejná data a délka za méně. Přesná cena ještě před otevřením aplikace."
+    },
+    {
+      "titleGreen": "Platba",
+      "titleRest": "libovolnou kartou",
+      "body": "Zaplaťte v Raqoon před letem — místní nebo zahraniční karty, kde jsou k dispozici."
+    },
+    {
+      "titleGreen": "Data",
+      "titleRest": "došla?",
+      "body": "Kupte další balíček v aplikaci přes Wi‑Fi nebo hlavní SIM."
+    },
+    {
+      "titleGreen": "V aplikaci",
+      "titleRest": "Raqoon",
+      "body": "Nákup a instalace eSIM na jednom místě — pohodlně a přehledně."
+    }
+  ],
+  "featuresCta": "Vyberte zemi →",
+  "steps": {
+    "title": "Čtyři kroky k datům",
+    "items": [
+      {
+        "title": "Vyberte zemi a balíček",
+        "body": "Kam jedete a kolik dat potřebujete. Cena se zobrazí hned."
+      },
+      {
+        "title": "Zaplaťte v aplikaci",
+        "body": "Otevřete Raqoon a dokončete nákup. Instalace z aplikace."
+      },
+      {
+        "title": "Nainstalujte doma",
+        "body": "Přidejte eSIM přes Wi‑Fi. Hlavní číslo zůstane v provozu."
+      },
+      {
+        "title": "Po přistání zapněte",
+        "body": "Jeden přepínač — jste online. Platnost začíná v tu chvíli."
+      }
+    ]
+  },
+  "stats": {
+    "title": "Kamkoli letíte",
+    "items": [
+      {
+        "title": "150+ zemí.",
+        "body": "Jedna země nebo celý region na jedné eSIM. Evropa, Asie, Blízký východ."
+      },
+      {
+        "title": "200+ sítí.",
+        "body": "Připojíme vás k místním operátorům — stejným jako místní obyvatelé."
+      },
+      {
+        "title": "LTE a 5G.",
+        "body": "Video, mapy, hovory v messengerech — jako doma."
+      },
+      {
+        "title": "Skutečná podpora.",
+        "body": "Zasekli jste se při instalaci? Napište nám. Odpovídají lidé v pracovní dny."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Než koupíte",
+    "groups": [
+      {
+        "title": "Před nákupem",
+        "items": [
+          {
+            "q": "Co je eSIM?",
+            "a": "Digitální SIM v telefonu. Balíček nainstalujete v aplikaci — nic nevkládáte. Hlavní číslo zůstane aktivní."
+          },
+          {
+            "q": "Bude můj telefon fungovat?",
+            "a": "Potřebujete podporu eSIM a odemčené zařízení. Před nákupem zkontrolujte nastavení telefonu."
+          },
+          {
+            "q": "Potřebuji balíček na každou zemi?",
+            "a": "Ne vždy. Regionální balíčky pro více zemí pokryjí celou cestu na jedné eSIM."
+          },
+          {
+            "q": "Mohu koupit pro rodinu?",
+            "a": "Ano. Jeden balíček na telefon — vše v aplikaci Raqoon."
+          }
+        ]
+      },
+      {
+        "title": "Platba",
+        "items": [
+          {
+            "q": "Berete mé místní karty?",
+            "a": "Platba v aplikaci nabízí metody pro váš region, kde jsou dostupné. Zaplaťte před letem."
+          },
+          {
+            "q": "Je cena konečná?",
+            "a": "Ano. Co vidíte zde, zaplatíte v aplikaci — bez roamingu operátora navíc."
+          },
+          {
+            "q": "Mohu dostat refundaci?",
+            "a": "Před aktivací platí pravidla vrácení eSIM. Po prvním připojení k síti je balíček považován za použitý."
+          }
+        ]
+      },
+      {
+        "title": "Na cestě",
+        "items": [
+          {
+            "q": "Kdy začíná platnost?",
+            "a": "Při prvním připojení v zahraničí, ne při platbě. Kupte předem — nic nevyprší předčasně."
+          },
+          {
+            "q": "Došla data — co dál?",
+            "a": "Kupte další balíček v aplikaci přes Wi‑Fi nebo domácí SIM. Asi minuta."
+          },
+          {
+            "q": "Mohu sdílet hotspot?",
+            "a": "U většiny balíčků ano. Notebook i spolucestující se připojí."
+          },
+          {
+            "q": "Kde uvidím zbývající data?",
+            "a": "V aplikaci Raqoon — u každého balíčku."
+          }
+        ]
+      },
+      {
+        "title": "Podpora",
+        "items": [
+          {
+            "q": "eSIM se neinstaluje",
+            "a": "Připojte se k Wi‑Fi a ověřte, že telefon není uzamčen u operátora. Stále ne — help@raqoon.app."
+          },
+          {
+            "q": "Nainstalováno, ale žádná data",
+            "a": "Zapněte data a datový roaming na lince eSIM. Nepomůže to — napište nám s modelem telefonu."
+          },
+          {
+            "q": "Jak vás kontaktovat?",
+            "a": "help@raqoon.app — odpovídají lidé, ne bot."
+          }
+        ]
+      }
+    ]
+  },
+  "final": {
+    "headline": "Kupte teď — zapněte po přistání",
+    "body": "Minuta doma je lepší než fronta na SIM na letišti. Instalace v aplikaci Raqoon.",
+    "cta": "Stáhnout aplikaci",
+    "disclaimer": "Raqoon je prodejce prepaid dat pro cestovní eSIM. Není mobilní operátor. Podrobnosti v podmínkách eSIM a zásadách ochrany soukromí."
+  },
+  "deviceCheckLink": "Ověřit kompatibilitu telefonu",
+  "device": {
+    "badge": "Kontrola za 30 s",
+    "title": "Bude váš telefon fungovat?",
+    "subtitle": "Výrobce a model — odpověď hned.",
+    "manufacturer": "Výrobce",
+    "model": "Model",
+    "pickMaker": "Výrobce",
+    "pickModel": "Model",
+    "needMaker": "Nejdřív vyberte výrobce",
+    "compatible": "Ano, funguje. Vyberte balíček.",
+    "incompatible": "Tento model obvykle eSIM nemá.",
+    "disclaimer": "Informativní údaj. Telefon musí být odemčený.",
+    "count": "{{count}} modelů",
+    "searchModel": "Hledat model",
+    "regional": "Často ano, ale na některých trzích se prodává bez eSIM. Potřebujete odemčený telefon.",
+    "titleShort": "Bude váš telefon fungovat?",
+    "subtitleShort": "Výrobce a model — odpověď za vteřinu."
+  }
+}

@@ -20,6 +20,7 @@ type HomeTile = {
   detailTitle?: string
   detailBody?: string
   benefits?: string[]
+  detailNote?: string
   cta?: string
   href?: string
   soon?: boolean
@@ -213,6 +214,7 @@ function FlipTile({
                 ))}
               </ul>
             ) : null}
+            {tile.detailNote ? <p className={styles.backNote}>{tile.detailNote}</p> : null}
           </div>
         </div>
       </div>

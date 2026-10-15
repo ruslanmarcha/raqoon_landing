@@ -552,6 +552,19 @@
   background: var(--color-accent);
 }
 
+.backNote {
+  margin: auto 0 0;
+  padding-top: 8px;
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: var(--font-regular, 400);
+  color: var(--color-text-secondary);
+}
+
+.tileHalf .backNote {
+  font-size: 11px;
+}
+
 .cornerActions {
   position: absolute;
   right: 14px;

@@ -1,13 +1,12 @@
-import type { Market, Package } from './types'
-
-/** Display-only RUB→USD until the public catalog exposes a USD market. */
-export const FALLBACK_RUB_PER_USD = Number(import.meta.env.VITE_ESIM_RUB_PER_USD) || 90
+import { preferredDisplayCurrency } from './displayCurrency'
+import { formatOfferMoney, isCurrency } from './money'
+import type { Currency, DisplayPrices, Market, OfferMoney, Package } from './types'
 
 export function isRuUiLocale(locale: string): boolean {
   return locale.trim().toLowerCase().startsWith('ru')
 }
 
-/** Pick buyer market: RU UI → RUB market; otherwise prefer USD/US. */
+/** Buyer market (customerCountry), not display currency. */
 export function resolveMarketForLocale(
   markets: Market[],
   locale: string,
@@ -21,66 +20,86 @@ export function resolveMarketForLocale(
   if (isRuUiLocale(locale)) {
     return markets.find((m) => m.customerCountry === 'RU') ?? markets[0]
   }
-  return (
-    markets.find((m) => m.currency.toUpperCase() === 'USD') ??
-    markets.find((m) => m.customerCountry === 'US') ??
-    markets.find((m) => m.customerCountry !== 'RU') ??
-    null
-  )
+  return markets.find((m) => m.customerCountry === 'RU') ?? markets[0]
 }
 
-/** True when the package can be priced for this UI locale. */
+export function displayPricesForMarket(pkg: Package, market: Market): DisplayPrices | null {
+  return pkg.pricesByMarket[market.customerCountry] ?? null
+}
+
+export function offerMoneyFor(
+  pkg: Package,
+  market: Market,
+  currency: Currency = preferredDisplayCurrency(),
+): OfferMoney | null {
+  const pair = displayPricesForMarket(pkg, market)
+  return pair?.[currency] ?? null
+}
+
+/** True when the package has a complete USD+RUB pair for this buyer market. */
 export function packageHasPriceForLocale(
   pkg: Package,
   markets: Market[],
   locale: string,
 ): boolean {
   const market = resolveMarketForLocale(markets, locale)
-  if (market && pkg.prices[market.customerCountry] !== undefined) return true
-  if (!isRuUiLocale(locale)) {
-    return pkg.prices.RU !== undefined
-  }
-  return false
+  return Boolean(market && displayPricesForMarket(pkg, market))
 }
 
-/** Format package price for the active UI locale (RUB only for RU). */
+export type ResolvedUnitPrice = {
+  minor: number
+  currency: Currency
+  currencyScale: 100
+}
+
+/** Catalog unit price — server pair only, no client FX. */
+export function resolveUnitPriceForLocale(
+  pkg: Package,
+  markets: Market[],
+  locale: string,
+  currency: Currency = preferredDisplayCurrency(),
+): ResolvedUnitPrice | null {
+  const market = resolveMarketForLocale(markets, locale)
+  if (!market) return null
+  const money = offerMoneyFor(pkg, market, currency)
+  if (!money) return null
+  return {
+    minor: money.amountMinor,
+    currency: money.currencyCode,
+    currencyScale: money.scale,
+  }
+}
+
 export function formatPrice(
   pkg: Package,
   market: Market,
   locale = 'ru-RU',
+  currency: Currency = preferredDisplayCurrency(),
 ): string | null {
-  const minor = pkg.prices[market.customerCountry]
-  if (minor === undefined) return null
-  return new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: market.currency,
-  }).format(minor / market.currencyScale)
+  const money = offerMoneyFor(pkg, market, currency)
+  return money ? formatOfferMoney(money, locale) : null
 }
 
-/**
- * Locale-aware price string: RUB for `ru*`, USD otherwise.
- * If the catalog has no USD market yet, converts RUB for display only.
- */
+export function formatMinorAmount(
+  minor: number,
+  currency: string,
+  currencyScale: number,
+  locale: string,
+): string {
+  const code = isCurrency(currency) ? currency : currency.toUpperCase()
+  return new Intl.NumberFormat(locale, {
+    style: 'currency',
+    currency: code,
+  }).format(minor / currencyScale)
+}
+
 export function formatPriceForLocale(
   pkg: Package,
   markets: Market[],
   locale: string,
+  currency: Currency = preferredDisplayCurrency(),
 ): string | null {
-  const market = resolveMarketForLocale(markets, locale)
-  if (market && pkg.prices[market.customerCountry] !== undefined) {
-    return formatPrice(pkg, market, locale)
-  }
-
-  if (isRuUiLocale(locale)) return null
-
-  const ruMarket = markets.find((m) => m.customerCountry === 'RU')
-  const minorRu = pkg.prices.RU
-  if (!ruMarket || minorRu === undefined) return null
-
-  const rub = minorRu / ruMarket.currencyScale
-  const usd = rub / FALLBACK_RUB_PER_USD
-  return new Intl.NumberFormat(locale, {
-    style: 'currency',
-    currency: 'USD',
-  }).format(usd)
+  const unit = resolveUnitPriceForLocale(pkg, markets, locale, currency)
+  if (!unit) return null
+  return formatMinorAmount(unit.minor, unit.currency, unit.currencyScale, locale)
 }

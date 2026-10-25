@@ -62,7 +62,7 @@ export default defineConfig(({ mode }) => {
           // Mirror production api/esim-pricing.ts for local /esim catalog
           const pricingUpstream =
             env.ESIM_PRICING_UPSTREAM_URL?.trim() ||
-            'https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing'
+            'https://tech-raqoon-esim.raqoon.online/api/v1/public/pricing'
           server.middlewares.use('/api/esim-pricing', async (req, res) => {
             try {
               const headers: Record<string, string> = { Accept: 'application/json' }

@@ -1,4 +1,5 @@
-import type { Pricing, PricingResult } from './types'
+import { parsePricing } from './parsePricing'
+import type { PricingResult } from './types'
 
 /** Same-origin proxy (api/esim-pricing.ts) — avoids CORS on www/localhost/previews. */
 export const DEFAULT_ESIM_PRICING_URL = '/api/esim-pricing'
@@ -52,7 +53,7 @@ export async function fetchPricing(etag?: string): Promise<PricingResult> {
       throw new Error('Pricing response is not JSON')
     }
 
-    const data = (await response.json()) as Pricing
+    const data = parsePricing(await response.json())
     return {
       kind: 'snapshot',
       etag: response.headers.get('ETag'),

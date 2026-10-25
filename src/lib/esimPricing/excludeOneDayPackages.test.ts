@@ -10,7 +10,12 @@ const basePkg = (over: Partial<Package>): Package => ({
   durationDays: 30,
   networkTypes: ['4G'],
   supportsTopUp: false,
-  prices: { RU: 100 },
+  pricesByMarket: {
+    RU: {
+      USD: { amountMinor: 100, currencyCode: 'USD', scale: 100 },
+      RUB: { amountMinor: 100, currencyCode: 'RUB', scale: 100 },
+    },
+  },
   ...over,
 })
 

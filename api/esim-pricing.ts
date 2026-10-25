@@ -7,7 +7,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 
 const UPSTREAM =
   process.env.ESIM_PRICING_UPSTREAM_URL?.trim() ||
-  'https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing'
+  'https://tech-raqoon-esim.raqoon.online/api/v1/public/pricing'
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method && req.method !== 'GET' && req.method !== 'HEAD') {

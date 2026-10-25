@@ -14,7 +14,7 @@
 ## Global Constraints
 
 - Стиль страницы = wallet/rosvpn: тёмный фон токенов, brand-first hero, flip-tiles с `+`/`×`, max-width ~600px, без «dashboard»-сетки карточек в hero.
-- Цены **только** из `GET https://tech-raqoon-esim.izirocks.store/api/v1/public/pricing`; не хардкодить суммы и `currencyScale`.
+- Цены **только** из `GET https://tech-raqoon-esim.raqoon.online/api/v1/public/pricing`; не хардкодить суммы и `currencyScale`.
 - `credentials: "omit"`; без API-ключей и `X-Client-*`; не использовать `mode: "no-cors"`.
 - Цены информационные; не создавать заказ с лендинга; финальная сумма — при покупке.
 - Не показывать пакет без `prices[market.customerCountry]`; отсутствующая цена ≠ 0.

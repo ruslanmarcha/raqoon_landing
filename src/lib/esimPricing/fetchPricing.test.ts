@@ -3,6 +3,11 @@ import { fetchPricing, PricingHttpError } from './fetchPricing'
 import { filterTurkeyDestinationSims } from './filterTurkeySims'
 import type { Pricing } from './types'
 
+const pair = {
+  USD: { amountMinor: 1290, currencyCode: 'USD' as const, scale: 100 as const },
+  RUB: { amountMinor: 129000, currencyCode: 'RUB' as const, scale: 100 as const },
+}
+
 const samplePricing: Pricing = {
   version: 'v1',
   generatedAt: '2026-09-21T08:00:00Z',
@@ -27,7 +32,7 @@ const samplePricing: Pricing = {
           durationDays: 30,
           networkTypes: ['4G'],
           supportsTopUp: true,
-          prices: { RU: 129_000 },
+          pricesByMarket: { RU: pair },
         },
       ],
     },
@@ -42,7 +47,7 @@ const samplePricing: Pricing = {
           durationDays: 15,
           networkTypes: ['4G', '5G'],
           supportsTopUp: false,
-          prices: { RU: 99_000 },
+          pricesByMarket: { RU: pair },
         },
         {
           id: 'pkg_multi',
@@ -52,7 +57,7 @@ const samplePricing: Pricing = {
           durationDays: 7,
           networkTypes: ['4G'],
           supportsTopUp: false,
-          prices: { RU: 50_000 },
+          pricesByMarket: { RU: pair },
         },
       ],
     },
